@@ -9,6 +9,8 @@ const colors=['#91b4e5','#98bda8','#aaabdf','#d8b887','#72bdbd'];
 const tourOrder=['materials','equipment','eda','design','foundry','memory','packaging','optics','network','power','servers','cloud','storage'];
 type Props={symbol:string;name:string;watchlist:{symbol:string;name:string}[];onExplore:(symbol:string)=>void;onAdd:(stock:{symbol:string;name:string})=>void};
 export function AiEcosystem({symbol,watchlist,onExplore,onAdd}:Props){
+ const mobileMap=useRef<HTMLDivElement>(null);
+ const [mobileGeometry,setMobileGeometry]=useState<{width:number;height:number;paths:{from:string;to:string;d:string}[]}>({width:1,height:1,paths:[]});
  const viewport=useRef<HTMLDivElement>(null),drag=useRef<{x:number;y:number;px:number;py:number}|null>(null);
  const [size,setSize]=useState({w:1200,h:420}),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[selected,setSelected]=useState<string|null>(null),[hover,setHover]=useState<string|null>(null),[motion,setMotion]=useState(true),[tour,setTour]=useState(false),[step,setStep]=useState(0),[focus,setFocus]=useState(false);
  const relevant=stagesFor(symbol).map(s=>s.id);const stage=aiStages.find(s=>s.id===selected);
@@ -18,6 +20,18 @@ export function AiEcosystem({symbol,watchlist,onExplore,onAdd}:Props){
  useEffect(()=>{const mq=matchMedia('(max-width:600px)');const sync=()=>setPhone(mq.matches);sync();mq.addEventListener('change',sync);return()=>mq.removeEventListener('change',sync)},[]);
  useEffect(()=>{const mq=matchMedia('(max-width:1100px), (pointer:coarse) and (max-width:1366px)');const sync=()=>setCompact(mq.matches);sync();mq.addEventListener('change',sync);return()=>mq.removeEventListener('change',sync)},[]);
  useEffect(()=>{if(phone&&tour){document.getElementById(`mobile-stage-${tourOrder[step]}`)?.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});return}if(compact&&tour){const current=aiStages.find(s=>s.id===tourOrder[step]);if(current)viewport.current?.scrollTo({left:Math.max(0,current.x-size.w/2),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}},[compact,phone,tour,step,size.w]);
+ useEffect(()=>{
+  const root=mobileMap.current;if(!phone||!root)return;
+  const measure=()=>{const bounds=root.getBoundingClientRect();const paths=aiFlows.flatMap((f,i)=>{
+   const from=root.querySelector(`#mobile-stage-${f.from} .ai-stage`)?.getBoundingClientRect();
+   const to=root.querySelector(`#mobile-stage-${f.to} .ai-stage`)?.getBoundingClientRect();if(!from||!to)return [];
+   const right=i%2===0;const sx=(right?from.right:from.left)-bounds.left,tx=(right?to.right:to.left)-bounds.left;
+   const sy=from.top-bounds.top+from.height/2,ty=to.top-bounds.top+to.height/2;
+   const lane=right?bounds.width-8-(i%3)*6:8+(i%3)*6;const bend=ty>sy?18:-18;
+   return [{from:f.from,to:f.to,d:`M ${sx} ${sy} C ${lane} ${sy}, ${lane} ${sy}, ${lane} ${sy+bend} L ${lane} ${ty-bend} C ${lane} ${ty}, ${lane} ${ty}, ${tx} ${ty}`}];
+  });setMobileGeometry({width:bounds.width,height:bounds.height,paths})};
+  const observer=new ResizeObserver(measure);observer.observe(root);root.addEventListener('animationend',measure);measure();return()=>{observer.disconnect();root.removeEventListener('animationend',measure)};
+ },[phone]);
  const fit=Math.min(size.w/1200,size.h/420);const scale=fit*zoom;
  useEffect(()=>{if(!viewport.current)return;const ro=new ResizeObserver(([e])=>setSize({w:e.contentRect.width,h:e.contentRect.height}));ro.observe(viewport.current);return()=>ro.disconnect()},[]);
  useEffect(()=>{setSelected(null);setFocus(false)},[symbol]);
@@ -29,8 +43,10 @@ export function AiEcosystem({symbol,watchlist,onExplore,onAdd}:Props){
  return <section className={`ai-explorer ${!motion?'ai-still':''}`} aria-label="Detailed AI supply chain">
  <div className="ai-heading"><div><h1>AI chip supply chain <span>/ {symbol}</span></h1><p>From silicon to intelligence <span>13 layers · {new Set(aiStages.flatMap(s=>s.companies)).size} companies</span></p></div><div className="ai-actions"><button onClick={()=>{setTour(v=>!v);setSelected(null);reset()}} aria-pressed={tour}>{tour?<Pause size={13}/>:<Play size={13}/>} Guided journey</button><button onClick={()=>setMotion(v=>!v)} aria-label={motion?'Pause flow animation':'Resume flow animation'}>{motion?<Pause size={13}/>:<Play size={13}/>}</button></div></div>
  <div className={`ai-board-shell ${phone?'ai-vertical-board':''}`}>
- {phone&&<div className="ai-mobile-phases" aria-label="AI supply chain phases, scroll down to explore">{phaseNames.map((name,phase)=><section className="ai-mobile-phase" key={name} style={{'--phase-color':colors[phase]} as CSSProperties}><h2><span>0{phase+1}</span>{name}</h2><div className="ai-mobile-layers">{aiStages.filter(s=>s.phase===phase).map((s,i)=><div className="ai-mobile-layer" key={s.id} id={`mobile-stage-${s.id}`}>
- {renderStage(s,i)}<div className="ai-mobile-connections"><small>SUPPLIES TO</small>{aiFlows.filter(f=>f.from===s.id).map(f=>{const next=aiStages.find(n=>n.id===f.to)!;return <button key={f.to} onClick={()=>{setSelected(next.id);setTour(false)}}><ArrowRight size={13}/><span>{next.name}<small>{f.label}</small></span></button>})}{!aiFlows.some(f=>f.from===s.id)&&<span className="ai-mobile-end">Final deployment</span>}</div></div>)}</div></section>)}</div>}
+ {phone&&<div ref={mobileMap} className="ai-mobile-phases" aria-label="AI supply chain phases, scroll down to explore">
+ <svg className="ai-mobile-wires" viewBox={`0 0 ${mobileGeometry.width} ${mobileGeometry.height}`} aria-hidden="true"><defs><marker id="ai-mobile-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L5 3 L0 6" fill="none" stroke="#80bdb9"/></marker></defs>{mobileGeometry.paths.map((edge,i)=><g key={edge.from+edge.to} className={`ai-edge ${active&&(edge.from===active||edge.to===active)?'lit':''} ${active&&edge.from!==active&&edge.to!==active?'muted-edge':''}`} style={{'--flow-delay':`${-i*.43}s`} as CSSProperties}><path d={edge.d} className="ai-edge-track" markerEnd="url(#ai-mobile-arrow)"/><path d={edge.d} className="ai-edge-particles"/></g>)}</svg>
+ {phaseNames.map((name,phase)=><section className="ai-mobile-phase" key={name} style={{'--phase-color':colors[phase]} as CSSProperties}><h2><span>0{phase+1}</span>{name}</h2><div className="ai-mobile-layers">{aiStages.filter(s=>s.phase===phase).map((s,i)=><div className="ai-mobile-layer" key={s.id} id={`mobile-stage-${s.id}`}>{renderStage(s,i)}</div>)}</div></section>)}
+ </div>}
 
  <div className="ai-viewport" hidden={phone} ref={viewport} tabIndex={0} role="region" aria-label="AI supply chain map. Swipe to explore on mobile and tablet. On desktop, drag to pan, use plus and minus to zoom, and zero to fit." onKeyDown={e=>{if(e.target!==e.currentTarget||compact)return;if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-','0'].includes(e.key))e.preventDefault();if(e.key==='+')setZoom(z=>Math.min(3,z+.2));if(e.key==='-')setZoom(z=>Math.max(.6,z-.2));if(e.key==='0')reset();if(e.key.startsWith('Arrow'))setPan(p=>({x:p.x+(e.key==='ArrowLeft'?40:e.key==='ArrowRight'?-40:0),y:p.y+(e.key==='ArrowUp'?40:e.key==='ArrowDown'?-40:0)}))}} onPointerDown={e=>{if(compact)return;if((e.target as HTMLElement).closest('button,a'))return;drag.current={x:e.clientX,y:e.clientY,px:pan.x,py:pan.y};e.currentTarget.setPointerCapture(e.pointerId)}} onPointerMove={e=>{if(drag.current)setPan({x:drag.current.px+e.clientX-drag.current.x,y:drag.current.py+e.clientY-drag.current.y})}} onPointerUp={()=>drag.current=null} onPointerCancel={()=>drag.current=null}>
  <div className="ai-world" style={{transform:`translate(${(size.w-1200*scale)/2+pan.x}px, ${(size.h-420*scale)/2+pan.y}px) scale(${scale})`}}>

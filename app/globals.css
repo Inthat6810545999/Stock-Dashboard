@@ -107,3 +107,15 @@ html,body{height:100%;overflow:hidden}main{height:100dvh;display:flex;flex-direc
  .ai-vertical-board .ai-tour{position:fixed;bottom:max(10px,env(safe-area-inset-bottom));z-index:30;max-width:calc(100% - 20px)}
 }
 @keyframes mobile-flow{0%,100%{top:0;opacity:.5}50%{top:calc(100% - 5px);opacity:1}}
+/* The original indigo map, reflowed vertically with the same directed industry links. */
+@media(max-width:600px){
+ .ai-mobile-phases{position:relative;isolation:isolate;gap:24px;background-image:radial-gradient(#658ab826 .8px,transparent .8px);background-size:18px 18px}
+ .ai-mobile-wires{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;overflow:visible}
+ .ai-mobile-wires .ai-edge-track{stroke-width:1.3;opacity:.5}.ai-mobile-wires .ai-edge-particles{stroke-width:2;stroke-dasharray:3 38}
+ .ai-mobile-phase{padding:16px 34px 24px;background:linear-gradient(180deg,color-mix(in srgb,var(--phase-color) 9%,transparent),transparent 90%);border-color:color-mix(in srgb,var(--phase-color) 30%,transparent)}
+ .ai-mobile-phase>h2{position:relative;z-index:2;justify-content:center;gap:8px;font:11px Arial;letter-spacing:1.2px;text-transform:uppercase;white-space:nowrap;color:var(--phase-color)}
+ .ai-mobile-phase>h2>span{border:0;border-radius:0;padding:0;font:inherit}.ai-mobile-phase>h2>span:after{content:' /'}
+ .ai-mobile-layers{gap:24px}.ai-mobile-layer .ai-stage{z-index:2;border-radius:13px;box-shadow:0 7px 12px #0003;min-height:170px;padding:12px 8px}
+ .ai-mobile-layer .ai-stage h2{font-size:21px}.ai-mobile-layer .ai-stage>p{font-size:11px}.ai-mobile-layer .ai-stage-tickers{gap:10px}.ai-mobile-layer .ai-stage-tickers small{font-size:9px}
+}
+@media(max-width:600px){.ai-mobile-phases{background-color:#101d30;border-radius:14px}}
