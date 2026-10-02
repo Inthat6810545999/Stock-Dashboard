@@ -11,3 +11,6 @@ assert.equal(mergeStream({...snapshot,timestamp:tick.timestamp+1000},tick,'1D').
 assert.equal(mergeStream({...snapshot,symbol:'AAPL'},tick,'1D').price,200,'quotes cannot cross symbols');
 const regular={...tick,marketHours:1};assert.equal(mergeStream(snapshot,regular,'1D').points.at(-1).price,tick.price);assert.deepEqual(mergeStream(snapshot,regular,'1Y').points,snapshot.points);
 console.log('PASS: real frame decoding, malformed data, stale quotes, symbol isolation, and session-aware chart updates');
+const nextDay={...regular,timestamp:regular.timestamp+86400000};
+assert.equal(mergeStream(snapshot,nextDay,'1D').points.length,1,'a new regular session resets the prior-day line');
+assert.equal(mergeStream({...snapshot,points:[]},regular,'1D').points.length,1,'first regular trade can seed an empty intraday chart');

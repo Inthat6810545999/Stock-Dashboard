@@ -1,0 +1,3 @@
+export type WatchCandidate={symbol:string;name:string;currency:string;price:number;pe:number;forwardPe:number;salesGrowth:number;marketCap:number;timestamp:number|null;score:number};
+export function rankCandidates(rows:WatchCandidate[]){return rows.filter(r=>[r.price,r.pe,r.forwardPe,r.salesGrowth,r.marketCap].every(Number.isFinite)&&r.price>0&&r.pe>0&&r.pe<=25&&r.forwardPe>0&&r.forwardPe<=25&&r.salesGrowth>=.1&&r.marketCap>=1e9).map(r=>({...r,score:r.salesGrowth*100/r.forwardPe})).sort((a,b)=>b.score-a.score||a.symbol.localeCompare(b.symbol)).slice(0,10)}
+export type WatchResult={items:WatchCandidate[];checked:number;failed:number;updatedAt:number;market:string;universe:string};

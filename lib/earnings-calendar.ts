@@ -1,6 +1,6 @@
-/** Preserve the provider's reporting window in New York calendar dates. */
-export function earningsSchedule(earnings: {earningsDate?: unknown[];isEarningsDateEstimate?: boolean}|undefined, now=new Date()) {
-  const isoDay=(date:Date)=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
+/** Preserve the provider's reporting window in the listing's local calendar dates. */
+export function earningsSchedule(earnings: {earningsDate?: unknown[];isEarningsDateEstimate?: boolean}|undefined, now=new Date(), timeZone='America/New_York') {
+  const isoDay=(date:Date)=>new Intl.DateTimeFormat('en-CA',{timeZone,year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
   const today=isoDay(now);
   const days=[...new Set((earnings?.earningsDate??[]).flatMap(value=>{
     if(!(value instanceof Date)&&typeof value!=='string'&&typeof value!=='number')return [];

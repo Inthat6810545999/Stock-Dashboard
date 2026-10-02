@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {chartSession,chartFraction} from '../lib/chart-session.ts';
+const p=t=>[{time:Date.parse(t),price:100,volume:1}];
+const summer=chartSession(p('2026-10-02T13:33:00Z'),'NVDA');
+assert.equal(new Date(summer.start).toISOString(),'2026-10-02T13:30:00.000Z');
+assert.ok(chartFraction(Date.parse('2026-10-02T13:33:00Z'),summer)<.01,'three minutes after open must occupy less than 1% of chart');
+const winter=chartSession(p('2026-01-05T14:33:00Z'),'NVDA');assert.equal(new Date(winter.start).toISOString(),'2026-01-05T14:30:00.000Z');
+const thai=chartSession(p('2026-10-02T03:05:00Z'),'PTT.BK');assert.equal(new Date(thai.start).toISOString(),'2026-10-02T03:00:00.000Z');assert.equal(new Date(thai.end).toISOString(),'2026-10-02T09:30:00.000Z');
+const early={start:Date.parse('2026-11-27T14:30Z'),end:Date.parse('2026-11-27T18:00Z')};assert.deepEqual(chartSession(p('2026-11-27T17:59Z'),'AAPL',early),early);
+assert.notDeepEqual(chartSession(p('2026-10-02T13:33Z'),'AAPL',early),early,'future provider session must not shift prior-day chart');
+assert.equal(chartFraction(summer.end,summer),1);
+console.log('PASS session domain: opening minutes, DST, Thailand, early close, stale boundaries');

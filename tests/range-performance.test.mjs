@@ -8,3 +8,5 @@ assert.equal(rangePerformance(points(100,150,300),'5Y').label,'Available history
 assert.equal(rangePerformance([],'5Y'),null);
 assert.equal(rangePerformance([{time:0,price:0,volume:0}],'5Y'),null);
 console.log('PASS: gains, losses, five-year label, partial histories and missing data');
+
+assert.ok(Math.abs(rangePerformance([{time:0,price:102,volume:0}],'1D',100).percent-2)<1e-9,'daily return includes opening gap vs previous close');
