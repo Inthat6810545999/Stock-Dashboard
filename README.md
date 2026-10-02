@@ -40,3 +40,19 @@ The empty loading state contains no fabricated prices. Failures show an error wh
 `public/collage-header.png` was generated using built-in imagegen. Prompt: midnight navy grainy background, clear left 60%, cream engraved moon, horse postage stamp, blue compass star and silver disco fragment at right; antique paper collage with no text or interface.
 
 Streaming decoder and merge regression checks: `node --experimental-strip-types tests/quote-stream.test.mjs`. The schema follows https://github.com/ranaroussi/yfinance/blob/main/yfinance/pricing.proto and the subscription protocol follows its live.py.
+
+### Supply chain explorer
+
+The Supply chain menu replaces the main dashboard with a curated relationship map, keeping the selected stock and watchlist. Click a node to inspect its source, explore that company's connections or add its US listing to the watchlist. Groups with more than four connections have page controls. Animations can be paused and honor reduced-motion preferences.
+
+`lib/supply-chain.ts` contains 27 directional public-disclosure relationships, with a shared company catalog. Sources and publication dates are attached to every edge; this is selective, manually reviewed coverage rather than a live or exhaustive supplier feed. Unknown symbols show an explicit unmapped state. International listings are identified and cannot be added to the US watchlist. Logo images use company-domain favicons, with Financial Modeling Prep images for other symbols and a text fallback on errors.
+
+The price chart also supports 5Y history and displays a non-annualized price return for the selected period, excluding dividends.
+
+### Detailed AI ecosystem
+
+The AI ecosystem view expands the map to 13 layers and 43 companies, with linked stage descriptions, outputs, capacity watchpoints and primary sources. This industry flow diagram is distinct from the individually sourced Company links view; stage membership does not assert a direct supply contract. Company tickers identify US, international and private entities, and only US listings can enter the watchlist.
+
+Controls: drag the background to pan, use zoom buttons or +/- keys, use arrow keys to pan while the map is focused, and press 0 or Fit to reset. Guided journey highlights the layers in sequence; flow animation has a separate pause button. Reduced-motion preferences disable decorative animation. Sources are curated as of 2 October 2026, not a live supply-data feed.
+
+Validate graph coverage with `node --experimental-strip-types tests/ai-supply-chain.test.mjs`.
