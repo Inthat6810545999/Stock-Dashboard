@@ -138,3 +138,36 @@ h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;
  .masthead{height:38px;min-height:38px}.watchlist{height:58px;min-height:58px}.dashboard-grid{grid-template-columns:1fr 1fr 1fr;grid-template-rows:minmax(0,1.2fr) minmax(205px,1fr)}
  .dashboard-grid .price-panel{grid-column:1/3;grid-row:1}.dashboard-grid .brief{grid-column:3;grid-row:1}.dashboard-grid .earnings{grid-column:1;grid-row:2}.dashboard-grid .valuation{grid-column:2;grid-row:2}.dashboard-grid .news{grid-column:3;grid-row:2}.price-row{flex-wrap:wrap}.target-grid{gap:5px}.target-grid strong{font-size:21px}.big-price{font-size:32px}.quote-meta{font-size:9px}.news h3{font-size:14px}.legend{gap:7px;font-size:9px}.legend small{display:none}
 }
+/* Short tablet viewports must reserve real plotting space below quote controls. */
+@media(min-width:768px) and (min-height:600px) and (max-height:850px){
+ .topbar{height:48px;min-height:48px;padding-block:5px}
+ .masthead{height:34px;min-height:34px}
+ .watchlist{height:56px;min-height:56px;margin-bottom:8px}
+ .watch-card{padding-block:6px;min-height:0}
+ .dashboard-grid{grid-template-rows:minmax(270px,1.45fr) minmax(205px,1fr)}
+ .price-panel{padding:10px 16px}
+ .price-panel .stock-heading{height:28px;min-height:28px;gap:10px;margin:0}
+ .price-panel .stock-heading .stock-logo{width:28px;height:28px}
+ .price-panel .stock-heading p{display:none}
+ .price-panel .title-line h1{font-size:22px}
+ .price-row{margin-top:4px;gap:8px}
+ .big-price{font-size:34px}
+ .quote-meta{font-size:9px;line-height:1.3;margin-top:3px}
+ .range-performance{margin-top:5px;margin-bottom:0}
+ .price-chart{min-height:116px;flex:1;margin-top:5px}
+ .chart-canvas{min-height:96px;height:auto;flex:1}
+ .brief{padding:12px 16px}.company-description{font-size:13px;line-height:1.35;margin:7px 0;-webkit-line-clamp:2}
+ .target-grid{padding-top:7px}.target-grid strong{font-size:27px;margin:4px 0}.fine-print{margin-top:6px;font-size:9px}
+}
+/* Keep ticker, sparkline and quote in separate columns on compact screens. */
+@media(min-width:768px) and (max-width:1366px){
+ .watchlist .watch-card{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:9px;padding:8px 12px;align-items:center;min-height:0}
+ .watchlist .watch-card .stock-logo{width:34px;height:34px}
+ .watchlist .watch-card .sparkline{display:none}
+ .watchlist .watch-name{min-width:0;align-self:center}
+ .watchlist .watch-name strong{font-size:17px;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .watchlist .watch-name small{font-size:10px;line-height:1.2;margin-top:3px;max-width:100%}
+ .watchlist .watch-price{margin:0;min-width:0}
+ .watchlist .watch-price strong{font-size:16px;line-height:1.2}
+ .watchlist .watch-price small{font-size:10px;line-height:1.2;margin-top:3px}
+}
