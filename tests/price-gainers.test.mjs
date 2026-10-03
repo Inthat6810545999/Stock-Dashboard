@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {annualPriceReturn,rankPriceGainers} from '../lib/price-gainers.ts';
+const t=s=>Date.parse(s);const p=(d,price)=>({time:t(d),price});
+const now=t('2026-10-03T06:00Z');
+const result=annualPriceReturn([p('2025-10-02T13:30Z',10),p('2026-10-02T13:30Z',30)],now);
+assert.equal(result.percent,200);
+assert.equal(annualPriceReturn([p('2026-01-01',10),p('2026-10-02',30)],now),null,'IPOs without full-year history do not qualify');
+assert.equal(annualPriceReturn([p('2025-09-01',10),p('2026-10-02',30)],now),null,'long baseline gaps rejected');
+assert.equal(annualPriceReturn([p('2025-09-01',10),p('2026-09-01',30)],now),null,'stale latest prices rejected');
+assert.equal(annualPriceReturn([p('2025-10-02',0),p('2026-10-02',30)],now),null);
+assert.equal(annualPriceReturn([p('2023-02-28',10),p('2024-02-29',20)],t('2024-03-01')).percent,100,'leap day uses Feb 28');
+assert.equal(annualPriceReturn([p('2025-10-02T14:30Z',10),p('2026-10-02T13:30Z',20)],now).percent,100,'time-of-day offsets cannot shift the anniversary date');
+const base={symbol:'A',name:'A',currency:'USD',price:30,timestamp:now,...result};
+assert.deepEqual(rankPriceGainers([{...base,percent:-1},{...base,percent:NaN},{...base,percent:0}]),[]);
+assert.equal(rankPriceGainers([{...base,symbol:'B'},{...base,symbol:'A'}])[0].symbol,'A');
+assert.equal(rankPriceGainers(Array.from({length:20},(_,i)=>({...base,symbol:String(i),percent:i+1}))).length,10);
+console.log('PASS: annual returns, IPOs, stale/gapped/invalid histories, leap years, DST times, positive returns and top-10 ordering');

@@ -70,3 +70,9 @@ Validate graph coverage with `node --experimental-strip-types tests/ai-supply-ch
 - **UI refresh:** reads the newest deployed snapshot every 60 seconds and polls displayed-stock prices every 60 seconds. Ratios and ranks remain the daily snapshot values. It displays source quote times and marks snapshots older than 36 hours stale.
 
 Checks: `node tests/market-universe.test.mjs`, `node --experimental-strip-types tests/must-watch.test.mjs`, `npx tsc --noEmit`, `npm run build`.
+
+### Top 10 annual price gainers
+
+The first Must watch section ranks positive one-calendar-year price returns across the same full directory, independently of P/E, revenue growth and market cap. The daily scanner fetches daily Yahoo `close` history for every equity (not `adjclose`, so no dividend reinvestment), compares the latest available price with the last available trading day on or before its year-ago date (maximum 7-day holiday gap), and rejects symbols lacking a full year or a latest price within 7 days. IPOs with shorter histories are not annualized. Cards show both comparison prices and trading dates; returns and endpoint prices remain aligned to the scan, rather than mixing a live quote with yesterday's ranking. Growth-card quotes still refresh every 60 seconds. `priceScan` reports independent annual-history coverage and failures, and `priceGainers` contains up to 10 positive returns. Corporate actions and data errors can affect provider history.
+
+Annual scans use bounded six-request concurrency, retries, 20-second timeouts and persisted per-symbol checkpoints. They run in the existing daily workflow. Validation: `node --experimental-strip-types tests/price-gainers.test.mjs` and `node scripts/market-scan/check.mjs`.
