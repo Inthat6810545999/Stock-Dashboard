@@ -89,3 +89,16 @@ html[data-journal-motion="off"] .watch-pick{animation:none}
 .must-watch-info .screen-footnote{border-top:1px solid #687d9860;padding-top:14px;margin-bottom:4px}
 .must-watch-actions button:focus-visible{outline:2px solid #dec99c;outline-offset:3px}
 @media(max-width:600px){.must-watch-info[data-slot="dialog-content"]{padding:20px}.must-watch-info [data-slot="dialog-title"]{font-size:23px}.must-watch-actions{flex-wrap:wrap}.must-watch-actions button{min-height:40px}}
+
+/* Soft, consistent corners inspired by the stock-logo tiles. */
+:root{--journal-radius-panel:26px;--journal-radius-card:22px;--journal-radius-control:12px}
+.panel,.paper,.must-watch-info[data-slot="dialog-content"],.connection-dialog[data-slot="dialog-content"]{border-radius:var(--journal-radius-panel)}
+.watch-card,.watch-pick,.ai-stage,.ai-mobile-layer .ai-stage,.ai-mobile-phase,.ai-mobile-phases{border-radius:var(--journal-radius-card)}
+.must-watch-actions button,.pick-bottom button,.screen-state button,.search-markets button,.source-button,.connection-dialog .search-input,.search-input,.range-tabs button,.watchlist-toolbar button,.ai-mobile-connections button{border-radius:var(--journal-radius-control)}
+.scan-coverage,.notice,.data-note,.screen-method>span,.connection-dialog .search-results button{border-radius:12px}
+.watch-card .stock-logo,.stock-heading .stock-logo,.pick-title .stock-logo{border-radius:28%}
+.price-panel:after{right:12px;bottom:12px;border-bottom-right-radius:10px}
+@supports(corner-shape:squircle){
+ .panel,.paper,.watch-card,.watch-pick,.ai-stage,.ai-mobile-layer .ai-stage,.ai-mobile-phase,.ai-mobile-phases,.must-watch-info[data-slot="dialog-content"],.connection-dialog[data-slot="dialog-content"],.watch-card .stock-logo,.stock-heading .stock-logo,.pick-title .stock-logo{corner-shape:squircle}
+}
+@media(max-width:600px){:root{--journal-radius-panel:22px;--journal-radius-card:20px}}
