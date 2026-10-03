@@ -115,3 +115,26 @@ html[data-journal-motion="off"] .watch-pick{animation:none}
 }
 /* Extend the existing collage beneath the journal without changing its header. */
 main:after{content:'';position:fixed;inset:28% 0 0;z-index:-1;pointer-events:none;background:url('/collage-header.png') center bottom/cover no-repeat;opacity:.19;mask-image:linear-gradient(transparent,#000 28%);-webkit-mask-image:linear-gradient(transparent,#000 28%)}
+
+/* Ship one typeface so the journal has the same typography on every OS. */
+@font-face{font-family:Journal Inter;src:url('/fonts/InterVariable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+:root{--journal-font:'Journal Inter',Arial,sans-serif}
+body,body *{font-family:var(--journal-font)!important}
+body{font-optical-sizing:auto;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;letter-spacing:-.035em}
+.brand{font-size:clamp(18px,1.85vw,28px);font-weight:650!important}
+.big-price,.target-grid strong,.valuation strong,.gainer-return,.pick-price{font-weight:550;font-variant-numeric:tabular-nums;letter-spacing:-.045em}
+.ai-stage h2{font-size:15px;letter-spacing:-.04em}
+@media(max-width:600px){.brand{font-size:18px}}
+/* Tablet viewport layout: keep the journal on one screen. */
+@media(min-width:768px) and (max-width:1100px) and (min-height:650px){
+ .topbar{gap:14px;padding:8px 16px;flex-wrap:nowrap}.brand{font-size:18px}.topbar nav{order:0;width:auto;gap:13px}.topbar nav button{font-size:12px}.header-actions{gap:5px}.status{font-size:9px;padding:8px}.page-wrap{padding-inline:16px}.masthead{margin-inline:-16px}
+ .watchlist>.watch-shell{flex-basis:calc((100% - 24px)/3)}.watch-card{padding:9px}.watch-card .sparkline{display:none}.watch-name strong{font-size:18px}.watch-price strong{font-size:16px}
+ .dashboard-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:minmax(230px,1.15fr) minmax(190px,1fr) minmax(200px,1fr);gap:10px}
+ .dashboard-grid .price-panel{grid-column:1/-1;grid-row:1}.dashboard-grid .brief{grid-column:1;grid-row:2}.dashboard-grid .earnings{grid-column:2;grid-row:2}.dashboard-grid .valuation{grid-column:1;grid-row:3}.dashboard-grid .news{grid-column:2;grid-row:3}
+ .panel,.brief,.valuation,.news{padding:12px 16px}.section-heading h2{font-size:20px}.company-description{font-size:13px;margin:7px 0;-webkit-line-clamp:2}.target-grid{padding-top:7px}.target-grid strong{font-size:24px}.fine-print{font-size:9px;margin-top:5px}.valuation-comparison{font-size:11px}.valuation-comparison td,.valuation-comparison th{padding-block:4px}.valuation-facts{padding-block:5px}.valuation-source{font-size:9px}.valuation-facts span,.valuation-volume{font-size:11px}.must-watch{overflow:hidden}.must-watch-scroll{overflow:auto}.must-watch-heading{flex-direction:row}.watch-picks{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(min-width:768px) and (max-width:1100px) and (max-height:850px) and (min-height:650px){
+ .masthead{height:38px;min-height:38px}.watchlist{height:58px;min-height:58px}.dashboard-grid{grid-template-columns:1fr 1fr 1fr;grid-template-rows:minmax(0,1.2fr) minmax(205px,1fr)}
+ .dashboard-grid .price-panel{grid-column:1/3;grid-row:1}.dashboard-grid .brief{grid-column:3;grid-row:1}.dashboard-grid .earnings{grid-column:1;grid-row:2}.dashboard-grid .valuation{grid-column:2;grid-row:2}.dashboard-grid .news{grid-column:3;grid-row:2}.price-row{flex-wrap:wrap}.target-grid{gap:5px}.target-grid strong{font-size:21px}.big-price{font-size:32px}.quote-meta{font-size:9px}.news h3{font-size:14px}.legend{gap:7px;font-size:9px}.legend small{display:none}
+}
