@@ -180,3 +180,21 @@ h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;
  .watchlist .watch-name,.watchlist .watch-price{align-self:center;margin-block:0}
  .watchlist .watch-name small,.watchlist .watch-price small{margin-top:2px}
 }
+/* Align the tablet watchlist to whole cards and contain the masthead copy. */
+@media(min-width:768px) and (max-width:1366px){
+ .watchlist>.watch-shell{flex:0 0 calc((100% - 36px)/4);min-width:0}
+ .watchlist .watch-card{grid-template-columns:30px minmax(0,1fr) 34px auto;gap:7px;padding:5px 10px}
+ .watchlist .watch-card .stock-logo{width:30px;height:30px}
+ .watchlist .watch-card .sparkline{width:34px;height:22px}
+ .watchlist .watch-name strong{font-size:15px}.watchlist .watch-price strong{font-size:15px}
+ .masthead{overflow:hidden;align-items:center}
+ .mast-copy{height:100%;align-items:center;gap:42px}
+ .mast-copy .eyebrow{font-size:8px;line-height:1.4;letter-spacing:1.8px}
+ .handwritten{font-size:15px;line-height:1.1;transform:none}
+ .handwritten i{padding-left:24px}
+ .edition{align-self:center;margin:0;padding:2px 8px;font-size:8px;line-height:1.4}
+ .edition span{font-size:7px}
+}
+@media(min-width:768px) and (max-width:1000px){
+ .watchlist>.watch-shell{flex-basis:calc((100% - 24px)/3)}
+}
