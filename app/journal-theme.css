@@ -198,3 +198,22 @@ h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;
 @media(min-width:768px) and (max-width:1000px){
  .watchlist>.watch-shell{flex-basis:calc((100% - 24px)/3)}
 }
+/* Phone map: desktop phases transposed into rows, with downward flow. */
+@media(max-width:600px){
+ .ai-mobile-phases{gap:64px;padding:14px 4px 24px}
+ .ai-mobile-phase{padding:12px 5px 14px;border-radius:18px}
+ .ai-mobile-phase>h2{font-size:10px;letter-spacing:1px;margin-bottom:14px}
+ .ai-mobile-layers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;align-items:stretch}
+ .ai-mobile-layer{display:flex;min-width:0}
+ .ai-mobile-layer .ai-stage{min-height:176px;height:100%;padding:8px 4px;border-radius:16px}
+ .ai-mobile-layer .ai-platform{width:60px;height:34px}
+ .ai-mobile-layer .ai-stage h2{font-size:11px;line-height:1.25;letter-spacing:-.025em;min-height:28px;display:flex;align-items:center;justify-content:center}
+ .ai-mobile-layer .ai-stage>p{font-size:8px;line-height:1.3;margin:4px 0 8px;min-height:31px}
+ .ai-mobile-layer .ai-stage-tickers{gap:4px;flex-wrap:wrap;margin-top:auto}
+ .ai-mobile-layer .ai-stage-tickers>span{gap:3px}
+ .ai-mobile-layer .ai-stage-tickers .stock-logo,main:has(.ai-explorer) .ai-mobile-layer .stock-logo{width:19px;height:19px}
+ .ai-mobile-layer .ai-stage-tickers small{font-size:6px}
+ .ai-mobile-layer .ai-selected-marker{font-size:7px;top:3px;right:3px;padding:2px}
+ .ai-mobile-wires .ai-edge-track{stroke-width:1.5;opacity:.75}
+ .ai-mobile-wires .ai-edge-particles{stroke-width:2.5;stroke-dasharray:3 17}
+}

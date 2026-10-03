@@ -25,10 +25,15 @@ export function AiEcosystem({symbol,watchlist,onExplore,onAdd}:Props){
   const measure=()=>{const bounds=root.getBoundingClientRect();const paths=aiFlows.flatMap((f,i)=>{
    const from=root.querySelector(`#mobile-stage-${f.from} .ai-stage`)?.getBoundingClientRect();
    const to=root.querySelector(`#mobile-stage-${f.to} .ai-stage`)?.getBoundingClientRect();if(!from||!to)return [];
-   const right=i%2===0;const sx=(right?from.right:from.left)-bounds.left,tx=(right?to.right:to.left)-bounds.left;
-   const sy=from.top-bounds.top+from.height/2,ty=to.top-bounds.top+to.height/2;
-   const lane=right?bounds.width-8-(i%3)*6:8+(i%3)*6;const bend=ty>sy?18:-18;
-   return [{from:f.from,to:f.to,d:`M ${sx} ${sy} C ${lane} ${sy}, ${lane} ${sy}, ${lane} ${sy+bend} L ${lane} ${ty-bend} C ${lane} ${ty}, ${lane} ${ty}, ${tx} ${ty}`}];
+   const samePhase=aiStages.find(s=>s.id===f.from)?.phase===aiStages.find(s=>s.id===f.to)?.phase;
+   if(samePhase){
+    const right=to.left>from.left;const sx=(right?from.right:from.left)-bounds.left,tx=(right?to.left:to.right)-bounds.left;
+    const sy=from.top-bounds.top+from.height/2,ty=to.top-bounds.top+to.height/2;
+    return [{from:f.from,to:f.to,d:`M ${sx} ${sy} C ${(sx+tx)/2} ${sy}, ${(sx+tx)/2} ${ty}, ${tx} ${ty}`}];
+   }
+   const sx=from.left-bounds.left+from.width/2,tx=to.left-bounds.left+to.width/2;
+   const sy=from.bottom-bounds.top,ty=to.top-bounds.top;
+   return [{from:f.from,to:f.to,d:`M ${sx} ${sy} C ${sx} ${(sy+ty)/2}, ${tx} ${(sy+ty)/2}, ${tx} ${ty}`}];
   });setMobileGeometry({width:bounds.width,height:bounds.height,paths})};
   const observer=new ResizeObserver(measure);observer.observe(root);root.addEventListener('animationend',measure);measure();return()=>{observer.disconnect();root.removeEventListener('animationend',measure)};
  },[phone]);
@@ -45,7 +50,7 @@ export function AiEcosystem({symbol,watchlist,onExplore,onAdd}:Props){
  <div className={`ai-board-shell ${phone?'ai-vertical-board':''}`}>
  {phone&&<div ref={mobileMap} className="ai-mobile-phases" aria-label="AI supply chain phases, scroll down to explore">
  <svg className="ai-mobile-wires" viewBox={`0 0 ${mobileGeometry.width} ${mobileGeometry.height}`} aria-hidden="true"><defs><marker id="ai-mobile-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L5 3 L0 6" fill="none" stroke="#80bdb9"/></marker></defs>{mobileGeometry.paths.map((edge,i)=><g key={edge.from+edge.to} className={`ai-edge ${active&&(edge.from===active||edge.to===active)?'lit':''} ${active&&edge.from!==active&&edge.to!==active?'muted-edge':''}`} style={{'--flow-delay':`${-i*.43}s`} as CSSProperties}><path d={edge.d} className="ai-edge-track" markerEnd="url(#ai-mobile-arrow)"/><path d={edge.d} className="ai-edge-particles"/></g>)}</svg>
- {phaseNames.map((name,phase)=><section className="ai-mobile-phase" key={name} style={{'--phase-color':colors[phase]} as CSSProperties}><h2><span>0{phase+1}</span>{name}</h2><div className="ai-mobile-layers">{aiStages.filter(s=>s.phase===phase).map((s,i)=><div className="ai-mobile-layer" key={s.id} id={`mobile-stage-${s.id}`}>{renderStage(s,i)}</div>)}</div></section>)}
+ {phaseNames.map((name,phase)=><section className="ai-mobile-phase" key={name} style={{'--phase-color':colors[phase]} as CSSProperties}><h2><span>0{phase+1}</span>{name}</h2><div className="ai-mobile-layers">{aiStages.filter(s=>s.phase===phase).map((s,i)=><div className="ai-mobile-layer" style={{gridColumn:Math.round((s.y-85)/125)+1}} key={s.id} id={`mobile-stage-${s.id}`}>{renderStage(s,i)}</div>)}</div></section>)}
  </div>}
 
  <div className="ai-viewport" hidden={phone} ref={viewport} tabIndex={0} role="region" aria-label="AI supply chain map. Swipe to explore on mobile and tablet. On desktop, drag to pan, use plus and minus to zoom, and zero to fit." onKeyDown={e=>{if(e.target!==e.currentTarget||compact)return;if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','-','0'].includes(e.key))e.preventDefault();if(e.key==='+')setZoom(z=>Math.min(3,z+.2));if(e.key==='-')setZoom(z=>Math.max(.6,z-.2));if(e.key==='0')reset();if(e.key.startsWith('Arrow'))setPan(p=>({x:p.x+(e.key==='ArrowLeft'?40:e.key==='ArrowRight'?-40:0),y:p.y+(e.key==='ArrowUp'?40:e.key==='ArrowDown'?-40:0)}))}} onPointerDown={e=>{if(compact)return;if((e.target as HTMLElement).closest('button,a'))return;drag.current={x:e.clientX,y:e.clientY,px:pan.x,py:pan.y};e.currentTarget.setPointerCapture(e.pointerId)}} onPointerMove={e=>{if(drag.current)setPan({x:drag.current.px+e.clientX-drag.current.x,y:drag.current.py+e.clientY-drag.current.y})}} onPointerUp={()=>drag.current=null} onPointerCancel={()=>drag.current=null}>
