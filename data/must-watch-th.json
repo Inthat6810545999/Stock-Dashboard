@@ -1,4 +1,125 @@
 {
+  "priceGainers": [
+    {
+      "symbol": "SMT.BK",
+      "name": "Stars Microelectronics (Thailand) Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 1.3600000143051147,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 6.650000095367432,
+      "percent": 388.9705901043844
+    },
+    {
+      "symbol": "TRT.BK",
+      "name": "Tirathai Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 3.1600000858306885,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 11.800000190734863,
+      "percent": 273.4177174122742
+    },
+    {
+      "symbol": "KCE.BK",
+      "name": "KCE Electronics Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 23.299999237060547,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 75,
+      "percent": 221.88842255714064
+    },
+    {
+      "symbol": "SPRC.BK",
+      "name": "Star Petroleum Refining Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 4.679999828338623,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 14.699999809265137,
+      "percent": 214.1025715482465
+    },
+    {
+      "symbol": "CNT.BK",
+      "name": "Christiani & Nielsen (Thai) Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 1.0800000429153442,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 3.319999933242798,
+      "percent": 207.40738901091285
+    },
+    {
+      "symbol": "ML.BK",
+      "name": "Mida Leasing Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 0.15666599571704865,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 0.4399999976158142,
+      "percent": 180.8522651019239
+    },
+    {
+      "symbol": "MORE.BK",
+      "name": "More Return Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 0.03999999910593033,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 0.10999999940395355,
+      "percent": 175.00000465661296
+    },
+    {
+      "symbol": "TAE.BK",
+      "name": "Thai Agro Energy Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 0.5799999833106995,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 1.590000033378601,
+      "percent": 174.13794467763907
+    },
+    {
+      "symbol": "INSET.BK",
+      "name": "Infraset Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 1.7300000190734863,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 4.679999828338623,
+      "percent": 170.52021830872755
+    },
+    {
+      "symbol": "GUNKUL.BK",
+      "name": "Gunkul Engineering Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1790910000000,
+      "startPrice": 1.9299999475479126,
+      "startTime": 1759374000000,
+      "endTime": 1790910000000,
+      "price": 5.050000190734863,
+      "percent": 161.65804808186383
+    }
+  ],
+  "priceScan": {
+    "total": 862,
+    "processed": 862,
+    "eligible": 841,
+    "excluded": 1,
+    "missing": 20,
+    "failed": 0,
+    "status": "complete"
+  },
   "items": [
     {
       "symbol": "PJW.BK",
@@ -17,7 +138,7 @@
       "name": "Rhom Bho Property Public Company Limited",
       "currency": "THB",
       "price": 8.65,
-      "pe": 7.521739,
+      "pe": 7.4568963,
       "forwardPe": 5.7284765,
       "salesGrowth": 5.392,
       "marketCap": 6764780544,
@@ -77,7 +198,7 @@
       "name": "Asefa Public Company Limited",
       "currency": "THB",
       "price": 6.55,
-      "pe": 9.225352,
+      "pe": 8.972603,
       "forwardPe": 10.737705,
       "salesGrowth": 1.429,
       "marketCap": 3453345280,
@@ -101,7 +222,7 @@
       "name": "Bangchak Corporation Public Company Limited",
       "currency": "THB",
       "price": 52.5,
-      "pe": 3.320683,
+      "pe": 3.5211267,
       "forwardPe": 5.0250344,
       "salesGrowth": 0.459,
       "marketCap": 76806045696,
@@ -139,7 +260,7 @@
       "name": "Rhom Bho Property Public Company Limited",
       "currency": "THB",
       "price": 8.65,
-      "pe": 7.521739,
+      "pe": 7.4568963,
       "forwardPe": 5.7284765,
       "salesGrowth": 5.392,
       "marketCap": 6764780544,
@@ -211,7 +332,7 @@
       "name": "Asefa Public Company Limited",
       "currency": "THB",
       "price": 6.55,
-      "pe": 9.225352,
+      "pe": 8.972603,
       "forwardPe": 10.737705,
       "salesGrowth": 1.429,
       "marketCap": 3453345280,
@@ -226,7 +347,7 @@
       "pe": 0.015534175,
       "forwardPe": 2.5619833,
       "salesGrowth": 0.325,
-      "marketCap": 734709440,
+      "marketCap": 734707520,
       "timestamp": 1790933842000,
       "score": 12.685484718030754
     },
@@ -244,8 +365,8 @@
     }
   ],
   "checked": 862,
-  "failed": 4,
-  "updatedAt": 1790990717581,
+  "failed": 5,
+  "updatedAt": 1791022582876,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
@@ -253,10 +374,10 @@
     "processed": 862,
     "eligible": 80,
     "excluded": 256,
-    "missing": 522,
-    "failed": 4,
-    "startedAt": 1790990626115,
-    "directoryAt": 1790990626115,
+    "missing": 521,
+    "failed": 5,
+    "startedAt": 1791022442394,
+    "directoryAt": 1791022442394,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
