@@ -171,3 +171,12 @@ h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;
  .watchlist .watch-price strong{font-size:16px;line-height:1.2}
  .watchlist .watch-price small{font-size:10px;line-height:1.2;margin-top:3px}
 }
+/* Center the contents within the actual card height and retain tablet sparklines. */
+@media(min-width:768px) and (max-width:1366px){
+ .watchlist>.watch-shell{min-width:280px}
+ .watchlist .watch-card{grid-template-columns:34px minmax(48px,1fr) 40px auto;grid-template-rows:minmax(0,1fr);column-gap:8px;padding:4px 12px;align-items:center;align-content:center}
+ .watchlist .watch-card .stock-logo{align-self:center;margin:0;flex:none}
+ .watchlist .watch-card .sparkline{display:block;width:40px;min-width:0;height:24px;margin:0;align-self:center}
+ .watchlist .watch-name,.watchlist .watch-price{align-self:center;margin-block:0}
+ .watchlist .watch-name small,.watchlist .watch-price small{margin-top:2px}
+}
