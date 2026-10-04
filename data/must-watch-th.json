@@ -114,9 +114,9 @@
   "priceScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 841,
+    "eligible": 840,
     "excluded": 1,
-    "missing": 20,
+    "missing": 21,
     "failed": 0,
     "status": "complete"
   },
@@ -365,19 +365,19 @@
     }
   ],
   "checked": 862,
-  "failed": 5,
-  "updatedAt": 1791022582876,
+  "failed": 4,
+  "updatedAt": 1791079212774,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
     "total": 862,
     "processed": 862,
     "eligible": 80,
-    "excluded": 256,
+    "excluded": 257,
     "missing": 521,
-    "failed": 5,
-    "startedAt": 1791022442394,
-    "directoryAt": 1791022442394,
+    "failed": 4,
+    "startedAt": 1791079093911,
+    "directoryAt": 1791079093911,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
