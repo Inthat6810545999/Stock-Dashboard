@@ -1,5 +1,6 @@
 import type {Metadata} from 'next';
+import {Analytics} from '@vercel/analytics/next';
 import './globals.css';
 import './journal-theme.css';
 export const metadata:Metadata={title:'Market After Hours | Stock Journal',description:'Your US and Thai stock journal: prices, analyst targets, valuation, quarterly earnings, and company news.',icons:{icon:'/favicon.svg',shortcut:'/favicon.svg'}};
-export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}</body></html>}
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}<Analytics /></body></html>}
