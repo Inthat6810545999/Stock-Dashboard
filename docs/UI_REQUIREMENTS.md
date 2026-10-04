@@ -38,3 +38,15 @@ Tablet portrait/landscape: 768×1024 / 1024×768, 820×1180 / 1180×820, 834×11
 Phone portrait/landscape: 360×800 / 800×360, 375×667 / 667×375, 390×844 / 844×390, 430×932 / 932×430.
 
 Viewport simulation is not physical-device or cross-engine testing. Report exactly what was tested; do not claim Safari, Android or Windows verification from one browser engine. Keep a dated audit report when changing responsive behavior.
+
+## Corporate events and dividends
+- Show clickable E (earnings announcements) and D (ex-dividend dates) on the chart when provider dates fall in its period. Upcoming dates outside the plot appear as Next E / Next D. Group nearby markers to avoid overlaps.
+- Never substitute fiscal quarter ends for announcement dates. Current Yahoo calendar coverage does not provide a complete historical earnings-event series; disclose this limitation.
+- Valuation shows annual dividend yield (%) and annual dividend rate per share in the quote currency, labeled indicated or trailing. Missing data is unavailable, not zero.
+- Yield recalculates with current quotes. Company dividend/event data refreshes with the 60-second snapshot; do not describe corporate declarations as a real-time stream.
+
+## Thai news
+- Thai .BK news uses Thai Google News RSS search with the ticker and financial context, rather than relying on Yahoo relatedTickers coverage. Keep US news on its existing provider.
+- Match whole ticker tokens (PTT must not match PTTGC), reject invalid links/dates, deduplicate headlines, and omit social-platform results. Display publisher, original link and Bangkok publication time.
+- Poll every 60 seconds; label as aggregated news that may be delayed, never guaranteed real-time. Empty initial feeds must populate when a later refresh returns news.
+- Thai All news links should open the corresponding Thai news search. Do not fabricate article summaries or scrape full publisher articles.
