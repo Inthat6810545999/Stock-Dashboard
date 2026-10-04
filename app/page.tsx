@@ -1,5 +1,5 @@
-import {thaiNewsSearchUrl} from '@/lib/thai-news';
 'use client';
+import {thaiNewsSearchUrl} from '@/lib/thai-news';
 import {marketLocale,formatMoney,validSymbol,displayTimeZone,thaiTimestamp} from '@/lib/market-locale';
 import {useEffect,useState,useRef} from 'react';
 import {Pause,Sparkles,Search,RefreshCw,BookOpen,ChartNoAxesCombined,Info,Plug,Star,Plus,X} from 'lucide-react';
