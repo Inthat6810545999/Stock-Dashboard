@@ -146,10 +146,10 @@ h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;
  .watch-card{padding-block:6px;min-height:0}
  .dashboard-grid{grid-template-rows:minmax(270px,1.45fr) minmax(205px,1fr)}
  .price-panel{padding:10px 16px}
- .price-panel .stock-heading{height:28px;min-height:28px;gap:10px;margin:0}
- .price-panel .stock-heading .stock-logo{width:28px;height:28px}
- .price-panel .stock-heading p{display:none}
- .price-panel .title-line h1{font-size:22px}
+ .price-panel .stock-heading{height:auto;min-height:46px;gap:12px;margin:0}
+ .price-panel .stock-heading .stock-logo{width:46px;height:46px}
+ .price-panel .stock-heading p{display:block;font-size:12px}
+ .price-panel .title-line h1{font-size:26px}
  .price-row{margin-top:4px;gap:8px}
  .big-price{font-size:34px}
  .quote-meta{font-size:9px;line-height:1.3;margin-top:3px}
@@ -228,7 +228,7 @@ h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;
 main:after{background:url('/journal-atlas.svg') center bottom/cover no-repeat;opacity:.28}
 @media(min-width:768px) and (max-width:1100px) and (min-height:851px){
  .dashboard-grid{grid-template-rows:minmax(300px,1.5fr) minmax(190px,.9fr) minmax(200px,.9fr)}
- .price-panel .stock-heading p{display:none}
+ .price-panel .stock-heading p{display:block;font-size:12px}
  .price-panel .big-price{font-size:38px}
  .price-panel .quote-meta{font-size:9px}
 }
@@ -306,3 +306,40 @@ html[data-journal-motion=off] main:after{animation-play-state:paused}
  .valuation-expanded .section-heading{padding-bottom:2px;margin-bottom:2px}
  .valuation-expanded .valuation-facts{padding-block:2px}
 }
+
+/* Theme scrollbars and contained stock search, including long company names. */
+*{scrollbar-width:thin;scrollbar-color:#71839b66 transparent}
+*::-webkit-scrollbar{width:6px;height:6px}
+*::-webkit-scrollbar-track{background:transparent}
+*::-webkit-scrollbar-thumb{background:#71839b66;border-radius:99px}
+*::-webkit-scrollbar-thumb:hover{background:#a8b7c999}
+*::-webkit-scrollbar-corner{background:transparent}
+.connection-dialog,.connection-dialog *{scrollbar-color:#8b806866 transparent}
+.connection-dialog .search-results{overflow-x:hidden;min-width:0;max-width:100%}
+.connection-dialog .search-results button{min-width:0;max-width:100%;translate:none;transition:background .2s}
+.connection-dialog .search-results button:hover{translate:none}
+.connection-dialog .search-results button>span{min-width:0;overflow-wrap:anywhere}
+.connection-dialog .search-company{flex:1;min-width:0}
+.connection-dialog .search-company+span{flex:none;white-space:nowrap}
+.connection-dialog .search-input{min-width:0;width:100%}
+.chart-event{min-width:22px;width:auto;padding-inline:3px}
+
+.watchlist-edit-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.connection-dialog .search-results .watchlist-edit-toggle{width:auto;min-height:36px;padding:7px 14px;border:1px solid #8b806866;border-radius:12px;flex:none}
+.watchlist-edit-row{display:flex;align-items:center;gap:8px;min-width:0}
+.watchlist-edit-row>button:first-child{flex:1;min-width:0}
+.watchlist-edit-row>button:first-child strong{flex:none}
+.watchlist-edit-row>button:first-child span{text-align:right}
+.connection-dialog .search-results .watchlist-delete{flex:none;width:36px;min-height:36px;height:36px;justify-content:center;padding:0;border:1px solid #9b685844;color:#945846;border-radius:50%}
+.connection-dialog .search-results .watchlist-delete:disabled{opacity:.3;cursor:default}
+/* Keep the stock identity consistent when crossing desktop/tablet breakpoints. */
+.price-panel .stock-heading{height:auto;min-height:46px;align-items:center}
+.price-panel .stock-heading .stock-logo{width:46px;height:46px;flex-shrink:0}
+.price-panel .title-line h1{font-size:26px}
+
+/* Event badges at original size divided by 1.5; nearby earnings/dividends remain distinct. */
+.chart-event{width:14.667px;min-width:14.667px;height:14.667px;padding:0;font-size:7.333px;line-height:1;border-width:.6px;border-radius:50%;overflow:visible}
+.chart-event.event-E{border-radius:1px;border-color:#aebed2;color:#aebed2}
+.chart-event.event-E.outcome-beat{border-color:#76d2ad;color:#76d2ad}
+.chart-event.event-E.outcome-not-beat{border-color:#ef9690;color:#ef9690}
+.chart-event:focus-visible{outline:2px solid #dec99c;outline-offset:3px}

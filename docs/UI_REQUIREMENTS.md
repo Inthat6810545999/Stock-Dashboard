@@ -40,7 +40,7 @@ Phone portrait/landscape: 360×800 / 800×360, 375×667 / 667×375, 390×844 / 8
 Viewport simulation is not physical-device or cross-engine testing. Report exactly what was tested; do not claim Safari, Android or Windows verification from one browser engine. Keep a dated audit report when changing responsive behavior.
 
 ## Corporate events and dividends
-- Show clickable E (earnings announcements) and D (ex-dividend dates) on the chart when provider dates fall in its period. Upcoming dates outside the plot appear as Next E / Next D. Group nearby markers to avoid overlaps.
+- Show clickable E (earnings announcements) and D (ex-dividend dates) on the chart when provider dates fall in its period. Do not show a Next E chip. Upcoming dividends may appear as Next D. Nearby E and D remain separate overlapping badges so neither kind is replaced by E/D text.
 - Never substitute fiscal quarter ends for announcement dates. Current Yahoo calendar coverage does not provide a complete historical earnings-event series; disclose this limitation.
 - Valuation shows annual dividend yield (%) and annual dividend rate per share in the quote currency, labeled indicated or trailing. Missing data is unavailable, not zero.
 - Yield recalculates with current quotes. Company dividend/event data refreshes with the 60-second snapshot; do not describe corporate declarations as a real-time stream.
@@ -50,3 +50,21 @@ Viewport simulation is not physical-device or cross-engine testing. Report exact
 - Match whole ticker tokens (PTT must not match PTTGC), reject invalid links/dates, deduplicate headlines, and omit social-platform results. Display publisher, original link and Bangkok publication time.
 - Poll every 60 seconds; label as aggregated news that may be delayed, never guaranteed real-time. Empty initial feeds must populate when a later refresh returns news.
 - Thai All news links should open the corresponding Thai news search. Do not fabricate article summaries or scrape full publisher articles.
+
+## Search and scrollbars
+- Stock search scrolls vertically only; long names wrap without horizontal overflow.
+- Scrollbars use thin rounded muted theme colors. Earnings Est. dates use the same text color as quarter labels.
+
+## Watchlist editing
+- Do not show remove crosses on the dashboard ticker cards. Show them only after Edit in the watchlist dialog; Done leaves edit mode. Keep at least one stock.
+- Watchlist navigation opens the dialog on desktop and mobile. Closing it returns the active navigation tab to Dashboard and resets edit mode.
+
+- Adding a new stock in search keeps the dialog, query and current page open so multiple stocks can be added. Selecting View for an existing stock opens its dashboard.
+
+- Restore the compact desktop/tablet stock heading to a 46px logo and 26px ticker with company name visible. Do not shrink it to 28px/22px based on viewport height. Remove the quote-meta status row under the price at the user’s request.
+
+- SCB.BK historical E markers use dated official SCBX earnings releases, with source links and date-only labels (no invented announcement time). Refresh new releases hourly with verified history as fallback. This coverage is specific to SCBX, not a claim of all-stock historical coverage.
+
+- E/D badges are their original 22px size divided by 1.5 (14.667px; supersedes the half-size and one-third requests). Nearby events remain separate overlapping badges, never E/D text. E uses theme green only for actual EPS > estimate; equal/below is theme red. Missing EPS/consensus stays neutral. Match fiscal periods explicitly, never infer the earnings announcement date from a quarter end.
+
+- Historical E and D integration must apply to every valid US/Thai ticker, not only a hardcoded company. EODHD is the additional server-side provider (`EODHD_API_KEY`); retain Yahoo/SCBX fallbacks. Expose missing credentials/provider failure separately from a confirmed empty response. Show every supplied event within the selected timeframe, deduplicate sources, and never claim universal data coverage without live verification. Setup and current activation limits: `docs/EVENT_HISTORY_SETUP.md`.
