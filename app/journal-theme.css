@@ -280,7 +280,7 @@ html[data-journal-motion=off] main:after{animation-play-state:paused}
  .navy-dashboard .brief .company-description{flex:0 0 auto;overflow:visible;min-height:0}
 }
 .chart-canvas{position:relative}
-.chart-event-markers{position:absolute;inset:0;pointer-events:none}
+.chart-event-markers{position:absolute;inset:0;pointer-events:none;z-index:6}
 .chart-event{pointer-events:auto;position:absolute;bottom:29px;transform:translateX(-50%);width:22px;height:22px;border-radius:50%;background:#14243a;border:1.5px solid #83aaff;color:#bfd1ff;font-size:11px;font-weight:700;display:grid;place-items:center;cursor:pointer;padding:0;z-index:2}
 .chart-event.event-E{border-radius:6px;border-color:#63c5b5;color:#8fdfcf}
 .chart-event:focus-visible{outline:2px solid #e8d6aa;outline-offset:2px}
