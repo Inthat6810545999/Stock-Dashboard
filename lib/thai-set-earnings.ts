@@ -1,7 +1,8 @@
 import {scbEarningsHistory} from './scb-earnings-history';
 import {parseThaiSetEarnings,parseThaiIrEarnings} from './thai-set-event-parser';
+import {getStoredThaiEarnings} from './thai-earnings-snapshot';
 import type {CorporateEvent} from './corporate-events';
-export type ThaiEarnings={events:CorporateEvent[];status:'available'|'empty'|'unavailable'};
+export type ThaiEarnings={events:CorporateEvent[];status:'available'|'empty'|'unavailable'|'stale'};
 const day=86400000;
 const scbEvents=()=>scbEarningsHistory.map(row=>({kind:'E' as const,time:Date.parse(`${row.date}T12:00:00+07:00`),label:'Earnings announcement',estimated:false,dateOnly:true,sourceUrl:row.sourceUrl,source:'SCBX investor news',fiscalQuarterEnd:row.fiscalQuarterEnd})).filter(event=>Number.isFinite(event.time));
 
@@ -28,6 +29,13 @@ const pending=new Map<string,Promise<ThaiEarnings>>();
 function formatThaiDate(date:Date){return new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Bangkok',day:'2-digit',month:'2-digit',year:'numeric'}).format(date);}
 export async function thaiEarningsAnnouncements(symbol:string,fetcher:typeof fetch=fetch):Promise<ThaiEarnings>{
  if(!/^[A-Z0-9-]{1,15}\.BK$/.test(symbol))return {events:[],status:'empty'};
+ const stored=getStoredThaiEarnings(symbol);
+ if(stored.status!=='unavailable'){
+  const events=symbol==='SCB.BK'?[...scbEvents(),...stored.events]:stored.events;
+  const unique=new Map<string,CorporateEvent>();
+  for(const event of events){const key=new Date(event.time).toLocaleDateString('en-CA',{timeZone:'Asia/Bangkok'});if(!unique.has(key))unique.set(key,event);}
+  return {...stored,events:[...unique.values()].sort((a,b)=>a.time-b.time)};
+ }
  const existing=calls.get(symbol);if(existing&&existing.expires>Date.now())return existing.value;
  const underway=pending.get(symbol);if(underway)return underway;
  const task=(async()=>{
