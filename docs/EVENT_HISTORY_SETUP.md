@@ -2,7 +2,7 @@
 
 ## US E and EPS results
 
-The market API uses Alpha Vantage's `EARNINGS` endpoint for US listings. It takes `reportedDate` as the E marker date, and keeps reported and estimated EPS from the same quarter record. The free API key is limited to 25 requests per day. Results are cached for 24 hours in `.cache/earnings/`, keyed by a one-way hash of the API key and ticker, so restart does not repeat calls in a local checkout. The key and cache never leave the server. Requests are coalesced and a failed request is not retried hourly.
+The market API uses Alpha Vantage's `EARNINGS` endpoint for US listings. It takes `reportedDate` as the E marker date, and keeps reported and estimated EPS from the same quarter record. The free API key is limited to 25 requests per day. In local development, results are cached for 24 hours when the runtime supports disk access, with an isolate-memory fallback.
 
 Get a free API key from https://www.alphavantage.co/support/#api-key and set it in `.env.local`:
 
@@ -10,7 +10,9 @@ Get a free API key from https://www.alphavantage.co/support/#api-key and set it 
 ALPHA_VANTAGE_API_KEY=your_key_here
 ```
 
-Restart the local server after saving. On Vercel, set the same server-only variable under Settings → Environment Variables, then redeploy. Do not use a `NEXT_PUBLIC_` variable or commit the key. A Vercel instance cache is temporary and may be isolated across instances; Alpha Vantage enforces the account-wide daily quota.
+Restart the local server after saving. For daily collection and persistence, also add the key as a GitHub repository Actions secret named `ALPHA_VANTAGE_API_KEY` under Settings → Secrets and variables → Actions. Do not commit the key. The scheduled workflow reads this secret, fetches up to 20 US tickers each day, retains five years of E dates/EPS in `data/alpha-earnings-us.json`, and commits the snapshot. Four common dashboard symbols (NVDA, AAPL, MSFT, TSLA) are refreshed daily; the remaining slots rotate through the Nasdaq Trader US equity directory. Because of the free daily quota, a full pass through thousands of tickers takes many months. OTC stocks are outside that directory.
+
+The workflow also needs to be merged to the GitHub production/default branch, with Actions enabled and repository contents write permission. Each committed snapshot triggers the connected Vercel Git deployment, bundling the latest saved history. Vercel reads this snapshot in production; it does not call Alpha Vantage per page request. Setting the key in Vercel is not required for the scheduled collector, though it may remain there. The Actions secret is separate from Vercel Environment Variables.
 
 ## Thai E
 
@@ -22,7 +24,7 @@ D keeps Yahoo's chart ex-dividend events and calendar fallback. Events are merge
 
 ## Verification — 2026-10-07
 
-Parser coverage includes Alpha Vantage quarterly earnings dates/EPS, SET announcement dates and official issuer archive cards, exact ticker matching, duplicate days, ignored financial-statement and management-discussion notices, invalid payloads, and safe source links. Authenticated Alpha Vantage requests were not tested because no key is configured. SET returned HTTP 403 here; the issuer archive fallback was smoke-tested for PTT.BK (20 official E dates within five years), PTG.BK (20 official E dates), and SCB.BK (17 verified releases). Universal Thai coverage is not guaranteed when SET or a company archive does not return usable rows.
+Parser coverage includes Alpha Vantage quarterly earnings dates/EPS, SET announcement dates and official issuer archive cards, exact ticker matching, duplicate days, ignored financial-statement and management-discussion notices, invalid payloads, and safe source links. Alpha Vantage was authenticated locally for NVDA (110 historical E dates returned by provider). The daily GitHub collection is not active until the workflow and Actions secret are present on the default branch. SET returned HTTP 403 here; the issuer archive fallback was smoke-tested for PTT.BK (20 official E dates within five years), PTG.BK (20 official E dates), and SCB.BK (17 verified releases). Universal coverage is not guaranteed when a provider or company archive does not return usable rows.
 
 ## Sources
 
