@@ -1,32 +1,32 @@
 # Historical company events
 
-The market API now requests EODHD historical earnings and dividends for every valid US/Thai symbol, with no stock allowlist. `NVDA` maps to `NVDA.US`, `BRK.B` to `BRK-B.US`, and `PTT.BK` stays `PTT.BK`.
+## US E and EPS results
 
-## Activate
+The market API uses Alpha Vantage's `EARNINGS` endpoint for US listings. It takes `reportedDate` as the E marker date, and keeps reported and estimated EPS from the same quarter record. The free API key is limited to 25 requests per day. Results are cached for 24 hours in `.cache/earnings/`, keyed by a one-way hash of the API key and ticker, so restart does not repeat calls in a local checkout. The key and cache never leave the server. Requests are coalesced and a failed request is not retried hourly.
 
-Set the server-only variable `EODHD_API_KEY` in `.env.local` and restart the local server. For production, add the same variable in Vercel Environment Variables and redeploy. Do not use a `NEXT_PUBLIC_` variable or commit the key.
+Get a free API key from https://www.alphavantage.co/support/#api-key and set it in `.env.local`:
 
-The account must have access to the Fundamentals and Dividends endpoints. A free/demo key is not universal access. Provider exchange support does not guarantee earnings history for every listed instrument; verify the required Thai and US symbols with the account before purchasing a plan.
+```env
+ALPHA_VANTAGE_API_KEY=your_key_here
+```
 
-## Data behavior
+Restart the local server after saving. On Vercel, set the same server-only variable under Settings → Environment Variables, then redeploy. Do not use a `NEXT_PUBLIC_` variable or commit the key. A Vercel instance cache is temporary and may be isolated across instances; Alpha Vantage enforces the account-wide daily quota.
 
-- Earnings: `/api/v1.1/fundamentals/{symbol}?filter=Earnings::History`. Use `reportDate`, never the fiscal-period `date`, for E markers. Keep EPS actual and estimate together from the same provider.
-- Dividends: `/api/div/{symbol}?fmt=json`. Use the ex-dividend `date`, never payment date, for D. Preserve the supplied dividend currency.
-- Fetch the full supplied history once, cache for one hour, and filter to the chart's selected period. Concurrent calls share requests; provider failures retry after five minutes.
-- Retain Yahoo events and the verified SCBX history if the extra provider is unavailable. Deduplicate matching event kind and market calendar day. E and D on the same day remain separate.
-- `eventHistory` in `/api/market` distinguishes `available`, `empty`, `unavailable`, and `not-configured` for each extra feed. `available` means valid rows were returned, not complete coverage of all historical quarters.
-- No demo key, estimated past dates, fabricated events, or fiscal-quarter-end substitutions are inserted.
+## Thai E
 
-## Verification — 2026-10-05
+Thai symbols first use the SET company-announcements search endpoint, filtered by exact ticker and `Financial Performance`, within its rolling five-year search window. If SET blocks the request or returns no results, the integration reads year-filtered official issuer archives: the PTT investor-relations newsroom for PTT, and the common `{ticker}.listedcompany.com` investor-news format for issuers that use it. SCB also keeps its verified SCBX history as a fallback. Events use publication dates from announcement cards, never quarter-end dates. PTT.BK and PTG.BK issuer archives returned historical events in local smoke checks; SCB.BK returned its verified SCBX history. This does not prove that every Thai company uses or exposes the common archive format.
 
-Parser and transport tests cover multiple historical reports, US/Thai symbol mapping, ex-date vs payment date, null EPS, malformed responses, duplicate sources, caching, concurrent requests, missing credentials and provider failure.
+## D and display
 
-No EODHD key is configured in this checkout. Authenticated live US/Thai coverage remains unverified. Public trial requests returned HTTP 403 in this environment. This integration is implemented but is not activated; existing Yahoo/SCBX fallbacks continue to run.
+D keeps Yahoo's chart ex-dividend events and calendar fallback. Events are merged by kind and local exchange date; an E and D on the same date remain separate. The chart displays all returned events that fall within the selected timeframe. A provider's `available` status confirms records were returned; it does not promise every past event for every security.
 
-## Provider documentation
+## Verification — 2026-10-07
 
-- https://eodhd.com/financial-apis/stock-etfs-fundamental-data-feeds
-- https://eodhd.com/financial-apis/api-splits-dividends
-- https://github.com/EodHistoricalData/eodhd-claude-skills/blob/main/skills/eodhd-api/references/general/stock-types-ticker-suffixes-guide.md
+Parser coverage includes Alpha Vantage quarterly earnings dates/EPS, SET announcement dates and official issuer archive cards, exact ticker matching, duplicate days, ignored financial-statement and management-discussion notices, invalid payloads, and safe source links. Authenticated Alpha Vantage requests were not tested because no key is configured. SET returned HTTP 403 here; the issuer archive fallback was smoke-tested for PTT.BK (20 official E dates within five years), PTG.BK (20 official E dates), and SCB.BK (17 verified releases). Universal Thai coverage is not guaranteed when SET or a company archive does not return usable rows.
 
-Local `/api/market?range=5Y` smoke checks passed for NVDA, PTT.BK, and SCB.BK. Each correctly reports EODHD `not-configured` while preserving existing data (respectively E/D counts 1/20, 1/10, 17/9). These counts are fallback coverage, not new-provider results. Fifteen automated tests and `npx next build` passed. No layout changes or new responsive-device claims are part of this provider integration.
+## Sources
+
+- Alpha Vantage earnings: https://www.alphavantage.co/documentation/#earnings
+- Alpha Vantage free request limit: https://www.alphavantage.co/support/
+- SET company announcement search behavior: https://github.com/lumduan/settfex/blob/main/docs/settfex/services/set/news.md
+- SCBX SET announcements: https://investor.scbx.com/en/newsroom/set-announcements
