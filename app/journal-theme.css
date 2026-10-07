@@ -318,6 +318,7 @@ html[data-journal-motion=off] main:after{animation-play-state:paused}
 .connection-dialog .search-results{overflow-x:hidden;min-width:0;max-width:100%}
 .connection-dialog .search-results button{min-width:0;max-width:100%;translate:none;transition:background .2s}
 .connection-dialog .search-results button:hover{translate:none}
+.connection-dialog .search-results .search-result-action{display:flex;align-items:center;justify-content:space-between;gap:12px;flex:0 0 76px;min-width:76px;white-space:nowrap;overflow:visible}
 .connection-dialog .search-results button>span{min-width:0;overflow-wrap:anywhere}
 .connection-dialog .search-company{flex:1;min-width:0}
 .connection-dialog .search-company+span{flex:none;white-space:nowrap}
