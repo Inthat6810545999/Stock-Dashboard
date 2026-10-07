@@ -8,7 +8,7 @@ Create a project at https://supabase.com/dashboard and copy the Project URL and 
 
 ```dotenv
 NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_PUBLISHABLE_OR_ANON_KEY
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
 ```
 
 These are public client configuration values. Never put a service-role key in a `NEXT_PUBLIC_` variable or in browser code.
