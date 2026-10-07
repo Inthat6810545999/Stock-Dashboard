@@ -1,0 +1,34 @@
+name: Hourly US biggest gainers
+on:
+  schedule:
+    - cron: '5 * * * 1-5' # Script exits outside the US regular market session.
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: market-snapshot-publication
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Scan every US exchange-listed symbol with Yahoo Finance
+        run: node --experimental-strip-types scripts/market-scan/scan-us-gainers.mjs
+      - name: Validate published ranking
+        run: node scripts/market-scan/check.mjs
+      - name: Publish refreshed ranking
+        run: |
+          git config user.name 'market-scan[bot]'
+          git config user.email 'market-scan[bot]@users.noreply.github.com'
+          git add data/must-watch-us.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh hourly US biggest gainers'
+            git push
+          fi

@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: daily-market-scan
+  group: market-snapshot-publication
   cancel-in-progress: false
 jobs:
   scan:
