@@ -382,5 +382,19 @@
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
     "status": "complete"
-  }
+  },
+  "todayGainers": [],
+  "todayCandidates": [],
+  "todayScan": {
+    "total": 862,
+    "processed": 862,
+    "eligible": 0,
+    "missing": 862,
+    "failed": 0,
+    "status": "complete",
+    "source": "Yahoo Finance · full SET/mai universe",
+    "updatedAt": 1791412336820
+  },
+  "todayGainersSource": "Yahoo Finance · full SET/mai universe",
+  "todayGainersUpdatedAt": 1791412336820
 }
