@@ -8,7 +8,7 @@ import {earningsSchedule} from '@/lib/earnings-calendar';
 import YahooFinance from 'yahoo-finance2';
 import {companies,type Market,type Point,type Earnings} from '@/lib/market';
 
-type QuotePrice={regularMarketPrice?:unknown;regularMarketPreviousClose?:unknown;regularMarketChange?:unknown;regularMarketChangePercent?:unknown;marketCap?:unknown;currency?:string;regularMarketTime?:unknown;earningsTimestamp?:unknown;exchangeName?:string;longName?:string;shortName?:string;exchangeDataDelayedBy?:unknown;quoteType?:string};
+type QuotePrice={regularMarketPrice?:unknown;regularMarketPreviousClose?:unknown;regularMarketChange?:unknown;regularMarketChangePercent?:unknown;marketState?:string;postMarketPrice?:unknown;postMarketChange?:unknown;postMarketChangePercent?:unknown;postMarketTime?:unknown;preMarketPrice?:unknown;preMarketChange?:unknown;preMarketChangePercent?:unknown;preMarketTime?:unknown;marketCap?:unknown;currency?:string;regularMarketTime?:unknown;earningsTimestamp?:unknown;exchangeName?:string;longName?:string;shortName?:string;exchangeDataDelayedBy?:unknown;quoteType?:string};
 type SummaryDetail={dividendRate?:unknown;trailingAnnualDividendRate?:unknown;marketCap?:unknown;volume?:unknown;averageVolume?:unknown;trailingPE?:unknown;forwardPE?:unknown};
 type EarningsHistoryRow={quarter:unknown;epsActual?:unknown;epsEstimate?:unknown};
 type EarningsTrendRow={period?:string;endDate?:unknown;earningsEstimate?:{avg?:unknown}};
@@ -110,6 +110,9 @@ export async function GET(request:Request){
   percent:previous?((price/previous)-1)*100:(num(priceInfo?.regularMarketChangePercent)===null?null:(num(priceInfo?.regularMarketChangePercent) as number)*100),
   timestamp:meta?.regularMarketTime?meta.regularMarketTime*1000:stamp(priceInfo?.regularMarketTime),mode:'connected',
   exchange:priceInfo?.exchangeName||meta?.fullExchangeName||marketLocale(symbol).market,
+  marketState:eventsQuote?.marketState,
+  postMarketPrice:num(eventsQuote?.postMarketPrice),postMarketChange:num(eventsQuote?.postMarketChange),postMarketChangePercent:num(eventsQuote?.postMarketChangePercent),postMarketTime:stamp(eventsQuote?.postMarketTime),
+  preMarketPrice:num(eventsQuote?.preMarketPrice),preMarketChange:num(eventsQuote?.preMarketChange),preMarketChangePercent:num(eventsQuote?.preMarketChangePercent),preMarketTime:stamp(eventsQuote?.preMarketTime),
   pe:num(detail?.trailingPE),forwardPe:num(detail?.forwardPE)??num(summary?.defaultKeyStatistics?.forwardPE),
   target:num(financial?.targetMeanPrice),targetDate:null,volume:num(meta?.regularMarketVolume)??num(detail?.volume),averageVolume:num(detail?.averageVolume),
   points,earnings,news,warnings,delayMinutes:num(priceInfo?.exchangeDataDelayedBy),retrievedAt:Date.now()

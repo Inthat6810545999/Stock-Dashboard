@@ -119,3 +119,7 @@ html,body{height:100%;overflow:hidden}main{height:100dvh;display:flex;flex-direc
  .ai-mobile-layer .ai-stage h2{font-size:21px}.ai-mobile-layer .ai-stage>p{font-size:11px}.ai-mobile-layer .ai-stage-tickers{gap:10px}.ai-mobile-layer .ai-stage-tickers small{font-size:9px}
 }
 @media(max-width:600px){.ai-mobile-phases{background-color:#101d30;border-radius:14px}}
+
+.session-quotes{display:flex;justify-content:flex-end;align-items:flex-start;margin:2px 0 12px;padding:0 2px;color:#b5c0d0;font-size:12px}.extended-session-quote{display:grid;gap:3px;margin-left:auto;text-align:right;justify-items:end}.session-quotes>div>span{color:#c5cddd;font-size:12px}.session-quotes strong{color:#f1e7d6;font-size:16px;font-weight:600;white-space:nowrap}.session-quotes em{font-size:13px;font-style:normal;font-weight:600}.session-quotes .positive{color:#65c6a6}.session-quotes .negative{color:#ed8581}
+
+.price-row>.session-quotes{flex:0 0 auto;align-self:center;margin:0 auto;padding:0 4px}.price-row .extended-session-quote{gap:2px}.price-row .session-quotes>div>span{font-size:11px;line-height:1.2}.price-row .session-quotes strong{font-size:14px}.price-row .session-quotes em{font-size:12px}

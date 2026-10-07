@@ -5,7 +5,9 @@ const wire='{"type":"pricing","message":"CgROVkRBFeAdZ0MYsLXWkp9oKgNOTVMwCDgCRc6
 const tick=decodeQuote(wire,1800000000000);
 assert.equal(tick.symbol,'NVDA');assert.ok(tick.price>200&&tick.price<300);assert.equal(tick.marketHours,2);assert.ok(tick.timestamp>1700000000000);assert.equal(decodeQuote('bad'),null);assert.equal(decodeQuote('{"type":"heartbeat"}'),null);
 const snapshot={...demo('NVDA'),timestamp:tick.timestamp-1000,price:200,points:[{time:tick.timestamp-300000,price:200,volume:100}]};
-assert.equal(mergeStream(snapshot,tick,'1D').price,tick.price);
+assert.equal(mergeStream(snapshot,tick,'1D').price,200,'after-hours trades must not replace the regular-session close');
+assert.equal(mergeStream(snapshot,tick,'1D').postMarketPrice,tick.price,'after-hours trade is shown in its own quote');
+assert.ok(Math.abs((mergeStream(snapshot,tick,'1D').postMarketChangePercent??0)-((tick.price/200-1)*100))<1e-8);
 assert.deepEqual(mergeStream(snapshot,tick,'1D').points,snapshot.points,'after-hours prices must not enter regular-session chart');
 assert.equal(mergeStream({...snapshot,timestamp:tick.timestamp+1000},tick,'1D').price,200,'older stream quote must not replace newer snapshot');
 assert.equal(mergeStream({...snapshot,symbol:'AAPL'},tick,'1D').price,200,'quotes cannot cross symbols');

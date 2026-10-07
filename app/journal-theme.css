@@ -369,3 +369,21 @@ html[data-journal-motion=off] main:after{animation-play-state:paused}
 @media(min-width:1101px) and (min-height:650px){.masthead>.mast-copy>.handwritten{line-height:1.05}}
 main:before{background-image:linear-gradient(90deg,#eadcc52b 0 2px,transparent 2px calc(100% - 2px),#eadcc52b calc(100% - 2px)),linear-gradient(90deg,#101c30c9 0%,#101c307a 46%,#101c3038 76%,#101c3094 100%),url('/collage-header.png');background-position:center,center,right center;background-size:100% 100%,100% 100%,auto 100vh;background-repeat:no-repeat;opacity:.96}
 @media(max-width:600px){.masthead{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}.masthead>.edition{display:none}.masthead>.mast-copy>.handwritten{justify-self:center}}
+
+/* Extended quote shares the price row, immediately before the timeframes. */
+.price-panel .price-row.has-extended-quote{display:grid;grid-template-columns:minmax(0,1fr) auto auto;column-gap:28px;align-items:center}
+.price-panel .price-row>.session-quotes{margin:0;align-self:center;justify-self:end;padding:0}
+.price-panel .quote-timestamp{flex:none;color:#91a4bd;font-size:10px;line-height:13px;margin:0}
+.price-panel:has(.quote-timestamp) .price-chart{margin-top:0}
+ .price-panel{container-type:inline-size;container-name:quote-card}
+@container quote-card (max-width:760px){.price-panel .price-row.has-extended-quote{column-gap:12px}}
+@container quote-card (max-width:600px){.price-panel .price-row.has-extended-quote .timeframe-control{grid-column:1/-1;justify-self:end;margin-top:4px}}
+@container quote-card (max-width:360px){.has-extended-quote .price-group{gap:6px}.has-extended-quote .big-price{font-size:32px}.has-extended-quote .price-group>span{font-size:14px}.has-extended-quote .price-group small{font-size:11px}}
+@media(max-width:600px){.price-panel .price-row.has-extended-quote{grid-template-columns:minmax(0,1fr) auto}.price-panel .quote-timestamp{font-size:9px}}
+/* Return space above period performance to the existing price chart. */
+.price-panel .price-row{margin-top:4px;row-gap:4px}
+.price-panel .big-price{line-height:1.05}
+.price-panel .price-group>span{line-height:1.15}
+.price-panel .price-group small{line-height:1.15;margin-top:2px}
+.price-panel .range-performance{margin-top:0;min-height:22px;line-height:20px}
+@container quote-card (max-width:600px){.price-panel .price-row.has-extended-quote .timeframe-control{margin-top:0}}
