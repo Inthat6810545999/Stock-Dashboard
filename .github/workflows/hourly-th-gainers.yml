@@ -1,0 +1,38 @@
+name: Hourly Thai biggest gainers
+on:
+  schedule:
+    - cron: '5 3-5 * * 1-5' # 10:05, 11:05 and 12:05 ICT
+    - cron: '35 7 * * 1-5' # 14:35 ICT, after the lunch break
+    - cron: '5 8-10 * * 1-5' # 15:05, 16:05 and final 17:05 ICT scan
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: market-snapshot-publication
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Scan the full SET/mai universe with Yahoo Finance
+        env:
+          FORCE_MARKET_SCAN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+        run: node --experimental-strip-types scripts/market-scan/scan-th-gainers.mjs
+      - name: Validate published ranking
+        run: node scripts/market-scan/check.mjs
+      - name: Publish refreshed ranking
+        run: |
+          git config user.name 'market-scan[bot]'
+          git config user.email 'market-scan[bot]@users.noreply.github.com'
+          git add data/must-watch-th.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh hourly Thai biggest gainers'
+            git push
+          fi
