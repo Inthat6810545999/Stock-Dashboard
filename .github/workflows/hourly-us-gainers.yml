@@ -20,6 +20,8 @@ jobs:
           cache: npm
       - run: npm ci --ignore-scripts
       - name: Scan every US exchange-listed symbol with Yahoo Finance
+        env:
+          FORCE_MARKET_SCAN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: node --experimental-strip-types scripts/market-scan/scan-us-gainers.mjs
       - name: Validate published ranking
         run: node scripts/market-scan/check.mjs
