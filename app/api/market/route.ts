@@ -5,6 +5,7 @@ import {fetchThaiNews} from '@/lib/thai-news';
 import {corporateEvents,attachEarningsResults,mergeCorporateEvents,type CorporateEvent} from '@/lib/corporate-events';
 import {validSymbol,marketLocale} from '@/lib/market-locale';
 import {earningsSchedule} from '@/lib/earnings-calendar';
+import {filterIntradayVolumeOutliers} from '@/lib/chart-volume';
 import YahooFinance from 'yahoo-finance2';
 import {companies,type Market,type Point,type Earnings} from '@/lib/market';
 
@@ -82,7 +83,8 @@ export async function GET(request:Request){
  const next=summary?.earningsTrend?.trend?.find(item=>item.period==='0q');
  if(next)earnings.push({period:period(next.endDate),actual:null,estimate:num(next.earningsEstimate?.avg),...earningsSchedule(summary?.calendarEvents?.earnings,new Date(),'Asia/Bangkok')});
  const quote=chart?.indicators?.quote?.[0];
- const points:Point[]=(chart?.timestamp??[]).map((time,index)=>({time:time*1000,price:num(quote?.close?.[index]),volume:num(quote?.volume?.[index])??0})).filter((point):point is Point=>point.price!==null);
+ const rawPoints:Point[]=(chart?.timestamp??[]).map((time,index)=>({time:time*1000,price:num(quote?.close?.[index]),volume:num(quote?.volume?.[index])})).filter((point):point is Point=>point.price!==null);
+ const points=range==='1D'?filterIntradayVolumeOutliers(rawPoints,num(meta?.regularMarketVolume)??num(detail?.volume)):rawPoints;
  const warnings:string[]=[];
  if(!summary)warnings.push('Valuation, targets, and earnings are temporarily unavailable from Yahoo Finance.');
  if(!news.length)warnings.push('No recent news returned.');
