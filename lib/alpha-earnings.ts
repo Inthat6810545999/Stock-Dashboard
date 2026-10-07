@@ -7,20 +7,27 @@ export type AlphaHistory={events:CorporateEvent[];earnings:'available'|'empty'|'
 const day=86400000;
 const numeric=(v:unknown)=>typeof v==='number'&&Number.isFinite(v)?v:typeof v==='string'&&v.trim()!==''&&Number.isFinite(Number(v))?Number(v):undefined;
 function date(v:unknown){if(typeof v!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(v))return null;const t=Date.parse(`${v}T12:00:00Z`);return Number.isFinite(t)&&new Date(t).toISOString().slice(0,10)===v?t:null;}
-export function parseAlphaEarnings(payload:any,symbol:string):CorporateEvent[]{
+type AlphaEarningsRow=Record<string,unknown>;
+function isRecord(value:unknown):value is Record<string,unknown>{return typeof value==='object'&&value!==null&&!Array.isArray(value)}
+export function parseAlphaEarnings(payload:unknown,symbol:string):CorporateEvent[]{
  // Alpha Vantage's EARNINGS response is keyed by symbol, but some proxies/cache
  // layers omit the top-level symbol. The quarterly rows themselves are the
  // authoritative payload, so do not discard valid history merely because that
  // optional echo field is missing. Reject a different explicit symbol.
- if(payload?.symbol&&String(payload.symbol).toUpperCase()!==symbol.toUpperCase())throw Error('Mismatched earnings response');
- if(!Array.isArray(payload?.quarterlyEarnings))throw Error('Invalid earnings response');
+ const response=isRecord(payload)?payload:null;
+ if(response?.symbol&&String(response.symbol).toUpperCase()!==symbol.toUpperCase())throw Error('Mismatched earnings response');
+ const quarterly=response?.quarterlyEarnings;
+ if(!Array.isArray(quarterly))throw Error('Invalid earnings response');
  const events:CorporateEvent[]=[];
- for(const row of payload.quarterlyEarnings){
+ for(const item of quarterly){
+  if(!isRecord(item))continue;
+  const row:AlphaEarningsRow=item;
   const reported=row?.reportedDate??row?.reportedDateTime??row?.reportDate;
   const time=date(typeof reported==='string'?reported.slice(0,10):reported);if(time===null)continue;
-  events.push({kind:'E',time,dateOnly:true,label:'Earnings announcement',source:'Alpha Vantage',sourceUrl:'https://www.alphavantage.co/documentation/#earnings',fiscalQuarterEnd:date(row.fiscalDateEnding)!==null?row.fiscalDateEnding:undefined,epsActual:numeric(row.reportedEPS),epsEstimate:numeric(row.estimatedEPS)});
+  const fiscalQuarterEnd=typeof row.fiscalDateEnding==='string'&&date(row.fiscalDateEnding)!==null?row.fiscalDateEnding:undefined;
+  events.push({kind:'E',time,dateOnly:true,label:'Earnings announcement',source:'Alpha Vantage',sourceUrl:'https://www.alphavantage.co/documentation/#earnings',fiscalQuarterEnd,epsActual:numeric(row.reportedEPS),epsEstimate:numeric(row.estimatedEPS)});
  }
- if(payload.quarterlyEarnings.length&&!events.length)throw Error('No valid announcement dates');
+ if(quarterly.length&&!events.length)throw Error('No valid announcement dates');
  return events.sort((a,b)=>a.time-b.time);
 }
 type State={calls:number[];blockedUntil:number;entries:Record<string,{updated:number;retryAfter:number;events:CorporateEvent[]}>};
@@ -57,8 +64,8 @@ export function createAlphaEarnings({directory,fetcher=fetch,now=Date.now}:{dire
      const url=new URL('https://www.alphavantage.co/query');url.searchParams.set('function','EARNINGS');url.searchParams.set('symbol',symbol);url.searchParams.set('apikey',key!);
      const response=await fetcher(url,{signal:AbortSignal.timeout(8000),cache:'no-store'});
      if(!response.ok){if(response.status===429)state.blockedUntil=t+day;throw Error('Earnings unavailable');}
-     const payload:any=await response.json();
-     if(payload?.Note||payload?.Information){state.blockedUntil=t+day;throw Error('Provider limit or entitlement');}
+     const payload:unknown=await response.json();
+     if(isRecord(payload)&&(payload.Note||payload.Information)){state.blockedUntil=t+day;throw Error('Provider limit or entitlement');}
      const events=parseAlphaEarnings(payload,symbol);
      state.entries[symbol]={updated:t,retryAfter:0,events};await save();return {events,earnings:events.length?'available':'empty'};
     }catch{
@@ -78,8 +85,8 @@ export function createAlphaEarnings({directory,fetcher=fetch,now=Date.now}:{dire
      const url=new URL('https://www.alphavantage.co/query');url.searchParams.set('function','EARNINGS');url.searchParams.set('symbol',symbol);url.searchParams.set('apikey',key!);
      const response=await fetcher(url,{signal:AbortSignal.timeout(8000),cache:'no-store'});
      if(!response.ok){if(response.status===429)state.blockedUntil=t+day;throw Error('Earnings unavailable');}
-     const payload:any=await response.json();
-     if(payload?.Note||payload?.Information){state.blockedUntil=t+day;throw Error('Provider limit or entitlement');}
+     const payload:unknown=await response.json();
+     if(isRecord(payload)&&(payload.Note||payload.Information)){state.blockedUntil=t+day;throw Error('Provider limit or entitlement');}
      const events=parseAlphaEarnings(payload,symbol);
      state.entries[symbol]={updated:t,retryAfter:0,events};return {events,earnings:events.length?'available':'empty'};
     }catch{

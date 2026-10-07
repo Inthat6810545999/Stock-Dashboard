@@ -22,7 +22,7 @@ export function AiEcosystem({symbol,watchlist,onExplore,onAdd}:Props){
  useEffect(()=>{if(phone&&tour){document.getElementById(`mobile-stage-${tourOrder[step]}`)?.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});return}if(compact&&tour){const current=aiStages.find(s=>s.id===tourOrder[step]);if(current)viewport.current?.scrollTo({left:Math.max(0,current.x-size.w/2),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}},[compact,phone,tour,step,size.w]);
  useEffect(()=>{
   const root=mobileMap.current;if(!phone||!root)return;
-  const measure=()=>{const bounds=root.getBoundingClientRect();const paths=aiFlows.flatMap((f,i)=>{
+  const measure=()=>{const bounds=root.getBoundingClientRect();const paths=aiFlows.flatMap(f=>{
    const from=root.querySelector(`#mobile-stage-${f.from} .ai-stage`)?.getBoundingClientRect();
    const to=root.querySelector(`#mobile-stage-${f.to} .ai-stage`)?.getBoundingClientRect();if(!from||!to)return [];
    const samePhase=aiStages.find(s=>s.id===f.from)?.phase===aiStages.find(s=>s.id===f.to)?.phase;
@@ -39,7 +39,7 @@ export function AiEcosystem({symbol,watchlist,onExplore,onAdd}:Props){
  },[phone]);
  const fit=Math.max(.1,Math.min((size.w-40)/1200,(size.h-48)/410));const scale=fit*zoom;
  useEffect(()=>{if(!viewport.current)return;const ro=new ResizeObserver(([e])=>setSize({w:e.contentRect.width,h:e.contentRect.height}));ro.observe(viewport.current);return()=>ro.disconnect()},[]);
- useEffect(()=>{setSelected(null);setFocus(false)},[symbol]);
+  useEffect(()=>{let active=true;queueMicrotask(()=>{if(active){setSelected(null);setFocus(false)}});return()=>{active=false}},[symbol]);
  useEffect(()=>{if(!tour||phone)return;const timer=setInterval(()=>setStep(v=>(v+1)%tourOrder.length),3500);return()=>clearInterval(timer)},[tour,phone]);
  function reset(){setZoom(1);setPan({x:0,y:0})}
  function path(from:ChainStage,to:ChainStage){const vertical=from.x===to.x;if(vertical){const sign=to.y>from.y?1:-1;return `M ${from.x} ${from.y+sign*56} C ${from.x} ${from.y+sign*78}, ${to.x} ${to.y-sign*78}, ${to.x} ${to.y-sign*56}`};const sign=to.x>from.x?1:-1;const sx=from.x+sign*92,tx=to.x-sign*92;return `M ${sx} ${from.y} C ${(sx+tx)/2} ${from.y}, ${(sx+tx)/2} ${to.y}, ${tx} ${to.y}`}

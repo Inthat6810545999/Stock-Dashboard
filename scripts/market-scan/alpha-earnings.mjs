@@ -10,7 +10,6 @@ if(!key){console.log('Alpha Vantage key missing; skipping daily E snapshot.');pr
 
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const atomic=async(value)=>{const temporary=`${path}.tmp`;await writeFile(temporary,JSON.stringify(value,null,2)+'\n');await rename(temporary,path);};
-const validSymbol=symbol=>/^[A-Z0-9][A-Z0-9.-]{0,19}$/.test(symbol)&&!symbol.endsWith('.BK');
 const readJson=async file=>readFile(file,'utf8').then(JSON.parse).catch(()=>null);
 await mkdir(resolve(root,'data'),{recursive:true});
 const state=await readJson(path)??{version:1,updatedAt:null,cursor:null,symbols:{}};

@@ -10,7 +10,7 @@ const staleAfter=3*86400000;
 export function getStoredThaiEarnings(symbol:string,now=Date.now()):ThaiEarnings{
  if(!stored.updatedAt)return {events:[],status:'unavailable'};
  const entry=stored.symbols[symbol];
- const events=(entry?.events??[]).map(({newsId:_,...event})=>event);
+ const events=(entry?.events??[]).map(event=>Object.fromEntries(Object.entries(event).filter(([key])=>key!=='newsId')) as CorporateEvent);
  const stale=now-stored.updatedAt>staleAfter;
  return {events,status:stale?'stale':events.length?'available':'empty'};
 }

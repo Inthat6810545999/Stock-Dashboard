@@ -28,9 +28,9 @@ function GainerPick({stock:s,index,watchlist,onExplore,onAdd}:Props&{stock:Price
 
 export function MustWatch(props:Props){
  const [market,setMarket]=useState('us'),[result,setResult]=useState<WatchResult|null>(null),[error,setError]=useState(''),[retry,setRetry]=useState(0),[loading,setLoading]=useState(true),[quotes,setQuotes]=useState<Record<string,Quote>>({});
- useEffect(()=>{const controller=new AbortController();setLoading(true);setError('');setResult(null);setQuotes({});
+ useEffect(()=>{const controller=new AbortController();
   async function load(){try{const r=await fetch(`/api/must-watch?market=${market}`,{signal:controller.signal});const json=await r.json() as WatchResult&{error?:string};if(!r.ok)throw Error(json.error);if(!controller.signal.aborted){setResult(json);setError('')}}catch(e){if(!controller.signal.aborted)setError(e instanceof Error?e.message:'Could not load market screen')}finally{if(!controller.signal.aborted)setLoading(false)}}
-  load();const timer=setInterval(load,60000);return()=>{controller.abort();clearInterval(timer)};
+  queueMicrotask(()=>{if(controller.signal.aborted)return;setLoading(true);setError('');setResult(null);setQuotes({});void load()});const timer=setInterval(load,60000);return()=>{controller.abort();clearInterval(timer)};
  },[market,retry]);
  const symbols=[...new Set([...(result?.items||[]),...(result?.allSizes||[])].map(s=>s.symbol))].join(',');
  useEffect(()=>{if(!symbols)return;const controller=new AbortController();async function refreshQuotes(){try{const r=await fetch(`/api/watchlist?symbols=${encodeURIComponent(symbols)}`,{signal:controller.signal});if(r.ok){const q=await r.json() as Record<string,Quote>;if(!controller.signal.aborted)setQuotes(q)}}catch{ /* Preserve timestamped scan quotes when polling fails. */ }}refreshQuotes();const timer=setInterval(refreshQuotes,60000);return()=>{controller.abort();clearInterval(timer)}},[symbols]);
