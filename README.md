@@ -14,7 +14,8 @@ Open the local URL printed by the server (currently http://127.0.0.1:5173).
 ## Features
 
 - Desktop viewport layout: all dashboard panels visible at widths of at least 1000px and heights of at least 650px. Smaller screens use a stacked accessible layout.
-- Yahoo Finance stock search and watchlist additions/removals, up to 24 stocks; four cards per page. Watchlist is saved only in this browser's local storage.
+- Yahoo Finance stock search and watchlist additions/removals, up to 24 stocks; four cards per page. Signed-out watchlists stay in browser local storage; signed-in watchlists also sync to the user's Supabase account.
+- Optional Supabase login with Google OAuth or email magic links. Signed-in watchlists sync per account; setup steps and the row-level-security SQL are in [`docs/SUPABASE_LOGIN_SETUP.md`](docs/SUPABASE_LOGIN_SETUP.md).
 - Yahoo WebSocket streaming prices for the selected stock and watchlist. The quote label distinguishes regular, pre-market and after-hours sessions. Regular-session charts receive regular-session ticks only.
 - Stream reconnect with exponential backoff and 15-second subscription heartbeat. Snapshot fallback every 60 seconds. The badge shows LIVE STREAM only for the selected stock when its latest quote is under 30 seconds old; otherwise it shows waiting or reconnection status. Source timestamps remain visible. Exchange coverage and delay depend on Yahoo; streaming is not a guarantee of every exchange trade.
 - Historical price and volume, trailing and forward P/E, analyst mean target, and quarter-ended actual/estimated EPS.

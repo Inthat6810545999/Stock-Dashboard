@@ -344,3 +344,27 @@ html[data-journal-motion=off] main:after{animation-play-state:paused}
 .chart-event.event-E.outcome-beat{border-color:#76d2ad;color:#76d2ad}
 .chart-event.event-E.outcome-not-beat{border-color:#ef9690;color:#ef9690}
 .chart-event:focus-visible{outline:2px solid #dec99c;outline-offset:3px}
+.login-action,.account-action{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:34px;padding:0 12px;border:1px solid #65758a;border-radius:999px;background:#1a2b43;color:#f0e4cc;font:12px Inter,Arial,sans-serif;text-decoration:none;white-space:nowrap;cursor:pointer}.login-action:hover,.account-action:hover{background:#263d5c;border-color:#b9a77d}.account-action{color:#cbd5e3}
+@media(max-width:800px){.login-action,.account-action{min-height:38px;padding-inline:10px;font-size:11px}}
+.footer-status{padding:4px 8px;font-size:9px;letter-spacing:.8px;gap:6px;flex:none}
+@media(max-width:800px){footer .footer-status{order:4}footer>span:last-child{order:5}}
+/* Keep each masthead message inside its own column at every breakpoint. */
+.masthead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr) minmax(0,1fr);align-items:center;gap:clamp(8px,2vw,32px);overflow:hidden;background-image:none;background-color:transparent}
+.topbar{z-index:100}
+@media(min-width:768px){main{padding-top:80px}.topbar{position:fixed;inset:0 0 auto;width:100%}}
+@media(min-width:768px) and (min-height:650px){main{padding-top:60px}}
+@media(min-width:768px) and (min-height:650px) and (max-height:780px){main{padding-top:54px}}
+@media(max-width:767px){.topbar{position:sticky;top:0}}
+@media(orientation:portrait){html,body{height:auto;min-height:100%;overflow-x:clip;overflow-y:auto}main{height:auto;min-height:100dvh}}
+@media(orientation:portrait) and (min-width:768px){main{padding-top:60px}.topbar{position:fixed;inset:0 0 auto;width:100%}.page-wrap{flex:initial;min-height:0}.dashboard-grid{flex:none;min-height:auto;grid-template-rows:none;grid-auto-rows:minmax(260px,auto)}}
+@media(orientation:portrait) and (max-width:767px){main{padding-top:124px}.topbar{position:fixed;inset:0 0 auto;width:100%;z-index:100}}
+.masthead>.mast-copy{display:contents}
+.masthead>.mast-copy>.eyebrow{grid-column:1;min-width:0;max-width:100%;justify-self:start;overflow-wrap:normal;word-break:normal}
+.masthead>.mast-copy>.eyebrow,.masthead>.edition{font-family:Arial,Helvetica,sans-serif!important;letter-spacing:3px;line-height:1.8}
+.masthead>.mast-copy>.handwritten{grid-column:2;min-width:0;max-width:100%;justify-self:center;text-align:center;font-family:Georgia,'Times New Roman',serif!important;font-style:italic;transform:rotate(-5deg);overflow-wrap:normal;word-break:normal;line-height:1.05}
+.masthead>.mast-copy>.handwritten i{display:inline;padding-left:0}
+.masthead>.edition{grid-column:3;min-width:0;max-width:100%;justify-self:end;align-self:center;margin:0;overflow-wrap:normal;word-break:normal}
+@media(min-width:768px){.masthead{height:45px;min-height:45px}}
+@media(min-width:1101px) and (min-height:650px){.masthead>.mast-copy>.handwritten{line-height:1.05}}
+main:before{background-image:linear-gradient(90deg,#eadcc52b 0 2px,transparent 2px calc(100% - 2px),#eadcc52b calc(100% - 2px)),linear-gradient(90deg,#101c30c9 0%,#101c307a 46%,#101c3038 76%,#101c3094 100%),url('/collage-header.png');background-position:center,center,right center;background-size:100% 100%,100% 100%,auto 100vh;background-repeat:no-repeat;opacity:.96}
+@media(max-width:600px){.masthead{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}.masthead>.edition{display:none}.masthead>.mast-copy>.handwritten{justify-self:center}}
