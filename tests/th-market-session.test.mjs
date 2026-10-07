@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {getThaiScanWindow,isThaiQuoteUsable} from '../lib/th-market-session.ts';
+import {getThaiScanWindow,getThaiTargetTradingDay,isThaiQuoteUsable} from '../lib/th-market-session.ts';
 
 const ict=(day,hour,minute)=>new Date(Date.UTC(2026,9,day,hour-7,minute));
 assert.equal(getThaiScanWindow(ict(8,9,59)),'closed');
@@ -20,4 +20,9 @@ assert.equal(isThaiQuoteUsable('regular','CLOSED',today,now),false);
 assert.equal(isThaiQuoteUsable('closing','POST',today,now),true);
 assert.equal(isThaiQuoteUsable('closing','CLOSED',yesterday,now),false);
 assert.equal(isThaiQuoteUsable('closed','REGULAR',today,now),false);
+assert.equal(getThaiTargetTradingDay('regular',today,now),'2026-10-08');
+assert.equal(getThaiTargetTradingDay('closing',today,now),'2026-10-08');
+assert.equal(getThaiTargetTradingDay('regular',yesterday,now),null);
+assert.equal(getThaiTargetTradingDay('closed',yesterday,now),'2026-10-07');
+assert.equal(getThaiTargetTradingDay('closed',null,now),null);
 console.log('PASS: Thai weekday sessions, lunch break, closing snapshot and stale-quote rejection');

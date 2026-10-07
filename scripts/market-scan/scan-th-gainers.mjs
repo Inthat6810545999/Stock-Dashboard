@@ -2,7 +2,7 @@ import YahooFinance from 'yahoo-finance2';
 import {readFile,writeFile,rename} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {discoverUniverse} from './universe.mjs';
-import {getThaiScanWindow,isThaiQuoteUsable} from '../../lib/th-market-session.ts';
+import {getThaiScanWindow,getThaiTargetTradingDay,isThaiQuoteUsable} from '../../lib/th-market-session.ts';
 import {rankTodayGainers} from '../../lib/today-gainers.ts';
 
 const root=resolve(import.meta.dirname,'../..');
@@ -25,15 +25,14 @@ if(window==='closed'&&!force){
 }
 
 const yahoo=new YahooFinance({suppressNotices:['yahooSurvey'],validation:{logErrors:false}});
-let benchmark;
-if(!force){
- benchmark=await retry(()=>yahoo.quote('^SET.BK',{}, {validateResult:false})).catch(error=>{console.warn(`SET market-state check unavailable: ${String(error).slice(0,180)}`);return null});
- const benchmarkTime=benchmark?.regularMarketTime?new Date(benchmark.regularMarketTime).getTime():null;
- if(!isThaiQuoteUsable(window,benchmark?.marketState,benchmarkTime)){
-  console.log(`Yahoo reports SET state ${benchmark?.marketState||'unavailable'} without a usable current-session index quote; leaving the latest Thai gainer snapshot unchanged.`);
-  process.exit(0);
- }
+const benchmark=await retry(()=>yahoo.quote('^SET.BK',{}, {validateResult:false})).catch(error=>{console.warn(`SET market-state check unavailable: ${String(error).slice(0,180)}`);return null});
+const benchmarkTime=benchmark?.regularMarketTime?new Date(benchmark.regularMarketTime).getTime():null;
+const targetTradingDay=getThaiTargetTradingDay(window,benchmarkTime);
+if(!targetTradingDay||(!force&&!isThaiQuoteUsable(window,benchmark?.marketState,benchmarkTime))||(force&&window!=='closed'&&!isThaiQuoteUsable(window,benchmark?.marketState,benchmarkTime))){
+ console.log(`Yahoo reports SET state ${benchmark?.marketState||'unavailable'} without a usable ${window==='closed'?'latest':'current-session'} index quote; leaving the latest Thai gainer snapshot unchanged.`);
+ process.exit(0);
 }
+if(window==='closed')console.log(`Manual scan outside SET hours; using latest available trading session ${targetTradingDay} ICT.`);
 
 const previous=JSON.parse(await readFile(output,'utf8'));
 const universe=await discoverUniverse('th');
@@ -46,7 +45,7 @@ for(let offset=0;offset<universe.rows.length;offset+=80){
   for(const row of batch){
    const quote=bySymbol.get(row.symbol),price=num(quote?.regularMarketPrice),previousClose=num(quote?.regularMarketPreviousClose);
    const timestamp=quote?.regularMarketTime?new Date(quote.regularMarketTime).getTime():NaN;
-   if(price===null||price<=0||previousClose===null||previousClose<=0||!Number.isFinite(timestamp)||dayInBangkok(new Date(timestamp))!==dayInBangkok(new Date())){missing++;continue;}
+   if(price===null||price<=0||previousClose===null||previousClose<=0||!Number.isFinite(timestamp)||dayInBangkok(new Date(timestamp))!==targetTradingDay){missing++;continue;}
    eligible++;
    const percent=(price/previousClose-1)*100;
    if(percent>0)rows.push({symbol:row.symbol,name:quote.longName||quote.shortName||row.name||row.symbol,currency:quote.currency||'THB',price,previousClose,timestamp,percent});
@@ -62,7 +61,7 @@ for(let offset=0;offset<universe.rows.length;offset+=80){
 
 if(failed>universe.rows.length*.25)throw Error(`Yahoo quote outage: ${failed}/${universe.rows.length} symbols failed. Keeping the last published Thai ranking.`);
 const updatedAt=Date.now(),todayGainers=rankTodayGainers(rows),todayCandidates=rankTodayGainers(rows,30);
-const todayScan={total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full SET/mai universe',updatedAt};
+const todayScan={total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full SET/mai universe',sessionDate:targetTradingDay,updatedAt};
 const result={...previous,todayGainers,todayCandidates,todayScan,todayGainersSource:'Yahoo Finance · full SET/mai universe',todayGainersUpdatedAt:updatedAt};
 const temp=output+'.tmp';await writeFile(temp,JSON.stringify(result,null,2)+'\n');await rename(temp,output);
 console.log(`Published ${todayGainers.length} Thai daily gainers from ${universe.rows.length} SET/mai symbols at ${new Date(updatedAt).toISOString()}.`);

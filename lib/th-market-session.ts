@@ -1,5 +1,7 @@
 export type ThaiScanWindow='regular'|'closing'|'closed';
 
+const thaiDate=(date:Date)=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
+
 /** Thailand time has no daylight-saving changes. The hourly workflow runs at :05 ICT. */
 export function getThaiScanWindow(date=new Date()):ThaiScanWindow{
  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Bangkok',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(date);
@@ -16,6 +18,17 @@ export function isThaiQuoteUsable(window:ThaiScanWindow,marketState:string|undef
  if(window==='closed'||timestamp===null||!Number.isFinite(timestamp))return false;
  if(window==='regular')return marketState==='REGULAR';
  if(marketState==='REGULAR')return false;
- const date=(value:Date)=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(value);
- return date(new Date(timestamp))===date(now);
+ return thaiDate(new Date(timestamp))===thaiDate(now);
+}
+
+/**
+ * Pick the session date to compare constituent quotes against. A manually
+ * triggered scan outside SET hours uses the latest date reported by the SET
+ * index; in-session scans must still use today's session.
+ */
+export function getThaiTargetTradingDay(window:ThaiScanWindow,benchmarkTimestamp:number|null,now=new Date()):string|null{
+ if(benchmarkTimestamp===null||!Number.isFinite(benchmarkTimestamp))return null;
+ const benchmarkDay=thaiDate(new Date(benchmarkTimestamp));
+ if(window==='closed')return benchmarkDay;
+ return benchmarkDay===thaiDate(now)?benchmarkDay:null;
 }
