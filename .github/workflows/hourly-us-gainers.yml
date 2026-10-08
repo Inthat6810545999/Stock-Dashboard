@@ -1,13 +1,10 @@
 name: Hourly US biggest gainers
 on:
-  schedule:
-    # Retry a dropped trigger every 10 minutes; the scanner publishes once per hourly slot.
-    - cron: '35,45,55 9 * * 1-5' # Opening snapshot: 09:35 New York time
-      timezone: 'America/New_York'
-    - cron: '5,15,25,35,45,55 10-15 * * 1-5'
-      timezone: 'America/New_York'
-    - cron: '5,10 16 * * 1-5' # Final closing snapshot at 16:05, retry before the closing gate ends
-      timezone: 'America/New_York'
+  workflow_call:
+    inputs:
+      scheduled:
+        type: boolean
+        default: false
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,6 +17,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -27,7 +26,7 @@ jobs:
       - run: npm ci --ignore-scripts
       - name: Scan every US exchange-listed symbol with Yahoo Finance
         env:
-          GAINER_SCHEDULED: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
+          GAINER_SCHEDULED: ${{ inputs.scheduled && 'true' || 'false' }}
         run: node --experimental-strip-types scripts/market-scan/scan-us-gainers.mjs
       - name: Validate published ranking
         run: node scripts/market-scan/check.mjs

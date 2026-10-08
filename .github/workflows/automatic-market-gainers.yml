@@ -1,0 +1,37 @@
+name: Automatic market gainers
+on:
+  schedule:
+    # UTC covers SET hours and both EDT/EST. The gate checks exchange time and published slots.
+    - cron: '5,15,25,35,45,55 3-21 * * 1-5'
+    - cron: '10 20,21 * * 1-5' # Retry the US closing slot before its window ends.
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  due:
+    runs-on: ubuntu-latest
+    outputs:
+      us: ${{ steps.slots.outputs.us }}
+      th: ${{ steps.slots.outputs.th }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check market hours and unpublished hourly slots
+        id: slots
+        run: node --experimental-strip-types scripts/market-scan/due-gainer-scans.mjs
+  us:
+    needs: due
+    if: needs.due.outputs.us == 'true'
+    uses: ./.github/workflows/hourly-us-gainers.yml
+    with:
+      scheduled: true
+  th:
+    needs: due
+    if: needs.due.outputs.th == 'true'
+    uses: ./.github/workflows/hourly-th-gainers.yml
+    with:
+      scheduled: true

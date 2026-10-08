@@ -27,3 +27,13 @@ Lunch, weekends, market-state checks and the existing closing-window limits rema
 - A real local scheduled US scan checked all 5,471 symbols; a second invocation skipped the already-published slot.
 - A scheduled Thai invocation outside trading hours skipped before network requests.
 - Snapshot validation, ESLint and TypeScript checks pass.
+
+## Follow-up at 23:53 ICT
+
+The published retry configuration also produced no scheduled events: the latest US run was still the 22:40 manual test. The expected 23:05 slot and 23:15–23:45 retry events were absent. Thus neither resetting the workflows nor adding retry cron entries has been verified to restore automatic execution. GitHub's timezone syntax is documented as supported; this is not evidence that the syntax is invalid.
+
+Prepared a new `Automatic market gainers` workflow registration using UTC cron. It calls the existing scanners as reusable workflows after a dependency-free gate checks the exchange session and persisted slot. The old workflows keep their manual entry points and no longer own cron entries. Look for automatic runs under the new workflow name after publishing this change. The broad UTC window covers Thai sessions and both US daylight-saving offsets; closed markets exit in the gate before package installation or Yahoo requests.
+
+Each scanner now checks out the latest `main` after acquiring the publication lock. A queued invocation therefore sees the slot marker published by the preceding run instead of an older event commit. This prevents duplicate scans from delayed events that were queued with the same commit.
+
+Local verification: the gate reports US slot 12:05 due and Thailand closed; existing slot tests, YAML parsing, ESLint and diff checks pass. The exact internal reason GitHub omitted the earlier schedule events remains unconfirmed. A new registration is a recovery attempt, and requires an actual scheduled run before it can be called successful.
