@@ -1,9 +1,9 @@
 name: Hourly Thai biggest gainers
 on:
   schedule:
-    - cron: '5 3-5 * * 1-5' # 10:05, 11:05 and 12:05 ICT
-    - cron: '35 7 * * 1-5' # 14:35 ICT, after the lunch break
-    - cron: '5 8-10 * * 1-5' # 15:05, 16:05 and final 17:05 ICT scan
+    - cron: '17 3-5 * * 1-5' # 10:17, 11:17 and 12:17 ICT
+    - cron: '47 7 * * 1-5' # 14:47 ICT, after the lunch break
+    - cron: '17 8-10 * * 1-5' # 15:17, 16:17 and final 17:17 ICT scan
   workflow_dispatch:
 permissions:
   contents: write

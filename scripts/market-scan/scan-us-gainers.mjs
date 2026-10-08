@@ -17,19 +17,17 @@ async function retry(fn){
 }
 
 const scanWindow=getUsScanWindow();
-if(scanWindow==='closed'&&process.env.FORCE_MARKET_SCAN!=='true'){
+if(scanWindow==='closed'){
  console.log('US regular session is closed; leaving the latest gainer snapshot unchanged.');
  process.exit(0);
 }
 
 const yahoo=new YahooFinance({suppressNotices:['yahooSurvey'],validation:{logErrors:false}});
-if(process.env.FORCE_MARKET_SCAN!=='true'){
- const marketState=await retry(()=>yahoo.quote('SPY',{}, {validateResult:false})).then(quote=>quote.marketState).catch(()=>null);
- const expectedState=scanWindow==='closing'?'POST':'REGULAR';
- if(marketState!==expectedState){
-  console.log(`Yahoo reports the US market state as ${marketState||'unavailable'}; leaving the latest gainer snapshot unchanged.`);
-  process.exit(0);
- }
+const marketState=await retry(()=>yahoo.quote('SPY',{}, {validateResult:false})).then(quote=>quote.marketState).catch(()=>null);
+const expectedState=scanWindow==='closing'?'POST':'REGULAR';
+if(marketState!==expectedState){
+ console.log(`Yahoo reports the US market state as ${marketState||'unavailable'}; leaving the latest gainer snapshot unchanged.`);
+ process.exit(0);
 }
 
 const previous=JSON.parse(await readFile(output,'utf8'));

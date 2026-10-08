@@ -1,7 +1,7 @@
 name: Hourly US biggest gainers
 on:
   schedule:
-    - cron: '5 * * * 1-5' # Script exits outside the US regular market session.
+    - cron: '17 13-21 * * 1-5' # UTC window covering US market hours in both DST and standard time; script gates exact session hours.
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,8 +20,6 @@ jobs:
           cache: npm
       - run: npm ci --ignore-scripts
       - name: Scan every US exchange-listed symbol with Yahoo Finance
-        env:
-          FORCE_MARKET_SCAN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: node --experimental-strip-types scripts/market-scan/scan-us-gainers.mjs
       - name: Validate published ranking
         run: node scripts/market-scan/check.mjs
