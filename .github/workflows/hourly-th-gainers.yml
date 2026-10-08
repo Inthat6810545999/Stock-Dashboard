@@ -1,11 +1,16 @@
 name: Hourly Thai biggest gainers
 on:
   schedule:
-    - cron: '5 10-12 * * 1-5' # Morning session: 10:05, 11:05, 12:05 ICT
+    # Retry missed events; successful target slots are persisted to prevent repeat scans.
+    - cron: '5,15,25,35,45,55 10-11 * * 1-5'
       timezone: 'Asia/Bangkok'
-    - cron: '35 14 * * 1-5' # Afternoon opening: 14:35 ICT
+    - cron: '5,15,25 12 * * 1-5' # Last morning slot: 12:05, then lunch
       timezone: 'Asia/Bangkok'
-    - cron: '5 15-17 * * 1-5' # 15:05, 16:05 and final closing snapshot at 17:05 ICT
+    - cron: '35,45,55 14 * * 1-5' # Afternoon opening: 14:35 ICT
+      timezone: 'Asia/Bangkok'
+    - cron: '5,15,25,35,45,55 15,17 * * 1-5'
+      timezone: 'Asia/Bangkok'
+    - cron: '5,15,25 16 * * 1-5' # Last regular slot: 16:05; final closing slot: 17:05
       timezone: 'Asia/Bangkok'
   workflow_dispatch:
 permissions:
@@ -26,6 +31,7 @@ jobs:
       - run: npm ci --ignore-scripts
       - name: Scan the full SET/mai universe with Yahoo Finance
         env:
+          GAINER_SCHEDULED: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
           FORCE_MARKET_SCAN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: node --experimental-strip-types scripts/market-scan/scan-th-gainers.mjs
       - name: Validate published ranking

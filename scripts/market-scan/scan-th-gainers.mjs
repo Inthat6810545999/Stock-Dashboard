@@ -4,6 +4,7 @@ import {resolve} from 'node:path';
 import {discoverUniverse} from './universe.mjs';
 import {getThaiScanWindow,getThaiTargetTradingDay,isThaiQuoteUsable} from '../../lib/th-market-session.ts';
 import {rankTodayGainers} from '../../lib/today-gainers.ts';
+import {getDueGainerSlot} from './gainer-schedule.mjs';
 
 const root=resolve(import.meta.dirname,'../..');
 const output=resolve(root,'data/must-watch-th.json');
@@ -19,6 +20,12 @@ async function retry(fn){
 
 const force=process.env.FORCE_MARKET_SCAN==='true';
 const window=getThaiScanWindow();
+const previous=JSON.parse(await readFile(output,'utf8'));
+const scheduledSlot=getDueGainerSlot('th');
+if(process.env.GAINER_SCHEDULED==='true'&&(!scheduledSlot||previous.todayScan?.scheduledSlot===scheduledSlot)){
+ console.log(`Scheduled Thai scan skipped: ${scheduledSlot?'this hourly slot is already published':'no trading slot is due'}.`);
+ process.exit(0);
+}
 if(window==='closed'&&!force){
  console.log('SET/mai session is closed; leaving the latest Thai gainer snapshot unchanged.');
  process.exit(0);
@@ -34,7 +41,6 @@ if(!targetTradingDay||(!force&&!isThaiQuoteUsable(window,benchmark?.marketState,
 }
 if(window==='closed')console.log(`Manual scan outside SET hours; using latest available trading session ${targetTradingDay} ICT.`);
 
-const previous=JSON.parse(await readFile(output,'utf8'));
 const universe=await discoverUniverse('th');
 const rows=[];let eligible=0,processed=0,missing=0,failed=0;
 for(let offset=0;offset<universe.rows.length;offset+=80){
@@ -61,7 +67,7 @@ for(let offset=0;offset<universe.rows.length;offset+=80){
 
 if(failed>universe.rows.length*.25)throw Error(`Yahoo quote outage: ${failed}/${universe.rows.length} symbols failed. Keeping the last published Thai ranking.`);
 const updatedAt=Date.now(),todayGainers=rankTodayGainers(rows),todayCandidates=rankTodayGainers(rows,30);
-const todayScan={total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full SET/mai universe',sessionDate:targetTradingDay,updatedAt};
+const todayScan={total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full SET/mai universe',sessionDate:targetTradingDay,...(scheduledSlot?{scheduledSlot}:{}),updatedAt};
 const result={...previous,todayGainers,todayCandidates,todayScan,todayGainersSource:'Yahoo Finance · full SET/mai universe',todayGainersUpdatedAt:updatedAt};
 const temp=output+'.tmp';await writeFile(temp,JSON.stringify(result,null,2)+'\n');await rename(temp,output);
 console.log(`Published ${todayGainers.length} Thai daily gainers from ${universe.rows.length} SET/mai symbols at ${new Date(updatedAt).toISOString()}.`);

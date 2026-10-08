@@ -4,6 +4,7 @@ import {resolve} from 'node:path';
 import {discoverUniverse} from './universe.mjs';
 import {getUsScanWindow} from '../../lib/us-market-session.ts';
 import {rankTodayGainers} from '../../lib/today-gainers.ts';
+import {getDueGainerSlot} from './gainer-schedule.mjs';
 
 const root=resolve(import.meta.dirname,'../..');
 const output=resolve(root,'data/must-watch-us.json');
@@ -17,6 +18,12 @@ async function retry(fn){
 }
 
 const scanWindow=getUsScanWindow();
+const previous=JSON.parse(await readFile(output,'utf8'));
+const scheduledSlot=getDueGainerSlot('us');
+if(process.env.GAINER_SCHEDULED==='true'&&(!scheduledSlot||previous.todayScan?.scheduledSlot===scheduledSlot)){
+ console.log(`Scheduled US scan skipped: ${scheduledSlot?'this hourly slot is already published':'no trading slot is due'}.`);
+ process.exit(0);
+}
 if(scanWindow==='closed'){
  console.log('US regular session is closed; leaving the latest gainer snapshot unchanged.');
  process.exit(0);
@@ -30,7 +37,6 @@ if(marketState!==expectedState){
  process.exit(0);
 }
 
-const previous=JSON.parse(await readFile(output,'utf8'));
 const universe=await discoverUniverse('us');
 const gainers=[];
 let eligible=0;
@@ -67,7 +73,7 @@ if(failed>universe.rows.length*0.25)throw Error(`Yahoo quote outage: ${failed}/$
 const updatedAt=Date.now();
 const todayGainers=rankTodayGainers(gainers);
 const todayCandidates=rankTodayGainers(gainers,30);
-const result={...previous,todayGainers,todayCandidates,todayScan:{total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full US exchange-listed universe',updatedAt},todayGainersSource:'Yahoo Finance · full US exchange-listed universe',todayGainersUpdatedAt:updatedAt};
+const result={...previous,todayGainers,todayCandidates,todayScan:{total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full US exchange-listed universe',...(scheduledSlot?{scheduledSlot}:{}),updatedAt},todayGainersSource:'Yahoo Finance · full US exchange-listed universe',todayGainersUpdatedAt:updatedAt};
 const temp=output+'.tmp';
 await writeFile(temp,JSON.stringify(result,null,2)+'\n');
 await rename(temp,output);
