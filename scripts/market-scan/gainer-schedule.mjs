@@ -11,7 +11,7 @@ export function getDueGainerSlot(market,now=new Date()){
  const minute=Number(part('hour'))*60+Number(part('minute'));
  if(window==='closing'&&minute<(market==='us'?965:1025))return null;
  if(market==='th'&&minute>=870&&minute<875)return null;
- const slots=market==='us'?[575,605,665,725,785,845,905,965]:[605,665,725,875,905,965,1025];
+ const slots=market==='us'?[575,605,665,725,785,845,905,965,975]:[605,665,725,875,905,965,1025];
  const slot=slots.filter(value=>value<=minute).at(-1);
  if(slot===undefined)return null;
  return `${part('year')}-${part('month')}-${part('day')}T${String(Math.floor(slot/60)).padStart(2,'0')}:${String(slot%60).padStart(2,'0')}[${timeZone}]`;

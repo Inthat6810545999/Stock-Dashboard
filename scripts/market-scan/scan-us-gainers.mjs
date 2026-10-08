@@ -31,7 +31,7 @@ if(scanWindow==='closed'){
 
 const yahoo=new YahooFinance({suppressNotices:['yahooSurvey'],validation:{logErrors:false}});
 const marketState=await retry(()=>yahoo.quote('SPY',{}, {validateResult:false})).then(quote=>quote.marketState).catch(()=>null);
-const expectedState=scanWindow==='closing'?'POST':'REGULAR';
+const expectedState=scanWindow==='regular'?'REGULAR':'POST';
 if(marketState!==expectedState){
  console.log(`Yahoo reports the US market state as ${marketState||'unavailable'}; leaving the latest gainer snapshot unchanged.`);
  process.exit(0);
@@ -73,7 +73,9 @@ if(failed>universe.rows.length*0.25)throw Error(`Yahoo quote outage: ${failed}/$
 const updatedAt=Date.now();
 const todayGainers=rankTodayGainers(gainers);
 const todayCandidates=rankTodayGainers(gainers,30);
-const result={...previous,todayGainers,todayCandidates,todayScan:{total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full US exchange-listed universe',...(scheduledSlot?{scheduledSlot}:{}),updatedAt},todayGainersSource:'Yahoo Finance · full US exchange-listed universe',todayGainersUpdatedAt:updatedAt};
+const closingConfirmation=scanWindow==='reconcile';
+const source=closingConfirmation?'Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close':'Yahoo Finance · full US exchange-listed universe';
+const result={...previous,todayGainers,todayCandidates,todayScan:{total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source,priceBasis:'regular-session price vs previous regular-session close',...(closingConfirmation?{closingConfirmation:true}:{}),...(scheduledSlot?{scheduledSlot}:{}),updatedAt},todayGainersSource:source,todayGainersUpdatedAt:updatedAt};
 const temp=output+'.tmp';
 await writeFile(temp,JSON.stringify(result,null,2)+'\n');
 await rename(temp,output);

@@ -11,7 +11,11 @@ assert.equal(us('2026-10-08T14:04:00Z'),opening);
 assert.notEqual(us('2026-10-08T14:05:00Z'),opening);
 assert.equal(us('2026-01-08T14:35:00Z'),'2026-01-08T09:35[America/New_York]'); // DST.
 assert.equal(us('2026-10-08T20:10:00Z'),'2026-10-08T16:05[America/New_York]');
-assert.equal(us('2026-10-08T20:15:00Z'),null);
+assert.equal(us('2026-10-08T20:15:00Z'),'2026-10-08T16:15[America/New_York]');
+assert.equal(us('2026-10-08T20:24:00Z'),'2026-10-08T16:15[America/New_York]');
+assert.equal(us('2026-10-08T20:34:00Z'),'2026-10-08T16:15[America/New_York]');
+assert.equal(us('2026-10-08T20:35:00Z'),null);
+assert.equal(us('2026-01-08T21:15:00Z'),'2026-01-08T16:15[America/New_York]'); // Winter close confirmation, DST-aware.
 assert.equal(us('2026-10-10T14:05:00Z'),null);
 assert.equal(th(10,4),null);
 assert.equal(th(10,5),'2026-10-08T10:05[Asia/Bangkok]');

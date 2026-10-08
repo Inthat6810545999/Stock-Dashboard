@@ -12,7 +12,7 @@ On 9 October 2026 at 00:35 ICT, the installed `moonstar-market-gainers` job ran 
 4. Run [`market_gainers_activate.sql`](../supabase/market_gainers_activate.sql) in the same project. The named job is idempotent: running `cron.schedule` again with the same name updates that job. **Already done in this project.**
 5. Test with `select moonstar_private.dispatch_market_gainers();` in SQL Editor. After the transaction commits, check `select id, status_code, error_msg, created from net._http_response order by created desc limit 10;`. HTTP **204** confirms GitHub accepted the dispatch request. Check GitHub Actions for a new `workflow_dispatch` run, then check whether the gate found a market slot due. Outside market hours, a successful gate will intentionally skip scanning.
 
-The Cron job fires every ten minutes between 03:05 and 21:55 UTC on weekdays. The GitHub gate permits only target slots: Thai 10:05, 11:05, 12:05, 14:35, 15:05, 16:05 and 17:05 ICT; US 09:35 then hourly 10:05–16:05 New York time, including DST changes. Repeated dispatches in a slot do not publish duplicates. The separate daily YoY/growth scan stays on its existing schedule.
+The Cron job fires every ten minutes between 03:05 and 21:55 UTC on weekdays. The GitHub gate permits only target slots: Thai 10:05, 11:05, 12:05, 14:35, 15:05, 16:05 and 17:05 ICT; US 09:35 then hourly 10:05–16:05 New York time, including DST changes, plus a separate full-universe regular-session close confirmation starting at 16:15 New York time. Retries through 16:34 share that one confirmation slot, so a retry cannot publish duplicates. The separate daily YoY/growth scan stays on its existing schedule.
 
 ## Monitoring
 
