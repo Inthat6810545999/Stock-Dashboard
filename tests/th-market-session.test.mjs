@@ -10,6 +10,8 @@ assert.equal(getThaiScanWindow(ict(8,14,5)),'closed');
 assert.equal(getThaiScanWindow(ict(8,14,35)),'regular');
 assert.equal(getThaiScanWindow(ict(8,16,5)),'regular');
 assert.equal(getThaiScanWindow(ict(8,17,5)),'closing');
+assert.equal(getThaiScanWindow(ict(8,17,15)),'closing');
+assert.equal(getThaiScanWindow(ict(8,18,0)),'closed');
 assert.equal(getThaiScanWindow(ict(9,10,5)),'regular');
 assert.equal(getThaiScanWindow(ict(10,10,5)),'closed');
 assert.equal(getThaiScanWindow(ict(11,10,5)),'closed');

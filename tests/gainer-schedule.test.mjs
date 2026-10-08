@@ -25,5 +25,8 @@ assert.equal(th(12,30),null);
 assert.equal(th(14,34),null);
 assert.equal(th(14,35),'2026-10-08T14:35[Asia/Bangkok]');
 assert.equal(th(16,30),null);
-assert.equal(th(17,55),'2026-10-08T17:05[Asia/Bangkok]');
+assert.equal(th(17,5),'2026-10-08T17:05[Asia/Bangkok]');
+assert.equal(th(17,14),'2026-10-08T17:05[Asia/Bangkok]');
+assert.equal(th(17,15),'2026-10-08T17:15[Asia/Bangkok]');
+assert.equal(th(17,55),'2026-10-08T17:15[Asia/Bangkok]'); // Closing confirmation retries share one slot.
 console.log('PASS: hourly slots, delayed retries, DST, lunch and market closure');

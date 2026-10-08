@@ -67,7 +67,9 @@ for(let offset=0;offset<universe.rows.length;offset+=80){
 
 if(failed>universe.rows.length*.25)throw Error(`Yahoo quote outage: ${failed}/${universe.rows.length} symbols failed. Keeping the last published Thai ranking.`);
 const updatedAt=Date.now(),todayGainers=rankTodayGainers(rows),todayCandidates=rankTodayGainers(rows,30);
-const todayScan={total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source:'Yahoo Finance · full SET/mai universe',sessionDate:targetTradingDay,...(scheduledSlot?{scheduledSlot}:{}),updatedAt};
-const result={...previous,todayGainers,todayCandidates,todayScan,todayGainersSource:'Yahoo Finance · full SET/mai universe',todayGainersUpdatedAt:updatedAt};
+const closingConfirmation=window==='closing'&&scheduledSlot?.includes('T17:15');
+const source=closingConfirmation?'Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close':'Yahoo Finance · full SET/mai universe';
+const todayScan={total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source,priceBasis:'regular-session price vs previous regular-session close',...(closingConfirmation?{closingConfirmation:true}:{}),sessionDate:targetTradingDay,...(scheduledSlot?{scheduledSlot}:{}),updatedAt};
+const result={...previous,todayGainers,todayCandidates,todayScan,todayGainersSource:source,todayGainersUpdatedAt:updatedAt};
 const temp=output+'.tmp';await writeFile(temp,JSON.stringify(result,null,2)+'\n');await rename(temp,output);
 console.log(`Published ${todayGainers.length} Thai daily gainers from ${universe.rows.length} SET/mai symbols at ${new Date(updatedAt).toISOString()}.`);
