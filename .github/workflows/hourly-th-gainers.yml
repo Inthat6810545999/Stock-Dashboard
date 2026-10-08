@@ -1,9 +1,12 @@
 name: Hourly Thai biggest gainers
 on:
   schedule:
-    - cron: '17 3-5 * * 1-5' # 10:17, 11:17 and 12:17 ICT
-    - cron: '47 7 * * 1-5' # 14:47 ICT, after the lunch break
-    - cron: '17 8-10 * * 1-5' # 15:17, 16:17 and final 17:17 ICT scan
+    - cron: '5 10-12 * * 1-5' # Morning session: 10:05, 11:05, 12:05 ICT
+      timezone: 'Asia/Bangkok'
+    - cron: '35 14 * * 1-5' # Afternoon opening: 14:35 ICT
+      timezone: 'Asia/Bangkok'
+    - cron: '5 15-17 * * 1-5' # 15:05, 16:05 and final closing snapshot at 17:05 ICT
+      timezone: 'Asia/Bangkok'
   workflow_dispatch:
 permissions:
   contents: write

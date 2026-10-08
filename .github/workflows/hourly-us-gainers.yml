@@ -1,7 +1,10 @@
 name: Hourly US biggest gainers
 on:
   schedule:
-    - cron: '17 13-21 * * 1-5' # UTC window covering US market hours in both DST and standard time; script gates exact session hours.
+    - cron: '35 9 * * 1-5' # Opening snapshot: 09:35 New York time
+      timezone: 'America/New_York'
+    - cron: '5 10-16 * * 1-5' # Hourly during trading, plus final closing snapshot at 16:05
+      timezone: 'America/New_York'
   workflow_dispatch:
 permissions:
   contents: write
