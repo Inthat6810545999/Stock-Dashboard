@@ -123,3 +123,21 @@ html,body{height:100%;overflow:hidden}main{height:100dvh;display:flex;flex-direc
 .session-quotes{display:flex;justify-content:flex-end;align-items:flex-start;margin:2px 0 12px;padding:0 2px;color:#b5c0d0;font-size:12px}.extended-session-quote{display:grid;gap:3px;margin-left:auto;text-align:right;justify-items:end}.session-quotes>div>span{color:#c5cddd;font-size:12px}.session-quotes strong{color:#f1e7d6;font-size:16px;font-weight:600;white-space:nowrap}.session-quotes em{font-size:13px;font-style:normal;font-weight:600}.session-quotes .positive{color:#65c6a6}.session-quotes .negative{color:#ed8581}
 
 .price-row>.session-quotes{flex:0 0 auto;align-self:center;margin:0 auto;padding:0 4px}.price-row .extended-session-quote{gap:2px}.price-row .session-quotes>div>span{font-size:11px;line-height:1.2}.price-row .session-quotes strong{font-size:14px}.price-row .session-quotes em{font-size:12px}
+
+.service-legal-links{display:flex;flex-wrap:wrap;gap:10px;font-size:11px}.service-legal-links a{text-decoration:underline;text-underline-offset:3px}
+/* Readable footer with privacy controls in the normal layout flow. */
+.page-wrap footer{height:auto;min-height:44px;display:flex;flex-wrap:wrap;gap:10px 20px;padding:10px 14px;color:#eee5d6;background:#101c30f2;border-radius:12px;line-height:1.5;letter-spacing:.3px}
+.page-wrap footer>span,.page-wrap footer button,.page-wrap footer .service-legal-links{color:#eee5d6;font-size:12px}
+.page-wrap footer>span{min-width:0;overflow-wrap:anywhere}
+.page-wrap footer>span:last-child{color:#c6d2e2;font-size:11px}
+.page-wrap footer .service-legal-links{gap:10px 16px;align-items:center}
+.page-wrap footer .service-legal-links a{color:#f4e8ce;text-decoration-color:#cbb78e}
+.page-wrap footer .footer-privacy{padding:5px 10px;border:1px solid #8194ad;border-radius:8px;background:#20334d;color:#fff0d3;min-height:30px;letter-spacing:0}
+body:has(.page-wrap)>.privacy-settings,body:has(.page-wrap) .privacy-settings{display:none}
+@media(max-width:760px){.page-wrap footer{gap:10px 14px;padding:12px}.page-wrap footer .service-legal-links{width:100%;gap:10px 14px}.page-wrap footer>span:last-child{width:100%}}
+.page-wrap footer.journal-footer{height:36px!important;min-height:36px!important;max-height:36px;padding:4px 8px!important;flex-wrap:nowrap!important;gap:16px!important;background:#101c30f2!important;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;white-space:nowrap;flex-shrink:0}
+.page-wrap footer.journal-footer>*{flex-shrink:0;width:auto!important}
+.page-wrap footer.journal-footer>span,.page-wrap footer.journal-footer button,.page-wrap footer.journal-footer .service-legal-links{font-size:11px!important;color:#f2e8d7!important;line-height:1.3!important}
+.page-wrap footer.journal-footer .service-legal-links{flex-wrap:nowrap!important;gap:12px!important}
+.page-wrap footer.journal-footer .footer-privacy{min-height:26px!important;padding:3px 8px!important}
+body:has(footer.journal-footer) .privacy-settings{display:none!important}
