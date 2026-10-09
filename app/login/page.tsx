@@ -1,21 +1,4 @@
-'use client';
-import {useState} from 'react';
-import Link from 'next/link';
-import {ArrowLeft, CheckCircle2} from 'lucide-react';
-import {getSupabaseBrowserClient} from '@/lib/supabase-browser';
+import {AuthCard} from '@/components/auth/auth-card';
 import './login.css';
 
-function GoogleMark(){return <svg aria-hidden="true" viewBox="0 0 48 48" width="20" height="20"><path fill="#4285F4" d="M43.6 24.5c0-1.4-.1-2.8-.4-4.1H24v7.8h11a9.4 9.4 0 0 1-4.1 6.2v5.1h6.7c3.9-3.6 6-8.8 6-15Z"/><path fill="#34A853" d="M24 44c5.5 0 10.1-1.8 13.5-4.8l-6.7-5.1c-1.8 1.2-4 1.9-6.8 1.9-5.2 0-9.6-3.5-11.2-8.2H5.9v5.2A20 20 0 0 0 24 44Z"/><path fill="#FBBC05" d="M12.8 27.8a12 12 0 0 1 0-7.6V15H5.9a20 20 0 0 0 0 18Z"/><path fill="#EA4335" d="M24 12.1c3 0 5.7 1 7.8 3.1l5.9-5.9A19.7 19.7 0 0 0 24 4 20 20 0 0 0 5.9 15l6.9 5.2c1.6-4.7 6-8.1 11.2-8.1Z"/></svg>}
-
-export default function LoginPage(){
-  const [email,setEmail]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[error,setError]=useState('');
-  async function continueWithGoogle(){
-    const supabase=getSupabaseBrowserClient();if(!supabase){setError('Login is not configured yet. Add the Supabase URL and anon key to the environment variables.');return}
-    setBusy(true);setError('');const {error}=await supabase.auth.signInWithOAuth({provider:'google',options:{redirectTo:`${window.location.origin}/auth/callback`}});if(error){setError(error.message);setBusy(false)}
-  }
-  async function continueWithEmail(e:React.FormEvent<HTMLFormElement>){
-    e.preventDefault();const supabase=getSupabaseBrowserClient();if(!supabase){setError('Login is not configured yet. Add the Supabase URL and anon key to the environment variables.');return}
-    setBusy(true);setError('');setMessage('');const {error}=await supabase.auth.signInWithOtp({email:email.trim(),options:{emailRedirectTo:`${window.location.origin}/auth/callback`}});setBusy(false);if(error)setError(error.message);else setMessage('Check your email for a secure sign-in link.');
-  }
-  return <main className="login-page"><section className="login-card"><Link className="login-brand" href="/">✦ <span>MOONSTAR</span></Link><h1>Log in to MOONSTAR</h1><p className="login-subtitle">Save your watchlist and access it anywhere.</p><button className="google-login" onClick={continueWithGoogle} disabled={busy}><GoogleMark/>Continue with Google</button><div className="login-divider"><span>or</span></div><form onSubmit={continueWithEmail}><label className="sr-only" htmlFor="login-email">Email address</label><input id="login-email" type="email" autoComplete="email" placeholder="Enter your email" required value={email} onChange={e=>setEmail(e.target.value)}/><button className="email-login" disabled={busy||!email.trim()}>{busy?'Please wait…':'Continue with email'}</button></form>{message&&<p className="login-success" role="status"><CheckCircle2 size={17}/>{message}</p>}{error&&<p className="login-error" role="alert">{error}</p>}<p className="login-signup">New here? A secure link will create your account when needed.</p></section><Link href="/" className="login-back"><ArrowLeft size={15}/> Back to dashboard</Link></main>
-}
+export default function LoginPage(){return <AuthCard mode="login"/>}
