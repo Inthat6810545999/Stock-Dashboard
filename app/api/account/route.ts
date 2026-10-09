@@ -32,6 +32,10 @@ export async function DELETE(request:Request){
  const secret=process.env.SUPABASE_SECRET_KEY||process.env.SUPABASE_SERVICE_ROLE_KEY;
  if(!secret)return json({error:'Self-service deletion is not configured yet. Use the operator contact in the privacy notice.'},503);
  const admin=createClient(auth.url,secret,{auth:{persistSession:false,autoRefreshToken:false}});
+ const {data:subscriptions,error:billingLookupError}=await admin.from('subscriptions').select('status,current_period_end').eq('user_id',auth.user.id).in('status',['active','trialing','past_due','unpaid','incomplete']).limit(20);
+ if(billingLookupError)return json({error:'Billing status could not be checked. Your account has not been deleted.'},503);
+ const paidAccessStatus=Boolean(subscriptions?.some(subscription=>['past_due','unpaid','incomplete'].includes(subscription.status)||!subscription.current_period_end||Date.parse(subscription.current_period_end)>Date.now()));
+ if(paidAccessStatus)return json({error:'Please cancel your membership or resolve any payment issue in Settings → Membership & billing before deleting your account. Your account has not been deleted.'},409);
  const {error:revokeError}=await admin.auth.admin.signOut(auth.token,'global');
  if(revokeError)return json({error:'Could not revoke account sessions. Your account has not been deleted.'},503);
  const {error}=await admin.auth.admin.deleteUser(auth.user.id);
