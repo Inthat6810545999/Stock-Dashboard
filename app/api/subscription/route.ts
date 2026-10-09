@@ -1,5 +1,6 @@
 import {createClient} from '@supabase/supabase-js';
 import {checkoutReady,getSignedInUser,json} from '@/lib/billing/server';
+import {hasMembershipEntitlement} from '@/lib/billing/entitlements';
 
 export async function GET(request:Request){
  const auth=await getSignedInUser(request);
@@ -12,6 +13,7 @@ export async function GET(request:Request){
  const current=data?.find(row=>['active','trialing','past_due','unpaid','incomplete'].includes(row.status))??data?.[0]??null;
  return json({
   subscription:current,
+  hasPaidAccess:hasMembershipEntitlement(current,Date.now(),false),
   plans:{monthly:{available:checkoutReady('monthly')},yearly:{available:checkoutReady('yearly')}},
   portalAvailable:Boolean(process.env.STRIPE_SECRET_KEY&&process.env.SUPABASE_SECRET_KEY||process.env.STRIPE_SECRET_KEY&&process.env.SUPABASE_SERVICE_ROLE_KEY),
  });

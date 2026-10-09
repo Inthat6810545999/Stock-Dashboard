@@ -22,7 +22,7 @@ Subject: Request for commercial market-data permissions for MOONSTAR
 
 Dear SET Information Services team,
 
-I am Inthat Niramarn, an individual operator in Thailand developing MOONSTAR, a stock information website. I plan monthly and yearly subscriptions, with pricing and target customer countries still being determined.
+I am Inthat Niramarn, an individual operator in Thailand developing MOONSTAR, a stock information website. I plan monthly and yearly subscriptions priced at ฿199/month and ฿1,990/year; target customer countries are still being determined.
 
 The site displays SET/mai quotations, intraday/daily historical charts and volume, company data and announcements. It scans the covered market to calculate daily and annual price-change rankings, stores ranking snapshots, and rechecks daily closing-price rankings. It does not execute trades or hold customer money.
 

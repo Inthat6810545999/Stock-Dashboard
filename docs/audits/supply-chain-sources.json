@@ -1,0 +1,320 @@
+{
+  "checkedAt": "2026-10-09T21:51:57.276Z",
+  "directoryEntries": 5472,
+  "curatedCompanies": 50,
+  "curatedUSMissingFromDirectory": [
+    {
+      "symbol": "ARM",
+      "name": "Arm"
+    },
+    {
+      "symbol": "ASX",
+      "name": "ASE Technology"
+    }
+  ],
+  "outsideUS": [
+    {
+      "symbol": "6752.T",
+      "name": "Panasonic",
+      "domain": "panasonic.com",
+      "role": "Battery cells \u00b7 Tokyo listing",
+      "usListed": false
+    },
+    {
+      "symbol": "4063.T",
+      "name": "Shin-Etsu Chemical",
+      "domain": "shinetsu.co.jp",
+      "role": "Silicon wafers \u00b7 Tokyo",
+      "usListed": false
+    },
+    {
+      "symbol": "3436.T",
+      "name": "SUMCO",
+      "domain": "sumcosi.com",
+      "role": "Silicon wafers \u00b7 Tokyo",
+      "usListed": false
+    },
+    {
+      "symbol": "005930.KS",
+      "name": "Samsung Electronics",
+      "domain": "samsung.com",
+      "role": "Memory & foundry \u00b7 Korea",
+      "usListed": false
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK hynix",
+      "domain": "skhynix.com",
+      "role": "High-bandwidth memory \u00b7 Korea",
+      "usListed": false
+    },
+    {
+      "symbol": "2317.TW",
+      "name": "Foxconn",
+      "domain": "foxconn.com",
+      "role": "Systems manufacturing \u00b7 Taiwan",
+      "usListed": false
+    },
+    {
+      "symbol": "SU.PA",
+      "name": "Schneider Electric",
+      "domain": "se.com",
+      "role": "Energy management \u00b7 Paris",
+      "usListed": false
+    },
+    {
+      "symbol": "VAST",
+      "name": "VAST Data",
+      "domain": "vastdata.com",
+      "role": "Private company \u00b7 no public ticker",
+      "usListed": false
+    }
+  ],
+  "disclosedLinks": 27,
+  "industryLayers": 13,
+  "sources": [
+    {
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-strategic-partnership-nvidia-expand",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.arista.com/company/news/press-release/24102-pr-20260609",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing",
+      "reachable": false,
+      "error": "TypeError",
+      "semanticReview": "Required"
+    },
+    {
+      "url": "https://investors.micron.com/news/press-release/2025/Micron-Innovates-From-the-Data-Center-to-the-Edge-With-NVIDIA-03-18-2025/default.aspx",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://newsroom.arm.com/blog/from-cloud-to-edge-arm-scales-your-ai-stack",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/computer-industry-ai-factories-data-centers/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2023/11/apple-announces-expanded-partnership-with-amkor-for-silicon-packaging/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2025/08/apple-increases-us-commitment-to-600-billion-usd-announces-ambitious-program/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/accelerator-technologies/rocm-overview",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://news.microsoft.com/ai-in-action",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://ir.tesla.com/press-release/panasonic-and-tesla-sign-agreement-gigafactory",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/sep/0918-nacs.html",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://media.ford.com/content/dam/fordmedia/North%20America/CA/2025/02/Ford-Power-Promise-Fact-Sheet-English.pdf",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.shinetsu.co.jp/en/products/semiconductor-silicon-business/silicon-wafers/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.sumcosi.com/english/products/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.asml.com/en/technology",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.appliedmaterials.com/us/en/semiconductor.html",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.lamresearch.com/products/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.kla.com/products",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.synopsys.com/ai.html",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.cadence.com/en_US/home/solutions/artificial-intelligence.html",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.amd.com/en/products/accelerators/instinct.html",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/foundry/overview.html",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://semiconductor.samsung.com/foundry/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.micron.com/products/memory/hbm",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://semiconductor.samsung.com/dram/hbm/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/how-industry-collaboration-fosters-nvidia-co-packaged-optics/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://ase.aseglobal.com/press-room/310x310/",
+      "status": 403,
+      "reachable": false,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://amkor.com/applications/artificial-intelligence/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://www.arista.com/en/solutions/ai-networking",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-partners-ai-infrastructure-america",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/67d9c8db3d6332e21fa36006/",
+      "status": 200,
+      "reachable": true,
+      "semanticReview": "Required: URL availability does not verify the claim or a current contract."
+    }
+  ],
+  "limitations": [
+    "No claim that all company relationships have been verified.",
+    "Private company coverage is selective; a worldwide complete register is not available here.",
+    "Historical disclosures do not establish ongoing contracts.",
+    "Source reachability is not content verification."
+  ],
+  "identityCorrections": [
+    {
+      "oldSymbol": "PSTG",
+      "symbol": "P",
+      "name": "Everpure",
+      "source": "https://www.everpuredata.com/company/newsroom/press-releases/everpure-to-change-ticker-symbol.html",
+      "evidence": "Issuer announcement and live directory match"
+    }
+  ]
+}

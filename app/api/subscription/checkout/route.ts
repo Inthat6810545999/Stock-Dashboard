@@ -1,5 +1,6 @@
 import {randomUUID} from 'node:crypto';
 import {checkoutReady,getAdmin,getSignedInUser,getStripe,json,sameOriginJsonRequest} from '@/lib/billing/server';
+import {matchesMembershipPrice} from '@/lib/billing/plans';
 
 export async function POST(request:Request){
  if(!sameOriginJsonRequest(request))return json({error:'This request is not allowed.'},403);
@@ -19,8 +20,7 @@ export async function POST(request:Request){
  const priceId=plan==='monthly'?process.env.STRIPE_PRICE_MONTHLY:process.env.STRIPE_PRICE_YEARLY;
  try{
   const price=await stripe.prices.retrieve(priceId!);
-  const expectedInterval=plan==='monthly'?'month':'year';
-  if(!price.active||price.type!=='recurring'||price.currency!=='thb'||price.recurring?.interval!==expectedInterval){
+  if(!matchesMembershipPrice(plan,price)){
    return json({error:'The configured membership price does not match the selected plan.'},503);
   }
   const {data:mapping,error:mappingError}=await admin.from('billing_customers').select('stripe_customer_id').eq('user_id',auth.user.id).maybeSingle();

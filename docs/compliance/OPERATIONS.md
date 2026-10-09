@@ -46,7 +46,9 @@ Rollback-only live DB test passed: own-user read allowed; other-user read and up
 Security advisors reported leaked-password protection disabled; existing UI uses Google/email links, but review before adding password authentication. Other security risks are not ruled out by this advisor result.
 Account deletion still requires a server-only administrative secret and a disposable-account end-to-end test. Do not put administrative credentials into browser variables or chat. Verify production callback allowlists, email delivery, rate limits and administrator MFA separately.
 
-## Monthly/yearly subscriptions — not yet launched
+## Monthly/yearly subscriptions — prices selected, not yet launched
+
+Selected prices: ฿199 per month or ฿1,990 per year (฿398 less than twelve monthly payments). Checkout is still disabled. Target sales countries remain undecided.
 
 Prices, sales countries and payment provider remain undecided. Before accepting a payment:
 - State seller identity, billing currency, tax-inclusive/exclusive total, monthly/yearly period, feature entitlement and first charge clearly.

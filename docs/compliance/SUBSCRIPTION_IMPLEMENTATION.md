@@ -1,10 +1,10 @@
 # Subscription implementation status
 
-Status: subscription records and account UI are implemented; Stripe is connected in Sandbox. No product prices have been selected, no checkout is enabled, no payment has been collected, and no feature paywall has been added.
+Status: subscription records and account UI are implemented; Stripe is connected in Sandbox. The operator selected ฿199/month and ฿1,990/year (annual savings of ฿398 versus twelve monthly payments). Sandbox Price IDs and webhook signing secret are not configured, checkout remains disabled, no payment has been collected, and no feature paywall has been added.
 
 ## Provider flow
 
-Stripe hosted Checkout is used for recurring THB plans. The server selects one of two allowlisted recurring Price IDs and verifies currency and interval before creating a session. Browser redirects do not grant membership. Stripe webhook signatures are verified against the raw request body; the server then retrieves current subscription state and records it. Duplicate events are safe to process again, and prior subscription rows are retained when an account subscribes again.
+Stripe hosted Checkout is used for recurring THB plans. The server selects one of two allowlisted recurring Price IDs and verifies the exact THB amount (฿199/month or ฿1,990/year), currency and interval before creating a session. Browser redirects do not grant membership. Stripe webhook signatures are verified against the raw request body; the server then retrieves current subscription state and records it. Duplicate events are safe to process again, and prior subscription rows are retained when an account subscribes again.
 
 Subscription entitlement is derived only from server-synced provider state. Active access ends at the paid-through timestamp; scheduled cancellation remains active through that timestamp. Trials require explicit configuration. Payment issues, canceled, missing or unrecognized state fail closed. Existing site features remain available because no paywall currently consumes this entitlement.
 
@@ -14,8 +14,7 @@ Subscription entitlement is derived only from server-synced provider state. Acti
 
 ## Required setup before sandbox checkout
 
-- Choose and approve the monthly and annual amounts. No draft amount is treated as approved.
-- Create recurring THB test Prices in the connected Stripe Sandbox and set `STRIPE_PRICE_MONTHLY` and `STRIPE_PRICE_YEARLY` in the server environment.
+- Create recurring THB test Prices for ฿199/month and ฿1,990/year in the connected Stripe Sandbox and set `STRIPE_PRICE_MONTHLY` and `STRIPE_PRICE_YEARLY` in the server environment. The server rejects any Price ID with a different amount, currency or billing interval.
 - Set `SUPABASE_SECRET_KEY` (or the legacy service-role key) only in the server environment; it is not present in this local environment yet.
 - Configure `STRIPE_WEBHOOK_SECRET` and subscribe the endpoint to `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted`, `invoice.paid`, and `invoice.payment_failed`.
 - Keep `BILLING_CHECKOUT_ENABLED` off until the test prices, webhook, hosted portal, refund/cancellation behavior and deletion interaction pass sandbox tests.
@@ -26,4 +25,4 @@ The site is not legally or commercially cleared. Confirm data-source commercial 
 
 ## Verification limits
 
-Database schema is installed on the connected Supabase project with RLS. Stripe Sandbox integration is connected but test prices and webhook signing secret remain unset, and no end-to-end payment lifecycle was run. The security advisor still reports Supabase leaked-password protection disabled; this is an existing auth-project setting and remains a separate hardening task.
+Database schema is installed on the connected Supabase project with RLS. Stripe Sandbox integration is connected but test Price IDs and webhook signing secret remain unset, and no end-to-end payment lifecycle was run. The security advisor still reports Supabase leaked-password protection disabled; this is an existing auth-project setting and remains a separate hardening task.
