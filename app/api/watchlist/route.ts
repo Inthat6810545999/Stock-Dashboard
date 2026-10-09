@@ -19,9 +19,9 @@ export async function GET(request:Request){
    const previous=typeof meta.previousClose==='number'?meta.previousClose:null;
    const points=(chart.indicators?.quote?.[0]?.close??[]).filter((value):value is number=>typeof value==='number');
    const data:Snapshot={currency:meta.currency||marketLocale(symbol).currency,timestamp:meta.regularMarketTime?meta.regularMarketTime*1000:undefined,price,percent:price!==null&&previous?((price/previous)-1)*100:null,points};
-   cache.set(symbol,{until:Date.now()+55000,data});
+   cache.set(symbol,{until:Date.now()+10000,data});
    return [symbol,data] as const;
   }catch{return [symbol,{price:null,percent:null,points:[]}] as const}
  }));
- return Response.json(Object.fromEntries(entries));
+ return Response.json(Object.fromEntries(entries),{headers:{'Cache-Control':'private, no-store'}});
 }
