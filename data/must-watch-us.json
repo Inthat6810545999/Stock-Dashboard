@@ -307,10 +307,10 @@
       "symbol": "SMJF",
       "name": "SMJ International Holdings Inc.",
       "currency": "USD",
-      "price": 1.52,
+      "price": 1.53,
       "previousClose": 1.24,
-      "timestamp": 1791575996000,
-      "percent": 22.580645161290324
+      "timestamp": 1791576000000,
+      "percent": 23.38709677419355
     },
     {
       "symbol": "AGRZ",
@@ -336,7 +336,7 @@
       "currency": "USD",
       "price": 0.1199,
       "previousClose": 0.1,
-      "timestamp": 1791558351000,
+      "timestamp": 1791576000000,
       "percent": 19.900000000000006
     },
     {
@@ -345,17 +345,8 @@
       "currency": "USD",
       "price": 0.1892,
       "previousClose": 0.1601,
-      "timestamp": 1791575997000,
+      "timestamp": 1791576000000,
       "percent": 18.176139912554667
-    },
-    {
-      "symbol": "IFBD",
-      "name": "Infobird Co., Ltd",
-      "currency": "USD",
-      "price": 0.983,
-      "previousClose": 0.84,
-      "timestamp": 1791575957000,
-      "percent": 17.02380952380953
     },
     {
       "symbol": "YDES",
@@ -394,13 +385,22 @@
       "percent": 15.803814713896468
     },
     {
+      "symbol": "IFBD",
+      "name": "Infobird Co., Ltd",
+      "currency": "USD",
+      "price": 0.9714,
+      "previousClose": 0.84,
+      "timestamp": 1791576000000,
+      "percent": 15.642857142857158
+    },
+    {
       "symbol": "CCI",
       "name": "Crown Castle Inc.",
       "currency": "USD",
-      "price": 79.645,
+      "price": 79.64,
       "previousClose": 68.89,
-      "timestamp": 1791575999000,
-      "percent": 15.611844970242416
+      "timestamp": 1791576002000,
+      "percent": 15.60458702278995
     },
     {
       "symbol": "VRXA",
@@ -451,10 +451,10 @@
       "symbol": "DNA",
       "name": "Ginkgo Bioworks Holdings, Inc.",
       "currency": "USD",
-      "price": 13.01,
+      "price": 13,
       "previousClose": 11.34,
-      "timestamp": 1791575999000,
-      "percent": 14.726631393298062
+      "timestamp": 1791576002000,
+      "percent": 14.63844797178131
     },
     {
       "symbol": "FRGT",
@@ -491,12 +491,13 @@
     "missing": 2,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-09T16:05[America/New_York]",
-    "updatedAt": 1791576362778
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-09T16:15[America/New_York]",
+    "updatedAt": 1791576969062
   },
-  "todayGainersUpdatedAt": 1791576362778,
+  "todayGainersUpdatedAt": 1791576969062,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
