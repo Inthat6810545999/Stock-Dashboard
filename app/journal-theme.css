@@ -439,3 +439,17 @@ main:before{background-image:linear-gradient(90deg,#eadcc52b 0 2px,transparent 2
 /* Reveal cards and connections together instead of showing an incomplete graph. */
 .ai-map-reveal .ai-stage{animation:none}
 .ai-map-density button{justify-content:center;align-items:center;text-align:center}
+/* Apple-like language switch beside the offer action. */
+.language-switch{position:relative;isolation:isolate;display:grid;grid-template-columns:1fr 1fr;gap:2px;padding:3px;border:1px solid #c5cedc33;border-radius:999px;background:#0b1424;box-shadow:inset 0 1px 2px #0005}
+.language-switch:before{content:"";position:absolute;z-index:-1;left:3px;top:3px;bottom:3px;width:calc((100% - 6px - 2px)/2);border-radius:999px;background:#eee4d1;box-shadow:0 1px 4px #0004;transition:transform .28s cubic-bezier(.22,1,.36,1)}
+.language-switch:has(button:last-child[aria-pressed=true]):before{transform:translateX(calc(100% + 2px))}
+.language-switch button{min-width:34px;min-height:28px;padding:4px 7px;border:0;border-radius:999px;background:transparent;color:#aebbd0;font-size:10px;font-weight:600;letter-spacing:.2px;transition:color .2s}
+.language-switch button[aria-pressed=true]{color:#20334d}
+.language-switch button:focus-visible{outline:2px solid #a5c3ed;outline-offset:3px}
+.global-language-switch{position:fixed;z-index:1000;right:154px;bottom:14px;display:grid;grid-template-columns:1fr 1fr;gap:2px;padding:3px;border:1px solid #c5cedc55;border-radius:999px;background:#101c30;box-shadow:0 6px 20px #0005}
+.global-language-switch button{min-width:36px;min-height:28px;padding:4px 8px;border:0;border-radius:999px;background:transparent;color:#aebbd0;font-size:10px;font-weight:600}
+.global-language-switch button[aria-pressed=true]{background:#eee4d1;color:#20334d}
+body:has(.topbar .language-switch) .global-language-switch{display:none}
+@media(max-width:600px){.language-switch button{min-width:30px;min-height:30px;padding-inline:5px;font-size:9px}}
+@media(max-width:600px){.global-language-switch{right:116px;bottom:12px}.global-language-switch button{min-width:30px;min-height:30px;padding-inline:5px;font-size:9px}}
+@media(prefers-reduced-motion:reduce){.language-switch:before{transition:none}}
