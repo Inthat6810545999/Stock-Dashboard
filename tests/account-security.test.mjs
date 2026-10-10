@@ -12,6 +12,7 @@ globalThis.fetch=async(input,init={})=>{
  const url=String(input);calls.push({url,method:init.method??'GET'});
  if(url.includes('/auth/v1/user'))return Response.json(valid?{id:'11111111-1111-4111-8111-111111111111',email:'owner@example.test',created_at:'2026-10-01T00:00:00Z',last_sign_in_at:new Date(authTimestamp).toISOString(),app_metadata:{provider:'google'},user_metadata:{},aud:'authenticated'}:{message:'Invalid token'},{status:valid?200:401});
  if(url.includes('/rest/v1/watchlists')){assert.match(url,/user_id=eq.11111111-1111-4111-8111-111111111111/);return Response.json({stocks:[{symbol:'AAPL',name:'Apple'}],updated_at:'2026-10-10T00:00:00Z'})}
+ if(url.includes('/rest/v1/subscriptions')){assert.match(url,/user_id=eq.11111111-1111-4111-8111-111111111111/);return Response.json([])}
  if(url.includes('/auth/v1/logout'))return new Response(null,{status:204});
  if(url.includes('/auth/v1/admin/users/11111111-1111-4111-8111-111111111111'))return Response.json({id:'11111111-1111-4111-8111-111111111111'});
  throw Error('Unexpected outbound request: '+url);

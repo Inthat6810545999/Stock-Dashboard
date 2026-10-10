@@ -6,8 +6,8 @@ const cache = new Map<string, string>();
 
 export function CompanyDescription({description}: {description: string}) {
   const [language, setLanguage] = useState<'en' | 'th'>('en');
-  const [translation, setTranslation] = useState('');
-  const [failed, setFailed] = useState(false);
+  const [translation, setTranslation] = useState<{description: string; value: string} | null>(null);
+  const [failedDescription, setFailedDescription] = useState<string | null>(null);
 
   useEffect(() => {
     const update = () => setLanguage(localStorage.getItem('moonstar-language') === 'th' ? 'th' : 'en');
@@ -17,8 +17,6 @@ export function CompanyDescription({description}: {description: string}) {
   }, []);
 
   useEffect(() => {
-    setTranslation(cache.get(description) ?? '');
-    setFailed(false);
     if (language !== 'th' || !description || cache.has(description)) return;
     const controller = new AbortController();
     fetch('/api/translate-description', {
@@ -29,11 +27,12 @@ export function CompanyDescription({description}: {description: string}) {
     }).then(response => response.ok ? response.json() as Promise<{translation?: string}> : null).then(result => {
       if (typeof result?.translation === 'string') {
         cache.set(description, result.translation);
-        setTranslation(result.translation);
-      } else if (!controller.signal.aborted) setFailed(true);
-    }).catch(() => { if (!controller.signal.aborted) setFailed(true); });
+        if (!controller.signal.aborted) setTranslation({description, value: result.translation});
+      } else if (!controller.signal.aborted) setFailedDescription(description);
+    }).catch(() => { if (!controller.signal.aborted) setFailedDescription(description); });
     return () => controller.abort();
   }, [description, language]);
 
-  return <p className="company-description" translate="no">{language === 'th' ? translation || (failed ? description : 'กำลังแปลข้อมูลบริษัท…') : description}</p>;
+  const currentTranslation = cache.get(description) ?? (translation?.description === description ? translation.value : '');
+  return <p className="company-description" translate="no">{language === 'th' ? currentTranslation || (failedDescription === description ? description : 'กำลังแปลข้อมูลบริษัท…') : description}</p>;
 }
