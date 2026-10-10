@@ -107,7 +107,7 @@ html[data-moonstar-theme='light'] .price-chart text,
 html[data-moonstar-theme='light'] .earnings-chart text{fill:#667187}
 html[data-moonstar-theme='light'] .price-chart svg line[stroke='#2a3a51'],
 html[data-moonstar-theme='light'] .price-chart svg line[stroke='#25364c']{stroke:#dfe4ee}
-html[data-moonstar-theme='light'] .price-chart svg circle[fill='#eee1c9']{fill:#171923}
+html[data-moonstar-theme='light'] .price-chart svg circle[fill='#eee1c9']{fill:#515cdb;stroke:#fff;stroke-width:1.5}
 html[data-moonstar-theme='light'] .chart-event{background:#eef0ff;border-color:#6771cc;color:#303b99;box-shadow:0 1px 3px #28304b24}
 html[data-moonstar-theme='light'] .chart-event.event-E{background:#f1f3f7;border-color:#7c8797;color:#465266}
 html[data-moonstar-theme='light'] .chart-event.event-E.outcome-beat{background:#e5f5ee;border-color:#198165;color:#12644e}
