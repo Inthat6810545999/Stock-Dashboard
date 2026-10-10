@@ -1,0 +1,240 @@
+/* Default MOONSTAR appearance. The existing navy journal remains the Classic option. */
+html[data-moonstar-theme='light']{
+ --background:#f8f9fc;--foreground:#171923;--card:#fff;--card-foreground:#171923;
+ --popover:#fff;--popover-foreground:#171923;--primary:#515cdb;--primary-foreground:#fff;
+ --secondary:#eef0fb;--secondary-foreground:#222849;--muted:#f0f2f8;
+ --muted-foreground:#667085;--accent:#e8ebff;--accent-foreground:#303aaf;
+ --border:#e0e4ed;--input:#dce1eb;--ring:#515cdb;
+ color-scheme:light;
+}
+html[data-moonstar-theme='light'] body{background:#f8f9fc;color:#171923;font-family:Inter,Arial,Helvetica,sans-serif}
+html[data-moonstar-theme='light'] body:before{display:none}
+html[data-moonstar-theme='light'] button:focus-visible,
+html[data-moonstar-theme='light'] a:focus-visible,
+html[data-moonstar-theme='light'] input:focus-visible{outline-color:#515cdb}
+html[data-moonstar-theme='light'] main{background:#f8f9fc;color:#171923}
+html[data-moonstar-theme='light'] main:before,
+html[data-moonstar-theme='light'] main:after{content:none!important}
+html[data-moonstar-theme='light'] h1,
+html[data-moonstar-theme='light'] h2,
+html[data-moonstar-theme='light'] h3,
+html[data-moonstar-theme='light'] .brand,
+html[data-moonstar-theme='light'] .big-price,
+html[data-moonstar-theme='light'] .watch-name strong,
+html[data-moonstar-theme='light'] .target-grid strong,
+html[data-moonstar-theme='light'] .valuation strong{font-family:Inter,Arial,Helvetica,sans-serif}
+
+/* Navigation and journal cover. */
+html[data-moonstar-theme='light'] .topbar{background:#fffffff2;border-bottom:1px solid #e5e7ef;box-shadow:0 8px 28px #25304b0a;color:#171923}
+html[data-moonstar-theme='light'] .brand{color:#171923;font-weight:800;letter-spacing:-1.2px}
+html[data-moonstar-theme='light'] .brand-compass{color:#515cdb}
+html[data-moonstar-theme='light'] .topbar nav button{color:#697185}
+html[data-moonstar-theme='light'] .topbar nav button:hover,
+html[data-moonstar-theme='light'] .topbar nav button.active{color:#303bb0}
+html[data-moonstar-theme='light'] .topbar nav button.active:after{background:#515cdb;box-shadow:none}
+html[data-moonstar-theme='light'] .login-action,
+html[data-moonstar-theme='light'] .account-action{background:#515cdb;border-color:#3039a8;color:white;box-shadow:0 3px 0 #222a72;border-radius:999px}
+html[data-moonstar-theme='light'] .login-action:hover,
+html[data-moonstar-theme='light'] .account-action:hover{background:#404bc8;border-color:#3039a8}
+html[data-moonstar-theme='light'] .language-switch{background:#f0f1f5;border-color:#d9dce5;box-shadow:none}
+html[data-moonstar-theme='light'] .language-switch:before{background:white;box-shadow:0 1px 5px #18214621}
+html[data-moonstar-theme='light'] .language-switch button{color:#697185}
+html[data-moonstar-theme='light'] .language-switch button[aria-pressed=true]{color:#272e64}
+html[data-moonstar-theme='light'] .profile-trigger{background:white;border-color:#d8ddea;color:#252b42}
+html[data-moonstar-theme='light'] .profile-trigger:hover{background:#f2f4ff;border-color:#515cdb}
+html[data-moonstar-theme='light'] .profile-trigger>svg{color:#515b70}
+html[data-moonstar-theme='light'] .profile-menu{background:#fff;border-color:#dfe3ee;color:#171923;box-shadow:0 18px 42px #27314b20}
+html[data-moonstar-theme='light'] .profile-name,
+html[data-moonstar-theme='light'] .profile-menu .profile-signout{color:#171923}
+html[data-moonstar-theme='light'] .profile-email{color:#657087}
+html[data-moonstar-theme='light'] .profile-menu .profile-signout:hover{background:#f0f2fc;color:#303bb0}
+html[data-moonstar-theme='light'] .profile-menu .profile-signout svg{color:#515cdb}
+html[data-moonstar-theme='light'] .profile-menu-separator{background:#e3e6ef}
+html[data-moonstar-theme='light'] .masthead{background:none;border:0;color:#272e46}
+html[data-moonstar-theme='light'] .masthead .eyebrow,
+html[data-moonstar-theme='light'] .masthead .edition{color:#697185}
+html[data-moonstar-theme='light'] .masthead .edition{background:transparent}
+html[data-moonstar-theme='light'] .masthead .handwritten{color:#515cdb;font-family:Inter,Arial,sans-serif!important;font-weight:750;font-style:normal;transform:none}
+html[data-moonstar-theme='light'] .watchlist-toolbar .eyebrow{color:#515cdb}
+html[data-moonstar-theme='light'] .watch-scroll-hint{color:#767e90}
+
+/* Market cards and research. */
+html[data-moonstar-theme='light'] .watch-card.paper,
+html[data-moonstar-theme='light'] .dashboard-grid>.paper,
+html[data-moonstar-theme='light'] .dashboard-grid>.panel,
+html[data-moonstar-theme='light'] .must-watch{background:#fff;background-image:none;border:1px solid #e1e5ee;border-radius:20px;box-shadow:0 10px 30px #26334d0b;color:#171923}
+html[data-moonstar-theme='light'] .watch-card.paper{border-radius:18px}
+html[data-moonstar-theme='light'] .watch-card.selected{border-color:#515cdb;box-shadow:0 0 0 2px #515cdb22,0 10px 26px #26334d10}
+html[data-moonstar-theme='light'] .watch-card.selected:after{background:#515cdb}
+html[data-moonstar-theme='light'] .watch-name small,
+html[data-moonstar-theme='light'] .stock-heading p,
+html[data-moonstar-theme='light'] .muted,
+html[data-moonstar-theme='light'] .quote-timestamp,
+html[data-moonstar-theme='light'] .range-performance span,
+html[data-moonstar-theme='light'] .range-performance small{color:#687287}
+html[data-moonstar-theme='light'] .big-price{color:#171923;text-shadow:none;font-weight:750}
+html[data-moonstar-theme='light'] .tag{color:#5c6680;border-color:#dce1ed;background:#f8f9fc}
+html[data-moonstar-theme='light'] .range-tabs{background:#f0f2f8!important;border-color:#e0e4ee;border-radius:999px;box-shadow:none}
+html[data-moonstar-theme='light'] .range-tabs button{color:#5e687d!important}
+html[data-moonstar-theme='light'] .range-tabs button[data-state=active]{background:#515cdb!important;color:white!important;border-radius:999px;box-shadow:0 2px 7px #3942a743}
+html[data-moonstar-theme='light'] .positive,
+html[data-moonstar-theme='light'] .paper .positive{color:#147f66}
+html[data-moonstar-theme='light'] .negative,
+html[data-moonstar-theme='light'] .paper .negative{color:#b44c48}
+html[data-moonstar-theme='light'] .navy-dashboard .company-description,
+html[data-moonstar-theme='light'] .news-summary{color:#505d73}
+html[data-moonstar-theme='light'] .navy-dashboard .target-grid small,
+html[data-moonstar-theme='light'] .navy-dashboard .fine-print,
+html[data-moonstar-theme='light'] .navy-dashboard .valuation-source,
+html[data-moonstar-theme='light'] .navy-dashboard .valuation-comparison thead th,
+html[data-moonstar-theme='light'] .navy-dashboard .news-meta{color:#687287}
+html[data-moonstar-theme='light'] .navy-dashboard .news-list h3 a{color:#22283a!important}
+html[data-moonstar-theme='light'] .navy-dashboard .news-list article>a,
+html[data-moonstar-theme='light'] .navy-dashboard .section-heading>a,
+html[data-moonstar-theme='light'] .navy-dashboard .valuation-source a{color:#424ed0!important}
+html[data-moonstar-theme='light'] .price-chart text,
+html[data-moonstar-theme='light'] .earnings-chart text{fill:#667187}
+html[data-moonstar-theme='light'] .chart-empty,
+html[data-moonstar-theme='light'] .empty{color:#687287}
+html[data-moonstar-theme='light'] .legend,
+html[data-moonstar-theme='light'] .chart-readout{color:#667187}
+html[data-moonstar-theme='light'] .data-note,
+html[data-moonstar-theme='light'] .notice{color:#293046;background:#fff;border-color:#d8dfea;border-radius:14px}
+html[data-moonstar-theme='light'] .page-wrap footer.journal-footer{background:#fff!important;color:#697287;border:1px solid #e2e6ef;box-shadow:0 -3px 18px #26334d08}
+html[data-moonstar-theme='light'] .page-wrap footer.journal-footer>span,
+html[data-moonstar-theme='light'] .page-wrap footer.journal-footer button,
+html[data-moonstar-theme='light'] .page-wrap footer.journal-footer .service-legal-links{color:#58647a!important}
+html[data-moonstar-theme='light'] .page-wrap footer.journal-footer .service-legal-links a{color:#515cdb;text-decoration-color:#adb4ec}
+html[data-moonstar-theme='light'] .footer-status{background:#fff;border-color:#d9deea}
+
+/* Screening and maps keep their meaning, with a clear light page around them. */
+html[data-moonstar-theme='light'] .must-watch h1 span,
+html[data-moonstar-theme='light'] .must-watch-heading p,
+html[data-moonstar-theme='light'] .screen-method,
+html[data-moonstar-theme='light'] .screen-footnote{color:#647086}
+html[data-moonstar-theme='light'] .watch-pick{background:#f9faff;border-color:#e0e5f0;border-radius:16px;color:#20283b}
+html[data-moonstar-theme='light'] .pick-rank,
+html[data-moonstar-theme='light'] .pick-stock span,
+html[data-moonstar-theme='light'] .pick-metrics span,
+html[data-moonstar-theme='light'] .pick-price span,
+html[data-moonstar-theme='light'] .pick-time{color:#68758a}
+html[data-moonstar-theme='light'] .must-watch-actions button,
+html[data-moonstar-theme='light'] .pick-bottom button,
+html[data-moonstar-theme='light'] .screen-state button{color:#39445f;border-color:#cbd2e1;border-radius:10px;background:#fff}
+html[data-moonstar-theme='light'] .must-watch-actions button[aria-pressed=true]{background:#515cdb;color:#fff;border-color:#515cdb}
+html[data-moonstar-theme='light'] .screen-method summary,
+html[data-moonstar-theme='light'] .screen-method a{color:#424ed0}
+html[data-moonstar-theme='light'] .supply-header,
+html[data-moonstar-theme='light'] .ai-heading{color:#22283b}
+html[data-moonstar-theme='light'] .supply-header .eyebrow,
+html[data-moonstar-theme='light'] .ai-heading .eyebrow{color:#515cdb}
+html[data-moonstar-theme='light'] .ai-evidence-date,
+html[data-moonstar-theme='light'] .ai-evidence-date small{color:#687287}
+html[data-moonstar-theme='light'] .ai-map-key{color:#59667d}
+html[data-moonstar-theme='light'] .ai-map-key button{color:#515cdb}
+html[data-moonstar-theme='light'] .ai-coverage-note{background:#eef1ff;border-color:#d9ddfa;color:#303a77}
+html[data-moonstar-theme='light'] .ai-board-shell,
+html[data-moonstar-theme='light'] .supply-map-panel{box-shadow:0 16px 36px #26334d18}
+html[data-moonstar-theme='light'] .ai-map-density{background:#edf0f7;border-color:#d8ddea}
+html[data-moonstar-theme='light'] .ai-map-density:before{background:#515cdb}
+html[data-moonstar-theme='light'] .ai-map-density button[aria-pressed=true]{color:white}
+
+/* Plan, account and legal pages. */
+html[data-moonstar-theme='light'] .pricing-page,
+html[data-moonstar-theme='light'] .login-page,
+html[data-moonstar-theme='light'] .legal-page,
+html[data-moonstar-theme='light'] main.settings-page{background:#f8f9fc;color:#171923}
+html[data-moonstar-theme='light'] .pricing-topbar,
+html[data-moonstar-theme='light'] .pricing-card,
+html[data-moonstar-theme='light'] .login-card,
+html[data-moonstar-theme='light'] .legal-card,
+html[data-moonstar-theme='light'] .settings-shell{background:#fff;border-color:#e0e4ed;box-shadow:0 12px 34px #26334d0c;color:#171923}
+html[data-moonstar-theme='light'] .pricing-brand,
+html[data-moonstar-theme='light'] .pricing-intro h1,
+html[data-moonstar-theme='light'] .pricing-card h2,
+html[data-moonstar-theme='light'] .pricing-amount strong{color:#171923;font-family:Inter,Arial,sans-serif}
+html[data-moonstar-theme='light'] .pricing-topbar nav a,
+html[data-moonstar-theme='light'] .pricing-intro>p:not(.pricing-kicker),
+html[data-moonstar-theme='light'] .pricing-card-heading p:last-child,
+html[data-moonstar-theme='light'] .pricing-summary,
+html[data-moonstar-theme='light'] .pricing-amount span,
+html[data-moonstar-theme='light'] .pricing-benefit-note,
+html[data-moonstar-theme='light'] .pricing-footer,
+html[data-moonstar-theme='light'] .pricing-security{color:#697287}
+html[data-moonstar-theme='light'] .pricing-card li{color:#293146}
+html[data-moonstar-theme='light'] .pricing-kicker,
+html[data-moonstar-theme='light'] .pricing-card-label,
+html[data-moonstar-theme='light'] .pricing-footer a,
+html[data-moonstar-theme='light'] .pricing-signin a{color:#515cdb}
+html[data-moonstar-theme='light'] .pricing-card--featured{border-color:#515cdb;box-shadow:0 15px 35px #515cdb18}
+html[data-moonstar-theme='light'] .pricing-recommended,
+html[data-moonstar-theme='light'] .pricing-primary{background:#515cdb;color:#fff;border-color:#3039a8}
+html[data-moonstar-theme='light'] .pricing-primary:disabled{background:#e9ecf3;color:#858da0;border-color:#d7dce5}
+html[data-moonstar-theme='light'] .pricing-secondary{background:#fff;color:#293146;border-color:#d2d8e4}
+html[data-moonstar-theme='light'] .pricing-cycle{background:#f0f2f8;border-color:#dfe3ec}
+html[data-moonstar-theme='light'] .pricing-cycle button{color:#697287}
+html[data-moonstar-theme='light'] .pricing-cycle button[aria-pressed=true]{background:#515cdb;color:white}
+html[data-moonstar-theme='light'] .login-card{background:#fff}
+html[data-moonstar-theme='light'] .login-back{color:#515cdb}
+html[data-moonstar-theme='light'] .google-login{background:#fff;border-color:#d6dce7}
+html[data-moonstar-theme='light'] .email-login{background:#515cdb;border-color:#515cdb;color:white}
+html[data-moonstar-theme='light'] .email-login:not(:disabled):hover{background:#404bc8}
+html[data-moonstar-theme='light'] .legal-card a,
+html[data-moonstar-theme='light'] .legal-brand{color:#515cdb}
+html[data-moonstar-theme='light'] .legal-date,
+html[data-moonstar-theme='light'] .settings-group,
+html[data-moonstar-theme='light'] .account-profile p,
+html[data-moonstar-theme='light'] .account-profile small{color:#657087}
+html[data-moonstar-theme='light'] .legal-notice,
+html[data-moonstar-theme='light'] .settings-block{background:#f9faff;border-color:#e2e6f0}
+html[data-moonstar-theme='light'] .settings-sidebar{background:#fff;border-color:#e5e8ef}
+html[data-moonstar-theme='light'] .settings-search{background:#f7f8fc;border-color:#dce1eb;color:#697287}
+html[data-moonstar-theme='light'] .settings-search input{color:#202639}
+html[data-moonstar-theme='light'] .settings-sidebar nav button{color:#505b70}
+html[data-moonstar-theme='light'] .settings-sidebar nav button.selected{background:#e9ebff;color:#303bb0}
+html[data-moonstar-theme='light'] .settings-sidebar nav button:hover:not(.selected){background:#f0f2fa}
+html[data-moonstar-theme='light'] .settings-back{color:#515cdb}
+html[data-moonstar-theme='light'] .account-profile strong{color:#171923}
+html[data-moonstar-theme='light'] .billing-controls button,
+html[data-moonstar-theme='light'] .account-actions button{background:#515cdb;border-color:#515cdb;color:white}
+html[data-moonstar-theme='light'] .billing-controls button:disabled{background:#e9ecf3;border-color:#d7dce5;color:#858da0}
+html[data-moonstar-theme='light'] .billing-footnote{color:#697287}
+html[data-moonstar-theme='light'] .privacy-settings{background:#fff;border-color:#d5dbe7;color:#515cdb}
+html[data-moonstar-theme='light'] .global-language-switch{background:#fff;border-color:#dce1eb}
+html[data-moonstar-theme='light'] .global-language-switch button{color:#657087}
+html[data-moonstar-theme='light'] .global-language-switch button[aria-pressed=true]{background:#515cdb;color:white}
+
+/* Theme selection itself is available in both appearances. */
+.theme-preference>p{margin:8px 0 16px;font-size:13px;line-height:1.5;color:inherit;opacity:.7}
+.theme-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.theme-option{display:flex;flex-direction:column;gap:11px;min-width:0;padding:12px;text-align:left;border:2px solid #71819880;border-radius:17px;background:transparent;color:inherit;font:inherit}
+.theme-option[aria-pressed=true]{border-color:#515cdb;box-shadow:0 0 0 3px #515cdb1f}
+.theme-option:focus-visible{outline:2px solid #515cdb;outline-offset:3px}
+.theme-preview{display:flex;flex-direction:column;gap:9px;height:98px;padding:10px;border-radius:10px;overflow:hidden;background:#f8f9fc;border:1px solid #e0e4ed}
+.theme-preview-header{display:block;height:15px;border-radius:6px;background:#fff;box-shadow:0 1px 4px #25304b16}
+.theme-preview-heading{display:block;width:45%;height:15px;margin:2px auto;border-radius:4px;background:#515cdb}
+.theme-preview-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:auto}
+.theme-preview-cards i{display:block;height:28px;border-radius:6px;background:#fff;border:1px solid #e0e4ed}
+.theme-option--classic .theme-preview{background:#101c30;border-color:#39495e}
+.theme-option--classic .theme-preview-header{background:#17263b}
+.theme-option--classic .theme-preview-heading{background:#d9c59b}
+.theme-option--classic .theme-preview-cards i{background:#17263b;border-color:#596172}
+.theme-option-copy{display:grid;gap:4px}.theme-option-copy strong{font-size:15px}.theme-option-copy small{font-size:12px;line-height:1.35;opacity:.7}
+.theme-option-check{align-self:flex-end;display:grid;place-items:center;width:22px;height:22px;margin-top:-32px;border:1px solid #8e98aa;border-radius:50%;color:#fff;font-size:13px}
+.theme-option[aria-pressed=true] .theme-option-check{background:#515cdb;border-color:#515cdb}
+html[data-moonstar-theme='classic'] .theme-option{color:#eee5d6}
+html[data-moonstar-theme='classic'] .theme-option-copy small{color:#c0ccdc;opacity:1}
+@media(max-width:600px){
+ html[data-moonstar-theme='light'] .topbar{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:6px;row-gap:2px;padding:8px 12px;min-height:102px}
+ html[data-moonstar-theme='light'] .brand{gap:5px;font-size:15px}
+ html[data-moonstar-theme='light'] .brand-compass{width:23px;height:23px}
+ html[data-moonstar-theme='light'] .header-actions{gap:4px;justify-self:end}
+ html[data-moonstar-theme='light'] .login-action{min-height:29px;padding:0 7px;font-size:10px}
+ html[data-moonstar-theme='light'] .language-switch{padding:2px;gap:1px}
+ html[data-moonstar-theme='light'] .language-switch button{min-width:23px;min-height:25px;padding:2px 3px;font-size:9px}
+ html[data-moonstar-theme='light'] .topbar nav{display:grid;grid-column:1/-1;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;width:100%;min-width:0;margin:0}
+ html[data-moonstar-theme='light'] .topbar nav button{font-size:10px;white-space:nowrap;padding:6px 0}
+ html[data-moonstar-theme='light'] .masthead .handwritten{font-size:clamp(12px,3.6vw,16px)}
+ html[data-moonstar-theme='light'] .masthead .eyebrow{letter-spacing:1.3px;font-size:9px}
+}
+@media(max-width:560px){.theme-options{grid-template-columns:1fr}.theme-preview{height:76px}}

@@ -1,0 +1,7 @@
+# Theme and responsive audit — 2026-10-10
+
+- Default `Light` appearance uses a white surface, dark text, and indigo accent. `Classic` retains the original navy journal CSS. Theme choice is saved in this browser and applied before page content paints.
+- Checked the dashboard, pricing, login, privacy, and Settings in headless Chromium. In Settings, selecting Classic, reloading, and returning to Light preserved the selected option and saved value.
+- Checked dashboard layout width with JavaScript disabled to isolate the CSS at desktop 1280×720, 1366×768, 1440×900, 1536×864, 1920×1080, 2560×1440; tablet 768×1024, 1024×768, 820×1180, 1180×820, 834×1194, 1194×834, 1024×1366, 1366×1024, 1180×690; and phone 360×800, 800×360, 375×667, 667×375, 390×844, 844×390, 430×932, 932×430. The document width did not exceed the requested viewport width. Also captured a JavaScript-enabled 360×800 screenshot: the four main navigation actions and header controls fit in the viewport.
+- The local market provider did not supply chart data during this pass, so no populated price SVG or volume histogram was available to inspect. Static layout checks used Chromium viewport emulation; physical Safari, Android, and Windows devices were not tested.
+- On the 360×800 Settings screen, Appearance rendered both theme options with a document width of 360 px. The settings content scrolls inside its frame; the optional privacy prompt can cover the lower portion until the visitor makes a choice.
