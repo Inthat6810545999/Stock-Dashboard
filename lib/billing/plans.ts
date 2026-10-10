@@ -5,6 +5,10 @@ export const membershipPlans={
 
 export type MembershipPlan=keyof typeof membershipPlans;
 
+export function scheduledForPeriodEnd(cancelAtPeriodEnd:boolean,cancelAt:number|null,currentPeriodEnd:number|null){
+ return cancelAtPeriodEnd||(cancelAt!==null&&currentPeriodEnd!==null&&cancelAt===currentPeriodEnd);
+}
+
 export function matchesMembershipPrice(plan:MembershipPlan,price:{active:boolean;type:string;currency:string;unit_amount:number|null;recurring:{interval:string}|null}){
  const expected=membershipPlans[plan];
  return price.active&&price.type==='recurring'&&price.currency==='thb'&&price.unit_amount===expected.amountMinor&&price.recurring?.interval===expected.interval;

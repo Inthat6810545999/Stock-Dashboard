@@ -1,5 +1,6 @@
 import type Stripe from 'stripe';
 import {epochToIso,getAdmin,getStripe,json} from '@/lib/billing/server';
+import {scheduledForPeriodEnd} from '@/lib/billing/plans';
 
 export const runtime='nodejs';
 
@@ -20,7 +21,7 @@ async function syncSubscription(subscriptionId:string){
  const {error}=await admin.from('subscriptions').upsert({
   user_id:mapping.user_id,stripe_customer_id:customerId,stripe_subscription_id:subscription.id,
   plan_key:plan,status:subscription.status,current_period_start:epochToIso(currentStart),
-  current_period_end:epochToIso(currentEnd),cancel_at_period_end:subscription.cancel_at_period_end,
+  current_period_end:epochToIso(currentEnd),cancel_at_period_end:scheduledForPeriodEnd(subscription.cancel_at_period_end,subscription.cancel_at,currentEnd),
   canceled_at:epochToIso(subscription.canceled_at),trial_end:epochToIso(subscription.trial_end),
   billing_attention_required:needsAttention,updated_at:new Date().toISOString(),
  },{onConflict:'stripe_subscription_id'});

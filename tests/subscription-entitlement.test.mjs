@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {hasMembershipEntitlement} from '../lib/billing/entitlements.ts';
-import {matchesMembershipPrice,membershipPlans} from '../lib/billing/plans.ts';
+import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd} from '../lib/billing/plans.ts';
 
 const now=Date.parse('2026-10-10T00:00:00.000Z');
 const record=(overrides={})=>({status:'active',current_period_end:'2026-10-11T00:00:00.000Z',billing_attention_required:false,...overrides});
@@ -9,6 +9,13 @@ const record=(overrides={})=>({status:'active',current_period_end:'2026-10-11T00
 test('active paid access remains through scheduled cancellation date',()=>{
  assert.equal(hasMembershipEntitlement(record(),now),true);
  assert.equal(hasMembershipEntitlement(record({cancel_at_period_end:true}),now),true);
+});
+test('recognizes Stripe cancel_at timestamps scheduled for the current period end',()=>{
+ const periodEnd=Date.parse('2027-10-10T20:42:18.000Z')/1000;
+ assert.equal(scheduledForPeriodEnd(false,periodEnd,periodEnd),true);
+ assert.equal(scheduledForPeriodEnd(true,null,periodEnd),true);
+ assert.equal(scheduledForPeriodEnd(false,periodEnd-3600,periodEnd),false);
+ assert.equal(scheduledForPeriodEnd(false,null,periodEnd),false);
 });
 test('access ends exactly at the paid-through timestamp and fails closed without one',()=>{
  assert.equal(hasMembershipEntitlement(record(),Date.parse('2026-10-11T00:00:00.000Z')),false);
