@@ -453,3 +453,6 @@ body:has(.topbar .language-switch) .global-language-switch{display:none}
 @media(max-width:600px){.language-switch button{min-width:30px;min-height:30px;padding-inline:5px;font-size:9px}}
 @media(max-width:600px){.global-language-switch{right:116px;bottom:12px}.global-language-switch button{min-width:30px;min-height:30px;padding-inline:5px;font-size:9px}}
 @media(prefers-reduced-motion:reduce){.language-switch:before{transition:none}}
+
+/* Growth cards no longer display the internal ranking number. */
+.watch-pick:not(.gainer-pick) .pick-bottom{justify-content:flex-end}
