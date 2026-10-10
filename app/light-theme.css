@@ -8,6 +8,11 @@ html[data-moonstar-theme='light']{
  color-scheme:light;
 }
 html[data-moonstar-theme='light'] body{background:#f8f9fc;color:#171923;font-family:Inter,Arial,Helvetica,sans-serif}
+html[data-moonstar-theme='light'] .privacy-panel{background:#fff;color:#252b42;border-color:#d8ddea;box-shadow:0 14px 36px #27314b24}
+html[data-moonstar-theme='light'] .privacy-panel a{color:#4452c5}
+html[data-moonstar-theme='light'] .privacy-panel button{background:#fff;color:#33405a;border-color:#aeb9cc}
+html[data-moonstar-theme='light'] .privacy-panel button:last-child{background:#515cdb;color:#fff;border-color:#404bc8}
+html[data-moonstar-theme='light'] .privacy-settings{background:#fff;color:#4452c5;border-color:#cbd2e2}
 html[data-moonstar-theme='light'] body:before{display:none}
 html[data-moonstar-theme='light'] button:focus-visible,
 html[data-moonstar-theme='light'] a:focus-visible,
