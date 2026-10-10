@@ -97,6 +97,11 @@ html[data-moonstar-theme='light'] .earnings-chart text{fill:#667187}
 html[data-moonstar-theme='light'] .price-chart svg line[stroke='#2a3a51'],
 html[data-moonstar-theme='light'] .price-chart svg line[stroke='#25364c']{stroke:#dfe4ee}
 html[data-moonstar-theme='light'] .price-chart svg circle[fill='#eee1c9']{fill:#171923}
+html[data-moonstar-theme='light'] .chart-event{background:#eef0ff;border-color:#6771cc;color:#303b99;box-shadow:0 1px 3px #28304b24}
+html[data-moonstar-theme='light'] .chart-event.event-E{background:#f1f3f7;border-color:#7c8797;color:#465266}
+html[data-moonstar-theme='light'] .chart-event.event-E.outcome-beat{background:#e5f5ee;border-color:#198165;color:#12644e}
+html[data-moonstar-theme='light'] .chart-event.event-E.outcome-not-beat{background:#fff0ef;border-color:#b44c48;color:#983d39}
+html[data-moonstar-theme='light'] .chart-event:hover{filter:brightness(.95);box-shadow:0 2px 5px #28304b35}
 html[data-moonstar-theme='light'] .earnings-canvas svg line[stroke='#304056']{stroke:#dfe4ee}
 html[data-moonstar-theme='light'] .navy-dashboard .dashboard-grid>.paper .positive{color:#147f66}
 html[data-moonstar-theme='light'] .valuation-dividend small{color:#687287}
