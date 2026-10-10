@@ -46,7 +46,7 @@ export async function POST(request:Request){
  const stripe=getStripe();
  if(!signature||!secret||!stripe||!getAdmin())return json({error:'Webhook endpoint is not configured.'},503);
  let event:Stripe.Event;
- try{event=stripe.webhooks.constructEvent(await request.text(),signature,secret)}
+ try{event=await stripe.webhooks.constructEventAsync(await request.text(),signature,secret)}
  catch{return json({error:'Invalid webhook signature.'},400)}
 
  try{

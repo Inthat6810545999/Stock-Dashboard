@@ -6,7 +6,8 @@ import {getSupabaseBrowserClient} from '@/lib/supabase-browser';
 import {membershipPlans} from '@/lib/billing/plans';
 
 type Subscription={plan_key:'monthly'|'yearly';status:string;current_period_start:string|null;current_period_end:string|null;cancel_at_period_end:boolean;canceled_at:string|null;trial_end:string|null;billing_attention_required:boolean;updated_at:string};
-type BillingState={subscription:Subscription|null;plans:{monthly:{available:boolean};yearly:{available:boolean}};portalAvailable:boolean};
+type BillingState={subscription:Subscription|null;hasPaidAccess:boolean;plans:{monthly:{available:boolean};yearly:{available:boolean}};portalAvailable:boolean};
+type BillingControlsProps={checkoutResult?:'return'|'canceled'|null};
 
 function dateLabel(value:string|null){
  if(!value)return null;
@@ -20,22 +21,37 @@ function statusLabel(status:string){
 }
 const priceLabel=(plan:'monthly'|'yearly')=>`฿${membershipPlans[plan].amountThb.toLocaleString('en-US')} / ${plan==='monthly'?'month':'year'}`;
 
-export function BillingControls(){
+export function BillingControls({checkoutResult=null}:BillingControlsProps){
  const [state,setState]=useState<BillingState|null>(null),[loading,setLoading]=useState(true),[busy,setBusy]=useState(''),[error,setError]=useState(''),[notice,setNotice]=useState('');
  const load=useCallback(async()=>{
   setError('');
   try{
    const client=getSupabaseBrowserClient();
    const {data}=await client?.auth.getSession()??{data:{session:null}};
-   if(!data.session){setState(null);setLoading(false);return}
+   if(!data.session){setState(null);setLoading(false);return false}
    const response=await fetch('/api/subscription',{headers:{Authorization:`Bearer ${data.session.access_token}`},cache:'no-store'});
    const result=await response.json() as BillingState&{error?:string};
    if(!response.ok)throw Error(result.error||'Membership status could not be loaded.');
-   setState(result);
-  }catch(e){setError(e instanceof Error?e.message:'Membership status could not be loaded.')}
+   setState(result);return result.hasPaidAccess;
+  }catch(e){setError(e instanceof Error?e.message:'Membership status could not be loaded.');return false}
   finally{setLoading(false)}
  },[]);
- useEffect(()=>{queueMicrotask(()=>void load())},[load]);
+ useEffect(()=>{
+  let active=true;let timer:ReturnType<typeof setTimeout>|undefined;let attempts=0;
+  if(checkoutResult==='canceled'){
+   queueMicrotask(()=>{if(!active)return;setNotice('Checkout was canceled. No payment was made.');void load()});
+  }else if(checkoutResult==='return'){
+   queueMicrotask(()=>{if(active)setNotice('Payment completed. Confirming your membership…')});
+   const refresh=async()=>{
+    const paid=await load();if(!active)return;attempts+=1;
+    if(paid)setNotice('Your membership is active.');
+    else if(attempts>=6)setNotice('Payment completed, but verification is taking longer than expected. Refresh membership status shortly.');
+    else timer=setTimeout(()=>void refresh(),3000);
+   };
+   queueMicrotask(()=>{if(active)void refresh()});
+  }else queueMicrotask(()=>{if(active)void load()});
+  return()=>{active=false;if(timer)clearTimeout(timer)};
+ },[checkoutResult,load]);
 
  async function launch(path:'/api/subscription/checkout'|'/api/subscription/portal',body?:unknown){
   setBusy(path);setError('');setNotice('');
@@ -51,7 +67,7 @@ export function BillingControls(){
  }
 
  if(loading)return <p role="status">Loading membership status…</p>;
- if(!state)return <><p>View your plan, renewal and cancellation details here. Signing in is required to load private billing information.</p><p><Link href="/login">Sign in</Link></p>{error&&<p role="alert" className="billing-error">{error}</p>}</>;
+ if(!state)return <>{checkoutResult&&notice&&<p role="status">{notice}</p>}<p>View your plan, renewal and cancellation details here. Signing in is required to load private billing information.</p><p><Link href="/login">Sign in</Link></p>{error&&<p role="alert" className="billing-error">{error}</p>}</>;
  const sub=state.subscription;
  const periodEnd=dateLabel(sub?.current_period_end??null);
  const canStartPlan=Boolean(sub&&['canceled','incomplete_expired'].includes(sub.status));
@@ -67,7 +83,7 @@ export function BillingControls(){
    {canStartPlan&&<><p>You can start a new plan when you are ready.</p><div className="billing-plan-actions"><button disabled={!state.plans.monthly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'monthly'})}>Monthly · {priceLabel('monthly')}</button><button disabled={!state.plans.yearly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'yearly'})}>Annual · {priceLabel('yearly')}</button></div></>}
   </div>:<div className="settings-block">
    <h3>Membership status</h3><p>No active membership is linked to this account.</p>
-   <p>Monthly: {priceLabel('monthly')}. Annual: {priceLabel('yearly')} (save ฿398 compared with 12 monthly payments). Checkout is not open yet; no payment is being collected, and your existing features remain available.</p>
+   <p>Monthly: {priceLabel('monthly')}. Annual: {priceLabel('yearly')} (save ฿398 compared with 12 monthly payments). {!state.plans.monthly.available&&!state.plans.yearly.available?'Checkout is not open yet; no payment is being collected, and your existing features remain available.':'Membership charges renew on the selected schedule until canceled.'}</p>
    <div className="billing-plan-actions">
     <button disabled={!state.plans.monthly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'monthly'})}>Monthly · {priceLabel('monthly')}</button>
     <button disabled={!state.plans.yearly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'yearly'})}>Annual · {priceLabel('yearly')}</button>

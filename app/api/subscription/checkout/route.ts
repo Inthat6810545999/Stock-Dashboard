@@ -40,7 +40,7 @@ export async function POST(request:Request){
    line_items:[{price:price.id,quantity:1}],
    client_reference_id:auth.user.id,
    subscription_data:{metadata:{moonstar_user_id:auth.user.id,moonstar_plan:plan}},
-   success_url:`${origin}/settings?billing=return`,cancel_url:`${origin}/settings?billing=canceled`,
+   success_url:`${origin}/settings?section=billing&billing=return`,cancel_url:`${origin}/settings?section=billing&billing=canceled`,
    allow_promotion_codes:false,
   },{idempotencyKey:`moonstar-checkout-${auth.user.id}-${nonce}`});
   if(!session.url)return json({error:'The secure payment page could not be created.'},502);
