@@ -118,7 +118,12 @@ main:after{content:'';position:fixed;inset:28% 0 0;z-index:-1;pointer-events:non
 
 /* Ship one typeface so the journal has the same typography on every OS. */
 @font-face{font-family:Journal Inter;src:url('/fonts/InterVariable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
-:root{--journal-font:'Journal Inter',Arial,sans-serif}
+@font-face{font-family:'Moonstar Kanit Thai';src:url('/fonts/Kanit-Thai-300.woff2') format('woff2');font-weight:300;font-style:normal;font-display:swap;unicode-range:U+0E00-0E7F}
+@font-face{font-family:'Moonstar Kanit Thai';src:url('/fonts/Kanit-Thai-400.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap;unicode-range:U+0E00-0E7F}
+@font-face{font-family:'Moonstar Kanit Thai';src:url('/fonts/Kanit-Thai-500.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap;unicode-range:U+0E00-0E7F}
+@font-face{font-family:'Moonstar Kanit Thai';src:url('/fonts/Kanit-Thai-600.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap;unicode-range:U+0E00-0E7F}
+@font-face{font-family:'Moonstar Kanit Thai';src:url('/fonts/Kanit-Thai-700.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap;unicode-range:U+0E00-0E7F}
+:root{--journal-font:'Journal Inter',Arial,'Moonstar Kanit Thai',sans-serif}
 body,body *{font-family:var(--journal-font)!important}
 body{font-optical-sizing:auto;-webkit-font-smoothing:antialiased}
 h1,h2,h3,.brand,.watch-name strong,.pick-stock strong{font-weight:600!important;letter-spacing:-.035em}
@@ -361,8 +366,8 @@ html[data-journal-motion=off] main:after{animation-play-state:paused}
 @media(orientation:portrait) and (max-width:767px){main{padding-top:124px}.topbar{position:fixed;inset:0 0 auto;width:100%;z-index:100}}
 .masthead>.mast-copy{display:contents}
 .masthead>.mast-copy>.eyebrow{grid-column:1;min-width:0;max-width:100%;justify-self:start;overflow-wrap:normal;word-break:normal}
-.masthead>.mast-copy>.eyebrow,.masthead>.edition{font-family:Arial,Helvetica,sans-serif!important;letter-spacing:3px;line-height:1.8}
-.masthead>.mast-copy>.handwritten{grid-column:2;min-width:0;max-width:100%;justify-self:center;text-align:center;font-family:Georgia,'Times New Roman',serif!important;font-style:italic;transform:rotate(-5deg);overflow-wrap:normal;word-break:normal;line-height:1.05}
+.masthead>.mast-copy>.eyebrow,.masthead>.edition{font-family:Arial,Helvetica,'Moonstar Kanit Thai',sans-serif!important;letter-spacing:3px;line-height:1.8}
+.masthead>.mast-copy>.handwritten{grid-column:2;min-width:0;max-width:100%;justify-self:center;text-align:center;font-family:Georgia,'Times New Roman','Moonstar Kanit Thai',serif!important;font-style:italic;transform:rotate(-5deg);overflow-wrap:normal;word-break:normal;line-height:1.05}
 .masthead>.mast-copy>.handwritten i{display:inline;padding-left:0}
 .masthead>.edition{grid-column:3;min-width:0;max-width:100%;justify-self:end;align-self:center;margin:0;overflow-wrap:normal;word-break:normal}
 @media(min-width:768px){.masthead{height:45px;min-height:45px}}
