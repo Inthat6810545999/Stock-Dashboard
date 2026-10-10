@@ -52,14 +52,14 @@ Object.assign(enToTh,{
 
 function dictionary(language:'en'|'th'){return language==='th'?enToTh:Object.fromEntries(Object.entries(enToTh).map(([en,th])=>[th,en]));}
 function translateText(root:Node,forward:Record<string,string>){
- if(root.nodeType===Node.TEXT_NODE){const value=root.nodeValue??'',trimmed=value.trim(),translated=forward[trimmed];if(translated)root.nodeValue=value.replace(trimmed,translated);return}
+ if(root.nodeType===Node.TEXT_NODE){const value=root.nodeValue??'',trimmed=value.trim(),translated=forward[trimmed];if(translated&&translated!==trimmed)root.nodeValue=value.replace(trimmed,translated);return}
  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node:Node|null;
- while((node=walker.nextNode())){const value=node.nodeValue??'',trimmed=value.trim(),translated=forward[trimmed];if(translated)node.nodeValue=value.replace(trimmed,translated)}
+ while((node=walker.nextNode())){const value=node.nodeValue??'',trimmed=value.trim(),translated=forward[trimmed];if(translated&&translated!==trimmed)node.nodeValue=value.replace(trimmed,translated)}
 }
 function translateAttributes(root:Element,forward:Record<string,string>){
  const attrs=['aria-label','aria-description','title','placeholder'];
  const elements=[root,...Array.from(root.querySelectorAll<HTMLElement>('*'))];
- for(const element of elements){for(const attr of attrs){const value=element.getAttribute(attr);if(value&&forward[value])element.setAttribute(attr,forward[value]);}}
+ for(const element of elements){for(const attr of attrs){const value=element.getAttribute(attr);if(value&&forward[value]&&forward[value]!==value)element.setAttribute(attr,forward[value]);}}
 }
 function applyLanguage(language:'en'|'th'){
  const forward=dictionary(language);

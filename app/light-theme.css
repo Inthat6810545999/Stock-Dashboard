@@ -94,6 +94,16 @@ html[data-moonstar-theme='light'] .navy-dashboard .section-heading>a,
 html[data-moonstar-theme='light'] .navy-dashboard .valuation-source a{color:#424ed0!important}
 html[data-moonstar-theme='light'] .price-chart text,
 html[data-moonstar-theme='light'] .earnings-chart text{fill:#667187}
+html[data-moonstar-theme='light'] .price-chart svg line[stroke='#2a3a51'],
+html[data-moonstar-theme='light'] .price-chart svg line[stroke='#25364c']{stroke:#dfe4ee}
+html[data-moonstar-theme='light'] .price-chart svg circle[fill='#eee1c9']{fill:#171923}
+html[data-moonstar-theme='light'] .earnings-canvas svg line[stroke='#304056']{stroke:#dfe4ee}
+html[data-moonstar-theme='light'] .navy-dashboard .dashboard-grid>.paper .positive{color:#147f66}
+html[data-moonstar-theme='light'] .valuation-dividend small{color:#687287}
+html[data-moonstar-theme='light'] .watch-card .stock-logo,
+html[data-moonstar-theme='light'] .stock-heading .stock-logo,
+html[data-moonstar-theme='light'] .pick-title .stock-logo,
+html[data-moonstar-theme='light'] .ai-explorer .stock-logo{background:#fff;border-color:#dfe4ee;box-shadow:none}
 html[data-moonstar-theme='light'] .chart-empty,
 html[data-moonstar-theme='light'] .empty{color:#687287}
 html[data-moonstar-theme='light'] .legend,
@@ -124,8 +134,26 @@ html[data-moonstar-theme='light'] .screen-state button{color:#39445f;border-colo
 html[data-moonstar-theme='light'] .must-watch-actions button[aria-pressed=true]{background:#515cdb;color:#fff;border-color:#515cdb}
 html[data-moonstar-theme='light'] .screen-method summary,
 html[data-moonstar-theme='light'] .screen-method a{color:#424ed0}
+html[data-moonstar-theme='light'] .watch-screen-heading h2{color:#252d43}
+html[data-moonstar-theme='light'] .watch-screen-heading p,
+html[data-moonstar-theme='light'] .gainer-return small,
+html[data-moonstar-theme='light'] .gainer-prices small{color:#5e6b80}
+html[data-moonstar-theme='light'] .gainer-pick .pick-bottom a,
+html[data-moonstar-theme='light'] .pick-time a,
+html[data-moonstar-theme='light'] .screen-footnote a{color:#3e49c4}
+html[data-moonstar-theme='light'] .pick-bottom{color:#4d5b72}
+html[data-moonstar-theme='light'] .scan-coverage{background:#f1f4fb;border-color:#dce3ef;color:#526178}
+html[data-moonstar-theme='light'] .scan-coverage strong{color:#26344d}
+html[data-moonstar-theme='light'] .scan-coverage .scan-stale{color:#8c5d16}
+html[data-moonstar-theme='light'] .must-watch-info[data-slot='dialog-content']{background:#fff;border-color:#dce3ee;color:#20283b}
+html[data-moonstar-theme='light'] .must-watch-info [data-slot='dialog-description']{color:#59677c}
+html[data-moonstar-theme='light'] .must-watch-info h3{color:#26344d}
 html[data-moonstar-theme='light'] .supply-header,
 html[data-moonstar-theme='light'] .ai-heading{color:#22283b}
+html[data-moonstar-theme='light'] .supply-header h1,
+html[data-moonstar-theme='light'] .ai-heading h1{color:#22283b}
+html[data-moonstar-theme='light'] .supply-header h1 span,
+html[data-moonstar-theme='light'] .ai-heading h1 span{color:#687287}
 html[data-moonstar-theme='light'] .supply-header .eyebrow,
 html[data-moonstar-theme='light'] .ai-heading .eyebrow{color:#515cdb}
 html[data-moonstar-theme='light'] .ai-evidence-date,
@@ -138,6 +166,81 @@ html[data-moonstar-theme='light'] .supply-map-panel{box-shadow:0 16px 36px #2633
 html[data-moonstar-theme='light'] .ai-map-density{background:#edf0f7;border-color:#d8ddea}
 html[data-moonstar-theme='light'] .ai-map-density:before{background:#515cdb}
 html[data-moonstar-theme='light'] .ai-map-density button[aria-pressed=true]{color:white}
+html[data-moonstar-theme='light'] .supply-mode button{color:#48566f;border-color:transparent}
+html[data-moonstar-theme='light'] .supply-mode button:hover{background:#e9ecf8;color:#303bb0}
+html[data-moonstar-theme='light'] .supply-mode button[aria-pressed=true]{background:#e8ebff;color:#303bb0;border-color:#c9cff9}
+html[data-moonstar-theme='light'] .supply-mode>span,
+html[data-moonstar-theme='light'] .ai-heading p,
+html[data-moonstar-theme='light'] .ai-heading p span{color:#58677e}
+html[data-moonstar-theme='light'] .ai-actions button{background:#fff;color:#344463;border-color:#9aaac0}
+html[data-moonstar-theme='light'] .ai-actions button:hover{background:#eef1ff;color:#303bb0;border-color:#737fe1}
+html[data-moonstar-theme='light'] .ai-actions button[aria-pressed=true]{background:#e8ebff;color:#303bb0;border-color:#838de4}
+html[data-moonstar-theme='light'] .ai-actions .ai-map-density button[aria-pressed=true]{color:#fff}
+html[data-moonstar-theme='light'] .ai-actions button svg{color:currentColor}
+html[data-moonstar-theme='light'] .ai-board-shell{background:radial-gradient(ellipse at 55% 50%,#e7edff,transparent 67%),#f5f7fc;border-color:#cbd5e5}
+html[data-moonstar-theme='light'] .ai-viewport{background-image:radial-gradient(#9bacc733 .8px,transparent .8px)}
+html[data-moonstar-theme='light'] .ai-phase{background:linear-gradient(180deg,color-mix(in srgb,var(--phase-color) 10%,#fff),#fff0 75%);border-top-color:#cbd7e6}
+html[data-moonstar-theme='light'] .ai-phase>span{color:#4e6280}
+html[data-moonstar-theme='light'] .ai-stage{background:linear-gradient(150deg,#fff,#f2f5fc);border-color:#c4d0df;color:#26344d;box-shadow:0 7px 17px #24304b16}
+html[data-moonstar-theme='light'] .ai-stage:hover,
+html[data-moonstar-theme='light'] .ai-stage.active-stage{background:linear-gradient(150deg,#fff,#e9efff);border-color:#6879ce;box-shadow:0 0 0 2px #6879ce24,0 9px 22px #24304b20}
+html[data-moonstar-theme='light'] .ai-stage.stock-stage{border-color:#9f7e35}
+html[data-moonstar-theme='light'] .ai-stage>p,
+html[data-moonstar-theme='light'] .ai-stage-tickers small,
+html[data-moonstar-theme='light'] .ai-stage-tickers b{color:#53657c}
+html[data-moonstar-theme='light'] .ai-stage-tickers .chosen-ticker small{color:#81661e}
+html[data-moonstar-theme='light'] .ai-vertical-board .ai-map-key{border-color:#cbd5e5;background:#fff}
+html[data-moonstar-theme='light'] .ai-mobile-connections button{background:#edf2f8;color:#263c56}
+html[data-moonstar-theme='light'] .ai-mobile-connections button small,
+html[data-moonstar-theme='light'] .ai-mobile-connections>small{color:#586d83}
+html[data-moonstar-theme='light'] .ai-mobile-phases{background-color:#f5f7fc;background-image:radial-gradient(#9bacc733 .8px,transparent .8px)}
+html[data-moonstar-theme='light'] .ai-mobile-phase{background:linear-gradient(180deg,#fff,#f4f6fc);border-color:#cbd5e5}
+html[data-moonstar-theme='light'] .ai-mobile-phase>h2{color:#405472}
+html[data-moonstar-theme='light'] .ai-map-controls,
+html[data-moonstar-theme='light'] .ai-map-controls button{color:#3e506c}
+html[data-moonstar-theme='light'] .ai-map-controls button:hover{color:#303bb0;background:#e9ecff}
+html[data-moonstar-theme='light'] .ai-stage-detail,
+html[data-moonstar-theme='light'] .ai-tour{background:#fff;background-image:none;border-color:#ccd5e3;color:#20283b;box-shadow:0 16px 36px #27334e26}
+html[data-moonstar-theme='light'] .ai-stage-detail .ai-close{background:#edf0f8;color:#31405d}
+html[data-moonstar-theme='light'] .ai-stage-detail .ai-close:hover{background:#e0e6ff;color:#303bb0}
+html[data-moonstar-theme='light'] .ai-company-list>div{border-bottom-color:#dce2eb}
+html[data-moonstar-theme='light'] .ai-company-list a,
+html[data-moonstar-theme='light'] .ai-company-list button{color:#3e49c4}
+html[data-moonstar-theme='light'] .supply-tools{color:#59677c}
+html[data-moonstar-theme='light'] .supply-tools button{background:#fff;border-color:#9aaac0;color:#344463}
+html[data-moonstar-theme='light'] .supply-tools button:hover{background:#eef1ff;color:#303bb0}
+html[data-moonstar-theme='light'] .supply-map-panel{background:radial-gradient(ellipse at 50% 50%,#e7edff,transparent 68%),#f5f7fc;border-color:#cbd5e5}
+html[data-moonstar-theme='light'] .supply-map{background-image:radial-gradient(#9bacc733 .7px,transparent .7px)}
+html[data-moonstar-theme='light'] .supply-stage-heads .eyebrow{color:#405472}
+html[data-moonstar-theme='light'] .supply-stage-heads small,
+html[data-moonstar-theme='light'] .chain-pager{color:#596b82}
+html[data-moonstar-theme='light'] .chain-center{background:#fff;background-image:none;color:#26344d;border:1px solid #cbd5e5;box-shadow:0 12px 28px #27334e20}
+html[data-moonstar-theme='light'] .chain-node{background:#fff;background-image:none;color:#26344d;border-color:#cbd5e5;border-left-color:#6879ce;box-shadow:0 5px 15px #27334e18}
+html[data-moonstar-theme='light'] .chain-node:hover,
+html[data-moonstar-theme='light'] .chain-node.is-selected{background:#eef1ff;border-color:#6879ce;box-shadow:0 0 0 2px #6879ce26,0 8px 20px #27334e20}
+html[data-moonstar-theme='light'] .chain-node.deployment{border-left-color:#289684}
+html[data-moonstar-theme='light'] .chain-node.partner{border-left-color:#a18139}
+html[data-moonstar-theme='light'] .chain-node-copy>span,
+html[data-moonstar-theme='light'] .chain-node-copy small,
+html[data-moonstar-theme='light'] .chain-node.deployment small,
+html[data-moonstar-theme='light'] .chain-node.partner small{color:#566981}
+html[data-moonstar-theme='light'] .chain-legend{color:#50627a;border-top-color:#d7dfeb}
+html[data-moonstar-theme='light'] .chain-detail.paper{background:#fff;background-image:none;color:#20283b;border-color:#dce3ee}
+html[data-moonstar-theme='light'] .chain-examples .stock-logo,
+html[data-moonstar-theme='light'] .chain-center .stock-logo,
+html[data-moonstar-theme='light'] .chain-node .stock-logo{background:#fff;border-color:#dfe4ee}
+html[data-moonstar-theme='light'] .connection-dialog{background:#fff;background-image:none;border-color:#dce3ee;color:#20283b;box-shadow:0 24px 80px #1d294648}
+html[data-moonstar-theme='light'] .connection-dialog h2{color:#20283b;border-bottom-color:#dce3ee}
+html[data-moonstar-theme='light'] .connection-dialog p,
+html[data-moonstar-theme='light'] .connection-dialog [data-slot='dialog-description'],
+html[data-moonstar-theme='light'] .connection-dialog .search-results small,
+html[data-moonstar-theme='light'] .connection-dialog .search-hint{color:#58677d}
+html[data-moonstar-theme='light'] .connection-dialog .search-input{background:#f8f9fc;border-color:#cbd5e3;color:#20283b;box-shadow:none}
+html[data-moonstar-theme='light'] .connection-dialog .search-results button{color:#26344d;border-bottom-color:#dce3ee}
+html[data-moonstar-theme='light'] .connection-dialog .search-results button:hover{background:#eef1ff}
+html[data-moonstar-theme='light'] .connection-dialog .source-button,
+html[data-moonstar-theme='light'] .search-markets button[aria-pressed=true]{background:#515cdb;border-color:#515cdb;color:#fff}
+html[data-moonstar-theme='light'] .search-markets button{border-color:#cbd5e3;color:#344463}
 
 /* Plan, account and legal pages. */
 html[data-moonstar-theme='light'] .pricing-page,
@@ -203,6 +306,7 @@ html[data-moonstar-theme='light'] .privacy-settings{background:#fff;border-color
 html[data-moonstar-theme='light'] .global-language-switch{background:#fff;border-color:#dce1eb}
 html[data-moonstar-theme='light'] .global-language-switch button{color:#657087}
 html[data-moonstar-theme='light'] .global-language-switch button[aria-pressed=true]{background:#515cdb;color:white}
+html[data-moonstar-theme='light'] input[type='checkbox']{accent-color:#515cdb}
 
 /* Theme selection itself is available in both appearances. */
 .theme-preference>p{margin:8px 0 16px;font-size:13px;line-height:1.5;color:inherit;opacity:.7}
