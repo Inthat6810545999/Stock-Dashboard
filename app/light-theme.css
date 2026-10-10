@@ -92,6 +92,8 @@ html[data-moonstar-theme='light'] .navy-dashboard .news-list h3 a{color:#22283a!
 html[data-moonstar-theme='light'] .navy-dashboard .news-list article>a,
 html[data-moonstar-theme='light'] .navy-dashboard .section-heading>a,
 html[data-moonstar-theme='light'] .navy-dashboard .valuation-source a{color:#424ed0!important}
+html[data-moonstar-theme='light'] .news-list .new-news{background:#e9ebff;border:1px solid #cbd0f9;border-radius:10px;color:#303bb0;box-shadow:0 4px 12px #303bb017;font-weight:650}
+html[data-moonstar-theme='light'] .news-list .new-news:hover{background:#dfe3ff;border-color:#aeb6f5}
 html[data-moonstar-theme='light'] .price-chart text,
 html[data-moonstar-theme='light'] .earnings-chart text{fill:#667187}
 html[data-moonstar-theme='light'] .price-chart svg line[stroke='#2a3a51'],
@@ -347,3 +349,7 @@ html[data-moonstar-theme='classic'] .theme-option-copy small{color:#c0ccdc;opaci
  html[data-moonstar-theme='light'] .masthead .eyebrow{letter-spacing:1.3px;font-size:9px}
 }
 @media(max-width:560px){.theme-options{grid-template-columns:1fr}.theme-preview{height:76px}}
+
+html[data-moonstar-theme='light'] .settings-language-control{background:#eef0f6;border-color:#dce1eb}
+html[data-moonstar-theme='light'] .settings-language-control button{color:#657087}
+html[data-moonstar-theme='light'] .settings-language-control button[aria-pressed=true]{background:#515cdb;color:#fff;box-shadow:0 2px 7px #3942a743}

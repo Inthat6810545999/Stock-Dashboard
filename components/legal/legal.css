@@ -12,3 +12,14 @@ main.settings-page{height:auto;min-height:100svh;overflow:visible;padding:32px;b
 .settings-back-top{margin:16px 10px 0}.settings-sidebar h1{margin-top:24px}
 .settings-back-top{margin:32px 10px 0}
 .settings-sidebar .settings-back-top{margin:0 10px 18px}.settings-sidebar .settings-brand-bottom{display:block;margin:32px 10px 0;font-size:12px;letter-spacing:2px}
+
+.operator-name-th{display:none}
+html[lang=th] .operator-name-en{display:none}
+html[lang=th] .operator-name-th{display:inline}
+
+/* Settings owns these controls; keep the global shortcuts elsewhere. */
+body:has(.settings-page) .global-language-switch,body:has(.settings-page) .privacy-settings{display:none}
+.settings-language-control{display:inline-flex;gap:3px;padding:4px;margin-top:14px;border:1px solid #71819880;border-radius:999px;background:#13243b}
+.settings-language-control button{min-width:62px;min-height:34px;border:0;border-radius:999px;background:transparent;color:#b9c6d8;font:600 12px Inter,Arial,sans-serif}
+.settings-language-control button[aria-pressed=true]{background:#eadcbb;color:#172b45;box-shadow:0 2px 7px #0002}
+.settings-language-control button:focus-visible{outline:2px solid #d9c59b;outline-offset:2px}
