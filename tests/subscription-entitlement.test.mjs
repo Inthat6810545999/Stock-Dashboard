@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {hasMembershipEntitlement} from '../lib/billing/entitlements.ts';
-import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd} from '../lib/billing/plans.ts';
+import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed} from '../lib/billing/plans.ts';
 
 const now=Date.parse('2026-10-10T00:00:00.000Z');
 const record=(overrides={})=>({status:'active',current_period_end:'2026-10-11T00:00:00.000Z',billing_attention_required:false,...overrides});
@@ -45,4 +45,13 @@ test('checkout rejects a Stripe price with the wrong amount, currency or interva
  assert.equal(matchesMembershipPrice('monthly',{...valid,unit_amount:20000}),false);
  assert.equal(matchesMembershipPrice('monthly',{...valid,currency:'usd'}),false);
  assert.equal(matchesMembershipPrice('monthly',{...valid,recurring:{interval:'year'}}),false);
+});
+
+test('production checkout requires an explicitly enabled live key and non-production only accepts test keys',()=>{
+ assert.equal(stripeCheckoutKeyAllowed('sk_live_secret','production',true),true);
+ assert.equal(stripeCheckoutKeyAllowed('sk_live_secret','production',false),false);
+ assert.equal(stripeCheckoutKeyAllowed('sk_test_secret','production',true),false);
+ assert.equal(stripeCheckoutKeyAllowed('sk_live_secret','preview',true),false);
+ assert.equal(stripeCheckoutKeyAllowed('sk_test_secret','preview',false),true);
+ assert.equal(stripeCheckoutKeyAllowed('sk_live_secret',undefined,true),false);
 });

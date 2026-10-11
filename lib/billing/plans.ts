@@ -13,3 +13,8 @@ export function matchesMembershipPrice(plan:MembershipPlan,price:{active:boolean
  const expected=membershipPlans[plan];
  return price.active&&price.type==='recurring'&&price.currency==='thb'&&price.unit_amount===expected.amountMinor&&price.recurring?.interval===expected.interval;
 }
+
+export function stripeCheckoutKeyAllowed(secretKey:string|undefined,deploymentEnvironment:string|undefined,liveChargingEnabled:boolean){
+ if(deploymentEnvironment==='production')return Boolean(secretKey?.startsWith('sk_live_')&&liveChargingEnabled);
+ return Boolean(secretKey?.startsWith('sk_test_'));
+}

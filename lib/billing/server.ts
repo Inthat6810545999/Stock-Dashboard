@@ -1,6 +1,7 @@
 import 'server-only';
 import {createClient, type User} from '@supabase/supabase-js';
 import Stripe from 'stripe';
+import {stripeCheckoutKeyAllowed} from './plans';
 
 export const privateHeaders={'Cache-Control':'private, no-store'};
 export function json(body:unknown,status=200){return Response.json(body,{status,headers:privateHeaders})}
@@ -31,9 +32,8 @@ export function getAdmin(url=process.env.NEXT_PUBLIC_SUPABASE_URL){
 
 export function checkoutReady(plan?:'monthly'|'yearly'){
  const stripeSecret=process.env.STRIPE_SECRET_KEY;
- const secretIsTest=Boolean(stripeSecret?.startsWith('sk_test_'));
  const liveExplicitlyEnabled=process.env.BILLING_LIVE_CHARGING_ENABLED==='true';
- const stripeKeyAllowed=secretIsTest||Boolean(stripeSecret?.startsWith('sk_live_')&&liveExplicitlyEnabled);
+ const stripeKeyAllowed=stripeCheckoutKeyAllowed(stripeSecret,process.env.VERCEL_ENV,liveExplicitlyEnabled);
  const priceReady=plan
   ?Boolean(plan==='monthly'?process.env.STRIPE_PRICE_MONTHLY:process.env.STRIPE_PRICE_YEARLY)
   :Boolean(process.env.STRIPE_PRICE_MONTHLY&&process.env.STRIPE_PRICE_YEARLY);
