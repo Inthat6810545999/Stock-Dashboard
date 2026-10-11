@@ -49,18 +49,27 @@ test('checkout rejects a Stripe price with the wrong amount, currency or interva
 
 test('production checkout requires an explicitly enabled live key and non-production only accepts test keys',()=>{
  assert.equal(stripeCheckoutKeyAllowed('sk_live_secret','production',true),true);
+ assert.equal(stripeCheckoutKeyAllowed('rk_live_secret','production',true),true);
+ assert.equal(stripeCheckoutKeyAllowed('rk_live_secret','production',false),false);
  assert.equal(stripeCheckoutKeyAllowed('sk_live_secret','production',false),false);
  assert.equal(stripeCheckoutKeyAllowed('sk_test_secret','production',true),false);
+ assert.equal(stripeCheckoutKeyAllowed('rk_test_secret','production',true),false);
  assert.equal(stripeCheckoutKeyAllowed('sk_live_secret','preview',true),false);
+ assert.equal(stripeCheckoutKeyAllowed('rk_live_secret','preview',true),false);
  assert.equal(stripeCheckoutKeyAllowed('sk_test_secret','preview',false),true);
+ assert.equal(stripeCheckoutKeyAllowed('rk_test_secret','preview',false),true);
  assert.equal(stripeCheckoutKeyAllowed('sk_live_secret',undefined,true),false);
 });
 
 test('all Stripe API and webhook operations use keys matching the deployment environment',()=>{
  assert.equal(stripeKeyMatchesDeployment('sk_live_secret','production'),true);
+ assert.equal(stripeKeyMatchesDeployment('rk_live_secret','production'),true);
  assert.equal(stripeKeyMatchesDeployment('sk_test_secret','production'),false);
+ assert.equal(stripeKeyMatchesDeployment('rk_test_secret','production'),false);
  assert.equal(stripeKeyMatchesDeployment('sk_test_secret','preview'),true);
+ assert.equal(stripeKeyMatchesDeployment('rk_test_secret','preview'),true);
  assert.equal(stripeKeyMatchesDeployment('sk_live_secret','preview'),false);
+ assert.equal(stripeKeyMatchesDeployment('rk_live_secret','preview'),false);
  assert.equal(stripeKeyMatchesDeployment('sk_test_secret',undefined),true);
  assert.equal(stripeKeyMatchesDeployment('sk_live_secret',undefined),false);
 });

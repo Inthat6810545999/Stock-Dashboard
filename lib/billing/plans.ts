@@ -20,6 +20,6 @@ export function stripeCheckoutKeyAllowed(secretKey:string|undefined,deploymentEn
 }
 
 export function stripeKeyMatchesDeployment(secretKey:string|undefined,deploymentEnvironment:string|undefined){
- if(deploymentEnvironment==='production')return Boolean(secretKey?.startsWith('sk_live_'));
- return Boolean(secretKey?.startsWith('sk_test_'));
+ if(deploymentEnvironment==='production')return Boolean(secretKey?.startsWith('sk_live_')||secretKey?.startsWith('rk_live_'));
+ return Boolean(secretKey?.startsWith('sk_test_')||secretKey?.startsWith('rk_test_'));
 }

@@ -1,7 +1,7 @@
 import {LegalPage} from '@/components/legal/legal-page';
 export const dynamic='force-dynamic';
 export default function TermsPage(){
-const stripeTestCheckout=process.env.BILLING_CHECKOUT_ENABLED==='true'&&process.env.STRIPE_SECRET_KEY?.startsWith('sk_test_');
+const stripeTestCheckout=process.env.BILLING_CHECKOUT_ENABLED==='true'&&(process.env.STRIPE_SECRET_KEY?.startsWith('sk_test_')||process.env.STRIPE_SECRET_KEY?.startsWith('rk_test_'));
 return <LegalPage title="Terms of service">
 <section><h2>The service</h2><p>MOONSTAR provides stock charts, factual price rankings, valuation and earnings data, publisher news links, company relationships and personal watchlists. Screens apply published mathematical filters to available provider data. A rank is not a prediction of future returns or a recommendation tailored to your circumstances.</p><p>Market data and analyst targets are for research only; they do not guarantee profit or suitability for any user. This notice does not itself grant the service an investment license.</p></section>
 <section><h2>Data limitations</h2><p>Quotes may be delayed, missing or revised. Stream connectivity and a 15-second refresh are not guarantees of exchange real-time data. Check the source timestamp, trading session, scan coverage and methodology. After-market confirmation uses provider-reported regular-session data, which may differ from exchange-certified closing records. Historical performance does not guarantee future results.</p></section>
