@@ -6,7 +6,7 @@ import {getSupabaseBrowserClient} from '@/lib/supabase-browser';
 import {membershipPlans} from '@/lib/billing/plans';
 
 type Subscription={plan_key:'monthly'|'yearly';status:string;current_period_start:string|null;current_period_end:string|null;cancel_at_period_end:boolean;canceled_at:string|null;trial_end:string|null;billing_attention_required:boolean;updated_at:string};
-type BillingState={subscription:Subscription|null;hasPaidAccess:boolean;plans:{monthly:{available:boolean};yearly:{available:boolean}};portalAvailable:boolean};
+type BillingState={subscription:Subscription|null;hasPaidAccess:boolean;plans:{monthly:{available:boolean};yearly:{available:boolean}};portalAvailable:boolean;testMode:boolean};
 type BillingControlsProps={checkoutResult?:'return'|'canceled'|null};
 
 function dateLabel(value:string|null){
@@ -88,6 +88,7 @@ export function BillingControls({checkoutResult=null}:BillingControlsProps){
     <button disabled={!state.plans.monthly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'monthly'})}>Monthly · {priceLabel('monthly')}</button>
     <button disabled={!state.plans.yearly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'yearly'})}>Annual · {priceLabel('yearly')}</button>
    </div>
+   {(state.plans.monthly.available||state.plans.yearly.available)&&state.testMode&&<p className="billing-footnote" role="status">Stripe Test mode · no real payment will be collected. Use a Stripe test card only.</p>}
    <p className="billing-footnote">Plans renew monthly or yearly until canceled. The final payable amount, including any applicable tax, must be shown before checkout is enabled.</p>
   </div>}
   <div className="billing-footer-actions"><button onClick={()=>{setNotice('Membership status refreshed.');void load()}} disabled={Boolean(busy)}>Refresh status</button></div>

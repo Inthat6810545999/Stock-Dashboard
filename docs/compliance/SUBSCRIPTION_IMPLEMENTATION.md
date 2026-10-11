@@ -1,28 +1,30 @@
 # Subscription implementation status
 
-Status: subscription records and account UI are implemented; Stripe Test mode has recurring THB prices for ฿199/month and ฿1,990/year (annual savings of ฿398 versus twelve monthly payments). A local Test mode checkout completed successfully, and the resulting annual membership synced through the webhook. No live payment has been collected, and no feature paywall has been added. Local checkout is enabled only with Test mode credentials; remote Preview setup remains unverified.
+Updated 2026-10-11. Stripe subscriptions are implemented with recurring THB prices of ฿199/month and ฿1,990/year (annual savings of ฿398 versus twelve monthly payments). The isolated `codex/stripe-test-billing-20261011` Vercel Preview branch is configured for Stripe Test mode and the `moonstar-preview` Supabase project. Production checkout remains disabled and live charging remains off. No live payment has been collected, and no feature paywall has been added.
 
 ## Provider flow
 
-Stripe hosted Checkout is used for recurring THB plans. The server selects one of two allowlisted recurring Price IDs and verifies the exact THB amount (฿199/month or ฿1,990/year), currency and interval before creating a session. Success and cancellation return to the Membership & billing section in Settings; after success, the page checks server-synced membership state while the webhook is processed. Browser redirects do not grant membership. Stripe webhook signatures are verified against the raw request body; the server then retrieves current subscription state and records it. Duplicate events are safe to process again, and prior subscription rows are retained when an account subscribes again.
+Stripe-hosted Checkout handles the recurring plans. The server accepts only the two configured recurring Price IDs and verifies each amount, currency and interval before creating a session. Success and cancellation return to Membership & billing in Settings; the UI checks server-synced subscription state after returning. A browser redirect alone never grants access. Stripe webhook signatures are verified against the raw request body, and the server retrieves the current subscription from Stripe before saving it. Repeated events safely re-sync provider state; prior subscription rows are retained when a customer subscribes again.
 
-Subscription entitlement is derived only from server-synced provider state. Active access ends at the paid-through timestamp; scheduled cancellation remains active through that timestamp. Trials require explicit configuration. Payment issues, canceled, missing or unrecognized state fail closed. Existing site features remain available because no paywall currently consumes this entitlement.
+Subscription entitlement comes only from server-synced provider state. Active access ends at the paid-through timestamp, including when cancellation is scheduled for that date. Trials require explicit configuration. Payment issues, canceled, missing and unrecognized states fail closed. Existing site features remain available because no paywall currently consumes this entitlement.
+
+## Configuration and verification
+
+- Test-only Stripe and Supabase values are scoped to the Preview branch; none are stored in the repository. The checkout switch is enabled for this Preview only, and `BILLING_LIVE_CHARGING_ENABLED` remains false.
+- The Preview webhook listens for `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted`, `invoice.paid` and `invoice.payment_failed`.
+- The Preview Supabase database has the billing tables and RLS policies. The billing tables are empty of customer/subscription records until a user completes Checkout in this isolated Preview; test webhook fixtures without a matching customer mapping do not create a member.
+- Preview page delivery was verified. Unauthenticated membership and checkout API requests return 401, and a webhook with an invalid signature returns 400. A Stripe Test event was previously accepted by the Preview webhook.
+- In the local Test environment, a completed annual checkout synced a membership row; the row is `active` with cancellation scheduled at the paid-through date, and subscription-created/updated plus invoice-paid webhook receipts are present.
+- The actual signed-in Preview Checkout → Settings confirmation → Billing Portal cancellation sequence has not yet been run against the isolated Preview account. It requires signing into the Preview with an account in `moonstar-preview`; use Stripe test card details only. No real card or payment should be used.
+
+The billing UI and Terms page identify Stripe Test mode when Preview checkout is open. Test transactions do not collect real funds. The production site states checkout is disabled while live collection remains off.
 
 ## Private data and account controls
 
-`billing_customers` and webhook receipts are inaccessible to anonymous and authenticated browser roles. Users can read only their own subscription row under RLS. Only trusted server code using a server key writes billing records. The app never stores card numbers or grants access from user-editable metadata. Account deletion is blocked while a paid access period is active so it cannot leave a paid membership unmanaged. Historical provider invoices remain in Stripe and must be covered by the published retention notice before commercial launch.
+`billing_customers` and webhook receipts are inaccessible to anonymous and authenticated browser roles. Users can read only their own subscription row under RLS. Only trusted server code using a server key writes billing records. The app never stores card numbers or grants access from user-editable metadata. Account deletion is blocked while a paid access period is active so an active membership is not left unmanaged. Historical provider invoices remain in Stripe and must be covered by the published retention notice before commercial launch.
 
-## Remaining setup before remote Preview testing
+## Before any commercial/live launch
 
-- Add the Stripe Test secret, both test Price IDs, `SUPABASE_SECRET_KEY`, and the test webhook secret to Vercel Preview only; never commit them. The webhook must point to the public Preview endpoint and subscribe to `customer.subscription.created`, `customer.subscription.updated`, `customer.subscription.deleted`, `invoice.paid`, and `invoice.payment_failed`.
-- Add the Preview URL to the Supabase Auth redirect allowlist and set `NEXT_PUBLIC_SITE_URL` for that Preview environment.
-- Enable `BILLING_CHECKOUT_ENABLED` only for the Preview environment after verifying its configuration. Keep `BILLING_LIVE_CHARGING_ENABLED=false` and leave production checkout disabled.
-- Test cancellation and billing-portal behavior before treating the sandbox lifecycle as complete.
+The service is not legally or commercially cleared. Confirm market-data permissions, seller/operator identity and markets, applicable regulatory classification, PDPA processor/transfer and retention terms, consumer disclosures, displayed total price/tax, renewal authorization, cancellation/refund and complaint processes, and tax registrations. Review Stripe's terms and payment methods for the selected countries. Do not enable live charges or Stripe Tax until legal, provider and tax setup is complete. Never expose Stripe or Supabase server secrets in client bundles, logs or chat.
 
-## Required before any commercial/live launch
-
-The site is not legally or commercially cleared. Confirm data-source commercial licenses, seller/operator and markets, counsel's regulatory classification, PDPA processor/transfer and retention terms, consumer disclosures, displayed total price/tax, renewal authorization, cancellation/refund and complaint process, and tax registrations. Review Stripe's terms and payment methods for the selected countries. Do not enable live charges or Stripe Tax until legal, provider, and tax setup is complete. Never expose Stripe or Supabase server secrets in client bundles or chat.
-
-## Verification limits
-
-Database schema is installed on the connected Supabase project with RLS. Stripe Test prices are created and match the server allowlist. A local annual Test mode Checkout completed and its subscription was synced by the webhook. Cancellation, refund and repeated renewal-cycle behavior remain untested. Vercel Preview billing configuration has not been verified. The security advisor still reports Supabase leaked-password protection disabled; this remains a separate hardening task.
+The Supabase security advisor has reported leaked-password protection disabled; review and address that separate hardening item before launch.
