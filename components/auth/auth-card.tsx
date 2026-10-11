@@ -4,6 +4,7 @@ import Link from 'next/link';
 import {ArrowLeft,CheckCircle2} from 'lucide-react';
 import {policyVersion} from '@/lib/legal';
 import {getSupabaseBrowserClient,setRememberMePreference} from '@/lib/supabase-browser';
+import {googleSignInEnabled} from '@/lib/auth-provider-settings';
 
 function GoogleMark(){return <svg aria-hidden="true" viewBox="0 0 48 48" width="20" height="20"><path fill="#4285F4" d="M43.6 24.5c0-1.4-.1-2.8-.4-4.1H24v7.8h11a9.4 9.4 0 0 1-4.1 6.2v5.1h6.7c3.9-3.6 6-8.8 6-15Z"/><path fill="#34A853" d="M24 44c5.5 0 10.1-1.8 13.5-4.8l-6.7-5.1c-1.8 1.2-4 1.9-6.8 1.9-5.2 0-9.6-3.5-11.2-8.2H5.9v5.2A20 20 0 0 0 24 44Z"/><path fill="#FBBC05" d="M12.8 27.8a12 12 0 0 1 0-7.6V15H5.9a20 20 0 0 0 0 18Z"/><path fill="#EA4335" d="M24 12.1c3 0 5.7 1 7.8 3.1l5.9-5.9A19.7 19.7 0 0 0 24 4 20 20 0 0 0 5.9 15l6.9 5.2c1.6-4.7 6-8.1 11.2-8.1Z"/></svg>}
 
@@ -14,7 +15,18 @@ export function AuthCard({mode}:{mode:'login'|'signup'}){
   async function continueWithGoogle(){
     const shouldRemember=signup||rememberMe;setRememberMePreference(shouldRemember);
     const supabase=getSupabaseBrowserClient(shouldRemember);if(!supabase){setError('Sign-in is temporarily unavailable. Please try again later.');return}
-    setBusy(true);setError('');const {error}=await supabase.auth.signInWithOAuth({provider:'google',options:{redirectTo:`${window.location.origin}/auth/callback`}});if(error){setError(error.status===429?'Too many attempts. Please wait before trying again.':'Could not complete sign-in. Please check your email address and try again.');setBusy(false)}
+    setBusy(true);setError('');setMessage('');
+    try{
+      const url=process.env.NEXT_PUBLIC_SUPABASE_URL;
+      const key=process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY||process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+      if(!url||!key||!await googleSignInEnabled(url,key)){
+        setError('Google sign-in is unavailable. Please continue with email.');return;
+      }
+      const {error}=await supabase.auth.signInWithOAuth({provider:'google',options:{redirectTo:`${window.location.origin}/auth/callback`}});
+      if(error)setError(error.status===429?'Too many attempts. Please wait before trying again.':'Google sign-in could not be completed. Please continue with email.');
+    }catch{
+      setError('Google sign-in could not be completed. Please continue with email.');
+    }finally{setBusy(false)}
   }
   async function continueWithEmail(e:React.FormEvent<HTMLFormElement>){
     e.preventDefault();const shouldRemember=signup||rememberMe;setRememberMePreference(shouldRemember);
