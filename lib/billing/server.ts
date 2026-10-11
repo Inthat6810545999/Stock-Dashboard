@@ -20,7 +20,7 @@ export async function getSignedInUser(request:Request):Promise<{user:User;token:
 
 export function getStripe(){
  const secret=process.env.STRIPE_SECRET_KEY;
- if(!stripeKeyMatchesDeployment(secret,process.env.VERCEL_ENV))return null;
+ if(!secret||!stripeKeyMatchesDeployment(secret,process.env.VERCEL_ENV))return null;
  return new Stripe(secret);
 }
 
