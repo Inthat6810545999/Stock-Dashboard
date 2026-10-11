@@ -9,7 +9,7 @@ async function syncSubscription(subscriptionId:string){
  if(!stripe||!admin)throw new Error('Server billing storage is not configured.');
  const subscription=await stripe.subscriptions.retrieve(subscriptionId);
  const customerId=typeof subscription.customer==='string'?subscription.customer:subscription.customer.id;
- const {data:mapping,error:mappingError}=await admin.from('billing_customers').select('user_id').eq('stripe_customer_id',customerId).maybeSingle();
+ const {data:mapping,error:mappingError}=await admin.from('billing_customers').select('user_id').eq('stripe_customer_id',customerId).eq('stripe_livemode',subscription.livemode).maybeSingle();
  if(mappingError)throw new Error('Billing customer mapping unavailable.');
  if(!mapping)return;
  const plan=subscriptionPlanFromStripe(subscription);
@@ -20,7 +20,7 @@ async function syncSubscription(subscriptionId:string){
  const needsAttention=['past_due','unpaid','incomplete','incomplete_expired','paused'].includes(subscription.status);
  const {error}=await admin.from('subscriptions').upsert({
   user_id:mapping.user_id,stripe_customer_id:customerId,stripe_subscription_id:subscription.id,
-  plan_key:plan,status:subscription.status,current_period_start:epochToIso(currentStart),
+  plan_key:plan,status:subscription.status,stripe_livemode:subscription.livemode,current_period_start:epochToIso(currentStart),
   current_period_end:epochToIso(currentEnd),cancel_at_period_end:scheduledForPeriodEnd(subscription.cancel_at_period_end,subscription.cancel_at,currentEnd),
   canceled_at:epochToIso(subscription.canceled_at),trial_end:epochToIso(subscription.trial_end),
   billing_attention_required:needsAttention,updated_at:new Date().toISOString(),

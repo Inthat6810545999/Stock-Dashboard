@@ -8,7 +8,7 @@ export async function GET(request:Request){
  const client=createClient(auth.url,auth.key,{auth:{persistSession:false,autoRefreshToken:false},global:{headers:{Authorization:`Bearer ${auth.token}`}}});
  const {data,error}=await client.from('subscriptions')
   .select('plan_key,status,current_period_start,current_period_end,cancel_at_period_end,canceled_at,trial_end,billing_attention_required,updated_at')
-  .eq('user_id',auth.user.id).order('updated_at',{ascending:false}).limit(10);
+  .eq('user_id',auth.user.id).eq('stripe_livemode',process.env.VERCEL_ENV==='production').order('updated_at',{ascending:false}).limit(10);
  if(error)return json({error:'Membership status could not be loaded.'},503);
  const current=data?.find(row=>['active','trialing','past_due','unpaid','incomplete'].includes(row.status))??data?.[0]??null;
  return json({

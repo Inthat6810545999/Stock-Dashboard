@@ -12,8 +12,9 @@ export async function POST(request:Request){
  if(!checkoutReady(plan))return json({error:'Online membership checkout is not available yet. No payment has been taken.'},503);
  const admin=getAdmin(auth.url),stripe=getStripe();
  if(!admin||!stripe)return json({error:'Membership checkout is not configured.'},503);
+ const liveMode=process.env.VERCEL_ENV==='production';
 
- const {data:existing,error:lookupError}=await admin.from('subscriptions').select('status,current_period_end').eq('user_id',auth.user.id).in('status',['active','trialing','past_due','unpaid','incomplete']).limit(10);
+ const {data:existing,error:lookupError}=await admin.from('subscriptions').select('status,current_period_end').eq('user_id',auth.user.id).eq('stripe_livemode',liveMode).in('status',['active','trialing','past_due','unpaid','incomplete']).limit(10);
  if(lookupError)return json({error:'Your current membership could not be checked.'},503);
  if(existing?.some(item=>['past_due','unpaid','incomplete'].includes(item.status)||(['active','trialing'].includes(item.status)&&(!item.current_period_end||Date.parse(item.current_period_end)>Date.now()))))return json({error:'A membership already exists or needs payment attention. Use Manage billing to resolve it before starting another plan.'},409);
 
@@ -23,12 +24,12 @@ export async function POST(request:Request){
   if(!matchesMembershipPrice(plan,price)){
    return json({error:'The configured membership price does not match the selected plan.'},503);
   }
-  const {data:mapping,error:mappingError}=await admin.from('billing_customers').select('stripe_customer_id').eq('user_id',auth.user.id).maybeSingle();
+  const {data:mapping,error:mappingError}=await admin.from('billing_customers').select('stripe_customer_id').eq('user_id',auth.user.id).eq('stripe_livemode',liveMode).maybeSingle();
   if(mappingError)return json({error:'Your billing profile could not be checked.'},503);
   let customerId=mapping?.stripe_customer_id;
   if(!customerId){
    const customer=await stripe.customers.create({email:auth.user.email||undefined,metadata:{moonstar_user_id:auth.user.id}},{idempotencyKey:`moonstar-customer-${auth.user.id}`});
-   const {error:saveError}=await admin.from('billing_customers').upsert({user_id:auth.user.id,stripe_customer_id:customer.id,updated_at:new Date().toISOString()},{onConflict:'user_id'});
+   const {error:saveError}=await admin.from('billing_customers').upsert({user_id:auth.user.id,stripe_customer_id:customer.id,stripe_livemode:liveMode,updated_at:new Date().toISOString()},{onConflict:'user_id'});
    if(saveError)return json({error:'Your billing profile could not be saved.'},503);
    customerId=customer.id;
   }

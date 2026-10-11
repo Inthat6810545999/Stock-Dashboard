@@ -6,7 +6,7 @@ export async function POST(request:Request){
  if('response' in auth)return auth.response;
  const admin=getAdmin(auth.url),stripe=getStripe();
  if(!admin||!stripe)return json({error:'Billing management is not configured yet.'},503);
- const {data,error}=await admin.from('billing_customers').select('stripe_customer_id').eq('user_id',auth.user.id).maybeSingle();
+ const {data,error}=await admin.from('billing_customers').select('stripe_customer_id').eq('user_id',auth.user.id).eq('stripe_livemode',process.env.VERCEL_ENV==='production').maybeSingle();
  if(error)return json({error:'Your billing profile could not be loaded.'},503);
  if(!data)return json({error:'There is no billing profile to manage.'},404);
  try{
