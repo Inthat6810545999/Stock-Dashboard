@@ -1,7 +1,7 @@
 import 'server-only';
 import {createClient, type User} from '@supabase/supabase-js';
 import Stripe from 'stripe';
-import {stripeCheckoutKeyAllowed} from './plans';
+import {stripeCheckoutKeyAllowed,stripeKeyMatchesDeployment} from './plans';
 
 export const privateHeaders={'Cache-Control':'private, no-store'};
 export function json(body:unknown,status=200){return Response.json(body,{status,headers:privateHeaders})}
@@ -20,7 +20,7 @@ export async function getSignedInUser(request:Request):Promise<{user:User;token:
 
 export function getStripe(){
  const secret=process.env.STRIPE_SECRET_KEY;
- if(!secret)return null;
+ if(!stripeKeyMatchesDeployment(secret,process.env.VERCEL_ENV))return null;
  return new Stripe(secret);
 }
 

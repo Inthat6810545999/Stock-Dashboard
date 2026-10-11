@@ -15,6 +15,11 @@ export function matchesMembershipPrice(plan:MembershipPlan,price:{active:boolean
 }
 
 export function stripeCheckoutKeyAllowed(secretKey:string|undefined,deploymentEnvironment:string|undefined,liveChargingEnabled:boolean){
- if(deploymentEnvironment==='production')return Boolean(secretKey?.startsWith('sk_live_')&&liveChargingEnabled);
+ if(!stripeKeyMatchesDeployment(secretKey,deploymentEnvironment))return false;
+ return deploymentEnvironment!=='production'||liveChargingEnabled;
+}
+
+export function stripeKeyMatchesDeployment(secretKey:string|undefined,deploymentEnvironment:string|undefined){
+ if(deploymentEnvironment==='production')return Boolean(secretKey?.startsWith('sk_live_'));
  return Boolean(secretKey?.startsWith('sk_test_'));
 }

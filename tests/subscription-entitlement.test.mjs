@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {hasMembershipEntitlement} from '../lib/billing/entitlements.ts';
-import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed} from '../lib/billing/plans.ts';
+import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed,stripeKeyMatchesDeployment} from '../lib/billing/plans.ts';
 
 const now=Date.parse('2026-10-10T00:00:00.000Z');
 const record=(overrides={})=>({status:'active',current_period_end:'2026-10-11T00:00:00.000Z',billing_attention_required:false,...overrides});
@@ -54,4 +54,13 @@ test('production checkout requires an explicitly enabled live key and non-produc
  assert.equal(stripeCheckoutKeyAllowed('sk_live_secret','preview',true),false);
  assert.equal(stripeCheckoutKeyAllowed('sk_test_secret','preview',false),true);
  assert.equal(stripeCheckoutKeyAllowed('sk_live_secret',undefined,true),false);
+});
+
+test('all Stripe API and webhook operations use keys matching the deployment environment',()=>{
+ assert.equal(stripeKeyMatchesDeployment('sk_live_secret','production'),true);
+ assert.equal(stripeKeyMatchesDeployment('sk_test_secret','production'),false);
+ assert.equal(stripeKeyMatchesDeployment('sk_test_secret','preview'),true);
+ assert.equal(stripeKeyMatchesDeployment('sk_live_secret','preview'),false);
+ assert.equal(stripeKeyMatchesDeployment('sk_test_secret',undefined),true);
+ assert.equal(stripeKeyMatchesDeployment('sk_live_secret',undefined),false);
 });
