@@ -1,4 +1,4 @@
-# MOONSTAR
+# TOPPICKSTOCK
 
 English US stock dashboard matching the approved midnight navy and cream design.
 
