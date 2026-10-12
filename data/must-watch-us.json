@@ -114,9 +114,9 @@
   "priceScan": {
     "total": 5472,
     "processed": 5472,
-    "eligible": 4978,
+    "eligible": 4971,
     "excluded": 1,
-    "missing": 493,
+    "missing": 500,
     "failed": 0,
     "status": "complete"
   },
@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1791681789330
+    "updatedAt": 1791769607876
   },
-  "todayGainersUpdatedAt": 1791681789330,
+  "todayGainersUpdatedAt": 1791769607876,
   "items": [
     {
       "symbol": "KSPI",
@@ -526,11 +526,11 @@
       "currency": "USD",
       "price": 199.26,
       "pe": 12.797688,
-      "forwardPe": 8.357394,
+      "forwardPe": 8.269432,
       "salesGrowth": 11.11,
-      "marketCap": 122242990080,
+      "marketCap": 122246012928,
       "timestamp": 1791576003000,
-      "score": 132.93617603765003
+      "score": 134.35021897513639
     },
     {
       "symbol": "KYIV",
@@ -549,7 +549,7 @@
       "name": "Annaly Capital Management, Inc.",
       "currency": "USD",
       "price": 18.3,
-      "pe": 4.474327,
+      "pe": 4.485294,
       "forwardPe": 5.8905325,
       "salesGrowth": 4.794,
       "marketCap": 13792973824,
@@ -610,11 +610,11 @@
       "currency": "USD",
       "price": 10,
       "pe": 8.403361,
-      "forwardPe": 2.9075143,
+      "forwardPe": 2.91194,
       "salesGrowth": 0.643,
       "marketCap": 7233702912,
       "timestamp": 1791576003000,
-      "score": 22.11511049146001
+      "score": 22.08149893198349
     }
   ],
   "allSizes": [
@@ -648,11 +648,11 @@
       "currency": "USD",
       "price": 199.26,
       "pe": 12.797688,
-      "forwardPe": 8.357394,
+      "forwardPe": 8.269432,
       "salesGrowth": 11.11,
-      "marketCap": 122242990080,
+      "marketCap": 122246012928,
       "timestamp": 1791576003000,
-      "score": 132.93617603765003
+      "score": 134.35021897513639
     },
     {
       "symbol": "KYIV",
@@ -671,7 +671,7 @@
       "name": "Annaly Capital Management, Inc.",
       "currency": "USD",
       "price": 18.3,
-      "pe": 4.474327,
+      "pe": 4.485294,
       "forwardPe": 5.8905325,
       "salesGrowth": 4.794,
       "marketCap": 13792973824,
@@ -734,25 +734,25 @@
       "pe": 2.8229167,
       "forwardPe": 2.9139786,
       "salesGrowth": 1.396,
-      "marketCap": 245058016,
+      "marketCap": 247268288,
       "timestamp": 1791576001000,
       "score": 47.9070093376801
     }
   ],
   "checked": 5472,
   "failed": 0,
-  "updatedAt": 1791681789334,
+  "updatedAt": 1791769607882,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5472,
     "processed": 5472,
-    "eligible": 639,
-    "excluded": 3171,
-    "missing": 1662,
+    "eligible": 640,
+    "excluded": 3193,
+    "missing": 1639,
     "failed": 0,
-    "startedAt": 1791681176026,
-    "directoryAt": 1791681176026,
+    "startedAt": 1791769061393,
+    "directoryAt": 1791769061393,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
