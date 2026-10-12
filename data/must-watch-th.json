@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1791681934080
+    "updatedAt": 1791769743411
   },
-  "todayGainersUpdatedAt": 1791681934080,
+  "todayGainersUpdatedAt": 1791769743411,
   "items": [
     {
       "symbol": "PJW.BK",
@@ -525,7 +525,7 @@
       "name": "Sriracha Construction Public Company Limited",
       "currency": "THB",
       "price": 17.4,
-      "pe": 3.169399,
+      "pe": 3.1521738,
       "forwardPe": 12.3404255,
       "salesGrowth": 3.074,
       "marketCap": 5391894528,
@@ -573,7 +573,7 @@
       "name": "Asefa Public Company Limited",
       "currency": "THB",
       "price": 7.6,
-      "pe": 10.27027,
+      "pe": 10.410958,
       "forwardPe": 12.459016,
       "salesGrowth": 1.429,
       "marketCap": 4006935040,
@@ -609,7 +609,7 @@
       "name": "Amata Corporation Public Company Limited",
       "currency": "THB",
       "price": 31.5,
-      "pe": 7.1106095,
+      "pe": 7.0469804,
       "forwardPe": 8.992036,
       "salesGrowth": 0.719,
       "marketCap": 36224999424,
@@ -659,7 +659,7 @@
       "name": "Sriracha Construction Public Company Limited",
       "currency": "THB",
       "price": 17.4,
-      "pe": 3.169399,
+      "pe": 3.1521738,
       "forwardPe": 12.3404255,
       "salesGrowth": 3.074,
       "marketCap": 5391894528,
@@ -707,7 +707,7 @@
       "name": "Asefa Public Company Limited",
       "currency": "THB",
       "price": 7.6,
-      "pe": 10.27027,
+      "pe": 10.410958,
       "forwardPe": 12.459016,
       "salesGrowth": 1.429,
       "marketCap": 4006935040,
@@ -741,7 +741,7 @@
   ],
   "checked": 862,
   "failed": 4,
-  "updatedAt": 1791681934081,
+  "updatedAt": 1791769743412,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
@@ -751,8 +751,8 @@
     "excluded": 256,
     "missing": 522,
     "failed": 4,
-    "startedAt": 1791681798071,
-    "directoryAt": 1791681798071,
+    "startedAt": 1791769616019,
+    "directoryAt": 1791769616019,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
