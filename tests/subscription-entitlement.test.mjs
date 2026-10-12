@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {hasMembershipEntitlement} from '../lib/billing/entitlements.ts';
-import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed,stripeKeyMatchesDeployment,stripeSecretForDeployment} from '../lib/billing/plans.ts';
+import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed,stripeEventMatchesDeployment,stripeKeyMatchesDeployment,stripeSecretForDeployment} from '../lib/billing/plans.ts';
 
 const now=Date.parse('2026-10-10T00:00:00.000Z');
 const record=(overrides={})=>({status:'active',current_period_end:'2026-10-11T00:00:00.000Z',billing_attention_required:false,...overrides});
@@ -78,4 +78,12 @@ test('production never falls back to the integration test key',()=>{
  assert.equal(stripeSecretForDeployment('rk_live_secret','sk_test_secret','production'),'rk_live_secret');
  assert.equal(stripeSecretForDeployment(undefined,'sk_test_secret','production'),undefined);
  assert.equal(stripeSecretForDeployment('rk_live_secret','sk_test_secret','preview'),'sk_test_secret');
+});
+
+test('signed Stripe events must match the deployment mode',()=>{
+ assert.equal(stripeEventMatchesDeployment(true,'production'),true);
+ assert.equal(stripeEventMatchesDeployment(false,'production'),false);
+ assert.equal(stripeEventMatchesDeployment(false,'preview'),true);
+ assert.equal(stripeEventMatchesDeployment(true,'preview'),false);
+ assert.equal(stripeEventMatchesDeployment(false,undefined),true);
 });

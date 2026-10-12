@@ -27,3 +27,7 @@ export function stripeKeyMatchesDeployment(secretKey:string|undefined,deployment
 export function stripeSecretForDeployment(liveKey:string|undefined,testKey:string|undefined,deploymentEnvironment:string|undefined){
  return deploymentEnvironment==='production'?liveKey:testKey;
 }
+
+export function stripeEventMatchesDeployment(eventIsLive:boolean,deploymentEnvironment:string|undefined){
+ return eventIsLive===(deploymentEnvironment==='production');
+}

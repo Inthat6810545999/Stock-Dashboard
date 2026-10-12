@@ -1,6 +1,6 @@
 import type Stripe from 'stripe';
 import {epochToIso,getAdmin,getStripe,json} from '@/lib/billing/server';
-import {scheduledForPeriodEnd} from '@/lib/billing/plans';
+import {scheduledForPeriodEnd,stripeEventMatchesDeployment} from '@/lib/billing/plans';
 
 export const runtime='nodejs';
 
@@ -49,6 +49,7 @@ export async function POST(request:Request){
  let event:Stripe.Event;
  try{event=await stripe.webhooks.constructEventAsync(await request.text(),signature,secret)}
  catch{return json({error:'Invalid webhook signature.'},400)}
+ if(!stripeEventMatchesDeployment(event.livemode,process.env.VERCEL_ENV))return json({error:'Webhook mode does not match this deployment.'},400);
 
  try{
   if(event.type.startsWith('customer.subscription.')){
