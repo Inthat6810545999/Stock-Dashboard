@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by the server (currently http://127.0.0.1:5173).
+Open the local URL printed by the server.
 
 ## Features
 
@@ -59,19 +59,18 @@ Controls: drag the background to pan, use zoom buttons or +/- keys, use arrow ke
 
 Validate graph coverage with `node --experimental-strip-types tests/ai-supply-chain.test.mjs`.
 
-## Market-wide Must watch scans
+## Market-wide Must Watch scans
 
-`npm run scan:market` scans both markets; append `-- --market=us` or `-- --market=th` for one market. Node 22 is required. No provider credentials are used.
+`npm run scan:market` scans the US exchange-listed universe. Node 22 is required. No provider credentials are used.
 
-- **US universe:** both official Nasdaq Trader symbol directories, excluding test symbols, ETFs, NextShares, funds, preferred shares, warrants, rights, notes, bonds and units. US exchange-listed equities and ADRs are included; OTC is **not** included. Share-class periods are normalized to Yahoo's hyphen convention.
-- **Thailand universe:** all alphabet/numeric directory links discovered from Thailand SEC's listed-company page, retaining SET/mai-classified rows. This replaces the former 48-company sample. The SET Excel endpoint was inaccessible during implementation; SEC is an independent official directory source.
-- **Scan:** every directory symbol is considered. Bulk quotes reject stocks already outside positive P/E / forward-P/E ≤25. Remaining symbols receive a fundamentals request for revenue growth ≥10% YoY. The any-size ranking has no market-cap requirement; the other requires USD/THB 1 billion. Each is sorted by quarterly revenue-growth percentage divided by forward P/E. The score can favor one-off rebounds and is not PEG, a fair-value estimate, or a sector-adjusted valuation.
-- **Coverage:** counts distinguish eligible, excluded, missing required fields and failed requests. Completion means every directory symbol was processed, not that Yahoo supplies all fields for every stock. No data-completeness or global/OTC coverage claim is made.
-- **Persistence:** checked-in `data/must-watch-{us,th}.json` snapshots survive server restarts. API reads snapshots instead of running thousands of requests from the browser. Failed directory discovery never replaces the previous snapshot. During rescans, the previous completed ranking remains available with progress. An initial in-progress scan is explicitly provisional. Over 25% failed requests fails the job instead of publishing a completed snapshot. Checkpoints under ignored `.cache/market-scan/` allow same-day resume; provider failures are retried. Remove a leftover `.lock` only after confirming no scanner process is running.
-- **Updates:** `.github/workflows/market-scan.yml` starts daily at 22:30 UTC / 05:30 ICT. It refreshes YoY/growth fundamentals and earnings data. `.github/workflows/hourly-us-gainers.yml` scans the full US exchange-listed universe hourly on weekdays during regular hours, takes a closing snapshot, then re-scans the full universe at 16:15 New York time to confirm regular-session prices after the market closes. It ranks regular-session prices against the previous regular-session close; after-hours prices are excluded. `.github/workflows/hourly-th-gainers.yml` scans the full SET/mai directory at 10:05, 11:05, 12:05, 14:35, 15:05 and 16:05 ICT, takes its regular closing snapshot at 17:05 ICT, then re-scans the full SET/mai universe at 17:15 ICT after the closing auction and off-hour session to confirm regular-session prices. It checks Yahoo's SET market state during sessions, skips lunch, weekends, holidays and stale daily quotes, and publishes only same-day prices. Thai quotes can be delayed by Yahoo and are not a real-time exchange feed. **Schedules only run after their workflow files reach GitHub's default branch, and each job needs Actions write permission.** The jobs commit snapshots so the existing Vercel Git integration can publish rankings. GitHub scheduling may be delayed.
-- **UI refresh:** reads the newest deployed snapshot every 60 seconds and polls displayed-stock prices every 60 seconds. US daily gainer rankings update hourly during regular hours; Thai rankings update hourly during SET/mai sessions and at close, with delayed quote snapshots. YoY and growth/value rankings remain daily snapshots. It displays source quote times and marks growth snapshots older than 36 hours stale.
+- **Universe:** both official Nasdaq Trader symbol directories, excluding test symbols, ETFs, funds, preferred shares, warrants, rights, notes, bonds and units. US-listed equities and ADRs are included; OTC is not included. Share-class periods are normalized for quote lookup.
+- **Growth screens:** daily snapshots rank eligible stocks by quarterly revenue growth divided by forward P/E, with positive P/E and forward P/E no greater than 25. One screen has no market-cap floor; the other requires at least USD 1 billion. This is a screening measure, not PEG or a fair-value estimate.
+- **Price gainers:** daily one-year price returns and hourly regular-session gainers use the same US universe. The one-year calculation uses closing prices, excludes dividends, and requires a full year of history and a recent quote.
+- **Coverage and storage:** snapshots distinguish eligible, excluded, missing and failed records. They are stored in `data/must-watch-us.json`; the API serves the latest completed snapshot while a rescan runs. Checkpoints under ignored `.cache/market-scan/` allow same-day resume.
+- **Updates:** the daily workflow refreshes growth, annual-return and earnings data. The weekday hourly workflow scans during regular trading hours and rechecks the closing snapshot after the market closes. Schedules run only after their workflow files reach GitHub's default branch and need Actions write permission.
+- **UI refresh:** the dashboard reads the deployed snapshot every 60 seconds and refreshes displayed quotes every 15 seconds. Growth snapshots older than 36 hours are marked stale.
 
-Checks: `node tests/market-universe.test.mjs`, `node --experimental-strip-types tests/must-watch.test.mjs`, `npx tsc --noEmit`, `npm run build`.
+Validation: `node tests/market-universe.test.mjs`, `node --experimental-strip-types tests/must-watch.test.mjs`, `npx tsc --noEmit`, `npm run build`.
 
 ### Top 10 annual price gainers
 

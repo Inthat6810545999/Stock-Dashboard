@@ -1,6 +1,6 @@
 -- Run after market_gainers_scheduler.sql is installed. Without the Vault secret,
 -- attempts fail safely until the token is added.
--- UTC windows cover SET sessions and both US daylight-saving/standard-time sessions.
+-- UTC windows cover US daylight-saving and standard-time market sessions.
 -- GitHub's due-gainer-scans.mjs gates exact slots, holidays and already published data.
 select cron.schedule(
   'moonstar-market-gainers',

@@ -4,5 +4,5 @@ import {LanguageRuntime} from '@/components/language-runtime';
 import './globals.css';
 import './journal-theme.css';
 import './light-theme.css';
-export const metadata:Metadata={title:'TOPPICKSTOCK | Stock Journal',description:'TOPPICKSTOCK: your US and Thai stock journal prices, analyst targets, valuation, quarterly earnings, and company news.',icons:{icon:'/favicon.svg',shortcut:'/favicon.svg'}};
+export const metadata:Metadata={title:'TOPPICKSTOCK | Stock Journal',description:'TOPPICKSTOCK: your US stock journal prices, analyst targets, valuation, quarterly earnings, and company news.',icons:{icon:'/favicon.svg',shortcut:'/favicon.svg'}};
 export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en" data-moonstar-theme="light" suppressHydrationWarning><head><script dangerouslySetInnerHTML={{__html:"try{document.documentElement.dataset.moonstarTheme=localStorage.getItem('moonstar-theme')==='classic'?'classic':'light'}catch{document.documentElement.dataset.moonstarTheme='light'}"}}/></head><body>{children}<LanguageRuntime/><PrivacyControls /></body></html>}

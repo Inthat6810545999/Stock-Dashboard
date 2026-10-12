@@ -1,10 +1,10 @@
-import {validSymbol,marketLocale} from '@/lib/market-locale';
+import {validUsSymbol,marketLocale} from '@/lib/market-locale';
 import {companies} from '@/lib/market';
 type YahooChart={chart?:{result?:Array<{meta?:{currency?:string;regularMarketTime?:number;regularMarketPrice?:number;previousClose?:number};indicators?:{quote?:Array<{close?:unknown[]}>}}>}};
 type Snapshot={currency?:string;timestamp?:number;price:number|null;percent:number|null;points:number[]};
 const cache=new Map<string,{until:number;data:Snapshot}>();
 export async function GET(request:Request){
- const symbols=(new URL(request.url).searchParams.get('symbols')||companies.map(company=>company.symbol).join(',')).split(',').filter(symbol=>validSymbol(symbol)).slice(0,24);
+ const symbols=(new URL(request.url).searchParams.get('symbols')||companies.map(company=>company.symbol).join(',')).split(',').filter(symbol=>validUsSymbol(symbol)).slice(0,24);
  const entries=await Promise.all(symbols.map(async symbol=>{
   const existing=cache.get(symbol);
   if(existing&&existing.until>Date.now())return [symbol,existing.data] as const;

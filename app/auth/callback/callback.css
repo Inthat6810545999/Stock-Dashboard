@@ -1,0 +1,31 @@
+.auth-callback-page{position:relative;isolation:isolate;display:grid;min-height:100dvh;place-items:center;overflow:hidden;padding:32px 20px;background:radial-gradient(ellipse at 50% 12%,#edf0ff,transparent 52%),linear-gradient(145deg,#fff,#f5f7fc 72%);color:#20283b;font-family:var(--journal-font,Inter,Arial,sans-serif)}
+.auth-callback-glow{position:absolute;z-index:-1;width:min(72vw,800px);height:min(34vw,360px);border:1px solid #c8b47727;border-radius:50%;transform:rotate(-22deg);pointer-events:none}
+.auth-callback-glow-one{top:-15%;left:8%;box-shadow:0 0 80px #5964e810,inset 0 0 60px #5964e80a}
+.auth-callback-glow-two{top:-7%;left:15%;width:min(61vw,660px);height:min(26vw,270px);border-color:#9eafc01d}
+.auth-callback-card{width:min(100%,480px);padding:clamp(28px,6vw,48px);border:1px solid #dfe4ef;border-radius:26px;background:#ffffffec;box-shadow:0 24px 70px #26334d14,inset 0 1px #fff;text-align:center;backdrop-filter:blur(18px)}
+.auth-callback-brand{display:inline-flex;align-items:center;gap:11px;color:#171923;text-decoration:none;font-size:18px;font-weight:750;letter-spacing:.13em}
+.auth-callback-brand svg{width:30px;height:30px;color:#20283b}
+.auth-callback-symbol{position:relative;display:grid;width:76px;height:76px;place-items:center;margin:35px auto 22px;border:1px solid #cbd1f7;border-radius:24px;background:#edf0ff;color:#515cdb}
+.auth-callback-spinner{width:35px;height:35px;border:3px solid #515cdb28;border-top-color:#515cdb;border-right-color:#515cdb;border-radius:50%;animation:auth-callback-spin .85s linear infinite}
+.auth-callback-sparkle{position:absolute;top:11px;right:10px;fill:#fff;color:#515cdb}
+.auth-callback-symbol.is-error{border-color:#e8ced0;background:#fff3f3;color:#a8434a}
+.auth-callback-eyebrow{margin:0 0 10px;color:#515cdb;font-size:10px;font-weight:700;letter-spacing:.2em}
+.auth-callback-card h1{margin:0;color:#20283b;font:600 clamp(27px,6vw,34px)/1.15 var(--journal-font,Inter,Arial,sans-serif);letter-spacing:-.045em}
+.auth-callback-message{max-width:350px;margin:14px auto 0;color:#657087;font-size:14px;line-height:1.65;overflow-wrap:anywhere}
+.auth-callback-progress{display:flex;align-items:center;gap:7px;width:126px;margin:26px auto 0}
+.auth-callback-progress span{height:4px;flex:1;border-radius:20px;background:linear-gradient(90deg,#515cdb,#9ba3ff);animation:auth-callback-progress 1.5s ease-in-out infinite alternate}
+.auth-callback-progress i{width:7px;height:7px;border-radius:50%;background:#c7ccef}
+.auth-callback-footnote{display:flex;align-items:center;justify-content:center;gap:6px;margin:28px 0 0;color:#7b879b;font-size:11px}
+.auth-callback-footnote svg{color:#168568}
+.auth-callback-actions{display:grid;gap:10px;margin-top:25px}
+.auth-callback-primary,.auth-callback-secondary{display:inline-flex;min-height:46px;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:12px;padding:0 16px;text-decoration:none;font-size:13px;font-weight:650;transition:transform .18s ease,background .18s ease}
+.auth-callback-primary{background:#515cdb;color:#fff;box-shadow:0 8px 18px #515cdb26}
+.auth-callback-secondary{border-color:#d7ddec;background:#fff;color:#39445f}
+.auth-callback-primary:hover,.auth-callback-secondary:hover{transform:translateY(-1px)}
+.auth-callback-primary:focus-visible,.auth-callback-secondary:focus-visible,.auth-callback-brand:focus-visible{outline:2px solid #515cdb;outline-offset:3px}
+.auth-callback-legal{position:absolute;bottom:18px;margin:0;color:#8791a4;font-size:10px;letter-spacing:.08em;text-align:center}
+.auth-callback-legal span{padding:0 5px;color:#b69b5f}
+@keyframes auth-callback-spin{to{transform:rotate(360deg)}}
+@keyframes auth-callback-progress{from{transform:scaleX(.45);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}
+@media(max-width:480px){.auth-callback-card{padding:28px 22px;border-radius:22px}.auth-callback-symbol{width:68px;height:68px;margin:28px auto 20px}.auth-callback-brand{font-size:15px}.auth-callback-legal{bottom:11px;font-size:9px}}
+@media(prefers-reduced-motion:reduce){.auth-callback-spinner,.auth-callback-progress span{animation:none}.auth-callback-primary,.auth-callback-secondary{transition:none}}

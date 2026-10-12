@@ -1,6 +1,6 @@
 # Agreed UI requirements
 
-Last updated: 2026-10-04 (Asia/Bangkok). These record the user's decisions, not speculative redesigns. New explicit requests override this document.
+Last updated: 2026-10-12 (Asia/Bangkok). The current product scope is US-listed stocks only. Earlier requirements for Thai exchange features are superseded.
 
 ## Dashboard and theme
 - Keep the navy / cream / muted gold journal theme and original moon header artwork.
@@ -20,7 +20,7 @@ Last updated: 2026-10-04 (Asia/Bangkok). These record the user's decisions, not 
 - Stock brief keeps its existing font size; wrap full supplied sentences onto additional lines instead of line-clamp ellipses. Compact layouts can scroll the description without hiding targets.
 - Valuation must fit without its own scrollbar; Earnings may be narrower to make room.
 - Watchlist logos vertically centered, sparklines visible on tablets, text/prices never overlap. Show whole cards at resting positions and horizontal scrolling for additional stocks.
-- Thai dates/times use Asia/Bangkok (ICT), including news. Preserve US and Thai stock support.
+- Displayed dates/times use Asia/Bangkok (ICT), including US news.
 
 ## Supply chain and Must Watch
 - Preserve original navy phase colors, icons and animated connecting lines.
@@ -45,12 +45,6 @@ Viewport simulation is not physical-device or cross-engine testing. Report exact
 - Valuation shows annual dividend yield (%) and annual dividend rate per share in the quote currency, labeled indicated or trailing. Missing data is unavailable, not zero.
 - Yield recalculates with current quotes. Company dividend/event data refreshes with the 60-second snapshot; do not describe corporate declarations as a real-time stream.
 
-## Thai news
-- Thai .BK news uses Thai Google News RSS search with the ticker and financial context, rather than relying on Yahoo relatedTickers coverage. Keep US news on its existing provider.
-- Match whole ticker tokens (PTT must not match PTTGC), reject invalid links/dates, deduplicate headlines, and omit social-platform results. Display publisher, original link and Bangkok publication time.
-- Poll every 60 seconds; label as aggregated news that may be delayed, never guaranteed real-time. Empty initial feeds must populate when a later refresh returns news.
-- Thai All news links should open the corresponding Thai news search. Do not fabricate article summaries or scrape full publisher articles.
-
 ## Search and scrollbars
 - Stock search scrolls vertically only; long names wrap without horizontal overflow.
 - Scrollbars use thin rounded muted theme colors. Earnings Est. dates use the same text color as quarter labels.
@@ -63,8 +57,6 @@ Viewport simulation is not physical-device or cross-engine testing. Report exact
 
 - Restore the compact desktop/tablet stock heading to a 46px logo and 26px ticker with company name visible. Do not shrink it to 28px/22px based on viewport height. Remove the quote-meta status row under the price at the user’s request.
 
-- Thai historical E markers use exact-ticker SET company announcements with release dates, source links and no fabricated time/quarter-end. SET search history is limited to five years. Keep verified SCBX official releases as fallback. US earnings history uses Alpha Vantage reportedDate/EPS with a server-side daily cache. Never claim complete coverage without provider results.
-
 - E/D badges are their original 22px size divided by 1.5 (14.667px; supersedes the half-size and one-third requests). Nearby events remain separate overlapping badges, never E/D text. E uses theme green only for actual EPS > estimate; equal/below is theme red. Missing EPS/consensus stays neutral. Match fiscal periods explicitly, never infer the earnings announcement date from a quarter end.
 
-- Historical E and D integration must apply to every valid US/Thai ticker, not only a hardcoded company. Use Alpha Vantage (`ALPHA_VANTAGE_API_KEY`) plus the rotating daily snapshot for US, and SET Investor Alert (`SET_INVESTOR_ALERT_API_KEY`) plus official issuer fallbacks for Thai stocks; retain Yahoo D and verified SCBX fallback. Expose missing credentials/provider failure separately from a confirmed empty response. Show every supplied event within the selected timeframe, deduplicate sources, and never claim universal data coverage without live verification. Setup and current activation limits: `docs/EVENT_HISTORY_SETUP.md`.
+- Historical E and D integration applies to supported US tickers. Use Alpha Vantage (`ALPHA_VANTAGE_API_KEY`) plus the rotating daily US snapshot for earnings, and provider dividends. Expose missing credentials/provider failure separately from a confirmed empty response; do not claim universal coverage without live verification.

@@ -25,6 +25,3 @@ User superseded 1.3× with 3× of the original Dime baseline: 1D now uses 60% of
 
 ## Corporate events and dividend valuation
 Added clickable D ex-date markers, E announcement markers / upcoming event buttons, and annual yield + per-share dividend rate. Tested D and Next E dialogs. Provider NVDA 1Y response included four dividend events and one upcoming earnings date. All 23 simulated viewport sizes passed final event-bound and valuation-content fit checks without horizontal document overflow; compact card padding was adjusted after detecting clipping. Results: events-audit-2026-10-04.json. Four event-normalization tests, TypeScript and production build passed. No physical-device/cross-engine certification. Historical earnings dates are limited to those actually provided, never inferred from quarter-end dates.
-
-## Thai news feed
-Confirmed live API returns news for PTT.BK, AOT.BK, KBANK.BK and CPALL.BK, with US NVDA route also returning successfully. PTT Thai headlines rendered in News brief with publisher/ICT time and refresh notice. Checked loaded news in 23 simulated viewport sizes: no horizontal page overflow and news list remained inside card width. Parser tests cover exact ticker matching, safe URLs, invalid dates, deduplication and search URL. No physical-device testing. Aggregator publication delay is not a real-time-feed guarantee.

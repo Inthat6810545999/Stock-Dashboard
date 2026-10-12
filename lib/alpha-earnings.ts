@@ -38,7 +38,7 @@ export function createAlphaEarnings({directory,fetcher=fetch,now=Date.now}:{dire
  // Keep an isolate-local cache as a fallback so the provider still works there.
  const volatile=new Map<string,State>();
  return async function get(symbol:string,key?:string):Promise<AlphaHistory>{
-  if(!/^[A-Z0-9][A-Z0-9.-]{0,19}$/.test(symbol)||symbol.endsWith('.BK'))return {events:[],earnings:'unavailable'};
+  if(!/^[A-Z][A-Z0-9-]{0,9}(?:\.[A-Z])?$/.test(symbol))return {events:[],earnings:'unavailable'};
   if(!key?.trim())return {events:[],earnings:'not-configured'};
   const id=createHash('sha256').update(key).digest('hex').slice(0,24),requestId=`${id}:${symbol}`;
   const underway=pending.get(requestId);if(underway)return underway;

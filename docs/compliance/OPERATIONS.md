@@ -59,4 +59,4 @@ Prices, sales countries and payment provider remain undecided. Before accepting 
 - Establish receipts/invoices, tax/business registration requirements and bookkeeping with a Thai accountant; determine overseas sales obligations before targeting those markets.
 - Test purchase, renewal, failure, cancellation and refund in provider sandbox. Obtain written data permissions and regulatory review before commercial launch.
 
-Sources: Thai PDPA https://ratchakitcha.soc.go.th/documents/17082307.pdf ; SET https://www.set.or.th/th/services/connectivity-and-data/data/market-data-policy ; Supabase security https://supabase.com/docs/guides/security/product-security . Recheck applicability and current rules before launch.
+Sources: Thai PDPA https://ratchakitcha.soc.go.th/documents/17082307.pdf ; Supabase security https://supabase.com/docs/guides/security/product-security . Recheck applicability and current rules before launch.

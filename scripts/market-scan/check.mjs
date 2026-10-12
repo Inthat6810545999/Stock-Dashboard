@@ -1,10 +1,10 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-for(const market of ['us','th']){
+for(const market of ['us']){
  const data=JSON.parse(await readFile(new URL(`../../data/must-watch-${market}.json`,import.meta.url),'utf8'));
  const s=data.scan;
  assert.equal(s.status,'complete');assert.equal(s.processed,s.total);assert.equal(s.eligible+s.excluded+s.missing+s.failed,s.total);
- assert.ok(s.total>=(market==='us'?3000:600));
+ assert.ok(s.total>=3000);
  for(const [key,minimum] of [['items',1e9],['allSizes',0]]){
   const rows=data[key];assert.ok(rows.length<=10);assert.equal(new Set(rows.map(r=>r.symbol)).size,rows.length);
   for(const [i,r] of rows.entries()){
