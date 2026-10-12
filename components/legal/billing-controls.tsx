@@ -6,7 +6,7 @@ import {getSupabaseBrowserClient} from '@/lib/supabase-browser';
 import {membershipPlans} from '@/lib/billing/plans';
 
 type Subscription={plan_key:'monthly'|'yearly';status:string;current_period_start:string|null;current_period_end:string|null;cancel_at_period_end:boolean;canceled_at:string|null;trial_end:string|null;billing_attention_required:boolean;updated_at:string};
-type BillingState={subscription:Subscription|null;hasPaidAccess:boolean;plans:{monthly:{available:boolean};yearly:{available:boolean}};portalAvailable:boolean;testMode:boolean};
+type BillingState={subscription:Subscription|null;hasPaidAccess:boolean;hasPremiumAccess:boolean;complimentaryAccess:boolean;complimentaryUntil:string|null;plans:{monthly:{available:boolean};yearly:{available:boolean}};portalAvailable:boolean;testMode:boolean};
 type BillingControlsProps={checkoutResult?:'return'|'canceled'|null};
 
 function dateLabel(value:string|null){
@@ -72,6 +72,7 @@ export function BillingControls({checkoutResult=null}:BillingControlsProps){
  const periodEnd=dateLabel(sub?.current_period_end??null);
  const canStartPlan=Boolean(sub&&['canceled','incomplete_expired'].includes(sub.status));
  return <section className="billing-controls" aria-live="polite">
+  {state.complimentaryAccess&&<div className="settings-block"><h3>Complimentary Premium access</h3><p>Your Premium access is free through {dateLabel(state.complimentaryUntil)??'the stated end date'} (Bangkok time). No card or automatic renewal is linked to this access.</p></div>}
   {sub?<div className="settings-block">
    <h3>Current membership</h3>
    <p><strong>{sub.plan_key==='yearly'?'Annual':'Monthly'} membership · {priceLabel(sub.plan_key)}</strong> · {statusLabel(sub.status)}</p>
@@ -82,7 +83,7 @@ export function BillingControls({checkoutResult=null}:BillingControlsProps){
    {state.portalAvailable&&<button onClick={()=>void launch('/api/subscription/portal')} disabled={Boolean(busy)}>{busy?'Opening secure billing…':'Manage billing'}</button>}
    {canStartPlan&&<><p>You can start a new plan when you are ready.</p><div className="billing-plan-actions"><button disabled={!state.plans.monthly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'monthly'})}>Monthly · {priceLabel('monthly')}</button><button disabled={!state.plans.yearly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'yearly'})}>Annual · {priceLabel('yearly')}</button></div></>}
   </div>:<div className="settings-block">
-   <h3>Membership status</h3><p>No active membership is linked to this account.</p>
+   <h3>Membership status</h3><p>{state.complimentaryAccess?'No paid subscription is linked to this account. Your complimentary Premium access is shown above.':'No active membership is linked to this account.'}</p>
    <p>Monthly: {priceLabel('monthly')}. Annual: {priceLabel('yearly')} (save ฿398 compared with 12 monthly payments). {!state.plans.monthly.available&&!state.plans.yearly.available?'Checkout is not open yet; no payment is being collected, and your existing features remain available.':'Membership charges renew on the selected schedule until canceled.'}</p>
    <div className="billing-plan-actions">
     <button disabled={!state.plans.monthly.available||Boolean(busy)} onClick={()=>void launch('/api/subscription/checkout',{plan:'monthly'})}>Monthly · {priceLabel('monthly')}</button>

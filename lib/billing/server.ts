@@ -34,6 +34,13 @@ export function getAdmin(url=process.env.NEXT_PUBLIC_SUPABASE_URL){
  return createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}});
 }
 
+export async function getComplimentaryGrant(userId:string){
+ const admin=getAdmin();
+ if(!admin)return {grant:null,error:true} as const;
+ const {data,error}=await admin.from('premium_access_grants').select('expires_at,revoked_at').eq('user_id',userId).maybeSingle();
+ return {grant:data,error:Boolean(error)};
+}
+
 export function checkoutReady(plan?:'monthly'|'yearly'){
  const stripeSecret=stripeSecretKey();
  const liveExplicitlyEnabled=process.env.BILLING_LIVE_CHARGING_ENABLED==='true';

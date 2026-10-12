@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {hasMembershipEntitlement} from '../lib/billing/entitlements.ts';
+import {hasComplimentaryEntitlement,hasMembershipEntitlement} from '../lib/billing/entitlements.ts';
 import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed,stripeEventMatchesDeployment,stripeKeyMatchesDeployment,stripeSecretForDeployment} from '../lib/billing/plans.ts';
 
 const now=Date.parse('2026-10-10T00:00:00.000Z');
@@ -31,6 +31,15 @@ test('trials require explicit configuration and an unexpired trial end',()=>{
  assert.equal(hasMembershipEntitlement(trial,now,false),false);
  assert.equal(hasMembershipEntitlement(trial,now,true),true);
  assert.equal(hasMembershipEntitlement(trial,Date.parse('2026-10-11T00:00:00.000Z'),true),false);
+});
+
+test('complimentary access expires exactly on time and is revoked immediately',()=>{
+ const grant={expires_at:'2026-10-11T00:00:00.000Z',revoked_at:null};
+ assert.equal(hasComplimentaryEntitlement(grant,now),true);
+ assert.equal(hasComplimentaryEntitlement(grant,Date.parse(grant.expires_at)),false);
+ assert.equal(hasComplimentaryEntitlement({...grant,revoked_at:'2026-10-10T01:00:00.000Z'},now),false);
+ assert.equal(hasComplimentaryEntitlement({...grant,expires_at:'invalid'},now),false);
+ assert.equal(hasComplimentaryEntitlement(null,now),false);
 });
 
 test('monthly and annual plans use the selected THB amounts and intervals',()=>{

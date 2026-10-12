@@ -1,7 +1,7 @@
 import us from '@/data/must-watch-us.json';
 import {createClient} from '@supabase/supabase-js';
-import {getSignedInUser,json} from '@/lib/billing/server';
-import {hasMembershipEntitlement} from '@/lib/billing/entitlements';
+import {getComplimentaryGrant,getSignedInUser,json} from '@/lib/billing/server';
+import {hasComplimentaryEntitlement,hasMembershipEntitlement} from '@/lib/billing/entitlements';
 // Daily scanner publishes durable snapshots. Page requests never fan out across a market.
 export async function GET(request:Request){
  const auth=await getSignedInUser(request);
@@ -14,7 +14,11 @@ export async function GET(request:Request){
   .order('updated_at',{ascending:false}).limit(10);
  if(error)return json({error:'Premium membership could not be verified.'},503);
  const entitled=data?.some(subscription=>hasMembershipEntitlement(subscription,Date.now(),false))??false;
- if(!entitled)return json({error:'An active Premium membership is required to view Must Watch.',code:'premium_required'},403);
+ if(!entitled){
+  const {grant,error:grantError}=await getComplimentaryGrant(auth.user.id);
+  if(grantError)return json({error:'Premium access could not be verified.'},503);
+  if(!hasComplimentaryEntitlement(grant))return json({error:'An active Premium membership is required to view Must Watch.',code:'premium_required'},403);
+ }
  const market=new URL(request.url).searchParams.get('market');
  if(market&&market!=='us')return json({error:'Only US stocks are supported.'},400);
  const result=us;

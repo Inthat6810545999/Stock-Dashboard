@@ -1,4 +1,11 @@
 export type MembershipRecord={status:string;current_period_end:string|null;billing_attention_required:boolean;trial_end?:string|null};
+export type ComplimentaryGrant={expires_at:string;revoked_at:string|null};
+
+export function hasComplimentaryEntitlement(grant:ComplimentaryGrant|null,now=Date.now()){
+ if(!grant||grant.revoked_at)return false;
+ const end=Date.parse(grant.expires_at);
+ return Number.isFinite(end)&&now<end;
+}
 
 /** Access is derived from server-synced provider state, never browser metadata. */
 export function hasMembershipEntitlement(record:MembershipRecord|null,now=Date.now(),allowTrials=false){
