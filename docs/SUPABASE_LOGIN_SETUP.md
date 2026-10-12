@@ -17,13 +17,16 @@ These are public client configuration values. Never put a service-role key in a 
 
 In Supabase Authentication → Sign In / Providers, enable Google. In Google Cloud Console, create an OAuth client (Web application), add the Supabase callback URL shown by Supabase as an Authorized redirect URI, and enter the Google Client ID and Client Secret in Supabase.
 
-In Supabase Authentication → URL Configuration, set the Site URL to the production Vercel URL and add these Redirect URLs:
+In Supabase Authentication → URL Configuration, set the Site URL to the canonical production domain, `https://www.toppickstock.com/`. Do not use an individual Vercel deployment URL as the Site URL: Supabase falls back to this value when a requested redirect is not allow-listed, which can send users to the wrong host and prevent the PKCE callback from completing.
+
+Add these Redirect URLs:
 
 - `http://localhost:3000/auth/callback`
 - `http://127.0.0.1:3000/auth/callback`
-- `http://localhost:5173/auth/callback` (current local dev server)
-- `http://127.0.0.1:5173/auth/callback` (current in-app browser URL)
-- `https://YOUR_PRODUCTION_DOMAIN/auth/callback`
+- `http://localhost:5174/auth/callback` (current local dev server)
+- `http://127.0.0.1:5174/auth/callback` (current in-app browser URL)
+- `https://www.toppickstock.com/auth/callback`
+- `https://toppickstock.com/auth/callback` (apex domain; it redirects to `www`)
 - `https://YOUR_PREVIEW_DOMAIN/auth/callback` (if using Preview deployments)
 
 Google sign-in and email magic links both return through `/auth/callback`.
