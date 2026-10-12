@@ -4,3 +4,4 @@
 
 .auth-policy{font-size:12px;color:#63748a;line-height:1.6;margin:18px 0 0}.auth-policy a{text-decoration:underline}
 .auth-method-toggle{display:block;margin:14px auto 0;padding:6px 10px;border:0;background:transparent;color:#244b7a;font:650 14px/1.4 Inter,Arial,sans-serif;text-decoration:underline;cursor:pointer}.auth-method-toggle:focus-visible{outline:2px solid #244b7a;outline-offset:3px;border-radius:4px}.auth-method-toggle:disabled{opacity:.65;cursor:wait}
+.login-card form .auth-change-email{justify-self:end;margin:-12px 0 0;padding:2px 0;font-size:13px}
