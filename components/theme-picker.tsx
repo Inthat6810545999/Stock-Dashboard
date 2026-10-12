@@ -19,7 +19,7 @@ export function ThemePicker(){
  }
  return <div className="settings-block theme-preference">
   <h3>Theme</h3>
-  <p>Choose how MOONSTAR looks on this browser.</p>
+  <p>Choose how TOPPICKSTOCK looks on this browser.</p>
   <div className="theme-options" role="group" aria-label="Theme">
    {choices.map(choice=><button key={choice.id} type="button" className={`theme-option theme-option--${choice.id}`} aria-pressed={theme===choice.id} onClick={()=>choose(choice.id)}>
     <span className="theme-preview" aria-hidden="true"><span className="theme-preview-header"/><span className="theme-preview-heading"/><span className="theme-preview-cards"><i/><i/><i/></span></span>

@@ -23,3 +23,7 @@ export function stripeKeyMatchesDeployment(secretKey:string|undefined,deployment
  if(deploymentEnvironment==='production')return Boolean(secretKey?.startsWith('sk_live_')||secretKey?.startsWith('rk_live_'));
  return Boolean(secretKey?.startsWith('sk_test_')||secretKey?.startsWith('rk_test_'));
 }
+
+export function stripeSecretForDeployment(liveKey:string|undefined,testKey:string|undefined,deploymentEnvironment:string|undefined){
+ return deploymentEnvironment==='production'?liveKey:testKey;
+}

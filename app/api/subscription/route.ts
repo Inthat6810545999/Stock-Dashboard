@@ -1,5 +1,5 @@
 import {createClient} from '@supabase/supabase-js';
-import {checkoutReady,getSignedInUser,json} from '@/lib/billing/server';
+import {checkoutReady,getSignedInUser,json,stripeSecretKey} from '@/lib/billing/server';
 import {hasMembershipEntitlement} from '@/lib/billing/entitlements';
 
 export async function GET(request:Request){
@@ -15,7 +15,7 @@ export async function GET(request:Request){
   subscription:current,
   hasPaidAccess:hasMembershipEntitlement(current,Date.now(),false),
   plans:{monthly:{available:checkoutReady('monthly')},yearly:{available:checkoutReady('yearly')}},
-  testMode:Boolean(process.env.STRIPE_SECRET_KEY?.startsWith('sk_test_')||process.env.STRIPE_SECRET_KEY?.startsWith('rk_test_')),
-  portalAvailable:Boolean(process.env.STRIPE_SECRET_KEY&&process.env.SUPABASE_SECRET_KEY||process.env.STRIPE_SECRET_KEY&&process.env.SUPABASE_SERVICE_ROLE_KEY),
+  testMode:process.env.VERCEL_ENV!=='production',
+  portalAvailable:Boolean(stripeSecretKey()&&(process.env.SUPABASE_SECRET_KEY||process.env.SUPABASE_SERVICE_ROLE_KEY)),
  });
 }

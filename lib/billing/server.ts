@@ -1,7 +1,7 @@
 import 'server-only';
 import {createClient, type User} from '@supabase/supabase-js';
 import Stripe from 'stripe';
-import {stripeCheckoutKeyAllowed,stripeKeyMatchesDeployment} from './plans';
+import {stripeCheckoutKeyAllowed,stripeKeyMatchesDeployment,stripeSecretForDeployment} from './plans';
 
 export const privateHeaders={'Cache-Control':'private, no-store'};
 export function json(body:unknown,status=200){return Response.json(body,{status,headers:privateHeaders})}
@@ -19,9 +19,13 @@ export async function getSignedInUser(request:Request):Promise<{user:User;token:
 }
 
 export function getStripe(){
- const secret=process.env.STRIPE_SECRET_KEY;
+ const secret=stripeSecretKey();
  if(!secret||!stripeKeyMatchesDeployment(secret,process.env.VERCEL_ENV))return null;
  return new Stripe(secret);
+}
+
+export function stripeSecretKey(){
+ return stripeSecretForDeployment(process.env.STRIPE_LIVE_SECRET_KEY,process.env.STRIPE_SECRET_KEY,process.env.VERCEL_ENV);
 }
 
 export function getAdmin(url=process.env.NEXT_PUBLIC_SUPABASE_URL){
@@ -31,7 +35,7 @@ export function getAdmin(url=process.env.NEXT_PUBLIC_SUPABASE_URL){
 }
 
 export function checkoutReady(plan?:'monthly'|'yearly'){
- const stripeSecret=process.env.STRIPE_SECRET_KEY;
+ const stripeSecret=stripeSecretKey();
  const liveExplicitlyEnabled=process.env.BILLING_LIVE_CHARGING_ENABLED==='true';
  const stripeKeyAllowed=stripeCheckoutKeyAllowed(stripeSecret,process.env.VERCEL_ENV,liveExplicitlyEnabled);
  const priceReady=plan

@@ -34,8 +34,8 @@ export function AuthCard({mode}:{mode:'login'|'signup'}){
     setBusy(true);setError('');setMessage('');const {error}=await supabase.auth.signInWithOtp({email:email.trim(),options:{shouldCreateUser:true,data:{terms_version:policyVersion,terms_acknowledged_at:new Date().toISOString()},emailRedirectTo:`${window.location.origin}/auth/callback`}});setBusy(false);if(error)setError(error.status===429?'Too many attempts. Please wait before trying again.':'Could not complete sign-in. Please check your email address and try again.');else setMessage(signup?'Check your email for a secure link to verify and finish creating your account.':'Check your email for a secure sign-in link.');
   }
   return <main className={`login-page${signup?' login-page--signup':''}`}><section className="login-card">
-    <Link className="login-brand" href="/">✦ <span>MOONSTAR</span></Link>
-    <h1>{signup?'Create your MOONSTAR account':'Log in to MOONSTAR'}</h1>
+    <Link className="login-brand" href="/">✦ <span>TOPPICKSTOCK</span></Link>
+    <h1>{signup?'Create your TOPPICKSTOCK account':'Log in to TOPPICKSTOCK'}</h1>
     <p className="login-subtitle">{signup?'Create an account to save your watchlist and access it anywhere.':'Save your watchlist and access it anywhere.'}</p>
     <button className="google-login" onClick={continueWithGoogle} disabled={busy}><GoogleMark/>Continue with Google</button>
     <div className="login-divider"><span>or</span></div>

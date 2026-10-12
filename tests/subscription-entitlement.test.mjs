@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {hasMembershipEntitlement} from '../lib/billing/entitlements.ts';
-import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed,stripeKeyMatchesDeployment} from '../lib/billing/plans.ts';
+import {matchesMembershipPrice,membershipPlans,scheduledForPeriodEnd,stripeCheckoutKeyAllowed,stripeKeyMatchesDeployment,stripeSecretForDeployment} from '../lib/billing/plans.ts';
 
 const now=Date.parse('2026-10-10T00:00:00.000Z');
 const record=(overrides={})=>({status:'active',current_period_end:'2026-10-11T00:00:00.000Z',billing_attention_required:false,...overrides});
@@ -72,4 +72,10 @@ test('all Stripe API and webhook operations use keys matching the deployment env
  assert.equal(stripeKeyMatchesDeployment('rk_live_secret','preview'),false);
  assert.equal(stripeKeyMatchesDeployment('sk_test_secret',undefined),true);
  assert.equal(stripeKeyMatchesDeployment('sk_live_secret',undefined),false);
+});
+
+test('production never falls back to the integration test key',()=>{
+ assert.equal(stripeSecretForDeployment('rk_live_secret','sk_test_secret','production'),'rk_live_secret');
+ assert.equal(stripeSecretForDeployment(undefined,'sk_test_secret','production'),undefined);
+ assert.equal(stripeSecretForDeployment('rk_live_secret','sk_test_secret','preview'),'sk_test_secret');
 });
