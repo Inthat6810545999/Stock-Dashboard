@@ -5,3 +5,7 @@
 .auth-policy{font-size:12px;color:#63748a;line-height:1.6;margin:18px 0 0}.auth-policy a{text-decoration:underline}
 .auth-method-toggle{display:block;margin:14px auto 0;padding:6px 10px;border:0;background:transparent;color:#244b7a;font:650 14px/1.4 Inter,Arial,sans-serif;text-decoration:underline;cursor:pointer}.auth-method-toggle:focus-visible{outline:2px solid #244b7a;outline-offset:3px;border-radius:4px}.auth-method-toggle:disabled{opacity:.65;cursor:wait}
 .login-card form .auth-change-email{justify-self:end;margin:-12px 0 0;padding:2px 0;font-size:13px}
+.login-error{justify-content:flex-start;align-items:flex-start;gap:10px;padding:12px 14px;border:1px solid #dba39b;border-radius:12px;background:#fff4f0;color:#853f39;text-align:left;font-size:14px;font-weight:600;box-shadow:0 4px 12px #693b3210}
+.login-error svg{flex:none;margin-top:1px}
+.login-card form .login-error--password{margin:0}
+.login-card input[aria-invalid="true"]{border-color:#b35b50;box-shadow:0 1px #b35b50}

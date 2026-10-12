@@ -1,8 +1,8 @@
 'use client';
-import {useState} from 'react';
+import {useRef,useState} from 'react';
 import Link from 'next/link';
 import {useRouter} from 'next/navigation';
-import {ArrowLeft,CheckCircle2} from 'lucide-react';
+import {ArrowLeft,CheckCircle2,CircleAlert} from 'lucide-react';
 import {policyVersion} from '@/lib/legal';
 import {getSupabaseBrowserClient,setRememberMePreference} from '@/lib/supabase-browser';
 import {googleSignInEnabled} from '@/lib/auth-provider-settings';
@@ -12,12 +12,14 @@ function GoogleMark(){return <svg aria-hidden="true" viewBox="0 0 48 48" width="
 export function AuthCard({mode}:{mode:'login'|'signup'}){
   const router=useRouter();
   const signup=mode==='signup';
+  const passwordInput=useRef<HTMLInputElement>(null);
   const [email,setEmail]=useState(''),[password,setPassword]=useState(''),[passwordStep,setPasswordStep]=useState(false),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[error,setError]=useState('');
+  const [passwordError,setPasswordError]=useState('');
   const [rememberMe,setRememberMe]=useState(true);
   async function continueWithGoogle(){
     const shouldRemember=signup||rememberMe;setRememberMePreference(shouldRemember);
     const supabase=getSupabaseBrowserClient(shouldRemember);if(!supabase){setError('Sign-in is temporarily unavailable. Please try again later.');return}
-    setBusy(true);setError('');setMessage('');
+    setBusy(true);setError('');setPasswordError('');setMessage('');
     try{
       const url=process.env.NEXT_PUBLIC_SUPABASE_URL;
       const key=process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY||process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -33,7 +35,7 @@ export function AuthCard({mode}:{mode:'login'|'signup'}){
   async function continueWithEmail(){
     const shouldRemember=signup||rememberMe;setRememberMePreference(shouldRemember);
     const supabase=getSupabaseBrowserClient(shouldRemember);if(!supabase){setError('Sign-in is temporarily unavailable. Please try again later.');return}
-    setBusy(true);setError('');setMessage('');
+    setBusy(true);setError('');setPasswordError('');setMessage('');
     try{
       const {error}=await supabase.auth.signInWithOtp({email:email.trim(),options:{shouldCreateUser:signup,...(signup?{data:{terms_version:policyVersion,terms_acknowledged_at:new Date().toISOString()}}:{}),emailRedirectTo:`${window.location.origin}/auth/callback`}});
       if(error)setError(error.status===429?'Too many attempts. Please wait before trying again.':'Could not complete sign-in. Please check your email address and try again.');
@@ -42,13 +44,13 @@ export function AuthCard({mode}:{mode:'login'|'signup'}){
   }
   async function continueWithPassword(){
     setRememberMePreference(rememberMe);
-    const supabase=getSupabaseBrowserClient(rememberMe);if(!supabase){setError('Sign-in is temporarily unavailable. Please try again later.');return}
-    setBusy(true);setError('');setMessage('');
+    const supabase=getSupabaseBrowserClient(rememberMe);if(!supabase){setPasswordError('Sign-in is temporarily unavailable. Please try again later.');return}
+    setBusy(true);setError('');setPasswordError('');setMessage('');
     try{
       const {error}=await supabase.auth.signInWithPassword({email:email.trim(),password});
-      if(error){setError(error.status===429?'Too many attempts. Please wait before trying again.':'Incorrect email or password. Please try again.');return}
+      if(error){setPasswordError(error.status===429?'Too many attempts. Please wait before trying again.':'Incorrect email or password. Please check your details and try again.');passwordInput.current?.focus();return}
       router.replace('/');
-    }catch{setError('Sign-in could not be completed. Please try again.')}
+    }catch{setPasswordError('Sign-in could not be completed. Please try again.');passwordInput.current?.focus()}
     finally{setBusy(false)}
   }
   function handleEmailSubmit(e:React.FormEvent<HTMLFormElement>){
@@ -66,14 +68,14 @@ export function AuthCard({mode}:{mode:'login'|'signup'}){
     <form onSubmit={handleEmailSubmit}>
       <label className="sr-only" htmlFor="auth-email">Email address</label>
       <input id="auth-email" type="email" autoComplete="email" placeholder="Enter your email" required value={email} readOnly={passwordStep} onChange={e=>setEmail(e.target.value)}/>
-      {passwordStep&&<><button type="button" className="auth-method-toggle auth-change-email" disabled={busy} onClick={()=>{setPasswordStep(false);setPassword('');setError('');setMessage('')}}>Change email</button><label className="sr-only" htmlFor="auth-password">Password</label><input id="auth-password" type="password" autoComplete="current-password" placeholder="Enter your password" autoFocus required value={password} onChange={e=>setPassword(e.target.value)}/></>}
+      {passwordStep&&<><button type="button" className="auth-method-toggle auth-change-email" disabled={busy} onClick={()=>{setPasswordStep(false);setPassword('');setPasswordError('');setError('');setMessage('')}}>Change email</button><label className="sr-only" htmlFor="auth-password">Password</label><input ref={passwordInput} id="auth-password" type="password" autoComplete="current-password" placeholder="Enter your password" autoFocus required value={password} aria-invalid={Boolean(passwordError)} aria-describedby={passwordError?'auth-password-error':undefined} onChange={e=>{setPassword(e.target.value);setPasswordError('')}}/>{passwordError&&<div id="auth-password-error" className="login-error login-error--password" role="alert"><CircleAlert size={19} aria-hidden="true"/><span>{passwordError}</span></div>}</>}
       {!signup&&<label className="remember-me"><input className="remember-me-input" type="checkbox" checked={rememberMe} onChange={e=>{setRememberMe(e.target.checked);setRememberMePreference(e.target.checked)}}/>Remember me</label>}
       <button className="email-login" disabled={busy||!email.trim()||(passwordStep&&!password)}>{busy?'Please wait…':signup?'Create account with email':passwordStep?'Log in':'Continue'}</button>
     </form>
     {passwordStep&&<button type="button" className="auth-method-toggle" disabled={busy} onClick={()=>void continueWithEmail()}>Email me a sign-in link instead</button>}
     <p className="auth-policy">By continuing, you agree to the <Link href="/terms">Terms</Link> and acknowledge the <Link href="/privacy">Privacy notice</Link>. Optional analytics is your choice.</p>
     {message&&<p className="login-success" role="status"><CheckCircle2 size={17}/>{message}</p>}
-    {error&&<p className="login-error" role="alert">{error}</p>}
+    {error&&<div className="login-error" role="alert"><CircleAlert size={19} aria-hidden="true"/><span>{error}</span></div>}
     <p className="login-signup">{signup?'Already have an account? ':'Don’t have an account? '}{signup?<Link href="/login">Log in</Link>:<Link href="/signup">Sign up</Link>}</p>
   </section><Link href="/" className="login-back"><ArrowLeft size={15}/> Back to dashboard</Link></main>
 }
