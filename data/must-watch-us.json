@@ -4,484 +4,484 @@
       "symbol": "MGRT",
       "name": "Mega Fortune Company Limited",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 5.860000133514404,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
+      "timestamp": 1791811800000,
+      "startPrice": 4.380000114440918,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
       "price": 102,
-      "percent": 1640.6142948127847
+      "percent": 2228.7670624414977
     },
     {
       "symbol": "DUKR",
       "name": "DUKE Robotics Corp.",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 0.3179999887943268,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 4.840000152587891,
-      "percent": 1422.0126802325967
+      "timestamp": 1791811800000,
+      "startPrice": 0.2800000011920929,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 4.590000152587891,
+      "percent": 1539.285761802172
     },
     {
       "symbol": "AXTI",
       "name": "AXT, Inc.",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 5.230000019073486,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 68.45999908447266,
-      "percent": 1208.9865933996803
+      "timestamp": 1791811800000,
+      "startPrice": 4.03000020980835,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 61.97999954223633,
+      "percent": 1437.9651691180393
     },
     {
       "symbol": "SNDK",
       "name": "Sandisk Corporation",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 129.67999267578125,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 1581.8199462890625,
-      "percent": 1119.7871958890692
+      "timestamp": 1791811800000,
+      "startPrice": 116.91000366210938,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 1487.3299560546875,
+      "percent": 1172.2007608119957
     },
     {
       "symbol": "GTBP",
       "name": "GT Biopharma, Inc.",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 0.7509999871253967,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 6.679999828338623,
-      "percent": 789.4806848010296
-    },
-    {
-      "symbol": "SFWL",
-      "name": "Shengfeng Development Limited",
-      "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 0.9800000190734863,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 8.4399995803833,
-      "percent": 761.2244302160997
+      "timestamp": 1791811800000,
+      "startPrice": 0.6800000071525574,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 6.800000190734863,
+      "percent": 900.0000175307778
     },
     {
       "symbol": "BVC",
       "name": "BitVentures Limited",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 1.4199999570846558,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 12.09000015258789,
-      "percent": 751.4084871811813
+      "timestamp": 1791811800000,
+      "startPrice": 1.340000033378601,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 11.859999656677246,
+      "percent": 785.0745791978906
     },
     {
-      "symbol": "MRNA",
-      "name": "Moderna, Inc.",
+      "symbol": "SFWL",
+      "name": "Shengfeng Development Limited",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 27.530000686645508,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 225,
-      "percent": 717.2902084566418
+      "timestamp": 1791811800000,
+      "startPrice": 0.9559999704360962,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 8.449999809265137,
+      "percent": 783.8912207717455
     },
     {
       "symbol": "KOD",
       "name": "Kodiak Sciences Inc.",
       "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 13.550000190734863,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 99.87000274658203,
-      "percent": 637.04798037472
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum Holdings Inc.",
-      "currency": "USD",
-      "timestamp": 1791552600000,
-      "startPrice": 159.75999450683594,
-      "startTime": 1760016600000,
-      "endTime": 1791552600000,
-      "price": 1103.35498046875,
-      "percent": 590.6328357576019
-    }
-  ],
-  "priceScan": {
-    "total": 5472,
-    "processed": 5472,
-    "eligible": 4971,
-    "excluded": 1,
-    "missing": 500,
-    "failed": 0,
-    "status": "complete"
-  },
-  "todayGainers": [
-    {
-      "symbol": "WFF",
-      "name": "WF Holding Limited",
-      "currency": "USD",
-      "price": 12.29,
-      "previousClose": 2.05,
-      "timestamp": 1791576000000,
-      "percent": 499.5121951219512
-    },
-    {
-      "symbol": "ZYBT",
-      "name": "Zhengye Biotechnology Holding Limited",
-      "currency": "USD",
-      "price": 1.73,
-      "previousClose": 1.1499,
-      "timestamp": 1791576000000,
-      "percent": 50.4478650317419
-    },
-    {
-      "symbol": "VEEA",
-      "name": "Veea Inc.",
-      "currency": "USD",
-      "price": 5.7,
-      "previousClose": 3.87,
-      "timestamp": 1791576000000,
-      "percent": 47.28682170542635
-    },
-    {
-      "symbol": "QETA",
-      "name": "Quetta Acquisition Corporation",
-      "currency": "USD",
-      "price": 16.41,
-      "previousClose": 11.6,
-      "timestamp": 1791576000000,
-      "percent": 41.465517241379324
-    },
-    {
-      "symbol": "PDSB",
-      "name": "PDS Biotechnology Corporation",
-      "currency": "USD",
-      "price": 1.38,
-      "previousClose": 1.02,
-      "timestamp": 1791576000000,
-      "percent": 35.29411764705881
-    },
-    {
-      "symbol": "OFAL",
-      "name": "OFA Group",
-      "currency": "USD",
-      "price": 0.55,
-      "previousClose": 0.4117,
-      "timestamp": 1791576000000,
-      "percent": 33.59242166626184
-    },
-    {
-      "symbol": "NXGL",
-      "name": "NEXGEL, Inc.",
-      "currency": "USD",
-      "price": 0.2003,
-      "previousClose": 0.15,
-      "timestamp": 1791576000000,
-      "percent": 33.533333333333346
-    },
-    {
-      "symbol": "QSI",
-      "name": "Quantum-Si incorporated",
-      "currency": "USD",
-      "price": 1.53,
-      "previousClose": 1.22,
-      "timestamp": 1791576000000,
-      "percent": 25.409836065573764
-    },
-    {
-      "symbol": "CUE",
-      "name": "Cue Biopharma, Inc.",
-      "currency": "USD",
-      "price": 27.66,
-      "previousClose": 22.33,
-      "timestamp": 1791576001000,
-      "percent": 23.86923421406182
-    },
-    {
-      "symbol": "NAUT",
-      "name": "Nautilus Biotechnology, Inc.",
-      "currency": "USD",
-      "price": 2.25,
-      "previousClose": 1.82,
-      "timestamp": 1791576000000,
-      "percent": 23.62637362637363
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "WFF",
-      "name": "WF Holding Limited",
-      "currency": "USD",
-      "price": 12.29,
-      "previousClose": 2.05,
-      "timestamp": 1791576000000,
-      "percent": 499.5121951219512
-    },
-    {
-      "symbol": "ZYBT",
-      "name": "Zhengye Biotechnology Holding Limited",
-      "currency": "USD",
-      "price": 1.73,
-      "previousClose": 1.1499,
-      "timestamp": 1791576000000,
-      "percent": 50.4478650317419
-    },
-    {
-      "symbol": "VEEA",
-      "name": "Veea Inc.",
-      "currency": "USD",
-      "price": 5.7,
-      "previousClose": 3.87,
-      "timestamp": 1791576000000,
-      "percent": 47.28682170542635
-    },
-    {
-      "symbol": "QETA",
-      "name": "Quetta Acquisition Corporation",
-      "currency": "USD",
-      "price": 16.41,
-      "previousClose": 11.6,
-      "timestamp": 1791576000000,
-      "percent": 41.465517241379324
-    },
-    {
-      "symbol": "PDSB",
-      "name": "PDS Biotechnology Corporation",
-      "currency": "USD",
-      "price": 1.38,
-      "previousClose": 1.02,
-      "timestamp": 1791576000000,
-      "percent": 35.29411764705881
-    },
-    {
-      "symbol": "OFAL",
-      "name": "OFA Group",
-      "currency": "USD",
-      "price": 0.55,
-      "previousClose": 0.4117,
-      "timestamp": 1791576000000,
-      "percent": 33.59242166626184
-    },
-    {
-      "symbol": "NXGL",
-      "name": "NEXGEL, Inc.",
-      "currency": "USD",
-      "price": 0.2003,
-      "previousClose": 0.15,
-      "timestamp": 1791576000000,
-      "percent": 33.533333333333346
-    },
-    {
-      "symbol": "QSI",
-      "name": "Quantum-Si incorporated",
-      "currency": "USD",
-      "price": 1.53,
-      "previousClose": 1.22,
-      "timestamp": 1791576000000,
-      "percent": 25.409836065573764
-    },
-    {
-      "symbol": "CUE",
-      "name": "Cue Biopharma, Inc.",
-      "currency": "USD",
-      "price": 27.66,
-      "previousClose": 22.33,
-      "timestamp": 1791576001000,
-      "percent": 23.86923421406182
-    },
-    {
-      "symbol": "NAUT",
-      "name": "Nautilus Biotechnology, Inc.",
-      "currency": "USD",
-      "price": 2.25,
-      "previousClose": 1.82,
-      "timestamp": 1791576000000,
-      "percent": 23.62637362637363
-    },
-    {
-      "symbol": "SMJF",
-      "name": "SMJ International Holdings Inc.",
-      "currency": "USD",
-      "price": 1.53,
-      "previousClose": 1.24,
-      "timestamp": 1791576000000,
-      "percent": 23.38709677419355
-    },
-    {
-      "symbol": "AGRZ",
-      "name": "Agroz Inc.",
-      "currency": "USD",
-      "price": 4.42,
-      "previousClose": 3.62,
-      "timestamp": 1791576000000,
-      "percent": 22.099447513812144
-    },
-    {
-      "symbol": "SLSN",
-      "name": "Solesence, Inc.",
-      "currency": "USD",
-      "price": 1.02,
-      "previousClose": 0.8362,
-      "timestamp": 1791576000000,
-      "percent": 21.980387467113125
-    },
-    {
-      "symbol": "KCHVR",
-      "name": "Kochav Defense Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.1199,
-      "previousClose": 0.1,
-      "timestamp": 1791576000000,
-      "percent": 19.900000000000006
-    },
-    {
-      "symbol": "PGACR",
-      "name": "Pantages Capital Acquisition Corporation",
-      "currency": "USD",
-      "price": 0.1892,
-      "previousClose": 0.1601,
-      "timestamp": 1791576000000,
-      "percent": 18.176139912554667
-    },
-    {
-      "symbol": "YDES",
-      "name": "YD Bio Ltd",
-      "currency": "USD",
-      "price": 6.73,
-      "previousClose": 5.79,
-      "timestamp": 1791576000000,
-      "percent": 16.23488773747841
-    },
-    {
-      "symbol": "KLRA",
-      "name": "Kailera Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 11.61,
-      "previousClose": 10,
-      "timestamp": 1791576001000,
-      "percent": 16.1
-    },
-    {
-      "symbol": "FSLY",
-      "name": "Fastly, Inc.",
-      "currency": "USD",
-      "price": 29.3,
-      "previousClose": 25.29,
-      "timestamp": 1791576001000,
-      "percent": 15.85606959272441
-    },
-    {
-      "symbol": "NVAX",
-      "name": "Novavax, Inc.",
-      "currency": "USD",
-      "price": 12.75,
-      "previousClose": 11.01,
-      "timestamp": 1791576000000,
-      "percent": 15.803814713896468
-    },
-    {
-      "symbol": "IFBD",
-      "name": "Infobird Co., Ltd",
-      "currency": "USD",
-      "price": 0.9714,
-      "previousClose": 0.84,
-      "timestamp": 1791576000000,
-      "percent": 15.642857142857158
-    },
-    {
-      "symbol": "CCI",
-      "name": "Crown Castle Inc.",
-      "currency": "USD",
-      "price": 79.64,
-      "previousClose": 68.89,
-      "timestamp": 1791576002000,
-      "percent": 15.60458702278995
-    },
-    {
-      "symbol": "VRXA",
-      "name": "Veraxa Biotech AG",
-      "currency": "USD",
-      "price": 1.26,
-      "previousClose": 1.09,
-      "timestamp": 1791576000000,
-      "percent": 15.596330275229352
-    },
-    {
-      "symbol": "RDGT",
-      "name": "Ridgetech, Inc.",
-      "currency": "USD",
-      "price": 1.01,
-      "previousClose": 0.8748,
-      "timestamp": 1791576000000,
-      "percent": 15.454961133973487
-    },
-    {
-      "symbol": "ENSC",
-      "name": "Ensysce Biosciences, Inc.",
-      "currency": "USD",
-      "price": 0.527,
-      "previousClose": 0.458,
-      "timestamp": 1791576001000,
-      "percent": 15.065502183406121
-    },
-    {
-      "symbol": "SVC",
-      "name": "Service Properties Trust",
-      "currency": "USD",
-      "price": 7.15,
-      "previousClose": 6.22,
-      "timestamp": 1791576000000,
-      "percent": 14.951768488745998
-    },
-    {
-      "symbol": "BMR",
-      "name": "Beamr Imaging Ltd.",
-      "currency": "USD",
-      "price": 1.77,
-      "previousClose": 1.54,
-      "timestamp": 1791576001000,
-      "percent": 14.935064935064934
-    },
-    {
-      "symbol": "DNA",
-      "name": "Ginkgo Bioworks Holdings, Inc.",
-      "currency": "USD",
-      "price": 13,
-      "previousClose": 11.34,
-      "timestamp": 1791576002000,
-      "percent": 14.63844797178131
-    },
-    {
-      "symbol": "FRGT",
-      "name": "Freight Technologies, Inc.",
-      "currency": "USD",
-      "price": 0.2937,
-      "previousClose": 0.2564,
-      "timestamp": 1791576001000,
-      "percent": 14.547581903276141
-    },
-    {
-      "symbol": "ZSQR",
-      "name": "Z Squared Inc.",
-      "currency": "USD",
-      "price": 5.66,
-      "previousClose": 4.95,
-      "timestamp": 1791576000000,
-      "percent": 14.343434343434346
+      "timestamp": 1791811800000,
+      "startPrice": 11.869999885559082,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 99.26000213623047,
+      "percent": 736.2258053345827
     },
     {
       "symbol": "MRNA",
       "name": "Moderna, Inc.",
       "currency": "USD",
-      "price": 225,
-      "previousClose": 197,
-      "timestamp": 1791576001000,
-      "percent": 14.213197969543145
+      "timestamp": 1791811800000,
+      "startPrice": 26.829999923706055,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 213.74000549316406,
+      "percent": 696.645568769871
+    },
+    {
+      "symbol": "IOVA",
+      "name": "Iovance Biotherapeutics, Inc.",
+      "currency": "USD",
+      "timestamp": 1791811800000,
+      "startPrice": 2.0999999046325684,
+      "startTime": 1760103000000,
+      "endTime": 1791811800000,
+      "price": 14.5600004196167,
+      "percent": 593.3333848014735
+    }
+  ],
+  "priceScan": {
+    "total": 5472,
+    "processed": 5472,
+    "eligible": 4976,
+    "excluded": 1,
+    "missing": 495,
+    "failed": 0,
+    "status": "complete"
+  },
+  "todayGainers": [
+    {
+      "symbol": "MNDR",
+      "name": "Mobile-health Network Solutions",
+      "currency": "USD",
+      "price": 3.04,
+      "previousClose": 0.85,
+      "timestamp": 1791835201000,
+      "percent": 257.64705882352945
+    },
+    {
+      "symbol": "LNKS",
+      "name": "Linkers Industries Limited",
+      "currency": "USD",
+      "price": 2.27,
+      "previousClose": 0.9523,
+      "timestamp": 1791835201000,
+      "percent": 138.37026147222514
+    },
+    {
+      "symbol": "YMAT",
+      "name": "J-Star Holding Co., Ltd.",
+      "currency": "USD",
+      "price": 2.91,
+      "previousClose": 1.29,
+      "timestamp": 1791835200000,
+      "percent": 125.5813953488372
+    },
+    {
+      "symbol": "CLWT",
+      "name": "Euro Tech Holdings Company Limited",
+      "currency": "USD",
+      "price": 2.15,
+      "previousClose": 1.36,
+      "timestamp": 1791835201000,
+      "percent": 58.08823529411762
+    },
+    {
+      "symbol": "BMBL",
+      "name": "Bumble Inc.",
+      "currency": "USD",
+      "price": 3.8,
+      "previousClose": 2.54,
+      "timestamp": 1791835202000,
+      "percent": 49.60629921259843
+    },
+    {
+      "symbol": "SKYA",
+      "name": "SkyAI, Inc.",
+      "currency": "USD",
+      "price": 2.6,
+      "previousClose": 1.82,
+      "timestamp": 1791835200000,
+      "percent": 42.85714285714286
+    },
+    {
+      "symbol": "DMIIR",
+      "name": "Drugs Made In America Acquisition II Corp.",
+      "currency": "USD",
+      "price": 0.0748,
+      "previousClose": 0.053,
+      "timestamp": 1791835200000,
+      "percent": 41.13207547169813
+    },
+    {
+      "symbol": "WFF",
+      "name": "WF Holding Limited",
+      "currency": "USD",
+      "price": 17.28,
+      "previousClose": 12.29,
+      "timestamp": 1791835200000,
+      "percent": 40.60211554109034
+    },
+    {
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
+      "currency": "USD",
+      "price": 1.54,
+      "previousClose": 1.14,
+      "timestamp": 1791835200000,
+      "percent": 35.08771929824563
+    },
+    {
+      "symbol": "TCRT",
+      "name": "Alaunos Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.05,
+      "previousClose": 0.7858,
+      "timestamp": 1791835200000,
+      "percent": 33.621786714176636
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "MNDR",
+      "name": "Mobile-health Network Solutions",
+      "currency": "USD",
+      "price": 3.04,
+      "previousClose": 0.85,
+      "timestamp": 1791835201000,
+      "percent": 257.64705882352945
+    },
+    {
+      "symbol": "LNKS",
+      "name": "Linkers Industries Limited",
+      "currency": "USD",
+      "price": 2.27,
+      "previousClose": 0.9523,
+      "timestamp": 1791835201000,
+      "percent": 138.37026147222514
+    },
+    {
+      "symbol": "YMAT",
+      "name": "J-Star Holding Co., Ltd.",
+      "currency": "USD",
+      "price": 2.91,
+      "previousClose": 1.29,
+      "timestamp": 1791835200000,
+      "percent": 125.5813953488372
+    },
+    {
+      "symbol": "CLWT",
+      "name": "Euro Tech Holdings Company Limited",
+      "currency": "USD",
+      "price": 2.15,
+      "previousClose": 1.36,
+      "timestamp": 1791835201000,
+      "percent": 58.08823529411762
+    },
+    {
+      "symbol": "BMBL",
+      "name": "Bumble Inc.",
+      "currency": "USD",
+      "price": 3.8,
+      "previousClose": 2.54,
+      "timestamp": 1791835202000,
+      "percent": 49.60629921259843
+    },
+    {
+      "symbol": "SKYA",
+      "name": "SkyAI, Inc.",
+      "currency": "USD",
+      "price": 2.6,
+      "previousClose": 1.82,
+      "timestamp": 1791835200000,
+      "percent": 42.85714285714286
+    },
+    {
+      "symbol": "DMIIR",
+      "name": "Drugs Made In America Acquisition II Corp.",
+      "currency": "USD",
+      "price": 0.0748,
+      "previousClose": 0.053,
+      "timestamp": 1791835200000,
+      "percent": 41.13207547169813
+    },
+    {
+      "symbol": "WFF",
+      "name": "WF Holding Limited",
+      "currency": "USD",
+      "price": 17.28,
+      "previousClose": 12.29,
+      "timestamp": 1791835200000,
+      "percent": 40.60211554109034
+    },
+    {
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
+      "currency": "USD",
+      "price": 1.54,
+      "previousClose": 1.14,
+      "timestamp": 1791835200000,
+      "percent": 35.08771929824563
+    },
+    {
+      "symbol": "TCRT",
+      "name": "Alaunos Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.05,
+      "previousClose": 0.7858,
+      "timestamp": 1791835200000,
+      "percent": 33.621786714176636
+    },
+    {
+      "symbol": "OLB",
+      "name": "The OLB Group, Inc.",
+      "currency": "USD",
+      "price": 0.6542,
+      "previousClose": 0.495,
+      "timestamp": 1791835200000,
+      "percent": 32.161616161616166
+    },
+    {
+      "symbol": "ARCLR",
+      "name": "ARC Group Acquisition I Corp",
+      "currency": "USD",
+      "price": 0.1796,
+      "previousClose": 0.14,
+      "timestamp": 1791835200000,
+      "percent": 28.28571428571427
+    },
+    {
+      "symbol": "INACR",
+      "name": "Indigo Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.11,
+      "previousClose": 0.0864,
+      "timestamp": 1791835200000,
+      "percent": 27.314814814814813
+    },
+    {
+      "symbol": "ELOG",
+      "name": "Eastern International Ltd.",
+      "currency": "USD",
+      "price": 1.01,
+      "previousClose": 0.8051,
+      "timestamp": 1791835201000,
+      "percent": 25.450254626754433
+    },
+    {
+      "symbol": "CAPNR",
+      "name": "Cayson Acquisition Corp",
+      "currency": "USD",
+      "price": 0.1,
+      "previousClose": 0.08,
+      "timestamp": 1791835200000,
+      "percent": 25
+    },
+    {
+      "symbol": "PCSA",
+      "name": "Processa Pharmaceuticals, Inc.",
+      "currency": "USD",
+      "price": 1.9,
+      "previousClose": 1.52,
+      "timestamp": 1791835200000,
+      "percent": 25
+    },
+    {
+      "symbol": "PASG",
+      "name": "Passage Bio, Inc.",
+      "currency": "USD",
+      "price": 4.55,
+      "previousClose": 3.69,
+      "timestamp": 1791835200000,
+      "percent": 23.306233062330616
+    },
+    {
+      "symbol": "SLND",
+      "name": "Southland Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.9602,
+      "previousClose": 0.782,
+      "timestamp": 1791835200000,
+      "percent": 22.787723785166246
+    },
+    {
+      "symbol": "XRTX",
+      "name": "XORTX Therapeutics Inc.",
+      "currency": "USD",
+      "price": 1.72,
+      "previousClose": 1.41,
+      "timestamp": 1791835200000,
+      "percent": 21.98581560283688
+    },
+    {
+      "symbol": "CUPR",
+      "name": "Cuprina Holdings (Cayman) Limited",
+      "currency": "USD",
+      "price": 2.06,
+      "previousClose": 1.69,
+      "timestamp": 1791835201000,
+      "percent": 21.893491124260358
+    },
+    {
+      "symbol": "GURE",
+      "name": "Gulf Resources, Inc.",
+      "currency": "USD",
+      "price": 3.32,
+      "previousClose": 2.73,
+      "timestamp": 1791835200000,
+      "percent": 21.611721611721602
+    },
+    {
+      "symbol": "GIXI",
+      "name": "Gix Internet Ltd.",
+      "currency": "USD",
+      "price": 4.72,
+      "previousClose": 3.89,
+      "timestamp": 1791835201000,
+      "percent": 21.336760925449873
+    },
+    {
+      "symbol": "ENHA",
+      "name": "Enhanced Group Inc.",
+      "currency": "USD",
+      "price": 1.5,
+      "previousClose": 1.25,
+      "timestamp": 1791835202000,
+      "percent": 19.999999999999996
+    },
+    {
+      "symbol": "PMI",
+      "name": "Picard Medical, Inc.",
+      "currency": "USD",
+      "price": 11.34,
+      "previousClose": 9.48,
+      "timestamp": 1791835200000,
+      "percent": 19.620253164556956
+    },
+    {
+      "symbol": "FRGT",
+      "name": "Freight Technologies, Inc.",
+      "currency": "USD",
+      "price": 0.35,
+      "previousClose": 0.2937,
+      "timestamp": 1791835201000,
+      "percent": 19.16922029281578
+    },
+    {
+      "symbol": "WBUY",
+      "name": "WEBUY GLOBAL LTD.",
+      "currency": "USD",
+      "price": 0.8144,
+      "previousClose": 0.6953,
+      "timestamp": 1791835200000,
+      "percent": 17.12929670645764
+    },
+    {
+      "symbol": "ARL",
+      "name": "American Realty Investors, Inc.",
+      "currency": "USD",
+      "price": 19.25,
+      "previousClose": 16.45,
+      "timestamp": 1791835259000,
+      "percent": 17.021276595744684
+    },
+    {
+      "symbol": "BGMS",
+      "name": "Bio Green Med Solution, Inc.",
+      "currency": "USD",
+      "price": 0.99,
+      "previousClose": 0.849,
+      "timestamp": 1791835200000,
+      "percent": 16.607773851590114
+    },
+    {
+      "symbol": "GRML",
+      "name": "Greenland Mines Ltd",
+      "currency": "USD",
+      "price": 6.02,
+      "previousClose": 5.17,
+      "timestamp": 1791835201000,
+      "percent": 16.44100580270793
+    },
+    {
+      "symbol": "PLCIR",
+      "name": "Pelican Acquisition II Corporation",
+      "currency": "USD",
+      "price": 0.1497,
+      "previousClose": 0.13,
+      "timestamp": 1791835200000,
+      "percent": 15.153846153846139
     }
   ],
   "todayScan": {
@@ -492,129 +492,129 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1791769607876
+    "updatedAt": 1791861543485
   },
-  "todayGainersUpdatedAt": 1791769607876,
+  "todayGainersUpdatedAt": 1791861543485,
   "items": [
     {
       "symbol": "KSPI",
       "name": "Joint Stock Company Kaspi.kz",
       "currency": "USD",
-      "price": 92.99,
-      "pe": 8.523373,
-      "forwardPe": 0.013668085,
+      "price": 97.17,
+      "pe": 8.9065075,
+      "forwardPe": 0.014282481,
       "salesGrowth": 0.136,
-      "marketCap": 17670635520,
-      "timestamp": 1791576001000,
-      "score": 995.0186876947283
+      "marketCap": 18464948224,
+      "timestamp": 1791835201000,
+      "score": 952.215514937496
     },
     {
       "symbol": "LQDA",
       "name": "Liquidia Corporation",
       "currency": "USD",
-      "price": 27.38,
-      "pe": 19.697842,
-      "forwardPe": 11.810225,
+      "price": 27.67,
+      "pe": 19.906475,
+      "forwardPe": 11.935315,
       "salesGrowth": 18.427,
-      "marketCap": 2450753280,
-      "timestamp": 1791576001000,
-      "score": 156.02581661229993
+      "marketCap": 2476710912,
+      "timestamp": 1791835202000,
+      "score": 154.39056279620607
     },
     {
       "symbol": "COF",
       "name": "Capital One Financial Corporation",
       "currency": "USD",
-      "price": 199.26,
-      "pe": 12.797688,
-      "forwardPe": 8.269432,
+      "price": 201.14,
+      "pe": 12.918433,
+      "forwardPe": 8.347454,
       "salesGrowth": 11.11,
-      "marketCap": 122246012928,
-      "timestamp": 1791576003000,
-      "score": 134.35021897513639
+      "marketCap": 123399397376,
+      "timestamp": 1791835202000,
+      "score": 133.09447407556843
     },
     {
       "symbol": "KYIV",
       "name": "Kyivstar Group Ltd.",
       "currency": "USD",
-      "price": 12.1,
-      "pe": 17.285715,
-      "forwardPe": 0.19316669,
+      "price": 12,
+      "pe": 17.142857,
+      "forwardPe": 0.19157027,
       "salesGrowth": 0.194,
-      "marketCap": 2793691904,
-      "timestamp": 1791576001000,
-      "score": 100.43139425332599
+      "marketCap": 2770603520,
+      "timestamp": 1791835201000,
+      "score": 101.26832310671172
     },
     {
       "symbol": "NLY",
       "name": "Annaly Capital Management, Inc.",
       "currency": "USD",
-      "price": 18.3,
-      "pe": 4.485294,
-      "forwardPe": 5.8905325,
+      "price": 18.29,
+      "pe": 4.4828434,
+      "forwardPe": 5.8873143,
       "salesGrowth": 4.794,
-      "marketCap": 13792973824,
-      "timestamp": 1791576002000,
-      "score": 81.38483235598818
+      "marketCap": 13785437184,
+      "timestamp": 1791835202000,
+      "score": 81.42931998721386
     },
     {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
       "currency": "USD",
-      "price": 1029,
-      "pe": 13.84367,
-      "forwardPe": 4.9870977,
+      "price": 989.04,
+      "pe": 13.3060665,
+      "forwardPe": 4.79343,
       "salesGrowth": 3.793,
-      "marketCap": 1164234457088,
-      "timestamp": 1791576001000,
-      "score": 76.05626013703322
+      "marketCap": 1119022743552,
+      "timestamp": 1791835202000,
+      "score": 79.12914134555005
     },
     {
       "symbol": "SNDK",
       "name": "Sandisk Corporation",
       "currency": "USD",
-      "price": 1581.82,
-      "pe": 21.445498,
-      "forwardPe": 5.9400573,
+      "price": 1487.33,
+      "pe": 20.164452,
+      "forwardPe": 5.585228,
       "salesGrowth": 3.716,
-      "marketCap": 228616585216,
-      "timestamp": 1791576000000,
-      "score": 62.55831909230909
+      "marketCap": 214960177152,
+      "timestamp": 1791835200000,
+      "score": 66.53264647387716
     },
     {
       "symbol": "SM",
       "name": "SM Energy Company",
       "currency": "USD",
-      "price": 37,
-      "pe": 6.5602837,
-      "forwardPe": 4.5184216,
+      "price": 37.69,
+      "pe": 6.682624,
+      "forwardPe": 4.570773,
       "salesGrowth": 1.761,
-      "marketCap": 8800600064,
-      "timestamp": 1791576002000,
-      "score": 38.97378677545274
+      "marketCap": 8964719616,
+      "timestamp": 1791835202000,
+      "score": 38.52740006996628
     },
     {
       "symbol": "BHF",
       "name": "Brighthouse Financial, Inc.",
       "currency": "USD",
-      "price": 48.53,
-      "pe": 3.8333333,
-      "forwardPe": 2.4156296,
+      "price": 48.36,
+      "pe": 3.8199053,
+      "forwardPe": 2.4071677,
       "salesGrowth": 0.867,
-      "marketCap": 2791036160,
-      "timestamp": 1791576000000,
-      "score": 35.89126412426806
+      "marketCap": 2781259264,
+      "timestamp": 1791835202000,
+      "score": 36.017432437299654
     },
     {
       "symbol": "SBSW",
       "name": "Sibanye Stillwater Limited",
       "currency": "USD",
-      "price": 10,
-      "pe": 8.403361,
-      "forwardPe": 2.91194,
+      "price": 9.89,
+      "pe": 8.310925,
+      "forwardPe": 2.8799088,
       "salesGrowth": 0.643,
-      "marketCap": 7233702912,
-      "timestamp": 1791576003000,
-      "score": 22.08149893198349
+      "marketCap": 7154132480,
+      "timestamp": 1791835203000,
+      "score": 22.327095913592817
     }
   ],
   "allSizes": [
@@ -622,137 +622,137 @@
       "symbol": "KSPI",
       "name": "Joint Stock Company Kaspi.kz",
       "currency": "USD",
-      "price": 92.99,
-      "pe": 8.523373,
-      "forwardPe": 0.013668085,
+      "price": 97.17,
+      "pe": 8.9065075,
+      "forwardPe": 0.014282481,
       "salesGrowth": 0.136,
-      "marketCap": 17670635520,
-      "timestamp": 1791576001000,
-      "score": 995.0186876947283
+      "marketCap": 18464948224,
+      "timestamp": 1791835201000,
+      "score": 952.215514937496
     },
     {
       "symbol": "LQDA",
       "name": "Liquidia Corporation",
       "currency": "USD",
-      "price": 27.38,
-      "pe": 19.697842,
-      "forwardPe": 11.810225,
+      "price": 27.67,
+      "pe": 19.906475,
+      "forwardPe": 11.935315,
       "salesGrowth": 18.427,
-      "marketCap": 2450753280,
-      "timestamp": 1791576001000,
-      "score": 156.02581661229993
+      "marketCap": 2476710912,
+      "timestamp": 1791835202000,
+      "score": 154.39056279620607
     },
     {
       "symbol": "COF",
       "name": "Capital One Financial Corporation",
       "currency": "USD",
-      "price": 199.26,
-      "pe": 12.797688,
-      "forwardPe": 8.269432,
+      "price": 201.14,
+      "pe": 12.918433,
+      "forwardPe": 8.347454,
       "salesGrowth": 11.11,
-      "marketCap": 122246012928,
-      "timestamp": 1791576003000,
-      "score": 134.35021897513639
+      "marketCap": 123399397376,
+      "timestamp": 1791835202000,
+      "score": 133.09447407556843
     },
     {
       "symbol": "KYIV",
       "name": "Kyivstar Group Ltd.",
       "currency": "USD",
-      "price": 12.1,
-      "pe": 17.285715,
-      "forwardPe": 0.19316669,
+      "price": 12,
+      "pe": 17.142857,
+      "forwardPe": 0.19157027,
       "salesGrowth": 0.194,
-      "marketCap": 2793691904,
-      "timestamp": 1791576001000,
-      "score": 100.43139425332599
+      "marketCap": 2770603520,
+      "timestamp": 1791835201000,
+      "score": 101.26832310671172
     },
     {
       "symbol": "NLY",
       "name": "Annaly Capital Management, Inc.",
       "currency": "USD",
-      "price": 18.3,
-      "pe": 4.485294,
-      "forwardPe": 5.8905325,
+      "price": 18.29,
+      "pe": 4.4828434,
+      "forwardPe": 5.8873143,
       "salesGrowth": 4.794,
-      "marketCap": 13792973824,
-      "timestamp": 1791576002000,
-      "score": 81.38483235598818
+      "marketCap": 13785437184,
+      "timestamp": 1791835202000,
+      "score": 81.42931998721386
     },
     {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
       "currency": "USD",
-      "price": 1029,
-      "pe": 13.84367,
-      "forwardPe": 4.9870977,
+      "price": 989.04,
+      "pe": 13.3060665,
+      "forwardPe": 4.79343,
       "salesGrowth": 3.793,
-      "marketCap": 1164234457088,
-      "timestamp": 1791576001000,
-      "score": 76.05626013703322
-    },
-    {
-      "symbol": "NAMM",
-      "name": "Namib Minerals",
-      "currency": "USD",
-      "price": 1.14,
-      "pe": 0.5728643,
-      "forwardPe": 0.6195652,
-      "salesGrowth": 0.397,
-      "marketCap": 63671744,
-      "timestamp": 1791576000000,
-      "score": 64.07719478111424
+      "marketCap": 1119022743552,
+      "timestamp": 1791835202000,
+      "score": 79.12914134555005
     },
     {
       "symbol": "SNDK",
       "name": "Sandisk Corporation",
       "currency": "USD",
-      "price": 1581.82,
-      "pe": 21.445498,
-      "forwardPe": 5.9400573,
+      "price": 1487.33,
+      "pe": 20.164452,
+      "forwardPe": 5.585228,
       "salesGrowth": 3.716,
-      "marketCap": 228616585216,
-      "timestamp": 1791576000000,
-      "score": 62.55831909230909
+      "marketCap": 214960177152,
+      "timestamp": 1791835200000,
+      "score": 66.53264647387716
+    },
+    {
+      "symbol": "NAMM",
+      "name": "Namib Minerals",
+      "currency": "USD",
+      "price": 1.1,
+      "pe": 0.5527638,
+      "forwardPe": 0.59782606,
+      "salesGrowth": 0.397,
+      "marketCap": 61437652,
+      "timestamp": 1791835201000,
+      "score": 66.40727572163716
     },
     {
       "symbol": "PSHG",
       "name": "Performance Shipping Inc.",
       "currency": "USD",
-      "price": 1.66,
-      "pe": 1.8043478,
-      "forwardPe": 1.5370369,
+      "price": 1.67,
+      "pe": 1.8152173,
+      "forwardPe": 1.5462962,
       "salesGrowth": 0.91,
-      "marketCap": 20637382,
-      "timestamp": 1791576000000,
-      "score": 59.20482455561087
+      "marketCap": 20761704,
+      "timestamp": 1791835201000,
+      "score": 58.850303066126656
     },
     {
       "symbol": "IMPP",
       "name": "Imperial Petroleum Inc.",
       "currency": "USD",
-      "price": 5.42,
-      "pe": 2.8229167,
-      "forwardPe": 2.9139786,
+      "price": 5.52,
+      "pe": 2.875,
+      "forwardPe": 2.967742,
       "salesGrowth": 1.396,
-      "marketCap": 247268288,
-      "timestamp": 1791576001000,
-      "score": 47.9070093376801
+      "marketCap": 251830432,
+      "timestamp": 1791835201000,
+      "score": 47.039129412192835
     }
   ],
   "checked": 5472,
   "failed": 0,
-  "updatedAt": 1791769607882,
+  "updatedAt": 1791861543490,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5472,
     "processed": 5472,
-    "eligible": 640,
-    "excluded": 3193,
-    "missing": 1639,
+    "eligible": 637,
+    "excluded": 3189,
+    "missing": 1646,
     "failed": 0,
-    "startedAt": 1791769061393,
-    "directoryAt": 1791769061393,
+    "startedAt": 1791861072631,
+    "directoryAt": 1791861072631,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
