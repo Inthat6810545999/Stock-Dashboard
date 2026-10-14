@@ -23,7 +23,7 @@ const window=getThaiScanWindow();
 const previous=JSON.parse(await readFile(output,'utf8'));
 const scheduledSlot=getDueGainerSlot('th');
 if(process.env.GAINER_SCHEDULED==='true'&&(!scheduledSlot||previous.todayScan?.scheduledSlot===scheduledSlot)){
- console.log(`Scheduled Thai scan skipped: ${scheduledSlot?'this hourly slot is already published':'no trading slot is due'}.`);
+ console.log(`Scheduled Thai scan skipped: ${scheduledSlot?'this five-minute slot is already published':'no trading slot is due'}.`);
  process.exit(0);
 }
 if(window==='closed'&&!force){

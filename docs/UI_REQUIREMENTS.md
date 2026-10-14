@@ -29,6 +29,7 @@ Last updated: 2026-10-14 (Asia/Bangkok). The dashboard and Premium Must Watch su
 - Must Watch replaces News in navigation. YoY price gainers is the first screen, followed by growth screens including one independent of company size.
 - Keep screening methodology, coverage, snapshot and refresh details in the info dialog beside Refresh.
 - Do not invent market averages, missing financial values or scanner coverage.
+- Full-market US and Thai gainer scans target five-minute intervals only during each market's existing trading windows, with the existing separate close checks. The daily YoY and growth screens remain daily. A schedule trigger is a target, not a guarantee that a completed snapshot will arrive every five minutes.
 
 ## Required responsive checks
 For layout/chart changes, inspect actual rendered SVG bounds as well as containers, card text, axes, volume and page overflow. Exercise resizing in both directions and verify data-loaded states.

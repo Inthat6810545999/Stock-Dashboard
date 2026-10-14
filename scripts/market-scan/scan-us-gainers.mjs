@@ -21,7 +21,7 @@ const scanWindow=getUsScanWindow();
 const previous=JSON.parse(await readFile(output,'utf8'));
 const scheduledSlot=getDueGainerSlot('us');
 if(process.env.GAINER_SCHEDULED==='true'&&(!scheduledSlot||previous.todayScan?.scheduledSlot===scheduledSlot)){
- console.log(`Scheduled US scan skipped: ${scheduledSlot?'this hourly slot is already published':'no trading slot is due'}.`);
+  console.log(`Scheduled US scan skipped: ${scheduledSlot?'this five-minute slot is already published':'no trading slot is due'}.`);
  process.exit(0);
 }
 if(scanWindow==='closed'){

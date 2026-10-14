@@ -1,4 +1,4 @@
-name: Hourly US biggest gainers
+name: Five-minute Thai biggest gainers
 on:
   workflow_call:
     inputs:
@@ -24,18 +24,19 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --ignore-scripts
-      - name: Scan every US exchange-listed symbol with Yahoo Finance
+      - name: Scan the full SET/mai universe with Yahoo Finance
         env:
           GAINER_SCHEDULED: ${{ inputs.scheduled && 'true' || 'false' }}
-        run: node --experimental-strip-types scripts/market-scan/scan-us-gainers.mjs
+          FORCE_MARKET_SCAN: ${{ github.event_name == 'workflow_dispatch' && !inputs.scheduled && 'true' || 'false' }}
+        run: node --experimental-strip-types scripts/market-scan/scan-th-gainers.mjs
       - name: Validate published ranking
         run: node scripts/market-scan/check.mjs
       - name: Publish refreshed ranking
         run: |
           git config user.name 'market-scan[bot]'
           git config user.email 'market-scan[bot]@users.noreply.github.com'
-          git add data/must-watch-us.json
+          git add data/must-watch-th.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh hourly US biggest gainers'
+            git commit -m 'Refresh five-minute Thai biggest gainers'
             git push
           fi

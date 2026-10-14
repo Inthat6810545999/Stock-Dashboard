@@ -6,9 +6,13 @@ const th=(hour,minute)=>getDueGainerSlot('th',new Date(Date.UTC(2026,9,8,hour-7,
 assert.equal(us('2026-10-08T13:34:00Z'),null);
 const opening=us('2026-10-08T13:35:00Z');
 assert.equal(opening,'2026-10-08T09:35[America/New_York]');
-assert.equal(us('2026-10-08T13:55:00Z'),opening); // Delayed/retry event uses same slot.
-assert.equal(us('2026-10-08T14:04:00Z'),opening);
-assert.notEqual(us('2026-10-08T14:05:00Z'),opening);
+assert.equal(us('2026-10-08T13:39:00Z'),opening); // Delayed/retry event uses same slot.
+assert.equal(us('2026-10-08T13:40:00Z'),'2026-10-08T09:40[America/New_York]');
+assert.equal(us('2026-10-08T13:55:00Z'),'2026-10-08T09:55[America/New_York]');
+assert.equal(us('2026-10-08T14:04:00Z'),'2026-10-08T10:00[America/New_York]');
+assert.equal(us('2026-10-08T14:05:00Z'),'2026-10-08T10:05[America/New_York]');
+assert.equal(us('2026-10-08T19:55:00Z'),'2026-10-08T15:55[America/New_York]');
+assert.equal(us('2026-10-08T20:00:00Z'),null);
 assert.equal(us('2026-01-08T14:35:00Z'),'2026-01-08T09:35[America/New_York]'); // DST.
 assert.equal(us('2026-10-08T20:10:00Z'),'2026-10-08T16:05[America/New_York]');
 assert.equal(us('2026-10-08T20:15:00Z'),'2026-10-08T16:15[America/New_York]');
@@ -19,14 +23,19 @@ assert.equal(us('2026-01-08T21:15:00Z'),'2026-01-08T16:15[America/New_York]'); /
 assert.equal(us('2026-10-10T14:05:00Z'),null);
 assert.equal(th(10,4),null);
 assert.equal(th(10,5),'2026-10-08T10:05[Asia/Bangkok]');
-assert.equal(th(10,55),th(10,5));
+assert.equal(th(10,9),th(10,5));
+assert.equal(th(10,10),'2026-10-08T10:10[Asia/Bangkok]');
+assert.equal(th(10,55),'2026-10-08T10:55[Asia/Bangkok]');
+assert.equal(th(12,25),'2026-10-08T12:25[Asia/Bangkok]');
 assert.notEqual(th(11,5),th(10,5));
 assert.equal(th(12,30),null);
 assert.equal(th(14,34),null);
 assert.equal(th(14,35),'2026-10-08T14:35[Asia/Bangkok]');
+assert.equal(th(14,40),'2026-10-08T14:40[Asia/Bangkok]');
+assert.equal(th(16,25),'2026-10-08T16:25[Asia/Bangkok]');
 assert.equal(th(16,30),null);
 assert.equal(th(17,5),'2026-10-08T17:05[Asia/Bangkok]');
 assert.equal(th(17,14),'2026-10-08T17:05[Asia/Bangkok]');
 assert.equal(th(17,15),'2026-10-08T17:15[Asia/Bangkok]');
 assert.equal(th(17,55),'2026-10-08T17:15[Asia/Bangkok]'); // Closing confirmation retries share one slot.
-console.log('PASS: hourly slots, delayed retries, DST, lunch and market closure');
+console.log('PASS: five-minute market slots, delayed retries, DST, lunch and market closure');

@@ -2,7 +2,7 @@ export type ThaiScanWindow='regular'|'closing'|'closed';
 
 const thaiDate=(date:Date)=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
 
-/** Thailand time has no daylight-saving changes. The hourly workflow runs at :05 ICT. */
+/** Thailand time has no daylight-saving changes. Scan eligibility follows SET sessions. */
 export function getThaiScanWindow(date=new Date()):ThaiScanWindow{
  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Bangkok',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(date);
  const part=(type:string)=>parts.find(item=>item.type===type)?.value;
