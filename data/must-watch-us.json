@@ -185,6 +185,15 @@
       "percent": 34.3859649122807
     },
     {
+      "symbol": "NSTR",
+      "name": "NorthStar Earth & Space Enterprises, Inc.",
+      "currency": "USD",
+      "price": 3.78,
+      "previousClose": 2.9,
+      "timestamp": 1792008000000,
+      "percent": 30.34482758620689
+    },
+    {
       "symbol": "MXCT",
       "name": "MaxCyte, Inc.",
       "currency": "USD",
@@ -201,15 +210,6 @@
       "previousClose": 26.81,
       "timestamp": 1792008001000,
       "percent": 26.594554270794468
-    },
-    {
-      "symbol": "NSTR",
-      "name": "NorthStar Earth & Space Enterprises, Inc.",
-      "currency": "USD",
-      "price": 3.565,
-      "previousClose": 2.9,
-      "timestamp": 1792007989000,
-      "percent": 22.931034482758616
     }
   ],
   "todayCandidates": [
@@ -277,6 +277,15 @@
       "percent": 34.3859649122807
     },
     {
+      "symbol": "NSTR",
+      "name": "NorthStar Earth & Space Enterprises, Inc.",
+      "currency": "USD",
+      "price": 3.78,
+      "previousClose": 2.9,
+      "timestamp": 1792008000000,
+      "percent": 30.34482758620689
+    },
+    {
       "symbol": "MXCT",
       "name": "MaxCyte, Inc.",
       "currency": "USD",
@@ -293,15 +302,6 @@
       "previousClose": 26.81,
       "timestamp": 1792008001000,
       "percent": 26.594554270794468
-    },
-    {
-      "symbol": "NSTR",
-      "name": "NorthStar Earth & Space Enterprises, Inc.",
-      "currency": "USD",
-      "price": 3.565,
-      "previousClose": 2.9,
-      "timestamp": 1792007989000,
-      "percent": 22.931034482758616
     },
     {
       "symbol": "BOXL",
@@ -349,15 +349,6 @@
       "percent": 16.551724137931046
     },
     {
-      "symbol": "GIFT",
-      "name": "Giftify, Inc.",
-      "currency": "USD",
-      "price": 0.6668,
-      "previousClose": 0.5725,
-      "timestamp": 1792007933000,
-      "percent": 16.471615720524003
-    },
-    {
       "symbol": "TWG",
       "name": "Top Wealth Group Holding Limited",
       "currency": "USD",
@@ -367,12 +358,21 @@
       "percent": 15.832363213038425
     },
     {
+      "symbol": "GIFT",
+      "name": "Giftify, Inc.",
+      "currency": "USD",
+      "price": 0.6604,
+      "previousClose": 0.5725,
+      "timestamp": 1792008000000,
+      "percent": 15.353711790393
+    },
+    {
       "symbol": "CPOP",
       "name": "Pop Culture Group Co., Ltd",
       "currency": "USD",
       "price": 3.685,
       "previousClose": 3.2,
-      "timestamp": 1792007997000,
+      "timestamp": 1792008000000,
       "percent": 15.156250000000004
     },
     {
@@ -403,6 +403,15 @@
       "percent": 14.28571428571428
     },
     {
+      "symbol": "SEED",
+      "name": "Origin Agritech Limited",
+      "currency": "USD",
+      "price": 0.8,
+      "previousClose": 0.7002,
+      "timestamp": 1792008000000,
+      "percent": 14.253070551271074
+    },
+    {
       "symbol": "DFNS",
       "name": "T3 Defense Inc.",
       "currency": "USD",
@@ -424,10 +433,10 @@
       "symbol": "NWTG",
       "name": "Newton Golf Company, Inc.",
       "currency": "USD",
-      "price": 0.977,
+      "price": 0.9793,
       "previousClose": 0.8601,
-      "timestamp": 1792007828000,
-      "percent": 13.591442855481928
+      "timestamp": 1792008000000,
+      "percent": 13.858853621671896
     },
     {
       "symbol": "INV",
@@ -446,15 +455,6 @@
       "previousClose": 1.95,
       "timestamp": 1792008000000,
       "percent": 13.33333333333333
-    },
-    {
-      "symbol": "SEED",
-      "name": "Origin Agritech Limited",
-      "currency": "USD",
-      "price": 0.7934,
-      "previousClose": 0.7002,
-      "timestamp": 1792007829000,
-      "percent": 13.31048271922306
     },
     {
       "symbol": "ETS",
@@ -491,12 +491,13 @@
     "missing": 1,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-14T16:05[America/New_York]",
-    "updatedAt": 1792008376122
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-14T16:15[America/New_York]",
+    "updatedAt": 1792008970892
   },
-  "todayGainersUpdatedAt": 1792008376122,
+  "todayGainersUpdatedAt": 1792008970892,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
