@@ -125,91 +125,91 @@
       "symbol": "GLND",
       "name": "Greenland Energy Company",
       "currency": "USD",
-      "price": 3.935,
+      "price": 3.815,
       "previousClose": 2.21,
-      "timestamp": 1792007154000,
-      "percent": 78.05429864253395
-    },
-    {
-      "symbol": "NXGL",
-      "name": "NEXGEL, Inc.",
-      "currency": "USD",
-      "price": 5.9,
-      "previousClose": 4.05,
-      "timestamp": 1792007162000,
-      "percent": 45.67901234567904
-    },
-    {
-      "symbol": "BSP",
-      "name": "Bending Spoons S.p.A.",
-      "currency": "USD",
-      "price": 53.98,
-      "previousClose": 37.86,
-      "timestamp": 1792007147000,
-      "percent": 42.57791864764924
-    },
-    {
-      "symbol": "NIVF",
-      "name": "NewGenIvf Group Limited",
-      "currency": "USD",
-      "price": 0.275,
-      "previousClose": 0.1954,
-      "timestamp": 1792007159000,
-      "percent": 40.736949846468804
-    },
-    {
-      "symbol": "AEHL",
-      "name": "Antelope Enterprise Holdings Limited",
-      "currency": "USD",
-      "price": 11.98,
-      "previousClose": 8.55,
-      "timestamp": 1792007040000,
-      "percent": 40.11695906432748
+      "timestamp": 1792007747000,
+      "percent": 72.62443438914028
     },
     {
       "symbol": "TGL",
       "name": "Treasure Global Inc.",
       "currency": "USD",
-      "price": 0.3761,
+      "price": 0.411,
       "previousClose": 0.278,
-      "timestamp": 1792007167000,
-      "percent": 35.28776978417265
+      "timestamp": 1792007759000,
+      "percent": 47.841726618705
     },
     {
-      "symbol": "MXCT",
-      "name": "MaxCyte, Inc.",
+      "symbol": "BSP",
+      "name": "Bending Spoons S.p.A.",
       "currency": "USD",
-      "price": 1.2741,
-      "previousClose": 0.9643,
-      "timestamp": 1792007156000,
-      "percent": 32.12693145286736
+      "price": 53.74,
+      "previousClose": 37.86,
+      "timestamp": 1792007740000,
+      "percent": 41.94400422609614
     },
     {
       "symbol": "TDIC",
       "name": "Dreamland Limited",
       "currency": "USD",
-      "price": 2.13,
+      "price": 2.279,
       "previousClose": 1.63,
-      "timestamp": 1792007166000,
-      "percent": 30.67484662576687
+      "timestamp": 1792007758000,
+      "percent": 39.81595092024541
+    },
+    {
+      "symbol": "NIVF",
+      "name": "NewGenIvf Group Limited",
+      "currency": "USD",
+      "price": 0.272,
+      "previousClose": 0.1954,
+      "timestamp": 1792007753000,
+      "percent": 39.201637666325496
+    },
+    {
+      "symbol": "AEHL",
+      "name": "Antelope Enterprise Holdings Limited",
+      "currency": "USD",
+      "price": 11.71,
+      "previousClose": 8.55,
+      "timestamp": 1792007732000,
+      "percent": 36.95906432748537
+    },
+    {
+      "symbol": "NXGL",
+      "name": "NEXGEL, Inc.",
+      "currency": "USD",
+      "price": 5.35,
+      "previousClose": 4.05,
+      "timestamp": 1792007239000,
+      "percent": 32.09876543209875
+    },
+    {
+      "symbol": "MXCT",
+      "name": "MaxCyte, Inc.",
+      "currency": "USD",
+      "price": 1.27,
+      "previousClose": 0.9643,
+      "timestamp": 1792007746000,
+      "percent": 31.701752566628638
     },
     {
       "symbol": "LQDA",
       "name": "Liquidia Corporation",
       "currency": "USD",
-      "price": 33.93,
+      "price": 33.565,
       "previousClose": 26.81,
-      "timestamp": 1792007148000,
-      "percent": 26.557254755688177
+      "timestamp": 1792007751000,
+      "percent": 25.195822454308093
     },
     {
-      "symbol": "NCPL",
-      "name": "Netcapital Inc.",
+      "symbol": "BOXL",
+      "name": "Boxlight Corporation",
       "currency": "USD",
-      "price": 1.675,
-      "previousClose": 1.39,
-      "timestamp": 1792007157000,
-      "percent": 20.503597122302164
+      "price": 3.45,
+      "previousClose": 2.8,
+      "timestamp": 1792007590000,
+      "percent": 23.214285714285722
     }
   ],
   "todayCandidates": [
@@ -217,136 +217,145 @@
       "symbol": "GLND",
       "name": "Greenland Energy Company",
       "currency": "USD",
-      "price": 3.935,
+      "price": 3.815,
       "previousClose": 2.21,
-      "timestamp": 1792007154000,
-      "percent": 78.05429864253395
-    },
-    {
-      "symbol": "NXGL",
-      "name": "NEXGEL, Inc.",
-      "currency": "USD",
-      "price": 5.9,
-      "previousClose": 4.05,
-      "timestamp": 1792007162000,
-      "percent": 45.67901234567904
-    },
-    {
-      "symbol": "BSP",
-      "name": "Bending Spoons S.p.A.",
-      "currency": "USD",
-      "price": 53.98,
-      "previousClose": 37.86,
-      "timestamp": 1792007147000,
-      "percent": 42.57791864764924
-    },
-    {
-      "symbol": "NIVF",
-      "name": "NewGenIvf Group Limited",
-      "currency": "USD",
-      "price": 0.275,
-      "previousClose": 0.1954,
-      "timestamp": 1792007159000,
-      "percent": 40.736949846468804
-    },
-    {
-      "symbol": "AEHL",
-      "name": "Antelope Enterprise Holdings Limited",
-      "currency": "USD",
-      "price": 11.98,
-      "previousClose": 8.55,
-      "timestamp": 1792007040000,
-      "percent": 40.11695906432748
+      "timestamp": 1792007747000,
+      "percent": 72.62443438914028
     },
     {
       "symbol": "TGL",
       "name": "Treasure Global Inc.",
       "currency": "USD",
-      "price": 0.3761,
+      "price": 0.411,
       "previousClose": 0.278,
-      "timestamp": 1792007167000,
-      "percent": 35.28776978417265
+      "timestamp": 1792007759000,
+      "percent": 47.841726618705
     },
     {
-      "symbol": "MXCT",
-      "name": "MaxCyte, Inc.",
+      "symbol": "BSP",
+      "name": "Bending Spoons S.p.A.",
       "currency": "USD",
-      "price": 1.2741,
-      "previousClose": 0.9643,
-      "timestamp": 1792007156000,
-      "percent": 32.12693145286736
+      "price": 53.74,
+      "previousClose": 37.86,
+      "timestamp": 1792007740000,
+      "percent": 41.94400422609614
     },
     {
       "symbol": "TDIC",
       "name": "Dreamland Limited",
       "currency": "USD",
-      "price": 2.13,
+      "price": 2.279,
       "previousClose": 1.63,
-      "timestamp": 1792007166000,
-      "percent": 30.67484662576687
+      "timestamp": 1792007758000,
+      "percent": 39.81595092024541
+    },
+    {
+      "symbol": "NIVF",
+      "name": "NewGenIvf Group Limited",
+      "currency": "USD",
+      "price": 0.272,
+      "previousClose": 0.1954,
+      "timestamp": 1792007753000,
+      "percent": 39.201637666325496
+    },
+    {
+      "symbol": "AEHL",
+      "name": "Antelope Enterprise Holdings Limited",
+      "currency": "USD",
+      "price": 11.71,
+      "previousClose": 8.55,
+      "timestamp": 1792007732000,
+      "percent": 36.95906432748537
+    },
+    {
+      "symbol": "NXGL",
+      "name": "NEXGEL, Inc.",
+      "currency": "USD",
+      "price": 5.35,
+      "previousClose": 4.05,
+      "timestamp": 1792007239000,
+      "percent": 32.09876543209875
+    },
+    {
+      "symbol": "MXCT",
+      "name": "MaxCyte, Inc.",
+      "currency": "USD",
+      "price": 1.27,
+      "previousClose": 0.9643,
+      "timestamp": 1792007746000,
+      "percent": 31.701752566628638
     },
     {
       "symbol": "LQDA",
       "name": "Liquidia Corporation",
       "currency": "USD",
-      "price": 33.93,
+      "price": 33.565,
       "previousClose": 26.81,
-      "timestamp": 1792007148000,
-      "percent": 26.557254755688177
-    },
-    {
-      "symbol": "NCPL",
-      "name": "Netcapital Inc.",
-      "currency": "USD",
-      "price": 1.675,
-      "previousClose": 1.39,
-      "timestamp": 1792007157000,
-      "percent": 20.503597122302164
+      "timestamp": 1792007751000,
+      "percent": 25.195822454308093
     },
     {
       "symbol": "BOXL",
       "name": "Boxlight Corporation",
       "currency": "USD",
-      "price": 3.31,
+      "price": 3.45,
       "previousClose": 2.8,
-      "timestamp": 1792006503000,
-      "percent": 18.214285714285715
-    },
-    {
-      "symbol": "MWYN",
-      "name": "Marwynn Holdings, Inc.",
-      "currency": "USD",
-      "price": 1.876,
-      "previousClose": 1.6,
-      "timestamp": 1792006790000,
-      "percent": 17.249999999999986
-    },
-    {
-      "symbol": "GENK",
-      "name": "GEN Restaurant Group, Inc.",
-      "currency": "USD",
-      "price": 1.7,
-      "previousClose": 1.45,
-      "timestamp": 1792007145000,
-      "percent": 17.24137931034482
+      "timestamp": 1792007590000,
+      "percent": 23.214285714285722
     },
     {
       "symbol": "NSTR",
       "name": "NorthStar Earth & Space Enterprises, Inc.",
       "currency": "USD",
-      "price": 3.4,
+      "price": 3.49,
       "previousClose": 2.9,
-      "timestamp": 1792006981000,
-      "percent": 17.24137931034482
+      "timestamp": 1792007735000,
+      "percent": 20.344827586206904
     },
     {
-      "symbol": "CCG",
-      "name": "Cheche Group Inc.",
+      "symbol": "TWG",
+      "name": "Top Wealth Group Holding Limited",
       "currency": "USD",
-      "price": 5.13,
-      "previousClose": 4.39,
-      "timestamp": 1792006701000,
-      "percent": 16.85649202733486
+      "price": 0.1025,
+      "previousClose": 0.0859,
+      "timestamp": 1792007762000,
+      "percent": 19.324796274738066
+    },
+    {
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
+      "currency": "USD",
+      "price": 1.65,
+      "previousClose": 1.39,
+      "timestamp": 1792007752000,
+      "percent": 18.705035971223015
+    },
+    {
+      "symbol": "GENK",
+      "name": "GEN Restaurant Group, Inc.",
+      "currency": "USD",
+      "price": 1.7099,
+      "previousClose": 1.45,
+      "timestamp": 1792007746000,
+      "percent": 17.92413793103449
+    },
+    {
+      "symbol": "MWYN",
+      "name": "Marwynn Holdings, Inc.",
+      "currency": "USD",
+      "price": 1.88,
+      "previousClose": 1.6,
+      "timestamp": 1792007734000,
+      "percent": 17.499999999999982
+    },
+    {
+      "symbol": "GRML",
+      "name": "Greenland Mines Ltd",
+      "currency": "USD",
+      "price": 6.46,
+      "previousClose": 5.54,
+      "timestamp": 1792007745000,
+      "percent": 16.60649819494584
     },
     {
       "symbol": "IOTR",
@@ -354,35 +363,53 @@
       "currency": "USD",
       "price": 2.33,
       "previousClose": 2,
-      "timestamp": 1792006980000,
+      "timestamp": 1792007196000,
       "percent": 16.500000000000004
     },
     {
-      "symbol": "GRML",
-      "name": "Greenland Mines Ltd",
+      "symbol": "XCH",
+      "name": "XCHG Limited",
       "currency": "USD",
-      "price": 6.45,
-      "previousClose": 5.54,
-      "timestamp": 1792007149000,
-      "percent": 16.425992779783407
+      "price": 2.268,
+      "previousClose": 1.95,
+      "timestamp": 1792007731000,
+      "percent": 16.30769230769229
+    },
+    {
+      "symbol": "CPOP",
+      "name": "Pop Culture Group Co., Ltd",
+      "currency": "USD",
+      "price": 3.69,
+      "previousClose": 3.2,
+      "timestamp": 1792007638000,
+      "percent": 15.312499999999996
+    },
+    {
+      "symbol": "CCG",
+      "name": "Cheche Group Inc.",
+      "currency": "USD",
+      "price": 5.04,
+      "previousClose": 4.39,
+      "timestamp": 1792007557000,
+      "percent": 14.80637813211847
+    },
+    {
+      "symbol": "PIII",
+      "name": "P3 Health Partners Inc.",
+      "currency": "USD",
+      "price": 4.6094,
+      "previousClose": 4.03,
+      "timestamp": 1792007318000,
+      "percent": 14.37717121588089
     },
     {
       "symbol": "SEED",
       "name": "Origin Agritech Limited",
       "currency": "USD",
-      "price": 0.815,
+      "price": 0.8001,
       "previousClose": 0.7002,
-      "timestamp": 1792005266000,
-      "percent": 16.395315624107386
-    },
-    {
-      "symbol": "CMCT",
-      "name": "Creative Media & Community Trust Corporation",
-      "currency": "USD",
-      "price": 4.78,
-      "previousClose": 4.16,
-      "timestamp": 1792007060000,
-      "percent": 14.903846153846146
+      "timestamp": 1792007699000,
+      "percent": 14.267352185089965
     },
     {
       "symbol": "MF",
@@ -394,22 +421,13 @@
       "percent": 14.175257731958757
     },
     {
-      "symbol": "KMRK",
-      "name": "K-TECH Solutions Company Limited",
+      "symbol": "CMCT",
+      "name": "Creative Media & Community Trust Corporation",
       "currency": "USD",
-      "price": 1.515,
-      "previousClose": 1.33,
-      "timestamp": 1792007153000,
-      "percent": 13.909774436090206
-    },
-    {
-      "symbol": "GIFT",
-      "name": "Giftify, Inc.",
-      "currency": "USD",
-      "price": 0.652,
-      "previousClose": 0.5725,
-      "timestamp": 1792007131000,
-      "percent": 13.886462882096072
+      "price": 4.74,
+      "previousClose": 4.16,
+      "timestamp": 1792007686000,
+      "percent": 13.942307692307686
     },
     {
       "symbol": "ABLV",
@@ -417,71 +435,53 @@
       "currency": "USD",
       "price": 1.97,
       "previousClose": 1.73,
-      "timestamp": 1792006868000,
+      "timestamp": 1792007495000,
       "percent": 13.87283236994219
     },
     {
-      "symbol": "CPOP",
-      "name": "Pop Culture Group Co., Ltd",
+      "symbol": "GIFT",
+      "name": "Giftify, Inc.",
       "currency": "USD",
-      "price": 3.64,
-      "previousClose": 3.2,
-      "timestamp": 1792007104000,
-      "percent": 13.749999999999996
-    },
-    {
-      "symbol": "ONMD",
-      "name": "OneMedNet Corporation",
-      "currency": "USD",
-      "price": 4.565,
-      "previousClose": 4.02,
-      "timestamp": 1792006803000,
-      "percent": 13.557213930348277
+      "price": 0.6508,
+      "previousClose": 0.5725,
+      "timestamp": 1792007666000,
+      "percent": 13.676855895196516
     },
     {
       "symbol": "NWTG",
       "name": "Newton Golf Company, Inc.",
       "currency": "USD",
-      "price": 0.9697,
+      "price": 0.9775,
       "previousClose": 0.8601,
-      "timestamp": 1792006802000,
-      "percent": 12.742704336705035
+      "timestamp": 1792007263000,
+      "percent": 13.649575630740628
     },
     {
-      "symbol": "KPLT",
-      "name": "Katapult Holdings, Inc.",
+      "symbol": "KMRK",
+      "name": "K-TECH Solutions Company Limited",
       "currency": "USD",
-      "price": 5.017,
-      "previousClose": 4.45,
-      "timestamp": 1792006816000,
-      "percent": 12.741573033707866
+      "price": 1.51,
+      "previousClose": 1.33,
+      "timestamp": 1792007738000,
+      "percent": 13.533834586466153
+    },
+    {
+      "symbol": "ONMD",
+      "name": "OneMedNet Corporation",
+      "currency": "USD",
+      "price": 4.54,
+      "previousClose": 4.02,
+      "timestamp": 1792007680000,
+      "percent": 12.935323383084585
     },
     {
       "symbol": "DFNS",
       "name": "T3 Defense Inc.",
       "currency": "USD",
-      "price": 6.48,
+      "price": 6.47,
       "previousClose": 5.75,
-      "timestamp": 1792007076000,
-      "percent": 12.695652173913041
-    },
-    {
-      "symbol": "FVN",
-      "name": "Future Vision II Acquisition Corp.",
-      "currency": "USD",
-      "price": 9.5,
-      "previousClose": 8.45,
-      "timestamp": 1791995375000,
-      "percent": 12.426035502958598
-    },
-    {
-      "symbol": "ETS",
-      "name": "Elite Express Holding Inc.",
-      "currency": "USD",
-      "price": 1.895,
-      "previousClose": 1.69,
-      "timestamp": 1792007105000,
-      "percent": 12.130177514792905
+      "timestamp": 1792007738000,
+      "percent": 12.521739130434772
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-14T15:45[America/New_York]",
-    "updatedAt": 1792007173667
+    "scheduledSlot": "2026-10-14T15:55[America/New_York]",
+    "updatedAt": 1792007765131
   },
-  "todayGainersUpdatedAt": 1792007173667,
+  "todayGainersUpdatedAt": 1792007765131,
   "items": [
     {
       "symbol": "KSPI",
