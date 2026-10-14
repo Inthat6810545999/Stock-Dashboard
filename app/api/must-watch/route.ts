@@ -1,4 +1,5 @@
 import us from '@/data/must-watch-us.json';
+import th from '@/data/must-watch-th.json';
 import {createClient} from '@supabase/supabase-js';
 import {getComplimentaryGrant,getSignedInUser,json} from '@/lib/billing/server';
 import {hasComplimentaryEntitlement,hasMembershipEntitlement} from '@/lib/billing/entitlements';
@@ -19,8 +20,8 @@ export async function GET(request:Request){
   if(grantError)return json({error:'Premium access could not be verified.'},503);
   if(!hasComplimentaryEntitlement(grant))return json({error:'An active Premium membership is required to view Must Watch.',code:'premium_required'},403);
  }
- const market=new URL(request.url).searchParams.get('market');
- if(market&&market!=='us')return json({error:'Only US stocks are supported.'},400);
- const result=us;
+ const market=new URL(request.url).searchParams.get('market')||'us';
+ if(market!=='us'&&market!=='th')return json({error:'Invalid market.'},400);
+ const result=market==='th'?th:us;
  return json({...result,stale:!result.updatedAt||Date.now()-result.updatedAt>36*3600000});
 }

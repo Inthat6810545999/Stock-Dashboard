@@ -1,7 +1,9 @@
 import {fetchAlphaEarnings} from '@/lib/alpha-earnings';
 import {getStoredAlphaEarnings} from '@/lib/alpha-earnings-snapshot';
+import {thaiEarningsAnnouncements} from '@/lib/thai-set-earnings';
+import {fetchThaiNews} from '@/lib/thai-news';
 import {corporateEvents,attachEarningsResults,mergeCorporateEvents,type CorporateEvent} from '@/lib/corporate-events';
-import {validUsSymbol,marketLocale} from '@/lib/market-locale';
+import {validSymbol,marketLocale} from '@/lib/market-locale';
 import {earningsSchedule} from '@/lib/earnings-calendar';
 import {filterIntradayVolumeOutliers} from '@/lib/chart-volume';
 import YahooFinance from 'yahoo-finance2';
@@ -30,13 +32,14 @@ export async function GET(request:Request){
  const params=new URL(request.url).searchParams;
  const symbol=(params.get('symbol')||'NVDA').toUpperCase();
  const range=params.get('range')||'1D';
- if(!validUsSymbol(symbol))return Response.json({error:'Only US stock symbols are supported.'},{status:400});
- const company=companies.find(item=>item.symbol===symbol)||{name:symbol,sector:'US equity',description:'Company description not supplied.'};
+ if(!validSymbol(symbol))return Response.json({error:'Invalid symbol'},{status:400});
+ const company=companies.find(item=>item.symbol===symbol)||{name:symbol,sector:marketLocale(symbol).thai?'Thailand equity':'US equity',description:'Company description not supplied.'};
  const ranges:Record<string,[string,string]>={'1D':['1d','1m'],'5D':['5d','30m'],'1M':['1mo','1d'],'6M':['6mo','1d'],'YTD':['ytd','1d'],'1Y':['1y','1d'],'5Y':['5y','1wk']};
  const selectedRange=ranges[range];
  if(!selectedRange)return Response.json({error:'Unsupported range'},{status:400});
  const [yahooRange,interval]=selectedRange;
- const benchmarkSymbol='^GSPC';
+ const thai=marketLocale(symbol).thai;
+ const benchmarkSymbol=thai?'^SET.BK':'^GSPC';
  const yahoo=new YahooFinance({suppressNotices:['yahooSurvey','ripHistorical'],fetch:(input,init={})=>{const timeout=AbortSignal.timeout(10000);const signal=init.signal?AbortSignal.any([init.signal,timeout]):timeout;return fetch(input,{...init,signal})}});
  const summaryKey=`${symbol}:summary`;
  const results=await Promise.allSettled([
@@ -50,12 +53,14 @@ export async function GET(request:Request){
   }),
   cached<YahooSummary>(summaryKey,55000,async()=>await yahoo.quoteSummary(symbol,{modules:['price','summaryDetail','defaultKeyStatistics','financialData','earningsHistory','earningsTrend','assetProfile','calendarEvents']},{validateResult:false}) as YahooSummary),
   cached<NewsItem[]>(`${symbol}:news`,55000,async()=>{
+   if(thai)return (await fetchThaiNews(symbol)).slice(0,3);
    const response=await yahoo.search(symbol,{newsCount:6,quotesCount:0},{validateResult:false}) as YahooSearch;
    return Promise.all((response.news??[]).filter((item):item is YahooNews&{relatedTickers:string[];link:string;title:string;publisher:string;providerPublishTime:Date|string|number}=>item.relatedTickers?.includes(symbol)===true&&typeof item.link==='string'&&/^https:\/\//.test(item.link)&&typeof item.title==='string'&&typeof item.publisher==='string'&&item.providerPublishTime!==undefined).slice(0,3).map(async item=>({headline:item.title,summary:await excerpt(item.link),source:item.publisher,url:item.link,datetime:(stamp(item.providerPublishTime)||0)/1000})));
   }),
   cached<YahooSummary>(`benchmark:${benchmarkSymbol}`,3600000,async()=>await yahoo.quoteSummary(benchmarkSymbol,{modules:['summaryDetail','defaultKeyStatistics']},{validateResult:false}) as YahooSummary),
   cached<QuotePrice>(`${symbol}:events-quote`,55000,async()=>await yahoo.quote(symbol) as QuotePrice),
-  process.env.VERCEL==='1'?Promise.resolve(getStoredAlphaEarnings(symbol)):fetchAlphaEarnings(symbol,process.env.ALPHA_VANTAGE_API_KEY)
+  thai?thaiEarningsAnnouncements(symbol):Promise.resolve(null),
+  thai?Promise.resolve(null):process.env.VERCEL==='1'?Promise.resolve(getStoredAlphaEarnings(symbol)):fetchAlphaEarnings(symbol,process.env.ALPHA_VANTAGE_API_KEY)
  ]);
  const summaryResult=results[1].status==='fulfilled'?results[1].value:null;
  if(results[1].status==='rejected')console.error('Summary fetch:',String(results[1].reason));
@@ -68,7 +73,7 @@ export async function GET(request:Request){
  const previous=num(priceInfo?.regularMarketPreviousClose)??num(meta?.previousClose)??num(meta?.chartPreviousClose);
  const history=summary?.earningsHistory?.history??[];
  const numericHistory=history.map(item=>({quarter:item.quarter,epsActual:num(item.epsActual)??undefined,epsEstimate:num(item.epsEstimate)??undefined}));
- const alphaHistory=results[5].status==='fulfilled'?results[5].value:null;
+ const alphaHistory=results[6].status==='fulfilled'?results[6].value:null;
  const alphaEvents=alphaHistory?.events??[];
  const earnings:Earnings[]=history.slice(-4).map(item=>{
   const fiscalQuarterEnd=dateKey(item.quarter);
@@ -86,16 +91,17 @@ export async function GET(request:Request){
  if(!chart)warnings.push('Historical chart unavailable.');
  const benchmark=results[3].status==='fulfilled'?results[3].value:null;
  const eventsQuote=results[4].status==='fulfilled'?results[4].value:null;
+ const thaiEvents=results[5].status==='fulfilled'?results[5].value:null;
  const data:Market={
   symbol,
-  eventHistory:{provider:'Alpha Vantage + Yahoo',earnings:alphaHistory?.earnings??'unavailable',dividends:chart?'available':'unavailable'},
-  events:attachEarningsResults(mergeCorporateEvents(marketLocale(symbol).timeZone,alphaHistory?.events??[],[],corporateEvents(chart?.events?.dividends,summary?.calendarEvents,eventsQuote)),numericHistory),
+  eventHistory:{provider:thai?'SET announcements + SCBX history + Yahoo':'Alpha Vantage + Yahoo',earnings:thai?(thaiEvents?.status??'unavailable'):(alphaHistory?.earnings??'unavailable'),dividends:chart?'available':'unavailable'},
+  events:attachEarningsResults(mergeCorporateEvents(marketLocale(symbol).timeZone,alphaHistory?.events??[],thaiEvents?.events??[],corporateEvents(chart?.events?.dividends,summary?.calendarEvents,eventsQuote)),numericHistory),
   dividendRate:num(detail?.dividendRate)??num(detail?.trailingAnnualDividendRate),
   dividendBasis:num(detail?.dividendRate)!==null?'indicated annual':'trailing annual',
   dividendUpdatedAt:Date.now(),previousClose:previous,
   session:typeof meta?.currentTradingPeriod?.regular?.start==='number'&&typeof meta.currentTradingPeriod.regular.end==='number'?{start:meta.currentTradingPeriod.regular.start*1000,end:meta.currentTradingPeriod.regular.end*1000}:undefined,
   marketCap:num(priceInfo?.marketCap)??num(detail?.marketCap),salesGrowth:num(financial?.revenueGrowth),
-  benchmark:{name:'S&P 500',pe:num(benchmark?.summaryDetail?.trailingPE),forwardPe:num(benchmark?.summaryDetail?.forwardPE)??num(benchmark?.defaultKeyStatistics?.forwardPE),source:`https://finance.yahoo.com/quote/${encodeURIComponent(benchmarkSymbol)}/`},
+  benchmark:{name:thai?'SET':'S&P 500',pe:num(benchmark?.summaryDetail?.trailingPE),forwardPe:num(benchmark?.summaryDetail?.forwardPE)??num(benchmark?.defaultKeyStatistics?.forwardPE),source:`https://finance.yahoo.com/quote/${encodeURIComponent(benchmarkSymbol)}/`},
   currency:meta?.currency||priceInfo?.currency||marketLocale(symbol).currency,
   timeZone:meta?.exchangeTimezoneName||marketLocale(symbol).timeZone,
   earningsCurrency:financial?.financialCurrency||meta?.currency||marketLocale(symbol).currency,

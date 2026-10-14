@@ -12,7 +12,7 @@ export async function scanPriceGainers(state,{save,progress,sleep}){
    if(d.meta?.instrumentType!=='EQUITY'){state.priceOutcomes[stock.symbol]={kind:'excluded',reason:'Not an equity'};return}
    const prices=d.indicators?.quote?.[0]?.close||[];const points=(d.timestamp||[]).map((t,j)=>({time:t*1000,price:prices[j]}));const result=annualPriceReturn(points,now);
    if(!result){state.priceOutcomes[stock.symbol]={kind:'missing',reason:'Full year or recent price unavailable'};return}
-   state.priceOutcomes[stock.symbol]={kind:'eligible',row:{symbol:stock.symbol,name:d.meta.longName||d.meta.shortName||stock.name,currency:d.meta.currency||'USD',timestamp:result.endTime,...result}};return;
+   state.priceOutcomes[stock.symbol]={kind:'eligible',row:{symbol:stock.symbol,name:d.meta.longName||d.meta.shortName||stock.name,currency:d.meta.currency||(state.market==='th'?'THB':'USD'),timestamp:result.endTime,...result}};return;
   }catch{if(attempt===2){state.priceOutcomes[stock.symbol]={kind:'failed',reason:'History request failed'};return}await sleep(1000*2**attempt)}}
  }));if(i%60===0||i+6>=pending.length){await save();await progress();console.log(`${state.market}: annual prices ${Object.keys(state.priceOutcomes).length}/${state.universe.rows.length}`)}await sleep(150)}
 }

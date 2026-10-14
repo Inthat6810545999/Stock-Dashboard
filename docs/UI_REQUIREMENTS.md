@@ -1,6 +1,6 @@
 # Agreed UI requirements
 
-Last updated: 2026-10-12 (Asia/Bangkok). The current product scope is US-listed stocks only. Earlier requirements for Thai exchange features are superseded.
+Last updated: 2026-10-14 (Asia/Bangkok). The dashboard and Premium Must Watch support US and Thai stocks. Keep the current TOPPICKSTOCK visual design, authentication and membership flow while restoring the earlier Thai search, watchlist, quotes, company events and market scans. Thai quotes may be delayed and require their own timestamps and THB labels.
 
 ## Dashboard and theme
 - Keep the navy / cream / muted gold journal theme and original moon header artwork.

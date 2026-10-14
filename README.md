@@ -1,6 +1,6 @@
 # TOPPICKSTOCK
 
-English US stock dashboard matching the approved midnight navy and cream design.
+English US and Thai stock dashboard matching the approved midnight navy and cream design.
 
 ## Run locally
 
@@ -16,8 +16,8 @@ Open the local URL printed by the server.
 - Desktop viewport layout: all dashboard panels visible at widths of at least 1000px and heights of at least 650px. Smaller screens use a stacked accessible layout.
 - Yahoo Finance stock search and watchlist additions/removals, up to 24 stocks; four cards per page. Signed-out watchlists stay in browser local storage; signed-in watchlists also sync to the user's Supabase account.
 - Optional Supabase login with Google OAuth or email magic links. Signed-in watchlists sync per account; setup steps and the row-level-security SQL are in [`docs/SUPABASE_LOGIN_SETUP.md`](docs/SUPABASE_LOGIN_SETUP.md).
-- Yahoo WebSocket streaming prices for the selected stock and watchlist. The quote label distinguishes regular, pre-market and after-hours sessions. Regular-session charts receive regular-session ticks only.
-- Must Watch US daily gainers: Yahoo Finance quotes scan the complete US exchange-listed universe once per hour during regular market hours. Outside the session, the last successful ranking remains visible. The YoY and growth/value screens stay on the daily scan.
+- Yahoo WebSocket streaming prices for supported US stocks; Thai stocks use delayed quote snapshots. The quote label distinguishes regular, pre-market and after-hours sessions. Regular-session charts receive regular-session ticks only.
+- Must Watch US and Thai daily gainers: Yahoo Finance quotes scan the complete US exchange-listed universe once per hour during regular market hours; Thai scans use the SET/mai directory during Thai trading sessions. Outside the session, the last successful ranking remains visible. The YoY and growth/value screens stay on the daily scan.
 - Stream reconnect with exponential backoff and 15-second subscription heartbeat. Snapshot fallback every 60 seconds. The badge shows LIVE STREAM only for the selected stock when its latest quote is under 30 seconds old; otherwise it shows waiting or reconnection status. Source timestamps remain visible. Exchange coverage and delay depend on Yahoo; streaming is not a guarantee of every exchange trade.
 - Historical price and volume, trailing and forward P/E, analyst mean target, and quarter-ended actual/estimated EPS.
 - Volume relative to average indicates trading activity, not a buy/sell ratio or direct measure of demand.
@@ -61,7 +61,7 @@ Validate graph coverage with `node --experimental-strip-types tests/ai-supply-ch
 
 ## Market-wide Must Watch scans
 
-`npm run scan:market` scans the US exchange-listed universe. Node 22 is required. No provider credentials are used.
+`npm run scan:market` scans the US and Thai configured universes. Node 22 is required. No provider credentials are used.
 
 - **Universe:** both official Nasdaq Trader symbol directories, excluding test symbols, ETFs, funds, preferred shares, warrants, rights, notes, bonds and units. US-listed equities and ADRs are included; OTC is not included. Share-class periods are normalized for quote lookup.
 - **Growth screens:** daily snapshots rank eligible stocks by quarterly revenue growth divided by forward P/E, with positive P/E and forward P/E no greater than 25. One screen has no market-cap floor; the other requires at least USD 1 billion. This is a screening measure, not PEG or a fair-value estimate.

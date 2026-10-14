@@ -1,6 +1,7 @@
-// Public stock tools currently cover US-listed equity tickers only.
 export const validUsSymbol=(symbol:string)=>/^[A-Z][A-Z0-9-]{0,9}(?:\.[A-Z])?$/.test(symbol);
-export function marketLocale(symbol:string){void symbol;return {currency:'USD',timeZone:'America/New_York',zoneLabel:'ET',city:'New York',market:'US'};}
+export const validThSymbol=(symbol:string)=>/^[A-Z0-9][A-Z0-9-]{0,11}\.BK$/.test(symbol);
+export const validSymbol=(symbol:string)=>validUsSymbol(symbol)||validThSymbol(symbol);
+export function marketLocale(symbol:string){const thai=validThSymbol(symbol.toUpperCase());return {thai,currency:thai?'THB':'USD',timeZone:thai?'Asia/Bangkok':'America/New_York',zoneLabel:thai?'ICT':'ET',city:thai?'Bangkok':'New York',market:thai?'Thailand':'US'};}
 export function formatMoney(value:number|null,currency='USD'){return value===null?'—':new Intl.NumberFormat('en-US',{style:'currency',currency,currencyDisplay:'narrowSymbol',minimumFractionDigits:2,maximumFractionDigits:2}).format(value);}
 
 export const displayTimeZone='Asia/Bangkok';

@@ -4,7 +4,7 @@ import {getDueGainerSlot} from './gainer-schedule.mjs';
 
 const root=resolve(import.meta.dirname,'../..');
 const now=new Date();
-for(const market of ['us']){
+for(const market of ['us','th']){
  const slot=getDueGainerSlot(market,now);
  const snapshot=JSON.parse(await readFile(resolve(root,`data/must-watch-${market}.json`),'utf8'));
  const due=slot!==null&&snapshot.todayScan?.scheduledSlot!==slot;
