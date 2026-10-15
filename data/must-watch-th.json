@@ -131,12 +131,12 @@
       "percent": 50
     },
     {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
+      "symbol": "GTV.BK",
+      "name": "Green Tech Ventures Public Company Limited",
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792039377000,
+      "timestamp": 1792039646000,
       "percent": 33.33333333333335
     },
     {
@@ -190,26 +190,26 @@
       "currency": "THB",
       "price": 0.33,
       "previousClose": 0.3,
-      "timestamp": 1792039473000,
+      "timestamp": 1792040090000,
       "percent": 10.000000000000009
     },
     {
-      "symbol": "AJA.BK",
-      "name": "AJ Advance Technology Public Company Limited",
+      "symbol": "PEER.BK",
+      "name": "Peer For You Public Company Limited",
       "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1792037925000,
-      "percent": 8.333333333333348
+      "price": 0.12,
+      "previousClose": 0.11,
+      "timestamp": 1792040079000,
+      "percent": 9.090909090909083
     },
     {
-      "symbol": "SUPER.BK",
-      "name": "Super Energy Corporation Public Company Limited",
+      "symbol": "VGI.BK",
+      "name": "VGI Public Company Limited",
       "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1792039160000,
-      "percent": 8.333333333333348
+      "price": 1.13,
+      "previousClose": 1.04,
+      "timestamp": 1792040133000,
+      "percent": 8.653846153846146
     }
   ],
   "todayCandidates": [
@@ -223,12 +223,12 @@
       "percent": 50
     },
     {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
+      "symbol": "GTV.BK",
+      "name": "Green Tech Ventures Public Company Limited",
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792039377000,
+      "timestamp": 1792039646000,
       "percent": 33.33333333333335
     },
     {
@@ -282,8 +282,35 @@
       "currency": "THB",
       "price": 0.33,
       "previousClose": 0.3,
-      "timestamp": 1792039473000,
+      "timestamp": 1792040090000,
       "percent": 10.000000000000009
+    },
+    {
+      "symbol": "PEER.BK",
+      "name": "Peer For You Public Company Limited",
+      "currency": "THB",
+      "price": 0.12,
+      "previousClose": 0.11,
+      "timestamp": 1792040079000,
+      "percent": 9.090909090909083
+    },
+    {
+      "symbol": "VGI.BK",
+      "name": "VGI Public Company Limited",
+      "currency": "THB",
+      "price": 1.13,
+      "previousClose": 1.04,
+      "timestamp": 1792040133000,
+      "percent": 8.653846153846146
+    },
+    {
+      "symbol": "TPCH.BK",
+      "name": "TPC Power Holding Public Company Limited",
+      "currency": "THB",
+      "price": 1.03,
+      "previousClose": 0.95,
+      "timestamp": 1792040134000,
+      "percent": 8.421052631578952
     },
     {
       "symbol": "AJA.BK",
@@ -291,44 +318,17 @@
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1792037925000,
+      "timestamp": 1792039947000,
       "percent": 8.333333333333348
-    },
-    {
-      "symbol": "SUPER.BK",
-      "name": "Super Energy Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1792039160000,
-      "percent": 8.333333333333348
-    },
-    {
-      "symbol": "VGI.BK",
-      "name": "VGI Public Company Limited",
-      "currency": "THB",
-      "price": 1.12,
-      "previousClose": 1.04,
-      "timestamp": 1792039541000,
-      "percent": 7.692307692307709
     },
     {
       "symbol": "IRC.BK",
       "name": "Inoue Rubber (Thailand) Public Company Limited",
       "currency": "THB",
-      "price": 14,
+      "price": 13.9,
       "previousClose": 13,
-      "timestamp": 1792035619000,
-      "percent": 7.692307692307687
-    },
-    {
-      "symbol": "TPCH.BK",
-      "name": "TPC Power Holding Public Company Limited",
-      "currency": "THB",
-      "price": 1.02,
-      "previousClose": 0.95,
-      "timestamp": 1792039547000,
-      "percent": 7.36842105263158
+      "timestamp": 1792040060000,
+      "percent": 6.923076923076921
     },
     {
       "symbol": "PPS.BK",
@@ -336,8 +336,35 @@
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1792034891000,
+      "timestamp": 1792039721000,
       "percent": 6.666666666666665
+    },
+    {
+      "symbol": "PROS.BK",
+      "name": "Prosper Engineering Public Company Limited",
+      "currency": "THB",
+      "price": 0.16,
+      "previousClose": 0.15,
+      "timestamp": 1792039550000,
+      "percent": 6.666666666666665
+    },
+    {
+      "symbol": "RABBIT.BK",
+      "name": "Rabbit Holdings Public Company Limited",
+      "currency": "THB",
+      "price": 0.32,
+      "previousClose": 0.3,
+      "timestamp": 1792040085000,
+      "percent": 6.666666666666665
+    },
+    {
+      "symbol": "THANI.BK",
+      "name": "Ratchthani Leasing Public Company Limited",
+      "currency": "THB",
+      "price": 2.02,
+      "previousClose": 1.9,
+      "timestamp": 1792040141000,
+      "percent": 6.315789473684208
     },
     {
       "symbol": "SUTHA.BK",
@@ -358,6 +385,15 @@
       "percent": 6.25
     },
     {
+      "symbol": "QTC.BK",
+      "name": "QTC Energy Public Company Limited",
+      "currency": "THB",
+      "price": 5.5,
+      "previousClose": 5.2,
+      "timestamp": 1792040027000,
+      "percent": 5.769230769230771
+    },
+    {
       "symbol": "ASN.BK",
       "name": "ASN Broker Public Company Limited",
       "currency": "THB",
@@ -372,7 +408,7 @@
       "currency": "THB",
       "price": 1.47,
       "previousClose": 1.4,
-      "timestamp": 1792039332000,
+      "timestamp": 1792040020000,
       "percent": 5.000000000000004
     },
     {
@@ -381,7 +417,7 @@
       "currency": "THB",
       "price": 2.1,
       "previousClose": 2,
-      "timestamp": 1792039505000,
+      "timestamp": 1792040017000,
       "percent": 5.000000000000004
     },
     {
@@ -394,13 +430,13 @@
       "percent": 4.999999999999982
     },
     {
-      "symbol": "THANI.BK",
-      "name": "Ratchthani Leasing Public Company Limited",
+      "symbol": "RJH.BK",
+      "name": "Rajthanee Hospital Public Company Limited",
       "currency": "THB",
-      "price": 1.99,
-      "previousClose": 1.9,
-      "timestamp": 1792039512000,
-      "percent": 4.736842105263173
+      "price": 17.1,
+      "previousClose": 16.3,
+      "timestamp": 1792040087000,
+      "percent": 4.907975460122693
     },
     {
       "symbol": "SINGER.BK",
@@ -408,7 +444,7 @@
       "currency": "THB",
       "price": 13.6,
       "previousClose": 13,
-      "timestamp": 1792039536000,
+      "timestamp": 1792040135000,
       "percent": 4.615384615384621
     },
     {
@@ -421,21 +457,12 @@
       "percent": 4.516129032258065
     },
     {
-      "symbol": "KK.BK",
-      "name": "K&K Superstore Southern Public Company Limited",
-      "currency": "THB",
-      "price": 0.94,
-      "previousClose": 0.9,
-      "timestamp": 1792038861000,
-      "percent": 4.444444444444429
-    },
-    {
       "symbol": "RSP.BK",
       "name": "Rich Sport Public Company Limited",
       "currency": "THB",
       "price": 1.19,
       "previousClose": 1.14,
-      "timestamp": 1792039361000,
+      "timestamp": 1792040134000,
       "percent": 4.385964912280715
     },
     {
@@ -444,7 +471,7 @@
       "currency": "THB",
       "price": 12.6,
       "previousClose": 12.1,
-      "timestamp": 1792039551000,
+      "timestamp": 1792040130000,
       "percent": 4.132231404958686
     },
     {
@@ -455,49 +482,22 @@
       "previousClose": 1.25,
       "timestamp": 1792034346000,
       "percent": 4.0000000000000036
-    },
-    {
-      "symbol": "SO.BK",
-      "name": "Siamrajathanee Public Company Limited",
-      "currency": "THB",
-      "price": 4.68,
-      "previousClose": 4.5,
-      "timestamp": 1792037399000,
-      "percent": 4.0000000000000036
-    },
-    {
-      "symbol": "QTC.BK",
-      "name": "QTC Energy Public Company Limited",
-      "currency": "THB",
-      "price": 5.4,
-      "previousClose": 5.2,
-      "timestamp": 1792038819000,
-      "percent": 3.8461538461538547
-    },
-    {
-      "symbol": "CCP.BK",
-      "name": "Chonburi Concrete Product Public Company Limited",
-      "currency": "THB",
-      "price": 0.28,
-      "previousClose": 0.27,
-      "timestamp": 1792039002000,
-      "percent": 3.703703703703698
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 764,
-    "missing": 98,
+    "eligible": 767,
+    "missing": 95,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-15",
-    "scheduledSlot": "2026-10-15T12:15[Asia/Bangkok]",
-    "updatedAt": 1792041352346
+    "scheduledSlot": "2026-10-15T12:25[Asia/Bangkok]",
+    "updatedAt": 1792041942959
   },
-  "todayGainersUpdatedAt": 1792041352346,
+  "todayGainersUpdatedAt": 1792041942959,
   "items": [
     {
       "symbol": "PJW.BK",
