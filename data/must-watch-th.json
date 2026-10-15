@@ -154,7 +154,7 @@
       "currency": "THB",
       "price": 0.44,
       "previousClose": 0.34,
-      "timestamp": 1792037257000,
+      "timestamp": 1792037999000,
       "percent": 29.411764705882337
     },
     {
@@ -188,10 +188,10 @@
       "symbol": "TPCH.BK",
       "name": "TPC Power Holding Public Company Limited",
       "currency": "THB",
-      "price": 1.06,
+      "price": 1.07,
       "previousClose": 0.95,
-      "timestamp": 1792037735000,
-      "percent": 11.578947368421066
+      "timestamp": 1792038338000,
+      "percent": 12.631578947368439
     },
     {
       "symbol": "CGD.BK",
@@ -203,13 +203,13 @@
       "percent": 11.111111111111116
     },
     {
-      "symbol": "PEER.BK",
-      "name": "Peer For You Public Company Limited",
+      "symbol": "GENCO.BK",
+      "name": "General Environmental Conservation Public Company Limited",
       "currency": "THB",
-      "price": 0.12,
-      "previousClose": 0.11,
-      "timestamp": 1792036884000,
-      "percent": 9.090909090909083
+      "price": 0.33,
+      "previousClose": 0.3,
+      "timestamp": 1792038169000,
+      "percent": 10.000000000000009
     }
   ],
   "todayCandidates": [
@@ -246,7 +246,7 @@
       "currency": "THB",
       "price": 0.44,
       "previousClose": 0.34,
-      "timestamp": 1792037257000,
+      "timestamp": 1792037999000,
       "percent": 29.411764705882337
     },
     {
@@ -280,10 +280,10 @@
       "symbol": "TPCH.BK",
       "name": "TPC Power Holding Public Company Limited",
       "currency": "THB",
-      "price": 1.06,
+      "price": 1.07,
       "previousClose": 0.95,
-      "timestamp": 1792037735000,
-      "percent": 11.578947368421066
+      "timestamp": 1792038338000,
+      "percent": 12.631578947368439
     },
     {
       "symbol": "CGD.BK",
@@ -293,6 +293,15 @@
       "previousClose": 0.09,
       "timestamp": 1792036806000,
       "percent": 11.111111111111116
+    },
+    {
+      "symbol": "GENCO.BK",
+      "name": "General Environmental Conservation Public Company Limited",
+      "currency": "THB",
+      "price": 0.33,
+      "previousClose": 0.3,
+      "timestamp": 1792038169000,
+      "percent": 10.000000000000009
     },
     {
       "symbol": "PEER.BK",
@@ -309,7 +318,7 @@
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1792036986000,
+      "timestamp": 1792037925000,
       "percent": 8.333333333333348
     },
     {
@@ -318,17 +327,8 @@
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1792037642000,
+      "timestamp": 1792037989000,
       "percent": 8.333333333333348
-    },
-    {
-      "symbol": "SCM.BK",
-      "name": "Successmore Being Public Company Limited",
-      "currency": "THB",
-      "price": 0.14,
-      "previousClose": 0.13,
-      "timestamp": 1792037644000,
-      "percent": 7.692307692307709
     },
     {
       "symbol": "IRC.BK",
@@ -340,13 +340,13 @@
       "percent": 7.692307692307687
     },
     {
-      "symbol": "RSP.BK",
-      "name": "Rich Sport Public Company Limited",
+      "symbol": "RPC.BK",
+      "name": "RPCG Public Company Limited",
       "currency": "THB",
-      "price": 1.22,
-      "previousClose": 1.14,
-      "timestamp": 1792037518000,
-      "percent": 7.017543859649122
+      "price": 0.45,
+      "previousClose": 0.42,
+      "timestamp": 1792038133000,
+      "percent": 7.14285714285714
     },
     {
       "symbol": "VGI.BK",
@@ -354,17 +354,8 @@
       "currency": "THB",
       "price": 1.11,
       "previousClose": 1.04,
-      "timestamp": 1792037731000,
+      "timestamp": 1792038332000,
       "percent": 6.730769230769229
-    },
-    {
-      "symbol": "GENCO.BK",
-      "name": "General Environmental Conservation Public Company Limited",
-      "currency": "THB",
-      "price": 0.32,
-      "previousClose": 0.3,
-      "timestamp": 1792037614000,
-      "percent": 6.666666666666665
     },
     {
       "symbol": "PPS.BK",
@@ -403,6 +394,15 @@
       "percent": 6.2893081761006275
     },
     {
+      "symbol": "DCON.BK",
+      "name": "Dcon Products Public Company Limited",
+      "currency": "THB",
+      "price": 0.17,
+      "previousClose": 0.16,
+      "timestamp": 1792038086000,
+      "percent": 6.25
+    },
+    {
       "symbol": "ASN.BK",
       "name": "ASN Broker Public Company Limited",
       "currency": "THB",
@@ -412,6 +412,15 @@
       "percent": 5.376344086021501
     },
     {
+      "symbol": "RSP.BK",
+      "name": "Rich Sport Public Company Limited",
+      "currency": "THB",
+      "price": 1.2,
+      "previousClose": 1.14,
+      "timestamp": 1792038237000,
+      "percent": 5.263157894736836
+    },
+    {
       "symbol": "AE.BK",
       "name": "All Energy & Utilities Public Company Limited",
       "currency": "THB",
@@ -419,15 +428,6 @@
       "previousClose": 0.2,
       "timestamp": 1792037283000,
       "percent": 4.999999999999982
-    },
-    {
-      "symbol": "RPC.BK",
-      "name": "RPCG Public Company Limited",
-      "currency": "THB",
-      "price": 0.44,
-      "previousClose": 0.42,
-      "timestamp": 1792037729000,
-      "percent": 4.761904761904767
     },
     {
       "symbol": "SPACK.BK",
@@ -462,7 +462,7 @@
       "currency": "THB",
       "price": 2.08,
       "previousClose": 2,
-      "timestamp": 1792037430000,
+      "timestamp": 1792037926000,
       "percent": 4.0000000000000036
     },
     {
@@ -480,24 +480,24 @@
       "currency": "THB",
       "price": 0.27,
       "previousClose": 0.26,
-      "timestamp": 1792036758000,
+      "timestamp": 1792038062000,
       "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 745,
-    "missing": 117,
+    "eligible": 752,
+    "missing": 110,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-15",
-    "scheduledSlot": "2026-10-15T11:45[Asia/Bangkok]",
-    "updatedAt": 1792039549902
+    "scheduledSlot": "2026-10-15T11:55[Asia/Bangkok]",
+    "updatedAt": 1792040143107
   },
-  "todayGainersUpdatedAt": 1792039549902,
+  "todayGainersUpdatedAt": 1792040143107,
   "items": [
     {
       "symbol": "PJW.BK",
