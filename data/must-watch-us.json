@@ -125,10 +125,10 @@
       "symbol": "SDST",
       "name": "Stardust Power Inc.",
       "currency": "USD",
-      "price": 0.0428,
+      "price": 0.0425,
       "previousClose": 0.026,
-      "timestamp": 1792086944000,
-      "percent": 64.61538461538461
+      "timestamp": 1792087555000,
+      "percent": 63.46153846153848
     },
     {
       "symbol": "RPGL",
@@ -143,19 +143,10 @@
       "symbol": "AMOD",
       "name": "Alpha Modus Holdings, Inc.",
       "currency": "USD",
-      "price": 1.9397,
+      "price": 1.87,
       "previousClose": 1.39,
-      "timestamp": 1792086937000,
-      "percent": 39.546762589928065
-    },
-    {
-      "symbol": "NCPL",
-      "name": "Netcapital Inc.",
-      "currency": "USD",
-      "price": 2.13,
-      "previousClose": 1.59,
-      "timestamp": 1792086953000,
-      "percent": 33.96226415094339
+      "timestamp": 1792087537000,
+      "percent": 34.53237410071943
     },
     {
       "symbol": "WETO",
@@ -163,53 +154,62 @@
       "currency": "USD",
       "price": 1.11,
       "previousClose": 0.8306,
-      "timestamp": 1792086960000,
+      "timestamp": 1792087553000,
       "percent": 33.63833373464966
+    },
+    {
+      "symbol": "PMI",
+      "name": "Picard Medical, Inc.",
+      "currency": "USD",
+      "price": 16.7401,
+      "previousClose": 12.68,
+      "timestamp": 1792087548000,
+      "percent": 32.019716088328096
+    },
+    {
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
+      "currency": "USD",
+      "price": 2.09,
+      "previousClose": 1.59,
+      "timestamp": 1792087552000,
+      "percent": 31.446540880503136
     },
     {
       "symbol": "BBCI",
       "name": "Bradbury Capital Inc.",
       "currency": "USD",
-      "price": 3.44,
+      "price": 3.405,
       "previousClose": 2.64,
-      "timestamp": 1792086940000,
-      "percent": 30.303030303030297
+      "timestamp": 1792087539000,
+      "percent": 28.977272727272705
     },
     {
       "symbol": "RGC",
       "name": "Regencell Bioscience Holdings Limited",
       "currency": "USD",
-      "price": 10.475,
+      "price": 10.35,
       "previousClose": 8.11,
-      "timestamp": 1792086957000,
-      "percent": 29.161528976572136
-    },
-    {
-      "symbol": "VSTM",
-      "name": "Verastem, Inc.",
-      "currency": "USD",
-      "price": 9.665,
-      "previousClose": 7.71,
-      "timestamp": 1792086959000,
-      "percent": 25.356679636835278
+      "timestamp": 1792087528000,
+      "percent": 27.620221948212098
     },
     {
       "symbol": "BENF",
       "name": "Beneficient",
       "currency": "USD",
-      "price": 1.0772,
+      "price": 1.1,
       "previousClose": 0.8708,
-      "timestamp": 1792086929000,
-      "percent": 23.702342673403763
+      "timestamp": 1792087529000,
+      "percent": 26.32062471290768
     },
     {
-      "symbol": "NMRA",
-      "name": "Neumora Therapeutics, Inc.",
+      "symbol": "VSTM",
+      "name": "Verastem, Inc.",
       "currency": "USD",
-      "price": 0.4384,
-      "previousClose": 0.3545,
-      "timestamp": 1792086952000,
-      "percent": 23.66713681241186
+      "price": 9.6699,
+      "previousClose": 7.71,
+      "timestamp": 1792087561000,
+      "percent": 25.420233463035014
     }
   ],
   "todayCandidates": [
@@ -217,10 +217,10 @@
       "symbol": "SDST",
       "name": "Stardust Power Inc.",
       "currency": "USD",
-      "price": 0.0428,
+      "price": 0.0425,
       "previousClose": 0.026,
-      "timestamp": 1792086944000,
-      "percent": 64.61538461538461
+      "timestamp": 1792087555000,
+      "percent": 63.46153846153848
     },
     {
       "symbol": "RPGL",
@@ -235,19 +235,10 @@
       "symbol": "AMOD",
       "name": "Alpha Modus Holdings, Inc.",
       "currency": "USD",
-      "price": 1.9397,
+      "price": 1.87,
       "previousClose": 1.39,
-      "timestamp": 1792086937000,
-      "percent": 39.546762589928065
-    },
-    {
-      "symbol": "NCPL",
-      "name": "Netcapital Inc.",
-      "currency": "USD",
-      "price": 2.13,
-      "previousClose": 1.59,
-      "timestamp": 1792086953000,
-      "percent": 33.96226415094339
+      "timestamp": 1792087537000,
+      "percent": 34.53237410071943
     },
     {
       "symbol": "WETO",
@@ -255,107 +246,143 @@
       "currency": "USD",
       "price": 1.11,
       "previousClose": 0.8306,
-      "timestamp": 1792086960000,
+      "timestamp": 1792087553000,
       "percent": 33.63833373464966
-    },
-    {
-      "symbol": "BBCI",
-      "name": "Bradbury Capital Inc.",
-      "currency": "USD",
-      "price": 3.44,
-      "previousClose": 2.64,
-      "timestamp": 1792086940000,
-      "percent": 30.303030303030297
-    },
-    {
-      "symbol": "RGC",
-      "name": "Regencell Bioscience Holdings Limited",
-      "currency": "USD",
-      "price": 10.475,
-      "previousClose": 8.11,
-      "timestamp": 1792086957000,
-      "percent": 29.161528976572136
-    },
-    {
-      "symbol": "VSTM",
-      "name": "Verastem, Inc.",
-      "currency": "USD",
-      "price": 9.665,
-      "previousClose": 7.71,
-      "timestamp": 1792086959000,
-      "percent": 25.356679636835278
-    },
-    {
-      "symbol": "BENF",
-      "name": "Beneficient",
-      "currency": "USD",
-      "price": 1.0772,
-      "previousClose": 0.8708,
-      "timestamp": 1792086929000,
-      "percent": 23.702342673403763
-    },
-    {
-      "symbol": "NMRA",
-      "name": "Neumora Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 0.4384,
-      "previousClose": 0.3545,
-      "timestamp": 1792086952000,
-      "percent": 23.66713681241186
-    },
-    {
-      "symbol": "BETR",
-      "name": "Better Home & Finance Holding Company",
-      "currency": "USD",
-      "price": 9.98,
-      "previousClose": 8.12,
-      "timestamp": 1792086942000,
-      "percent": 22.906403940886722
     },
     {
       "symbol": "PMI",
       "name": "Picard Medical, Inc.",
       "currency": "USD",
-      "price": 15.5685,
+      "price": 16.7401,
       "previousClose": 12.68,
-      "timestamp": 1792086920000,
-      "percent": 22.779968454258672
+      "timestamp": 1792087548000,
+      "percent": 32.019716088328096
     },
     {
-      "symbol": "DRMA",
-      "name": "Dermata Therapeutics, Inc.",
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 0.8065,
-      "previousClose": 0.6633,
-      "timestamp": 1792086933000,
-      "percent": 21.58902457409919
+      "price": 2.09,
+      "previousClose": 1.59,
+      "timestamp": 1792087552000,
+      "percent": 31.446540880503136
+    },
+    {
+      "symbol": "BBCI",
+      "name": "Bradbury Capital Inc.",
+      "currency": "USD",
+      "price": 3.405,
+      "previousClose": 2.64,
+      "timestamp": 1792087539000,
+      "percent": 28.977272727272705
+    },
+    {
+      "symbol": "RGC",
+      "name": "Regencell Bioscience Holdings Limited",
+      "currency": "USD",
+      "price": 10.35,
+      "previousClose": 8.11,
+      "timestamp": 1792087528000,
+      "percent": 27.620221948212098
+    },
+    {
+      "symbol": "BENF",
+      "name": "Beneficient",
+      "currency": "USD",
+      "price": 1.1,
+      "previousClose": 0.8708,
+      "timestamp": 1792087529000,
+      "percent": 26.32062471290768
+    },
+    {
+      "symbol": "VSTM",
+      "name": "Verastem, Inc.",
+      "currency": "USD",
+      "price": 9.6699,
+      "previousClose": 7.71,
+      "timestamp": 1792087561000,
+      "percent": 25.420233463035014
     },
     {
       "symbol": "PTLE",
       "name": "PTL Limited",
       "currency": "USD",
-      "price": 8.9,
+      "price": 9.11,
       "previousClose": 7.35,
-      "timestamp": 1792086952000,
-      "percent": 21.08843537414966
+      "timestamp": 1792087265000,
+      "percent": 23.945578231292508
     },
     {
-      "symbol": "XLAB",
-      "name": "Exascale Labs Holdings Inc.",
+      "symbol": "BETR",
+      "name": "Better Home & Finance Holding Company",
       "currency": "USD",
-      "price": 1.1,
-      "previousClose": 0.9085,
-      "timestamp": 1792086960000,
-      "percent": 21.078701155751254
+      "price": 9.9461,
+      "previousClose": 8.12,
+      "timestamp": 1792087526000,
+      "percent": 22.48891625615763
+    },
+    {
+      "symbol": "NIXX",
+      "name": "Nixxy, Inc.",
+      "currency": "USD",
+      "price": 0.256,
+      "previousClose": 0.2091,
+      "timestamp": 1792087547000,
+      "percent": 22.42945958871354
+    },
+    {
+      "symbol": "NMRA",
+      "name": "Neumora Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.4316,
+      "previousClose": 0.3545,
+      "timestamp": 1792087544000,
+      "percent": 21.74894217207335
+    },
+    {
+      "symbol": "GP",
+      "name": "GreenPower Motor Company Inc.",
+      "currency": "USD",
+      "price": 0.3303,
+      "previousClose": 0.273,
+      "timestamp": 1792087547000,
+      "percent": 20.989010989010982
+    },
+    {
+      "symbol": "DRMA",
+      "name": "Dermata Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.8011,
+      "previousClose": 0.6633,
+      "timestamp": 1792087533000,
+      "percent": 20.77491331222674
     },
     {
       "symbol": "INDP",
       "name": "Indaptus Therapeutics, Inc.",
       "currency": "USD",
-      "price": 2.67,
+      "price": 2.665,
       "previousClose": 2.21,
-      "timestamp": 1792086887000,
-      "percent": 20.814479638009043
+      "timestamp": 1792087258000,
+      "percent": 20.58823529411764
+    },
+    {
+      "symbol": "MERC",
+      "name": "Mercer International Inc.",
+      "currency": "USD",
+      "price": 0.1997,
+      "previousClose": 0.168,
+      "timestamp": 1792087519000,
+      "percent": 18.869047619047596
+    },
+    {
+      "symbol": "CTNT",
+      "name": "Cheetah Net Supply Chain Service Inc.",
+      "currency": "USD",
+      "price": 3.23,
+      "previousClose": 2.72,
+      "timestamp": 1792087543000,
+      "percent": 18.75
     },
     {
       "symbol": "EQS",
@@ -367,6 +394,15 @@
       "percent": 18.735158105236827
     },
     {
+      "symbol": "NRXS",
+      "name": "NeurAxis, Inc.",
+      "currency": "USD",
+      "price": 7.7499,
+      "previousClose": 6.53,
+      "timestamp": 1792087498000,
+      "percent": 18.681470137825418
+    },
+    {
       "symbol": "RFAI",
       "name": "RF Acquisition Corp II",
       "currency": "USD",
@@ -376,40 +412,22 @@
       "percent": 18.580366056572384
     },
     {
-      "symbol": "CTNT",
-      "name": "Cheetah Net Supply Chain Service Inc.",
-      "currency": "USD",
-      "price": 3.219,
-      "previousClose": 2.72,
-      "timestamp": 1792086577000,
-      "percent": 18.34558823529411
-    },
-    {
-      "symbol": "MERC",
-      "name": "Mercer International Inc.",
-      "currency": "USD",
-      "price": 0.198,
-      "previousClose": 0.168,
-      "timestamp": 1792086829000,
-      "percent": 17.85714285714286
-    },
-    {
-      "symbol": "NRXS",
-      "name": "NeurAxis, Inc.",
-      "currency": "USD",
-      "price": 7.66,
-      "previousClose": 6.53,
-      "timestamp": 1792086885000,
-      "percent": 17.304747320061264
-    },
-    {
       "symbol": "KPLT",
       "name": "Katapult Holdings, Inc.",
       "currency": "USD",
       "price": 5.76,
       "previousClose": 4.92,
-      "timestamp": 1792086910000,
+      "timestamp": 1792087546000,
       "percent": 17.07317073170731
+    },
+    {
+      "symbol": "XLAB",
+      "name": "Exascale Labs Holdings Inc.",
+      "currency": "USD",
+      "price": 1.061,
+      "previousClose": 0.9085,
+      "timestamp": 1792087550000,
+      "percent": 16.785910842047326
     },
     {
       "symbol": "PRPL",
@@ -421,6 +439,15 @@
       "percent": 16.052631578947384
     },
     {
+      "symbol": "IAM",
+      "name": "Iambic Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 18.545,
+      "previousClose": 16,
+      "timestamp": 1792087542000,
+      "percent": 15.90625000000001
+    },
+    {
       "symbol": "EZRA",
       "name": "Reliance Global Group, Inc.",
       "currency": "USD",
@@ -430,31 +457,22 @@
       "percent": 15.740740740740744
     },
     {
-      "symbol": "DFH",
-      "name": "Dream Finders Homes, Inc.",
+      "symbol": "LDI",
+      "name": "loanDepot, Inc.",
       "currency": "USD",
-      "price": 8.555,
-      "previousClose": 7.42,
-      "timestamp": 1792086943000,
-      "percent": 15.2964959568733
+      "price": 0.5721,
+      "previousClose": 0.4958,
+      "timestamp": 1792087551000,
+      "percent": 15.389269866881804
     },
     {
-      "symbol": "NIXX",
-      "name": "Nixxy, Inc.",
+      "symbol": "TBCH",
+      "name": "Turtle Beach Corporation",
       "currency": "USD",
-      "price": 0.2406,
-      "previousClose": 0.2091,
-      "timestamp": 1792086929000,
-      "percent": 15.064562410329984
-    },
-    {
-      "symbol": "REAL",
-      "name": "The RealReal, Inc.",
-      "currency": "USD",
-      "price": 10.47,
-      "previousClose": 9.1,
-      "timestamp": 1792086944000,
-      "percent": 15.054945054945069
+      "price": 16.58,
+      "previousClose": 14.4,
+      "timestamp": 1792087534000,
+      "percent": 15.138888888888879
     },
     {
       "symbol": "EVEX",
@@ -462,26 +480,8 @@
       "currency": "USD",
       "price": 1.645,
       "previousClose": 1.43,
-      "timestamp": 1792086946000,
+      "timestamp": 1792087537000,
       "percent": 15.034965034965042
-    },
-    {
-      "symbol": "CDZI",
-      "name": "Cadiz Inc.",
-      "currency": "USD",
-      "price": 3.695,
-      "previousClose": 3.22,
-      "timestamp": 1792086924000,
-      "percent": 14.751552795031042
-    },
-    {
-      "symbol": "GTBP",
-      "name": "GT Biopharma, Inc.",
-      "currency": "USD",
-      "price": 7.125,
-      "previousClose": 6.21,
-      "timestamp": 1792086356000,
-      "percent": 14.734299516908212
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-15T13:55[America/New_York]",
-    "updatedAt": 1792086963946
+    "scheduledSlot": "2026-10-15T14:05[America/New_York]",
+    "updatedAt": 1792087566820
   },
-  "todayGainersUpdatedAt": 1792086963946,
+  "todayGainersUpdatedAt": 1792087566820,
   "items": [
     {
       "symbol": "KSPI",
