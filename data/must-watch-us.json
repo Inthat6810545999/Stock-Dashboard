@@ -125,19 +125,10 @@
       "symbol": "SDST",
       "name": "Stardust Power Inc.",
       "currency": "USD",
-      "price": 0.0462,
+      "price": 0.0433,
       "previousClose": 0.026,
-      "timestamp": 1792082160000,
-      "percent": 77.69230769230768
-    },
-    {
-      "symbol": "BBCI",
-      "name": "Bradbury Capital Inc.",
-      "currency": "USD",
-      "price": 4.1948,
-      "previousClose": 2.64,
-      "timestamp": 1792082144000,
-      "percent": 58.89393939393939
+      "timestamp": 1792082755000,
+      "percent": 66.53846153846155
     },
     {
       "symbol": "RPGL",
@@ -149,67 +140,76 @@
       "percent": 55.51969012265978
     },
     {
+      "symbol": "BBCI",
+      "name": "Bradbury Capital Inc.",
+      "currency": "USD",
+      "price": 4.0472,
+      "previousClose": 2.64,
+      "timestamp": 1792082737000,
+      "percent": 53.3030303030303
+    },
+    {
       "symbol": "NCPL",
       "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 2.1633,
+      "price": 2.215,
       "previousClose": 1.59,
-      "timestamp": 1792082154000,
-      "percent": 36.056603773584904
-    },
-    {
-      "symbol": "SNES",
-      "name": "SenesTech, Inc.",
-      "currency": "USD",
-      "price": 0.8467,
-      "previousClose": 0.6399,
-      "timestamp": 1792082160000,
-      "percent": 32.317549617127675
+      "timestamp": 1792082749000,
+      "percent": 39.30817610062891
     },
     {
       "symbol": "WETO",
       "name": "Wetour Robotics Limited",
       "currency": "USD",
-      "price": 1.0901,
+      "price": 1.13,
       "previousClose": 0.8306,
-      "timestamp": 1792082163000,
-      "percent": 31.24247531904647
+      "timestamp": 1792082758000,
+      "percent": 36.04623163977847
+    },
+    {
+      "symbol": "AMOD",
+      "name": "Alpha Modus Holdings, Inc.",
+      "currency": "USD",
+      "price": 1.865,
+      "previousClose": 1.39,
+      "timestamp": 1792082737000,
+      "percent": 34.1726618705036
+    },
+    {
+      "symbol": "SNES",
+      "name": "SenesTech, Inc.",
+      "currency": "USD",
+      "price": 0.814,
+      "previousClose": 0.6399,
+      "timestamp": 1792082755000,
+      "percent": 27.20737615252382
+    },
+    {
+      "symbol": "RGC",
+      "name": "Regencell Bioscience Holdings Limited",
+      "currency": "USD",
+      "price": 9.9824,
+      "previousClose": 8.11,
+      "timestamp": 1792082750000,
+      "percent": 23.087546239210855
     },
     {
       "symbol": "DRMA",
       "name": "Dermata Therapeutics, Inc.",
       "currency": "USD",
-      "price": 0.8264,
+      "price": 0.8123,
       "previousClose": 0.6633,
-      "timestamp": 1792082147000,
-      "percent": 24.589175335444004
+      "timestamp": 1792082741000,
+      "percent": 22.463440373888144
     },
     {
       "symbol": "HUMA",
       "name": "Humacyte, Inc.",
       "currency": "USD",
-      "price": 0.4315,
+      "price": 0.4309,
       "previousClose": 0.3541,
-      "timestamp": 1792082151000,
-      "percent": 21.85823213781417
-    },
-    {
-      "symbol": "SPRC",
-      "name": "SciSparc Ltd.",
-      "currency": "USD",
-      "price": 4.3794,
-      "previousClose": 3.62,
-      "timestamp": 1792082161000,
-      "percent": 20.977900552486204
-    },
-    {
-      "symbol": "AUST",
-      "name": "Austin Gold Corp.",
-      "currency": "USD",
-      "price": 0.8799,
-      "previousClose": 0.7289,
-      "timestamp": 1792082105000,
-      "percent": 20.71614761970093
+      "timestamp": 1792082713000,
+      "percent": 21.68878847783111
     }
   ],
   "todayCandidates": [
@@ -217,19 +217,10 @@
       "symbol": "SDST",
       "name": "Stardust Power Inc.",
       "currency": "USD",
-      "price": 0.0462,
+      "price": 0.0433,
       "previousClose": 0.026,
-      "timestamp": 1792082160000,
-      "percent": 77.69230769230768
-    },
-    {
-      "symbol": "BBCI",
-      "name": "Bradbury Capital Inc.",
-      "currency": "USD",
-      "price": 4.1948,
-      "previousClose": 2.64,
-      "timestamp": 1792082144000,
-      "percent": 58.89393939393939
+      "timestamp": 1792082755000,
+      "percent": 66.53846153846155
     },
     {
       "symbol": "RPGL",
@@ -241,76 +232,94 @@
       "percent": 55.51969012265978
     },
     {
+      "symbol": "BBCI",
+      "name": "Bradbury Capital Inc.",
+      "currency": "USD",
+      "price": 4.0472,
+      "previousClose": 2.64,
+      "timestamp": 1792082737000,
+      "percent": 53.3030303030303
+    },
+    {
       "symbol": "NCPL",
       "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 2.1633,
+      "price": 2.215,
       "previousClose": 1.59,
-      "timestamp": 1792082154000,
-      "percent": 36.056603773584904
-    },
-    {
-      "symbol": "SNES",
-      "name": "SenesTech, Inc.",
-      "currency": "USD",
-      "price": 0.8467,
-      "previousClose": 0.6399,
-      "timestamp": 1792082160000,
-      "percent": 32.317549617127675
+      "timestamp": 1792082749000,
+      "percent": 39.30817610062891
     },
     {
       "symbol": "WETO",
       "name": "Wetour Robotics Limited",
       "currency": "USD",
-      "price": 1.0901,
+      "price": 1.13,
       "previousClose": 0.8306,
-      "timestamp": 1792082163000,
-      "percent": 31.24247531904647
+      "timestamp": 1792082758000,
+      "percent": 36.04623163977847
+    },
+    {
+      "symbol": "AMOD",
+      "name": "Alpha Modus Holdings, Inc.",
+      "currency": "USD",
+      "price": 1.865,
+      "previousClose": 1.39,
+      "timestamp": 1792082737000,
+      "percent": 34.1726618705036
+    },
+    {
+      "symbol": "SNES",
+      "name": "SenesTech, Inc.",
+      "currency": "USD",
+      "price": 0.814,
+      "previousClose": 0.6399,
+      "timestamp": 1792082755000,
+      "percent": 27.20737615252382
+    },
+    {
+      "symbol": "RGC",
+      "name": "Regencell Bioscience Holdings Limited",
+      "currency": "USD",
+      "price": 9.9824,
+      "previousClose": 8.11,
+      "timestamp": 1792082750000,
+      "percent": 23.087546239210855
     },
     {
       "symbol": "DRMA",
       "name": "Dermata Therapeutics, Inc.",
       "currency": "USD",
-      "price": 0.8264,
+      "price": 0.8123,
       "previousClose": 0.6633,
-      "timestamp": 1792082147000,
-      "percent": 24.589175335444004
+      "timestamp": 1792082741000,
+      "percent": 22.463440373888144
     },
     {
       "symbol": "HUMA",
       "name": "Humacyte, Inc.",
       "currency": "USD",
-      "price": 0.4315,
+      "price": 0.4309,
       "previousClose": 0.3541,
-      "timestamp": 1792082151000,
-      "percent": 21.85823213781417
+      "timestamp": 1792082713000,
+      "percent": 21.68878847783111
     },
     {
-      "symbol": "SPRC",
-      "name": "SciSparc Ltd.",
+      "symbol": "MF",
+      "name": "MindForge Inc.",
       "currency": "USD",
-      "price": 4.3794,
-      "previousClose": 3.62,
-      "timestamp": 1792082161000,
-      "percent": 20.977900552486204
-    },
-    {
-      "symbol": "AUST",
-      "name": "Austin Gold Corp.",
-      "currency": "USD",
-      "price": 0.8799,
-      "previousClose": 0.7289,
-      "timestamp": 1792082105000,
-      "percent": 20.71614761970093
+      "price": 10.76,
+      "previousClose": 8.85,
+      "timestamp": 1792082569000,
+      "percent": 21.58192090395481
     },
     {
       "symbol": "NMRA",
       "name": "Neumora Therapeutics, Inc.",
       "currency": "USD",
-      "price": 0.4262,
+      "price": 0.4304,
       "previousClose": 0.3545,
-      "timestamp": 1792082151000,
-      "percent": 20.225669957686886
+      "timestamp": 1792082749000,
+      "percent": 21.410437235543036
     },
     {
       "symbol": "EQS",
@@ -318,7 +327,7 @@
       "currency": "USD",
       "price": 0.96,
       "previousClose": 0.8001,
-      "timestamp": 1792081432000,
+      "timestamp": 1792082358000,
       "percent": 19.98500187476564
     },
     {
@@ -327,53 +336,53 @@
       "currency": "USD",
       "price": 2.64,
       "previousClose": 2.21,
-      "timestamp": 1792082113000,
+      "timestamp": 1792082643000,
       "percent": 19.457013574660632
     },
     {
-      "symbol": "MF",
-      "name": "MindForge Inc.",
+      "symbol": "SPRC",
+      "name": "SciSparc Ltd.",
       "currency": "USD",
-      "price": 10.5201,
-      "previousClose": 8.85,
-      "timestamp": 1792082147000,
-      "percent": 18.871186440677956
+      "price": 4.2924,
+      "previousClose": 3.62,
+      "timestamp": 1792082751000,
+      "percent": 18.5745856353591
+    },
+    {
+      "symbol": "DUKR",
+      "name": "DUKE Robotics Corp.",
+      "currency": "USD",
+      "price": 4.85,
+      "previousClose": 4.1,
+      "timestamp": 1792082543000,
+      "percent": 18.29268292682926
+    },
+    {
+      "symbol": "EZRA",
+      "name": "Reliance Global Group, Inc.",
+      "currency": "USD",
+      "price": 2.55,
+      "previousClose": 2.16,
+      "timestamp": 1792082704000,
+      "percent": 18.055555555555536
     },
     {
       "symbol": "PTLE",
       "name": "PTL Limited",
       "currency": "USD",
-      "price": 8.65,
+      "price": 8.675,
       "previousClose": 7.35,
-      "timestamp": 1792082131000,
-      "percent": 17.687074829931994
-    },
-    {
-      "symbol": "RGC",
-      "name": "Regencell Bioscience Holdings Limited",
-      "currency": "USD",
-      "price": 9.5262,
-      "previousClose": 8.11,
-      "timestamp": 1792082132000,
-      "percent": 17.46239210850802
+      "timestamp": 1792082442000,
+      "percent": 18.02721088435375
     },
     {
       "symbol": "KPLT",
       "name": "Katapult Holdings, Inc.",
       "currency": "USD",
-      "price": 5.77,
+      "price": 5.8,
       "previousClose": 4.92,
-      "timestamp": 1792082072000,
-      "percent": 17.27642276422763
-    },
-    {
-      "symbol": "BENF",
-      "name": "Beneficient",
-      "currency": "USD",
-      "price": 1.02,
-      "previousClose": 0.8708,
-      "timestamp": 1792082135000,
-      "percent": 17.133670188332562
+      "timestamp": 1792082590000,
+      "percent": 17.886178861788625
     },
     {
       "symbol": "RFAIU",
@@ -385,13 +394,13 @@
       "percent": 16.975748930099876
     },
     {
-      "symbol": "AMOD",
-      "name": "Alpha Modus Holdings, Inc.",
+      "symbol": "AUST",
+      "name": "Austin Gold Corp.",
       "currency": "USD",
-      "price": 1.6259,
-      "previousClose": 1.39,
-      "timestamp": 1792082142000,
-      "percent": 16.971223021582738
+      "price": 0.8505,
+      "previousClose": 0.7289,
+      "timestamp": 1792082735000,
+      "percent": 16.682672520235986
     },
     {
       "symbol": "RFAI",
@@ -403,13 +412,31 @@
       "percent": 16.472545757071554
     },
     {
-      "symbol": "EZRA",
-      "name": "Reliance Global Group, Inc.",
+      "symbol": "CDZI",
+      "name": "Cadiz Inc.",
       "currency": "USD",
-      "price": 2.5,
-      "previousClose": 2.16,
-      "timestamp": 1792082131000,
-      "percent": 15.740740740740744
+      "price": 3.74,
+      "previousClose": 3.22,
+      "timestamp": 1792082715000,
+      "percent": 16.149068322981375
+    },
+    {
+      "symbol": "BENF",
+      "name": "Beneficient",
+      "currency": "USD",
+      "price": 1.01,
+      "previousClose": 0.8708,
+      "timestamp": 1792082732000,
+      "percent": 15.98530087276069
+    },
+    {
+      "symbol": "RXRX",
+      "name": "Recursion Pharmaceuticals, Inc.",
+      "currency": "USD",
+      "price": 4.3226,
+      "previousClose": 3.74,
+      "timestamp": 1792082754000,
+      "percent": 15.57754010695187
     },
     {
       "symbol": "THH",
@@ -421,67 +448,40 @@
       "percent": 15.503875968992254
     },
     {
-      "symbol": "CDZI",
-      "name": "Cadiz Inc.",
+      "symbol": "LDI",
+      "name": "loanDepot, Inc.",
       "currency": "USD",
-      "price": 3.71,
-      "previousClose": 3.22,
-      "timestamp": 1792082027000,
-      "percent": 15.217391304347828
+      "price": 0.5713,
+      "previousClose": 0.4958,
+      "timestamp": 1792082733000,
+      "percent": 15.227914481645822
+    },
+    {
+      "symbol": "REAX",
+      "name": "Real REMAX Group Inc.",
+      "currency": "USD",
+      "price": 15.6268,
+      "previousClose": 13.6,
+      "timestamp": 1792082737000,
+      "percent": 14.902941176470597
     },
     {
       "symbol": "NIXX",
       "name": "Nixxy, Inc.",
       "currency": "USD",
-      "price": 0.2401,
+      "price": 0.2402,
       "previousClose": 0.2091,
-      "timestamp": 1792082155000,
-      "percent": 14.825442372070775
+      "timestamp": 1792082236000,
+      "percent": 14.873266379722615
     },
     {
       "symbol": "OPK",
       "name": "OPKO Health, Inc.",
       "currency": "USD",
-      "price": 1.5725,
+      "price": 1.5712,
       "previousClose": 1.37,
-      "timestamp": 1792082151000,
-      "percent": 14.78102189781021
-    },
-    {
-      "symbol": "LDI",
-      "name": "loanDepot, Inc.",
-      "currency": "USD",
-      "price": 0.5686,
-      "previousClose": 0.4958,
-      "timestamp": 1792082137000,
-      "percent": 14.683340056474382
-    },
-    {
-      "symbol": "VEEE",
-      "name": "Twin Vee Powercats Co.",
-      "currency": "USD",
-      "price": 9.65,
-      "previousClose": 8.42,
-      "timestamp": 1792080827000,
-      "percent": 14.608076009501204
-    },
-    {
-      "symbol": "CMTL",
-      "name": "Comtech Telecommunications Corp.",
-      "currency": "USD",
-      "price": 1.465,
-      "previousClose": 1.28,
-      "timestamp": 1792081752000,
-      "percent": 14.453125
-    },
-    {
-      "symbol": "RXRX",
-      "name": "Recursion Pharmaceuticals, Inc.",
-      "currency": "USD",
-      "price": 4.275,
-      "previousClose": 3.74,
-      "timestamp": 1792082158000,
-      "percent": 14.3048128342246
+      "timestamp": 1792082752000,
+      "percent": 14.686131386861302
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-15T12:35[America/New_York]",
-    "updatedAt": 1792082165780
+    "scheduledSlot": "2026-10-15T12:45[America/New_York]",
+    "updatedAt": 1792082761693
   },
-  "todayGainersUpdatedAt": 1792082165780,
+  "todayGainersUpdatedAt": 1792082761693,
   "items": [
     {
       "symbol": "KSPI",
