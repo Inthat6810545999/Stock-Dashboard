@@ -131,15 +131,6 @@
       "percent": 72.79411764705881
     },
     {
-      "symbol": "FVNNR",
-      "name": "Future Vision II Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.22,
-      "previousClose": 0.1495,
-      "timestamp": 1792157407000,
-      "percent": 47.15719063545152
-    },
-    {
       "symbol": "LHSW",
       "name": "Lianhe Sowell International Group Ltd",
       "currency": "USD",
@@ -179,19 +170,19 @@
       "symbol": "PMI",
       "name": "Picard Medical, Inc.",
       "currency": "USD",
-      "price": 12.84,
+      "price": 12.75,
       "previousClose": 10,
-      "timestamp": 1792180799000,
-      "percent": 28.400000000000002
+      "timestamp": 1792180800000,
+      "percent": 27.499999999999993
     },
     {
-      "symbol": "MMA",
-      "name": "Mixed Martial Arts Group Limited",
+      "symbol": "FVNNR",
+      "name": "Future Vision II Acquisition Corp.",
       "currency": "USD",
-      "price": 0.3526,
-      "previousClose": 0.2752,
-      "timestamp": 1792180799000,
-      "percent": 28.125
+      "price": 0.19,
+      "previousClose": 0.1495,
+      "timestamp": 1792180800000,
+      "percent": 27.090301003344486
     },
     {
       "symbol": "SGRX",
@@ -203,13 +194,22 @@
       "percent": 26.784411034885423
     },
     {
-      "symbol": "FVN",
-      "name": "Future Vision II Acquisition Corp.",
+      "symbol": "IAM",
+      "name": "Iambic Therapeutics, Inc. Common Stock",
       "currency": "USD",
-      "price": 11.97,
-      "previousClose": 9.5,
-      "timestamp": 1792178601000,
-      "percent": 26
+      "price": 23.81,
+      "previousClose": 18.91,
+      "timestamp": 1792180801000,
+      "percent": 25.912215758857737
+    },
+    {
+      "symbol": "CTY",
+      "name": "City Therapeutics, Inc. Common Stock",
+      "currency": "USD",
+      "price": 22.4,
+      "previousClose": 18,
+      "timestamp": 1792180801000,
+      "percent": 24.444444444444446
     }
   ],
   "todayCandidates": [
@@ -223,15 +223,6 @@
       "percent": 72.79411764705881
     },
     {
-      "symbol": "FVNNR",
-      "name": "Future Vision II Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.22,
-      "previousClose": 0.1495,
-      "timestamp": 1792157407000,
-      "percent": 47.15719063545152
-    },
-    {
       "symbol": "LHSW",
       "name": "Lianhe Sowell International Group Ltd",
       "currency": "USD",
@@ -271,19 +262,19 @@
       "symbol": "PMI",
       "name": "Picard Medical, Inc.",
       "currency": "USD",
-      "price": 12.84,
+      "price": 12.75,
       "previousClose": 10,
-      "timestamp": 1792180799000,
-      "percent": 28.400000000000002
+      "timestamp": 1792180800000,
+      "percent": 27.499999999999993
     },
     {
-      "symbol": "MMA",
-      "name": "Mixed Martial Arts Group Limited",
+      "symbol": "FVNNR",
+      "name": "Future Vision II Acquisition Corp.",
       "currency": "USD",
-      "price": 0.3526,
-      "previousClose": 0.2752,
-      "timestamp": 1792180799000,
-      "percent": 28.125
+      "price": 0.19,
+      "previousClose": 0.1495,
+      "timestamp": 1792180800000,
+      "percent": 27.090301003344486
     },
     {
       "symbol": "SGRX",
@@ -293,15 +284,6 @@
       "previousClose": 0.6851,
       "timestamp": 1792180800000,
       "percent": 26.784411034885423
-    },
-    {
-      "symbol": "FVN",
-      "name": "Future Vision II Acquisition Corp.",
-      "currency": "USD",
-      "price": 11.97,
-      "previousClose": 9.5,
-      "timestamp": 1792178601000,
-      "percent": 26
     },
     {
       "symbol": "IAM",
@@ -322,6 +304,15 @@
       "percent": 24.444444444444446
     },
     {
+      "symbol": "MMA",
+      "name": "Mixed Martial Arts Group Limited",
+      "currency": "USD",
+      "price": 0.341,
+      "previousClose": 0.2752,
+      "timestamp": 1792180800000,
+      "percent": 23.909883720930235
+    },
+    {
       "symbol": "XELB",
       "name": "Xcel Brands, Inc.",
       "currency": "USD",
@@ -331,6 +322,15 @@
       "percent": 23.237822349570216
     },
     {
+      "symbol": "POAS",
+      "name": "Phaos Technology Holdings (Caym",
+      "currency": "USD",
+      "price": 2.65,
+      "previousClose": 2.16,
+      "timestamp": 1792180800000,
+      "percent": 22.685185185185162
+    },
+    {
       "symbol": "RUBI",
       "name": "Rubico Inc.",
       "currency": "USD",
@@ -338,6 +338,15 @@
       "previousClose": 0.321,
       "timestamp": 1792180800000,
       "percent": 21.80685358255452
+    },
+    {
+      "symbol": "CCEL",
+      "name": "Cryo-Cell International, Inc.",
+      "currency": "USD",
+      "price": 4.42,
+      "previousClose": 3.65,
+      "timestamp": 1792180800000,
+      "percent": 21.095890410958894
     },
     {
       "symbol": "ACTU",
@@ -358,15 +367,6 @@
       "percent": 20.642201834862362
     },
     {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
-      "currency": "USD",
-      "price": 2.601,
-      "previousClose": 2.16,
-      "timestamp": 1792180780000,
-      "percent": 20.41666666666666
-    },
-    {
       "symbol": "UPLD",
       "name": "Upland Software, Inc.",
       "currency": "USD",
@@ -385,6 +385,15 @@
       "percent": 17.32510288065845
     },
     {
+      "symbol": "FVN",
+      "name": "Future Vision II Acquisition Corp.",
+      "currency": "USD",
+      "price": 11.05,
+      "previousClose": 9.5,
+      "timestamp": 1792180800000,
+      "percent": 16.315789473684216
+    },
+    {
       "symbol": "ETS",
       "name": "Elite Express Holding Inc.",
       "currency": "USD",
@@ -401,15 +410,6 @@
       "previousClose": 12.21,
       "timestamp": 1792180800000,
       "percent": 15.233415233415236
-    },
-    {
-      "symbol": "CCEL",
-      "name": "Cryo-Cell International, Inc.",
-      "currency": "USD",
-      "price": 4.2,
-      "previousClose": 3.65,
-      "timestamp": 1792170569000,
-      "percent": 15.068493150684947
     },
     {
       "symbol": "ZTG",
@@ -433,10 +433,10 @@
       "symbol": "SITC",
       "name": "SITE Centers Corp.",
       "currency": "USD",
-      "price": 3.432,
+      "price": 3.43,
       "previousClose": 3.01,
-      "timestamp": 1792180794000,
-      "percent": 14.019933554817277
+      "timestamp": 1792180802000,
+      "percent": 13.953488372093027
     },
     {
       "symbol": "QXL",
@@ -457,15 +457,6 @@
       "percent": 13.043478260869556
     },
     {
-      "symbol": "ANGH",
-      "name": "Anghami Inc.",
-      "currency": "USD",
-      "price": 3.68,
-      "previousClose": 3.27,
-      "timestamp": 1792179933000,
-      "percent": 12.538226299694188
-    },
-    {
       "symbol": "CDT",
       "name": "CDT Equity Inc.",
       "currency": "USD",
@@ -482,6 +473,15 @@
       "previousClose": 0.97,
       "timestamp": 1792180801000,
       "percent": 12.371134020618557
+    },
+    {
+      "symbol": "ALTI",
+      "name": "AlTi Global, Inc.",
+      "currency": "USD",
+      "price": 2.58,
+      "previousClose": 2.31,
+      "timestamp": 1792180801000,
+      "percent": 11.688311688311682
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-16T16:05[America/New_York]",
-    "updatedAt": 1792181158896
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-16T16:15[America/New_York]",
+    "updatedAt": 1792181769254
   },
-  "todayGainersUpdatedAt": 1792181158896,
+  "todayGainersUpdatedAt": 1792181769254,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
