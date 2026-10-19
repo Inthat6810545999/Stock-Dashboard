@@ -114,9 +114,9 @@
   "priceScan": {
     "total": 5474,
     "processed": 5474,
-    "eligible": 4980,
+    "eligible": 4977,
     "excluded": 1,
-    "missing": 493,
+    "missing": 496,
     "failed": 0,
     "status": "complete"
   },
@@ -195,7 +195,7 @@
     },
     {
       "symbol": "IAM",
-      "name": "Iambic Therapeutics, Inc. Common Stock",
+      "name": "Iambic Therapeutics, Inc.",
       "currency": "USD",
       "price": 23.81,
       "previousClose": 18.91,
@@ -287,7 +287,7 @@
     },
     {
       "symbol": "IAM",
-      "name": "Iambic Therapeutics, Inc. Common Stock",
+      "name": "Iambic Therapeutics, Inc.",
       "currency": "USD",
       "price": 23.81,
       "previousClose": 18.91,
@@ -492,16 +492,16 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1792283015173
+    "updatedAt": 1792370167394
   },
-  "todayGainersUpdatedAt": 1792283015173,
+  "todayGainersUpdatedAt": 1792370167394,
   "items": [
     {
       "symbol": "KSPI",
       "name": "Joint Stock Company Kaspi.kz",
       "currency": "USD",
       "price": 93.18,
-      "pe": 8.933845,
+      "pe": 8.540789,
       "forwardPe": 0.013696013,
       "salesGrowth": 0.136,
       "marketCap": 17706739712,
@@ -514,11 +514,11 @@
       "currency": "USD",
       "price": 201.74,
       "pe": 12.956969,
-      "forwardPe": 8.379968,
+      "forwardPe": 8.3723545,
       "salesGrowth": 11.11,
-      "marketCap": 123764441088,
+      "marketCap": 123767496704,
       "timestamp": 1792180802000,
-      "score": 132.57807189717192
+      "score": 132.6986333414334
     },
     {
       "symbol": "LQDA",
@@ -562,11 +562,11 @@
       "currency": "USD",
       "price": 18.23,
       "pe": 4.4681373,
-      "forwardPe": 5.856407,
+      "forwardPe": 5.8680005,
       "salesGrowth": 4.794,
       "marketCap": 13740213248,
       "timestamp": 1792180802000,
-      "score": 81.85906478152901
+      "score": 81.69733455203352
     },
     {
       "symbol": "SNDK",
@@ -623,7 +623,7 @@
       "name": "Joint Stock Company Kaspi.kz",
       "currency": "USD",
       "price": 93.18,
-      "pe": 8.933845,
+      "pe": 8.540789,
       "forwardPe": 0.013696013,
       "salesGrowth": 0.136,
       "marketCap": 17706739712,
@@ -636,11 +636,11 @@
       "currency": "USD",
       "price": 201.74,
       "pe": 12.956969,
-      "forwardPe": 8.379968,
+      "forwardPe": 8.3723545,
       "salesGrowth": 11.11,
-      "marketCap": 123764441088,
+      "marketCap": 123767496704,
       "timestamp": 1792180802000,
-      "score": 132.57807189717192
+      "score": 132.6986333414334
     },
     {
       "symbol": "LQDA",
@@ -684,11 +684,11 @@
       "currency": "USD",
       "price": 18.23,
       "pe": 4.4681373,
-      "forwardPe": 5.856407,
+      "forwardPe": 5.8680005,
       "salesGrowth": 4.794,
       "marketCap": 13740213248,
       "timestamp": 1792180802000,
-      "score": 81.85906478152901
+      "score": 81.69733455203352
     },
     {
       "symbol": "SNDK",
@@ -720,11 +720,11 @@
       "currency": "USD",
       "price": 47.51,
       "pe": 10.464757,
-      "forwardPe": 8.724298,
+      "forwardPe": 8.699186,
       "salesGrowth": 5.97,
       "marketCap": 978349184,
       "timestamp": 1792180802000,
-      "score": 68.42957450559346
+      "score": 68.62711062851169
     },
     {
       "symbol": "PSHG",
@@ -741,18 +741,18 @@
   ],
   "checked": 5474,
   "failed": 0,
-  "updatedAt": 1792283015178,
+  "updatedAt": 1792370167399,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5474,
     "processed": 5474,
-    "eligible": 648,
-    "excluded": 3144,
-    "missing": 1682,
+    "eligible": 649,
+    "excluded": 3163,
+    "missing": 1662,
     "failed": 0,
-    "startedAt": 1792282458713,
-    "directoryAt": 1792282458713,
+    "startedAt": 1792369596180,
+    "directoryAt": 1792369596180,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"

@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1792283155487
+    "updatedAt": 1792370308435
   },
-  "todayGainersUpdatedAt": 1792283155487,
+  "todayGainersUpdatedAt": 1792370308435,
   "items": [
     {
       "symbol": "PJW.BK",
@@ -741,7 +741,7 @@
   ],
   "checked": 862,
   "failed": 4,
-  "updatedAt": 1792283155488,
+  "updatedAt": 1792370308436,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
@@ -751,8 +751,8 @@
     "excluded": 258,
     "missing": 522,
     "failed": 4,
-    "startedAt": 1792283023659,
-    "directoryAt": 1792283023659,
+    "startedAt": 1792370175638,
+    "directoryAt": 1792370175638,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
