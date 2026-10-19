@@ -140,6 +140,15 @@
       "percent": 94.20289855072465
     },
     {
+      "symbol": "AFJKR",
+      "name": "Aimei Health Technology Co., Ltd",
+      "currency": "USD",
+      "price": 0.1398,
+      "previousClose": 0.081,
+      "timestamp": 1792440000000,
+      "percent": 72.59259259259258
+    },
+    {
       "symbol": "SXTC",
       "name": "China SXT Pharmaceuticals, Inc.",
       "currency": "USD",
@@ -149,13 +158,13 @@
       "percent": 71.07692307692307
     },
     {
-      "symbol": "AFJKR",
-      "name": "Aimei Health Technology Co., Ltd",
+      "symbol": "DMIIR",
+      "name": "Drugs Made In America Acquisition II Corp.",
       "currency": "USD",
-      "price": 0.12,
-      "previousClose": 0.081,
-      "timestamp": 1792419046000,
-      "percent": 48.14814814814814
+      "price": 0.075,
+      "previousClose": 0.0525,
+      "timestamp": 1792440000000,
+      "percent": 42.85714285714286
     },
     {
       "symbol": "YMAT",
@@ -201,15 +210,6 @@
       "previousClose": 0.9001,
       "timestamp": 1792440001000,
       "percent": 32.20753249638928
-    },
-    {
-      "symbol": "XLAB",
-      "name": "Exascale Labs Holdings Inc.",
-      "currency": "USD",
-      "price": 3.06,
-      "previousClose": 2.35,
-      "timestamp": 1792440001000,
-      "percent": 30.2127659574468
     }
   ],
   "todayCandidates": [
@@ -232,6 +232,15 @@
       "percent": 94.20289855072465
     },
     {
+      "symbol": "AFJKR",
+      "name": "Aimei Health Technology Co., Ltd",
+      "currency": "USD",
+      "price": 0.1398,
+      "previousClose": 0.081,
+      "timestamp": 1792440000000,
+      "percent": 72.59259259259258
+    },
+    {
       "symbol": "SXTC",
       "name": "China SXT Pharmaceuticals, Inc.",
       "currency": "USD",
@@ -241,13 +250,13 @@
       "percent": 71.07692307692307
     },
     {
-      "symbol": "AFJKR",
-      "name": "Aimei Health Technology Co., Ltd",
+      "symbol": "DMIIR",
+      "name": "Drugs Made In America Acquisition II Corp.",
       "currency": "USD",
-      "price": 0.12,
-      "previousClose": 0.081,
-      "timestamp": 1792419046000,
-      "percent": 48.14814814814814
+      "price": 0.075,
+      "previousClose": 0.0525,
+      "timestamp": 1792440000000,
+      "percent": 42.85714285714286
     },
     {
       "symbol": "YMAT",
@@ -358,6 +367,24 @@
       "percent": 21.212121212121193
     },
     {
+      "symbol": "PMI",
+      "name": "Picard Medical, Inc.",
+      "currency": "USD",
+      "price": 15.45,
+      "previousClose": 12.75,
+      "timestamp": 1792440000000,
+      "percent": 21.176470588235286
+    },
+    {
+      "symbol": "RFAIU",
+      "name": "RF Acquisition Corp II",
+      "currency": "USD",
+      "price": 33.9,
+      "previousClose": 28.02,
+      "timestamp": 1792440000000,
+      "percent": 20.985010706638118
+    },
+    {
       "symbol": "REBN",
       "name": "Reborn Coffee, Inc.",
       "currency": "USD",
@@ -365,15 +392,6 @@
       "previousClose": 1.4,
       "timestamp": 1792440000000,
       "percent": 20.714285714285708
-    },
-    {
-      "symbol": "PMI",
-      "name": "Picard Medical, Inc.",
-      "currency": "USD",
-      "price": 15.39,
-      "previousClose": 12.75,
-      "timestamp": 1792439991000,
-      "percent": 20.705882352941174
     },
     {
       "symbol": "CTSO",
@@ -401,15 +419,6 @@
       "previousClose": 2.63,
       "timestamp": 1792440001000,
       "percent": 19.01140684410647
-    },
-    {
-      "symbol": "ATNM",
-      "name": "Actinium Pharmaceuticals, Inc.",
-      "currency": "USD",
-      "price": 1.33,
-      "previousClose": 1.13,
-      "timestamp": 1792439992000,
-      "percent": 17.699115044247815
     },
     {
       "symbol": "EVAX",
@@ -444,7 +453,7 @@
       "currency": "USD",
       "price": 1.99,
       "previousClose": 1.7,
-      "timestamp": 1792439949000,
+      "timestamp": 1792440000000,
       "percent": 17.05882352941177
     },
     {
@@ -457,31 +466,22 @@
       "percent": 16.835994194484783
     },
     {
+      "symbol": "ATNM",
+      "name": "Actinium Pharmaceuticals, Inc.",
+      "currency": "USD",
+      "price": 1.32,
+      "previousClose": 1.13,
+      "timestamp": 1792440000000,
+      "percent": 16.814159292035423
+    },
+    {
       "symbol": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "currency": "USD",
-      "price": 14.11,
+      "price": 14.1,
       "previousClose": 12.12,
-      "timestamp": 1792440001000,
-      "percent": 16.419141914191428
-    },
-    {
-      "symbol": "CMCT",
-      "name": "Creative Media & Community Trust Corporation",
-      "currency": "USD",
-      "price": 5.24,
-      "previousClose": 4.51,
-      "timestamp": 1792440000000,
-      "percent": 16.186252771618626
-    },
-    {
-      "symbol": "RTSN",
-      "name": "Retension Pharmaceuticals, Inc.",
-      "currency": "USD",
-      "price": 16.33,
-      "previousClose": 14.07,
-      "timestamp": 1792440001000,
-      "percent": 16.062544420753365
+      "timestamp": 1792440002000,
+      "percent": 16.33663366336635
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-19T16:05[America/New_York]",
-    "updatedAt": 1792440368409
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-19T16:15[America/New_York]",
+    "updatedAt": 1792440962634
   },
-  "todayGainersUpdatedAt": 1792440368409,
+  "todayGainersUpdatedAt": 1792440962634,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
