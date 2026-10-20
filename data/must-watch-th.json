@@ -131,12 +131,12 @@
       "percent": 50
     },
     {
-      "symbol": "SDC.BK",
-      "name": "Samart Digital Public Company Limited",
+      "symbol": "TRITN.BK",
+      "name": "Triton Holding Public Company Limited",
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1792470128000,
+      "timestamp": 1792470452000,
       "percent": 50
     },
     {
@@ -145,7 +145,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792470285000,
+      "timestamp": 1792470905000,
       "percent": 33.33333333333335
     },
     {
@@ -158,21 +158,12 @@
       "percent": 33.33333333333335
     },
     {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792469697000,
-      "percent": 33.33333333333335
-    },
-    {
       "symbol": "RWI.BK",
       "name": "Rayong Wire Industries Public Company Limited",
       "currency": "THB",
       "price": 0.46,
       "previousClose": 0.36,
-      "timestamp": 1792470337000,
+      "timestamp": 1792470844000,
       "percent": 27.77777777777779
     },
     {
@@ -206,10 +197,19 @@
       "symbol": "ADB.BK",
       "name": "Applied DB Public Company Limited",
       "currency": "THB",
-      "price": 1.12,
+      "price": 1.11,
       "previousClose": 0.99,
-      "timestamp": 1792469953000,
-      "percent": 13.13131313131315
+      "timestamp": 1792470940000,
+      "percent": 12.121212121212132
+    },
+    {
+      "symbol": "DHOUSE.BK",
+      "name": "Dhouse Pattana Public Company Limited",
+      "currency": "THB",
+      "price": 0.29,
+      "previousClose": 0.26,
+      "timestamp": 1792467815000,
+      "percent": 11.538461538461519
     }
   ],
   "todayCandidates": [
@@ -223,12 +223,12 @@
       "percent": 50
     },
     {
-      "symbol": "SDC.BK",
-      "name": "Samart Digital Public Company Limited",
+      "symbol": "TRITN.BK",
+      "name": "Triton Holding Public Company Limited",
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1792470128000,
+      "timestamp": 1792470452000,
       "percent": 50
     },
     {
@@ -237,7 +237,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792470285000,
+      "timestamp": 1792470905000,
       "percent": 33.33333333333335
     },
     {
@@ -250,21 +250,12 @@
       "percent": 33.33333333333335
     },
     {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792469697000,
-      "percent": 33.33333333333335
-    },
-    {
       "symbol": "RWI.BK",
       "name": "Rayong Wire Industries Public Company Limited",
       "currency": "THB",
       "price": 0.46,
       "previousClose": 0.36,
-      "timestamp": 1792470337000,
+      "timestamp": 1792470844000,
       "percent": 27.77777777777779
     },
     {
@@ -298,10 +289,10 @@
       "symbol": "ADB.BK",
       "name": "Applied DB Public Company Limited",
       "currency": "THB",
-      "price": 1.12,
+      "price": 1.11,
       "previousClose": 0.99,
-      "timestamp": 1792469953000,
-      "percent": 13.13131313131315
+      "timestamp": 1792470940000,
+      "percent": 12.121212121212132
     },
     {
       "symbol": "DHOUSE.BK",
@@ -318,17 +309,8 @@
       "currency": "THB",
       "price": 0.1,
       "previousClose": 0.09,
-      "timestamp": 1792466834000,
+      "timestamp": 1792470864000,
       "percent": 11.111111111111116
-    },
-    {
-      "symbol": "AQUA.BK",
-      "name": "Aqua Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1792470202000,
-      "percent": 9.999999999999986
     },
     {
       "symbol": "TYCN.BK",
@@ -349,6 +331,15 @@
       "percent": 9.090909090909083
     },
     {
+      "symbol": "AJA.BK",
+      "name": "AJ Advance Technology Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1792470838000,
+      "percent": 8.333333333333348
+    },
+    {
       "symbol": "QTCG.BK",
       "name": "QTCG Public Company Limited",
       "currency": "THB",
@@ -363,17 +354,8 @@
       "currency": "THB",
       "price": 0.72,
       "previousClose": 0.67,
-      "timestamp": 1792470346000,
+      "timestamp": 1792470659000,
       "percent": 7.462686567164178
-    },
-    {
-      "symbol": "PRECHA.BK",
-      "name": "Preecha Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.3,
-      "previousClose": 0.28,
-      "timestamp": 1792465931000,
-      "percent": 7.14285714285714
     },
     {
       "symbol": "DCON.BK",
@@ -385,40 +367,40 @@
       "percent": 6.666666666666665
     },
     {
-      "symbol": "TPCH.BK",
-      "name": "TPC Power Holding Public Company Limited",
+      "symbol": "BSM.BK",
+      "name": "BuilderSmart Public Company Limited",
       "currency": "THB",
-      "price": 1.01,
-      "previousClose": 0.95,
-      "timestamp": 1792470320000,
-      "percent": 6.315789473684208
-    },
-    {
-      "symbol": "SQ.BK",
-      "name": "Sahakol Equipment Public Company Limited",
-      "currency": "THB",
-      "price": 0.17,
-      "previousClose": 0.16,
-      "timestamp": 1792468771000,
+      "price": 0.68,
+      "previousClose": 0.64,
+      "timestamp": 1792470925000,
       "percent": 6.25
     },
     {
       "symbol": "ONEE.BK",
       "name": "The ONE Enterprise Public Company Limited",
       "currency": "THB",
-      "price": 3.08,
+      "price": 3.06,
       "previousClose": 2.9,
-      "timestamp": 1792469866000,
-      "percent": 6.20689655172415
+      "timestamp": 1792470934000,
+      "percent": 5.517241379310356
     },
     {
-      "symbol": "CSP.BK",
-      "name": "CSP Steel Center Public Company Limited",
+      "symbol": "SKE.BK",
+      "name": "Sakol Energy Public Company Limited",
       "currency": "THB",
-      "price": 0.78,
-      "previousClose": 0.74,
-      "timestamp": 1792470258000,
-      "percent": 5.405405405405417
+      "price": 0.2,
+      "previousClose": 0.19,
+      "timestamp": 1792470942000,
+      "percent": 5.263157894736836
+    },
+    {
+      "symbol": "TPCH.BK",
+      "name": "TPC Power Holding Public Company Limited",
+      "currency": "THB",
+      "price": 1,
+      "previousClose": 0.95,
+      "timestamp": 1792470900000,
+      "percent": 5.263157894736836
     },
     {
       "symbol": "TKT.BK",
@@ -457,15 +439,6 @@
       "percent": 4.166666666666674
     },
     {
-      "symbol": "GCAP.BK",
-      "name": "G Capital Public Company Limited",
-      "currency": "THB",
-      "price": 0.27,
-      "previousClose": 0.26,
-      "timestamp": 1792470318000,
-      "percent": 3.8461538461538547
-    },
-    {
       "symbol": "TCC.BK",
       "name": "Thai Capital Corporation Public Company Limited",
       "currency": "THB",
@@ -480,24 +453,51 @@
       "currency": "THB",
       "price": 0.55,
       "previousClose": 0.53,
-      "timestamp": 1792470254000,
+      "timestamp": 1792470881000,
       "percent": 3.7735849056603765
+    },
+    {
+      "symbol": "JAK.BK",
+      "name": "Jakpaisan Estate Public Company Limited",
+      "currency": "THB",
+      "price": 1.1,
+      "previousClose": 1.06,
+      "timestamp": 1792468726000,
+      "percent": 3.7735849056603765
+    },
+    {
+      "symbol": "BTC.BK",
+      "name": "The Brooker Group Public Company Limited",
+      "currency": "THB",
+      "price": 0.29,
+      "previousClose": 0.28,
+      "timestamp": 1792470705000,
+      "percent": 3.5714285714285587
+    },
+    {
+      "symbol": "IRCP.BK",
+      "name": "International Research Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.3,
+      "previousClose": 0.29,
+      "timestamp": 1792466683000,
+      "percent": 3.4482758620689724
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 745,
-    "missing": 117,
+    "eligible": 754,
+    "missing": 108,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-20",
-    "scheduledSlot": "2026-10-20T11:55[Asia/Bangkok]",
-    "updatedAt": 1792472154557
+    "scheduledSlot": "2026-10-20T12:05[Asia/Bangkok]",
+    "updatedAt": 1792472751522
   },
-  "todayGainersUpdatedAt": 1792472154557,
+  "todayGainersUpdatedAt": 1792472751522,
   "items": [
     {
       "symbol": "PJW.BK",
