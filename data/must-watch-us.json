@@ -122,67 +122,76 @@
   },
   "todayGainers": [
     {
-      "symbol": "WORX",
-      "name": "SCWorx Corp.",
-      "currency": "USD",
-      "price": 4.0701,
-      "previousClose": 2.68,
-      "timestamp": 1792507560000,
-      "percent": 51.86940298507463
-    },
-    {
       "symbol": "SAIQ",
       "name": "WISeSat.Space Holdings Corp.",
       "currency": "USD",
-      "price": 5.145,
+      "price": 5.4726,
       "previousClose": 3.41,
-      "timestamp": 1792507555000,
-      "percent": 50.8797653958944
+      "timestamp": 1792508165000,
+      "percent": 60.486803519061574
     },
     {
       "symbol": "BRZE",
       "name": "Braze, Inc.",
       "currency": "USD",
-      "price": 45.285,
+      "price": 45.295,
       "previousClose": 30.04,
-      "timestamp": 1792507537000,
-      "percent": 50.749001331557906
+      "timestamp": 1792508151000,
+      "percent": 50.782290279627176
+    },
+    {
+      "symbol": "WORX",
+      "name": "SCWorx Corp.",
+      "currency": "USD",
+      "price": 3.9199,
+      "previousClose": 2.68,
+      "timestamp": 1792508169000,
+      "percent": 46.26492537313433
     },
     {
       "symbol": "PRSO",
       "name": "Peraso Inc.",
       "currency": "USD",
-      "price": 0.5298,
+      "price": 0.5285,
       "previousClose": 0.3837,
-      "timestamp": 1792507551000,
-      "percent": 38.07662236121971
-    },
-    {
-      "symbol": "FRTT",
-      "name": "Fort Technology Inc.",
-      "currency": "USD",
-      "price": 0.727,
-      "previousClose": 0.5369,
-      "timestamp": 1792507543000,
-      "percent": 35.40696591544048
+      "timestamp": 1792508164000,
+      "percent": 37.73781600208497
     },
     {
       "symbol": "NCPL",
       "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 2.14,
+      "price": 2.205,
       "previousClose": 1.63,
-      "timestamp": 1792507548000,
-      "percent": 31.28834355828223
+      "timestamp": 1792508160000,
+      "percent": 35.27607361963192
     },
     {
       "symbol": "MYGN",
       "name": "Myriad Genetics, Inc.",
       "currency": "USD",
-      "price": 5.4901,
+      "price": 5.68,
       "previousClose": 4.21,
-      "timestamp": 1792507551000,
-      "percent": 30.40617577197149
+      "timestamp": 1792508161000,
+      "percent": 34.91686460807601
+    },
+    {
+      "symbol": "FRTT",
+      "name": "Fort Technology Inc.",
+      "currency": "USD",
+      "price": 0.7051,
+      "previousClose": 0.5369,
+      "timestamp": 1792508155000,
+      "percent": 31.32799403985842
+    },
+    {
+      "symbol": "GOW",
+      "name": "GOWell Energy Technology",
+      "currency": "USD",
+      "price": 4.03,
+      "previousClose": 3.12,
+      "timestamp": 1792508157000,
+      "percent": 29.166666666666675
     },
     {
       "symbol": "NNNN",
@@ -190,298 +199,289 @@
       "currency": "USD",
       "price": 3.945,
       "previousClose": 3.27,
-      "timestamp": 1792507528000,
+      "timestamp": 1792508074000,
       "percent": 20.642201834862384
-    },
-    {
-      "symbol": "GOW",
-      "name": "GOWell Energy Technology",
-      "currency": "USD",
-      "price": 3.74,
-      "previousClose": 3.12,
-      "timestamp": 1792507546000,
-      "percent": 19.87179487179487
-    },
-    {
-      "symbol": "LUCK",
-      "name": "Lucky Strike Entertainment Corporation",
-      "currency": "USD",
-      "price": 5.43,
-      "previousClose": 4.65,
-      "timestamp": 1792507533000,
-      "percent": 16.774193548387075
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "WORX",
-      "name": "SCWorx Corp.",
-      "currency": "USD",
-      "price": 4.0701,
-      "previousClose": 2.68,
-      "timestamp": 1792507560000,
-      "percent": 51.86940298507463
-    },
-    {
-      "symbol": "SAIQ",
-      "name": "WISeSat.Space Holdings Corp.",
-      "currency": "USD",
-      "price": 5.145,
-      "previousClose": 3.41,
-      "timestamp": 1792507555000,
-      "percent": 50.8797653958944
-    },
-    {
-      "symbol": "BRZE",
-      "name": "Braze, Inc.",
-      "currency": "USD",
-      "price": 45.285,
-      "previousClose": 30.04,
-      "timestamp": 1792507537000,
-      "percent": 50.749001331557906
-    },
-    {
-      "symbol": "PRSO",
-      "name": "Peraso Inc.",
-      "currency": "USD",
-      "price": 0.5298,
-      "previousClose": 0.3837,
-      "timestamp": 1792507551000,
-      "percent": 38.07662236121971
-    },
-    {
-      "symbol": "FRTT",
-      "name": "Fort Technology Inc.",
-      "currency": "USD",
-      "price": 0.727,
-      "previousClose": 0.5369,
-      "timestamp": 1792507543000,
-      "percent": 35.40696591544048
-    },
-    {
-      "symbol": "NCPL",
-      "name": "Netcapital Inc.",
-      "currency": "USD",
-      "price": 2.14,
-      "previousClose": 1.63,
-      "timestamp": 1792507548000,
-      "percent": 31.28834355828223
-    },
-    {
-      "symbol": "MYGN",
-      "name": "Myriad Genetics, Inc.",
-      "currency": "USD",
-      "price": 5.4901,
-      "previousClose": 4.21,
-      "timestamp": 1792507551000,
-      "percent": 30.40617577197149
-    },
-    {
-      "symbol": "NNNN",
-      "name": "Anbio Biotechnology",
-      "currency": "USD",
-      "price": 3.945,
-      "previousClose": 3.27,
-      "timestamp": 1792507528000,
-      "percent": 20.642201834862384
-    },
-    {
-      "symbol": "GOW",
-      "name": "GOWell Energy Technology",
-      "currency": "USD",
-      "price": 3.74,
-      "previousClose": 3.12,
-      "timestamp": 1792507546000,
-      "percent": 19.87179487179487
-    },
-    {
-      "symbol": "LUCK",
-      "name": "Lucky Strike Entertainment Corporation",
-      "currency": "USD",
-      "price": 5.43,
-      "previousClose": 4.65,
-      "timestamp": 1792507533000,
-      "percent": 16.774193548387075
-    },
-    {
-      "symbol": "RKTO",
-      "name": "Rocket One Inc.",
-      "currency": "USD",
-      "price": 0.5797,
-      "previousClose": 0.497,
-      "timestamp": 1792507548000,
-      "percent": 16.639839034205227
-    },
-    {
-      "symbol": "IRLA",
-      "name": "IRulya Therapeutics Inc.",
-      "currency": "USD",
-      "price": 39.21,
-      "previousClose": 33.7488,
-      "timestamp": 1792507371000,
-      "percent": 16.181908690086754
-    },
-    {
-      "symbol": "FMST",
-      "name": "Foremost Clean Energy Ltd.",
-      "currency": "USD",
-      "price": 0.5008,
-      "previousClose": 0.4312,
-      "timestamp": 1792507543000,
-      "percent": 16.141001855287573
-    },
-    {
-      "symbol": "LRMR",
-      "name": "Larimar Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 2.45,
-      "previousClose": 2.12,
-      "timestamp": 1792507548000,
-      "percent": 15.566037735849058
-    },
-    {
-      "symbol": "BRNX",
-      "name": "BrenX Ltd.",
-      "currency": "USD",
-      "price": 0.9352,
-      "previousClose": 0.81,
-      "timestamp": 1792507455000,
-      "percent": 15.456790123456777
-    },
-    {
-      "symbol": "ATGL",
-      "name": "Alpha Technology Group Limited",
-      "currency": "USD",
-      "price": 5.24,
-      "previousClose": 4.54,
-      "timestamp": 1792507515000,
-      "percent": 15.41850220264318
     },
     {
       "symbol": "ABLV",
       "name": "Able View Global Inc.",
       "currency": "USD",
-      "price": 1.9,
+      "price": 1.9592,
       "previousClose": 1.65,
-      "timestamp": 1792507088000,
-      "percent": 15.15151515151516
+      "timestamp": 1792508071000,
+      "percent": 18.739393939393945
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "SAIQ",
+      "name": "WISeSat.Space Holdings Corp.",
+      "currency": "USD",
+      "price": 5.4726,
+      "previousClose": 3.41,
+      "timestamp": 1792508165000,
+      "percent": 60.486803519061574
     },
     {
-      "symbol": "GRML",
-      "name": "Greenland Mines Ltd",
+      "symbol": "BRZE",
+      "name": "Braze, Inc.",
       "currency": "USD",
-      "price": 6.4308,
-      "previousClose": 5.61,
-      "timestamp": 1792507541000,
-      "percent": 14.631016042780743
+      "price": 45.295,
+      "previousClose": 30.04,
+      "timestamp": 1792508151000,
+      "percent": 50.782290279627176
     },
     {
-      "symbol": "AMPG",
-      "name": "AmpliTech Group, Inc.",
+      "symbol": "WORX",
+      "name": "SCWorx Corp.",
       "currency": "USD",
-      "price": 2.6997,
-      "previousClose": 2.36,
-      "timestamp": 1792507530000,
-      "percent": 14.394067796610166
+      "price": 3.9199,
+      "previousClose": 2.68,
+      "timestamp": 1792508169000,
+      "percent": 46.26492537313433
     },
     {
-      "symbol": "CTNM",
-      "name": "Contineum Therapeutics, Inc.",
+      "symbol": "PRSO",
+      "name": "Peraso Inc.",
       "currency": "USD",
-      "price": 8.51,
-      "previousClose": 7.44,
-      "timestamp": 1792507539000,
-      "percent": 14.381720430107524
+      "price": 0.5285,
+      "previousClose": 0.3837,
+      "timestamp": 1792508164000,
+      "percent": 37.73781600208497
     },
     {
-      "symbol": "CANG",
-      "name": "Cango Inc.",
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 2.45,
-      "previousClose": 2.15,
-      "timestamp": 1792507525000,
-      "percent": 13.953488372093027
+      "price": 2.205,
+      "previousClose": 1.63,
+      "timestamp": 1792508160000,
+      "percent": 35.27607361963192
+    },
+    {
+      "symbol": "MYGN",
+      "name": "Myriad Genetics, Inc.",
+      "currency": "USD",
+      "price": 5.68,
+      "previousClose": 4.21,
+      "timestamp": 1792508161000,
+      "percent": 34.91686460807601
+    },
+    {
+      "symbol": "FRTT",
+      "name": "Fort Technology Inc.",
+      "currency": "USD",
+      "price": 0.7051,
+      "previousClose": 0.5369,
+      "timestamp": 1792508155000,
+      "percent": 31.32799403985842
+    },
+    {
+      "symbol": "GOW",
+      "name": "GOWell Energy Technology",
+      "currency": "USD",
+      "price": 4.03,
+      "previousClose": 3.12,
+      "timestamp": 1792508157000,
+      "percent": 29.166666666666675
+    },
+    {
+      "symbol": "NNNN",
+      "name": "Anbio Biotechnology",
+      "currency": "USD",
+      "price": 3.945,
+      "previousClose": 3.27,
+      "timestamp": 1792508074000,
+      "percent": 20.642201834862384
+    },
+    {
+      "symbol": "ABLV",
+      "name": "Able View Global Inc.",
+      "currency": "USD",
+      "price": 1.9592,
+      "previousClose": 1.65,
+      "timestamp": 1792508071000,
+      "percent": 18.739393939393945
     },
     {
       "symbol": "VENU",
       "name": "Venu Holding Corporation",
       "currency": "USD",
-      "price": 1.285,
+      "price": 1.33,
       "previousClose": 1.13,
-      "timestamp": 1792507511000,
-      "percent": 13.716814159292046
+      "timestamp": 1792508166000,
+      "percent": 17.699115044247815
     },
     {
-      "symbol": "MBRX",
-      "name": "Moleculin Biotech, Inc.",
+      "symbol": "IRLA",
+      "name": "IRulya Therapeutics Inc.",
       "currency": "USD",
-      "price": 6.01,
-      "previousClose": 5.3,
-      "timestamp": 1792507460000,
-      "percent": 13.396226415094347
+      "price": 39.4999,
+      "previousClose": 33.7488,
+      "timestamp": 1792508151000,
+      "percent": 17.040902195040996
     },
     {
-      "symbol": "CCG",
-      "name": "Cheche Group Inc.",
+      "symbol": "LRMR",
+      "name": "Larimar Therapeutics, Inc.",
       "currency": "USD",
-      "price": 5.21,
-      "previousClose": 4.6,
-      "timestamp": 1792507514000,
-      "percent": 13.260869565217392
-    },
-    {
-      "symbol": "SKIL",
-      "name": "Skillsoft Corp.",
-      "currency": "USD",
-      "price": 5.545,
-      "previousClose": 4.9,
-      "timestamp": 1792506602000,
-      "percent": 13.16326530612244
-    },
-    {
-      "symbol": "OVID",
-      "name": "Ovid Therapeutics Inc.",
-      "currency": "USD",
-      "price": 2.45,
-      "previousClose": 2.17,
-      "timestamp": 1792507551000,
-      "percent": 12.903225806451623
-    },
-    {
-      "symbol": "NIXX",
-      "name": "Nixxy, Inc.",
-      "currency": "USD",
-      "price": 0.258,
-      "previousClose": 0.2286,
-      "timestamp": 1792507538000,
-      "percent": 12.86089238845145
-    },
-    {
-      "symbol": "QTEX",
-      "name": "QTREX Quantum Ltd.",
-      "currency": "USD",
-      "price": 1.58,
-      "previousClose": 1.4,
-      "timestamp": 1792507540000,
-      "percent": 12.857142857142879
-    },
-    {
-      "symbol": "HTZ",
-      "name": "Hertz Global Holdings, Inc.",
-      "currency": "USD",
-      "price": 2.075,
-      "previousClose": 1.84,
-      "timestamp": 1792507544000,
-      "percent": 12.771739130434788
+      "price": 2.4688,
+      "previousClose": 2.12,
+      "timestamp": 1792508151000,
+      "percent": 16.452830188679222
     },
     {
       "symbol": "WCT",
       "name": "Wellchange Holdings Company Limited",
       "currency": "USD",
-      "price": 0.3709,
+      "price": 0.383,
       "previousClose": 0.33,
-      "timestamp": 1792507521000,
-      "percent": 12.393939393939402
+      "timestamp": 1792508073000,
+      "percent": 16.060606060606062
+    },
+    {
+      "symbol": "BRNX",
+      "name": "Brenmiller Energy Ltd",
+      "currency": "USD",
+      "price": 0.9363,
+      "previousClose": 0.81,
+      "timestamp": 1792508151000,
+      "percent": 15.592592592592581
+    },
+    {
+      "symbol": "CANG",
+      "name": "Cango Inc.",
+      "currency": "USD",
+      "price": 2.4789,
+      "previousClose": 2.15,
+      "timestamp": 1792508094000,
+      "percent": 15.297674418604657
+    },
+    {
+      "symbol": "ATGL",
+      "name": "Alpha Technology Group Limited",
+      "currency": "USD",
+      "price": 5.22,
+      "previousClose": 4.54,
+      "timestamp": 1792508112000,
+      "percent": 14.977973568281922
+    },
+    {
+      "symbol": "GRML",
+      "name": "Greenland Mines Ltd",
+      "currency": "USD",
+      "price": 6.4454,
+      "previousClose": 5.61,
+      "timestamp": 1792508148000,
+      "percent": 14.891265597147951
+    },
+    {
+      "symbol": "RKTO",
+      "name": "Rocket One Inc.",
+      "currency": "USD",
+      "price": 0.5688,
+      "previousClose": 0.497,
+      "timestamp": 1792508155000,
+      "percent": 14.446680080482889
+    },
+    {
+      "symbol": "CCG",
+      "name": "Cheche Group Inc.",
+      "currency": "USD",
+      "price": 5.24,
+      "previousClose": 4.6,
+      "timestamp": 1792507778000,
+      "percent": 13.913043478260878
+    },
+    {
+      "symbol": "MBRX",
+      "name": "Moleculin Biotech, Inc.",
+      "currency": "USD",
+      "price": 6.03,
+      "previousClose": 5.3,
+      "timestamp": 1792508124000,
+      "percent": 13.773584905660385
+    },
+    {
+      "symbol": "AMPG",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 2.6799,
+      "previousClose": 2.36,
+      "timestamp": 1792508139000,
+      "percent": 13.555084745762723
+    },
+    {
+      "symbol": "AURE",
+      "name": "Aurelion Inc.",
+      "currency": "USD",
+      "price": 0.9831,
+      "previousClose": 0.8669,
+      "timestamp": 1792507589000,
+      "percent": 13.404083515976462
+    },
+    {
+      "symbol": "HTZ",
+      "name": "Hertz Global Holdings, Inc.",
+      "currency": "USD",
+      "price": 2.085,
+      "previousClose": 1.84,
+      "timestamp": 1792508156000,
+      "percent": 13.315217391304346
+    },
+    {
+      "symbol": "CLNN",
+      "name": "Clene Inc.",
+      "currency": "USD",
+      "price": 3.725,
+      "previousClose": 3.29,
+      "timestamp": 1792508097000,
+      "percent": 13.221884498480252
+    },
+    {
+      "symbol": "IPSC",
+      "name": "Century Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.6598,
+      "previousClose": 1.47,
+      "timestamp": 1792508141000,
+      "percent": 12.911564625850346
+    },
+    {
+      "symbol": "CTNM",
+      "name": "Contineum Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 8.4,
+      "previousClose": 7.44,
+      "timestamp": 1792508145000,
+      "percent": 12.903225806451601
+    },
+    {
+      "symbol": "NNVC",
+      "name": "NanoViricides, Inc.",
+      "currency": "USD",
+      "price": 1.465,
+      "previousClose": 1.3,
+      "timestamp": 1792508113000,
+      "percent": 12.692307692307692
+    },
+    {
+      "symbol": "NIXX",
+      "name": "Nixxy, Inc.",
+      "currency": "USD",
+      "price": 0.2574,
+      "previousClose": 0.2286,
+      "timestamp": 1792508154000,
+      "percent": 12.598425196850393
+    },
+    {
+      "symbol": "FMST",
+      "name": "Foremost Clean Energy Ltd.",
+      "currency": "USD",
+      "price": 0.4851,
+      "previousClose": 0.4312,
+      "timestamp": 1792507955000,
+      "percent": 12.499999999999979
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-20T10:45[America/New_York]",
-    "updatedAt": 1792507562418
+    "scheduledSlot": "2026-10-20T10:55[America/New_York]",
+    "updatedAt": 1792508171829
   },
-  "todayGainersUpdatedAt": 1792507562418,
+  "todayGainersUpdatedAt": 1792508171829,
   "items": [
     {
       "symbol": "KSPI",
