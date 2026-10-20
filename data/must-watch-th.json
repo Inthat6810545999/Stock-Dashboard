@@ -122,6 +122,15 @@
   },
   "todayGainers": [
     {
+      "symbol": "KC.BK",
+      "name": "K.C. Property Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1792465568000,
+      "percent": 50
+    },
+    {
       "symbol": "GTV.BK",
       "name": "Green Tech Ventures Public Company Limited",
       "currency": "THB",
@@ -176,15 +185,6 @@
       "percent": 11.111111111111116
     },
     {
-      "symbol": "TPOLY.BK",
-      "name": "Thai Polycons Public Company Limited",
-      "currency": "THB",
-      "price": 0.1,
-      "previousClose": 0.09,
-      "timestamp": 1792465072000,
-      "percent": 11.111111111111116
-    },
-    {
       "symbol": "AQUA.BK",
       "name": "Aqua Corporation Public Company Limited",
       "currency": "THB",
@@ -208,12 +208,21 @@
       "currency": "THB",
       "price": 3.16,
       "previousClose": 2.9,
-      "timestamp": 1792465545000,
+      "timestamp": 1792465910000,
       "percent": 8.965517241379327
     }
   ],
   "todayCandidates": [
     {
+      "symbol": "KC.BK",
+      "name": "K.C. Property Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1792465568000,
+      "percent": 50
+    },
+    {
       "symbol": "GTV.BK",
       "name": "Green Tech Ventures Public Company Limited",
       "currency": "THB",
@@ -268,15 +277,6 @@
       "percent": 11.111111111111116
     },
     {
-      "symbol": "TPOLY.BK",
-      "name": "Thai Polycons Public Company Limited",
-      "currency": "THB",
-      "price": 0.1,
-      "previousClose": 0.09,
-      "timestamp": 1792465072000,
-      "percent": 11.111111111111116
-    },
-    {
       "symbol": "AQUA.BK",
       "name": "Aqua Corporation Public Company Limited",
       "currency": "THB",
@@ -300,17 +300,62 @@
       "currency": "THB",
       "price": 3.16,
       "previousClose": 2.9,
-      "timestamp": 1792465545000,
+      "timestamp": 1792465910000,
       "percent": 8.965517241379327
     },
     {
-      "symbol": "NAT.BK",
-      "name": "NAT Absolute Technologies Public Company Limited",
+      "symbol": "AJA.BK",
+      "name": "AJ Advance Technology Public Company Limited",
       "currency": "THB",
-      "price": 3.46,
-      "previousClose": 3.24,
-      "timestamp": 1792465545000,
-      "percent": 6.790123456790109
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1792465036000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "SUPER.BK",
+      "name": "Super Energy Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1792465893000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "TYCN.BK",
+      "name": "Tycoons Worldwide Group (Thailand) Public Company Limited",
+      "currency": "THB",
+      "price": 1.62,
+      "previousClose": 1.5,
+      "timestamp": 1792465552000,
+      "percent": 8.000000000000007
+    },
+    {
+      "symbol": "SCM.BK",
+      "name": "Successmore Being Public Company Limited",
+      "currency": "THB",
+      "price": 0.14,
+      "previousClose": 0.13,
+      "timestamp": 1792465929000,
+      "percent": 7.692307692307709
+    },
+    {
+      "symbol": "PRECHA.BK",
+      "name": "Preecha Group Public Company Limited",
+      "currency": "THB",
+      "price": 0.3,
+      "previousClose": 0.28,
+      "timestamp": 1792465931000,
+      "percent": 7.14285714285714
+    },
+    {
+      "symbol": "SGF.BK",
+      "name": "SGF Capital Public Company Limited",
+      "currency": "THB",
+      "price": 0.15,
+      "previousClose": 0.14,
+      "timestamp": 1792465599000,
+      "percent": 7.14285714285714
     },
     {
       "symbol": "DCON.BK",
@@ -318,16 +363,7 @@
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1792465036000,
-      "percent": 6.666666666666665
-    },
-    {
-      "symbol": "TYCN.BK",
-      "name": "Tycoons Worldwide Group (Thailand) Public Company Limited",
-      "currency": "THB",
-      "price": 1.6,
-      "previousClose": 1.5,
-      "timestamp": 1792465072000,
+      "timestamp": 1792465787000,
       "percent": 6.666666666666665
     },
     {
@@ -349,6 +385,24 @@
       "percent": 6.25
     },
     {
+      "symbol": "NAT.BK",
+      "name": "NAT Absolute Technologies Public Company Limited",
+      "currency": "THB",
+      "price": 3.44,
+      "previousClose": 3.24,
+      "timestamp": 1792465942000,
+      "percent": 6.1728395061728225
+    },
+    {
+      "symbol": "ADB.BK",
+      "name": "Applied DB Public Company Limited",
+      "currency": "THB",
+      "price": 1.05,
+      "previousClose": 0.99,
+      "timestamp": 1792465950000,
+      "percent": 6.060606060606055
+    },
+    {
       "symbol": "PPP.BK",
       "name": "Premier Products Public Company Limited",
       "currency": "THB",
@@ -358,12 +412,39 @@
       "percent": 5.797101449275366
     },
     {
+      "symbol": "SKE.BK",
+      "name": "Sakol Energy Public Company Limited",
+      "currency": "THB",
+      "price": 0.2,
+      "previousClose": 0.19,
+      "timestamp": 1792465742000,
+      "percent": 5.263157894736836
+    },
+    {
+      "symbol": "TAKUNI.BK",
+      "name": "Takuni Group Public Company Limited",
+      "currency": "THB",
+      "price": 0.44,
+      "previousClose": 0.42,
+      "timestamp": 1792465864000,
+      "percent": 4.761904761904767
+    },
+    {
+      "symbol": "COMAN.BK",
+      "name": "Comanche International Public Company Limited",
+      "currency": "THB",
+      "price": 0.45,
+      "previousClose": 0.43,
+      "timestamp": 1792465746000,
+      "percent": 4.651162790697683
+    },
+    {
       "symbol": "LDC.BK",
       "name": "LDC Dental Public Company Limited",
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.22,
-      "timestamp": 1792465159000,
+      "timestamp": 1792465596000,
       "percent": 4.545454545454541
     },
     {
@@ -376,22 +457,13 @@
       "percent": 4.545454545454541
     },
     {
-      "symbol": "ADB.BK",
-      "name": "Applied DB Public Company Limited",
+      "symbol": "SOLAR.BK",
+      "name": "Solartron Public Company Limited",
       "currency": "THB",
-      "price": 1.03,
-      "previousClose": 0.99,
-      "timestamp": 1792465544000,
-      "percent": 4.040404040404044
-    },
-    {
-      "symbol": "SCG.BK",
-      "name": "Ratch Pathana Energy Public Company Limited",
-      "currency": "THB",
-      "price": 2.66,
-      "previousClose": 2.56,
-      "timestamp": 1792465038000,
-      "percent": 3.90625
+      "price": 0.25,
+      "previousClose": 0.24,
+      "timestamp": 1792465567000,
+      "percent": 4.166666666666674
     },
     {
       "symbol": "GCAP.BK",
@@ -399,105 +471,33 @@
       "currency": "THB",
       "price": 0.27,
       "previousClose": 0.26,
-      "timestamp": 1792465448000,
+      "timestamp": 1792465880000,
       "percent": 3.8461538461538547
     },
     {
-      "symbol": "KKP.BK",
-      "name": "Kiatnakin Phatra Bank Public Company Limited",
+      "symbol": "TCC.BK",
+      "name": "Thai Capital Corporation Public Company Limited",
       "currency": "THB",
-      "price": 118.5,
-      "previousClose": 114.5,
-      "timestamp": 1792465547000,
-      "percent": 3.493449781659397
-    },
-    {
-      "symbol": "PSP.BK",
-      "name": "P.S.P. Specialties Public Company Limited",
-      "currency": "THB",
-      "price": 7.65,
-      "previousClose": 7.4,
-      "timestamp": 1792465511000,
-      "percent": 3.378378378378377
-    },
-    {
-      "symbol": "TERA.BK",
-      "name": "Terabyte Plus Public Company Limited",
-      "currency": "THB",
-      "price": 1.54,
-      "previousClose": 1.49,
-      "timestamp": 1792465274000,
-      "percent": 3.3557046979865834
-    },
-    {
-      "symbol": "GLORY.BK",
-      "name": "Glory Forever Public Company Limited",
-      "currency": "THB",
-      "price": 0.94,
-      "previousClose": 0.91,
-      "timestamp": 1792465443000,
-      "percent": 3.296703296703285
-    },
-    {
-      "symbol": "MITSIB.BK",
-      "name": "Mitsib Leasing Public Company Limited",
-      "currency": "THB",
-      "price": 0.63,
-      "previousClose": 0.61,
-      "timestamp": 1792465257000,
-      "percent": 3.2786885245901676
-    },
-    {
-      "symbol": "KIAT.BK",
-      "name": "Kiattana Transport Public Company Limited",
-      "currency": "THB",
-      "price": 0.33,
-      "previousClose": 0.32,
-      "timestamp": 1792465036000,
-      "percent": 3.125
-    },
-    {
-      "symbol": "PPPM.BK",
-      "name": "PP Prime Public Company Limited",
-      "currency": "THB",
-      "price": 0.34,
-      "previousClose": 0.33,
-      "timestamp": 1792465036000,
-      "percent": 3.0303030303030276
-    },
-    {
-      "symbol": "RP.BK",
-      "name": "Raja Ferry Port Public Company Limited",
-      "currency": "THB",
-      "price": 0.7,
-      "previousClose": 0.68,
-      "timestamp": 1792465538000,
-      "percent": 2.941176470588225
-    },
-    {
-      "symbol": "ITD.BK",
-      "name": "Italian-Thai Development Public Company Limited",
-      "currency": "THB",
-      "price": 0.36,
-      "previousClose": 0.35,
-      "timestamp": 1792465517000,
-      "percent": 2.857142857142869
+      "price": 0.27,
+      "previousClose": 0.26,
+      "timestamp": 1792465828000,
+      "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 553,
-    "missing": 309,
+    "eligible": 614,
+    "missing": 248,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-20",
-    "scheduledSlot": "2026-10-20T10:35[Asia/Bangkok]",
-    "updatedAt": 1792467351424
+    "scheduledSlot": "2026-10-20T10:45[Asia/Bangkok]",
+    "updatedAt": 1792467953783
   },
-  "todayGainersUpdatedAt": 1792467351424,
+  "todayGainersUpdatedAt": 1792467953783,
   "items": [
     {
       "symbol": "PJW.BK",
