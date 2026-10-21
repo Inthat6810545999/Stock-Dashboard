@@ -122,22 +122,40 @@
   },
   "todayGainers": [
     {
-      "symbol": "SHFS",
-      "name": "SHF Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.1385,
-      "previousClose": 0.0899,
-      "timestamp": 1792601755000,
-      "percent": 54.06006674082315
-    },
-    {
       "symbol": "AMOD",
       "name": "Alpha Modus Holdings, Inc.",
       "currency": "USD",
-      "price": 1.925,
+      "price": 2.125,
       "previousClose": 1.29,
-      "timestamp": 1792601736000,
-      "percent": 49.224806201550386
+      "timestamp": 1792602343000,
+      "percent": 64.72868217054264
+    },
+    {
+      "symbol": "SHFS",
+      "name": "SHF Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.1319,
+      "previousClose": 0.0899,
+      "timestamp": 1792602364000,
+      "percent": 46.71857619577309
+    },
+    {
+      "symbol": "SVRN",
+      "name": "SVRN, Inc.",
+      "currency": "USD",
+      "price": 37.26,
+      "previousClose": 25.98,
+      "timestamp": 1792602255000,
+      "percent": 43.41801385681292
+    },
+    {
+      "symbol": "SDEV",
+      "name": "Stablecoin Development Corporat",
+      "currency": "USD",
+      "price": 1.189,
+      "previousClose": 0.83,
+      "timestamp": 1792602363000,
+      "percent": 43.25301204819279
     },
     {
       "symbol": "DMIIR",
@@ -149,141 +167,13 @@
       "percent": 42.205323193916364
     },
     {
-      "symbol": "SVRN",
-      "name": "OceanPal Inc.",
-      "currency": "USD",
-      "price": 36.5101,
-      "previousClose": 25.98,
-      "timestamp": 1792601745000,
-      "percent": 40.53156274056968
-    },
-    {
-      "symbol": "SDEV",
-      "name": "Stablecoin Development Corporat",
-      "currency": "USD",
-      "price": 1.1502,
-      "previousClose": 0.83,
-      "timestamp": 1792601756000,
-      "percent": 38.57831325301204
-    },
-    {
       "symbol": "AHT",
       "name": "Ashford Hospitality Trust, Inc.",
       "currency": "USD",
-      "price": 2.4799,
+      "price": 2.53,
       "previousClose": 1.79,
-      "timestamp": 1792601721000,
-      "percent": 38.54189944134079
-    },
-    {
-      "symbol": "OLOX",
-      "name": "Olenox Industries Inc.",
-      "currency": "USD",
-      "price": 1.0232,
-      "previousClose": 0.7391,
-      "timestamp": 1792601753000,
-      "percent": 38.43864159112436
-    },
-    {
-      "symbol": "WHLR",
-      "name": "Wheeler Real Estate Investment Trust, Inc.",
-      "currency": "USD",
-      "price": 0.4959,
-      "previousClose": 0.3597,
-      "timestamp": 1792601761000,
-      "percent": 37.864887406171796
-    },
-    {
-      "symbol": "TAVIR",
-      "name": "Tavia Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.0799,
-      "previousClose": 0.0587,
-      "timestamp": 1792600397000,
-      "percent": 36.11584327086881
-    },
-    {
-      "symbol": "AMPGZ",
-      "name": "AmpliTech Group, Inc.",
-      "currency": "USD",
-      "price": 0.08,
-      "previousClose": 0.0601,
-      "timestamp": 1792601456000,
-      "percent": 33.11148086522462
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "SHFS",
-      "name": "SHF Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.1385,
-      "previousClose": 0.0899,
-      "timestamp": 1792601755000,
-      "percent": 54.06006674082315
-    },
-    {
-      "symbol": "AMOD",
-      "name": "Alpha Modus Holdings, Inc.",
-      "currency": "USD",
-      "price": 1.925,
-      "previousClose": 1.29,
-      "timestamp": 1792601736000,
-      "percent": 49.224806201550386
-    },
-    {
-      "symbol": "DMIIR",
-      "name": "Drugs Made In America Acquisition II Corp.",
-      "currency": "USD",
-      "price": 0.0748,
-      "previousClose": 0.0526,
-      "timestamp": 1792600580000,
-      "percent": 42.205323193916364
-    },
-    {
-      "symbol": "SVRN",
-      "name": "OceanPal Inc.",
-      "currency": "USD",
-      "price": 36.5101,
-      "previousClose": 25.98,
-      "timestamp": 1792601745000,
-      "percent": 40.53156274056968
-    },
-    {
-      "symbol": "SDEV",
-      "name": "Stablecoin Development Corporat",
-      "currency": "USD",
-      "price": 1.1502,
-      "previousClose": 0.83,
-      "timestamp": 1792601756000,
-      "percent": 38.57831325301204
-    },
-    {
-      "symbol": "AHT",
-      "name": "Ashford Hospitality Trust, Inc.",
-      "currency": "USD",
-      "price": 2.4799,
-      "previousClose": 1.79,
-      "timestamp": 1792601721000,
-      "percent": 38.54189944134079
-    },
-    {
-      "symbol": "OLOX",
-      "name": "Olenox Industries Inc.",
-      "currency": "USD",
-      "price": 1.0232,
-      "previousClose": 0.7391,
-      "timestamp": 1792601753000,
-      "percent": 38.43864159112436
-    },
-    {
-      "symbol": "WHLR",
-      "name": "Wheeler Real Estate Investment Trust, Inc.",
-      "currency": "USD",
-      "price": 0.4959,
-      "previousClose": 0.3597,
-      "timestamp": 1792601761000,
-      "percent": 37.864887406171796
+      "timestamp": 1792602324000,
+      "percent": 41.34078212290502
     },
     {
       "symbol": "TAVIR",
@@ -307,55 +197,165 @@
       "symbol": "SPHL",
       "name": "Springview Holdings Ltd",
       "currency": "USD",
-      "price": 3.2301,
+      "price": 3.23,
       "previousClose": 2.43,
-      "timestamp": 1792601755000,
-      "percent": 32.92592592592592
+      "timestamp": 1792602363000,
+      "percent": 32.92181069958846
+    },
+    {
+      "symbol": "WHLR",
+      "name": "Wheeler Real Estate Investment Trust, Inc.",
+      "currency": "USD",
+      "price": 0.4741,
+      "previousClose": 0.3597,
+      "timestamp": 1792602370000,
+      "percent": 31.804281345565744
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "AMOD",
+      "name": "Alpha Modus Holdings, Inc.",
+      "currency": "USD",
+      "price": 2.125,
+      "previousClose": 1.29,
+      "timestamp": 1792602343000,
+      "percent": 64.72868217054264
+    },
+    {
+      "symbol": "SHFS",
+      "name": "SHF Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.1319,
+      "previousClose": 0.0899,
+      "timestamp": 1792602364000,
+      "percent": 46.71857619577309
+    },
+    {
+      "symbol": "SVRN",
+      "name": "SVRN, Inc.",
+      "currency": "USD",
+      "price": 37.26,
+      "previousClose": 25.98,
+      "timestamp": 1792602255000,
+      "percent": 43.41801385681292
+    },
+    {
+      "symbol": "SDEV",
+      "name": "Stablecoin Development Corporat",
+      "currency": "USD",
+      "price": 1.189,
+      "previousClose": 0.83,
+      "timestamp": 1792602363000,
+      "percent": 43.25301204819279
+    },
+    {
+      "symbol": "DMIIR",
+      "name": "Drugs Made In America Acquisition II Corp.",
+      "currency": "USD",
+      "price": 0.0748,
+      "previousClose": 0.0526,
+      "timestamp": 1792600580000,
+      "percent": 42.205323193916364
+    },
+    {
+      "symbol": "AHT",
+      "name": "Ashford Hospitality Trust, Inc.",
+      "currency": "USD",
+      "price": 2.53,
+      "previousClose": 1.79,
+      "timestamp": 1792602324000,
+      "percent": 41.34078212290502
+    },
+    {
+      "symbol": "TAVIR",
+      "name": "Tavia Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.0799,
+      "previousClose": 0.0587,
+      "timestamp": 1792600397000,
+      "percent": 36.11584327086881
+    },
+    {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.08,
+      "previousClose": 0.0601,
+      "timestamp": 1792601456000,
+      "percent": 33.11148086522462
+    },
+    {
+      "symbol": "SPHL",
+      "name": "Springview Holdings Ltd",
+      "currency": "USD",
+      "price": 3.23,
+      "previousClose": 2.43,
+      "timestamp": 1792602363000,
+      "percent": 32.92181069958846
+    },
+    {
+      "symbol": "WHLR",
+      "name": "Wheeler Real Estate Investment Trust, Inc.",
+      "currency": "USD",
+      "price": 0.4741,
+      "previousClose": 0.3597,
+      "timestamp": 1792602370000,
+      "percent": 31.804281345565744
     },
     {
       "symbol": "PDSB",
       "name": "PDS Biotechnology Corporation",
       "currency": "USD",
-      "price": 1.2601,
+      "price": 1.255,
       "previousClose": 0.9605,
-      "timestamp": 1792601748000,
-      "percent": 31.192087454450814
+      "timestamp": 1792602359000,
+      "percent": 30.66111400312337
     },
     {
-      "symbol": "ESLA",
-      "name": "Estrella Immunopharma, Inc.",
+      "symbol": "OLOX",
+      "name": "Olenox Industries Inc.",
       "currency": "USD",
-      "price": 0.5079,
-      "previousClose": 0.4,
-      "timestamp": 1792601744000,
-      "percent": 26.974999999999994
+      "price": 0.9629,
+      "previousClose": 0.7391,
+      "timestamp": 1792602362000,
+      "percent": 30.280070355838173
     },
     {
       "symbol": "BETR",
       "name": "Better Home & Finance Holding Company",
       "currency": "USD",
-      "price": 14.965,
+      "price": 15.11,
       "previousClose": 11.97,
-      "timestamp": 1792601701000,
-      "percent": 25.02088554720132
+      "timestamp": 1792602340000,
+      "percent": 26.232247284878852
     },
     {
-      "symbol": "XHLD",
-      "name": "TEN Holdings, Inc.",
+      "symbol": "ESLA",
+      "name": "Estrella Immunopharma, Inc.",
       "currency": "USD",
-      "price": 0.7348,
-      "previousClose": 0.5949,
-      "timestamp": 1792601754000,
-      "percent": 23.51655740460583
+      "price": 0.4969,
+      "previousClose": 0.4,
+      "timestamp": 1792602349000,
+      "percent": 24.224999999999987
     },
     {
       "symbol": "INVE",
       "name": "INVE Technologies, Inc.",
       "currency": "USD",
-      "price": 2.73,
+      "price": 2.7302,
       "previousClose": 2.22,
-      "timestamp": 1792601712000,
-      "percent": 22.97297297297296
+      "timestamp": 1792602344000,
+      "percent": 22.98198198198198
+    },
+    {
+      "symbol": "XHLD",
+      "name": "TEN Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.7301,
+      "previousClose": 0.5949,
+      "timestamp": 1792602361000,
+      "percent": 22.726508656917122
     },
     {
       "symbol": "BRLS",
@@ -376,76 +376,40 @@
       "percent": 20.567375886524818
     },
     {
-      "symbol": "CYPH",
-      "name": "Cypherpunk Technologies Inc.",
-      "currency": "USD",
-      "price": 3.375,
-      "previousClose": 2.81,
-      "timestamp": 1792601739000,
-      "percent": 20.106761565836308
-    },
-    {
-      "symbol": "CHGA",
-      "name": "Change Agents Corporation",
-      "currency": "USD",
-      "price": 1.68,
-      "previousClose": 1.4,
-      "timestamp": 1792601711000,
-      "percent": 19.999999999999996
-    },
-    {
       "symbol": "YMAT",
       "name": "J-Star Holding Co., Ltd.",
       "currency": "USD",
-      "price": 2.4,
+      "price": 2.4198,
       "previousClose": 2.01,
-      "timestamp": 1792601754000,
-      "percent": 19.402985074626876
+      "timestamp": 1792602298000,
+      "percent": 20.388059701492555
     },
     {
-      "symbol": "XWEL",
-      "name": "XWELL, Inc.",
+      "symbol": "CYPH",
+      "name": "Cypherpunk Technologies Inc.",
       "currency": "USD",
-      "price": 0.7699,
-      "previousClose": 0.653,
-      "timestamp": 1792601621000,
-      "percent": 17.90199081163859
-    },
-    {
-      "symbol": "ROLR",
-      "name": "High Roller Technologies, Inc.",
-      "currency": "USD",
-      "price": 5.88,
-      "previousClose": 4.99,
-      "timestamp": 1792601729000,
-      "percent": 17.835671342685355
+      "price": 3.38,
+      "previousClose": 2.81,
+      "timestamp": 1792602345000,
+      "percent": 20.284697508896787
     },
     {
       "symbol": "VIVO",
       "name": "VivoPower PLC",
       "currency": "USD",
-      "price": 2.565,
+      "price": 2.57,
       "previousClose": 2.2,
-      "timestamp": 1792601727000,
-      "percent": 16.59090909090908
+      "timestamp": 1792602368000,
+      "percent": 16.8181818181818
     },
     {
-      "symbol": "OKYO",
-      "name": "OKYO Pharma Limited",
+      "symbol": "CHGA",
+      "name": "Change Agents Corporation",
       "currency": "USD",
-      "price": 1.59,
-      "previousClose": 1.37,
-      "timestamp": 1792599971000,
-      "percent": 16.058394160583944
-    },
-    {
-      "symbol": "NIXX",
-      "name": "Nixxy, Inc.",
-      "currency": "USD",
-      "price": 0.302,
-      "previousClose": 0.2603,
-      "timestamp": 1792601602000,
-      "percent": 16.019976949673453
+      "price": 1.63,
+      "previousClose": 1.4,
+      "timestamp": 1792602122000,
+      "percent": 16.428571428571438
     },
     {
       "symbol": "TAP-A",
@@ -453,35 +417,71 @@
       "currency": "USD",
       "price": 45.81,
       "previousClose": 39.52,
-      "timestamp": 1792600818000,
+      "timestamp": 1792600915000,
       "percent": 15.915991902834016
+    },
+    {
+      "symbol": "UPC",
+      "name": "Universe Pharmaceuticals INC",
+      "currency": "USD",
+      "price": 4.1,
+      "previousClose": 3.54,
+      "timestamp": 1792602222000,
+      "percent": 15.81920903954801
+    },
+    {
+      "symbol": "KPTI",
+      "name": "Karyopharm Therapeutics Inc.",
+      "currency": "USD",
+      "price": 0.414,
+      "previousClose": 0.3586,
+      "timestamp": 1792602353000,
+      "percent": 15.448968209704406
     },
     {
       "symbol": "VENU",
       "name": "Venu Holding Corporation",
       "currency": "USD",
-      "price": 1.3906,
+      "price": 1.385,
       "previousClose": 1.2,
-      "timestamp": 1792601667000,
-      "percent": 15.883333333333338
+      "timestamp": 1792602362000,
+      "percent": 15.416666666666679
     },
     {
-      "symbol": "AVAT",
-      "name": "Avalanche Treasury Corporation",
+      "symbol": "NIXX",
+      "name": "Nixxy, Inc.",
       "currency": "USD",
-      "price": 1.38,
-      "previousClose": 1.2,
-      "timestamp": 1792601457000,
-      "percent": 14.999999999999991
+      "price": 0.3002,
+      "previousClose": 0.2603,
+      "timestamp": 1792602239000,
+      "percent": 15.328467153284686
     },
     {
-      "symbol": "HSCS",
-      "name": "HeartSciences Inc.",
+      "symbol": "OKYO",
+      "name": "OKYO Pharma Limited",
       "currency": "USD",
-      "price": 3.58,
-      "previousClose": 3.13,
-      "timestamp": 1792601541000,
-      "percent": 14.376996805111819
+      "price": 1.58,
+      "previousClose": 1.37,
+      "timestamp": 1792602307000,
+      "percent": 15.328467153284663
+    },
+    {
+      "symbol": "NAKA",
+      "name": "Nakamoto Inc.",
+      "currency": "USD",
+      "price": 8.22,
+      "previousClose": 7.14,
+      "timestamp": 1792602328000,
+      "percent": 15.126050420168081
+    },
+    {
+      "symbol": "TRXB",
+      "name": "TRex Bio, Inc.",
+      "currency": "USD",
+      "price": 16.5608,
+      "previousClose": 14.44,
+      "timestamp": 1792602367000,
+      "percent": 14.686980609418288
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-21T12:55[America/New_York]",
-    "updatedAt": 1792601763851
+    "scheduledSlot": "2026-10-21T13:05[America/New_York]",
+    "updatedAt": 1792602373732
   },
-  "todayGainersUpdatedAt": 1792601763851,
+  "todayGainersUpdatedAt": 1792602373732,
   "items": [
     {
       "symbol": "KSPI",
