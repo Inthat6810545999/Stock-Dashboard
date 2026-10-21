@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": 1792458804105,
-  "cursor": "AM",
+  "updatedAt": 1792543854284,
+  "cursor": "AMGN",
   "symbols": {
     "NVDA": {
-      "updatedAt": 1792458571883,
+      "updatedAt": 1792543614127,
       "events": [
         {
           "kind": "E",
@@ -229,7 +229,7 @@
       ]
     },
     "AAPL": {
-      "updatedAt": 1792458584024,
+      "updatedAt": 1792543626313,
       "events": [
         {
           "kind": "E",
@@ -454,7 +454,7 @@
       ]
     },
     "MSFT": {
-      "updatedAt": 1792458596204,
+      "updatedAt": 1792543638501,
       "events": [
         {
           "kind": "E",
@@ -679,7 +679,7 @@
       ]
     },
     "TSLA": {
-      "updatedAt": 1792458608340,
+      "updatedAt": 1792543650657,
       "events": [
         {
           "kind": "E",
@@ -44264,6 +44264,2207 @@
           "fiscalQuarterEnd": "2026-06-30",
           "epsActual": 0.24,
           "epsEstimate": 0.27
+        }
+      ]
+    },
+    "AMAC": {
+      "updatedAt": 1792543663029,
+      "events": []
+    },
+    "AMAT": {
+      "updatedAt": 1792543700011,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1637236800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-10-31",
+          "epsActual": 1.94,
+          "epsEstimate": 1.96
+        },
+        {
+          "kind": "E",
+          "time": 1645012800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-01-31",
+          "epsActual": 1.89,
+          "epsEstimate": 1.85
+        },
+        {
+          "kind": "E",
+          "time": 1652961600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-04-30",
+          "epsActual": 1.85,
+          "epsEstimate": 1.9
+        },
+        {
+          "kind": "E",
+          "time": 1660824000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-07-31",
+          "epsActual": 1.94,
+          "epsEstimate": 1.78
+        },
+        {
+          "kind": "E",
+          "time": 1668686400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-10-31",
+          "epsActual": 2.03,
+          "epsEstimate": 1.74
+        },
+        {
+          "kind": "E",
+          "time": 1676548800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-01-31",
+          "epsActual": 2.03,
+          "epsEstimate": 1.92
+        },
+        {
+          "kind": "E",
+          "time": 1684411200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-04-30",
+          "epsActual": 2,
+          "epsEstimate": 1.83
+        },
+        {
+          "kind": "E",
+          "time": 1692273600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-07-31",
+          "epsActual": 1.9,
+          "epsEstimate": 1.75
+        },
+        {
+          "kind": "E",
+          "time": 1700136000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-10-31",
+          "epsActual": 2.12,
+          "epsEstimate": 1.99
+        },
+        {
+          "kind": "E",
+          "time": 1707998400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-01-31",
+          "epsActual": 2.13,
+          "epsEstimate": 1.91
+        },
+        {
+          "kind": "E",
+          "time": 1715860800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-04-30",
+          "epsActual": 2.09,
+          "epsEstimate": 1.99
+        },
+        {
+          "kind": "E",
+          "time": 1723723200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-07-31",
+          "epsActual": 2.12,
+          "epsEstimate": 2.03
+        },
+        {
+          "kind": "E",
+          "time": 1731585600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-10-31",
+          "epsActual": 2.32,
+          "epsEstimate": 2.19
+        },
+        {
+          "kind": "E",
+          "time": 1739448000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-01-31",
+          "epsActual": 2.38,
+          "epsEstimate": 2.3
+        },
+        {
+          "kind": "E",
+          "time": 1747310400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-04-30",
+          "epsActual": 2.39,
+          "epsEstimate": 2.31
+        },
+        {
+          "kind": "E",
+          "time": 1755172800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-07-31",
+          "epsActual": 2.48,
+          "epsEstimate": 2.36
+        },
+        {
+          "kind": "E",
+          "time": 1765540800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-10-31",
+          "epsActual": 2.17,
+          "epsEstimate": 2.09
+        },
+        {
+          "kind": "E",
+          "time": 1770897600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-01-31",
+          "epsActual": 2.38,
+          "epsEstimate": 2.21
+        },
+        {
+          "kind": "E",
+          "time": 1778760000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-04-30",
+          "epsActual": 2.86,
+          "epsEstimate": 2.69
+        },
+        {
+          "kind": "E",
+          "time": 1786622400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-07-31",
+          "epsActual": 3.5,
+          "epsEstimate": 3.38
+        }
+      ]
+    },
+    "AMBA": {
+      "updatedAt": 1792543712175,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1638273600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-10-31",
+          "epsActual": 0.57,
+          "epsEstimate": 0.49
+        },
+        {
+          "kind": "E",
+          "time": 1646049600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-01-31",
+          "epsActual": 0.45,
+          "epsEstimate": 0.42
+        },
+        {
+          "kind": "E",
+          "time": 1653998400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-04-30",
+          "epsActual": 0.44,
+          "epsEstimate": 0.37
+        },
+        {
+          "kind": "E",
+          "time": 1661860800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-07-31",
+          "epsActual": 0.2,
+          "epsEstimate": 0.19
+        },
+        {
+          "kind": "E",
+          "time": 1669896000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-10-31",
+          "epsActual": 0.24,
+          "epsEstimate": 0.2
+        },
+        {
+          "kind": "E",
+          "time": 1677585600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-01-31",
+          "epsActual": 0.23,
+          "epsEstimate": 0.15
+        },
+        {
+          "kind": "E",
+          "time": 1685448000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-04-30",
+          "epsActual": -0.15,
+          "epsEstimate": -0.21
+        },
+        {
+          "kind": "E",
+          "time": 1693310400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-07-31",
+          "epsActual": -0.15,
+          "epsEstimate": -0.18
+        },
+        {
+          "kind": "E",
+          "time": 1701345600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-10-31",
+          "epsActual": -0.28,
+          "epsEstimate": -0.39
+        },
+        {
+          "kind": "E",
+          "time": 1709035200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-01-31",
+          "epsActual": -0.24,
+          "epsEstimate": -0.33
+        },
+        {
+          "kind": "E",
+          "time": 1717070400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-04-30",
+          "epsActual": -0.26,
+          "epsEstimate": -0.31
+        },
+        {
+          "kind": "E",
+          "time": 1724760000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-07-31",
+          "epsActual": -0.13,
+          "epsEstimate": -0.19
+        },
+        {
+          "kind": "E",
+          "time": 1732622400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-10-31",
+          "epsActual": 0.11,
+          "epsEstimate": 0.04
+        },
+        {
+          "kind": "E",
+          "time": 1740571200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-01-31",
+          "epsActual": 0.11,
+          "epsEstimate": -0.02
+        },
+        {
+          "kind": "E",
+          "time": 1748520000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-04-30",
+          "epsActual": 0.07,
+          "epsEstimate": 0.04
+        },
+        {
+          "kind": "E",
+          "time": 1756382400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-07-31",
+          "epsActual": 0.15,
+          "epsEstimate": 0.05
+        },
+        {
+          "kind": "E",
+          "time": 1764072000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-10-31",
+          "epsActual": 0.27,
+          "epsEstimate": 0.21
+        },
+        {
+          "kind": "E",
+          "time": 1772107200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-01-31",
+          "epsActual": -0.35,
+          "epsEstimate": -0.49
+        },
+        {
+          "kind": "E",
+          "time": 1779969600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-04-30",
+          "epsActual": -0.39,
+          "epsEstimate": -0.39
+        },
+        {
+          "kind": "E",
+          "time": 1788436800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-07-31",
+          "epsActual": -0.34,
+          "epsEstimate": -0.3
+        }
+      ]
+    },
+    "AMBO": {
+      "updatedAt": 1792543724762,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1638360000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-09-30",
+          "epsActual": 0,
+          "epsEstimate": 0
+        },
+        {
+          "kind": "E",
+          "time": 1651492800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": -0.248
+        },
+        {
+          "kind": "E",
+          "time": 1660305600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": -0.4615
+        },
+        {
+          "kind": "E",
+          "time": 1671105600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-09-30",
+          "epsActual": -4.6147
+        },
+        {
+          "kind": "E",
+          "time": 1682596800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": 0.1466
+        },
+        {
+          "kind": "E",
+          "time": 1692878400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": -0.035
+        },
+        {
+          "kind": "E",
+          "time": 1701172800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": -0.3504
+        },
+        {
+          "kind": "E",
+          "time": 1711972800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": 0,
+          "epsEstimate": 0
+        },
+        {
+          "kind": "E",
+          "time": 1726574400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": 0.0431
+        },
+        {
+          "kind": "E",
+          "time": 1734004800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": 0,
+          "epsEstimate": 0
+        },
+        {
+          "kind": "E",
+          "time": 1743163200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": 0.03,
+          "epsEstimate": 0
+        },
+        {
+          "kind": "E",
+          "time": 1745496000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": 0.4485
+        },
+        {
+          "kind": "E",
+          "time": 1754395200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": 0.62,
+          "epsEstimate": 0
+        },
+        {
+          "kind": "E",
+          "time": 1767009600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": 0,
+          "epsEstimate": 0
+        },
+        {
+          "kind": "E",
+          "time": 1776945600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": -0.18,
+          "epsEstimate": 0
+        },
+        {
+          "kind": "E",
+          "time": 1786708800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": 0.1
+        }
+      ]
+    },
+    "AMBQ": {
+      "updatedAt": 1792543749250,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1756987200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": -0.13,
+          "epsEstimate": -0.44
+        },
+        {
+          "kind": "E",
+          "time": 1762430400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": -0.22,
+          "epsEstimate": -0.31
+        },
+        {
+          "kind": "E",
+          "time": 1772712000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-12-31",
+          "epsActual": -0.32,
+          "epsEstimate": -0.38
+        },
+        {
+          "kind": "E",
+          "time": 1778587200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": -0.4987,
+          "epsEstimate": -0.39
+        },
+        {
+          "kind": "E",
+          "time": 1784548800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": -0.24,
+          "epsEstimate": -0.41
+        }
+      ]
+    },
+    "AMC": {
+      "updatedAt": 1792543761877,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1636372800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-09-30",
+          "epsActual": -3.88,
+          "epsEstimate": -4.8
+        },
+        {
+          "kind": "E",
+          "time": 1646136000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-12-31",
+          "epsActual": -0.97,
+          "epsEstimate": -2.23
+        },
+        {
+          "kind": "E",
+          "time": 1652097600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": -0.52,
+          "epsEstimate": -0.63
+        },
+        {
+          "kind": "E",
+          "time": 1659614400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": -1.76,
+          "epsEstimate": -2.01
+        },
+        {
+          "kind": "E",
+          "time": 1667908800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-09-30",
+          "epsActual": -1.76,
+          "epsEstimate": -2.16
+        },
+        {
+          "kind": "E",
+          "time": 1677585600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-12-31",
+          "epsActual": -1.24,
+          "epsEstimate": -1.92
+        },
+        {
+          "kind": "E",
+          "time": 1683288000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": -0.09,
+          "epsEstimate": -0.16
+        },
+        {
+          "kind": "E",
+          "time": 1691496000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": 0.09,
+          "epsEstimate": -0.37
+        },
+        {
+          "kind": "E",
+          "time": 1699444800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": -0.09,
+          "epsEstimate": -0.25
+        },
+        {
+          "kind": "E",
+          "time": 1709121600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-12-31",
+          "epsActual": -0.83,
+          "epsEstimate": -0.7
+        },
+        {
+          "kind": "E",
+          "time": 1715169600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": -0.62,
+          "epsEstimate": -0.77
+        },
+        {
+          "kind": "E",
+          "time": 1722600000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": -0.43,
+          "epsEstimate": -0.36
+        },
+        {
+          "kind": "E",
+          "time": 1730894400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": -0.04,
+          "epsEstimate": -0.07
+        },
+        {
+          "kind": "E",
+          "time": 1740484800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": -0.18,
+          "epsEstimate": -0.1633
+        },
+        {
+          "kind": "E",
+          "time": 1746619200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": -0.58,
+          "epsEstimate": -0.61
+        },
+        {
+          "kind": "E",
+          "time": 1754913600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": -0.0109,
+          "epsEstimate": -0.08
+        },
+        {
+          "kind": "E",
+          "time": 1762344000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": -0.21,
+          "epsEstimate": -0.19
+        },
+        {
+          "kind": "E",
+          "time": 1771848000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-12-31",
+          "epsActual": -0.18,
+          "epsEstimate": -0.0384
+        },
+        {
+          "kind": "E",
+          "time": 1777982400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": -0.36,
+          "epsEstimate": -0.34
+        },
+        {
+          "kind": "E",
+          "time": 1784548800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": 0.14,
+          "epsEstimate": 0.01
+        }
+      ]
+    },
+    "AMCI": {
+      "updatedAt": 1792543774318,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1651320000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": -0.0004
+        },
+        {
+          "kind": "E",
+          "time": 1656590400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": 0
+        },
+        {
+          "kind": "E",
+          "time": 1672488000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-12-31",
+          "epsActual": -0.0042
+        },
+        {
+          "kind": "E",
+          "time": 1680264000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": 0.0702
+        },
+        {
+          "kind": "E",
+          "time": 1688126400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": 0.0767
+        },
+        {
+          "kind": "E",
+          "time": 1696075200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": 0.0823
+        },
+        {
+          "kind": "E",
+          "time": 1704024000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-12-31",
+          "epsActual": 0.114
+        },
+        {
+          "kind": "E",
+          "time": 1711886400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": 0.0498
+        },
+        {
+          "kind": "E",
+          "time": 1719748800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": 0.0546
+        },
+        {
+          "kind": "E",
+          "time": 1727697600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": 0.0717
+        },
+        {
+          "kind": "E",
+          "time": 1735646400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": 0.1237
+        },
+        {
+          "kind": "E",
+          "time": 1743422400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": 0.0023
+        },
+        {
+          "kind": "E",
+          "time": 1751284800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": 0.0061
+        },
+        {
+          "kind": "E",
+          "time": 1759233600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": -0.6878
+        },
+        {
+          "kind": "E",
+          "time": 1779105600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": 0.0047
+        },
+        {
+          "kind": "E",
+          "time": 1786968000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": -0.01
+        }
+      ]
+    },
+    "AMCR": {
+      "updatedAt": 1792543786901,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1635854400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-09-30",
+          "epsActual": 0.9,
+          "epsEstimate": 0.9
+        },
+        {
+          "kind": "E",
+          "time": 1643716800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-12-31",
+          "epsActual": 0.9,
+          "epsEstimate": 0.9
+        },
+        {
+          "kind": "E",
+          "time": 1651579200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": 1,
+          "epsEstimate": 1
+        },
+        {
+          "kind": "E",
+          "time": 1660737600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": 1.2,
+          "epsEstimate": 1.2
+        },
+        {
+          "kind": "E",
+          "time": 1667304000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-09-30",
+          "epsActual": 0.9,
+          "epsEstimate": 0.9
+        },
+        {
+          "kind": "E",
+          "time": 1675771200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-12-31",
+          "epsActual": 0.95,
+          "epsEstimate": 0.9
+        },
+        {
+          "kind": "E",
+          "time": 1683028800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": 0.9,
+          "epsEstimate": 0.9
+        },
+        {
+          "kind": "E",
+          "time": 1692187200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": 0.95,
+          "epsEstimate": 0.9
+        },
+        {
+          "kind": "E",
+          "time": 1698753600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": 0.8,
+          "epsEstimate": 0.75
+        },
+        {
+          "kind": "E",
+          "time": 1707220800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-12-31",
+          "epsActual": 0.8,
+          "epsEstimate": 0.75
+        },
+        {
+          "kind": "E",
+          "time": 1714478400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": 0.9,
+          "epsEstimate": 0.8
+        },
+        {
+          "kind": "E",
+          "time": 1723723200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": 1.05,
+          "epsEstimate": 1
+        },
+        {
+          "kind": "E",
+          "time": 1730376000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": 0.8,
+          "epsEstimate": 0.8
+        },
+        {
+          "kind": "E",
+          "time": 1738670400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": 0.8,
+          "epsEstimate": 0.8
+        },
+        {
+          "kind": "E",
+          "time": 1746014400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": 0.9,
+          "epsEstimate": 0.9
+        },
+        {
+          "kind": "E",
+          "time": 1755172800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": 1,
+          "epsEstimate": 1.1
+        },
+        {
+          "kind": "E",
+          "time": 1762344000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": 0.19,
+          "epsEstimate": 0.19
+        },
+        {
+          "kind": "E",
+          "time": 1770120000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-12-31",
+          "epsActual": 0.86,
+          "epsEstimate": 0.84
+        },
+        {
+          "kind": "E",
+          "time": 1778068800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": 0.96,
+          "epsEstimate": 0.95
+        },
+        {
+          "kind": "E",
+          "time": 1786536000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": 1.23,
+          "epsEstimate": 1.18
+        }
+      ]
+    },
+    "AMD": {
+      "updatedAt": 1792543811427,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1635249600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-09-30",
+          "epsActual": 0.73,
+          "epsEstimate": 0.66
+        },
+        {
+          "kind": "E",
+          "time": 1643716800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-12-31",
+          "epsActual": 0.92,
+          "epsEstimate": 0.76
+        },
+        {
+          "kind": "E",
+          "time": 1651579200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": 1.13,
+          "epsEstimate": 0.92
+        },
+        {
+          "kind": "E",
+          "time": 1659441600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": 1.05,
+          "epsEstimate": 1.04
+        },
+        {
+          "kind": "E",
+          "time": 1667304000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-09-30",
+          "epsActual": 0.67,
+          "epsEstimate": 0.7
+        },
+        {
+          "kind": "E",
+          "time": 1675166400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-12-31",
+          "epsActual": 0.69,
+          "epsEstimate": 0.67
+        },
+        {
+          "kind": "E",
+          "time": 1683028800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": 0.6,
+          "epsEstimate": 0.56
+        },
+        {
+          "kind": "E",
+          "time": 1690891200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": 0.58,
+          "epsEstimate": 0.57
+        },
+        {
+          "kind": "E",
+          "time": 1698753600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": 0.7,
+          "epsEstimate": 0.68
+        },
+        {
+          "kind": "E",
+          "time": 1706616000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-12-31",
+          "epsActual": 0.77,
+          "epsEstimate": 0.77
+        },
+        {
+          "kind": "E",
+          "time": 1714478400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": 0.62,
+          "epsEstimate": 0.61
+        },
+        {
+          "kind": "E",
+          "time": 1722340800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": 0.69,
+          "epsEstimate": 0.68
+        },
+        {
+          "kind": "E",
+          "time": 1730203200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": 0.92,
+          "epsEstimate": 0.92
+        },
+        {
+          "kind": "E",
+          "time": 1738670400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": 1.09,
+          "epsEstimate": 1.09
+        },
+        {
+          "kind": "E",
+          "time": 1746532800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": 0.96,
+          "epsEstimate": 0.93
+        },
+        {
+          "kind": "E",
+          "time": 1754395200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": 0.48,
+          "epsEstimate": 0.48
+        },
+        {
+          "kind": "E",
+          "time": 1762257600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": 1.2,
+          "epsEstimate": 1.17
+        },
+        {
+          "kind": "E",
+          "time": 1770120000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-12-31",
+          "epsActual": 1.53,
+          "epsEstimate": 1.32
+        },
+        {
+          "kind": "E",
+          "time": 1777982400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": 1.37,
+          "epsEstimate": 1.29
+        },
+        {
+          "kind": "E",
+          "time": 1785844800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": 1.66,
+          "epsEstimate": 1.35
+        }
+      ]
+    },
+    "AME": {
+      "updatedAt": 1792543824086,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1635854400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-09-30",
+          "epsActual": 1.26,
+          "epsEstimate": 1.18
+        },
+        {
+          "kind": "E",
+          "time": 1643889600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-12-31",
+          "epsActual": 1.37,
+          "epsEstimate": 1.3
+        },
+        {
+          "kind": "E",
+          "time": 1651579200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": 1.33,
+          "epsEstimate": 1.28
+        },
+        {
+          "kind": "E",
+          "time": 1659441600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": 1.38,
+          "epsEstimate": 1.3
+        },
+        {
+          "kind": "E",
+          "time": 1667304000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-09-30",
+          "epsActual": 1.45,
+          "epsEstimate": 1.37
+        },
+        {
+          "kind": "E",
+          "time": 1675339200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-12-31",
+          "epsActual": 1.52,
+          "epsEstimate": 1.47
+        },
+        {
+          "kind": "E",
+          "time": 1683028800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": 1.49,
+          "epsEstimate": 1.41
+        },
+        {
+          "kind": "E",
+          "time": 1690891200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": 1.57,
+          "epsEstimate": 1.51
+        },
+        {
+          "kind": "E",
+          "time": 1698753600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": 1.64,
+          "epsEstimate": 1.58
+        },
+        {
+          "kind": "E",
+          "time": 1707220800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-12-31",
+          "epsActual": 1.68,
+          "epsEstimate": 1.63
+        },
+        {
+          "kind": "E",
+          "time": 1714651200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": 1.64,
+          "epsEstimate": 1.59
+        },
+        {
+          "kind": "E",
+          "time": 1722513600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": 1.66,
+          "epsEstimate": 1.64
+        },
+        {
+          "kind": "E",
+          "time": 1730376000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": 1.66,
+          "epsEstimate": 1.62
+        },
+        {
+          "kind": "E",
+          "time": 1738670400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": 1.87,
+          "epsEstimate": 1.85
+        },
+        {
+          "kind": "E",
+          "time": 1746100800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": 1.75,
+          "epsEstimate": 1.69
+        },
+        {
+          "kind": "E",
+          "time": 1753963200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": 1.78,
+          "epsEstimate": 1.69
+        },
+        {
+          "kind": "E",
+          "time": 1761825600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": 1.89,
+          "epsEstimate": 1.76
+        },
+        {
+          "kind": "E",
+          "time": 1770120000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-12-31",
+          "epsActual": 2.01,
+          "epsEstimate": 1.94
+        },
+        {
+          "kind": "E",
+          "time": 1777550400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": 1.97,
+          "epsEstimate": 1.9
+        },
+        {
+          "kind": "E",
+          "time": 1785844800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": 2.09,
+          "epsEstimate": 1.99
+        }
+      ]
+    },
+    "AMG": {
+      "updatedAt": 1792543842096,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1635768000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-09-30",
+          "epsActual": 4,
+          "epsEstimate": 3.91
+        },
+        {
+          "kind": "E",
+          "time": 1644235200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-12-31",
+          "epsActual": 6.1,
+          "epsEstimate": 5.81
+        },
+        {
+          "kind": "E",
+          "time": 1651492800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": 4.65,
+          "epsEstimate": 4.34
+        },
+        {
+          "kind": "E",
+          "time": 1659355200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": 4.03,
+          "epsEstimate": 3.97
+        },
+        {
+          "kind": "E",
+          "time": 1667822400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-09-30",
+          "epsActual": 4.21,
+          "epsEstimate": 3.91
+        },
+        {
+          "kind": "E",
+          "time": 1675684800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-12-31",
+          "epsActual": 7.28,
+          "epsEstimate": 7.04
+        },
+        {
+          "kind": "E",
+          "time": 1682942400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": 4.18,
+          "epsEstimate": 4.15
+        },
+        {
+          "kind": "E",
+          "time": 1690372800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": 4.45,
+          "epsEstimate": 4.23
+        },
+        {
+          "kind": "E",
+          "time": 1699272000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": 4.08,
+          "epsEstimate": 3.74
+        },
+        {
+          "kind": "E",
+          "time": 1707134400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-12-31",
+          "epsActual": 6.86,
+          "epsEstimate": 6
+        },
+        {
+          "kind": "E",
+          "time": 1714996800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": 5.37,
+          "epsEstimate": 5.24
+        },
+        {
+          "kind": "E",
+          "time": 1722254400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": 4.67,
+          "epsEstimate": 4.6
+        },
+        {
+          "kind": "E",
+          "time": 1730721600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": 4.82,
+          "epsEstimate": 4.84
+        },
+        {
+          "kind": "E",
+          "time": 1738843200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": 6.53,
+          "epsEstimate": 6.03
+        },
+        {
+          "kind": "E",
+          "time": 1746705600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": 5.2,
+          "epsEstimate": 5.09
+        },
+        {
+          "kind": "E",
+          "time": 1753963200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": 5.39,
+          "epsEstimate": 5.29
+        },
+        {
+          "kind": "E",
+          "time": 1762171200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": 6.1,
+          "epsEstimate": 5.88
+        },
+        {
+          "kind": "E",
+          "time": 1770897600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-12-31",
+          "epsActual": 9.48,
+          "epsEstimate": 8.84
+        },
+        {
+          "kind": "E",
+          "time": 1777636800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": 8.23,
+          "epsEstimate": 8.07
+        },
+        {
+          "kind": "E",
+          "time": 1785326400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": 8.29,
+          "epsEstimate": 7.85
+        }
+      ]
+    },
+    "AMGN": {
+      "updatedAt": 1792543854284,
+      "events": [
+        {
+          "kind": "E",
+          "time": 1635854400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-09-30",
+          "epsActual": 4.67,
+          "epsEstimate": 4.22
+        },
+        {
+          "kind": "E",
+          "time": 1644235200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2021-12-31",
+          "epsActual": 4.36,
+          "epsEstimate": 4.04
+        },
+        {
+          "kind": "E",
+          "time": 1651060800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-03-31",
+          "epsActual": 4.25,
+          "epsEstimate": 4.12
+        },
+        {
+          "kind": "E",
+          "time": 1659614400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-06-30",
+          "epsActual": 4.65,
+          "epsEstimate": 4.33
+        },
+        {
+          "kind": "E",
+          "time": 1667476800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-09-30",
+          "epsActual": 4.7,
+          "epsEstimate": 4.45
+        },
+        {
+          "kind": "E",
+          "time": 1675166400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2022-12-31",
+          "epsActual": 4.09,
+          "epsEstimate": 4.09
+        },
+        {
+          "kind": "E",
+          "time": 1682596800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-03-31",
+          "epsActual": 3.98,
+          "epsEstimate": 3.85
+        },
+        {
+          "kind": "E",
+          "time": 1691064000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-06-30",
+          "epsActual": 5,
+          "epsEstimate": 4.49
+        },
+        {
+          "kind": "E",
+          "time": 1698753600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-09-30",
+          "epsActual": 4.96,
+          "epsEstimate": 4.68
+        },
+        {
+          "kind": "E",
+          "time": 1707220800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2023-12-31",
+          "epsActual": 4.71,
+          "epsEstimate": 4.59
+        },
+        {
+          "kind": "E",
+          "time": 1714651200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-03-31",
+          "epsActual": 3.96,
+          "epsEstimate": 3.89
+        },
+        {
+          "kind": "E",
+          "time": 1722945600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-06-30",
+          "epsActual": 4.97,
+          "epsEstimate": 5
+        },
+        {
+          "kind": "E",
+          "time": 1730289600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-09-30",
+          "epsActual": 5.58,
+          "epsEstimate": 5.11
+        },
+        {
+          "kind": "E",
+          "time": 1738670400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2024-12-31",
+          "epsActual": 5.31,
+          "epsEstimate": 5.08
+        },
+        {
+          "kind": "E",
+          "time": 1746100800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-03-31",
+          "epsActual": 4.9,
+          "epsEstimate": 4.26
+        },
+        {
+          "kind": "E",
+          "time": 1754395200000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-06-30",
+          "epsActual": 6.02,
+          "epsEstimate": 5.28
+        },
+        {
+          "kind": "E",
+          "time": 1762257600000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-09-30",
+          "epsActual": 5.64,
+          "epsEstimate": 5.01
+        },
+        {
+          "kind": "E",
+          "time": 1770120000000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2025-12-31",
+          "epsActual": 5.29,
+          "epsEstimate": 4.73
+        },
+        {
+          "kind": "E",
+          "time": 1777550400000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-03-31",
+          "epsActual": 5.15,
+          "epsEstimate": 4.77
+        },
+        {
+          "kind": "E",
+          "time": 1785844800000,
+          "dateOnly": true,
+          "label": "Earnings announcement",
+          "source": "Alpha Vantage",
+          "sourceUrl": "https://www.alphavantage.co/documentation/#earnings",
+          "fiscalQuarterEnd": "2026-06-30",
+          "epsActual": 6.29,
+          "epsEstimate": 5.6
         }
       ]
     }
