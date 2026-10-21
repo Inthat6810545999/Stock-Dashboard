@@ -140,6 +140,15 @@
       "percent": 33.33333333333335
     },
     {
+      "symbol": "RWI.BK",
+      "name": "Rayong Wire Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.59,
+      "previousClose": 0.47,
+      "timestamp": 1792558547000,
+      "percent": 25.531914893617014
+    },
+    {
       "symbol": "STOWER.BK",
       "name": "Sky Tower Public Company Limited",
       "currency": "THB",
@@ -156,15 +165,6 @@
       "previousClose": 0.04,
       "timestamp": 1792553611000,
       "percent": 25
-    },
-    {
-      "symbol": "RWI.BK",
-      "name": "Rayong Wire Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.58,
-      "previousClose": 0.47,
-      "timestamp": 1792557920000,
-      "percent": 23.404255319148938
     },
     {
       "symbol": "DIMET.BK",
@@ -185,6 +185,15 @@
       "percent": 19.999999999999996
     },
     {
+      "symbol": "SR.BK",
+      "name": "Siamraj Public Company Limited",
+      "currency": "THB",
+      "price": 0.46,
+      "previousClose": 0.39,
+      "timestamp": 1792558539000,
+      "percent": 17.948717948717952
+    },
+    {
       "symbol": "HYDRO.BK",
       "name": "Hydrotek Public Company Limited",
       "currency": "THB",
@@ -201,15 +210,6 @@
       "previousClose": 0.07,
       "timestamp": 1792555511000,
       "percent": 14.28571428571428
-    },
-    {
-      "symbol": "STELLA.BK",
-      "name": "Stella X Public Company Limited",
-      "currency": "THB",
-      "price": 0.26,
-      "previousClose": 0.23,
-      "timestamp": 1792557851000,
-      "percent": 13.043478260869556
     }
   ],
   "todayCandidates": [
@@ -232,6 +232,15 @@
       "percent": 33.33333333333335
     },
     {
+      "symbol": "RWI.BK",
+      "name": "Rayong Wire Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.59,
+      "previousClose": 0.47,
+      "timestamp": 1792558547000,
+      "percent": 25.531914893617014
+    },
+    {
       "symbol": "STOWER.BK",
       "name": "Sky Tower Public Company Limited",
       "currency": "THB",
@@ -250,15 +259,6 @@
       "percent": 25
     },
     {
-      "symbol": "RWI.BK",
-      "name": "Rayong Wire Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.58,
-      "previousClose": 0.47,
-      "timestamp": 1792557920000,
-      "percent": 23.404255319148938
-    },
-    {
       "symbol": "DIMET.BK",
       "name": "Dimet (Siam) Public Company Limited",
       "currency": "THB",
@@ -275,6 +275,15 @@
       "previousClose": 0.05,
       "timestamp": 1792556044000,
       "percent": 19.999999999999996
+    },
+    {
+      "symbol": "SR.BK",
+      "name": "Siamraj Public Company Limited",
+      "currency": "THB",
+      "price": 0.46,
+      "previousClose": 0.39,
+      "timestamp": 1792558539000,
+      "percent": 17.948717948717952
     },
     {
       "symbol": "HYDRO.BK",
@@ -300,17 +309,8 @@
       "currency": "THB",
       "price": 0.26,
       "previousClose": 0.23,
-      "timestamp": 1792557851000,
+      "timestamp": 1792558297000,
       "percent": 13.043478260869556
-    },
-    {
-      "symbol": "BSM.BK",
-      "name": "BuilderSmart Public Company Limited",
-      "currency": "THB",
-      "price": 0.72,
-      "previousClose": 0.64,
-      "timestamp": 1792551906000,
-      "percent": 12.5
     },
     {
       "symbol": "GJS.BK",
@@ -318,7 +318,7 @@
       "currency": "THB",
       "price": 0.09,
       "previousClose": 0.08,
-      "timestamp": 1792557401000,
+      "timestamp": 1792558489000,
       "percent": 12.5
     },
     {
@@ -327,44 +327,26 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.16,
-      "timestamp": 1792557620000,
+      "timestamp": 1792558341000,
+      "percent": 12.5
+    },
+    {
+      "symbol": "RML.BK",
+      "name": "Raimon Land Public Company Limited",
+      "currency": "THB",
+      "price": 0.09,
+      "previousClose": 0.08,
+      "timestamp": 1792558467000,
       "percent": 12.5
     },
     {
       "symbol": "PORT.BK",
       "name": "Sahathai Terminal Public Company Limited",
       "currency": "THB",
-      "price": 0.92,
+      "price": 0.91,
       "previousClose": 0.82,
-      "timestamp": 1792557894000,
-      "percent": 12.195121951219523
-    },
-    {
-      "symbol": "RP.BK",
-      "name": "Raja Ferry Port Public Company Limited",
-      "currency": "THB",
-      "price": 0.74,
-      "previousClose": 0.67,
-      "timestamp": 1792557918000,
-      "percent": 10.447761194029837
-    },
-    {
-      "symbol": "SR.BK",
-      "name": "Siamraj Public Company Limited",
-      "currency": "THB",
-      "price": 0.43,
-      "previousClose": 0.39,
-      "timestamp": 1792557933000,
-      "percent": 10.256410256410241
-    },
-    {
-      "symbol": "EFORL.BK",
-      "name": "E for L Aim Public Company Limited",
-      "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1792557733000,
-      "percent": 9.999999999999986
+      "timestamp": 1792558315000,
+      "percent": 10.97560975609757
     },
     {
       "symbol": "VIBE.BK",
@@ -381,17 +363,17 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.21,
-      "timestamp": 1792557241000,
+      "timestamp": 1792558526000,
       "percent": 9.523809523809534
     },
     {
-      "symbol": "SUPER.BK",
-      "name": "Super Energy Corporation Public Company Limited",
+      "symbol": "RP.BK",
+      "name": "Raja Ferry Port Public Company Limited",
       "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1792557586000,
-      "percent": 8.333333333333348
+      "price": 0.73,
+      "previousClose": 0.67,
+      "timestamp": 1792558495000,
+      "percent": 8.955223880596996
     },
     {
       "symbol": "DHOUSE.BK",
@@ -399,7 +381,7 @@
       "currency": "THB",
       "price": 0.27,
       "previousClose": 0.25,
-      "timestamp": 1792556990000,
+      "timestamp": 1792558199000,
       "percent": 8.000000000000007
     },
     {
@@ -433,19 +415,19 @@
       "symbol": "RSP.BK",
       "name": "Rich Sport Public Company Limited",
       "currency": "THB",
-      "price": 1.19,
+      "price": 1.18,
       "previousClose": 1.11,
-      "timestamp": 1792557254000,
-      "percent": 7.2072072072072
+      "timestamp": 1792558552000,
+      "percent": 6.306306306306286
     },
     {
-      "symbol": "ERW.BK",
-      "name": "The Erawan Group Public Company Limited",
+      "symbol": "BSM.BK",
+      "name": "BuilderSmart Public Company Limited",
       "currency": "THB",
-      "price": 3.64,
-      "previousClose": 3.44,
-      "timestamp": 1792557927000,
-      "percent": 5.813953488372103
+      "price": 0.68,
+      "previousClose": 0.64,
+      "timestamp": 1792558482000,
+      "percent": 6.25
     },
     {
       "symbol": "AE.BK",
@@ -453,8 +435,17 @@
       "currency": "THB",
       "price": 0.2,
       "previousClose": 0.19,
-      "timestamp": 1792557747000,
+      "timestamp": 1792558288000,
       "percent": 5.263157894736836
+    },
+    {
+      "symbol": "ERW.BK",
+      "name": "The Erawan Group Public Company Limited",
+      "currency": "THB",
+      "price": 3.62,
+      "previousClose": 3.44,
+      "timestamp": 1792558535000,
+      "percent": 5.232558139534893
     },
     {
       "symbol": "GRAMMY.BK",
@@ -475,6 +466,15 @@
       "percent": 4.999999999999982
     },
     {
+      "symbol": "BRI.BK",
+      "name": "Britania Public Company Limited",
+      "currency": "THB",
+      "price": 1.27,
+      "previousClose": 1.21,
+      "timestamp": 1792557988000,
+      "percent": 4.958677685950419
+    },
+    {
       "symbol": "MIDA.BK",
       "name": "Mida Assets Public Company Limited",
       "currency": "THB",
@@ -487,17 +487,17 @@
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 759,
-    "missing": 103,
+    "eligible": 762,
+    "missing": 100,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-21",
-    "scheduledSlot": "2026-10-21T12:15[Asia/Bangkok]",
-    "updatedAt": 1792559744505
+    "scheduledSlot": "2026-10-21T12:25[Asia/Bangkok]",
+    "updatedAt": 1792560355498
   },
-  "todayGainersUpdatedAt": 1792559744505,
+  "todayGainersUpdatedAt": 1792560355498,
   "items": [
     {
       "symbol": "PJW.BK",
