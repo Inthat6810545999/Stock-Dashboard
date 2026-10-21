@@ -127,16 +127,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792570917000,
-      "percent": 33.33333333333335
-    },
-    {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792571131000,
+      "timestamp": 1792571421000,
       "percent": 33.33333333333335
     },
     {
@@ -145,8 +136,17 @@
       "currency": "THB",
       "price": 0.59,
       "previousClose": 0.47,
-      "timestamp": 1792571121000,
+      "timestamp": 1792571723000,
       "percent": 25.531914893617014
+    },
+    {
+      "symbol": "DIMET.BK",
+      "name": "Dimet (Siam) Public Company Limited",
+      "currency": "THB",
+      "price": 0.06,
+      "previousClose": 0.05,
+      "timestamp": 1792571457000,
+      "percent": 19.999999999999996
     },
     {
       "symbol": "HYDRO.BK",
@@ -181,7 +181,7 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.16,
-      "timestamp": 1792568591000,
+      "timestamp": 1792571256000,
       "percent": 12.5
     },
     {
@@ -190,7 +190,7 @@
       "currency": "THB",
       "price": 6.3,
       "previousClose": 5.65,
-      "timestamp": 1792571131000,
+      "timestamp": 1792571726000,
       "percent": 11.504424778761058
     },
     {
@@ -199,17 +199,17 @@
       "currency": "THB",
       "price": 0.91,
       "previousClose": 0.82,
-      "timestamp": 1792571123000,
+      "timestamp": 1792571563000,
       "percent": 10.97560975609757
     },
     {
-      "symbol": "UMS.BK",
-      "name": "Unique Mining Services Public Company Limited",
+      "symbol": "ANAN.BK",
+      "name": "Ananda Development Public Company Limited",
       "currency": "THB",
-      "price": 0.62,
-      "previousClose": 0.56,
-      "timestamp": 1792571080000,
-      "percent": 10.714285714285698
+      "price": 0.32,
+      "previousClose": 0.29,
+      "timestamp": 1792571688000,
+      "percent": 10.344827586206918
     }
   ],
   "todayCandidates": [
@@ -219,16 +219,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792570917000,
-      "percent": 33.33333333333335
-    },
-    {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792571131000,
+      "timestamp": 1792571421000,
       "percent": 33.33333333333335
     },
     {
@@ -237,8 +228,17 @@
       "currency": "THB",
       "price": 0.59,
       "previousClose": 0.47,
-      "timestamp": 1792571121000,
+      "timestamp": 1792571723000,
       "percent": 25.531914893617014
+    },
+    {
+      "symbol": "DIMET.BK",
+      "name": "Dimet (Siam) Public Company Limited",
+      "currency": "THB",
+      "price": 0.06,
+      "previousClose": 0.05,
+      "timestamp": 1792571457000,
+      "percent": 19.999999999999996
     },
     {
       "symbol": "HYDRO.BK",
@@ -273,7 +273,7 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.16,
-      "timestamp": 1792568591000,
+      "timestamp": 1792571256000,
       "percent": 12.5
     },
     {
@@ -282,7 +282,7 @@
       "currency": "THB",
       "price": 6.3,
       "previousClose": 5.65,
-      "timestamp": 1792571131000,
+      "timestamp": 1792571726000,
       "percent": 11.504424778761058
     },
     {
@@ -291,17 +291,8 @@
       "currency": "THB",
       "price": 0.91,
       "previousClose": 0.82,
-      "timestamp": 1792571123000,
+      "timestamp": 1792571563000,
       "percent": 10.97560975609757
-    },
-    {
-      "symbol": "UMS.BK",
-      "name": "Unique Mining Services Public Company Limited",
-      "currency": "THB",
-      "price": 0.62,
-      "previousClose": 0.56,
-      "timestamp": 1792571080000,
-      "percent": 10.714285714285698
     },
     {
       "symbol": "ANAN.BK",
@@ -309,7 +300,7 @@
       "currency": "THB",
       "price": 0.32,
       "previousClose": 0.29,
-      "timestamp": 1792571095000,
+      "timestamp": 1792571688000,
       "percent": 10.344827586206918
     },
     {
@@ -331,6 +322,15 @@
       "percent": 9.999999999999986
     },
     {
+      "symbol": "UMS.BK",
+      "name": "Unique Mining Services Public Company Limited",
+      "currency": "THB",
+      "price": 0.61,
+      "previousClose": 0.56,
+      "timestamp": 1792571405000,
+      "percent": 8.92857142857142
+    },
+    {
       "symbol": "DHOUSE.BK",
       "name": "Dhouse Pattana Public Company Limited",
       "currency": "THB",
@@ -340,22 +340,22 @@
       "percent": 8.000000000000007
     },
     {
-      "symbol": "CENTEL.BK",
-      "name": "Central Plaza Hotel Public Company Limited",
-      "currency": "THB",
-      "price": 45.5,
-      "previousClose": 42.75,
-      "timestamp": 1792571145000,
-      "percent": 6.432748538011701
-    },
-    {
       "symbol": "ERW.BK",
       "name": "The Erawan Group Public Company Limited",
       "currency": "THB",
-      "price": 3.66,
+      "price": 3.68,
       "previousClose": 3.44,
-      "timestamp": 1792571142000,
-      "percent": 6.395348837209314
+      "timestamp": 1792571708000,
+      "percent": 6.976744186046524
+    },
+    {
+      "symbol": "RABBIT.BK",
+      "name": "Rabbit Holdings Public Company Limited",
+      "currency": "THB",
+      "price": 0.32,
+      "previousClose": 0.3,
+      "timestamp": 1792571687000,
+      "percent": 6.666666666666665
     },
     {
       "symbol": "RSP.BK",
@@ -363,7 +363,7 @@
       "currency": "THB",
       "price": 1.18,
       "previousClose": 1.11,
-      "timestamp": 1792569808000,
+      "timestamp": 1792571416000,
       "percent": 6.306306306306286
     },
     {
@@ -381,7 +381,7 @@
       "currency": "THB",
       "price": 17.5,
       "previousClose": 16.5,
-      "timestamp": 1792571132000,
+      "timestamp": 1792571736000,
       "percent": 6.060606060606055
     },
     {
@@ -390,7 +390,7 @@
       "currency": "THB",
       "price": 2.1,
       "previousClose": 1.98,
-      "timestamp": 1792571129000,
+      "timestamp": 1792571697000,
       "percent": 6.060606060606055
     },
     {
@@ -399,8 +399,26 @@
       "currency": "THB",
       "price": 0.71,
       "previousClose": 0.67,
-      "timestamp": 1792571114000,
+      "timestamp": 1792571592000,
       "percent": 5.970149253731338
+    },
+    {
+      "symbol": "CENTEL.BK",
+      "name": "Central Plaza Hotel Public Company Limited",
+      "currency": "THB",
+      "price": 45.25,
+      "previousClose": 42.75,
+      "timestamp": 1792571729000,
+      "percent": 5.84795321637428
+    },
+    {
+      "symbol": "STPI.BK",
+      "name": "STP&I Public Company Limited",
+      "currency": "THB",
+      "price": 5.75,
+      "previousClose": 5.45,
+      "timestamp": 1792571736000,
+      "percent": 5.504587155963292
     },
     {
       "symbol": "FN.BK",
@@ -419,15 +437,6 @@
       "previousClose": 0.2,
       "timestamp": 1792569965000,
       "percent": 4.999999999999982
-    },
-    {
-      "symbol": "MITSIB.BK",
-      "name": "Mitsib Leasing Public Company Limited",
-      "currency": "THB",
-      "price": 0.64,
-      "previousClose": 0.61,
-      "timestamp": 1792567396000,
-      "percent": 4.918032786885251
     },
     {
       "symbol": "MIDA.BK",
@@ -453,51 +462,42 @@
       "currency": "THB",
       "price": 0.22,
       "previousClose": 0.21,
-      "timestamp": 1792569410000,
+      "timestamp": 1792571722000,
       "percent": 4.761904761904767
     },
     {
-      "symbol": "SENX.BK",
-      "name": "SEN X Public Company Limited",
+      "symbol": "TAKUNI.BK",
+      "name": "Takuni Group Public Company Limited",
       "currency": "THB",
-      "price": 0.23,
-      "previousClose": 0.22,
-      "timestamp": 1792569619000,
-      "percent": 4.545454545454541
+      "price": 0.44,
+      "previousClose": 0.42,
+      "timestamp": 1792571344000,
+      "percent": 4.761904761904767
     },
     {
-      "symbol": "TPL.BK",
-      "name": "Thai Parcels Public Company Limited",
+      "symbol": "RPC.BK",
+      "name": "RPCG Public Company Limited",
       "currency": "THB",
-      "price": 0.46,
-      "previousClose": 0.44,
-      "timestamp": 1792559436000,
-      "percent": 4.545454545454541
-    },
-    {
-      "symbol": "I2.BK",
-      "name": "I2 Enterprise Public Company Limited",
-      "currency": "THB",
-      "price": 0.72,
-      "previousClose": 0.69,
-      "timestamp": 1792571073000,
-      "percent": 4.347826086956519
+      "price": 0.45,
+      "previousClose": 0.43,
+      "timestamp": 1792571720000,
+      "percent": 4.651162790697683
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 787,
-    "missing": 76,
+    "eligible": 788,
+    "missing": 75,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-21",
-    "scheduledSlot": "2026-10-21T15:55[Asia/Bangkok]",
-    "updatedAt": 1792572951638
+    "scheduledSlot": "2026-10-21T16:05[Asia/Bangkok]",
+    "updatedAt": 1792573544632
   },
-  "todayGainersUpdatedAt": 1792572951638,
+  "todayGainersUpdatedAt": 1792573544632,
   "items": [
     {
       "symbol": "PJW.BK",
