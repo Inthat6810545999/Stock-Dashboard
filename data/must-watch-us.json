@@ -158,15 +158,6 @@
       "percent": 67
     },
     {
-      "symbol": "EURKR",
-      "name": "Eureka Acquisition Corp",
-      "currency": "USD",
-      "price": 0.4,
-      "previousClose": 0.2701,
-      "timestamp": 1792690975000,
-      "percent": 48.0932987782303
-    },
-    {
       "symbol": "PASW",
       "name": "Ping An Biomedical Co., Ltd.",
       "currency": "USD",
@@ -210,6 +201,15 @@
       "previousClose": 1.67,
       "timestamp": 1792699200000,
       "percent": 38.92215568862276
+    },
+    {
+      "symbol": "ESLA",
+      "name": "Estrella Immunopharma, Inc.",
+      "currency": "USD",
+      "price": 0.7268,
+      "previousClose": 0.55,
+      "timestamp": 1792699201000,
+      "percent": 32.14545454545454
     }
   ],
   "todayCandidates": [
@@ -248,15 +248,6 @@
       "previousClose": 1,
       "timestamp": 1792699200000,
       "percent": 67
-    },
-    {
-      "symbol": "EURKR",
-      "name": "Eureka Acquisition Corp",
-      "currency": "USD",
-      "price": 0.4,
-      "previousClose": 0.2701,
-      "timestamp": 1792690975000,
-      "percent": 48.0932987782303
     },
     {
       "symbol": "PASW",
@@ -370,10 +361,10 @@
       "symbol": "BHVN",
       "name": "Biohaven Ltd.",
       "currency": "USD",
-      "price": 14.7,
+      "price": 14.69,
       "previousClose": 11.75,
-      "timestamp": 1792699200000,
-      "percent": 25.106382978723406
+      "timestamp": 1792699202000,
+      "percent": 25.021276595744666
     },
     {
       "symbol": "KCHVR",
@@ -381,7 +372,7 @@
       "currency": "USD",
       "price": 0.0701,
       "previousClose": 0.0563,
-      "timestamp": 1792684345000,
+      "timestamp": 1792699200000,
       "percent": 24.5115452930728
     },
     {
@@ -392,6 +383,15 @@
       "previousClose": 7.7,
       "timestamp": 1792699201000,
       "percent": 23.376623376623385
+    },
+    {
+      "symbol": "REED",
+      "name": "Reed's, Inc.",
+      "currency": "USD",
+      "price": 0.487,
+      "previousClose": 0.402,
+      "timestamp": 1792699200000,
+      "percent": 21.144278606965173
     },
     {
       "symbol": "TRON",
@@ -430,15 +430,6 @@
       "percent": 18.087557603686633
     },
     {
-      "symbol": "LHAI",
-      "name": "Linkhome Holdings Inc.",
-      "currency": "USD",
-      "price": 0.9651,
-      "previousClose": 0.821,
-      "timestamp": 1792699167000,
-      "percent": 17.55176613885505
-    },
-    {
       "symbol": "ELTX",
       "name": "Elicio Therapeutics, Inc.",
       "currency": "USD",
@@ -457,6 +448,15 @@
       "percent": 16.14666363015258
     },
     {
+      "symbol": "ATNM",
+      "name": "Actinium Pharmaceuticals, Inc.",
+      "currency": "USD",
+      "price": 1.6,
+      "previousClose": 1.38,
+      "timestamp": 1792699200000,
+      "percent": 15.942028985507273
+    },
+    {
       "symbol": "MLTX",
       "name": "MoonLake Immunotherapeutics",
       "currency": "USD",
@@ -466,6 +466,15 @@
       "percent": 15.86854460093896
     },
     {
+      "symbol": "LHAI",
+      "name": "Linkhome Holdings Inc.",
+      "currency": "USD",
+      "price": 0.9502,
+      "previousClose": 0.821,
+      "timestamp": 1792699200000,
+      "percent": 15.736906211936684
+    },
+    {
       "symbol": "EGBN",
       "name": "Eagle Bancorp, Inc.",
       "currency": "USD",
@@ -473,15 +482,6 @@
       "previousClose": 28.53,
       "timestamp": 1792699201000,
       "percent": 15.562565720294419
-    },
-    {
-      "symbol": "SES",
-      "name": "SES AI Corporation",
-      "currency": "USD",
-      "price": 0.7273,
-      "previousClose": 0.6312,
-      "timestamp": 1792699196000,
-      "percent": 15.224968314321918
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 2,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-22T16:05[America/New_York]",
-    "updatedAt": 1792699581394
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-22T16:15[America/New_York]",
+    "updatedAt": 1792700170943
   },
-  "todayGainersUpdatedAt": 1792699581394,
+  "todayGainersUpdatedAt": 1792700170943,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
