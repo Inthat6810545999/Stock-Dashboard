@@ -145,17 +145,17 @@
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.43,
-      "timestamp": 1792656273000,
+      "timestamp": 1792656922000,
       "percent": 20.93023255813955
     },
     {
-      "symbol": "PRIME.BK",
-      "name": "Prime Road Power Public Company Limited",
+      "symbol": "BTW.BK",
+      "name": "BT Wealth Industries Public Company Limited",
       "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1792655527000,
-      "percent": 19.999999999999996
+      "price": 0.13,
+      "previousClose": 0.11,
+      "timestamp": 1792656681000,
+      "percent": 18.181818181818187
     },
     {
       "symbol": "AF.BK",
@@ -165,15 +165,6 @@
       "previousClose": 0.39,
       "timestamp": 1792655560000,
       "percent": 15.384615384615374
-    },
-    {
-      "symbol": "DCON.BK",
-      "name": "Dcon Products Public Company Limited",
-      "currency": "THB",
-      "price": 0.17,
-      "previousClose": 0.15,
-      "timestamp": 1792656020000,
-      "percent": 13.333333333333353
     },
     {
       "symbol": "RML.BK",
@@ -190,7 +181,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.17,
-      "timestamp": 1792656268000,
+      "timestamp": 1792656633000,
       "percent": 11.764705882352944
     },
     {
@@ -208,8 +199,17 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.21,
-      "timestamp": 1792655780000,
+      "timestamp": 1792656908000,
       "percent": 9.523809523809534
+    },
+    {
+      "symbol": "CREDIT.BK",
+      "name": "Thai Credit Bank Public Company Limited",
+      "currency": "THB",
+      "price": 22.8,
+      "previousClose": 21,
+      "timestamp": 1792656742000,
+      "percent": 8.571428571428585
     }
   ],
   "todayCandidates": [
@@ -237,17 +237,17 @@
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.43,
-      "timestamp": 1792656273000,
+      "timestamp": 1792656922000,
       "percent": 20.93023255813955
     },
     {
-      "symbol": "PRIME.BK",
-      "name": "Prime Road Power Public Company Limited",
+      "symbol": "BTW.BK",
+      "name": "BT Wealth Industries Public Company Limited",
       "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1792655527000,
-      "percent": 19.999999999999996
+      "price": 0.13,
+      "previousClose": 0.11,
+      "timestamp": 1792656681000,
+      "percent": 18.181818181818187
     },
     {
       "symbol": "AF.BK",
@@ -257,15 +257,6 @@
       "previousClose": 0.39,
       "timestamp": 1792655560000,
       "percent": 15.384615384615374
-    },
-    {
-      "symbol": "DCON.BK",
-      "name": "Dcon Products Public Company Limited",
-      "currency": "THB",
-      "price": 0.17,
-      "previousClose": 0.15,
-      "timestamp": 1792656020000,
-      "percent": 13.333333333333353
     },
     {
       "symbol": "RML.BK",
@@ -282,7 +273,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.17,
-      "timestamp": 1792656268000,
+      "timestamp": 1792656633000,
       "percent": 11.764705882352944
     },
     {
@@ -300,26 +291,17 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.21,
-      "timestamp": 1792655780000,
+      "timestamp": 1792656908000,
       "percent": 9.523809523809534
-    },
-    {
-      "symbol": "BTW.BK",
-      "name": "BT Wealth Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.12,
-      "previousClose": 0.11,
-      "timestamp": 1792656224000,
-      "percent": 9.090909090909083
     },
     {
       "symbol": "CREDIT.BK",
       "name": "Thai Credit Bank Public Company Limited",
       "currency": "THB",
-      "price": 22.9,
+      "price": 22.8,
       "previousClose": 21,
-      "timestamp": 1792656339000,
-      "percent": 9.047619047619037
+      "timestamp": 1792656742000,
+      "percent": 8.571428571428585
     },
     {
       "symbol": "SUPER.BK",
@@ -331,6 +313,15 @@
       "percent": 8.333333333333348
     },
     {
+      "symbol": "DCON.BK",
+      "name": "Dcon Products Public Company Limited",
+      "currency": "THB",
+      "price": 0.16,
+      "previousClose": 0.15,
+      "timestamp": 1792656914000,
+      "percent": 6.666666666666665
+    },
+    {
       "symbol": "PROS.BK",
       "name": "Prosper Engineering Public Company Limited",
       "currency": "THB",
@@ -340,31 +331,22 @@
       "percent": 6.666666666666665
     },
     {
-      "symbol": "ANAN.BK",
-      "name": "Ananda Development Public Company Limited",
+      "symbol": "GENCO.BK",
+      "name": "General Environmental Conservation Public Company Limited",
       "currency": "THB",
-      "price": 0.35,
-      "previousClose": 0.33,
-      "timestamp": 1792656250000,
-      "percent": 6.060606060606055
+      "price": 0.33,
+      "previousClose": 0.31,
+      "timestamp": 1792656778000,
+      "percent": 6.451612903225823
     },
     {
-      "symbol": "ORI.BK",
-      "name": "Origin Property Public Company Limited",
+      "symbol": "THREL.BK",
+      "name": "Thaire Life Assurance Public Company Limited",
       "currency": "THB",
-      "price": 1.8,
-      "previousClose": 1.7,
-      "timestamp": 1792656342000,
-      "percent": 5.882352941176472
-    },
-    {
-      "symbol": "SGC.BK",
-      "name": "SG Capital Public Company Limited",
-      "currency": "THB",
-      "price": 2.22,
-      "previousClose": 2.1,
-      "timestamp": 1792656340000,
-      "percent": 5.714285714285716
+      "price": 1.29,
+      "previousClose": 1.22,
+      "timestamp": 1792656944000,
+      "percent": 5.737704918032782
     },
     {
       "symbol": "DTCI.BK",
@@ -399,7 +381,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.18,
-      "timestamp": 1792656327000,
+      "timestamp": 1792656352000,
       "percent": 5.555555555555558
     },
     {
@@ -408,7 +390,7 @@
       "currency": "THB",
       "price": 0.38,
       "previousClose": 0.36,
-      "timestamp": 1792654954000,
+      "timestamp": 1792656491000,
       "percent": 5.555555555555558
     },
     {
@@ -421,22 +403,31 @@
       "percent": 5.405405405405417
     },
     {
+      "symbol": "ORI.BK",
+      "name": "Origin Property Public Company Limited",
+      "currency": "THB",
+      "price": 1.79,
+      "previousClose": 1.7,
+      "timestamp": 1792656948000,
+      "percent": 5.294117647058827
+    },
+    {
+      "symbol": "MICRO.BK",
+      "name": "Micro Leasing Public Company Limited",
+      "currency": "THB",
+      "price": 1.47,
+      "previousClose": 1.4,
+      "timestamp": 1792656700000,
+      "percent": 5.000000000000004
+    },
+    {
       "symbol": "ALPHAX.BK",
       "name": "Alpha Divisions Public Company Limited",
       "currency": "THB",
       "price": 0.21,
       "previousClose": 0.2,
-      "timestamp": 1792656250000,
+      "timestamp": 1792656387000,
       "percent": 4.999999999999982
-    },
-    {
-      "symbol": "THREL.BK",
-      "name": "Thaire Life Assurance Public Company Limited",
-      "currency": "THB",
-      "price": 1.28,
-      "previousClose": 1.22,
-      "timestamp": 1792656085000,
-      "percent": 4.918032786885251
     },
     {
       "symbol": "BROCK.BK",
@@ -448,13 +439,22 @@
       "percent": 4.854368932038833
     },
     {
-      "symbol": "BWG.BK",
-      "name": "Better World Green Public Company Limited",
+      "symbol": "SGC.BK",
+      "name": "SG Capital Public Company Limited",
       "currency": "THB",
-      "price": 0.22,
-      "previousClose": 0.21,
-      "timestamp": 1792655533000,
+      "price": 2.2,
+      "previousClose": 2.1,
+      "timestamp": 1792656949000,
       "percent": 4.761904761904767
+    },
+    {
+      "symbol": "SPRC.BK",
+      "name": "Star Petroleum Refining Public Company Limited",
+      "currency": "THB",
+      "price": 15.6,
+      "previousClose": 14.9,
+      "timestamp": 1792656930000,
+      "percent": 4.697986577181212
     },
     {
       "symbol": "MATI.BK",
@@ -475,29 +475,29 @@
       "percent": 4.651162790697683
     },
     {
-      "symbol": "MICRO.BK",
-      "name": "Micro Leasing Public Company Limited",
+      "symbol": "LDC.BK",
+      "name": "LDC Dental Public Company Limited",
       "currency": "THB",
-      "price": 1.46,
-      "previousClose": 1.4,
-      "timestamp": 1792655700000,
-      "percent": 4.285714285714293
+      "price": 0.24,
+      "previousClose": 0.23,
+      "timestamp": 1792656942000,
+      "percent": 4.347826086956519
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 791,
-    "missing": 72,
+    "eligible": 793,
+    "missing": 70,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-22",
-    "scheduledSlot": "2026-10-22T15:35[Asia/Bangkok]",
-    "updatedAt": 1792658146184
+    "scheduledSlot": "2026-10-22T15:45[Asia/Bangkok]",
+    "updatedAt": 1792658754305
   },
-  "todayGainersUpdatedAt": 1792658146184,
+  "todayGainersUpdatedAt": 1792658754305,
   "items": [
     {
       "symbol": "PJW.BK",
