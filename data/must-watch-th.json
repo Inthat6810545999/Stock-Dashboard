@@ -127,7 +127,7 @@
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1792642589000,
+      "timestamp": 1792643489000,
       "percent": 50
     },
     {
@@ -137,15 +137,6 @@
       "price": 0.04,
       "previousClose": 0.03,
       "timestamp": 1792638779000,
-      "percent": 33.33333333333335
-    },
-    {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792641566000,
       "percent": 33.33333333333335
     },
     {
@@ -161,10 +152,10 @@
       "symbol": "THRE.BK",
       "name": "Thai Reinsurance Public Company Limited",
       "currency": "THB",
-      "price": 0.53,
+      "price": 0.52,
       "previousClose": 0.43,
-      "timestamp": 1792643132000,
-      "percent": 23.255813953488392
+      "timestamp": 1792643707000,
+      "percent": 20.93023255813955
     },
     {
       "symbol": "PLE.BK",
@@ -194,12 +185,21 @@
       "percent": 17.948717948717952
     },
     {
+      "symbol": "RML.BK",
+      "name": "Raimon Land Public Company Limited",
+      "currency": "THB",
+      "price": 0.09,
+      "previousClose": 0.08,
+      "timestamp": 1792643550000,
+      "percent": 12.5
+    },
+    {
       "symbol": "JCK.BK",
       "name": "JCK International Public Company Limited",
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.17,
-      "timestamp": 1792642654000,
+      "timestamp": 1792643709000,
       "percent": 11.764705882352944
     },
     {
@@ -219,7 +219,7 @@
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1792642589000,
+      "timestamp": 1792643489000,
       "percent": 50
     },
     {
@@ -229,15 +229,6 @@
       "price": 0.04,
       "previousClose": 0.03,
       "timestamp": 1792638779000,
-      "percent": 33.33333333333335
-    },
-    {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792641566000,
       "percent": 33.33333333333335
     },
     {
@@ -253,10 +244,10 @@
       "symbol": "THRE.BK",
       "name": "Thai Reinsurance Public Company Limited",
       "currency": "THB",
-      "price": 0.53,
+      "price": 0.52,
       "previousClose": 0.43,
-      "timestamp": 1792643132000,
-      "percent": 23.255813953488392
+      "timestamp": 1792643707000,
+      "percent": 20.93023255813955
     },
     {
       "symbol": "PLE.BK",
@@ -286,12 +277,21 @@
       "percent": 17.948717948717952
     },
     {
+      "symbol": "RML.BK",
+      "name": "Raimon Land Public Company Limited",
+      "currency": "THB",
+      "price": 0.09,
+      "previousClose": 0.08,
+      "timestamp": 1792643550000,
+      "percent": 12.5
+    },
+    {
       "symbol": "JCK.BK",
       "name": "JCK International Public Company Limited",
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.17,
-      "timestamp": 1792642654000,
+      "timestamp": 1792643709000,
       "percent": 11.764705882352944
     },
     {
@@ -336,8 +336,17 @@
       "currency": "THB",
       "price": 22.8,
       "previousClose": 21,
-      "timestamp": 1792643081000,
+      "timestamp": 1792643584000,
       "percent": 8.571428571428585
+    },
+    {
+      "symbol": "AJA.BK",
+      "name": "AJ Advance Technology Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1792643403000,
+      "percent": 8.333333333333348
     },
     {
       "symbol": "SUPER.BK",
@@ -354,7 +363,7 @@
       "currency": "THB",
       "price": 0.39,
       "previousClose": 0.36,
-      "timestamp": 1792642989000,
+      "timestamp": 1792643336000,
       "percent": 8.333333333333348
     },
     {
@@ -367,21 +376,12 @@
       "percent": 7.692307692307709
     },
     {
-      "symbol": "MICRO.BK",
-      "name": "Micro Leasing Public Company Limited",
-      "currency": "THB",
-      "price": 1.5,
-      "previousClose": 1.4,
-      "timestamp": 1792643138000,
-      "percent": 7.14285714285714
-    },
-    {
       "symbol": "DCON.BK",
       "name": "Dcon Products Public Company Limited",
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1792642417000,
+      "timestamp": 1792643191000,
       "percent": 6.666666666666665
     },
     {
@@ -394,22 +394,22 @@
       "percent": 6.666666666666665
     },
     {
-      "symbol": "SGC.BK",
-      "name": "SG Capital Public Company Limited",
-      "currency": "THB",
-      "price": 2.24,
-      "previousClose": 2.1,
-      "timestamp": 1792643136000,
-      "percent": 6.666666666666665
-    },
-    {
       "symbol": "THREL.BK",
       "name": "Thaire Life Assurance Public Company Limited",
       "currency": "THB",
-      "price": 1.3,
+      "price": 1.29,
       "previousClose": 1.22,
-      "timestamp": 1792643144000,
-      "percent": 6.557377049180335
+      "timestamp": 1792643680000,
+      "percent": 5.737704918032782
+    },
+    {
+      "symbol": "SGC.BK",
+      "name": "SG Capital Public Company Limited",
+      "currency": "THB",
+      "price": 2.22,
+      "previousClose": 2.1,
+      "timestamp": 1792643745000,
+      "percent": 5.714285714285716
     },
     {
       "symbol": "FANCY.BK",
@@ -426,7 +426,7 @@
       "currency": "THB",
       "price": 0.58,
       "previousClose": 0.55,
-      "timestamp": 1792641376000,
+      "timestamp": 1792643262000,
       "percent": 5.454545454545445
     },
     {
@@ -457,22 +457,13 @@
       "percent": 5.263157894736836
     },
     {
-      "symbol": "SCAP.BK",
-      "name": "Srisawad Capital 1969 Public Company Limited",
+      "symbol": "MICRO.BK",
+      "name": "Micro Leasing Public Company Limited",
       "currency": "THB",
-      "price": 1.84,
-      "previousClose": 1.75,
-      "timestamp": 1792643144000,
-      "percent": 5.142857142857138
-    },
-    {
-      "symbol": "ALPHAX.BK",
-      "name": "Alpha Divisions Public Company Limited",
-      "currency": "THB",
-      "price": 0.21,
-      "previousClose": 0.2,
-      "timestamp": 1792642368000,
-      "percent": 4.999999999999982
+      "price": 1.47,
+      "previousClose": 1.4,
+      "timestamp": 1792643730000,
+      "percent": 5.000000000000004
     },
     {
       "symbol": "BROCK.BK",
@@ -482,22 +473,31 @@
       "previousClose": 1.03,
       "timestamp": 1792640542000,
       "percent": 4.854368932038833
+    },
+    {
+      "symbol": "BWG.BK",
+      "name": "Better World Green Public Company Limited",
+      "currency": "THB",
+      "price": 0.22,
+      "previousClose": 0.21,
+      "timestamp": 1792643204000,
+      "percent": 4.761904761904767
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 734,
-    "missing": 129,
+    "eligible": 740,
+    "missing": 123,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-22",
-    "scheduledSlot": "2026-10-22T11:55[Asia/Bangkok]",
-    "updatedAt": 1792644951033
+    "scheduledSlot": "2026-10-22T12:05[Asia/Bangkok]",
+    "updatedAt": 1792645555237
   },
-  "todayGainersUpdatedAt": 1792644951033,
+  "todayGainersUpdatedAt": 1792645555237,
   "items": [
     {
       "symbol": "PJW.BK",
