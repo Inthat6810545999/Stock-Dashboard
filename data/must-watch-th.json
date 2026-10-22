@@ -149,15 +149,6 @@
       "percent": 20.93023255813955
     },
     {
-      "symbol": "PLE.BK",
-      "name": "Power Line Engineering Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1792652167000,
-      "percent": 19.999999999999996
-    },
-    {
       "symbol": "PRIME.BK",
       "name": "Prime Road Power Public Company Limited",
       "currency": "THB",
@@ -210,6 +201,15 @@
       "previousClose": 0.39,
       "timestamp": 1792652167000,
       "percent": 10.256410256410241
+    },
+    {
+      "symbol": "CREDIT.BK",
+      "name": "Thai Credit Bank Public Company Limited",
+      "currency": "THB",
+      "price": 22.8,
+      "previousClose": 21,
+      "timestamp": 1792654547000,
+      "percent": 8.571428571428585
     }
   ],
   "todayCandidates": [
@@ -239,15 +239,6 @@
       "previousClose": 0.43,
       "timestamp": 1792654432000,
       "percent": 20.93023255813955
-    },
-    {
-      "symbol": "PLE.BK",
-      "name": "Power Line Engineering Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1792652167000,
-      "percent": 19.999999999999996
     },
     {
       "symbol": "PRIME.BK",
@@ -309,7 +300,7 @@
       "currency": "THB",
       "price": 22.8,
       "previousClose": 21,
-      "timestamp": 1792654359000,
+      "timestamp": 1792654547000,
       "percent": 8.571428571428585
     },
     {
@@ -349,6 +340,24 @@
       "percent": 6.060606060606055
     },
     {
+      "symbol": "THREL.BK",
+      "name": "Thaire Life Assurance Public Company Limited",
+      "currency": "THB",
+      "price": 1.29,
+      "previousClose": 1.22,
+      "timestamp": 1792654538000,
+      "percent": 5.737704918032782
+    },
+    {
+      "symbol": "SGC.BK",
+      "name": "SG Capital Public Company Limited",
+      "currency": "THB",
+      "price": 2.22,
+      "previousClose": 2.1,
+      "timestamp": 1792654541000,
+      "percent": 5.714285714285716
+    },
+    {
       "symbol": "BRI.BK",
       "name": "Britania Public Company Limited",
       "currency": "THB",
@@ -381,7 +390,7 @@
       "currency": "THB",
       "price": 0.38,
       "previousClose": 0.36,
-      "timestamp": 1792653944000,
+      "timestamp": 1792654493000,
       "percent": 5.555555555555558
     },
     {
@@ -403,15 +412,6 @@
       "percent": 4.999999999999982
     },
     {
-      "symbol": "THREL.BK",
-      "name": "Thaire Life Assurance Public Company Limited",
-      "currency": "THB",
-      "price": 1.28,
-      "previousClose": 1.22,
-      "timestamp": 1792654467000,
-      "percent": 4.918032786885251
-    },
-    {
       "symbol": "BROCK.BK",
       "name": "Baan Rock Garden Public Company Limited",
       "currency": "THB",
@@ -419,15 +419,6 @@
       "previousClose": 1.03,
       "timestamp": 1792640542000,
       "percent": 4.854368932038833
-    },
-    {
-      "symbol": "SGC.BK",
-      "name": "SG Capital Public Company Limited",
-      "currency": "THB",
-      "price": 2.2,
-      "previousClose": 2.1,
-      "timestamp": 1792654459000,
-      "percent": 4.761904761904767
     },
     {
       "symbol": "MATI.BK",
@@ -482,6 +473,15 @@
       "previousClose": 0.25,
       "timestamp": 1792653778000,
       "percent": 4.0000000000000036
+    },
+    {
+      "symbol": "PRECHA.BK",
+      "name": "Preecha Group Public Company Limited",
+      "currency": "THB",
+      "price": 0.27,
+      "previousClose": 0.26,
+      "timestamp": 1792645615000,
+      "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-22",
-    "scheduledSlot": "2026-10-22T15:00[Asia/Bangkok]",
-    "updatedAt": 1792656268792
+    "scheduledSlot": "2026-10-22T15:05[Asia/Bangkok]",
+    "updatedAt": 1792656358770
   },
-  "todayGainersUpdatedAt": 1792656268792,
+  "todayGainersUpdatedAt": 1792656358770,
   "items": [
     {
       "symbol": "PJW.BK",
