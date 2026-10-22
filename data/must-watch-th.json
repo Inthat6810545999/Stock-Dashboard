@@ -127,7 +127,7 @@
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1792656326000,
+      "timestamp": 1792657799000,
       "percent": 50
     },
     {
@@ -145,16 +145,16 @@
       "currency": "THB",
       "price": 0.53,
       "previousClose": 0.43,
-      "timestamp": 1792657296000,
+      "timestamp": 1792658072000,
       "percent": 23.255813953488392
     },
     {
-      "symbol": "PRIME.BK",
-      "name": "Prime Road Power Public Company Limited",
+      "symbol": "PLE.BK",
+      "name": "Power Line Engineering Public Company Limited",
       "currency": "THB",
       "price": 0.06,
       "previousClose": 0.05,
-      "timestamp": 1792657053000,
+      "timestamp": 1792657954000,
       "percent": 19.999999999999996
     },
     {
@@ -190,7 +190,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.17,
-      "timestamp": 1792657008000,
+      "timestamp": 1792658098000,
       "percent": 11.764705882352944
     },
     {
@@ -219,7 +219,7 @@
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1792656326000,
+      "timestamp": 1792657799000,
       "percent": 50
     },
     {
@@ -237,16 +237,16 @@
       "currency": "THB",
       "price": 0.53,
       "previousClose": 0.43,
-      "timestamp": 1792657296000,
+      "timestamp": 1792658072000,
       "percent": 23.255813953488392
     },
     {
-      "symbol": "PRIME.BK",
-      "name": "Prime Road Power Public Company Limited",
+      "symbol": "PLE.BK",
+      "name": "Power Line Engineering Public Company Limited",
       "currency": "THB",
       "price": 0.06,
       "previousClose": 0.05,
-      "timestamp": 1792657053000,
+      "timestamp": 1792657954000,
       "percent": 19.999999999999996
     },
     {
@@ -282,7 +282,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.17,
-      "timestamp": 1792657008000,
+      "timestamp": 1792658098000,
       "percent": 11.764705882352944
     },
     {
@@ -316,10 +316,28 @@
       "symbol": "CREDIT.BK",
       "name": "Thai Credit Bank Public Company Limited",
       "currency": "THB",
-      "price": 22.8,
+      "price": 22.9,
       "previousClose": 21,
-      "timestamp": 1792656742000,
-      "percent": 8.571428571428585
+      "timestamp": 1792658061000,
+      "percent": 9.047619047619037
+    },
+    {
+      "symbol": "AJA.BK",
+      "name": "AJ Advance Technology Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1792658036000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "SUPER.BK",
+      "name": "Super Energy Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1792657729000,
+      "percent": 8.333333333333348
     },
     {
       "symbol": "DCON.BK",
@@ -327,7 +345,7 @@
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1792656914000,
+      "timestamp": 1792657997000,
       "percent": 6.666666666666665
     },
     {
@@ -354,7 +372,7 @@
       "currency": "THB",
       "price": 1.29,
       "previousClose": 1.22,
-      "timestamp": 1792657525000,
+      "timestamp": 1792658022000,
       "percent": 5.737704918032782
     },
     {
@@ -390,7 +408,7 @@
       "currency": "THB",
       "price": 0.38,
       "previousClose": 0.36,
-      "timestamp": 1792657445000,
+      "timestamp": 1792658113000,
       "percent": 5.555555555555558
     },
     {
@@ -408,8 +426,17 @@
       "currency": "THB",
       "price": 1.79,
       "previousClose": 1.7,
-      "timestamp": 1792657315000,
+      "timestamp": 1792658092000,
       "percent": 5.294117647058827
+    },
+    {
+      "symbol": "AE.BK",
+      "name": "All Energy & Utilities Public Company Limited",
+      "currency": "THB",
+      "price": 0.2,
+      "previousClose": 0.19,
+      "timestamp": 1792657682000,
+      "percent": 5.263157894736836
     },
     {
       "symbol": "ALPHAX.BK",
@@ -444,17 +471,8 @@
       "currency": "THB",
       "price": 2.2,
       "previousClose": 2.1,
-      "timestamp": 1792657547000,
+      "timestamp": 1792658131000,
       "percent": 4.761904761904767
-    },
-    {
-      "symbol": "SPRC.BK",
-      "name": "Star Petroleum Refining Public Company Limited",
-      "currency": "THB",
-      "price": 15.6,
-      "previousClose": 14.9,
-      "timestamp": 1792657537000,
-      "percent": 4.697986577181212
     },
     {
       "symbol": "MATI.BK",
@@ -464,40 +482,22 @@
       "previousClose": 3,
       "timestamp": 1792644499000,
       "percent": 4.666666666666663
-    },
-    {
-      "symbol": "TAKUNI.BK",
-      "name": "Takuni Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.45,
-      "previousClose": 0.43,
-      "timestamp": 1792657138000,
-      "percent": 4.651162790697683
-    },
-    {
-      "symbol": "LDC.BK",
-      "name": "LDC Dental Public Company Limited",
-      "currency": "THB",
-      "price": 0.24,
-      "previousClose": 0.23,
-      "timestamp": 1792656942000,
-      "percent": 4.347826086956519
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 795,
-    "missing": 68,
+    "eligible": 796,
+    "missing": 67,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-22",
-    "scheduledSlot": "2026-10-22T15:55[Asia/Bangkok]",
-    "updatedAt": 1792659349766
+    "scheduledSlot": "2026-10-22T16:05[Asia/Bangkok]",
+    "updatedAt": 1792659942633
   },
-  "todayGainersUpdatedAt": 1792659349766,
+  "todayGainersUpdatedAt": 1792659942633,
   "items": [
     {
       "symbol": "PJW.BK",
