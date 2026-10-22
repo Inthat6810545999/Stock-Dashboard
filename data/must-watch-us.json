@@ -125,19 +125,28 @@
       "symbol": "SHFS",
       "name": "SHF Holdings, Inc.",
       "currency": "USD",
-      "price": 0.2383,
+      "price": 0.2493,
       "previousClose": 0.1542,
-      "timestamp": 1792680358000,
-      "percent": 54.53955901426719
+      "timestamp": 1792680957000,
+      "percent": 61.673151750972764
     },
     {
       "symbol": "STAK",
       "name": "STAK Inc.",
       "currency": "USD",
-      "price": 1.54,
+      "price": 1.5304,
       "previousClose": 1,
-      "timestamp": 1792680357000,
-      "percent": 54
+      "timestamp": 1792680957000,
+      "percent": 53.04
+    },
+    {
+      "symbol": "BKYI",
+      "name": "BIO-key International, Inc.",
+      "currency": "USD",
+      "price": 3.0507,
+      "previousClose": 2.1,
+      "timestamp": 1792680940000,
+      "percent": 45.271428571428565
     },
     {
       "symbol": "KCHVR",
@@ -152,46 +161,19 @@
       "symbol": "NCPL",
       "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 2.215,
+      "price": 2.2212,
       "previousClose": 1.57,
-      "timestamp": 1792680348000,
-      "percent": 41.08280254777068
+      "timestamp": 1792680951000,
+      "percent": 41.477707006369435
     },
     {
       "symbol": "SAIQ",
       "name": "WISeSat.Space Holdings Corp.",
       "currency": "USD",
-      "price": 7.83,
+      "price": 7.76,
       "previousClose": 5.56,
-      "timestamp": 1792680356000,
-      "percent": 40.82733812949642
-    },
-    {
-      "symbol": "BKYI",
-      "name": "BIO-key International, Inc.",
-      "currency": "USD",
-      "price": 2.855,
-      "previousClose": 2.1,
-      "timestamp": 1792680339000,
-      "percent": 35.952380952380935
-    },
-    {
-      "symbol": "BHVN",
-      "name": "Biohaven Ltd.",
-      "currency": "USD",
-      "price": 15.53,
-      "previousClose": 11.75,
-      "timestamp": 1792680337000,
-      "percent": 32.17021276595744
-    },
-    {
-      "symbol": "XLAB",
-      "name": "Exascale Labs Holdings Inc.",
-      "currency": "USD",
-      "price": 3.5701,
-      "previousClose": 2.72,
-      "timestamp": 1792680362000,
-      "percent": 31.253676470588232
+      "timestamp": 1792680956000,
+      "percent": 39.568345323741006
     },
     {
       "symbol": "MACIU",
@@ -203,13 +185,31 @@
       "percent": 30.619469026548664
     },
     {
-      "symbol": "CTSO",
-      "name": "Cytosorbents Corporation",
+      "symbol": "BHVN",
+      "name": "Biohaven Ltd.",
       "currency": "USD",
-      "price": 6.7412,
-      "previousClose": 5.35,
-      "timestamp": 1792680216000,
-      "percent": 26.00373831775702
+      "price": 15.32,
+      "previousClose": 11.75,
+      "timestamp": 1792680939000,
+      "percent": 30.382978723404253
+    },
+    {
+      "symbol": "PFSA",
+      "name": "Profusa, Inc.",
+      "currency": "USD",
+      "price": 1.055,
+      "previousClose": 0.8492,
+      "timestamp": 1792680954000,
+      "percent": 24.234573716439
+    },
+    {
+      "symbol": "FLL",
+      "name": "Full House Resorts, Inc.",
+      "currency": "USD",
+      "price": 1.16,
+      "previousClose": 0.9424,
+      "timestamp": 1792680931000,
+      "percent": 23.0899830220713
     }
   ],
   "todayCandidates": [
@@ -217,19 +217,28 @@
       "symbol": "SHFS",
       "name": "SHF Holdings, Inc.",
       "currency": "USD",
-      "price": 0.2383,
+      "price": 0.2493,
       "previousClose": 0.1542,
-      "timestamp": 1792680358000,
-      "percent": 54.53955901426719
+      "timestamp": 1792680957000,
+      "percent": 61.673151750972764
     },
     {
       "symbol": "STAK",
       "name": "STAK Inc.",
       "currency": "USD",
-      "price": 1.54,
+      "price": 1.5304,
       "previousClose": 1,
-      "timestamp": 1792680357000,
-      "percent": 54
+      "timestamp": 1792680957000,
+      "percent": 53.04
+    },
+    {
+      "symbol": "BKYI",
+      "name": "BIO-key International, Inc.",
+      "currency": "USD",
+      "price": 3.0507,
+      "previousClose": 2.1,
+      "timestamp": 1792680940000,
+      "percent": 45.271428571428565
     },
     {
       "symbol": "KCHVR",
@@ -244,46 +253,19 @@
       "symbol": "NCPL",
       "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 2.215,
+      "price": 2.2212,
       "previousClose": 1.57,
-      "timestamp": 1792680348000,
-      "percent": 41.08280254777068
+      "timestamp": 1792680951000,
+      "percent": 41.477707006369435
     },
     {
       "symbol": "SAIQ",
       "name": "WISeSat.Space Holdings Corp.",
       "currency": "USD",
-      "price": 7.83,
+      "price": 7.76,
       "previousClose": 5.56,
-      "timestamp": 1792680356000,
-      "percent": 40.82733812949642
-    },
-    {
-      "symbol": "BKYI",
-      "name": "BIO-key International, Inc.",
-      "currency": "USD",
-      "price": 2.855,
-      "previousClose": 2.1,
-      "timestamp": 1792680339000,
-      "percent": 35.952380952380935
-    },
-    {
-      "symbol": "BHVN",
-      "name": "Biohaven Ltd.",
-      "currency": "USD",
-      "price": 15.53,
-      "previousClose": 11.75,
-      "timestamp": 1792680337000,
-      "percent": 32.17021276595744
-    },
-    {
-      "symbol": "XLAB",
-      "name": "Exascale Labs Holdings Inc.",
-      "currency": "USD",
-      "price": 3.5701,
-      "previousClose": 2.72,
-      "timestamp": 1792680362000,
-      "percent": 31.253676470588232
+      "timestamp": 1792680956000,
+      "percent": 39.568345323741006
     },
     {
       "symbol": "MACIU",
@@ -295,112 +277,175 @@
       "percent": 30.619469026548664
     },
     {
-      "symbol": "CTSO",
-      "name": "Cytosorbents Corporation",
+      "symbol": "BHVN",
+      "name": "Biohaven Ltd.",
       "currency": "USD",
-      "price": 6.7412,
-      "previousClose": 5.35,
-      "timestamp": 1792680216000,
-      "percent": 26.00373831775702
+      "price": 15.32,
+      "previousClose": 11.75,
+      "timestamp": 1792680939000,
+      "percent": 30.382978723404253
     },
     {
       "symbol": "PFSA",
       "name": "Profusa, Inc.",
       "currency": "USD",
-      "price": 1.04,
+      "price": 1.055,
       "previousClose": 0.8492,
-      "timestamp": 1792680352000,
-      "percent": 22.468205369759776
+      "timestamp": 1792680954000,
+      "percent": 24.234573716439
     },
     {
       "symbol": "FLL",
       "name": "Full House Resorts, Inc.",
       "currency": "USD",
-      "price": 1.145,
+      "price": 1.16,
       "previousClose": 0.9424,
-      "timestamp": 1792680340000,
-      "percent": 21.498302207130738
+      "timestamp": 1792680931000,
+      "percent": 23.0899830220713
     },
     {
-      "symbol": "XXII",
-      "name": "22nd Century Group, Inc.",
+      "symbol": "XLAB",
+      "name": "Exascale Labs Holdings Inc.",
       "currency": "USD",
-      "price": 0.3291,
-      "previousClose": 0.2729,
-      "timestamp": 1792680360000,
-      "percent": 20.593624038109205
+      "price": 3.34,
+      "previousClose": 2.72,
+      "timestamp": 1792680961000,
+      "percent": 22.79411764705881
     },
     {
       "symbol": "XCUR",
       "name": "Exicure, Inc.",
       "currency": "USD",
-      "price": 1.21,
+      "price": 1.23,
       "previousClose": 1.02,
-      "timestamp": 1792680239000,
-      "percent": 18.627450980392158
+      "timestamp": 1792680894000,
+      "percent": 20.58823529411764
     },
     {
-      "symbol": "RFAIR",
-      "name": "RF Acquisition Corp II",
+      "symbol": "CTSO",
+      "name": "Cytosorbents Corporation",
       "currency": "USD",
-      "price": 0.225,
-      "previousClose": 0.19,
-      "timestamp": 1792680339000,
-      "percent": 18.421052631578938
-    },
-    {
-      "symbol": "TCX",
-      "name": "Tucows Inc.",
-      "currency": "USD",
-      "price": 11.1713,
-      "previousClose": 9.49,
-      "timestamp": 1792680332000,
-      "percent": 17.716543730242364
-    },
-    {
-      "symbol": "KPTI",
-      "name": "Karyopharm Therapeutics Inc.",
-      "currency": "USD",
-      "price": 0.4948,
-      "previousClose": 0.4244,
-      "timestamp": 1792680323000,
-      "percent": 16.58812441093309
-    },
-    {
-      "symbol": "VSME",
-      "name": "VS MEDIA Holdings Limited",
-      "currency": "USD",
-      "price": 0.805,
-      "previousClose": 0.6944,
-      "timestamp": 1792680316000,
-      "percent": 15.927419354838722
-    },
-    {
-      "symbol": "TRON",
-      "name": "Tron Inc.",
-      "currency": "USD",
-      "price": 1.435,
-      "previousClose": 1.24,
-      "timestamp": 1792680358000,
-      "percent": 15.7258064516129
-    },
-    {
-      "symbol": "CRMT",
-      "name": "America's Car-Mart, Inc.",
-      "currency": "USD",
-      "price": 0.7588,
-      "previousClose": 0.6597,
-      "timestamp": 1792680336000,
-      "percent": 15.021979687736863
+      "price": 6.3814,
+      "previousClose": 5.35,
+      "timestamp": 1792680896000,
+      "percent": 19.2785046728972
     },
     {
       "symbol": "WORX",
       "name": "SCWorx Corp.",
       "currency": "USD",
-      "price": 2.78,
+      "price": 2.8409,
       "previousClose": 2.42,
-      "timestamp": 1792680361000,
-      "percent": 14.876033057851235
+      "timestamp": 1792680958000,
+      "percent": 17.392561983471076
+    },
+    {
+      "symbol": "LHAI",
+      "name": "Linkhome Holdings Inc.",
+      "currency": "USD",
+      "price": 0.963,
+      "previousClose": 0.821,
+      "timestamp": 1792680940000,
+      "percent": 17.295980511571262
+    },
+    {
+      "symbol": "TCX",
+      "name": "Tucows Inc.",
+      "currency": "USD",
+      "price": 11.13,
+      "previousClose": 9.49,
+      "timestamp": 1792680682000,
+      "percent": 17.281348788198116
+    },
+    {
+      "symbol": "MLTX",
+      "name": "MoonLake Immunotherapeutics",
+      "currency": "USD",
+      "price": 12.39,
+      "previousClose": 10.65,
+      "timestamp": 1792680932000,
+      "percent": 16.338028169014084
+    },
+    {
+      "symbol": "KPTI",
+      "name": "Karyopharm Therapeutics Inc.",
+      "currency": "USD",
+      "price": 0.4933,
+      "previousClose": 0.4244,
+      "timestamp": 1792680945000,
+      "percent": 16.23468426013195
+    },
+    {
+      "symbol": "YHC",
+      "name": "LQR House Inc.",
+      "currency": "USD",
+      "price": 2.08,
+      "previousClose": 1.79,
+      "timestamp": 1792680958000,
+      "percent": 16.201117318435763
+    },
+    {
+      "symbol": "XXII",
+      "name": "22nd Century Group, Inc.",
+      "currency": "USD",
+      "price": 0.3171,
+      "previousClose": 0.2729,
+      "timestamp": 1792680960000,
+      "percent": 16.196408941004048
+    },
+    {
+      "symbol": "TROO",
+      "name": "TROOPS, Inc.",
+      "currency": "USD",
+      "price": 1.94,
+      "previousClose": 1.67,
+      "timestamp": 1792680829000,
+      "percent": 16.167664670658688
+    },
+    {
+      "symbol": "MTEN",
+      "name": "Mingteng International Corporation Inc.",
+      "currency": "USD",
+      "price": 1.02,
+      "previousClose": 0.8782,
+      "timestamp": 1792680952000,
+      "percent": 16.14666363015258
+    },
+    {
+      "symbol": "VSME",
+      "name": "VS MEDIA Holdings Limited",
+      "currency": "USD",
+      "price": 0.8001,
+      "previousClose": 0.6944,
+      "timestamp": 1792680907000,
+      "percent": 15.221774193548399
+    },
+    {
+      "symbol": "CRMT",
+      "name": "America's Car-Mart, Inc.",
+      "currency": "USD",
+      "price": 0.76,
+      "previousClose": 0.6597,
+      "timestamp": 1792680923000,
+      "percent": 15.203880551765959
+    },
+    {
+      "symbol": "FBLG",
+      "name": "FibroBiologics, Inc.",
+      "currency": "USD",
+      "price": 1.15,
+      "previousClose": 1,
+      "timestamp": 1792680868000,
+      "percent": 14.999999999999991
+    },
+    {
+      "symbol": "TRON",
+      "name": "Tron Inc.",
+      "currency": "USD",
+      "price": 1.425,
+      "previousClose": 1.24,
+      "timestamp": 1792680959000,
+      "percent": 14.919354838709676
     },
     {
       "symbol": "MACI",
@@ -412,40 +457,22 @@
       "percent": 14.819090909090903
     },
     {
-      "symbol": "TROO",
-      "name": "TROOPS, Inc.",
+      "symbol": "ESLA",
+      "name": "Estrella Immunopharma, Inc.",
       "currency": "USD",
-      "price": 1.91,
-      "previousClose": 1.67,
-      "timestamp": 1792680359000,
-      "percent": 14.371257485029943
+      "price": 0.6308,
+      "previousClose": 0.55,
+      "timestamp": 1792680944000,
+      "percent": 14.690909090909088
     },
     {
-      "symbol": "YHC",
-      "name": "LQR House Inc.",
+      "symbol": "REED",
+      "name": "Reed's, Inc.",
       "currency": "USD",
-      "price": 2.04,
-      "previousClose": 1.79,
-      "timestamp": 1792680154000,
-      "percent": 13.966480446927365
-    },
-    {
-      "symbol": "MLTX",
-      "name": "MoonLake Immunotherapeutics",
-      "currency": "USD",
-      "price": 12.07,
-      "previousClose": 10.65,
-      "timestamp": 1792680321000,
-      "percent": 13.33333333333333
-    },
-    {
-      "symbol": "FBLG",
-      "name": "FibroBiologics, Inc.",
-      "currency": "USD",
-      "price": 1.13,
-      "previousClose": 1,
-      "timestamp": 1792680298000,
-      "percent": 12.99999999999999
+      "price": 0.4555,
+      "previousClose": 0.402,
+      "timestamp": 1792680908000,
+      "percent": 13.308457711442777
     },
     {
       "symbol": "YIBO",
@@ -455,33 +482,6 @@
       "previousClose": 1,
       "timestamp": 1792679386000,
       "percent": 12.99999999999999
-    },
-    {
-      "symbol": "MTEN",
-      "name": "Mingteng International Corporation Inc.",
-      "currency": "USD",
-      "price": 0.991,
-      "previousClose": 0.8782,
-      "timestamp": 1792680349000,
-      "percent": 12.84445456615806
-    },
-    {
-      "symbol": "SKYQ",
-      "name": "Sky Quarry Inc.",
-      "currency": "USD",
-      "price": 2.4357,
-      "previousClose": 2.16,
-      "timestamp": 1792680349000,
-      "percent": 12.763888888888886
-    },
-    {
-      "symbol": "HBNB",
-      "name": "Hotel101 Global Holdings Corp.",
-      "currency": "USD",
-      "price": 4.8,
-      "previousClose": 4.3,
-      "timestamp": 1792680245000,
-      "percent": 11.627906976744185
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-22T10:45[America/New_York]",
-    "updatedAt": 1792680363705
+    "scheduledSlot": "2026-10-22T10:55[America/New_York]",
+    "updatedAt": 1792680963503
   },
-  "todayGainersUpdatedAt": 1792680363705,
+  "todayGainersUpdatedAt": 1792680963503,
   "items": [
     {
       "symbol": "KSPI",
