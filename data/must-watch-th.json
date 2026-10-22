@@ -140,15 +140,6 @@
       "percent": 33.33333333333335
     },
     {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792640478000,
-      "percent": 33.33333333333335
-    },
-    {
       "symbol": "TFI.BK",
       "name": "Thai Future Incorporation Public Company Limited",
       "currency": "THB",
@@ -163,7 +154,7 @@
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.43,
-      "timestamp": 1792640746000,
+      "timestamp": 1792641348000,
       "percent": 20.93023255813955
     },
     {
@@ -190,17 +181,8 @@
       "currency": "THB",
       "price": 0.46,
       "previousClose": 0.39,
-      "timestamp": 1792640362000,
+      "timestamp": 1792641339000,
       "percent": 17.948717948717952
-    },
-    {
-      "symbol": "JCK.BK",
-      "name": "JCK International Public Company Limited",
-      "currency": "THB",
-      "price": 0.2,
-      "previousClose": 0.17,
-      "timestamp": 1792640701000,
-      "percent": 17.647058823529417
     },
     {
       "symbol": "VIBE.BK",
@@ -210,6 +192,24 @@
       "previousClose": 0.39,
       "timestamp": 1792637930000,
       "percent": 12.82051282051282
+    },
+    {
+      "symbol": "JCK.BK",
+      "name": "JCK International Public Company Limited",
+      "currency": "THB",
+      "price": 0.19,
+      "previousClose": 0.17,
+      "timestamp": 1792641346000,
+      "percent": 11.764705882352944
+    },
+    {
+      "symbol": "CGD.BK",
+      "name": "Country Group Development Public Company Limited",
+      "currency": "THB",
+      "price": 0.1,
+      "previousClose": 0.09,
+      "timestamp": 1792640935000,
+      "percent": 11.111111111111116
     }
   ],
   "todayCandidates": [
@@ -232,15 +232,6 @@
       "percent": 33.33333333333335
     },
     {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1792640478000,
-      "percent": 33.33333333333335
-    },
-    {
       "symbol": "TFI.BK",
       "name": "Thai Future Incorporation Public Company Limited",
       "currency": "THB",
@@ -255,7 +246,7 @@
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.43,
-      "timestamp": 1792640746000,
+      "timestamp": 1792641348000,
       "percent": 20.93023255813955
     },
     {
@@ -282,17 +273,8 @@
       "currency": "THB",
       "price": 0.46,
       "previousClose": 0.39,
-      "timestamp": 1792640362000,
+      "timestamp": 1792641339000,
       "percent": 17.948717948717952
-    },
-    {
-      "symbol": "JCK.BK",
-      "name": "JCK International Public Company Limited",
-      "currency": "THB",
-      "price": 0.2,
-      "previousClose": 0.17,
-      "timestamp": 1792640701000,
-      "percent": 17.647058823529417
     },
     {
       "symbol": "VIBE.BK",
@@ -304,22 +286,40 @@
       "percent": 12.82051282051282
     },
     {
-      "symbol": "THREL.BK",
-      "name": "Thaire Life Assurance Public Company Limited",
+      "symbol": "JCK.BK",
+      "name": "JCK International Public Company Limited",
       "currency": "THB",
-      "price": 1.33,
-      "previousClose": 1.22,
-      "timestamp": 1792640747000,
-      "percent": 9.016393442622949
+      "price": 0.19,
+      "previousClose": 0.17,
+      "timestamp": 1792641346000,
+      "percent": 11.764705882352944
+    },
+    {
+      "symbol": "CGD.BK",
+      "name": "Country Group Development Public Company Limited",
+      "currency": "THB",
+      "price": 0.1,
+      "previousClose": 0.09,
+      "timestamp": 1792640935000,
+      "percent": 11.111111111111116
+    },
+    {
+      "symbol": "SUPER.BK",
+      "name": "Super Energy Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1792641336000,
+      "percent": 8.333333333333348
     },
     {
       "symbol": "CREDIT.BK",
       "name": "Thai Credit Bank Public Company Limited",
       "currency": "THB",
-      "price": 22.6,
+      "price": 22.7,
       "previousClose": 21,
-      "timestamp": 1792640661000,
-      "percent": 7.619047619047636
+      "timestamp": 1792641345000,
+      "percent": 8.095238095238088
     },
     {
       "symbol": "DCON.BK",
@@ -327,7 +327,7 @@
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1792640330000,
+      "timestamp": 1792641344000,
       "percent": 6.666666666666665
     },
     {
@@ -340,6 +340,15 @@
       "percent": 6.666666666666665
     },
     {
+      "symbol": "THREL.BK",
+      "name": "Thaire Life Assurance Public Company Limited",
+      "currency": "THB",
+      "price": 1.3,
+      "previousClose": 1.22,
+      "timestamp": 1792641345000,
+      "percent": 6.557377049180335
+    },
+    {
       "symbol": "DPAINT.BK",
       "name": "Delta Paint Public Company Limited",
       "currency": "THB",
@@ -347,15 +356,6 @@
       "previousClose": 0.17,
       "timestamp": 1792639634000,
       "percent": 5.88235294117645
-    },
-    {
-      "symbol": "BRI.BK",
-      "name": "Britania Public Company Limited",
-      "currency": "THB",
-      "price": 1.32,
-      "previousClose": 1.25,
-      "timestamp": 1792640697000,
-      "percent": 5.600000000000005
     },
     {
       "symbol": "FANCY.BK",
@@ -367,15 +367,6 @@
       "percent": 5.555555555555558
     },
     {
-      "symbol": "SKE.BK",
-      "name": "Sakol Energy Public Company Limited",
-      "currency": "THB",
-      "price": 0.19,
-      "previousClose": 0.18,
-      "timestamp": 1792640711000,
-      "percent": 5.555555555555558
-    },
-    {
       "symbol": "BPS.BK",
       "name": "BPS Technology Public Company Limited",
       "currency": "THB",
@@ -383,15 +374,6 @@
       "previousClose": 0.55,
       "timestamp": 1792640576000,
       "percent": 5.454545454545445
-    },
-    {
-      "symbol": "AMR.BK",
-      "name": "AMR Asia Public Company Limited",
-      "currency": "THB",
-      "price": 0.39,
-      "previousClose": 0.37,
-      "timestamp": 1792639714000,
-      "percent": 5.405405405405417
     },
     {
       "symbol": "ALPHAX.BK",
@@ -412,13 +394,13 @@
       "percent": 4.854368932038833
     },
     {
-      "symbol": "SYMC.BK",
-      "name": "Symphony Communication Public Company Limited",
+      "symbol": "SGC.BK",
+      "name": "SG Capital Public Company Limited",
       "currency": "THB",
-      "price": 6.85,
-      "previousClose": 6.55,
-      "timestamp": 1792640150000,
-      "percent": 4.580152671755733
+      "price": 2.2,
+      "previousClose": 2.1,
+      "timestamp": 1792641346000,
+      "percent": 4.761904761904767
     },
     {
       "symbol": "ADB.BK",
@@ -426,7 +408,7 @@
       "currency": "THB",
       "price": 1.15,
       "previousClose": 1.1,
-      "timestamp": 1792640685000,
+      "timestamp": 1792641279000,
       "percent": 4.545454545454519
     },
     {
@@ -453,7 +435,25 @@
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.5,
-      "timestamp": 1792640440000,
+      "timestamp": 1792641080000,
+      "percent": 4.0000000000000036
+    },
+    {
+      "symbol": "BRI.BK",
+      "name": "Britania Public Company Limited",
+      "currency": "THB",
+      "price": 1.3,
+      "previousClose": 1.25,
+      "timestamp": 1792641341000,
+      "percent": 4.0000000000000036
+    },
+    {
+      "symbol": "STELLA.BK",
+      "name": "Stella X Public Company Limited",
+      "currency": "THB",
+      "price": 0.26,
+      "previousClose": 0.25,
+      "timestamp": 1792641219000,
       "percent": 4.0000000000000036
     },
     {
@@ -462,7 +462,7 @@
       "currency": "THB",
       "price": 0.79,
       "previousClose": 0.76,
-      "timestamp": 1792640541000,
+      "timestamp": 1792641314000,
       "percent": 3.9473684210526327
     },
     {
@@ -471,33 +471,33 @@
       "currency": "THB",
       "price": 0.27,
       "previousClose": 0.26,
-      "timestamp": 1792639742000,
+      "timestamp": 1792640850000,
       "percent": 3.8461538461538547
     },
     {
-      "symbol": "SKN.BK",
-      "name": "S.Kijchai Enterprise Public Company Limited",
+      "symbol": "SYMC.BK",
+      "name": "Symphony Communication Public Company Limited",
       "currency": "THB",
-      "price": 4.96,
-      "previousClose": 4.78,
-      "timestamp": 1792639364000,
-      "percent": 3.765690376569042
+      "price": 6.8,
+      "previousClose": 6.55,
+      "timestamp": 1792640991000,
+      "percent": 3.8167938931297662
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 700,
-    "missing": 163,
+    "eligible": 716,
+    "missing": 147,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-22",
-    "scheduledSlot": "2026-10-22T11:15[Asia/Bangkok]",
-    "updatedAt": 1792642549310
+    "scheduledSlot": "2026-10-22T11:25[Asia/Bangkok]",
+    "updatedAt": 1792643151594
   },
-  "todayGainersUpdatedAt": 1792642549310,
+  "todayGainersUpdatedAt": 1792643151594,
   "items": [
     {
       "symbol": "PJW.BK",
