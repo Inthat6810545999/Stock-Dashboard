@@ -125,91 +125,91 @@
       "symbol": "AIOK",
       "name": "AI OKTO CORP.",
       "currency": "USD",
-      "price": 11.405,
+      "price": 12.64,
       "previousClose": 4.25,
-      "timestamp": 1792783545000,
-      "percent": 168.3529411764706
+      "timestamp": 1792783830000,
+      "percent": 197.41176470588235
     },
     {
       "symbol": "LYCA",
       "name": "Lycia Therapeutics, Inc. Common Stock",
       "currency": "USD",
-      "price": 32.35,
+      "price": 30.895,
       "previousClose": 18,
-      "timestamp": 1792783552000,
-      "percent": 79.72222222222223
+      "timestamp": 1792784152000,
+      "percent": 71.6388888888889
     },
     {
       "symbol": "CLRO",
       "name": "ClearOne, Inc.",
       "currency": "USD",
-      "price": 3.2,
+      "price": 3.23,
       "previousClose": 1.92,
-      "timestamp": 1792783549000,
-      "percent": 66.66666666666667
+      "timestamp": 1792784138000,
+      "percent": 68.22916666666667
     },
     {
       "symbol": "BOLT",
       "name": "Bolt Biotherapeutics, Inc.",
       "currency": "USD",
-      "price": 6.42,
+      "price": 6.3146,
       "previousClose": 4.19,
-      "timestamp": 1792783537000,
-      "percent": 53.221957040572775
+      "timestamp": 1792784144000,
+      "percent": 50.70644391408115
     },
     {
       "symbol": "JYD",
       "name": "Jayud Global Logistics Limited",
       "currency": "USD",
-      "price": 1.8399,
+      "price": 1.8194,
       "previousClose": 1.38,
-      "timestamp": 1792783556000,
-      "percent": 33.32608695652175
+      "timestamp": 1792784131000,
+      "percent": 31.840579710144933
     },
     {
-      "symbol": "HTCO",
-      "name": "High-Trend International Group",
+      "symbol": "GPUS",
+      "name": "Hyperscale Data, Inc.",
       "currency": "USD",
-      "price": 1.52,
-      "previousClose": 1.17,
-      "timestamp": 1792783528000,
-      "percent": 29.91452991452992
+      "price": 0.1657,
+      "previousClose": 0.126,
+      "timestamp": 1792784151000,
+      "percent": 31.507936507936506
     },
     {
       "symbol": "LUCD",
       "name": "Lucid Diagnostics Inc.",
       "currency": "USD",
-      "price": 0.4193,
+      "price": 0.4255,
       "previousClose": 0.3277,
-      "timestamp": 1792783553000,
-      "percent": 27.952395483674096
+      "timestamp": 1792784153000,
+      "percent": 29.844369850472987
     },
     {
-      "symbol": "XTIA",
-      "name": "XTI Aerospace, Inc.",
+      "symbol": "HTCO",
+      "name": "High-Trend International Group",
       "currency": "USD",
-      "price": 1.085,
-      "previousClose": 0.85,
-      "timestamp": 1792783560000,
-      "percent": 27.647058823529402
+      "price": 1.51,
+      "previousClose": 1.17,
+      "timestamp": 1792784118000,
+      "percent": 29.059829059829067
     },
     {
       "symbol": "ESLA",
       "name": "Estrella Immunopharma, Inc.",
       "currency": "USD",
-      "price": 0.926,
+      "price": 0.9338,
       "previousClose": 0.7268,
-      "timestamp": 1792783543000,
-      "percent": 27.40781507980188
+      "timestamp": 1792784102000,
+      "percent": 28.481012658227844
     },
     {
-      "symbol": "BKYI",
-      "name": "BIO-key International, Inc.",
+      "symbol": "XTIA",
+      "name": "XTI Aerospace, Inc.",
       "currency": "USD",
-      "price": 3.46,
-      "previousClose": 2.74,
-      "timestamp": 1792783521000,
-      "percent": 26.277372262773714
+      "price": 1.08,
+      "previousClose": 0.85,
+      "timestamp": 1792784133000,
+      "percent": 27.05882352941178
     }
   ],
   "todayCandidates": [
@@ -217,190 +217,199 @@
       "symbol": "AIOK",
       "name": "AI OKTO CORP.",
       "currency": "USD",
-      "price": 11.405,
+      "price": 12.64,
       "previousClose": 4.25,
-      "timestamp": 1792783545000,
-      "percent": 168.3529411764706
+      "timestamp": 1792783830000,
+      "percent": 197.41176470588235
     },
     {
       "symbol": "LYCA",
       "name": "Lycia Therapeutics, Inc. Common Stock",
       "currency": "USD",
-      "price": 32.35,
+      "price": 30.895,
       "previousClose": 18,
-      "timestamp": 1792783552000,
-      "percent": 79.72222222222223
+      "timestamp": 1792784152000,
+      "percent": 71.6388888888889
     },
     {
       "symbol": "CLRO",
       "name": "ClearOne, Inc.",
       "currency": "USD",
-      "price": 3.2,
+      "price": 3.23,
       "previousClose": 1.92,
-      "timestamp": 1792783549000,
-      "percent": 66.66666666666667
+      "timestamp": 1792784138000,
+      "percent": 68.22916666666667
     },
     {
       "symbol": "BOLT",
       "name": "Bolt Biotherapeutics, Inc.",
       "currency": "USD",
-      "price": 6.42,
+      "price": 6.3146,
       "previousClose": 4.19,
-      "timestamp": 1792783537000,
-      "percent": 53.221957040572775
+      "timestamp": 1792784144000,
+      "percent": 50.70644391408115
     },
     {
       "symbol": "JYD",
       "name": "Jayud Global Logistics Limited",
       "currency": "USD",
-      "price": 1.8399,
+      "price": 1.8194,
       "previousClose": 1.38,
-      "timestamp": 1792783556000,
-      "percent": 33.32608695652175
-    },
-    {
-      "symbol": "HTCO",
-      "name": "High-Trend International Group",
-      "currency": "USD",
-      "price": 1.52,
-      "previousClose": 1.17,
-      "timestamp": 1792783528000,
-      "percent": 29.91452991452992
-    },
-    {
-      "symbol": "LUCD",
-      "name": "Lucid Diagnostics Inc.",
-      "currency": "USD",
-      "price": 0.4193,
-      "previousClose": 0.3277,
-      "timestamp": 1792783553000,
-      "percent": 27.952395483674096
-    },
-    {
-      "symbol": "XTIA",
-      "name": "XTI Aerospace, Inc.",
-      "currency": "USD",
-      "price": 1.085,
-      "previousClose": 0.85,
-      "timestamp": 1792783560000,
-      "percent": 27.647058823529402
-    },
-    {
-      "symbol": "ESLA",
-      "name": "Estrella Immunopharma, Inc.",
-      "currency": "USD",
-      "price": 0.926,
-      "previousClose": 0.7268,
-      "timestamp": 1792783543000,
-      "percent": 27.40781507980188
-    },
-    {
-      "symbol": "BKYI",
-      "name": "BIO-key International, Inc.",
-      "currency": "USD",
-      "price": 3.46,
-      "previousClose": 2.74,
-      "timestamp": 1792783521000,
-      "percent": 26.277372262773714
-    },
-    {
-      "symbol": "BKHA",
-      "name": "Black Hawk Acquisition Corporation",
-      "currency": "USD",
-      "price": 5.4,
-      "previousClose": 4.29,
-      "timestamp": 1792783493000,
-      "percent": 25.874125874125873
-    },
-    {
-      "symbol": "IMC",
-      "name": "IMC Rare Earths Ltd",
-      "currency": "USD",
-      "price": 8.7706,
-      "previousClose": 7,
-      "timestamp": 1792783538000,
-      "percent": 25.294285714285714
+      "timestamp": 1792784131000,
+      "percent": 31.840579710144933
     },
     {
       "symbol": "GPUS",
       "name": "Hyperscale Data, Inc.",
       "currency": "USD",
-      "price": 0.1572,
+      "price": 0.1657,
       "previousClose": 0.126,
-      "timestamp": 1792783554000,
-      "percent": 24.761904761904763
+      "timestamp": 1792784151000,
+      "percent": 31.507936507936506
     },
     {
-      "symbol": "STEX",
-      "name": "Streamex Corp.",
+      "symbol": "LUCD",
+      "name": "Lucid Diagnostics Inc.",
       "currency": "USD",
-      "price": 0.4446,
-      "previousClose": 0.3573,
-      "timestamp": 1792783522000,
-      "percent": 24.433249370277068
+      "price": 0.4255,
+      "previousClose": 0.3277,
+      "timestamp": 1792784153000,
+      "percent": 29.844369850472987
+    },
+    {
+      "symbol": "HTCO",
+      "name": "High-Trend International Group",
+      "currency": "USD",
+      "price": 1.51,
+      "previousClose": 1.17,
+      "timestamp": 1792784118000,
+      "percent": 29.059829059829067
+    },
+    {
+      "symbol": "ESLA",
+      "name": "Estrella Immunopharma, Inc.",
+      "currency": "USD",
+      "price": 0.9338,
+      "previousClose": 0.7268,
+      "timestamp": 1792784102000,
+      "percent": 28.481012658227844
+    },
+    {
+      "symbol": "XTIA",
+      "name": "XTI Aerospace, Inc.",
+      "currency": "USD",
+      "price": 1.08,
+      "previousClose": 0.85,
+      "timestamp": 1792784133000,
+      "percent": 27.05882352941178
+    },
+    {
+      "symbol": "IMC",
+      "name": "IMC Rare Earths Ltd",
+      "currency": "USD",
+      "price": 8.765,
+      "previousClose": 7,
+      "timestamp": 1792784007000,
+      "percent": 25.214285714285722
+    },
+    {
+      "symbol": "BKYI",
+      "name": "BIO-key International, Inc.",
+      "currency": "USD",
+      "price": 3.4131,
+      "previousClose": 2.74,
+      "timestamp": 1792784090000,
+      "percent": 24.565693430656932
     },
     {
       "symbol": "RHI",
       "name": "Robert Half Inc.",
       "currency": "USD",
-      "price": 46.29,
+      "price": 46.415,
       "previousClose": 37.68,
-      "timestamp": 1792783537000,
-      "percent": 22.850318471337584
+      "timestamp": 1792784145000,
+      "percent": 23.182059447983015
+    },
+    {
+      "symbol": "STEX",
+      "name": "Streamex Corp.",
+      "currency": "USD",
+      "price": 0.4392,
+      "previousClose": 0.3573,
+      "timestamp": 1792784074000,
+      "percent": 22.921914357682603
     },
     {
       "symbol": "LICN",
       "name": "Lichen International Limited",
       "currency": "USD",
-      "price": 1.0338,
+      "price": 1.0552,
       "previousClose": 0.86,
-      "timestamp": 1792783239000,
-      "percent": 20.2093023255814
-    },
-    {
-      "symbol": "AIRE",
-      "name": "reAlpha Tech Corp.",
-      "currency": "USD",
-      "price": 0.96,
-      "previousClose": 0.8,
-      "timestamp": 1792783514000,
-      "percent": 19.999999999999996
-    },
-    {
-      "symbol": "NAUT",
-      "name": "Nautilus Biotechnology, Inc.",
-      "currency": "USD",
-      "price": 3.115,
-      "previousClose": 2.6,
-      "timestamp": 1792783551000,
-      "percent": 19.807692307692303
+      "timestamp": 1792783857000,
+      "percent": 22.69767441860464
     },
     {
       "symbol": "QSI",
       "name": "Quantum-Si incorporated",
       "currency": "USD",
-      "price": 1.375,
+      "price": 1.4001,
       "previousClose": 1.15,
-      "timestamp": 1792783547000,
-      "percent": 19.56521739130437
+      "timestamp": 1792784155000,
+      "percent": 21.74782608695651
     },
     {
       "symbol": "UWMC",
       "name": "UWM Holdings Corporation",
       "currency": "USD",
-      "price": 1.375,
+      "price": 1.4,
       "previousClose": 1.15,
-      "timestamp": 1792783567000,
-      "percent": 19.56521739130437
+      "timestamp": 1792784153000,
+      "percent": 21.739130434782616
     },
     {
-      "symbol": "VEEA",
-      "name": "Veea Inc.",
+      "symbol": "AIRE",
+      "name": "reAlpha Tech Corp.",
       "currency": "USD",
-      "price": 4.95,
-      "previousClose": 4.19,
-      "timestamp": 1792783564000,
-      "percent": 18.138424821002385
+      "price": 0.97,
+      "previousClose": 0.8,
+      "timestamp": 1792784034000,
+      "percent": 21.249999999999993
+    },
+    {
+      "symbol": "NAUT",
+      "name": "Nautilus Biotechnology, Inc.",
+      "currency": "USD",
+      "price": 3.13,
+      "previousClose": 2.6,
+      "timestamp": 1792784152000,
+      "percent": 20.38461538461538
+    },
+    {
+      "symbol": "BKHA",
+      "name": "Black Hawk Acquisition Corporation",
+      "currency": "USD",
+      "price": 5.13,
+      "previousClose": 4.29,
+      "timestamp": 1792784060000,
+      "percent": 19.580419580419584
+    },
+    {
+      "symbol": "FMST",
+      "name": "Foremost Clean Energy Ltd.",
+      "currency": "USD",
+      "price": 0.5274,
+      "previousClose": 0.446,
+      "timestamp": 1792784103000,
+      "percent": 18.25112107623317
+    },
+    {
+      "symbol": "CNDT",
+      "name": "Conduent Incorporated",
+      "currency": "USD",
+      "price": 1.755,
+      "previousClose": 1.49,
+      "timestamp": 1792784144000,
+      "percent": 17.785234899328863
     },
     {
       "symbol": "EPOW",
@@ -421,67 +430,58 @@
       "percent": 17.65913757700204
     },
     {
-      "symbol": "NIVF",
-      "name": "NewGenIvf Group Limited",
+      "symbol": "VEEA",
+      "name": "Veea Inc.",
       "currency": "USD",
-      "price": 1.3999,
-      "previousClose": 1.1912,
-      "timestamp": 1792783196000,
-      "percent": 17.52014775016788
-    },
-    {
-      "symbol": "FFR",
-      "name": "FF EAI Robotics Ecosystem Inc.",
-      "currency": "USD",
-      "price": 1.175,
-      "previousClose": 1,
-      "timestamp": 1792783413000,
-      "percent": 17.500000000000004
-    },
-    {
-      "symbol": "TORO",
-      "name": "Toro Corp.",
-      "currency": "USD",
-      "price": 4.25,
-      "previousClose": 3.66,
-      "timestamp": 1792783099000,
-      "percent": 16.120218579234958
-    },
-    {
-      "symbol": "EAF",
-      "name": "GrafTech International Ltd.",
-      "currency": "USD",
-      "price": 8.64,
-      "previousClose": 7.45,
-      "timestamp": 1792783519000,
-      "percent": 15.973154362416109
-    },
-    {
-      "symbol": "ELBM",
-      "name": "Electra Battery Materials Corporation",
-      "currency": "USD",
-      "price": 0.4565,
-      "previousClose": 0.394,
-      "timestamp": 1792783507000,
-      "percent": 15.862944162436543
+      "price": 4.91,
+      "previousClose": 4.19,
+      "timestamp": 1792784149000,
+      "percent": 17.183770883054894
     },
     {
       "symbol": "BUUU",
       "name": "BUUU Group Limited",
       "currency": "USD",
-      "price": 52.7,
+      "price": 53.29,
       "previousClose": 45.545,
-      "timestamp": 1792783519000,
-      "percent": 15.70973762213197
+      "timestamp": 1792783846000,
+      "percent": 17.00515973213306
     },
     {
-      "symbol": "HLP",
-      "name": "Hongli Group Inc.",
+      "symbol": "FFR",
+      "name": "FF EAI Robotics Ecosystem Inc.",
       "currency": "USD",
-      "price": 3.51,
-      "previousClose": 3.05,
-      "timestamp": 1792780870000,
-      "percent": 15.081967213114744
+      "price": 1.17,
+      "previousClose": 1,
+      "timestamp": 1792784090000,
+      "percent": 16.999999999999993
+    },
+    {
+      "symbol": "TORO",
+      "name": "Toro Corp.",
+      "currency": "USD",
+      "price": 4.2501,
+      "previousClose": 3.66,
+      "timestamp": 1792783868000,
+      "percent": 16.12295081967212
+    },
+    {
+      "symbol": "ELBM",
+      "name": "Electra Battery Materials Corporation",
+      "currency": "USD",
+      "price": 0.4547,
+      "previousClose": 0.394,
+      "timestamp": 1792784061000,
+      "percent": 15.406091370558372
+    },
+    {
+      "symbol": "FMFC",
+      "name": "Kandal M Venture Limited",
+      "currency": "USD",
+      "price": 4.125,
+      "previousClose": 3.59,
+      "timestamp": 1792784008000,
+      "percent": 14.902506963788298
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-23T15:25[America/New_York]",
-    "updatedAt": 1792783570642
+    "scheduledSlot": "2026-10-23T15:35[America/New_York]",
+    "updatedAt": 1792784167594
   },
-  "todayGainersUpdatedAt": 1792783570642,
+  "todayGainersUpdatedAt": 1792784167594,
   "items": [
     {
       "symbol": "KSPI",
