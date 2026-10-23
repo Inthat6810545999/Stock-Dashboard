@@ -136,12 +136,12 @@
       "currency": "USD",
       "price": 3.25,
       "previousClose": 1.92,
-      "timestamp": 1792785599000,
+      "timestamp": 1792785601000,
       "percent": 69.27083333333334
     },
     {
       "symbol": "LYCA",
-      "name": "Lycia Therapeutics, Inc.",
+      "name": "Lycia Therapeutics, Inc. Common Stock",
       "currency": "USD",
       "price": 30,
       "previousClose": 18,
@@ -170,10 +170,10 @@
       "symbol": "GPUS",
       "name": "Hyperscale Data, Inc.",
       "currency": "USD",
-      "price": 0.1683,
+      "price": 0.1689,
       "previousClose": 0.126,
-      "timestamp": 1792785599000,
-      "percent": 33.571428571428584
+      "timestamp": 1792785600000,
+      "percent": 34.04761904761904
     },
     {
       "symbol": "JYD",
@@ -194,22 +194,22 @@
       "percent": 30.76923076923077
     },
     {
+      "symbol": "IMC",
+      "name": "IMC Rare Earths Ltd",
+      "currency": "USD",
+      "price": 8.99,
+      "previousClose": 7,
+      "timestamp": 1792785600000,
+      "percent": 28.428571428571423
+    },
+    {
       "symbol": "VSME",
       "name": "VS MEDIA Holdings Limited",
       "currency": "USD",
       "price": 1.05,
       "previousClose": 0.82,
-      "timestamp": 1792785595000,
+      "timestamp": 1792785600000,
       "percent": 28.04878048780488
-    },
-    {
-      "symbol": "IMC",
-      "name": "IMC Rare Earths Ltd",
-      "currency": "USD",
-      "price": 8.895,
-      "previousClose": 7,
-      "timestamp": 1792785569000,
-      "percent": 27.07142857142857
     }
   ],
   "todayCandidates": [
@@ -228,12 +228,12 @@
       "currency": "USD",
       "price": 3.25,
       "previousClose": 1.92,
-      "timestamp": 1792785599000,
+      "timestamp": 1792785601000,
       "percent": 69.27083333333334
     },
     {
       "symbol": "LYCA",
-      "name": "Lycia Therapeutics, Inc.",
+      "name": "Lycia Therapeutics, Inc. Common Stock",
       "currency": "USD",
       "price": 30,
       "previousClose": 18,
@@ -262,10 +262,10 @@
       "symbol": "GPUS",
       "name": "Hyperscale Data, Inc.",
       "currency": "USD",
-      "price": 0.1683,
+      "price": 0.1689,
       "previousClose": 0.126,
-      "timestamp": 1792785599000,
-      "percent": 33.571428571428584
+      "timestamp": 1792785600000,
+      "percent": 34.04761904761904
     },
     {
       "symbol": "JYD",
@@ -286,31 +286,22 @@
       "percent": 30.76923076923077
     },
     {
+      "symbol": "IMC",
+      "name": "IMC Rare Earths Ltd",
+      "currency": "USD",
+      "price": 8.99,
+      "previousClose": 7,
+      "timestamp": 1792785600000,
+      "percent": 28.428571428571423
+    },
+    {
       "symbol": "VSME",
       "name": "VS MEDIA Holdings Limited",
       "currency": "USD",
       "price": 1.05,
       "previousClose": 0.82,
-      "timestamp": 1792785595000,
+      "timestamp": 1792785600000,
       "percent": 28.04878048780488
-    },
-    {
-      "symbol": "IMC",
-      "name": "IMC Rare Earths Ltd",
-      "currency": "USD",
-      "price": 8.895,
-      "previousClose": 7,
-      "timestamp": 1792785569000,
-      "percent": 27.07142857142857
-    },
-    {
-      "symbol": "BKHA",
-      "name": "Black Hawk Acquisition Corporation",
-      "currency": "USD",
-      "price": 5.42,
-      "previousClose": 4.29,
-      "timestamp": 1792784281000,
-      "percent": 26.34032634032635
     },
     {
       "symbol": "UWMC",
@@ -318,7 +309,7 @@
       "currency": "USD",
       "price": 1.45,
       "previousClose": 1.15,
-      "timestamp": 1792785599000,
+      "timestamp": 1792785603000,
       "percent": 26.086956521739136
     },
     {
@@ -329,6 +320,15 @@
       "previousClose": 0.85,
       "timestamp": 1792785600000,
       "percent": 25.88235294117649
+    },
+    {
+      "symbol": "BKHA",
+      "name": "Black Hawk Acquisition Corporation",
+      "currency": "USD",
+      "price": 5.4,
+      "previousClose": 4.29,
+      "timestamp": 1792785600000,
+      "percent": 25.874125874125873
     },
     {
       "symbol": "LUCD",
@@ -363,8 +363,17 @@
       "currency": "USD",
       "price": 3.39,
       "previousClose": 2.74,
-      "timestamp": 1792785598000,
+      "timestamp": 1792785601000,
       "percent": 23.722627737226265
+    },
+    {
+      "symbol": "EPOW",
+      "name": "E-Power Inc.",
+      "currency": "USD",
+      "price": 3.54,
+      "previousClose": 2.865,
+      "timestamp": 1792785600000,
+      "percent": 23.560209424083766
     },
     {
       "symbol": "STEX",
@@ -381,26 +390,8 @@
       "currency": "USD",
       "price": 1.46,
       "previousClose": 1.1912,
-      "timestamp": 1792785597000,
+      "timestamp": 1792785600000,
       "percent": 22.565480188045672
-    },
-    {
-      "symbol": "RHI",
-      "name": "Robert Half Inc.",
-      "currency": "USD",
-      "price": 45.9,
-      "previousClose": 37.68,
-      "timestamp": 1792785599000,
-      "percent": 21.81528662420382
-    },
-    {
-      "symbol": "EPOW",
-      "name": "E-Power Inc.",
-      "currency": "USD",
-      "price": 3.49,
-      "previousClose": 2.865,
-      "timestamp": 1792785350000,
-      "percent": 21.815008726003484
     },
     {
       "symbol": "QSI",
@@ -412,13 +403,40 @@
       "percent": 21.739130434782616
     },
     {
+      "symbol": "RHI",
+      "name": "Robert Half Inc.",
+      "currency": "USD",
+      "price": 45.87,
+      "previousClose": 37.68,
+      "timestamp": 1792785602000,
+      "percent": 21.735668789808905
+    },
+    {
+      "symbol": "REED",
+      "name": "Reed's, Inc.",
+      "currency": "USD",
+      "price": 0.5872,
+      "previousClose": 0.487,
+      "timestamp": 1792785600000,
+      "percent": 20.574948665297764
+    },
+    {
       "symbol": "SAIH",
       "name": "SAIHEAT Limited",
       "currency": "USD",
-      "price": 29.48,
+      "price": 29.32,
       "previousClose": 24.35,
-      "timestamp": 1792785304000,
-      "percent": 21.067761806981512
+      "timestamp": 1792785600000,
+      "percent": 20.410677618069805
+    },
+    {
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
+      "currency": "USD",
+      "price": 13.6,
+      "previousClose": 11.3,
+      "timestamp": 1792785600000,
+      "percent": 20.353982300884944
     },
     {
       "symbol": "CNDT",
@@ -428,15 +446,6 @@
       "previousClose": 1.49,
       "timestamp": 1792785600000,
       "percent": 20.134228187919454
-    },
-    {
-      "symbol": "REED",
-      "name": "Reed's, Inc.",
-      "currency": "USD",
-      "price": 0.5847,
-      "previousClose": 0.487,
-      "timestamp": 1792785583000,
-      "percent": 20.06160164271047
     },
     {
       "symbol": "YHC",
@@ -453,7 +462,7 @@
       "currency": "USD",
       "price": 1.03,
       "previousClose": 0.86,
-      "timestamp": 1792785593000,
+      "timestamp": 1792785600000,
       "percent": 19.76744186046513
     },
     {
@@ -473,15 +482,6 @@
       "previousClose": 45.545,
       "timestamp": 1792785601000,
       "percent": 18.34449445603248
-    },
-    {
-      "symbol": "DTSS",
-      "name": "Datasea Intelligent Technology Ltd.",
-      "currency": "USD",
-      "price": 0.719,
-      "previousClose": 0.609,
-      "timestamp": 1792785601000,
-      "percent": 18.0623973727422
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 2,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-23T16:05[America/New_York]",
-    "updatedAt": 1792785970874
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-23T16:15[America/New_York]",
+    "updatedAt": 1792786571918
   },
-  "todayGainersUpdatedAt": 1792785970874,
+  "todayGainersUpdatedAt": 1792786571918,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
