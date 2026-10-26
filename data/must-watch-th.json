@@ -136,7 +136,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792983549000,
+      "timestamp": 1792985097000,
       "percent": 33.33333333333335
     },
     {
@@ -163,8 +163,26 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1792984298000,
+      "timestamp": 1792985100000,
       "percent": 25
+    },
+    {
+      "symbol": "PRIME.BK",
+      "name": "Prime Road Power Public Company Limited",
+      "currency": "THB",
+      "price": 0.06,
+      "previousClose": 0.05,
+      "timestamp": 1792984833000,
+      "percent": 19.999999999999996
+    },
+    {
+      "symbol": "RS.BK",
+      "name": "RS Public Company Limited",
+      "currency": "THB",
+      "price": 0.15,
+      "previousClose": 0.13,
+      "timestamp": 1792984613000,
+      "percent": 15.384615384615374
     },
     {
       "symbol": "VIBE.BK",
@@ -190,26 +208,8 @@
       "currency": "THB",
       "price": 1,
       "previousClose": 0.92,
-      "timestamp": 1792984524000,
+      "timestamp": 1792984977000,
       "percent": 8.695652173913038
-    },
-    {
-      "symbol": "BTW.BK",
-      "name": "BT Wealth Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1792984093000,
-      "percent": 8.333333333333348
-    },
-    {
-      "symbol": "MFC.BK",
-      "name": "MFC Asset Management Public Company Limited",
-      "currency": "THB",
-      "price": 26.5,
-      "previousClose": 24.6,
-      "timestamp": 1792983440000,
-      "percent": 7.72357723577235
     }
   ],
   "todayCandidates": [
@@ -228,7 +228,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792983549000,
+      "timestamp": 1792985097000,
       "percent": 33.33333333333335
     },
     {
@@ -255,8 +255,26 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1792984298000,
+      "timestamp": 1792985100000,
       "percent": 25
+    },
+    {
+      "symbol": "PRIME.BK",
+      "name": "Prime Road Power Public Company Limited",
+      "currency": "THB",
+      "price": 0.06,
+      "previousClose": 0.05,
+      "timestamp": 1792984833000,
+      "percent": 19.999999999999996
+    },
+    {
+      "symbol": "RS.BK",
+      "name": "RS Public Company Limited",
+      "currency": "THB",
+      "price": 0.15,
+      "previousClose": 0.13,
+      "timestamp": 1792984613000,
+      "percent": 15.384615384615374
     },
     {
       "symbol": "VIBE.BK",
@@ -282,7 +300,7 @@
       "currency": "THB",
       "price": 1,
       "previousClose": 0.92,
-      "timestamp": 1792984524000,
+      "timestamp": 1792984977000,
       "percent": 8.695652173913038
     },
     {
@@ -295,22 +313,13 @@
       "percent": 8.333333333333348
     },
     {
-      "symbol": "MFC.BK",
-      "name": "MFC Asset Management Public Company Limited",
+      "symbol": "TSE.BK",
+      "name": "Thai Solar Energy Public Company Limited",
       "currency": "THB",
-      "price": 26.5,
-      "previousClose": 24.6,
-      "timestamp": 1792983440000,
-      "percent": 7.72357723577235
-    },
-    {
-      "symbol": "RS.BK",
-      "name": "RS Public Company Limited",
-      "currency": "THB",
-      "price": 0.14,
-      "previousClose": 0.13,
-      "timestamp": 1792984408000,
-      "percent": 7.692307692307709
+      "price": 1.28,
+      "previousClose": 1.19,
+      "timestamp": 1792985150000,
+      "percent": 7.563025210084051
     },
     {
       "symbol": "DCON.BK",
@@ -340,6 +349,15 @@
       "percent": 6.25
     },
     {
+      "symbol": "PDG.BK",
+      "name": "Prodigy Public Company Limited",
+      "currency": "THB",
+      "price": 3.5,
+      "previousClose": 3.3,
+      "timestamp": 1792984980000,
+      "percent": 6.060606060606055
+    },
+    {
       "symbol": "AMC.BK",
       "name": "Asia Metal Public Company Limited",
       "currency": "THB",
@@ -358,24 +376,6 @@
       "percent": 5.88235294117645
     },
     {
-      "symbol": "TSE.BK",
-      "name": "Thai Solar Energy Public Company Limited",
-      "currency": "THB",
-      "price": 1.25,
-      "previousClose": 1.19,
-      "timestamp": 1792984548000,
-      "percent": 5.042016806722693
-    },
-    {
-      "symbol": "MONO.BK",
-      "name": "Mono Next Public Company Limited",
-      "currency": "THB",
-      "price": 0.43,
-      "previousClose": 0.41,
-      "timestamp": 1792984535000,
-      "percent": 4.878048780487809
-    },
-    {
       "symbol": "BWG.BK",
       "name": "Better World Green Public Company Limited",
       "currency": "THB",
@@ -383,15 +383,6 @@
       "previousClose": 0.21,
       "timestamp": 1792984373000,
       "percent": 4.761904761904767
-    },
-    {
-      "symbol": "MTW.BK",
-      "name": "Make To Win Holding Public Company Limited",
-      "currency": "THB",
-      "price": 0.9,
-      "previousClose": 0.86,
-      "timestamp": 1792984482000,
-      "percent": 4.651162790697683
     },
     {
       "symbol": "TVT.BK",
@@ -403,12 +394,21 @@
       "percent": 4.545454545454541
     },
     {
-      "symbol": "RWI.BK",
-      "name": "Rayong Wire Industries Public Company Limited",
+      "symbol": "UPF.BK",
+      "name": "Union Pioneer Public Company Limited",
       "currency": "THB",
-      "price": 0.48,
-      "previousClose": 0.46,
-      "timestamp": 1792984455000,
+      "price": 23.5,
+      "previousClose": 22.5,
+      "timestamp": 1792984883000,
+      "percent": 4.444444444444451
+    },
+    {
+      "symbol": "LDC.BK",
+      "name": "LDC Dental Public Company Limited",
+      "currency": "THB",
+      "price": 0.24,
+      "previousClose": 0.23,
+      "timestamp": 1792984820000,
       "percent": 4.347826086956519
     },
     {
@@ -421,12 +421,21 @@
       "percent": 4.225352112676051
     },
     {
+      "symbol": "ESTAR.BK",
+      "name": "Eastern Star Real Estate Public Company Limited",
+      "currency": "THB",
+      "price": 0.25,
+      "previousClose": 0.24,
+      "timestamp": 1792984879000,
+      "percent": 4.166666666666674
+    },
+    {
       "symbol": "BRI.BK",
       "name": "Britania Public Company Limited",
       "currency": "THB",
       "price": 1.31,
       "previousClose": 1.26,
-      "timestamp": 1792984432000,
+      "timestamp": 1792984872000,
       "percent": 3.9682539682539764
     },
     {
@@ -439,13 +448,22 @@
       "percent": 3.8461538461538547
     },
     {
-      "symbol": "MK.BK",
-      "name": "M.K. Real Estate Development Public Company Limited",
+      "symbol": "PLANET.BK",
+      "name": "Planet Communications Asia Public Company Limited",
       "currency": "THB",
-      "price": 0.57,
-      "previousClose": 0.55,
-      "timestamp": 1792983440000,
-      "percent": 3.6363636363636154
+      "price": 0.55,
+      "previousClose": 0.53,
+      "timestamp": 1792984937000,
+      "percent": 3.7735849056603765
+    },
+    {
+      "symbol": "MFC.BK",
+      "name": "MFC Asset Management Public Company Limited",
+      "currency": "THB",
+      "price": 25.5,
+      "previousClose": 24.6,
+      "timestamp": 1792984585000,
+      "percent": 3.658536585365857
     },
     {
       "symbol": "BEAUTY.BK",
@@ -453,51 +471,33 @@
       "currency": "THB",
       "price": 0.29,
       "previousClose": 0.28,
-      "timestamp": 1792983880000,
+      "timestamp": 1792984696000,
       "percent": 3.5714285714285587
     },
     {
-      "symbol": "IRCP.BK",
-      "name": "International Research Corporation Public Company Limited",
+      "symbol": "MTW.BK",
+      "name": "Make To Win Holding Public Company Limited",
       "currency": "THB",
-      "price": 0.3,
-      "previousClose": 0.29,
-      "timestamp": 1792983464000,
-      "percent": 3.4482758620689724
-    },
-    {
-      "symbol": "THMUI.BK",
-      "name": "Thai Mui Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.31,
-      "previousClose": 0.3,
-      "timestamp": 1792983440000,
-      "percent": 3.3333333333333437
-    },
-    {
-      "symbol": "GLORY.BK",
-      "name": "Glory Forever Public Company Limited",
-      "currency": "THB",
-      "price": 0.94,
-      "previousClose": 0.91,
-      "timestamp": 1792984521000,
-      "percent": 3.296703296703285
+      "price": 0.89,
+      "previousClose": 0.86,
+      "timestamp": 1792985118000,
+      "percent": 3.488372093023262
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 662,
-    "missing": 201,
+    "eligible": 703,
+    "missing": 160,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-26",
-    "scheduledSlot": "2026-10-26T10:45[Asia/Bangkok]",
-    "updatedAt": 1792986351985
+    "scheduledSlot": "2026-10-26T10:55[Asia/Bangkok]",
+    "updatedAt": 1792986953134
   },
-  "todayGainersUpdatedAt": 1792986351985,
+  "todayGainersUpdatedAt": 1792986953134,
   "items": [
     {
       "symbol": "PJW.BK",
