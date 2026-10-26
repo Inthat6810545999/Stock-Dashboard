@@ -163,7 +163,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1792986022000,
+      "timestamp": 1792986475000,
       "percent": 25
     },
     {
@@ -255,7 +255,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1792986022000,
+      "timestamp": 1792986475000,
       "percent": 25
     },
     {
@@ -309,7 +309,7 @@
       "currency": "THB",
       "price": 0.99,
       "previousClose": 0.92,
-      "timestamp": 1792986343000,
+      "timestamp": 1792986753000,
       "percent": 7.608695652173902
     },
     {
@@ -318,7 +318,7 @@
       "currency": "THB",
       "price": 1.27,
       "previousClose": 1.19,
-      "timestamp": 1792986323000,
+      "timestamp": 1792986932000,
       "percent": 6.72268907563025
     },
     {
@@ -340,15 +340,6 @@
       "percent": 6.666666666666665
     },
     {
-      "symbol": "PDG.BK",
-      "name": "Prodigy Public Company Limited",
-      "currency": "THB",
-      "price": 3.5,
-      "previousClose": 3.3,
-      "timestamp": 1792984980000,
-      "percent": 6.060606060606055
-    },
-    {
       "symbol": "AMC.BK",
       "name": "Asia Metal Public Company Limited",
       "currency": "THB",
@@ -356,15 +347,6 @@
       "previousClose": 2.32,
       "timestamp": 1792983440000,
       "percent": 6.034482758620685
-    },
-    {
-      "symbol": "YGG.BK",
-      "name": "Yggdrazil Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.18,
-      "previousClose": 0.17,
-      "timestamp": 1792985984000,
-      "percent": 5.88235294117645
     },
     {
       "symbol": "UPF.BK",
@@ -381,7 +363,7 @@
       "currency": "THB",
       "price": 0.22,
       "previousClose": 0.21,
-      "timestamp": 1792986304000,
+      "timestamp": 1792986769000,
       "percent": 4.761904761904767
     },
     {
@@ -392,15 +374,6 @@
       "previousClose": 0.22,
       "timestamp": 1792986194000,
       "percent": 4.545454545454541
-    },
-    {
-      "symbol": "GLORY.BK",
-      "name": "Glory Forever Public Company Limited",
-      "currency": "THB",
-      "price": 0.95,
-      "previousClose": 0.91,
-      "timestamp": 1792986169000,
-      "percent": 4.39560439560438
     },
     {
       "symbol": "ASN.BK",
@@ -418,6 +391,15 @@
       "price": 0.24,
       "previousClose": 0.23,
       "timestamp": 1792984820000,
+      "percent": 4.347826086956519
+    },
+    {
+      "symbol": "RWI.BK",
+      "name": "Rayong Wire Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.48,
+      "previousClose": 0.46,
+      "timestamp": 1792986766000,
       "percent": 4.347826086956519
     },
     {
@@ -439,40 +421,22 @@
       "percent": 4.347826086956519
     },
     {
-      "symbol": "STC.BK",
-      "name": "STC Concrete Product Public Company Limited",
-      "currency": "THB",
-      "price": 0.74,
-      "previousClose": 0.71,
-      "timestamp": 1792983440000,
-      "percent": 4.225352112676051
-    },
-    {
       "symbol": "ESTAR.BK",
       "name": "Eastern Star Real Estate Public Company Limited",
       "currency": "THB",
       "price": 0.25,
       "previousClose": 0.24,
-      "timestamp": 1792984879000,
+      "timestamp": 1792986584000,
       "percent": 4.166666666666674
     },
     {
-      "symbol": "TRU.BK",
-      "name": "Thai Rung Union Car Public Company Limited",
+      "symbol": "FSX.BK",
+      "name": "Finansia X Public Company Limited",
       "currency": "THB",
-      "price": 3.74,
-      "previousClose": 3.6,
-      "timestamp": 1792986118000,
-      "percent": 3.8888888888888973
-    },
-    {
-      "symbol": "PRECHA.BK",
-      "name": "Preecha Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.27,
-      "previousClose": 0.26,
-      "timestamp": 1792983991000,
-      "percent": 3.8461538461538547
+      "price": 1.01,
+      "previousClose": 0.97,
+      "timestamp": 1792986750000,
+      "percent": 4.123711340206193
     },
     {
       "symbol": "MRDIYT.BK",
@@ -480,24 +444,60 @@
       "currency": "THB",
       "price": 8.35,
       "previousClose": 8.05,
-      "timestamp": 1792986341000,
+      "timestamp": 1792986919000,
       "percent": 3.7267080745341463
+    },
+    {
+      "symbol": "PDG.BK",
+      "name": "Prodigy Public Company Limited",
+      "currency": "THB",
+      "price": 3.42,
+      "previousClose": 3.3,
+      "timestamp": 1792986897000,
+      "percent": 3.6363636363636376
+    },
+    {
+      "symbol": "BEAUTY.BK",
+      "name": "Beauty Community Public Company Limited",
+      "currency": "THB",
+      "price": 0.29,
+      "previousClose": 0.28,
+      "timestamp": 1792986819000,
+      "percent": 3.5714285714285587
+    },
+    {
+      "symbol": "ADD.BK",
+      "name": "AddTech Hub Public Company Limited",
+      "currency": "THB",
+      "price": 3.66,
+      "previousClose": 3.54,
+      "timestamp": 1792985098000,
+      "percent": 3.3898305084745894
+    },
+    {
+      "symbol": "THMUI.BK",
+      "name": "Thai Mui Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.31,
+      "previousClose": 0.3,
+      "timestamp": 1792986557000,
+      "percent": 3.3333333333333437
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 739,
-    "missing": 124,
+    "eligible": 746,
+    "missing": 117,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-26",
-    "scheduledSlot": "2026-10-26T11:15[Asia/Bangkok]",
-    "updatedAt": 1792988151185
+    "scheduledSlot": "2026-10-26T11:25[Asia/Bangkok]",
+    "updatedAt": 1792988751290
   },
-  "todayGainersUpdatedAt": 1792988151185,
+  "todayGainersUpdatedAt": 1792988751290,
   "items": [
     {
       "symbol": "PJW.BK",
