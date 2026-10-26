@@ -125,37 +125,46 @@
       "symbol": "AZTR",
       "name": "Azitra, Inc.",
       "currency": "USD",
-      "price": 1.5801,
+      "price": 1.56,
       "previousClose": 0.715,
-      "timestamp": 1793043338000,
-      "percent": 120.99300699300701
+      "timestamp": 1793043940000,
+      "percent": 118.18181818181822
     },
     {
       "symbol": "GCTK",
       "name": "GlucoTrack, Inc.",
       "currency": "USD",
-      "price": 1.561,
+      "price": 1.56,
       "previousClose": 0.8228,
-      "timestamp": 1793043345000,
-      "percent": 89.71803597472045
+      "timestamp": 1793043950000,
+      "percent": 89.59649975692759
     },
     {
       "symbol": "CLRO",
       "name": "ClearOne, Inc.",
       "currency": "USD",
-      "price": 5.005,
+      "price": 5.075,
       "previousClose": 3.25,
-      "timestamp": 1793043336000,
-      "percent": 54
+      "timestamp": 1793043945000,
+      "percent": 56.15384615384615
     },
     {
       "symbol": "SGRY",
       "name": "Surgery Partners, Inc.",
       "currency": "USD",
-      "price": 23.245,
+      "price": 23.235,
       "previousClose": 15.75,
-      "timestamp": 1793043355000,
-      "percent": 47.5873015873016
+      "timestamp": 1793043962000,
+      "percent": 47.523809523809526
+    },
+    {
+      "symbol": "EFOI",
+      "name": "Energy Focus, Inc.",
+      "currency": "USD",
+      "price": 3.78,
+      "previousClose": 2.8826,
+      "timestamp": 1793043920000,
+      "percent": 31.131617289946554
     },
     {
       "symbol": "RFAIU",
@@ -167,49 +176,40 @@
       "percent": 30.976331360946773
     },
     {
-      "symbol": "EFOI",
-      "name": "Energy Focus, Inc.",
+      "symbol": "RFAI",
+      "name": "RF Acquisition Corp II",
       "currency": "USD",
-      "price": 3.775,
-      "previousClose": 2.8826,
-      "timestamp": 1793043252000,
-      "percent": 30.958162769721763
-    },
-    {
-      "symbol": "UTSI",
-      "name": "UTStarcom Holdings Corp.",
-      "currency": "USD",
-      "price": 2.7999,
-      "previousClose": 2.18,
-      "timestamp": 1793043357000,
-      "percent": 28.43577981651375
-    },
-    {
-      "symbol": "LUCD",
-      "name": "Lucid Diagnostics Inc.",
-      "currency": "USD",
-      "price": 0.5201,
-      "previousClose": 0.411,
-      "timestamp": 1793043344000,
-      "percent": 26.54501216545013
-    },
-    {
-      "symbol": "XTND",
-      "name": "Xtend AI Robotics, Inc.",
-      "currency": "USD",
-      "price": 2.235,
-      "previousClose": 1.77,
-      "timestamp": 1793043343000,
-      "percent": 26.271186440677962
+      "price": 37,
+      "previousClose": 28.61,
+      "timestamp": 1793043576000,
+      "percent": 29.325410695561004
     },
     {
       "symbol": "MSGY",
       "name": "Masonglory Limited",
       "currency": "USD",
-      "price": 3.38,
+      "price": 3.505,
       "previousClose": 2.73,
-      "timestamp": 1793043315000,
-      "percent": 23.809523809523814
+      "timestamp": 1793043957000,
+      "percent": 28.388278388278376
+    },
+    {
+      "symbol": "CENN",
+      "name": "Cenntro Inc.",
+      "currency": "USD",
+      "price": 2.92,
+      "previousClose": 2.29,
+      "timestamp": 1793043856000,
+      "percent": 27.510917030567672
+    },
+    {
+      "symbol": "XTND",
+      "name": "Xtend AI Robotics, Inc.",
+      "currency": "USD",
+      "price": 2.205,
+      "previousClose": 1.77,
+      "timestamp": 1793043966000,
+      "percent": 24.576271186440678
     }
   ],
   "todayCandidates": [
@@ -217,37 +217,46 @@
       "symbol": "AZTR",
       "name": "Azitra, Inc.",
       "currency": "USD",
-      "price": 1.5801,
+      "price": 1.56,
       "previousClose": 0.715,
-      "timestamp": 1793043338000,
-      "percent": 120.99300699300701
+      "timestamp": 1793043940000,
+      "percent": 118.18181818181822
     },
     {
       "symbol": "GCTK",
       "name": "GlucoTrack, Inc.",
       "currency": "USD",
-      "price": 1.561,
+      "price": 1.56,
       "previousClose": 0.8228,
-      "timestamp": 1793043345000,
-      "percent": 89.71803597472045
+      "timestamp": 1793043950000,
+      "percent": 89.59649975692759
     },
     {
       "symbol": "CLRO",
       "name": "ClearOne, Inc.",
       "currency": "USD",
-      "price": 5.005,
+      "price": 5.075,
       "previousClose": 3.25,
-      "timestamp": 1793043336000,
-      "percent": 54
+      "timestamp": 1793043945000,
+      "percent": 56.15384615384615
     },
     {
       "symbol": "SGRY",
       "name": "Surgery Partners, Inc.",
       "currency": "USD",
-      "price": 23.245,
+      "price": 23.235,
       "previousClose": 15.75,
-      "timestamp": 1793043355000,
-      "percent": 47.5873015873016
+      "timestamp": 1793043962000,
+      "percent": 47.523809523809526
+    },
+    {
+      "symbol": "EFOI",
+      "name": "Energy Focus, Inc.",
+      "currency": "USD",
+      "price": 3.78,
+      "previousClose": 2.8826,
+      "timestamp": 1793043920000,
+      "percent": 31.131617289946554
     },
     {
       "symbol": "RFAIU",
@@ -259,94 +268,121 @@
       "percent": 30.976331360946773
     },
     {
-      "symbol": "EFOI",
-      "name": "Energy Focus, Inc.",
+      "symbol": "RFAI",
+      "name": "RF Acquisition Corp II",
       "currency": "USD",
-      "price": 3.775,
-      "previousClose": 2.8826,
-      "timestamp": 1793043252000,
-      "percent": 30.958162769721763
-    },
-    {
-      "symbol": "UTSI",
-      "name": "UTStarcom Holdings Corp.",
-      "currency": "USD",
-      "price": 2.7999,
-      "previousClose": 2.18,
-      "timestamp": 1793043357000,
-      "percent": 28.43577981651375
-    },
-    {
-      "symbol": "LUCD",
-      "name": "Lucid Diagnostics Inc.",
-      "currency": "USD",
-      "price": 0.5201,
-      "previousClose": 0.411,
-      "timestamp": 1793043344000,
-      "percent": 26.54501216545013
-    },
-    {
-      "symbol": "XTND",
-      "name": "Xtend AI Robotics, Inc.",
-      "currency": "USD",
-      "price": 2.235,
-      "previousClose": 1.77,
-      "timestamp": 1793043343000,
-      "percent": 26.271186440677962
+      "price": 37,
+      "previousClose": 28.61,
+      "timestamp": 1793043576000,
+      "percent": 29.325410695561004
     },
     {
       "symbol": "MSGY",
       "name": "Masonglory Limited",
       "currency": "USD",
-      "price": 3.38,
+      "price": 3.505,
       "previousClose": 2.73,
-      "timestamp": 1793043315000,
-      "percent": 23.809523809523814
+      "timestamp": 1793043957000,
+      "percent": 28.388278388278376
     },
     {
-      "symbol": "RENT",
-      "name": "Rent the Runway, Inc.",
+      "symbol": "CENN",
+      "name": "Cenntro Inc.",
       "currency": "USD",
-      "price": 2.82,
-      "previousClose": 2.3,
-      "timestamp": 1793043349000,
-      "percent": 22.608695652173914
+      "price": 2.92,
+      "previousClose": 2.29,
+      "timestamp": 1793043856000,
+      "percent": 27.510917030567672
+    },
+    {
+      "symbol": "XTND",
+      "name": "Xtend AI Robotics, Inc.",
+      "currency": "USD",
+      "price": 2.205,
+      "previousClose": 1.77,
+      "timestamp": 1793043966000,
+      "percent": 24.576271186440678
+    },
+    {
+      "symbol": "LUCD",
+      "name": "Lucid Diagnostics Inc.",
+      "currency": "USD",
+      "price": 0.5116,
+      "previousClose": 0.411,
+      "timestamp": 1793043930000,
+      "percent": 24.476885644768885
     },
     {
       "symbol": "EAF",
       "name": "GrafTech International Ltd.",
       "currency": "USD",
-      "price": 10.4084,
+      "price": 10.53,
       "previousClose": 8.51,
-      "timestamp": 1793043325000,
-      "percent": 22.307873090481788
+      "timestamp": 1793043947000,
+      "percent": 23.736780258519374
+    },
+    {
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
+      "currency": "USD",
+      "price": 16,
+      "previousClose": 12.99,
+      "timestamp": 1793043674000,
+      "percent": 23.171670515781372
+    },
+    {
+      "symbol": "VEEA",
+      "name": "Veea Inc.",
+      "currency": "USD",
+      "price": 6.065,
+      "previousClose": 4.93,
+      "timestamp": 1793043951000,
+      "percent": 23.022312373225162
     },
     {
       "symbol": "BUUU",
       "name": "BUUU Group Limited",
       "currency": "USD",
-      "price": 6.545,
+      "price": 6.6,
       "previousClose": 5.39,
-      "timestamp": 1793043065000,
-      "percent": 21.42857142857144
+      "timestamp": 1793043920000,
+      "percent": 22.44897959183674
+    },
+    {
+      "symbol": "SWRD",
+      "name": "Stewards Inc.",
+      "currency": "USD",
+      "price": 3.04,
+      "previousClose": 2.5,
+      "timestamp": 1793043953000,
+      "percent": 21.599999999999998
+    },
+    {
+      "symbol": "HOST",
+      "name": "Host Digital Inc.",
+      "currency": "USD",
+      "price": 2.9299,
+      "previousClose": 2.41,
+      "timestamp": 1793043906000,
+      "percent": 21.5726141078838
     },
     {
       "symbol": "RPGL",
       "name": "Republic Power Group Limited",
       "currency": "USD",
-      "price": 8.065,
+      "price": 8.08,
       "previousClose": 6.65,
-      "timestamp": 1793043355000,
-      "percent": 21.278195488721785
+      "timestamp": 1793043935000,
+      "percent": 21.503759398496225
     },
     {
-      "symbol": "ABOS",
-      "name": "Acumen Pharmaceuticals, Inc.",
+      "symbol": "RENT",
+      "name": "Rent the Runway, Inc.",
       "currency": "USD",
-      "price": 2.395,
-      "previousClose": 1.98,
-      "timestamp": 1793043286000,
-      "percent": 20.959595959595955
+      "price": 2.7748,
+      "previousClose": 2.3,
+      "timestamp": 1793043939000,
+      "percent": 20.643478260869564
     },
     {
       "symbol": "IPW",
@@ -358,31 +394,22 @@
       "percent": 20.480989839396923
     },
     {
-      "symbol": "VEEA",
-      "name": "Veea Inc.",
+      "symbol": "SPRC",
+      "name": "SciSparc Ltd.",
       "currency": "USD",
-      "price": 5.9258,
-      "previousClose": 4.93,
-      "timestamp": 1793043346000,
-      "percent": 20.19878296146045
+      "price": 1.31,
+      "previousClose": 1.09,
+      "timestamp": 1793043958000,
+      "percent": 20.1834862385321
     },
     {
       "symbol": "RPD",
       "name": "Rapid7, Inc.",
       "currency": "USD",
-      "price": 17.92,
+      "price": 17.8818,
       "previousClose": 14.91,
-      "timestamp": 1793043356000,
-      "percent": 20.187793427230048
-    },
-    {
-      "symbol": "HOST",
-      "name": "Host Digital Inc.",
-      "currency": "USD",
-      "price": 2.8873,
-      "previousClose": 2.41,
-      "timestamp": 1793043299000,
-      "percent": 19.804979253112045
+      "timestamp": 1793043959000,
+      "percent": 19.93158953722334
     },
     {
       "symbol": "XRTX",
@@ -390,17 +417,26 @@
       "currency": "USD",
       "price": 1.1,
       "previousClose": 0.9201,
-      "timestamp": 1793043219000,
+      "timestamp": 1793043917000,
       "percent": 19.55222258450169
     },
     {
-      "symbol": "SWRD",
-      "name": "Stewards Inc.",
+      "symbol": "AMOD",
+      "name": "Alpha Modus Holdings, Inc.",
       "currency": "USD",
-      "price": 2.96,
-      "previousClose": 2.5,
-      "timestamp": 1793043165000,
-      "percent": 18.399999999999995
+      "price": 1.12,
+      "previousClose": 0.9401,
+      "timestamp": 1793043940000,
+      "percent": 19.136262099776637
+    },
+    {
+      "symbol": "NWTG",
+      "name": "Newton Golf Company, Inc.",
+      "currency": "USD",
+      "price": 1.09,
+      "previousClose": 0.92,
+      "timestamp": 1793043954000,
+      "percent": 18.47826086956521
     },
     {
       "symbol": "BRLS",
@@ -421,40 +457,22 @@
       "percent": 18.333333333333336
     },
     {
-      "symbol": "RFAI",
-      "name": "RF Acquisition Corp II",
-      "currency": "USD",
-      "price": 33.855,
-      "previousClose": 28.61,
-      "timestamp": 1793041967000,
-      "percent": 18.3327507864383
-    },
-    {
-      "symbol": "NWTG",
-      "name": "Newton Golf Company, Inc.",
-      "currency": "USD",
-      "price": 1.08,
-      "previousClose": 0.92,
-      "timestamp": 1793043336000,
-      "percent": 17.391304347826097
-    },
-    {
       "symbol": "RRC",
       "name": "Range Resources Corporation",
       "currency": "USD",
-      "price": 53.31,
+      "price": 53.282,
       "previousClose": 45.52,
-      "timestamp": 1793043351000,
-      "percent": 17.113356766256583
+      "timestamp": 1793043962000,
+      "percent": 17.051845342706496
     },
     {
-      "symbol": "MGN",
-      "name": "Megan Holdings Limited",
+      "symbol": "ABOS",
+      "name": "Acumen Pharmaceuticals, Inc.",
       "currency": "USD",
-      "price": 2.34,
-      "previousClose": 2,
-      "timestamp": 1793043338000,
-      "percent": 16.999999999999993
+      "price": 2.315,
+      "previousClose": 1.98,
+      "timestamp": 1793043916000,
+      "percent": 16.91919191919191
     },
     {
       "symbol": "IMC",
@@ -462,26 +480,8 @@
       "currency": "USD",
       "price": 10.505,
       "previousClose": 8.99,
-      "timestamp": 1793043300000,
+      "timestamp": 1793043772000,
       "percent": 16.85205784204673
-    },
-    {
-      "symbol": "XNCR",
-      "name": "Xencor, Inc.",
-      "currency": "USD",
-      "price": 29.405,
-      "previousClose": 25.18,
-      "timestamp": 1793043361000,
-      "percent": 16.77918983320097
-    },
-    {
-      "symbol": "NN",
-      "name": "NextNav Inc.",
-      "currency": "USD",
-      "price": 11.76,
-      "previousClose": 10.08,
-      "timestamp": 1793043350000,
-      "percent": 16.666666666666675
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-26T15:35[America/New_York]",
-    "updatedAt": 1793043363735
+    "scheduledSlot": "2026-10-26T15:45[America/New_York]",
+    "updatedAt": 1793043969883
   },
-  "todayGainersUpdatedAt": 1793043363735,
+  "todayGainersUpdatedAt": 1793043969883,
   "items": [
     {
       "symbol": "KSPI",
