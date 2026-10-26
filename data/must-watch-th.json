@@ -136,7 +136,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792985097000,
+      "timestamp": 1792986075000,
       "percent": 33.33333333333335
     },
     {
@@ -163,7 +163,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1792985446000,
+      "timestamp": 1792986022000,
       "percent": 25
     },
     {
@@ -228,7 +228,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1792985097000,
+      "timestamp": 1792986075000,
       "percent": 33.33333333333335
     },
     {
@@ -255,7 +255,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1792985446000,
+      "timestamp": 1792986022000,
       "percent": 25
     },
     {
@@ -309,7 +309,7 @@
       "currency": "THB",
       "price": 0.99,
       "previousClose": 0.92,
-      "timestamp": 1792985712000,
+      "timestamp": 1792986343000,
       "percent": 7.608695652173902
     },
     {
@@ -318,7 +318,7 @@
       "currency": "THB",
       "price": 1.27,
       "previousClose": 1.19,
-      "timestamp": 1792985732000,
+      "timestamp": 1792986323000,
       "percent": 6.72268907563025
     },
     {
@@ -328,6 +328,15 @@
       "price": 0.16,
       "previousClose": 0.15,
       "timestamp": 1792984317000,
+      "percent": 6.666666666666665
+    },
+    {
+      "symbol": "PPS.BK",
+      "name": "Project Planning Service Public Company Limited",
+      "currency": "THB",
+      "price": 0.16,
+      "previousClose": 0.15,
+      "timestamp": 1792985783000,
       "percent": 6.666666666666665
     },
     {
@@ -354,7 +363,7 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.17,
-      "timestamp": 1792985517000,
+      "timestamp": 1792985984000,
       "percent": 5.88235294117645
     },
     {
@@ -367,21 +376,12 @@
       "percent": 5.333333333333323
     },
     {
-      "symbol": "AE.BK",
-      "name": "All Energy & Utilities Public Company Limited",
-      "currency": "THB",
-      "price": 0.2,
-      "previousClose": 0.19,
-      "timestamp": 1792985321000,
-      "percent": 5.263157894736836
-    },
-    {
       "symbol": "BWG.BK",
       "name": "Better World Green Public Company Limited",
       "currency": "THB",
       "price": 0.22,
       "previousClose": 0.21,
-      "timestamp": 1792985412000,
+      "timestamp": 1792986304000,
       "percent": 4.761904761904767
     },
     {
@@ -390,8 +390,17 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.22,
-      "timestamp": 1792983440000,
+      "timestamp": 1792986194000,
       "percent": 4.545454545454541
+    },
+    {
+      "symbol": "GLORY.BK",
+      "name": "Glory Forever Public Company Limited",
+      "currency": "THB",
+      "price": 0.95,
+      "previousClose": 0.91,
+      "timestamp": 1792986169000,
+      "percent": 4.39560439560438
     },
     {
       "symbol": "ASN.BK",
@@ -421,6 +430,15 @@
       "percent": 4.347826086956519
     },
     {
+      "symbol": "VS.BK",
+      "name": "Viserve Enterprise Public Company Limited",
+      "currency": "THB",
+      "price": 0.24,
+      "previousClose": 0.23,
+      "timestamp": 1792986112000,
+      "percent": 4.347826086956519
+    },
+    {
       "symbol": "STC.BK",
       "name": "STC Concrete Product Public Company Limited",
       "currency": "THB",
@@ -439,6 +457,15 @@
       "percent": 4.166666666666674
     },
     {
+      "symbol": "TRU.BK",
+      "name": "Thai Rung Union Car Public Company Limited",
+      "currency": "THB",
+      "price": 3.74,
+      "previousClose": 3.6,
+      "timestamp": 1792986118000,
+      "percent": 3.8888888888888973
+    },
+    {
       "symbol": "PRECHA.BK",
       "name": "Preecha Group Public Company Limited",
       "currency": "THB",
@@ -453,51 +480,24 @@
       "currency": "THB",
       "price": 8.35,
       "previousClose": 8.05,
-      "timestamp": 1792985738000,
+      "timestamp": 1792986341000,
       "percent": 3.7267080745341463
-    },
-    {
-      "symbol": "FNS.BK",
-      "name": "FNS Holdings Public Company Limited",
-      "currency": "THB",
-      "price": 0.56,
-      "previousClose": 0.54,
-      "timestamp": 1792985369000,
-      "percent": 3.703703703703698
-    },
-    {
-      "symbol": "MTW.BK",
-      "name": "Make To Win Holding Public Company Limited",
-      "currency": "THB",
-      "price": 0.89,
-      "previousClose": 0.86,
-      "timestamp": 1792985481000,
-      "percent": 3.488372093023262
-    },
-    {
-      "symbol": "ADD.BK",
-      "name": "AddTech Hub Public Company Limited",
-      "currency": "THB",
-      "price": 3.66,
-      "previousClose": 3.54,
-      "timestamp": 1792985098000,
-      "percent": 3.3898305084745894
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 729,
-    "missing": 134,
+    "eligible": 739,
+    "missing": 124,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-26",
-    "scheduledSlot": "2026-10-26T11:05[Asia/Bangkok]",
-    "updatedAt": 1792987548761
+    "scheduledSlot": "2026-10-26T11:15[Asia/Bangkok]",
+    "updatedAt": 1792988151185
   },
-  "todayGainersUpdatedAt": 1792987548761,
+  "todayGainersUpdatedAt": 1792988151185,
   "items": [
     {
       "symbol": "PJW.BK",
