@@ -167,15 +167,6 @@
       "percent": 12.82051282051282
     },
     {
-      "symbol": "EFORL.BK",
-      "name": "E for L Aim Public Company Limited",
-      "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1792987946000,
-      "percent": 9.999999999999986
-    },
-    {
       "symbol": "PEER.BK",
       "name": "Peer For You Public Company Limited",
       "currency": "THB",
@@ -185,21 +176,12 @@
       "percent": 9.090909090909083
     },
     {
-      "symbol": "VS.BK",
-      "name": "Viserve Enterprise Public Company Limited",
-      "currency": "THB",
-      "price": 0.25,
-      "previousClose": 0.23,
-      "timestamp": 1792988063000,
-      "percent": 8.695652173913038
-    },
-    {
       "symbol": "BTW.BK",
       "name": "BT Wealth Industries Public Company Limited",
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1792988553000,
+      "timestamp": 1792989040000,
       "percent": 8.333333333333348
     },
     {
@@ -210,6 +192,24 @@
       "previousClose": 0.13,
       "timestamp": 1792988606000,
       "percent": 7.692307692307709
+    },
+    {
+      "symbol": "ABM.BK",
+      "name": "Asia Biomass Public Company Limited",
+      "currency": "THB",
+      "price": 0.99,
+      "previousClose": 0.92,
+      "timestamp": 1792989054000,
+      "percent": 7.608695652173902
+    },
+    {
+      "symbol": "PPS.BK",
+      "name": "Project Planning Service Public Company Limited",
+      "currency": "THB",
+      "price": 0.16,
+      "previousClose": 0.15,
+      "timestamp": 1792987588000,
+      "percent": 6.666666666666665
     }
   ],
   "todayCandidates": [
@@ -259,15 +259,6 @@
       "percent": 12.82051282051282
     },
     {
-      "symbol": "EFORL.BK",
-      "name": "E for L Aim Public Company Limited",
-      "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1792987946000,
-      "percent": 9.999999999999986
-    },
-    {
       "symbol": "PEER.BK",
       "name": "Peer For You Public Company Limited",
       "currency": "THB",
@@ -277,21 +268,12 @@
       "percent": 9.090909090909083
     },
     {
-      "symbol": "VS.BK",
-      "name": "Viserve Enterprise Public Company Limited",
-      "currency": "THB",
-      "price": 0.25,
-      "previousClose": 0.23,
-      "timestamp": 1792988063000,
-      "percent": 8.695652173913038
-    },
-    {
       "symbol": "BTW.BK",
       "name": "BT Wealth Industries Public Company Limited",
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1792988553000,
+      "timestamp": 1792989040000,
       "percent": 8.333333333333348
     },
     {
@@ -309,17 +291,8 @@
       "currency": "THB",
       "price": 0.99,
       "previousClose": 0.92,
-      "timestamp": 1792988179000,
+      "timestamp": 1792989054000,
       "percent": 7.608695652173902
-    },
-    {
-      "symbol": "DCON.BK",
-      "name": "Dcon Products Public Company Limited",
-      "currency": "THB",
-      "price": 0.16,
-      "previousClose": 0.15,
-      "timestamp": 1792984317000,
-      "percent": 6.666666666666665
     },
     {
       "symbol": "PPS.BK",
@@ -329,15 +302,6 @@
       "previousClose": 0.15,
       "timestamp": 1792987588000,
       "percent": 6.666666666666665
-    },
-    {
-      "symbol": "SVR.BK",
-      "name": "Sivarom Real Estate Public Company Limited",
-      "currency": "THB",
-      "price": 0.33,
-      "previousClose": 0.31,
-      "timestamp": 1792988641000,
-      "percent": 6.451612903225823
     },
     {
       "symbol": "AMC.BK",
@@ -354,8 +318,17 @@
       "currency": "THB",
       "price": 1.26,
       "previousClose": 1.19,
-      "timestamp": 1792988739000,
+      "timestamp": 1792989318000,
       "percent": 5.882352941176472
+    },
+    {
+      "symbol": "MRDIYT.BK",
+      "name": "MR. D.I.Y. Holding (Thailand) Public Company Limited",
+      "currency": "THB",
+      "price": 8.5,
+      "previousClose": 8.05,
+      "timestamp": 1792989344000,
+      "percent": 5.590062111801242
     },
     {
       "symbol": "UPF.BK",
@@ -381,16 +354,7 @@
       "currency": "THB",
       "price": 0.72,
       "previousClose": 0.69,
-      "timestamp": 1792988654000,
-      "percent": 4.347826086956519
-    },
-    {
-      "symbol": "MRDIYT.BK",
-      "name": "MR. D.I.Y. Holding (Thailand) Public Company Limited",
-      "currency": "THB",
-      "price": 8.4,
-      "previousClose": 8.05,
-      "timestamp": 1792988746000,
+      "timestamp": 1792989322000,
       "percent": 4.347826086956519
     },
     {
@@ -410,15 +374,6 @@
       "previousClose": 0.24,
       "timestamp": 1792987762000,
       "percent": 4.166666666666674
-    },
-    {
-      "symbol": "BRI.BK",
-      "name": "Britania Public Company Limited",
-      "currency": "THB",
-      "price": 1.31,
-      "previousClose": 1.26,
-      "timestamp": 1792987792000,
-      "percent": 3.9682539682539764
     },
     {
       "symbol": "PRECHA.BK",
@@ -471,7 +426,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.29,
-      "timestamp": 1792988687000,
+      "timestamp": 1792989291000,
       "percent": 3.4482758620689724
     },
     {
@@ -482,22 +437,67 @@
       "previousClose": 2.38,
       "timestamp": 1792988428000,
       "percent": 3.3613445378151363
+    },
+    {
+      "symbol": "THMUI.BK",
+      "name": "Thai Mui Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.31,
+      "previousClose": 0.3,
+      "timestamp": 1792987077000,
+      "percent": 3.3333333333333437
+    },
+    {
+      "symbol": "FVC.BK",
+      "name": "Filter Vision Public Company Limited",
+      "currency": "THB",
+      "price": 0.33,
+      "previousClose": 0.32,
+      "timestamp": 1792988020000,
+      "percent": 3.125
+    },
+    {
+      "symbol": "MICRO.BK",
+      "name": "Micro Leasing Public Company Limited",
+      "currency": "THB",
+      "price": 1.46,
+      "previousClose": 1.42,
+      "timestamp": 1792989277000,
+      "percent": 2.8169014084507005
+    },
+    {
+      "symbol": "STC.BK",
+      "name": "STC Concrete Product Public Company Limited",
+      "currency": "THB",
+      "price": 0.73,
+      "previousClose": 0.71,
+      "timestamp": 1792988899000,
+      "percent": 2.8169014084507005
+    },
+    {
+      "symbol": "TRU.BK",
+      "name": "Thai Rung Union Car Public Company Limited",
+      "currency": "THB",
+      "price": 3.7,
+      "previousClose": 3.6,
+      "timestamp": 1792986442000,
+      "percent": 2.77777777777779
     }
   ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 764,
-    "missing": 99,
+    "eligible": 770,
+    "missing": 93,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-26",
-    "scheduledSlot": "2026-10-26T11:55[Asia/Bangkok]",
-    "updatedAt": 1792990552948
+    "scheduledSlot": "2026-10-26T12:05[Asia/Bangkok]",
+    "updatedAt": 1792991149578
   },
-  "todayGainersUpdatedAt": 1792990552948,
+  "todayGainersUpdatedAt": 1792991149578,
   "items": [
     {
       "symbol": "PJW.BK",
