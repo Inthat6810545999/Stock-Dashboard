@@ -114,9 +114,9 @@
   "priceScan": {
     "total": 5474,
     "processed": 5474,
-    "eligible": 4987,
+    "eligible": 4973,
     "excluded": 1,
-    "missing": 486,
+    "missing": 500,
     "failed": 0,
     "status": "complete"
   },
@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1792888843302
+    "updatedAt": 1792975596186
   },
-  "todayGainersUpdatedAt": 1792888843302,
+  "todayGainersUpdatedAt": 1792975596186,
   "items": [
     {
       "symbol": "KSPI",
@@ -598,11 +598,11 @@
       "currency": "USD",
       "price": 10.11,
       "pe": 21.0625,
-      "forwardPe": 7.4704614,
+      "forwardPe": 7.5136003,
       "salesGrowth": 1.693,
       "marketCap": 11803018240,
       "timestamp": 1792785600000,
-      "score": 22.66258948878312
+      "score": 22.532473546669763
     },
     {
       "symbol": "SBSW",
@@ -710,7 +710,7 @@
       "pe": 2.5833335,
       "forwardPe": 2.6666667,
       "salesGrowth": 1.396,
-      "marketCap": 224259728,
+      "marketCap": 226282416,
       "timestamp": 1792785601000,
       "score": 52.34999934562501
     },
@@ -741,18 +741,18 @@
   ],
   "checked": 5474,
   "failed": 2,
-  "updatedAt": 1792888843305,
+  "updatedAt": 1792975596192,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5474,
     "processed": 5474,
-    "eligible": 613,
-    "excluded": 3197,
-    "missing": 1662,
+    "eligible": 609,
+    "excluded": 3221,
+    "missing": 1642,
     "failed": 2,
-    "startedAt": 1792888282727,
-    "directoryAt": 1792888282726,
+    "startedAt": 1792975086771,
+    "directoryAt": 1792975086771,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"

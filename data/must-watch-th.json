@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1792888975395
+    "updatedAt": 1792975724090
   },
-  "todayGainersUpdatedAt": 1792888975395,
+  "todayGainersUpdatedAt": 1792975724090,
   "items": [
     {
       "symbol": "PJW.BK",
@@ -597,7 +597,7 @@
       "name": "BBGI Public Company Limited",
       "currency": "THB",
       "price": 7,
-      "pe": 10.9375,
+      "pe": 11.4754095,
       "forwardPe": 7.6923075,
       "salesGrowth": 0.686,
       "marketCap": 10122000384,
@@ -610,11 +610,11 @@
       "currency": "THB",
       "price": 29.75,
       "pe": 6.6554813,
-      "forwardPe": 8.412153,
+      "forwardPe": 8.432827,
       "salesGrowth": 0.719,
       "marketCap": 34212499456,
       "timestamp": 1792661722000,
-      "score": 8.547157903571177
+      "score": 8.526203608825368
     }
   ],
   "allSizes": [
@@ -731,7 +731,7 @@
       "name": "BBGI Public Company Limited",
       "currency": "THB",
       "price": 7,
-      "pe": 10.9375,
+      "pe": 11.4754095,
       "forwardPe": 7.6923075,
       "salesGrowth": 0.686,
       "marketCap": 10122000384,
@@ -741,18 +741,18 @@
   ],
   "checked": 863,
   "failed": 4,
-  "updatedAt": 1792888975396,
+  "updatedAt": 1792975724091,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
     "total": 863,
     "processed": 863,
-    "eligible": 77,
-    "excluded": 258,
+    "eligible": 76,
+    "excluded": 259,
     "missing": 524,
     "failed": 4,
-    "startedAt": 1792888851451,
-    "directoryAt": 1792888851451,
+    "startedAt": 1792975604162,
+    "directoryAt": 1792975604161,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
