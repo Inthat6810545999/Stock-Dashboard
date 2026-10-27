@@ -122,15 +122,6 @@
   },
   "todayGainers": [
     {
-      "symbol": "AFJKR",
-      "name": "Aimei Health Technology Co., Ltd",
-      "currency": "USD",
-      "price": 0.1496,
-      "previousClose": 0.0853,
-      "timestamp": 1793119621000,
-      "percent": 75.3810082063306
-    },
-    {
       "symbol": "NUWE",
       "name": "Nuwellis, Inc.",
       "currency": "USD",
@@ -154,7 +145,7 @@
       "currency": "USD",
       "price": 0.1,
       "previousClose": 0.068,
-      "timestamp": 1793131151000,
+      "timestamp": 1793131200000,
       "percent": 47.058823529411754
     },
     {
@@ -201,6 +192,15 @@
       "previousClose": 2.375,
       "timestamp": 1793131201000,
       "percent": 28.84210526315789
+    },
+    {
+      "symbol": "MCRP",
+      "name": "Micropolis AI Robotics",
+      "currency": "USD",
+      "price": 0.5253,
+      "previousClose": 0.409,
+      "timestamp": 1793131200000,
+      "percent": 28.435207823960894
     },
     {
       "symbol": "CRML",
@@ -214,15 +214,6 @@
   ],
   "todayCandidates": [
     {
-      "symbol": "AFJKR",
-      "name": "Aimei Health Technology Co., Ltd",
-      "currency": "USD",
-      "price": 0.1496,
-      "previousClose": 0.0853,
-      "timestamp": 1793119621000,
-      "percent": 75.3810082063306
-    },
-    {
       "symbol": "NUWE",
       "name": "Nuwellis, Inc.",
       "currency": "USD",
@@ -246,7 +237,7 @@
       "currency": "USD",
       "price": 0.1,
       "previousClose": 0.068,
-      "timestamp": 1793131151000,
+      "timestamp": 1793131200000,
       "percent": 47.058823529411754
     },
     {
@@ -293,6 +284,15 @@
       "previousClose": 2.375,
       "timestamp": 1793131201000,
       "percent": 28.84210526315789
+    },
+    {
+      "symbol": "MCRP",
+      "name": "Micropolis AI Robotics",
+      "currency": "USD",
+      "price": 0.5253,
+      "previousClose": 0.409,
+      "timestamp": 1793131200000,
+      "percent": 28.435207823960894
     },
     {
       "symbol": "CRML",
@@ -311,33 +311,6 @@
       "previousClose": 0.5197,
       "timestamp": 1793131200000,
       "percent": 25.918799307292662
-    },
-    {
-      "symbol": "BAK",
-      "name": "Braskem S.A.",
-      "currency": "USD",
-      "price": 1.38,
-      "previousClose": 1.1,
-      "timestamp": 1793131197000,
-      "percent": 25.45454545454544
-    },
-    {
-      "symbol": "MCRP",
-      "name": "Micropolis AI Robotics",
-      "currency": "USD",
-      "price": 0.513,
-      "previousClose": 0.409,
-      "timestamp": 1793131146000,
-      "percent": 25.427872860635702
-    },
-    {
-      "symbol": "SES",
-      "name": "SES AI Corporation",
-      "currency": "USD",
-      "price": 0.8049,
-      "previousClose": 0.6428,
-      "timestamp": 1793131199000,
-      "percent": 25.217797137523323
     },
     {
       "symbol": "RIBBU",
@@ -376,6 +349,15 @@
       "percent": 24.537037037037024
     },
     {
+      "symbol": "SES",
+      "name": "SES AI Corporation",
+      "currency": "USD",
+      "price": 0.7925,
+      "previousClose": 0.6428,
+      "timestamp": 1793131202000,
+      "percent": 23.28873677660235
+    },
+    {
       "symbol": "SHFS",
       "name": "SHF Holdings, Inc.",
       "currency": "USD",
@@ -403,13 +385,22 @@
       "percent": 22.77227722772277
     },
     {
+      "symbol": "BAK",
+      "name": "Braskem S.A.",
+      "currency": "USD",
+      "price": 1.35,
+      "previousClose": 1.1,
+      "timestamp": 1793131202000,
+      "percent": 22.72727272727273
+    },
+    {
       "symbol": "HRI",
       "name": "Herc Holdings Inc.",
       "currency": "USD",
-      "price": 156,
+      "price": 156.01,
       "previousClose": 127.13,
-      "timestamp": 1793131198000,
-      "percent": 22.709037992605996
+      "timestamp": 1793131200000,
+      "percent": 22.71690395657988
     },
     {
       "symbol": "KNSA",
@@ -428,6 +419,15 @@
       "previousClose": 1.065,
       "timestamp": 1793131200000,
       "percent": 22.065727699530523
+    },
+    {
+      "symbol": "FXHO",
+      "name": "UTime Limited",
+      "currency": "USD",
+      "price": 7.575,
+      "previousClose": 6.22,
+      "timestamp": 1793131200000,
+      "percent": 21.784565916398723
     },
     {
       "symbol": "NEXR",
@@ -480,7 +480,7 @@
       "currency": "USD",
       "price": 9.68,
       "previousClose": 8.06,
-      "timestamp": 1793131199000,
+      "timestamp": 1793131200000,
       "percent": 20.099255583126528
     }
   ],
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-27T16:05[America/New_York]",
-    "updatedAt": 1793131562849
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-27T16:15[America/New_York]",
+    "updatedAt": 1793132169711
   },
-  "todayGainersUpdatedAt": 1793131562849,
+  "todayGainersUpdatedAt": 1793132169711,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
