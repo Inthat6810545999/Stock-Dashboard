@@ -122,31 +122,31 @@
   },
   "todayGainers": [
     {
-      "symbol": "BRAI",
-      "name": "Braiin Limited",
-      "currency": "USD",
-      "price": 3.79,
-      "previousClose": 2.12,
-      "timestamp": 1793119536000,
-      "percent": 78.77358490566037
-    },
-    {
       "symbol": "AFJKR",
       "name": "Aimei Health Technology Co., Ltd",
       "currency": "USD",
-      "price": 0.1498,
+      "price": 0.1599,
       "previousClose": 0.0853,
-      "timestamp": 1793119019000,
-      "percent": 75.61547479484172
+      "timestamp": 1793119621000,
+      "percent": 87.45603751465414
+    },
+    {
+      "symbol": "BRAI",
+      "name": "Braiin Limited",
+      "currency": "USD",
+      "price": 3.89,
+      "previousClose": 2.12,
+      "timestamp": 1793120145000,
+      "percent": 83.49056603773583
     },
     {
       "symbol": "NUWE",
       "name": "Nuwellis, Inc.",
       "currency": "USD",
-      "price": 4.71,
+      "price": 4.6901,
       "previousClose": 3.0969,
-      "timestamp": 1793119551000,
-      "percent": 52.08757144241014
+      "timestamp": 1793120159000,
+      "percent": 51.44499338047726
     },
     {
       "symbol": "FSHPR",
@@ -161,84 +161,84 @@
       "symbol": "NEXR",
       "name": "Nexera Technologies Ltd",
       "currency": "USD",
-      "price": 0.6465,
+      "price": 0.6585,
       "previousClose": 0.4479,
-      "timestamp": 1793119553000,
-      "percent": 44.340254521098444
+      "timestamp": 1793120158000,
+      "percent": 47.01942397856662
     },
     {
       "symbol": "AIOK",
       "name": "AI OKTO CORP.",
       "currency": "USD",
-      "price": 13.0183,
+      "price": 13.125,
       "previousClose": 9.16,
-      "timestamp": 1793119535000,
-      "percent": 42.1211790393013
-    },
-    {
-      "symbol": "AEYE",
-      "name": "AudioEye, Inc.",
-      "currency": "USD",
-      "price": 9.95,
-      "previousClose": 7.42,
-      "timestamp": 1793119533000,
-      "percent": 34.097035040431265
+      "timestamp": 1793120134000,
+      "percent": 43.286026200873366
     },
     {
       "symbol": "MCRP",
       "name": "Micropolis AI Robotics",
       "currency": "USD",
-      "price": 0.5397,
+      "price": 0.5517,
       "previousClose": 0.409,
-      "timestamp": 1793119545000,
-      "percent": 31.95599022004889
+      "timestamp": 1793120155000,
+      "percent": 34.88997555012225
     },
     {
-      "symbol": "MGN",
-      "name": "Megan Holdings Limited",
+      "symbol": "AEYE",
+      "name": "AudioEye, Inc.",
       "currency": "USD",
-      "price": 3.0053,
-      "previousClose": 2.375,
-      "timestamp": 1793119499000,
-      "percent": 26.538947368421063
+      "price": 9.98,
+      "previousClose": 7.42,
+      "timestamp": 1793120083000,
+      "percent": 34.50134770889488
     },
     {
       "symbol": "IPST",
       "name": "IP Strategy Holdings, Inc.",
       "currency": "USD",
-      "price": 2.69,
+      "price": 2.705,
       "previousClose": 2.13,
-      "timestamp": 1793119535000,
-      "percent": 26.291079812206576
+      "timestamp": 1793120142000,
+      "percent": 26.995305164319248
+    },
+    {
+      "symbol": "MGN",
+      "name": "Megan Holdings Limited",
+      "currency": "USD",
+      "price": 3.01,
+      "previousClose": 2.375,
+      "timestamp": 1793119813000,
+      "percent": 26.736842105263147
     }
   ],
   "todayCandidates": [
     {
-      "symbol": "BRAI",
-      "name": "Braiin Limited",
-      "currency": "USD",
-      "price": 3.79,
-      "previousClose": 2.12,
-      "timestamp": 1793119536000,
-      "percent": 78.77358490566037
-    },
-    {
       "symbol": "AFJKR",
       "name": "Aimei Health Technology Co., Ltd",
       "currency": "USD",
-      "price": 0.1498,
+      "price": 0.1599,
       "previousClose": 0.0853,
-      "timestamp": 1793119019000,
-      "percent": 75.61547479484172
+      "timestamp": 1793119621000,
+      "percent": 87.45603751465414
+    },
+    {
+      "symbol": "BRAI",
+      "name": "Braiin Limited",
+      "currency": "USD",
+      "price": 3.89,
+      "previousClose": 2.12,
+      "timestamp": 1793120145000,
+      "percent": 83.49056603773583
     },
     {
       "symbol": "NUWE",
       "name": "Nuwellis, Inc.",
       "currency": "USD",
-      "price": 4.71,
+      "price": 4.6901,
       "previousClose": 3.0969,
-      "timestamp": 1793119551000,
-      "percent": 52.08757144241014
+      "timestamp": 1793120159000,
+      "percent": 51.44499338047726
     },
     {
       "symbol": "FSHPR",
@@ -253,136 +253,172 @@
       "symbol": "NEXR",
       "name": "Nexera Technologies Ltd",
       "currency": "USD",
-      "price": 0.6465,
+      "price": 0.6585,
       "previousClose": 0.4479,
-      "timestamp": 1793119553000,
-      "percent": 44.340254521098444
+      "timestamp": 1793120158000,
+      "percent": 47.01942397856662
     },
     {
       "symbol": "AIOK",
       "name": "AI OKTO CORP.",
       "currency": "USD",
-      "price": 13.0183,
+      "price": 13.125,
       "previousClose": 9.16,
-      "timestamp": 1793119535000,
-      "percent": 42.1211790393013
-    },
-    {
-      "symbol": "AEYE",
-      "name": "AudioEye, Inc.",
-      "currency": "USD",
-      "price": 9.95,
-      "previousClose": 7.42,
-      "timestamp": 1793119533000,
-      "percent": 34.097035040431265
+      "timestamp": 1793120134000,
+      "percent": 43.286026200873366
     },
     {
       "symbol": "MCRP",
       "name": "Micropolis AI Robotics",
       "currency": "USD",
-      "price": 0.5397,
+      "price": 0.5517,
       "previousClose": 0.409,
-      "timestamp": 1793119545000,
-      "percent": 31.95599022004889
+      "timestamp": 1793120155000,
+      "percent": 34.88997555012225
     },
     {
-      "symbol": "MGN",
-      "name": "Megan Holdings Limited",
+      "symbol": "AEYE",
+      "name": "AudioEye, Inc.",
       "currency": "USD",
-      "price": 3.0053,
-      "previousClose": 2.375,
-      "timestamp": 1793119499000,
-      "percent": 26.538947368421063
+      "price": 9.98,
+      "previousClose": 7.42,
+      "timestamp": 1793120083000,
+      "percent": 34.50134770889488
     },
     {
       "symbol": "IPST",
       "name": "IP Strategy Holdings, Inc.",
       "currency": "USD",
-      "price": 2.69,
+      "price": 2.705,
       "previousClose": 2.13,
-      "timestamp": 1793119535000,
-      "percent": 26.291079812206576
+      "timestamp": 1793120142000,
+      "percent": 26.995305164319248
     },
     {
-      "symbol": "TDIC",
-      "name": "Dreamland Limited",
+      "symbol": "MGN",
+      "name": "Megan Holdings Limited",
       "currency": "USD",
-      "price": 1.89,
-      "previousClose": 1.5,
-      "timestamp": 1793119562000,
-      "percent": 26
-    },
-    {
-      "symbol": "BAK",
-      "name": "Braskem S.A.",
-      "currency": "USD",
-      "price": 1.372,
-      "previousClose": 1.1,
-      "timestamp": 1793119533000,
-      "percent": 24.72727272727273
+      "price": 3.01,
+      "previousClose": 2.375,
+      "timestamp": 1793119813000,
+      "percent": 26.736842105263147
     },
     {
       "symbol": "HTCO",
       "name": "High-Trend International Group",
       "currency": "USD",
-      "price": 1.9532,
+      "price": 2.015,
       "previousClose": 1.59,
-      "timestamp": 1793119541000,
-      "percent": 22.84276729559749
+      "timestamp": 1793120153000,
+      "percent": 26.72955974842768
+    },
+    {
+      "symbol": "TDIC",
+      "name": "Dreamland Limited",
+      "currency": "USD",
+      "price": 1.865,
+      "previousClose": 1.5,
+      "timestamp": 1793120164000,
+      "percent": 24.33333333333334
+    },
+    {
+      "symbol": "BAK",
+      "name": "Braskem S.A.",
+      "currency": "USD",
+      "price": 1.365,
+      "previousClose": 1.1,
+      "timestamp": 1793120140000,
+      "percent": 24.090909090909072
     },
     {
       "symbol": "KNSA",
       "name": "Kiniksa Pharmaceuticals International, plc",
       "currency": "USD",
-      "price": 89.11,
+      "price": 89.7412,
       "previousClose": 72.98,
-      "timestamp": 1793119547000,
-      "percent": 22.101945738558506
-    },
-    {
-      "symbol": "REKR",
-      "name": "Rekor Systems, Inc.",
-      "currency": "USD",
-      "price": 0.2866,
-      "previousClose": 0.2351,
-      "timestamp": 1793119534000,
-      "percent": 21.90557209698001
+      "timestamp": 1793120155000,
+      "percent": 22.96684023020006
     },
     {
       "symbol": "MRLN",
       "name": "Merlin, Inc.",
       "currency": "USD",
-      "price": 1.0387,
+      "price": 1.055,
       "previousClose": 0.8585,
-      "timestamp": 1793119548000,
-      "percent": 20.990099009900987
+      "timestamp": 1793120092000,
+      "percent": 22.888759464181696
     },
     {
       "symbol": "ENVX",
       "name": "Enovix Corporation",
       "currency": "USD",
-      "price": 3.235,
+      "price": 3.29,
       "previousClose": 2.68,
-      "timestamp": 1793119542000,
-      "percent": 20.708955223880587
-    },
-    {
-      "symbol": "JBLU",
-      "name": "JetBlue Airways Corporation",
-      "currency": "USD",
-      "price": 2.8418,
-      "previousClose": 2.37,
-      "timestamp": 1793119544000,
-      "percent": 19.9071729957806
+      "timestamp": 1793120150000,
+      "percent": 22.76119402985075
     },
     {
       "symbol": "TE",
       "name": "T1 Energy Inc.",
       "currency": "USD",
-      "price": 2.52,
+      "price": 2.555,
       "previousClose": 2.12,
-      "timestamp": 1793119559000,
-      "percent": 18.867924528301884
+      "timestamp": 1793120163000,
+      "percent": 20.518867924528305
+    },
+    {
+      "symbol": "SLNH",
+      "name": "Soluna Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.6223,
+      "previousClose": 0.5197,
+      "timestamp": 1793120162000,
+      "percent": 19.742158937848743
+    },
+    {
+      "symbol": "REKR",
+      "name": "Rekor Systems, Inc.",
+      "currency": "USD",
+      "price": 0.2815,
+      "previousClose": 0.2351,
+      "timestamp": 1793120158000,
+      "percent": 19.736282433007226
+    },
+    {
+      "symbol": "OWLS",
+      "name": "Obook Holdings Inc.",
+      "currency": "USD",
+      "price": 2.43,
+      "previousClose": 2.04,
+      "timestamp": 1793119820000,
+      "percent": 19.11764705882353
+    },
+    {
+      "symbol": "ALMU",
+      "name": "Aeluma, Inc.",
+      "currency": "USD",
+      "price": 7.86,
+      "previousClose": 6.61,
+      "timestamp": 1793120133000,
+      "percent": 18.91074130105901
+    },
+    {
+      "symbol": "PDSB",
+      "name": "PDS Biotechnology Corporation",
+      "currency": "USD",
+      "price": 1.265,
+      "previousClose": 1.065,
+      "timestamp": 1793120130000,
+      "percent": 18.7793427230047
+    },
+    {
+      "symbol": "JBLU",
+      "name": "JetBlue Airways Corporation",
+      "currency": "USD",
+      "price": 2.815,
+      "previousClose": 2.37,
+      "timestamp": 1793120155000,
+      "percent": 18.77637130801686
     },
     {
       "symbol": "AXINR",
@@ -394,40 +430,22 @@
       "percent": 18.75
     },
     {
-      "symbol": "PDSB",
-      "name": "PDS Biotechnology Corporation",
+      "symbol": "VIVK",
+      "name": "Vivakor, Inc.",
       "currency": "USD",
-      "price": 1.26,
-      "previousClose": 1.065,
-      "timestamp": 1793119546000,
-      "percent": 18.309859154929576
-    },
-    {
-      "symbol": "CHRN",
-      "name": "ChronoScale Holdings Corporation",
-      "currency": "USD",
-      "price": 17.255,
-      "previousClose": 14.63,
-      "timestamp": 1793119486000,
-      "percent": 17.942583732057393
-    },
-    {
-      "symbol": "FMST",
-      "name": "Foremost Clean Energy Ltd.",
-      "currency": "USD",
-      "price": 0.6307,
-      "previousClose": 0.535,
-      "timestamp": 1793119455000,
-      "percent": 17.887850467289713
+      "price": 1.565,
+      "previousClose": 1.32,
+      "timestamp": 1793120155000,
+      "percent": 18.560606060606055
     },
     {
       "symbol": "HRI",
       "name": "Herc Holdings Inc.",
       "currency": "USD",
-      "price": 149.35,
+      "price": 149.87,
       "previousClose": 127.13,
-      "timestamp": 1793119549000,
-      "percent": 17.478171949972477
+      "timestamp": 1793120129000,
+      "percent": 17.887202076614493
     },
     {
       "symbol": "REBN",
@@ -439,49 +457,31 @@
       "percent": 17.320261437908478
     },
     {
-      "symbol": "ALMU",
-      "name": "Aeluma, Inc.",
+      "symbol": "FMST",
+      "name": "Foremost Clean Energy Ltd.",
       "currency": "USD",
-      "price": 7.75,
-      "previousClose": 6.61,
-      "timestamp": 1793119528000,
-      "percent": 17.2465960665658
+      "price": 0.6256,
+      "previousClose": 0.535,
+      "timestamp": 1793119984000,
+      "percent": 16.93457943925234
     },
     {
-      "symbol": "AARD",
-      "name": "Aardvark Therapeutics, Inc.",
+      "symbol": "VOGX",
+      "name": "Vogenx, Inc.",
       "currency": "USD",
-      "price": 1.265,
-      "previousClose": 1.08,
-      "timestamp": 1793119528000,
-      "percent": 17.129629629629605
+      "price": 20.255,
+      "previousClose": 17.34,
+      "timestamp": 1793120132000,
+      "percent": 16.810841983852363
     },
     {
-      "symbol": "MBRX",
-      "name": "Moleculin Biotech, Inc.",
+      "symbol": "CHRN",
+      "name": "ChronoScale Holdings Corporation",
       "currency": "USD",
-      "price": 8.26,
-      "previousClose": 7.085,
-      "timestamp": 1793119530000,
-      "percent": 16.58433309809457
-    },
-    {
-      "symbol": "ZURA",
-      "name": "Zura Bio Limited",
-      "currency": "USD",
-      "price": 4.15,
-      "previousClose": 3.56,
-      "timestamp": 1793119535000,
-      "percent": 16.573033707865182
-    },
-    {
-      "symbol": "FRGT",
-      "name": "Freight Technologies, Inc.",
-      "currency": "USD",
-      "price": 1.165,
-      "previousClose": 1,
-      "timestamp": 1793119511000,
-      "percent": 16.500000000000004
+      "price": 17.07,
+      "previousClose": 14.63,
+      "timestamp": 1793119783000,
+      "percent": 16.678058783321937
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-27T12:45[America/New_York]",
-    "updatedAt": 1793119567138
+    "scheduledSlot": "2026-10-27T12:55[America/New_York]",
+    "updatedAt": 1793120169594
   },
-  "todayGainersUpdatedAt": 1793119567138,
+  "todayGainersUpdatedAt": 1793120169594,
   "items": [
     {
       "symbol": "KSPI",
