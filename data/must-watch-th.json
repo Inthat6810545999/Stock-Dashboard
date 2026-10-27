@@ -120,22 +120,384 @@
     "failed": 0,
     "status": "complete"
   },
-  "todayGainers": [],
-  "todayCandidates": [],
+  "todayGainers": [
+    {
+      "symbol": "GTV.BK",
+      "name": "Green Tech Ventures Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1793070138000,
+      "percent": 50
+    },
+    {
+      "symbol": "HYDRO.BK",
+      "name": "Hydrotek Public Company Limited",
+      "currency": "THB",
+      "price": 0.05,
+      "previousClose": 0.04,
+      "timestamp": 1793070330000,
+      "percent": 25
+    },
+    {
+      "symbol": "NCL.BK",
+      "name": "NCL International Logistics Public Company Limited",
+      "currency": "THB",
+      "price": 0.07,
+      "previousClose": 0.06,
+      "timestamp": 1793070339000,
+      "percent": 16.666666666666675
+    },
+    {
+      "symbol": "TSE.BK",
+      "name": "Thai Solar Energy Public Company Limited",
+      "currency": "THB",
+      "price": 1.41,
+      "previousClose": 1.27,
+      "timestamp": 1793070346000,
+      "percent": 11.023622047244096
+    },
+    {
+      "symbol": "NRF.BK",
+      "name": "NR Instant Produce Public Company Limited",
+      "currency": "THB",
+      "price": 0.23,
+      "previousClose": 0.21,
+      "timestamp": 1793069922000,
+      "percent": 9.523809523809534
+    },
+    {
+      "symbol": "AJA.BK",
+      "name": "AJ Advance Technology Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1793069922000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "PEACE.BK",
+      "name": "Peace & Living Public Company Limited",
+      "currency": "THB",
+      "price": 1.56,
+      "previousClose": 1.44,
+      "timestamp": 1793069922000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "SUPER.BK",
+      "name": "Super Energy Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1793070282000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "ACC.BK",
+      "name": "Advanced Connection Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.33,
+      "previousClose": 0.31,
+      "timestamp": 1793070140000,
+      "percent": 6.451612903225823
+    },
+    {
+      "symbol": "SCGD.BK",
+      "name": "SCG Decor Public Company Limited",
+      "currency": "THB",
+      "price": 5.85,
+      "previousClose": 5.5,
+      "timestamp": 1793070328000,
+      "percent": 6.363636363636349
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "GTV.BK",
+      "name": "Green Tech Ventures Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1793070138000,
+      "percent": 50
+    },
+    {
+      "symbol": "HYDRO.BK",
+      "name": "Hydrotek Public Company Limited",
+      "currency": "THB",
+      "price": 0.05,
+      "previousClose": 0.04,
+      "timestamp": 1793070330000,
+      "percent": 25
+    },
+    {
+      "symbol": "NCL.BK",
+      "name": "NCL International Logistics Public Company Limited",
+      "currency": "THB",
+      "price": 0.07,
+      "previousClose": 0.06,
+      "timestamp": 1793070339000,
+      "percent": 16.666666666666675
+    },
+    {
+      "symbol": "TSE.BK",
+      "name": "Thai Solar Energy Public Company Limited",
+      "currency": "THB",
+      "price": 1.41,
+      "previousClose": 1.27,
+      "timestamp": 1793070346000,
+      "percent": 11.023622047244096
+    },
+    {
+      "symbol": "NRF.BK",
+      "name": "NR Instant Produce Public Company Limited",
+      "currency": "THB",
+      "price": 0.23,
+      "previousClose": 0.21,
+      "timestamp": 1793069922000,
+      "percent": 9.523809523809534
+    },
+    {
+      "symbol": "AJA.BK",
+      "name": "AJ Advance Technology Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1793069922000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "PEACE.BK",
+      "name": "Peace & Living Public Company Limited",
+      "currency": "THB",
+      "price": 1.56,
+      "previousClose": 1.44,
+      "timestamp": 1793069922000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "SUPER.BK",
+      "name": "Super Energy Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1793070282000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "ACC.BK",
+      "name": "Advanced Connection Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.33,
+      "previousClose": 0.31,
+      "timestamp": 1793070140000,
+      "percent": 6.451612903225823
+    },
+    {
+      "symbol": "SCGD.BK",
+      "name": "SCG Decor Public Company Limited",
+      "currency": "THB",
+      "price": 5.85,
+      "previousClose": 5.5,
+      "timestamp": 1793070328000,
+      "percent": 6.363636363636349
+    },
+    {
+      "symbol": "AE.BK",
+      "name": "All Energy & Utilities Public Company Limited",
+      "currency": "THB",
+      "price": 0.18,
+      "previousClose": 0.17,
+      "timestamp": 1793070205000,
+      "percent": 5.88235294117645
+    },
+    {
+      "symbol": "BJC.BK",
+      "name": "Berli Jucker Public Company Limited",
+      "currency": "THB",
+      "price": 19.9,
+      "previousClose": 18.8,
+      "timestamp": 1793070341000,
+      "percent": 5.8510638297872175
+    },
+    {
+      "symbol": "JCK.BK",
+      "name": "JCK International Public Company Limited",
+      "currency": "THB",
+      "price": 0.19,
+      "previousClose": 0.18,
+      "timestamp": 1793070198000,
+      "percent": 5.555555555555558
+    },
+    {
+      "symbol": "POWER.BK",
+      "name": "Power Solution Technologies Public Company Limited",
+      "currency": "THB",
+      "price": 0.4,
+      "previousClose": 0.38,
+      "timestamp": 1793070311000,
+      "percent": 5.263157894736836
+    },
+    {
+      "symbol": "NAT.BK",
+      "name": "NAT Absolute Technologies Public Company Limited",
+      "currency": "THB",
+      "price": 3.3,
+      "previousClose": 3.14,
+      "timestamp": 1793070331000,
+      "percent": 5.095541401273884
+    },
+    {
+      "symbol": "BWG.BK",
+      "name": "Better World Green Public Company Limited",
+      "currency": "THB",
+      "price": 0.22,
+      "previousClose": 0.21,
+      "timestamp": 1793070004000,
+      "percent": 4.761904761904767
+    },
+    {
+      "symbol": "BLESS.BK",
+      "name": "Bless Asset Group Public Company Limited",
+      "currency": "THB",
+      "price": 0.24,
+      "previousClose": 0.23,
+      "timestamp": 1793069922000,
+      "percent": 4.347826086956519
+    },
+    {
+      "symbol": "SOLAR.BK",
+      "name": "Solartron Public Company Limited",
+      "currency": "THB",
+      "price": 0.26,
+      "previousClose": 0.25,
+      "timestamp": 1793070314000,
+      "percent": 4.0000000000000036
+    },
+    {
+      "symbol": "TNDT.BK",
+      "name": "Thai Nondestructive Testing Public Company Limited",
+      "currency": "THB",
+      "price": 0.27,
+      "previousClose": 0.26,
+      "timestamp": 1793070035000,
+      "percent": 3.8461538461538547
+    },
+    {
+      "symbol": "BPS.BK",
+      "name": "BPS Technology Public Company Limited",
+      "currency": "THB",
+      "price": 0.6,
+      "previousClose": 0.58,
+      "timestamp": 1793070330000,
+      "percent": 3.4482758620689724
+    },
+    {
+      "symbol": "IRCP.BK",
+      "name": "International Research Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.3,
+      "previousClose": 0.29,
+      "timestamp": 1793069922000,
+      "percent": 3.4482758620689724
+    },
+    {
+      "symbol": "RSP.BK",
+      "name": "Rich Sport Public Company Limited",
+      "currency": "THB",
+      "price": 1.22,
+      "previousClose": 1.18,
+      "timestamp": 1793070284000,
+      "percent": 3.3898305084745894
+    },
+    {
+      "symbol": "MITSIB.BK",
+      "name": "Mitsib Leasing Public Company Limited",
+      "currency": "THB",
+      "price": 0.64,
+      "previousClose": 0.62,
+      "timestamp": 1793069922000,
+      "percent": 3.2258064516129004
+    },
+    {
+      "symbol": "ANAN.BK",
+      "name": "Ananda Development Public Company Limited",
+      "currency": "THB",
+      "price": 0.34,
+      "previousClose": 0.33,
+      "timestamp": 1793070214000,
+      "percent": 3.0303030303030276
+    },
+    {
+      "symbol": "ITD.BK",
+      "name": "Italian-Thai Development Public Company Limited",
+      "currency": "THB",
+      "price": 0.36,
+      "previousClose": 0.35,
+      "timestamp": 1793070063000,
+      "percent": 2.857142857142869
+    },
+    {
+      "symbol": "IVF.BK",
+      "name": "Inspire IVF Public Company Limited",
+      "currency": "THB",
+      "price": 0.72,
+      "previousClose": 0.7,
+      "timestamp": 1793070159000,
+      "percent": 2.857142857142869
+    },
+    {
+      "symbol": "ADB.BK",
+      "name": "Applied DB Public Company Limited",
+      "currency": "THB",
+      "price": 1.13,
+      "previousClose": 1.1,
+      "timestamp": 1793070336000,
+      "percent": 2.7272727272727115
+    },
+    {
+      "symbol": "SAF.BK",
+      "name": "S.A.F. Special Steel Public Company Limited",
+      "currency": "THB",
+      "price": 0.38,
+      "previousClose": 0.37,
+      "timestamp": 1793070263000,
+      "percent": 2.7027027027026973
+    },
+    {
+      "symbol": "MST.BK",
+      "name": "Maybank Securities (Thailand) Public Company Limited",
+      "currency": "THB",
+      "price": 7.8,
+      "previousClose": 7.6,
+      "timestamp": 1793070332000,
+      "percent": 2.6315789473684292
+    },
+    {
+      "symbol": "ARIP.BK",
+      "name": "ARIP Public Company Limited",
+      "currency": "THB",
+      "price": 0.42,
+      "previousClose": 0.41,
+      "timestamp": 1793069922000,
+      "percent": 2.4390243902439046
+    }
+  ],
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 0,
-    "missing": 863,
+    "eligible": 563,
+    "missing": 300,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-27",
-    "scheduledSlot": "2026-10-27T10:25[Asia/Bangkok]",
-    "updatedAt": 1793071563239
+    "scheduledSlot": "2026-10-27T10:35[Asia/Bangkok]",
+    "updatedAt": 1793072147158
   },
-  "todayGainersUpdatedAt": 1793071563239,
+  "todayGainersUpdatedAt": 1793072147158,
   "items": [
     {
       "symbol": "PJW.BK",
