@@ -163,17 +163,26 @@
       "currency": "THB",
       "price": 0.06,
       "previousClose": 0.05,
-      "timestamp": 1793170736000,
+      "timestamp": 1793176658000,
       "percent": 19.999999999999996
     },
     {
       "symbol": "UMS.BK",
       "name": "Unique Mining Services Public Company Limited",
       "currency": "THB",
-      "price": 0.67,
+      "price": 0.66,
       "previousClose": 0.58,
-      "timestamp": 1793176042000,
-      "percent": 15.517241379310365
+      "timestamp": 1793177151000,
+      "percent": 13.793103448275868
+    },
+    {
+      "symbol": "DPAINT.BK",
+      "name": "Delta Paint Public Company Limited",
+      "currency": "THB",
+      "price": 0.19,
+      "previousClose": 0.17,
+      "timestamp": 1793176681000,
+      "percent": 11.764705882352944
     },
     {
       "symbol": "PRECHA.BK",
@@ -194,22 +203,13 @@
       "percent": 7.936507936507953
     },
     {
-      "symbol": "CMC.BK",
-      "name": "Chaoprayamahanakorn Public Company Limited",
+      "symbol": "QTCG.BK",
+      "name": "QTCG Public Company Limited",
       "currency": "THB",
-      "price": 0.43,
-      "previousClose": 0.4,
-      "timestamp": 1793176330000,
-      "percent": 7.499999999999996
-    },
-    {
-      "symbol": "BTW.BK",
-      "name": "BT Wealth Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.15,
-      "previousClose": 0.14,
-      "timestamp": 1793173970000,
-      "percent": 7.14285714285714
+      "price": 0.14,
+      "previousClose": 0.13,
+      "timestamp": 1793177096000,
+      "percent": 7.692307692307709
     }
   ],
   "todayCandidates": [
@@ -255,17 +255,26 @@
       "currency": "THB",
       "price": 0.06,
       "previousClose": 0.05,
-      "timestamp": 1793170736000,
+      "timestamp": 1793176658000,
       "percent": 19.999999999999996
     },
     {
       "symbol": "UMS.BK",
       "name": "Unique Mining Services Public Company Limited",
       "currency": "THB",
-      "price": 0.67,
+      "price": 0.66,
       "previousClose": 0.58,
-      "timestamp": 1793176042000,
-      "percent": 15.517241379310365
+      "timestamp": 1793177151000,
+      "percent": 13.793103448275868
+    },
+    {
+      "symbol": "DPAINT.BK",
+      "name": "Delta Paint Public Company Limited",
+      "currency": "THB",
+      "price": 0.19,
+      "previousClose": 0.17,
+      "timestamp": 1793176681000,
+      "percent": 11.764705882352944
     },
     {
       "symbol": "PRECHA.BK",
@@ -286,12 +295,30 @@
       "percent": 7.936507936507953
     },
     {
+      "symbol": "QTCG.BK",
+      "name": "QTCG Public Company Limited",
+      "currency": "THB",
+      "price": 0.14,
+      "previousClose": 0.13,
+      "timestamp": 1793177096000,
+      "percent": 7.692307692307709
+    },
+    {
+      "symbol": "QUICK.BK",
+      "name": "Quick Transformation Public Company Limited",
+      "currency": "THB",
+      "price": 6.35,
+      "previousClose": 5.9,
+      "timestamp": 1793177139000,
+      "percent": 7.627118644067776
+    },
+    {
       "symbol": "CMC.BK",
       "name": "Chaoprayamahanakorn Public Company Limited",
       "currency": "THB",
       "price": 0.43,
       "previousClose": 0.4,
-      "timestamp": 1793176330000,
+      "timestamp": 1793176914000,
       "percent": 7.499999999999996
     },
     {
@@ -309,17 +336,8 @@
       "currency": "THB",
       "price": 7.1,
       "previousClose": 6.65,
-      "timestamp": 1793176531000,
+      "timestamp": 1793177133000,
       "percent": 6.766917293233066
-    },
-    {
-      "symbol": "DCON.BK",
-      "name": "Dcon Products Public Company Limited",
-      "currency": "THB",
-      "price": 0.16,
-      "previousClose": 0.15,
-      "timestamp": 1793170741000,
-      "percent": 6.666666666666665
     },
     {
       "symbol": "PPPM.BK",
@@ -327,7 +345,7 @@
       "currency": "THB",
       "price": 0.32,
       "previousClose": 0.3,
-      "timestamp": 1793176509000,
+      "timestamp": 1793176684000,
       "percent": 6.666666666666665
     },
     {
@@ -358,24 +376,6 @@
       "percent": 6.08695652173914
     },
     {
-      "symbol": "QUICK.BK",
-      "name": "Quick Transformation Public Company Limited",
-      "currency": "THB",
-      "price": 6.25,
-      "previousClose": 5.9,
-      "timestamp": 1793176551000,
-      "percent": 5.932203389830493
-    },
-    {
-      "symbol": "DPAINT.BK",
-      "name": "Delta Paint Public Company Limited",
-      "currency": "THB",
-      "price": 0.18,
-      "previousClose": 0.17,
-      "timestamp": 1793174997000,
-      "percent": 5.88235294117645
-    },
-    {
       "symbol": "FANCY.BK",
       "name": "Fancy Wood Industries Public Company Limited",
       "currency": "THB",
@@ -385,31 +385,22 @@
       "percent": 5.88235294117645
     },
     {
-      "symbol": "MK.BK",
-      "name": "M.K. Real Estate Development Public Company Limited",
-      "currency": "THB",
-      "price": 0.6,
-      "previousClose": 0.57,
-      "timestamp": 1793175801000,
-      "percent": 5.263157894736836
-    },
-    {
       "symbol": "KCE.BK",
       "name": "KCE Electronics Public Company Limited",
       "currency": "THB",
       "price": 73.25,
       "previousClose": 69.75,
-      "timestamp": 1793176465000,
+      "timestamp": 1793177155000,
       "percent": 5.017921146953408
     },
     {
-      "symbol": "INSET.BK",
-      "name": "Infraset Public Company Limited",
+      "symbol": "B52.BK",
+      "name": "B-52 Capital Public Company Limited",
       "currency": "THB",
-      "price": 4.28,
-      "previousClose": 4.08,
-      "timestamp": 1793176524000,
-      "percent": 4.90196078431373
+      "price": 0.22,
+      "previousClose": 0.21,
+      "timestamp": 1793177127000,
+      "percent": 4.761904761904767
     },
     {
       "symbol": "TPL.BK",
@@ -421,6 +412,15 @@
       "percent": 4.651162790697683
     },
     {
+      "symbol": "NL.BK",
+      "name": "NL Development Public Company Limited",
+      "currency": "THB",
+      "price": 0.68,
+      "previousClose": 0.65,
+      "timestamp": 1793176870000,
+      "percent": 4.615384615384621
+    },
+    {
       "symbol": "CRD.BK",
       "name": "Chiangmai Rimdoi Public Company Limited",
       "currency": "THB",
@@ -428,6 +428,15 @@
       "previousClose": 0.45,
       "timestamp": 1793175900000,
       "percent": 4.444444444444429
+    },
+    {
+      "symbol": "INSET.BK",
+      "name": "Infraset Public Company Limited",
+      "currency": "THB",
+      "price": 4.26,
+      "previousClose": 4.08,
+      "timestamp": 1793177112000,
+      "percent": 4.411764705882337
     },
     {
       "symbol": "VS.BK",
@@ -462,16 +471,7 @@
       "currency": "THB",
       "price": 0.28,
       "previousClose": 0.27,
-      "timestamp": 1793176458000,
-      "percent": 3.703703703703698
-    },
-    {
-      "symbol": "TCC.BK",
-      "name": "Thai Capital Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.28,
-      "previousClose": 0.27,
-      "timestamp": 1793176510000,
+      "timestamp": 1793177147000,
       "percent": 3.703703703703698
     },
     {
@@ -487,17 +487,17 @@
   "todayScan": {
     "total": 863,
     "processed": 863,
-    "eligible": 791,
-    "missing": 72,
+    "eligible": 793,
+    "missing": 70,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-28",
-    "scheduledSlot": "2026-10-28T16:05[Asia/Bangkok]",
-    "updatedAt": 1793178356635
+    "scheduledSlot": "2026-10-28T16:15[Asia/Bangkok]",
+    "updatedAt": 1793178959844
   },
-  "todayGainersUpdatedAt": 1793178356635,
+  "todayGainersUpdatedAt": 1793178959844,
   "items": [
     {
       "symbol": "PJW.BK",
