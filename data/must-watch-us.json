@@ -167,15 +167,6 @@
       "percent": 49.25373134328357
     },
     {
-      "symbol": "RIBBU",
-      "name": "Ribbon Acquisition Corp.",
-      "currency": "USD",
-      "price": 27.32,
-      "previousClose": 18.9,
-      "timestamp": 1793214195000,
-      "percent": 44.550264550264565
-    },
-    {
       "symbol": "BOOM",
       "name": "DMC Global Inc.",
       "currency": "USD",
@@ -199,7 +190,7 @@
       "currency": "USD",
       "price": 5.05,
       "previousClose": 3.71,
-      "timestamp": 1793217575000,
+      "timestamp": 1793217600000,
       "percent": 36.11859838274931
     },
     {
@@ -210,6 +201,15 @@
       "previousClose": 1.8,
       "timestamp": 1793217600000,
       "percent": 36.111111111111114
+    },
+    {
+      "symbol": "CHSN",
+      "name": "Chanson International Holding",
+      "currency": "USD",
+      "price": 1.46,
+      "previousClose": 1.08,
+      "timestamp": 1793217601000,
+      "percent": 35.18518518518516
     }
   ],
   "todayCandidates": [
@@ -259,15 +259,6 @@
       "percent": 49.25373134328357
     },
     {
-      "symbol": "RIBBU",
-      "name": "Ribbon Acquisition Corp.",
-      "currency": "USD",
-      "price": 27.32,
-      "previousClose": 18.9,
-      "timestamp": 1793214195000,
-      "percent": 44.550264550264565
-    },
-    {
       "symbol": "BOOM",
       "name": "DMC Global Inc.",
       "currency": "USD",
@@ -291,7 +282,7 @@
       "currency": "USD",
       "price": 5.05,
       "previousClose": 3.71,
-      "timestamp": 1793217575000,
+      "timestamp": 1793217600000,
       "percent": 36.11859838274931
     },
     {
@@ -311,6 +302,15 @@
       "previousClose": 1.08,
       "timestamp": 1793217601000,
       "percent": 35.18518518518516
+    },
+    {
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
+      "currency": "USD",
+      "price": 25.34,
+      "previousClose": 18.9,
+      "timestamp": 1793217600000,
+      "percent": 34.074074074074076
     },
     {
       "symbol": "BEAT",
@@ -399,7 +399,7 @@
       "currency": "USD",
       "price": 2.44,
       "previousClose": 1.95,
-      "timestamp": 1793217572000,
+      "timestamp": 1793217600000,
       "percent": 25.128205128205128
     },
     {
@@ -451,10 +451,10 @@
       "symbol": "EVMN",
       "name": "Evommune, Inc.",
       "currency": "USD",
-      "price": 6.295,
+      "price": 6.31,
       "previousClose": 5.16,
-      "timestamp": 1793217599000,
-      "percent": 21.996124031007746
+      "timestamp": 1793217602000,
+      "percent": 22.28682170542635
     },
     {
       "symbol": "WATT",
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-28T16:05[America/New_York]",
-    "updatedAt": 1793218007977
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-10-28T16:15[America/New_York]",
+    "updatedAt": 1793218578941
   },
-  "todayGainersUpdatedAt": 1793218007977,
+  "todayGainersUpdatedAt": 1793218578941,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
