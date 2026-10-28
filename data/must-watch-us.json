@@ -125,91 +125,91 @@
       "symbol": "ULBI",
       "name": "Ultralife Corporation",
       "currency": "USD",
-      "price": 15.65,
+      "price": 15.6407,
       "previousClose": 6.36,
-      "timestamp": 1793211363000,
-      "percent": 146.0691823899371
+      "timestamp": 1793211953000,
+      "percent": 145.92295597484278
     },
     {
       "symbol": "FTFT",
       "name": "Future FinTech Group Inc.",
       "currency": "USD",
-      "price": 2.97,
+      "price": 3.015,
       "previousClose": 1.86,
-      "timestamp": 1793211350000,
-      "percent": 59.677419354838705
+      "timestamp": 1793211947000,
+      "percent": 62.09677419354838
+    },
+    {
+      "symbol": "KPTI",
+      "name": "Karyopharm Therapeutics Inc.",
+      "currency": "USD",
+      "price": 0.6903,
+      "previousClose": 0.48,
+      "timestamp": 1793211956000,
+      "percent": 43.81250000000001
     },
     {
       "symbol": "BOOM",
       "name": "DMC Global Inc.",
       "currency": "USD",
-      "price": 7.469,
+      "price": 7.4301,
       "previousClose": 5.35,
-      "timestamp": 1793211334000,
-      "percent": 39.607476635514026
-    },
-    {
-      "symbol": "AIOK",
-      "name": "AI OKTO CORP.",
-      "currency": "USD",
-      "price": 18.0743,
-      "previousClose": 13.42,
-      "timestamp": 1793211341000,
-      "percent": 34.681818181818194
+      "timestamp": 1793211935000,
+      "percent": 38.880373831775714
     },
     {
       "symbol": "LUNG",
       "name": "Pulmonx Corporation",
       "currency": "USD",
-      "price": 2.645,
+      "price": 2.62,
       "previousClose": 1.98,
-      "timestamp": 1793211343000,
-      "percent": 33.58585858585859
+      "timestamp": 1793211940000,
+      "percent": 32.32323232323233
     },
     {
-      "symbol": "ONCO",
-      "name": "Onconetix, Inc.",
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
       "currency": "USD",
-      "price": 0.6266,
-      "previousClose": 0.4746,
-      "timestamp": 1793211359000,
-      "percent": 32.02697008006743
+      "price": 25,
+      "previousClose": 18.9,
+      "timestamp": 1793211937000,
+      "percent": 32.27513227513228
     },
     {
       "symbol": "PODC",
       "name": "PodcastOne, Inc.",
       "currency": "USD",
-      "price": 2.3599,
+      "price": 2.38,
       "previousClose": 1.8,
-      "timestamp": 1793211358000,
-      "percent": 31.105555555555565
+      "timestamp": 1793211926000,
+      "percent": 32.22222222222222
+    },
+    {
+      "symbol": "AIOK",
+      "name": "AI OKTO CORP.",
+      "currency": "USD",
+      "price": 17.6333,
+      "previousClose": 13.42,
+      "timestamp": 1793211944000,
+      "percent": 31.395678092399404
     },
     {
       "symbol": "AXGN",
       "name": "Axogen, Inc.",
       "currency": "USD",
-      "price": 48.43,
+      "price": 48.75,
       "previousClose": 37.46,
-      "timestamp": 1793211337000,
-      "percent": 29.284570208222107
+      "timestamp": 1793211924000,
+      "percent": 30.13881473571809
     },
     {
       "symbol": "KIDS",
       "name": "OrthoPediatrics Corp.",
       "currency": "USD",
-      "price": 30.75,
+      "price": 30.885,
       "previousClose": 23.82,
-      "timestamp": 1793211342000,
-      "percent": 29.093198992443313
-    },
-    {
-      "symbol": "GIFT",
-      "name": "Giftify, Inc.",
-      "currency": "USD",
-      "price": 0.57,
-      "previousClose": 0.4416,
-      "timestamp": 1793211325000,
-      "percent": 29.076086956521728
+      "timestamp": 1793211915000,
+      "percent": 29.65994962216625
     }
   ],
   "todayCandidates": [
@@ -217,154 +217,163 @@
       "symbol": "ULBI",
       "name": "Ultralife Corporation",
       "currency": "USD",
-      "price": 15.65,
+      "price": 15.6407,
       "previousClose": 6.36,
-      "timestamp": 1793211363000,
-      "percent": 146.0691823899371
+      "timestamp": 1793211953000,
+      "percent": 145.92295597484278
     },
     {
       "symbol": "FTFT",
       "name": "Future FinTech Group Inc.",
       "currency": "USD",
-      "price": 2.97,
+      "price": 3.015,
       "previousClose": 1.86,
-      "timestamp": 1793211350000,
-      "percent": 59.677419354838705
-    },
-    {
-      "symbol": "BOOM",
-      "name": "DMC Global Inc.",
-      "currency": "USD",
-      "price": 7.469,
-      "previousClose": 5.35,
-      "timestamp": 1793211334000,
-      "percent": 39.607476635514026
-    },
-    {
-      "symbol": "AIOK",
-      "name": "AI OKTO CORP.",
-      "currency": "USD",
-      "price": 18.0743,
-      "previousClose": 13.42,
-      "timestamp": 1793211341000,
-      "percent": 34.681818181818194
-    },
-    {
-      "symbol": "LUNG",
-      "name": "Pulmonx Corporation",
-      "currency": "USD",
-      "price": 2.645,
-      "previousClose": 1.98,
-      "timestamp": 1793211343000,
-      "percent": 33.58585858585859
-    },
-    {
-      "symbol": "ONCO",
-      "name": "Onconetix, Inc.",
-      "currency": "USD",
-      "price": 0.6266,
-      "previousClose": 0.4746,
-      "timestamp": 1793211359000,
-      "percent": 32.02697008006743
-    },
-    {
-      "symbol": "PODC",
-      "name": "PodcastOne, Inc.",
-      "currency": "USD",
-      "price": 2.3599,
-      "previousClose": 1.8,
-      "timestamp": 1793211358000,
-      "percent": 31.105555555555565
-    },
-    {
-      "symbol": "AXGN",
-      "name": "Axogen, Inc.",
-      "currency": "USD",
-      "price": 48.43,
-      "previousClose": 37.46,
-      "timestamp": 1793211337000,
-      "percent": 29.284570208222107
-    },
-    {
-      "symbol": "KIDS",
-      "name": "OrthoPediatrics Corp.",
-      "currency": "USD",
-      "price": 30.75,
-      "previousClose": 23.82,
-      "timestamp": 1793211342000,
-      "percent": 29.093198992443313
-    },
-    {
-      "symbol": "GIFT",
-      "name": "Giftify, Inc.",
-      "currency": "USD",
-      "price": 0.57,
-      "previousClose": 0.4416,
-      "timestamp": 1793211325000,
-      "percent": 29.076086956521728
-    },
-    {
-      "symbol": "RIBBU",
-      "name": "Ribbon Acquisition Corp.",
-      "currency": "USD",
-      "price": 24.06,
-      "previousClose": 18.9,
-      "timestamp": 1793210257000,
-      "percent": 27.301587301587293
-    },
-    {
-      "symbol": "BEAT",
-      "name": "HeartBeam, Inc.",
-      "currency": "USD",
-      "price": 0.5094,
-      "previousClose": 0.4004,
-      "timestamp": 1793211340000,
-      "percent": 27.222777222777218
+      "timestamp": 1793211947000,
+      "percent": 62.09677419354838
     },
     {
       "symbol": "KPTI",
       "name": "Karyopharm Therapeutics Inc.",
       "currency": "USD",
-      "price": 0.6055,
+      "price": 0.6903,
       "previousClose": 0.48,
-      "timestamp": 1793211349000,
-      "percent": 26.145833333333357
+      "timestamp": 1793211956000,
+      "percent": 43.81250000000001
+    },
+    {
+      "symbol": "BOOM",
+      "name": "DMC Global Inc.",
+      "currency": "USD",
+      "price": 7.4301,
+      "previousClose": 5.35,
+      "timestamp": 1793211935000,
+      "percent": 38.880373831775714
+    },
+    {
+      "symbol": "LUNG",
+      "name": "Pulmonx Corporation",
+      "currency": "USD",
+      "price": 2.62,
+      "previousClose": 1.98,
+      "timestamp": 1793211940000,
+      "percent": 32.32323232323233
+    },
+    {
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
+      "currency": "USD",
+      "price": 25,
+      "previousClose": 18.9,
+      "timestamp": 1793211937000,
+      "percent": 32.27513227513228
+    },
+    {
+      "symbol": "PODC",
+      "name": "PodcastOne, Inc.",
+      "currency": "USD",
+      "price": 2.38,
+      "previousClose": 1.8,
+      "timestamp": 1793211926000,
+      "percent": 32.22222222222222
+    },
+    {
+      "symbol": "AIOK",
+      "name": "AI OKTO CORP.",
+      "currency": "USD",
+      "price": 17.6333,
+      "previousClose": 13.42,
+      "timestamp": 1793211944000,
+      "percent": 31.395678092399404
+    },
+    {
+      "symbol": "AXGN",
+      "name": "Axogen, Inc.",
+      "currency": "USD",
+      "price": 48.75,
+      "previousClose": 37.46,
+      "timestamp": 1793211924000,
+      "percent": 30.13881473571809
+    },
+    {
+      "symbol": "KIDS",
+      "name": "OrthoPediatrics Corp.",
+      "currency": "USD",
+      "price": 30.885,
+      "previousClose": 23.82,
+      "timestamp": 1793211915000,
+      "percent": 29.65994962216625
+    },
+    {
+      "symbol": "GIFT",
+      "name": "Giftify, Inc.",
+      "currency": "USD",
+      "price": 0.5724,
+      "previousClose": 0.4416,
+      "timestamp": 1793211952000,
+      "percent": 29.619565217391308
+    },
+    {
+      "symbol": "ONCO",
+      "name": "Onconetix, Inc.",
+      "currency": "USD",
+      "price": 0.6131,
+      "previousClose": 0.4746,
+      "timestamp": 1793211959000,
+      "percent": 29.182469447956173
     },
     {
       "symbol": "DVLT",
       "name": "Datavault AI Inc.",
       "currency": "USD",
-      "price": 0.0838,
+      "price": 0.0864,
       "previousClose": 0.067,
-      "timestamp": 1793211344000,
-      "percent": 25.074626865671632
-    },
-    {
-      "symbol": "EVMN",
-      "name": "Evommune, Inc.",
-      "currency": "USD",
-      "price": 6.345,
-      "previousClose": 5.16,
-      "timestamp": 1793211344000,
-      "percent": 22.965116279069765
-    },
-    {
-      "symbol": "ELPW",
-      "name": "Elong Power Holding Limited",
-      "currency": "USD",
-      "price": 3,
-      "previousClose": 2.44,
-      "timestamp": 1793211348000,
-      "percent": 22.95081967213115
+      "timestamp": 1793211949000,
+      "percent": 28.955223880597014
     },
     {
       "symbol": "ADIL",
       "name": "Adial Pharmaceuticals, Inc.",
       "currency": "USD",
-      "price": 4.55,
+      "price": 4.662,
       "previousClose": 3.71,
-      "timestamp": 1793211307000,
-      "percent": 22.64150943396226
+      "timestamp": 1793211816000,
+      "percent": 25.66037735849056
+    },
+    {
+      "symbol": "BEAT",
+      "name": "HeartBeam, Inc.",
+      "currency": "USD",
+      "price": 0.5017,
+      "previousClose": 0.4004,
+      "timestamp": 1793211927000,
+      "percent": 25.299700299700323
+    },
+    {
+      "symbol": "REKR",
+      "name": "Rekor Systems, Inc.",
+      "currency": "USD",
+      "price": 0.3487,
+      "previousClose": 0.2815,
+      "timestamp": 1793211953000,
+      "percent": 23.87211367673181
+    },
+    {
+      "symbol": "LTRN",
+      "name": "Lantern Pharma Inc.",
+      "currency": "USD",
+      "price": 0.79,
+      "previousClose": 0.64,
+      "timestamp": 1793211945000,
+      "percent": 23.4375
+    },
+    {
+      "symbol": "EVMN",
+      "name": "Evommune, Inc.",
+      "currency": "USD",
+      "price": 6.365,
+      "previousClose": 5.16,
+      "timestamp": 1793211908000,
+      "percent": 23.35271317829457
     },
     {
       "symbol": "PROP",
@@ -372,98 +381,71 @@
       "currency": "USD",
       "price": 0.443,
       "previousClose": 0.3615,
-      "timestamp": 1793211324000,
+      "timestamp": 1793211879000,
       "percent": 22.544951590594753
-    },
-    {
-      "symbol": "LTRN",
-      "name": "Lantern Pharma Inc.",
-      "currency": "USD",
-      "price": 0.784,
-      "previousClose": 0.64,
-      "timestamp": 1793211263000,
-      "percent": 22.500000000000007
-    },
-    {
-      "symbol": "MGN",
-      "name": "Megan Holdings Limited",
-      "currency": "USD",
-      "price": 3.735,
-      "previousClose": 3.06,
-      "timestamp": 1793211153000,
-      "percent": 22.058823529411754
-    },
-    {
-      "symbol": "REKR",
-      "name": "Rekor Systems, Inc.",
-      "currency": "USD",
-      "price": 0.3427,
-      "previousClose": 0.2815,
-      "timestamp": 1793211342000,
-      "percent": 21.74067495559504
     },
     {
       "symbol": "CHSN",
       "name": "Chanson International Holding",
       "currency": "USD",
-      "price": 1.305,
+      "price": 1.32,
       "previousClose": 1.08,
-      "timestamp": 1793211342000,
-      "percent": 20.833333333333325
+      "timestamp": 1793211942000,
+      "percent": 22.22222222222221
     },
     {
-      "symbol": "AIB",
-      "name": "AIB Data Centers Inc.",
+      "symbol": "REPL",
+      "name": "Replimune Group, Inc.",
       "currency": "USD",
-      "price": 1.14,
-      "previousClose": 0.9481,
-      "timestamp": 1793211263000,
-      "percent": 20.240480961923836
+      "price": 15.91,
+      "previousClose": 13.05,
+      "timestamp": 1793211959000,
+      "percent": 21.915708812260526
     },
     {
       "symbol": "HAO",
       "name": "Haoxi Health Technology Limited",
       "currency": "USD",
-      "price": 1.9201,
+      "price": 1.9346,
       "previousClose": 1.6,
-      "timestamp": 1793210903000,
-      "percent": 20.00624999999998
+      "timestamp": 1793211503000,
+      "percent": 20.9125
     },
     {
-      "symbol": "DNA",
-      "name": "Ginkgo Bioworks Holdings, Inc.",
+      "symbol": "ELPW",
+      "name": "Elong Power Holding Limited",
       "currency": "USD",
-      "price": 13.49,
-      "previousClose": 11.27,
-      "timestamp": 1793211336000,
-      "percent": 19.698314108252003
+      "price": 2.9395,
+      "previousClose": 2.44,
+      "timestamp": 1793211941000,
+      "percent": 20.471311475409838
+    },
+    {
+      "symbol": "SWRD",
+      "name": "Stewards Inc.",
+      "currency": "USD",
+      "price": 3.49,
+      "previousClose": 2.91,
+      "timestamp": 1793211759000,
+      "percent": 19.931271477663227
+    },
+    {
+      "symbol": "MGN",
+      "name": "Megan Holdings Limited",
+      "currency": "USD",
+      "price": 3.6638,
+      "previousClose": 3.06,
+      "timestamp": 1793211955000,
+      "percent": 19.73202614379086
     },
     {
       "symbol": "PRME",
       "name": "Prime Medicine, Inc.",
       "currency": "USD",
-      "price": 5.2,
+      "price": 5.17,
       "previousClose": 4.35,
-      "timestamp": 1793211358000,
-      "percent": 19.54022988505748
-    },
-    {
-      "symbol": "TREO",
-      "name": "Tactical Resources Corp.",
-      "currency": "USD",
-      "price": 1.95,
-      "previousClose": 1.64,
-      "timestamp": 1793211268000,
-      "percent": 18.90243902439024
-    },
-    {
-      "symbol": "POM",
-      "name": "Pomdoctor Limited",
-      "currency": "USD",
-      "price": 1.6517,
-      "previousClose": 1.39,
-      "timestamp": 1793211354000,
-      "percent": 18.827338129496418
+      "timestamp": 1793211960000,
+      "percent": 18.850574712643684
     },
     {
       "symbol": "XCH",
@@ -475,13 +457,31 @@
       "percent": 18.71794871794872
     },
     {
-      "symbol": "PACB",
-      "name": "Pacific Biosciences of California, Inc.",
+      "symbol": "TIL",
+      "name": "Instil Bio, Inc.",
       "currency": "USD",
-      "price": 2.905,
-      "previousClose": 2.45,
-      "timestamp": 1793211347000,
-      "percent": 18.571428571428548
+      "price": 6.93,
+      "previousClose": 5.84,
+      "timestamp": 1793211951000,
+      "percent": 18.664383561643838
+    },
+    {
+      "symbol": "DNA",
+      "name": "Ginkgo Bioworks Holdings, Inc.",
+      "currency": "USD",
+      "price": 13.36,
+      "previousClose": 11.27,
+      "timestamp": 1793211917000,
+      "percent": 18.54480922803905
+    },
+    {
+      "symbol": "CUE",
+      "name": "Cue Biopharma, Inc.",
+      "currency": "USD",
+      "price": 21.66,
+      "previousClose": 18.32,
+      "timestamp": 1793211944000,
+      "percent": 18.231441048034934
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-28T14:15[America/New_York]",
-    "updatedAt": 1793211370210
+    "scheduledSlot": "2026-10-28T14:25[America/New_York]",
+    "updatedAt": 1793211969478
   },
-  "todayGainersUpdatedAt": 1793211370210,
+  "todayGainersUpdatedAt": 1793211969478,
   "items": [
     {
       "symbol": "KSPI",
