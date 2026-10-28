@@ -172,26 +172,8 @@
       "currency": "THB",
       "price": 0.67,
       "previousClose": 0.58,
-      "timestamp": 1793175871000,
+      "timestamp": 1793176042000,
       "percent": 15.517241379310365
-    },
-    {
-      "symbol": "FANCY.BK",
-      "name": "Fancy Wood Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.19,
-      "previousClose": 0.17,
-      "timestamp": 1793174991000,
-      "percent": 11.764705882352944
-    },
-    {
-      "symbol": "SUPER.BK",
-      "name": "Super Energy Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1793175862000,
-      "percent": 8.333333333333348
     },
     {
       "symbol": "PRECHA.BK",
@@ -210,6 +192,24 @@
       "previousClose": 0.63,
       "timestamp": 1793165180000,
       "percent": 7.936507936507953
+    },
+    {
+      "symbol": "CMC.BK",
+      "name": "Chaoprayamahanakorn Public Company Limited",
+      "currency": "THB",
+      "price": 0.43,
+      "previousClose": 0.4,
+      "timestamp": 1793176330000,
+      "percent": 7.499999999999996
+    },
+    {
+      "symbol": "BTW.BK",
+      "name": "BT Wealth Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.15,
+      "previousClose": 0.14,
+      "timestamp": 1793173970000,
+      "percent": 7.14285714285714
     }
   ],
   "todayCandidates": [
@@ -264,26 +264,8 @@
       "currency": "THB",
       "price": 0.67,
       "previousClose": 0.58,
-      "timestamp": 1793175871000,
+      "timestamp": 1793176042000,
       "percent": 15.517241379310365
-    },
-    {
-      "symbol": "FANCY.BK",
-      "name": "Fancy Wood Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.19,
-      "previousClose": 0.17,
-      "timestamp": 1793174991000,
-      "percent": 11.764705882352944
-    },
-    {
-      "symbol": "SUPER.BK",
-      "name": "Super Energy Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1793175862000,
-      "percent": 8.333333333333348
     },
     {
       "symbol": "PRECHA.BK",
@@ -309,7 +291,7 @@
       "currency": "THB",
       "price": 0.43,
       "previousClose": 0.4,
-      "timestamp": 1793175925000,
+      "timestamp": 1793176330000,
       "percent": 7.499999999999996
     },
     {
@@ -327,7 +309,7 @@
       "currency": "THB",
       "price": 7.1,
       "previousClose": 6.65,
-      "timestamp": 1793175934000,
+      "timestamp": 1793176531000,
       "percent": 6.766917293233066
     },
     {
@@ -345,7 +327,7 @@
       "currency": "THB",
       "price": 0.32,
       "previousClose": 0.3,
-      "timestamp": 1793175919000,
+      "timestamp": 1793176509000,
       "percent": 6.666666666666665
     },
     {
@@ -376,12 +358,30 @@
       "percent": 6.08695652173914
     },
     {
+      "symbol": "QUICK.BK",
+      "name": "Quick Transformation Public Company Limited",
+      "currency": "THB",
+      "price": 6.25,
+      "previousClose": 5.9,
+      "timestamp": 1793176551000,
+      "percent": 5.932203389830493
+    },
+    {
       "symbol": "DPAINT.BK",
       "name": "Delta Paint Public Company Limited",
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.17,
       "timestamp": 1793174997000,
+      "percent": 5.88235294117645
+    },
+    {
+      "symbol": "FANCY.BK",
+      "name": "Fancy Wood Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.18,
+      "previousClose": 0.17,
+      "timestamp": 1793176057000,
       "percent": 5.88235294117645
     },
     {
@@ -399,7 +399,7 @@
       "currency": "THB",
       "price": 73.25,
       "previousClose": 69.75,
-      "timestamp": 1793175936000,
+      "timestamp": 1793176465000,
       "percent": 5.017921146953408
     },
     {
@@ -408,7 +408,7 @@
       "currency": "THB",
       "price": 4.28,
       "previousClose": 4.08,
-      "timestamp": 1793175924000,
+      "timestamp": 1793176524000,
       "percent": 4.90196078431373
     },
     {
@@ -417,17 +417,8 @@
       "currency": "THB",
       "price": 0.45,
       "previousClose": 0.43,
-      "timestamp": 1793171446000,
+      "timestamp": 1793176320000,
       "percent": 4.651162790697683
-    },
-    {
-      "symbol": "NL.BK",
-      "name": "NL Development Public Company Limited",
-      "currency": "THB",
-      "price": 0.68,
-      "previousClose": 0.65,
-      "timestamp": 1793165366000,
-      "percent": 4.615384615384621
     },
     {
       "symbol": "CRD.BK",
@@ -462,7 +453,7 @@
       "currency": "THB",
       "price": 8.25,
       "previousClose": 7.95,
-      "timestamp": 1793175850000,
+      "timestamp": 1793176289000,
       "percent": 3.7735849056603765
     },
     {
@@ -471,7 +462,16 @@
       "currency": "THB",
       "price": 0.28,
       "previousClose": 0.27,
-      "timestamp": 1793175937000,
+      "timestamp": 1793176458000,
+      "percent": 3.703703703703698
+    },
+    {
+      "symbol": "TCC.BK",
+      "name": "Thai Capital Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.28,
+      "previousClose": 0.27,
+      "timestamp": 1793176510000,
       "percent": 3.703703703703698
     },
     {
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-28",
-    "scheduledSlot": "2026-10-28T15:55[Asia/Bangkok]",
-    "updatedAt": 1793177754243
+    "scheduledSlot": "2026-10-28T16:05[Asia/Bangkok]",
+    "updatedAt": 1793178356635
   },
-  "todayGainersUpdatedAt": 1793177754243,
+  "todayGainersUpdatedAt": 1793178356635,
   "items": [
     {
       "symbol": "PJW.BK",
