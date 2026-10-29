@@ -125,10 +125,10 @@
       "symbol": "BURU",
       "name": "Nuburu, Inc.",
       "currency": "USD",
-      "price": 0.402,
+      "price": 0.3935,
       "previousClose": 0.1721,
-      "timestamp": 1793298944000,
-      "percent": 133.58512492736781
+      "timestamp": 1793299541000,
+      "percent": 128.6461359674608
     },
     {
       "symbol": "AMPGZ",
@@ -143,73 +143,73 @@
       "symbol": "NCPL",
       "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 1.6001,
+      "price": 1.645,
       "previousClose": 1.1,
-      "timestamp": 1793298957000,
-      "percent": 45.463636363636354
+      "timestamp": 1793299552000,
+      "percent": 49.54545454545454
     },
     {
       "symbol": "INLF",
       "name": "INLIF Limited",
       "currency": "USD",
-      "price": 0.2488,
+      "price": 0.255,
       "previousClose": 0.18,
-      "timestamp": 1793298949000,
-      "percent": 38.22222222222222
+      "timestamp": 1793299550000,
+      "percent": 41.66666666666667
     },
     {
       "symbol": "XCH",
       "name": "XCHG Limited",
       "currency": "USD",
-      "price": 3.305,
+      "price": 3.37,
       "previousClose": 2.415,
-      "timestamp": 1793298849000,
-      "percent": 36.85300207039337
-    },
-    {
-      "symbol": "ADT",
-      "name": "ADT Inc.",
-      "currency": "USD",
-      "price": 9.905,
-      "previousClose": 7.41,
-      "timestamp": 1793298941000,
-      "percent": 33.67071524966261
-    },
-    {
-      "symbol": "GKOS",
-      "name": "Glaukos Corporation",
-      "currency": "USD",
-      "price": 242.045,
-      "previousClose": 181.43,
-      "timestamp": 1793298947000,
-      "percent": 33.40957945213028
-    },
-    {
-      "symbol": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "currency": "USD",
-      "price": 4.42,
-      "previousClose": 3.36,
-      "timestamp": 1793298859000,
-      "percent": 31.547619047619047
-    },
-    {
-      "symbol": "SGLY",
-      "name": "Singularity Future Technology Ltd.",
-      "currency": "USD",
-      "price": 0.471,
-      "previousClose": 0.3602,
-      "timestamp": 1793298960000,
-      "percent": 30.760688506385335
+      "timestamp": 1793299420000,
+      "percent": 39.54451345755694
     },
     {
       "symbol": "KPLT",
       "name": "Katapult Holdings, Inc.",
       "currency": "USD",
-      "price": 11.88,
+      "price": 12.235,
       "previousClose": 9.1,
-      "timestamp": 1793298866000,
-      "percent": 30.549450549450576
+      "timestamp": 1793299548000,
+      "percent": 34.45054945054944
+    },
+    {
+      "symbol": "ADT",
+      "name": "ADT Inc.",
+      "currency": "USD",
+      "price": 9.92,
+      "previousClose": 7.41,
+      "timestamp": 1793299538000,
+      "percent": 33.87314439946019
+    },
+    {
+      "symbol": "GKOS",
+      "name": "Glaukos Corporation",
+      "currency": "USD",
+      "price": 240.1601,
+      "previousClose": 181.43,
+      "timestamp": 1793299533000,
+      "percent": 32.37066637270571
+    },
+    {
+      "symbol": "SGLY",
+      "name": "Singularity Future Technology Ltd.",
+      "currency": "USD",
+      "price": 0.472,
+      "previousClose": 0.3602,
+      "timestamp": 1793299558000,
+      "percent": 31.038312048861737
+    },
+    {
+      "symbol": "PARA",
+      "name": "Parabolic Technologies, Inc.",
+      "currency": "USD",
+      "price": 4.395,
+      "previousClose": 3.36,
+      "timestamp": 1793299451000,
+      "percent": 30.80357142857142
     }
   ],
   "todayCandidates": [
@@ -217,10 +217,10 @@
       "symbol": "BURU",
       "name": "Nuburu, Inc.",
       "currency": "USD",
-      "price": 0.402,
+      "price": 0.3935,
       "previousClose": 0.1721,
-      "timestamp": 1793298944000,
-      "percent": 133.58512492736781
+      "timestamp": 1793299541000,
+      "percent": 128.6461359674608
     },
     {
       "symbol": "AMPGZ",
@@ -235,226 +235,235 @@
       "symbol": "NCPL",
       "name": "Netcapital Inc.",
       "currency": "USD",
-      "price": 1.6001,
+      "price": 1.645,
       "previousClose": 1.1,
-      "timestamp": 1793298957000,
-      "percent": 45.463636363636354
+      "timestamp": 1793299552000,
+      "percent": 49.54545454545454
     },
     {
       "symbol": "INLF",
       "name": "INLIF Limited",
       "currency": "USD",
-      "price": 0.2488,
+      "price": 0.255,
       "previousClose": 0.18,
-      "timestamp": 1793298949000,
-      "percent": 38.22222222222222
+      "timestamp": 1793299550000,
+      "percent": 41.66666666666667
     },
     {
       "symbol": "XCH",
       "name": "XCHG Limited",
       "currency": "USD",
-      "price": 3.305,
+      "price": 3.37,
       "previousClose": 2.415,
-      "timestamp": 1793298849000,
-      "percent": 36.85300207039337
-    },
-    {
-      "symbol": "ADT",
-      "name": "ADT Inc.",
-      "currency": "USD",
-      "price": 9.905,
-      "previousClose": 7.41,
-      "timestamp": 1793298941000,
-      "percent": 33.67071524966261
-    },
-    {
-      "symbol": "GKOS",
-      "name": "Glaukos Corporation",
-      "currency": "USD",
-      "price": 242.045,
-      "previousClose": 181.43,
-      "timestamp": 1793298947000,
-      "percent": 33.40957945213028
-    },
-    {
-      "symbol": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "currency": "USD",
-      "price": 4.42,
-      "previousClose": 3.36,
-      "timestamp": 1793298859000,
-      "percent": 31.547619047619047
-    },
-    {
-      "symbol": "SGLY",
-      "name": "Singularity Future Technology Ltd.",
-      "currency": "USD",
-      "price": 0.471,
-      "previousClose": 0.3602,
-      "timestamp": 1793298960000,
-      "percent": 30.760688506385335
+      "timestamp": 1793299420000,
+      "percent": 39.54451345755694
     },
     {
       "symbol": "KPLT",
       "name": "Katapult Holdings, Inc.",
       "currency": "USD",
-      "price": 11.88,
+      "price": 12.235,
       "previousClose": 9.1,
-      "timestamp": 1793298866000,
-      "percent": 30.549450549450576
+      "timestamp": 1793299548000,
+      "percent": 34.45054945054944
     },
     {
-      "symbol": "RFAIR",
-      "name": "RF Acquisition Corp II",
+      "symbol": "ADT",
+      "name": "ADT Inc.",
       "currency": "USD",
-      "price": 0.1967,
-      "previousClose": 0.1512,
-      "timestamp": 1793292136000,
-      "percent": 30.092592592592602
+      "price": 9.92,
+      "previousClose": 7.41,
+      "timestamp": 1793299538000,
+      "percent": 33.87314439946019
+    },
+    {
+      "symbol": "GKOS",
+      "name": "Glaukos Corporation",
+      "currency": "USD",
+      "price": 240.1601,
+      "previousClose": 181.43,
+      "timestamp": 1793299533000,
+      "percent": 32.37066637270571
+    },
+    {
+      "symbol": "SGLY",
+      "name": "Singularity Future Technology Ltd.",
+      "currency": "USD",
+      "price": 0.472,
+      "previousClose": 0.3602,
+      "timestamp": 1793299558000,
+      "percent": 31.038312048861737
+    },
+    {
+      "symbol": "PARA",
+      "name": "Parabolic Technologies, Inc.",
+      "currency": "USD",
+      "price": 4.395,
+      "previousClose": 3.36,
+      "timestamp": 1793299451000,
+      "percent": 30.80357142857142
     },
     {
       "symbol": "TDOC",
       "name": "Teladoc Health, Inc.",
       "currency": "USD",
-      "price": 8.91,
+      "price": 8.885,
       "previousClose": 6.88,
-      "timestamp": 1793298963000,
-      "percent": 29.50581395348837
+      "timestamp": 1793299560000,
+      "percent": 29.142441860465105
     },
     {
       "symbol": "BHC",
       "name": "Bausch Health Companies Inc.",
       "currency": "USD",
-      "price": 8.87,
+      "price": 8.905,
       "previousClose": 6.92,
-      "timestamp": 1793298941000,
-      "percent": 28.179190751445084
+      "timestamp": 1793299537000,
+      "percent": 28.684971098265887
     },
     {
       "symbol": "CLMB",
       "name": "Climb Global Solutions, Inc.",
       "currency": "USD",
-      "price": 42.16,
+      "price": 41.92,
       "previousClose": 33.13,
-      "timestamp": 1793298929000,
-      "percent": 27.256263205553854
-    },
-    {
-      "symbol": "CROX",
-      "name": "Crocs, Inc.",
-      "currency": "USD",
-      "price": 150.205,
-      "previousClose": 119.69,
-      "timestamp": 1793298937000,
-      "percent": 25.49502882446322
-    },
-    {
-      "symbol": "PRCH",
-      "name": "Porch Group, Inc.",
-      "currency": "USD",
-      "price": 20.3769,
-      "previousClose": 16.3,
-      "timestamp": 1793298942000,
-      "percent": 25.01165644171779
-    },
-    {
-      "symbol": "MF",
-      "name": "MindForge Inc.",
-      "currency": "USD",
-      "price": 7.3,
-      "previousClose": 5.84,
-      "timestamp": 1793298899000,
-      "percent": 25
+      "timestamp": 1793299492000,
+      "percent": 26.53184424992454
     },
     {
       "symbol": "CRMT",
       "name": "America's Car-Mart, Inc.",
       "currency": "USD",
-      "price": 1.08,
+      "price": 1.0905,
       "previousClose": 0.8671,
-      "timestamp": 1793298833000,
-      "percent": 24.553108061353957
+      "timestamp": 1793299416000,
+      "percent": 25.764041056394895
     },
     {
-      "symbol": "FINW",
-      "name": "FinWise Bancorp",
+      "symbol": "PRCH",
+      "name": "Porch Group, Inc.",
       "currency": "USD",
-      "price": 13.38,
-      "previousClose": 10.82,
-      "timestamp": 1793298447000,
-      "percent": 23.659889094269882
+      "price": 20.47,
+      "previousClose": 16.3,
+      "timestamp": 1793299550000,
+      "percent": 25.582822085889557
+    },
+    {
+      "symbol": "CROX",
+      "name": "Crocs, Inc.",
+      "currency": "USD",
+      "price": 150.04,
+      "previousClose": 119.69,
+      "timestamp": 1793299537000,
+      "percent": 25.35717269613167
     },
     {
       "symbol": "LHAI",
       "name": "Linkhome Holdings Inc.",
       "currency": "USD",
-      "price": 1.0502,
+      "price": 1.051,
       "previousClose": 0.8501,
-      "timestamp": 1793298714000,
-      "percent": 23.538407246206326
+      "timestamp": 1793299256000,
+      "percent": 23.632513821903302
     },
     {
-      "symbol": "LGHL",
-      "name": "Lion Group Holding Ltd.",
+      "symbol": "FINW",
+      "name": "FinWise Bancorp",
       "currency": "USD",
-      "price": 2.6899,
-      "previousClose": 2.22,
-      "timestamp": 1793298488000,
-      "percent": 21.166666666666668
+      "price": 13.35,
+      "previousClose": 10.82,
+      "timestamp": 1793299007000,
+      "percent": 23.382624768946393
     },
     {
       "symbol": "ITG",
       "name": "ITG, Inc.",
       "currency": "USD",
-      "price": 5.67,
+      "price": 5.69,
       "previousClose": 4.71,
-      "timestamp": 1793298929000,
-      "percent": 20.382165605095537
+      "timestamp": 1793299537000,
+      "percent": 20.806794055201717
     },
     {
-      "symbol": "FSP",
-      "name": "Franklin Street Properties Corp.",
+      "symbol": "MF",
+      "name": "MindForge Inc.",
       "currency": "USD",
-      "price": 0.3873,
-      "previousClose": 0.3225,
-      "timestamp": 1793298599000,
-      "percent": 20.093023255813947
+      "price": 7.01,
+      "previousClose": 5.84,
+      "timestamp": 1793299367000,
+      "percent": 20.034246575342472
     },
     {
-      "symbol": "WFF",
-      "name": "WF Holding Limited",
+      "symbol": "MWYN",
+      "name": "Marwynn Holdings, Inc.",
       "currency": "USD",
-      "price": 0.063,
-      "previousClose": 0.053,
-      "timestamp": 1793298964000,
-      "percent": 18.867924528301884
-    },
-    {
-      "symbol": "MAX",
-      "name": "MediaAlpha, Inc.",
-      "currency": "USD",
-      "price": 13.93,
-      "previousClose": 11.72,
-      "timestamp": 1793298952000,
-      "percent": 18.85665529010239
+      "price": 1.69,
+      "previousClose": 1.41,
+      "timestamp": 1793299551000,
+      "percent": 19.8581560283688
     },
     {
       "symbol": "PURR",
       "name": "Hyperliquid Strategies Inc.",
       "currency": "USD",
-      "price": 11.81,
+      "price": 11.945,
       "previousClose": 9.97,
-      "timestamp": 1793298960000,
-      "percent": 18.455366098294878
+      "timestamp": 1793299557000,
+      "percent": 19.80942828485457
+    },
+    {
+      "symbol": "CRIS",
+      "name": "Curis, Inc.",
+      "currency": "USD",
+      "price": 0.5422,
+      "previousClose": 0.454,
+      "timestamp": 1793299544000,
+      "percent": 19.427312775330385
+    },
+    {
+      "symbol": "MAX",
+      "name": "MediaAlpha, Inc.",
+      "currency": "USD",
+      "price": 13.99,
+      "previousClose": 11.72,
+      "timestamp": 1793299544000,
+      "percent": 19.36860068259385
+    },
+    {
+      "symbol": "FSP",
+      "name": "Franklin Street Properties Corp.",
+      "currency": "USD",
+      "price": 0.384,
+      "previousClose": 0.3225,
+      "timestamp": 1793299136000,
+      "percent": 19.069767441860463
+    },
+    {
+      "symbol": "WFF",
+      "name": "WF Holding Limited",
+      "currency": "USD",
+      "price": 0.0623,
+      "previousClose": 0.053,
+      "timestamp": 1793299562000,
+      "percent": 17.547169811320764
     },
     {
       "symbol": "TOYO",
       "name": "TOYO Co., Ltd.",
       "currency": "USD",
-      "price": 4.51,
+      "price": 4.49,
       "previousClose": 3.82,
-      "timestamp": 1793298935000,
-      "percent": 18.062827225130885
+      "timestamp": 1793299498000,
+      "percent": 17.539267015706827
+    },
+    {
+      "symbol": "LGHL",
+      "name": "Lion Group Holding Ltd.",
+      "currency": "USD",
+      "price": 2.6,
+      "previousClose": 2.22,
+      "timestamp": 1793299530000,
+      "percent": 17.117117117117118
     },
     {
       "symbol": "GTN-A",
@@ -466,22 +475,13 @@
       "percent": 17.009596928982717
     },
     {
-      "symbol": "MVIS",
-      "name": "MicroVision, Inc.",
+      "symbol": "CLGN",
+      "name": "CollPlant Biotechnologies Ltd.",
       "currency": "USD",
-      "price": 1.515,
-      "previousClose": 1.3,
-      "timestamp": 1793298955000,
-      "percent": 16.538461538461526
-    },
-    {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
-      "currency": "USD",
-      "price": 1.36,
-      "previousClose": 1.17,
-      "timestamp": 1793296849000,
-      "percent": 16.23931623931625
+      "price": 4.6189,
+      "previousClose": 3.95,
+      "timestamp": 1793299392000,
+      "percent": 16.934177215189862
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-29T14:35[America/New_York]",
-    "updatedAt": 1793298970492
+    "scheduledSlot": "2026-10-29T14:45[America/New_York]",
+    "updatedAt": 1793299565057
   },
-  "todayGainersUpdatedAt": 1793298970492,
+  "todayGainersUpdatedAt": 1793299565057,
   "items": [
     {
       "symbol": "KSPI",
