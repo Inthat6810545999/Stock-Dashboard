@@ -122,49 +122,40 @@
   },
   "todayGainers": [
     {
-      "symbol": "SGRX",
-      "name": "Sangrix Inc.",
-      "currency": "USD",
-      "price": 0.936,
-      "previousClose": 0.3997,
-      "timestamp": 1793388952000,
-      "percent": 134.17563172379286
-    },
-    {
       "symbol": "CHOW",
       "name": "ChowChow Cloud International Holdings Limited",
       "currency": "USD",
-      "price": 4.47,
+      "price": 5.047,
       "previousClose": 2.13,
-      "timestamp": 1793388934000,
-      "percent": 109.85915492957746
+      "timestamp": 1793385568000,
+      "percent": 136.94835680751174
     },
     {
       "symbol": "ONEG",
       "name": "OneConstruction Group Limited",
       "currency": "USD",
-      "price": 1.4535,
+      "price": 1.459,
       "previousClose": 0.7831,
-      "timestamp": 1793388947000,
-      "percent": 85.60847912144042
+      "timestamp": 1793389546000,
+      "percent": 86.31081598774104
     },
     {
       "symbol": "SLGB",
       "name": "Smart Logistics Global Limited",
       "currency": "USD",
-      "price": 0.3061,
+      "price": 0.3226,
       "previousClose": 0.2048,
-      "timestamp": 1793388951000,
-      "percent": 49.46289062499998
+      "timestamp": 1793385590000,
+      "percent": 57.51953125
     },
     {
       "symbol": "GDYN",
       "name": "Grid Dynamics Holdings, Inc.",
       "currency": "USD",
-      "price": 13.1141,
+      "price": 13.1297,
       "previousClose": 9.49,
-      "timestamp": 1793388939000,
-      "percent": 38.18861959957851
+      "timestamp": 1793388986000,
+      "percent": 38.35300316122235
     },
     {
       "symbol": "KCHVR",
@@ -176,204 +167,177 @@
       "percent": 32.666666666666686
     },
     {
-      "symbol": "AIOK",
-      "name": "AI OKTO CORP.",
-      "currency": "USD",
-      "price": 24.57,
-      "previousClose": 18.89,
-      "timestamp": 1793388929000,
-      "percent": 30.068819481206987
-    },
-    {
       "symbol": "ASUR",
       "name": "Asure Software, Inc.",
       "currency": "USD",
-      "price": 9.4,
+      "price": 9.395,
       "previousClose": 7.23,
-      "timestamp": 1793388923000,
-      "percent": 30.01383125864454
-    },
-    {
-      "symbol": "ULH",
-      "name": "Universal Logistics Holdings, Inc.",
-      "currency": "USD",
-      "price": 22.47,
-      "previousClose": 17.42,
-      "timestamp": 1793388906000,
-      "percent": 28.989667049368517
+      "timestamp": 1793388913000,
+      "percent": 29.944674965421836
     },
     {
       "symbol": "FMC",
       "name": "FMC Corporation",
       "currency": "USD",
-      "price": 6.12,
+      "price": 6.125,
       "previousClose": 4.75,
-      "timestamp": 1793388933000,
-      "percent": 28.84210526315789
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "SGRX",
-      "name": "Sangrix Inc.",
-      "currency": "USD",
-      "price": 0.936,
-      "previousClose": 0.3997,
-      "timestamp": 1793388952000,
-      "percent": 134.17563172379286
-    },
-    {
-      "symbol": "CHOW",
-      "name": "ChowChow Cloud International Holdings Limited",
-      "currency": "USD",
-      "price": 4.47,
-      "previousClose": 2.13,
-      "timestamp": 1793388934000,
-      "percent": 109.85915492957746
-    },
-    {
-      "symbol": "ONEG",
-      "name": "OneConstruction Group Limited",
-      "currency": "USD",
-      "price": 1.4535,
-      "previousClose": 0.7831,
-      "timestamp": 1793388947000,
-      "percent": 85.60847912144042
-    },
-    {
-      "symbol": "SLGB",
-      "name": "Smart Logistics Global Limited",
-      "currency": "USD",
-      "price": 0.3061,
-      "previousClose": 0.2048,
-      "timestamp": 1793388951000,
-      "percent": 49.46289062499998
-    },
-    {
-      "symbol": "GDYN",
-      "name": "Grid Dynamics Holdings, Inc.",
-      "currency": "USD",
-      "price": 13.1141,
-      "previousClose": 9.49,
-      "timestamp": 1793388939000,
-      "percent": 38.18861959957851
-    },
-    {
-      "symbol": "KCHVR",
-      "name": "Kochav Defense Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.0796,
-      "previousClose": 0.06,
-      "timestamp": 1793387425000,
-      "percent": 32.666666666666686
-    },
-    {
-      "symbol": "AIOK",
-      "name": "AI OKTO CORP.",
-      "currency": "USD",
-      "price": 24.57,
-      "previousClose": 18.89,
-      "timestamp": 1793388929000,
-      "percent": 30.068819481206987
-    },
-    {
-      "symbol": "ASUR",
-      "name": "Asure Software, Inc.",
-      "currency": "USD",
-      "price": 9.4,
-      "previousClose": 7.23,
-      "timestamp": 1793388923000,
-      "percent": 30.01383125864454
+      "timestamp": 1793389259000,
+      "percent": 28.947368421052634
     },
     {
       "symbol": "ULH",
       "name": "Universal Logistics Holdings, Inc.",
       "currency": "USD",
-      "price": 22.47,
+      "price": 22.445,
       "previousClose": 17.42,
-      "timestamp": 1793388906000,
-      "percent": 28.989667049368517
-    },
-    {
-      "symbol": "FMC",
-      "name": "FMC Corporation",
-      "currency": "USD",
-      "price": 6.12,
-      "previousClose": 4.75,
-      "timestamp": 1793388933000,
-      "percent": 28.84210526315789
-    },
-    {
-      "symbol": "CRAQR",
-      "name": "Cal Redwood Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.1399,
-      "previousClose": 0.1101,
-      "timestamp": 1793388124000,
-      "percent": 27.06630336058129
+      "timestamp": 1793389458000,
+      "percent": 28.846153846153832
     },
     {
       "symbol": "OSPN",
       "name": "OneSpan Inc.",
       "currency": "USD",
-      "price": 25.48,
+      "price": 25.8362,
       "previousClose": 20.15,
-      "timestamp": 1793388948000,
-      "percent": 26.45161290322582
-    },
-    {
-      "symbol": "TNMG",
-      "name": "TNL Mediagene",
-      "currency": "USD",
-      "price": 3.81,
-      "previousClose": 3.05,
-      "timestamp": 1793388954000,
-      "percent": 24.91803278688525
-    },
-    {
-      "symbol": "ZJYL",
-      "name": "Jin Medical International Ltd.",
-      "currency": "USD",
-      "price": 2.32,
-      "previousClose": 1.86,
-      "timestamp": 1793388925000,
-      "percent": 24.731182795698903
-    },
-    {
-      "symbol": "RMNI",
-      "name": "Rimini Street, Inc.",
-      "currency": "USD",
-      "price": 4.96,
-      "previousClose": 3.99,
-      "timestamp": 1793388913000,
-      "percent": 24.310776942355883
+      "timestamp": 1793389546000,
+      "percent": 28.219354838709698
     },
     {
       "symbol": "RPGL",
       "name": "Republic Power Group Limited",
       "currency": "USD",
-      "price": 10.405,
+      "price": 10.73,
       "previousClose": 8.45,
-      "timestamp": 1793388459000,
-      "percent": 23.13609467455622
+      "timestamp": 1793389099000,
+      "percent": 26.982248520710073
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "CHOW",
+      "name": "ChowChow Cloud International Holdings Limited",
+      "currency": "USD",
+      "price": 5.047,
+      "previousClose": 2.13,
+      "timestamp": 1793385568000,
+      "percent": 136.94835680751174
     },
     {
-      "symbol": "NFE",
-      "name": "New Fortress Energy Inc.",
+      "symbol": "ONEG",
+      "name": "OneConstruction Group Limited",
       "currency": "USD",
-      "price": 4.6628,
-      "previousClose": 3.79,
-      "timestamp": 1793388946000,
-      "percent": 23.02902374670184
+      "price": 1.459,
+      "previousClose": 0.7831,
+      "timestamp": 1793389546000,
+      "percent": 86.31081598774104
     },
     {
-      "symbol": "MF",
-      "name": "MindForge Inc.",
+      "symbol": "SLGB",
+      "name": "Smart Logistics Global Limited",
       "currency": "USD",
-      "price": 8.025,
-      "previousClose": 6.54,
-      "timestamp": 1793386512000,
-      "percent": 22.706422018348626
+      "price": 0.3226,
+      "previousClose": 0.2048,
+      "timestamp": 1793385590000,
+      "percent": 57.51953125
+    },
+    {
+      "symbol": "GDYN",
+      "name": "Grid Dynamics Holdings, Inc.",
+      "currency": "USD",
+      "price": 13.1297,
+      "previousClose": 9.49,
+      "timestamp": 1793388986000,
+      "percent": 38.35300316122235
+    },
+    {
+      "symbol": "KCHVR",
+      "name": "Kochav Defense Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.0796,
+      "previousClose": 0.06,
+      "timestamp": 1793387425000,
+      "percent": 32.666666666666686
+    },
+    {
+      "symbol": "ASUR",
+      "name": "Asure Software, Inc.",
+      "currency": "USD",
+      "price": 9.395,
+      "previousClose": 7.23,
+      "timestamp": 1793388913000,
+      "percent": 29.944674965421836
+    },
+    {
+      "symbol": "FMC",
+      "name": "FMC Corporation",
+      "currency": "USD",
+      "price": 6.125,
+      "previousClose": 4.75,
+      "timestamp": 1793389259000,
+      "percent": 28.947368421052634
+    },
+    {
+      "symbol": "ULH",
+      "name": "Universal Logistics Holdings, Inc.",
+      "currency": "USD",
+      "price": 22.445,
+      "previousClose": 17.42,
+      "timestamp": 1793389458000,
+      "percent": 28.846153846153832
+    },
+    {
+      "symbol": "OSPN",
+      "name": "OneSpan Inc.",
+      "currency": "USD",
+      "price": 25.8362,
+      "previousClose": 20.15,
+      "timestamp": 1793389546000,
+      "percent": 28.219354838709698
+    },
+    {
+      "symbol": "RPGL",
+      "name": "Republic Power Group Limited",
+      "currency": "USD",
+      "price": 10.73,
+      "previousClose": 8.45,
+      "timestamp": 1793389099000,
+      "percent": 26.982248520710073
+    },
+    {
+      "symbol": "TNMG",
+      "name": "TNL Mediagene",
+      "currency": "USD",
+      "price": 3.83,
+      "previousClose": 3.05,
+      "timestamp": 1793389015000,
+      "percent": 25.573770491803295
+    },
+    {
+      "symbol": "AIOK",
+      "name": "AI OKTO CORP.",
+      "currency": "USD",
+      "price": 23.72,
+      "previousClose": 18.89,
+      "timestamp": 1793388910000,
+      "percent": 25.569084171519307
+    },
+    {
+      "symbol": "ZJYL",
+      "name": "Jin Medical International Ltd.",
+      "currency": "USD",
+      "price": 2.325,
+      "previousClose": 1.86,
+      "timestamp": 1793389548000,
+      "percent": 25
+    },
+    {
+      "symbol": "RMNI",
+      "name": "Rimini Street, Inc.",
+      "currency": "USD",
+      "price": 4.94,
+      "previousClose": 3.99,
+      "timestamp": 1793389072000,
+      "percent": 23.809523809523814
     },
     {
       "symbol": "ACCO",
@@ -385,42 +349,6 @@
       "percent": 22.133027522935777
     },
     {
-      "symbol": "CDNA",
-      "name": "CareDx, Inc.",
-      "currency": "USD",
-      "price": 86.87,
-      "previousClose": 71.52,
-      "timestamp": 1793388928000,
-      "percent": 21.462527964205826
-    },
-    {
-      "symbol": "SEGG",
-      "name": "Sports Entertainment Gaming Global Corporation",
-      "currency": "USD",
-      "price": 1.36,
-      "previousClose": 1.12,
-      "timestamp": 1793388709000,
-      "percent": 21.42857142857142
-    },
-    {
-      "symbol": "BYSI",
-      "name": "BeyondSpring Inc.",
-      "currency": "USD",
-      "price": 0.6244,
-      "previousClose": 0.5181,
-      "timestamp": 1793388911000,
-      "percent": 20.51727465740203
-    },
-    {
-      "symbol": "XPOF",
-      "name": "Xponential Fitness, Inc.",
-      "currency": "USD",
-      "price": 4.48,
-      "previousClose": 3.74,
-      "timestamp": 1793388951000,
-      "percent": 19.786096256684505
-    },
-    {
       "symbol": "GLE",
       "name": "Global Engine Group Holding Limited",
       "currency": "USD",
@@ -428,6 +356,42 @@
       "previousClose": 2.28,
       "timestamp": 1793388448000,
       "percent": 19.736842105263165
+    },
+    {
+      "symbol": "BYSI",
+      "name": "BeyondSpring Inc.",
+      "currency": "USD",
+      "price": 0.6201,
+      "previousClose": 0.5181,
+      "timestamp": 1793389145000,
+      "percent": 19.687319050376374
+    },
+    {
+      "symbol": "CDNA",
+      "name": "CareDx, Inc.",
+      "currency": "USD",
+      "price": 85.3008,
+      "previousClose": 71.52,
+      "timestamp": 1793385561000,
+      "percent": 19.268456375838916
+    },
+    {
+      "symbol": "MF",
+      "name": "MindForge Inc.",
+      "currency": "USD",
+      "price": 7.8,
+      "previousClose": 6.54,
+      "timestamp": 1793389358000,
+      "percent": 19.266055045871553
+    },
+    {
+      "symbol": "XPOF",
+      "name": "Xponential Fitness, Inc.",
+      "currency": "USD",
+      "price": 4.4401,
+      "previousClose": 3.74,
+      "timestamp": 1793389542000,
+      "percent": 18.719251336898402
     },
     {
       "symbol": "GITS",
@@ -439,6 +403,24 @@
       "percent": 18.309859154929576
     },
     {
+      "symbol": "NFE",
+      "name": "New Fortress Energy Inc.",
+      "currency": "USD",
+      "price": 4.445,
+      "previousClose": 3.79,
+      "timestamp": 1793387808000,
+      "percent": 17.282321899736154
+    },
+    {
+      "symbol": "SGRX",
+      "name": "Sangrix Inc.",
+      "currency": "USD",
+      "price": 0.4669,
+      "previousClose": 0.3997,
+      "timestamp": 1793385591000,
+      "percent": 16.81260945709282
+    },
+    {
       "symbol": "GIBO",
       "name": "GIBO Holdings Limited",
       "currency": "USD",
@@ -448,31 +430,31 @@
       "percent": 16.76284693597143
     },
     {
-      "symbol": "CVEO",
-      "name": "Civeo Corporation",
-      "currency": "USD",
-      "price": 35.385,
-      "previousClose": 30.55,
-      "timestamp": 1793388922000,
-      "percent": 15.826513911620289
-    },
-    {
       "symbol": "CPRI",
       "name": "Capri Holdings Limited",
       "currency": "USD",
-      "price": 18.45,
+      "price": 18.54,
       "previousClose": 16.06,
-      "timestamp": 1793388930000,
-      "percent": 14.881693648816952
+      "timestamp": 1793385556000,
+      "percent": 15.442092154420916
     },
     {
-      "symbol": "PAAI",
-      "name": "Paradium.AI, Inc.",
+      "symbol": "SEGG",
+      "name": "Sports Entertainment Gaming Global Corporation",
       "currency": "USD",
-      "price": 0.9167,
-      "previousClose": 0.8,
-      "timestamp": 1793388580000,
-      "percent": 14.587499999999999
+      "price": 1.29,
+      "previousClose": 1.12,
+      "timestamp": 1793385180000,
+      "percent": 15.17857142857142
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight Holding Company, Inc.",
+      "currency": "USD",
+      "price": 125.96,
+      "previousClose": 109.69,
+      "timestamp": 1793389238000,
+      "percent": 14.832710365575718
     },
     {
       "symbol": "BLIV",
@@ -482,6 +464,24 @@
       "previousClose": 2.32,
       "timestamp": 1793383837000,
       "percent": 14.2198275862069
+    },
+    {
+      "symbol": "WKHS",
+      "name": "Workhorse Group, Inc.",
+      "currency": "USD",
+      "price": 2.91,
+      "previousClose": 2.55,
+      "timestamp": 1793389016000,
+      "percent": 14.117647058823547
+    },
+    {
+      "symbol": "ASPS",
+      "name": "Altisource Portfolio Solutions S.A.",
+      "currency": "USD",
+      "price": 6.0828,
+      "previousClose": 5.34,
+      "timestamp": 1793388329000,
+      "percent": 13.910112359550553
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-10-30T15:35[America/New_York]",
-    "updatedAt": 1793388958625
+    "scheduledSlot": "2026-10-30T15:45[America/New_York]",
+    "updatedAt": 1793389561307
   },
-  "todayGainersUpdatedAt": 1793388958625,
+  "todayGainersUpdatedAt": 1793389561307,
   "items": [
     {
       "symbol": "KSPI",
