@@ -322,15 +322,6 @@
       "percent": 9.999999999999986
     },
     {
-      "symbol": "SR.BK",
-      "name": "Siamraj Public Company Limited",
-      "currency": "THB",
-      "price": 0.42,
-      "previousClose": 0.39,
-      "timestamp": 1793349245000,
-      "percent": 7.692307692307687
-    },
-    {
       "symbol": "CHIC.BK",
       "name": "Chic Republic Public Company Limited",
       "currency": "THB",
@@ -340,13 +331,13 @@
       "percent": 7.14285714285714
     },
     {
-      "symbol": "PPPM.BK",
-      "name": "PP Prime Public Company Limited",
+      "symbol": "RS.BK",
+      "name": "RS Public Company Limited",
       "currency": "THB",
-      "price": 0.31,
-      "previousClose": 0.29,
-      "timestamp": 1793349049000,
-      "percent": 6.896551724137945
+      "price": 0.15,
+      "previousClose": 0.14,
+      "timestamp": 1793349731000,
+      "percent": 7.14285714285714
     },
     {
       "symbol": "ROCK.BK",
@@ -354,7 +345,7 @@
       "currency": "THB",
       "price": 11.2,
       "previousClose": 10.5,
-      "timestamp": 1793348458000,
+      "timestamp": 1793349486000,
       "percent": 6.666666666666665
     },
     {
@@ -374,6 +365,15 @@
       "previousClose": 1.14,
       "timestamp": 1793347354000,
       "percent": 5.263157894736836
+    },
+    {
+      "symbol": "SR.BK",
+      "name": "Siamraj Public Company Limited",
+      "currency": "THB",
+      "price": 0.41,
+      "previousClose": 0.39,
+      "timestamp": 1793349652000,
+      "percent": 5.12820512820511
     },
     {
       "symbol": "ARIP.BK",
@@ -421,6 +421,15 @@
       "percent": 3.9473684210526327
     },
     {
+      "symbol": "SOLAR.BK",
+      "name": "Solartron Public Company Limited",
+      "currency": "THB",
+      "price": 0.27,
+      "previousClose": 0.26,
+      "timestamp": 1793349735000,
+      "percent": 3.8461538461538547
+    },
+    {
       "symbol": "FNS.BK",
       "name": "FNS Holdings Public Company Limited",
       "currency": "THB",
@@ -453,7 +462,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.29,
-      "timestamp": 1793347779000,
+      "timestamp": 1793349755000,
       "percent": 3.4482758620689724
     },
     {
@@ -466,38 +475,29 @@
       "percent": 3.4482758620689724
     },
     {
-      "symbol": "THMUI.BK",
-      "name": "Thai Mui Corporation Public Company Limited",
+      "symbol": "PPPM.BK",
+      "name": "PP Prime Public Company Limited",
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.29,
-      "timestamp": 1793347366000,
+      "timestamp": 1793349621000,
       "percent": 3.4482758620689724
-    },
-    {
-      "symbol": "ASN.BK",
-      "name": "ASN Broker Public Company Limited",
-      "currency": "THB",
-      "price": 0.97,
-      "previousClose": 0.94,
-      "timestamp": 1793336346000,
-      "percent": 3.1914893617021267
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 794,
-    "missing": 68,
+    "eligible": 795,
+    "missing": 67,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-30",
-    "scheduledSlot": "2026-10-30T16:05[Asia/Bangkok]",
-    "updatedAt": 1793351149518
+    "scheduledSlot": "2026-10-30T16:10[Asia/Bangkok]",
+    "updatedAt": 1793351675386
   },
-  "todayGainersUpdatedAt": 1793351149518,
+  "todayGainersUpdatedAt": 1793351675386,
   "items": [
     {
       "symbol": "PJW.BK",
