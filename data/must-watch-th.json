@@ -127,7 +127,7 @@
       "currency": "THB",
       "price": 0.02,
       "previousClose": 0.01,
-      "timestamp": 1793332702000,
+      "timestamp": 1793333755000,
       "percent": 100
     },
     {
@@ -137,15 +137,6 @@
       "price": 0.04,
       "previousClose": 0.03,
       "timestamp": 1793332297000,
-      "percent": 33.33333333333335
-    },
-    {
-      "symbol": "TGPRO.BK",
-      "name": "Thai-German Products Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1793329115000,
       "percent": 33.33333333333335
     },
     {
@@ -179,10 +170,10 @@
       "symbol": "STC.BK",
       "name": "STC Concrete Product Public Company Limited",
       "currency": "THB",
-      "price": 0.72,
+      "price": 0.74,
       "previousClose": 0.62,
-      "timestamp": 1793333543000,
-      "percent": 16.129032258064502
+      "timestamp": 1793334276000,
+      "percent": 19.354838709677423
     },
     {
       "symbol": "SR.BK",
@@ -190,7 +181,7 @@
       "currency": "THB",
       "price": 0.44,
       "previousClose": 0.39,
-      "timestamp": 1793331395000,
+      "timestamp": 1793334336000,
       "percent": 12.82051282051282
     },
     {
@@ -203,13 +194,22 @@
       "percent": 12.5
     },
     {
-      "symbol": "EFORL.BK",
-      "name": "E for L Aim Public Company Limited",
+      "symbol": "FNS.BK",
+      "name": "FNS Holdings Public Company Limited",
       "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1793332046000,
-      "percent": 9.999999999999986
+      "price": 0.58,
+      "previousClose": 0.53,
+      "timestamp": 1793331909000,
+      "percent": 9.433962264150942
+    },
+    {
+      "symbol": "CHIC.BK",
+      "name": "Chic Republic Public Company Limited",
+      "currency": "THB",
+      "price": 0.3,
+      "previousClose": 0.28,
+      "timestamp": 1793330180000,
+      "percent": 7.14285714285714
     }
   ],
   "todayCandidates": [
@@ -219,7 +219,7 @@
       "currency": "THB",
       "price": 0.02,
       "previousClose": 0.01,
-      "timestamp": 1793332702000,
+      "timestamp": 1793333755000,
       "percent": 100
     },
     {
@@ -229,15 +229,6 @@
       "price": 0.04,
       "previousClose": 0.03,
       "timestamp": 1793332297000,
-      "percent": 33.33333333333335
-    },
-    {
-      "symbol": "TGPRO.BK",
-      "name": "Thai-German Products Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1793329115000,
       "percent": 33.33333333333335
     },
     {
@@ -271,10 +262,10 @@
       "symbol": "STC.BK",
       "name": "STC Concrete Product Public Company Limited",
       "currency": "THB",
-      "price": 0.72,
+      "price": 0.74,
       "previousClose": 0.62,
-      "timestamp": 1793333543000,
-      "percent": 16.129032258064502
+      "timestamp": 1793334276000,
+      "percent": 19.354838709677423
     },
     {
       "symbol": "SR.BK",
@@ -282,7 +273,7 @@
       "currency": "THB",
       "price": 0.44,
       "previousClose": 0.39,
-      "timestamp": 1793331395000,
+      "timestamp": 1793334336000,
       "percent": 12.82051282051282
     },
     {
@@ -293,15 +284,6 @@
       "previousClose": 0.08,
       "timestamp": 1793333420000,
       "percent": 12.5
-    },
-    {
-      "symbol": "EFORL.BK",
-      "name": "E for L Aim Public Company Limited",
-      "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1793332046000,
-      "percent": 9.999999999999986
     },
     {
       "symbol": "FNS.BK",
@@ -329,6 +311,15 @@
       "previousClose": 0.15,
       "timestamp": 1793331128000,
       "percent": 6.666666666666665
+    },
+    {
+      "symbol": "ANAN.BK",
+      "name": "Ananda Development Public Company Limited",
+      "currency": "THB",
+      "price": 0.35,
+      "previousClose": 0.33,
+      "timestamp": 1793334084000,
+      "percent": 6.060606060606055
     },
     {
       "symbol": "DPAINT.BK",
@@ -363,8 +354,26 @@
       "currency": "THB",
       "price": 0.44,
       "previousClose": 0.42,
-      "timestamp": 1793333663000,
+      "timestamp": 1793334273000,
       "percent": 4.761904761904767
+    },
+    {
+      "symbol": "SENX.BK",
+      "name": "SEN X Public Company Limited",
+      "currency": "THB",
+      "price": 0.23,
+      "previousClose": 0.22,
+      "timestamp": 1793334325000,
+      "percent": 4.545454545454541
+    },
+    {
+      "symbol": "BLESS.BK",
+      "name": "Bless Asset Group Public Company Limited",
+      "currency": "THB",
+      "price": 0.24,
+      "previousClose": 0.23,
+      "timestamp": 1793333956000,
+      "percent": 4.347826086956519
     },
     {
       "symbol": "CRANE.BK",
@@ -399,8 +408,17 @@
       "currency": "THB",
       "price": 0.57,
       "previousClose": 0.55,
-      "timestamp": 1793333733000,
+      "timestamp": 1793334330000,
       "percent": 3.6363636363636154
+    },
+    {
+      "symbol": "PORT.BK",
+      "name": "Sahathai Terminal Public Company Limited",
+      "currency": "THB",
+      "price": 0.89,
+      "previousClose": 0.86,
+      "timestamp": 1793333787000,
+      "percent": 3.488372093023262
     },
     {
       "symbol": "ACC.BK",
@@ -408,7 +426,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.29,
-      "timestamp": 1793332310000,
+      "timestamp": 1793333933000,
       "percent": 3.4482758620689724
     },
     {
@@ -435,7 +453,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.29,
-      "timestamp": 1793333206000,
+      "timestamp": 1793334171000,
       "percent": 3.4482758620689724
     },
     {
@@ -453,7 +471,7 @@
       "currency": "THB",
       "price": 0.31,
       "previousClose": 0.3,
-      "timestamp": 1793331351000,
+      "timestamp": 1793333939000,
       "percent": 3.3333333333333437
     },
     {
@@ -464,40 +482,22 @@
       "previousClose": 0.32,
       "timestamp": 1793333177000,
       "percent": 3.125
-    },
-    {
-      "symbol": "ANAN.BK",
-      "name": "Ananda Development Public Company Limited",
-      "currency": "THB",
-      "price": 0.34,
-      "previousClose": 0.33,
-      "timestamp": 1793333331000,
-      "percent": 3.0303030303030276
-    },
-    {
-      "symbol": "KDH.BK",
-      "name": "Thonburi Medical Centre Public Company Limited",
-      "currency": "THB",
-      "price": 86.75,
-      "previousClose": 84.5,
-      "timestamp": 1793332325000,
-      "percent": 2.6627218934911268
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 733,
-    "missing": 129,
+    "eligible": 740,
+    "missing": 122,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-30",
-    "scheduledSlot": "2026-10-30T11:45[Asia/Bangkok]",
-    "updatedAt": 1793335555020
+    "scheduledSlot": "2026-10-30T11:55[Asia/Bangkok]",
+    "updatedAt": 1793336149727
   },
-  "todayGainersUpdatedAt": 1793335555020,
+  "todayGainersUpdatedAt": 1793336149727,
   "items": [
     {
       "symbol": "PJW.BK",
