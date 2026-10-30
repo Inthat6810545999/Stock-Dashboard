@@ -122,12 +122,30 @@
   },
   "todayGainers": [
     {
+      "symbol": "EMC.BK",
+      "name": "EMC Public Company Limited",
+      "currency": "THB",
+      "price": 0.02,
+      "previousClose": 0.01,
+      "timestamp": 1793348193000,
+      "percent": 100
+    },
+    {
       "symbol": "SDC.BK",
       "name": "Samart Digital Public Company Limited",
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1793347315000,
+      "timestamp": 1793348271000,
+      "percent": 50
+    },
+    {
+      "symbol": "TRITN.BK",
+      "name": "Triton Holding Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1793348326000,
       "percent": 50
     },
     {
@@ -192,34 +210,34 @@
       "previousClose": 0.08,
       "timestamp": 1793347359000,
       "percent": 12.5
-    },
-    {
-      "symbol": "SR.BK",
-      "name": "Siamraj Public Company Limited",
-      "currency": "THB",
-      "price": 0.42,
-      "previousClose": 0.39,
-      "timestamp": 1793347283000,
-      "percent": 7.692307692307687
-    },
-    {
-      "symbol": "CHIC.BK",
-      "name": "Chic Republic Public Company Limited",
-      "currency": "THB",
-      "price": 0.3,
-      "previousClose": 0.28,
-      "timestamp": 1793330180000,
-      "percent": 7.14285714285714
     }
   ],
   "todayCandidates": [
     {
+      "symbol": "EMC.BK",
+      "name": "EMC Public Company Limited",
+      "currency": "THB",
+      "price": 0.02,
+      "previousClose": 0.01,
+      "timestamp": 1793348193000,
+      "percent": 100
+    },
+    {
       "symbol": "SDC.BK",
       "name": "Samart Digital Public Company Limited",
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1793347315000,
+      "timestamp": 1793348271000,
+      "percent": 50
+    },
+    {
+      "symbol": "TRITN.BK",
+      "name": "Triton Holding Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1793348326000,
       "percent": 50
     },
     {
@@ -284,6 +302,15 @@
       "previousClose": 0.08,
       "timestamp": 1793347359000,
       "percent": 12.5
+    },
+    {
+      "symbol": "EFORL.BK",
+      "name": "E for L Aim Public Company Limited",
+      "currency": "THB",
+      "price": 0.11,
+      "previousClose": 0.1,
+      "timestamp": 1793348181000,
+      "percent": 9.999999999999986
     },
     {
       "symbol": "SR.BK",
@@ -313,13 +340,13 @@
       "percent": 6.896551724137945
     },
     {
-      "symbol": "ANAN.BK",
-      "name": "Ananda Development Public Company Limited",
+      "symbol": "ROCK.BK",
+      "name": "Rockworth Public Company Limited",
       "currency": "THB",
-      "price": 0.35,
-      "previousClose": 0.33,
-      "timestamp": 1793348018000,
-      "percent": 6.060606060606055
+      "price": 11.2,
+      "previousClose": 10.5,
+      "timestamp": 1793348458000,
+      "percent": 6.666666666666665
     },
     {
       "symbol": "DPAINT.BK",
@@ -403,6 +430,24 @@
       "percent": 3.703703703703698
     },
     {
+      "symbol": "UBE.BK",
+      "name": "Ubon Bio Ethanol Public Company Limited",
+      "currency": "THB",
+      "price": 0.57,
+      "previousClose": 0.55,
+      "timestamp": 1793348469000,
+      "percent": 3.6363636363636154
+    },
+    {
+      "symbol": "BIOTEC.BK",
+      "name": "Bio Green Energy Tech Public Company Limited",
+      "currency": "THB",
+      "price": 0.29,
+      "previousClose": 0.28,
+      "timestamp": 1793348180000,
+      "percent": 3.5714285714285587
+    },
+    {
       "symbol": "ACC.BK",
       "name": "Advanced Connection Corporation Public Company Limited",
       "currency": "THB",
@@ -417,7 +462,7 @@
       "currency": "THB",
       "price": 0.9,
       "previousClose": 0.87,
-      "timestamp": 1793344158000,
+      "timestamp": 1793348450000,
       "percent": 3.4482758620689724
     },
     {
@@ -430,74 +475,29 @@
       "percent": 3.4482758620689724
     },
     {
-      "symbol": "ASN.BK",
-      "name": "ASN Broker Public Company Limited",
+      "symbol": "RSP.BK",
+      "name": "Rich Sport Public Company Limited",
       "currency": "THB",
-      "price": 0.97,
-      "previousClose": 0.94,
-      "timestamp": 1793336346000,
-      "percent": 3.1914893617021267
-    },
-    {
-      "symbol": "FVC.BK",
-      "name": "Filter Vision Public Company Limited",
-      "currency": "THB",
-      "price": 0.33,
-      "previousClose": 0.32,
-      "timestamp": 1793343508000,
-      "percent": 3.125
-    },
-    {
-      "symbol": "CI.BK",
-      "name": "Charn Issara Development Public Company Limited",
-      "currency": "THB",
-      "price": 0.34,
-      "previousClose": 0.33,
-      "timestamp": 1793343508000,
-      "percent": 3.0303030303030276
-    },
-    {
-      "symbol": "JAS.BK",
-      "name": "Jasmine International Public Company Limited",
-      "currency": "THB",
-      "price": 0.68,
-      "previousClose": 0.66,
-      "timestamp": 1793348151000,
-      "percent": 3.0303030303030276
-    },
-    {
-      "symbol": "BTG.BK",
-      "name": "Betagro Public Company Limited",
-      "currency": "THB",
-      "price": 21.7,
-      "previousClose": 21.1,
-      "timestamp": 1793348145000,
-      "percent": 2.843601895734582
-    },
-    {
-      "symbol": "KDH.BK",
-      "name": "Thonburi Medical Centre Public Company Limited",
-      "currency": "THB",
-      "price": 86.75,
-      "previousClose": 84.5,
-      "timestamp": 1793345174000,
-      "percent": 2.6627218934911268
+      "price": 1.21,
+      "previousClose": 1.17,
+      "timestamp": 1793348557000,
+      "percent": 3.418803418803429
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 790,
-    "missing": 72,
+    "eligible": 791,
+    "missing": 71,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-30",
-    "scheduledSlot": "2026-10-30T15:45[Asia/Bangkok]",
-    "updatedAt": 1793349956684
+    "scheduledSlot": "2026-10-30T15:55[Asia/Bangkok]",
+    "updatedAt": 1793350593458
   },
-  "todayGainersUpdatedAt": 1793349956684,
+  "todayGainersUpdatedAt": 1793350593458,
   "items": [
     {
       "symbol": "PJW.BK",
