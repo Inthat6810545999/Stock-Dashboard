@@ -149,6 +149,15 @@
       "percent": 31.25
     },
     {
+      "symbol": "STOWER.BK",
+      "name": "Sky Tower Public Company Limited",
+      "currency": "THB",
+      "price": 0.05,
+      "previousClose": 0.04,
+      "timestamp": 1793345384000,
+      "percent": 25
+    },
+    {
       "symbol": "NCL.BK",
       "name": "NCL International Logistics Public Company Limited",
       "currency": "THB",
@@ -188,10 +197,10 @@
       "symbol": "SR.BK",
       "name": "Siamraj Public Company Limited",
       "currency": "THB",
-      "price": 0.43,
+      "price": 0.42,
       "previousClose": 0.39,
-      "timestamp": 1793344988000,
-      "percent": 10.256410256410241
+      "timestamp": 1793345644000,
+      "percent": 7.692307692307687
     },
     {
       "symbol": "CHIC.BK",
@@ -200,15 +209,6 @@
       "price": 0.3,
       "previousClose": 0.28,
       "timestamp": 1793330180000,
-      "percent": 7.14285714285714
-    },
-    {
-      "symbol": "RS.BK",
-      "name": "RS Public Company Limited",
-      "currency": "THB",
-      "price": 0.15,
-      "previousClose": 0.14,
-      "timestamp": 1793344589000,
       "percent": 7.14285714285714
     }
   ],
@@ -241,6 +241,15 @@
       "percent": 31.25
     },
     {
+      "symbol": "STOWER.BK",
+      "name": "Sky Tower Public Company Limited",
+      "currency": "THB",
+      "price": 0.05,
+      "previousClose": 0.04,
+      "timestamp": 1793345384000,
+      "percent": 25
+    },
+    {
       "symbol": "NCL.BK",
       "name": "NCL International Logistics Public Company Limited",
       "currency": "THB",
@@ -280,10 +289,10 @@
       "symbol": "SR.BK",
       "name": "Siamraj Public Company Limited",
       "currency": "THB",
-      "price": 0.43,
+      "price": 0.42,
       "previousClose": 0.39,
-      "timestamp": 1793344988000,
-      "percent": 10.256410256410241
+      "timestamp": 1793345644000,
+      "percent": 7.692307692307687
     },
     {
       "symbol": "CHIC.BK",
@@ -304,15 +313,6 @@
       "percent": 7.14285714285714
     },
     {
-      "symbol": "PLANET.BK",
-      "name": "Planet Communications Asia Public Company Limited",
-      "currency": "THB",
-      "price": 0.47,
-      "previousClose": 0.44,
-      "timestamp": 1793344748000,
-      "percent": 6.818181818181812
-    },
-    {
       "symbol": "PPS.BK",
       "name": "Project Planning Service Public Company Limited",
       "currency": "THB",
@@ -329,15 +329,6 @@
       "previousClose": 0.33,
       "timestamp": 1793344827000,
       "percent": 6.060606060606055
-    },
-    {
-      "symbol": "DPAINT.BK",
-      "name": "Delta Paint Public Company Limited",
-      "currency": "THB",
-      "price": 0.18,
-      "previousClose": 0.17,
-      "timestamp": 1793337489000,
-      "percent": 5.88235294117645
     },
     {
       "symbol": "FNS.BK",
@@ -367,13 +358,13 @@
       "percent": 4.999999999999982
     },
     {
-      "symbol": "RWI.BK",
-      "name": "Rayong Wire Industries Public Company Limited",
+      "symbol": "PLANET.BK",
+      "name": "Planet Communications Asia Public Company Limited",
       "currency": "THB",
-      "price": 0.44,
-      "previousClose": 0.42,
-      "timestamp": 1793345126000,
-      "percent": 4.761904761904767
+      "price": 0.46,
+      "previousClose": 0.44,
+      "timestamp": 1793345700000,
+      "percent": 4.545454545454541
     },
     {
       "symbol": "SENX.BK",
@@ -412,15 +403,6 @@
       "percent": 4.0000000000000036
     },
     {
-      "symbol": "XYZ.BK",
-      "name": "RSXYZ Public Company Limited",
-      "currency": "THB",
-      "price": 0.26,
-      "previousClose": 0.25,
-      "timestamp": 1793344979000,
-      "percent": 4.0000000000000036
-    },
-    {
       "symbol": "UPF.BK",
       "name": "Union Pioneer Public Company Limited",
       "currency": "THB",
@@ -453,7 +435,7 @@
       "currency": "THB",
       "price": 0.57,
       "previousClose": 0.55,
-      "timestamp": 1793344268000,
+      "timestamp": 1793345669000,
       "percent": 3.6363636363636154
     },
     {
@@ -462,7 +444,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.29,
-      "timestamp": 1793344980000,
+      "timestamp": 1793345489000,
       "percent": 3.4482758620689724
     },
     {
@@ -482,22 +464,40 @@
       "previousClose": 0.29,
       "timestamp": 1793335481000,
       "percent": 3.4482758620689724
+    },
+    {
+      "symbol": "THMUI.BK",
+      "name": "Thai Mui Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.3,
+      "previousClose": 0.29,
+      "timestamp": 1793338177000,
+      "percent": 3.4482758620689724
+    },
+    {
+      "symbol": "GENCO.BK",
+      "name": "General Environmental Conservation Public Company Limited",
+      "currency": "THB",
+      "price": 0.31,
+      "previousClose": 0.3,
+      "timestamp": 1793343848000,
+      "percent": 3.3333333333333437
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 782,
-    "missing": 80,
+    "eligible": 784,
+    "missing": 78,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-10-30",
-    "scheduledSlot": "2026-10-30T14:55[Asia/Bangkok]",
-    "updatedAt": 1793346953512
+    "scheduledSlot": "2026-10-30T15:05[Asia/Bangkok]",
+    "updatedAt": 1793347557486
   },
-  "todayGainersUpdatedAt": 1793346953512,
+  "todayGainersUpdatedAt": 1793347557486,
   "items": [
     {
       "symbol": "PJW.BK",
