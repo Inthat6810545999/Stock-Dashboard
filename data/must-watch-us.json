@@ -114,9 +114,9 @@
   "priceScan": {
     "total": 5466,
     "processed": 5466,
-    "eligible": 4984,
+    "eligible": 4982,
     "excluded": 1,
-    "missing": 481,
+    "missing": 483,
     "failed": 0,
     "status": "complete"
   },
@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1793496955711
+    "updatedAt": 1793584519365
   },
-  "todayGainersUpdatedAt": 1793496955711,
+  "todayGainersUpdatedAt": 1793584519365,
   "items": [
     {
       "symbol": "KSPI",
@@ -509,6 +509,18 @@
       "score": 1013.7699779773382
     },
     {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "currency": "USD",
+      "price": 1150.89,
+      "pe": 9.19829,
+      "forwardPe": 3.992965,
+      "salesGrowth": 3.779,
+      "marketCap": 163759407104,
+      "timestamp": 1793390400000,
+      "score": 94.64145065133303
+    },
+    {
       "symbol": "KYIV",
       "name": "Kyivstar Group Ltd.",
       "currency": "USD",
@@ -521,28 +533,28 @@
       "score": 93.98452530257204
     },
     {
-      "symbol": "SNDK",
-      "name": "Sandisk Corporation",
-      "currency": "USD",
-      "price": 1150.89,
-      "pe": 9.19829,
-      "forwardPe": 4.0317464,
-      "salesGrowth": 3.779,
-      "marketCap": 163759407104,
-      "timestamp": 1793390400000,
-      "score": 93.73109380093945
-    },
-    {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
       "currency": "USD",
       "price": 884.74,
       "pe": 11.902865,
-      "forwardPe": 4.2575617,
+      "forwardPe": 4.2584615,
       "salesGrowth": 3.793,
       "marketCap": 1001015410688,
       "timestamp": 1793390401000,
-      "score": 89.08855037849482
+      "score": 89.06972623798525
+    },
+    {
+      "symbol": "KB",
+      "name": "KB Financial Group Inc.",
+      "currency": "USD",
+      "price": 112.7,
+      "pe": 9.67382,
+      "forwardPe": 7.3454623,
+      "salesGrowth": 5.144,
+      "marketCap": 39123365888,
+      "timestamp": 1793390402000,
+      "score": 70.029629040503
     },
     {
       "symbol": "EQBK",
@@ -603,18 +615,6 @@
       "marketCap": 11324360704,
       "timestamp": 1793390400000,
       "score": 23.620491776964574
-    },
-    {
-      "symbol": "TRMD",
-      "name": "TORM plc",
-      "currency": "USD",
-      "price": 42.69,
-      "pe": 7.0329485,
-      "forwardPe": 5.4451528,
-      "salesGrowth": 1.103,
-      "marketCap": 4384770048,
-      "timestamp": 1793390400000,
-      "score": 20.256548172532458
     }
   ],
   "allSizes": [
@@ -643,6 +643,18 @@
       "score": 94.74448295954845
     },
     {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "currency": "USD",
+      "price": 1150.89,
+      "pe": 9.19829,
+      "forwardPe": 3.992965,
+      "salesGrowth": 3.779,
+      "marketCap": 163759407104,
+      "timestamp": 1793390400000,
+      "score": 94.64145065133303
+    },
+    {
       "symbol": "KYIV",
       "name": "Kyivstar Group Ltd.",
       "currency": "USD",
@@ -655,28 +667,28 @@
       "score": 93.98452530257204
     },
     {
-      "symbol": "SNDK",
-      "name": "Sandisk Corporation",
-      "currency": "USD",
-      "price": 1150.89,
-      "pe": 9.19829,
-      "forwardPe": 4.0317464,
-      "salesGrowth": 3.779,
-      "marketCap": 163759407104,
-      "timestamp": 1793390400000,
-      "score": 93.73109380093945
-    },
-    {
       "symbol": "MU",
       "name": "Micron Technology, Inc.",
       "currency": "USD",
       "price": 884.74,
       "pe": 11.902865,
-      "forwardPe": 4.2575617,
+      "forwardPe": 4.2584615,
       "salesGrowth": 3.793,
       "marketCap": 1001015410688,
       "timestamp": 1793390401000,
-      "score": 89.08855037849482
+      "score": 89.06972623798525
+    },
+    {
+      "symbol": "KB",
+      "name": "KB Financial Group Inc.",
+      "currency": "USD",
+      "price": 112.7,
+      "pe": 9.67382,
+      "forwardPe": 7.3454623,
+      "salesGrowth": 5.144,
+      "marketCap": 39123365888,
+      "timestamp": 1793390402000,
+      "score": 70.029629040503
     },
     {
       "symbol": "EQBK",
@@ -707,7 +719,7 @@
       "name": "CB Financial Services, Inc.",
       "currency": "USD",
       "price": 39.67,
-      "pe": 11.841791,
+      "pe": 11.599415,
       "forwardPe": 11.54315,
       "salesGrowth": 6.447,
       "marketCap": 201710832,
@@ -722,37 +734,25 @@
       "pe": 2.9125,
       "forwardPe": 10.265222,
       "salesGrowth": 5.249,
-      "marketCap": 299508320,
+      "marketCap": 298734176,
       "timestamp": 1793390402000,
       "score": 51.1338186353885
-    },
-    {
-      "symbol": "IMPP",
-      "name": "Imperial Petroleum Inc.",
-      "currency": "USD",
-      "price": 5.09,
-      "pe": 2.6510417,
-      "forwardPe": 2.7365592,
-      "salesGrowth": 1.396,
-      "marketCap": 230137520,
-      "timestamp": 1793390401000,
-      "score": 51.0129654786931
     }
   ],
   "checked": 5466,
   "failed": 0,
-  "updatedAt": 1793496955716,
+  "updatedAt": 1793584519372,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5466,
     "processed": 5466,
-    "eligible": 612,
-    "excluded": 3189,
-    "missing": 1665,
+    "eligible": 615,
+    "excluded": 3208,
+    "missing": 1643,
     "failed": 0,
-    "startedAt": 1793496349510,
-    "directoryAt": 1793496349510,
+    "startedAt": 1793583955057,
+    "directoryAt": 1793583955057,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
