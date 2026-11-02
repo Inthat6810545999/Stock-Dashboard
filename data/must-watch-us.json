@@ -176,6 +176,15 @@
       "percent": 45.11278195488722
     },
     {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.058,
+      "previousClose": 0.04,
+      "timestamp": 1793653200000,
+      "percent": 44.99999999999999
+    },
+    {
       "symbol": "HXHX",
       "name": "Haoxin Holdings Limited",
       "currency": "USD",
@@ -201,15 +210,6 @@
       "previousClose": 8.35,
       "timestamp": 1793653201000,
       "percent": 37.604790419161695
-    },
-    {
-      "symbol": "NMRA",
-      "name": "Neumora Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 0.4957,
-      "previousClose": 0.3672,
-      "timestamp": 1793653201000,
-      "percent": 34.99455337690631
     }
   ],
   "todayCandidates": [
@@ -268,6 +268,15 @@
       "percent": 45.11278195488722
     },
     {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.058,
+      "previousClose": 0.04,
+      "timestamp": 1793653200000,
+      "percent": 44.99999999999999
+    },
+    {
       "symbol": "HXHX",
       "name": "Haoxin Holdings Limited",
       "currency": "USD",
@@ -304,15 +313,6 @@
       "percent": 34.99455337690631
     },
     {
-      "symbol": "SZZLR",
-      "name": "Sizzle Acquisition Corp. II",
-      "currency": "USD",
-      "price": 0.1317,
-      "previousClose": 0.1003,
-      "timestamp": 1793639253000,
-      "percent": 31.306081754735793
-    },
-    {
       "symbol": "PERI",
       "name": "Perion Network Ltd.",
       "currency": "USD",
@@ -320,6 +320,15 @@
       "previousClose": 8.7,
       "timestamp": 1793653200000,
       "percent": 31.149425287356337
+    },
+    {
+      "symbol": "GTN-A",
+      "name": "Gray Media, Inc.",
+      "currency": "USD",
+      "price": 9.99,
+      "previousClose": 7.72,
+      "timestamp": 1793653176000,
+      "percent": 29.404145077720223
     },
     {
       "symbol": "ATYR",
@@ -385,13 +394,31 @@
       "percent": 23.44676180021954
     },
     {
+      "symbol": "SZZLR",
+      "name": "Sizzle Acquisition Corp. II",
+      "currency": "USD",
+      "price": 0.123,
+      "previousClose": 0.1003,
+      "timestamp": 1793653200000,
+      "percent": 22.632103688933203
+    },
+    {
       "symbol": "PTHS",
       "name": "Pelthos Therapeutics Inc.",
       "currency": "USD",
-      "price": 11.57,
+      "price": 11.52,
       "previousClose": 9.4,
-      "timestamp": 1793653192000,
-      "percent": 23.085106382978715
+      "timestamp": 1793653200000,
+      "percent": 22.5531914893617
+    },
+    {
+      "symbol": "NVA",
+      "name": "Nova Minerals Corp",
+      "currency": "USD",
+      "price": 4.66,
+      "previousClose": 3.81,
+      "timestamp": 1793653200000,
+      "percent": 22.30971128608925
     },
     {
       "symbol": "IDXX",
@@ -401,33 +428,6 @@
       "previousClose": 551.21,
       "timestamp": 1793653202000,
       "percent": 21.84829738212295
-    },
-    {
-      "symbol": "NVA",
-      "name": "Nova Minerals Corp",
-      "currency": "USD",
-      "price": 4.64,
-      "previousClose": 3.81,
-      "timestamp": 1793653198000,
-      "percent": 21.78477690288714
-    },
-    {
-      "symbol": "FEBO",
-      "name": "Fenbo Holdings Limited",
-      "currency": "USD",
-      "price": 0.79,
-      "previousClose": 0.6501,
-      "timestamp": 1793652344000,
-      "percent": 21.51976618981695
-    },
-    {
-      "symbol": "GTN-A",
-      "name": "Gray Media, Inc.",
-      "currency": "USD",
-      "price": 9.3001,
-      "previousClose": 7.72,
-      "timestamp": 1793653155000,
-      "percent": 20.46761658031089
     },
     {
       "symbol": "WETO",
@@ -446,6 +446,15 @@
       "previousClose": 1.54,
       "timestamp": 1793653201000,
       "percent": 20.12987012987013
+    },
+    {
+      "symbol": "FEBO",
+      "name": "Fenbo Holdings Limited",
+      "currency": "USD",
+      "price": 0.78,
+      "previousClose": 0.6501,
+      "timestamp": 1793653200000,
+      "percent": 19.981541301338268
     },
     {
       "symbol": "NSPR",
@@ -473,15 +482,6 @@
       "previousClose": 1.78,
       "timestamp": 1793653201000,
       "percent": 16.573033707865182
-    },
-    {
-      "symbol": "TMCR",
-      "name": "The Metals Royalty Company Inc.",
-      "currency": "USD",
-      "price": 2.25,
-      "previousClose": 1.95,
-      "timestamp": 1793653200000,
-      "percent": 15.384615384615397
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-02T16:05[America/New_York]",
-    "updatedAt": 1793653596005
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-02T16:15[America/New_York]",
+    "updatedAt": 1793654169050
   },
-  "todayGainersUpdatedAt": 1793653596005,
+  "todayGainersUpdatedAt": 1793654169050,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
