@@ -140,6 +140,15 @@
       "percent": 121.5686274509804
     },
     {
+      "symbol": "RDACU",
+      "name": "Rising Dragon Acquisition Corp.",
+      "currency": "USD",
+      "price": 10.8,
+      "previousClose": 5.7,
+      "timestamp": 1793739600000,
+      "percent": 89.47368421052633
+    },
+    {
       "symbol": "MERC",
       "name": "Mercer International Inc.",
       "currency": "USD",
@@ -181,7 +190,7 @@
       "currency": "USD",
       "price": 1.02,
       "previousClose": 0.759,
-      "timestamp": 1793739591000,
+      "timestamp": 1793739600000,
       "percent": 34.387351778656125
     },
     {
@@ -201,15 +210,6 @@
       "previousClose": 1.91,
       "timestamp": 1793739601000,
       "percent": 30.89005235602096
-    },
-    {
-      "symbol": "HUBC",
-      "name": "HUB Cyber Security Ltd.",
-      "currency": "USD",
-      "price": 0.1067,
-      "previousClose": 0.082,
-      "timestamp": 1793739602000,
-      "percent": 30.121951219512198
     }
   ],
   "todayCandidates": [
@@ -232,6 +232,15 @@
       "percent": 121.5686274509804
     },
     {
+      "symbol": "RDACU",
+      "name": "Rising Dragon Acquisition Corp.",
+      "currency": "USD",
+      "price": 10.8,
+      "previousClose": 5.7,
+      "timestamp": 1793739600000,
+      "percent": 89.47368421052633
+    },
+    {
       "symbol": "MERC",
       "name": "Mercer International Inc.",
       "currency": "USD",
@@ -273,7 +282,7 @@
       "currency": "USD",
       "price": 1.02,
       "previousClose": 0.759,
-      "timestamp": 1793739591000,
+      "timestamp": 1793739600000,
       "percent": 34.387351778656125
     },
     {
@@ -309,7 +318,7 @@
       "currency": "USD",
       "price": 0.3999,
       "previousClose": 0.308,
-      "timestamp": 1793719311000,
+      "timestamp": 1793739600000,
       "percent": 29.83766233766234
     },
     {
@@ -354,7 +363,7 @@
       "currency": "USD",
       "price": 2.09,
       "previousClose": 1.66,
-      "timestamp": 1793739599000,
+      "timestamp": 1793739602000,
       "percent": 25.903614457831313
     },
     {
@@ -394,15 +403,6 @@
       "percent": 23.636363636363633
     },
     {
-      "symbol": "ZONE",
-      "name": "Zone Frontier Inc.",
-      "currency": "USD",
-      "price": 5.09,
-      "previousClose": 4.12,
-      "timestamp": 1793739592000,
-      "percent": 23.54368932038835
-    },
-    {
       "symbol": "BRAI",
       "name": "Braiin Limited",
       "currency": "USD",
@@ -439,13 +439,13 @@
       "percent": 22.10526315789474
     },
     {
-      "symbol": "GPK",
-      "name": "Graphic Packaging Holding Company",
+      "symbol": "NSPR",
+      "name": "InspireMD, Inc.",
       "currency": "USD",
-      "price": 11.34,
-      "previousClose": 9.33,
+      "price": 0.6579,
+      "previousClose": 0.539,
       "timestamp": 1793739600000,
-      "percent": 21.543408360128623
+      "percent": 22.059369202226353
     },
     {
       "symbol": "STI",
@@ -457,6 +457,15 @@
       "percent": 21.37404580152671
     },
     {
+      "symbol": "GPK",
+      "name": "Graphic Packaging Holding Company",
+      "currency": "USD",
+      "price": 11.31,
+      "previousClose": 9.33,
+      "timestamp": 1793739602000,
+      "percent": 21.2218649517685
+    },
+    {
       "symbol": "PSHG",
       "name": "Performance Shipping Inc.",
       "currency": "USD",
@@ -466,22 +475,13 @@
       "percent": 20.915032679738577
     },
     {
-      "symbol": "CTSO",
-      "name": "Cytosorbents Corporation",
+      "symbol": "ZONE",
+      "name": "Zone Frontier Inc.",
       "currency": "USD",
-      "price": 4.54,
-      "previousClose": 3.76,
-      "timestamp": 1793739601000,
-      "percent": 20.744680851063848
-    },
-    {
-      "symbol": "IBTA",
-      "name": "Ibotta, Inc.",
-      "currency": "USD",
-      "price": 60.3,
-      "previousClose": 50.07,
-      "timestamp": 1793739598000,
-      "percent": 20.431396045536232
+      "price": 4.98,
+      "previousClose": 4.12,
+      "timestamp": 1793739600000,
+      "percent": 20.873786407767003
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-03T16:05[America/New_York]",
-    "updatedAt": 1793739969374
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-03T16:15[America/New_York]",
+    "updatedAt": 1793740579246
   },
-  "todayGainersUpdatedAt": 1793739969374,
+  "todayGainersUpdatedAt": 1793740579246,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
