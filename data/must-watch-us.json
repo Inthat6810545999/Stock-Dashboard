@@ -122,67 +122,58 @@
   },
   "todayGainers": [
     {
-      "symbol": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "currency": "USD",
-      "price": 4.03,
-      "previousClose": 1.69,
-      "timestamp": 1793722565000,
-      "percent": 138.4615384615385
-    },
-    {
       "symbol": "MERC",
       "name": "Mercer International Inc.",
       "currency": "USD",
-      "price": 0.2735,
+      "price": 0.3298,
       "previousClose": 0.126,
-      "timestamp": 1793722562000,
-      "percent": 117.06349206349209
+      "timestamp": 1793723167000,
+      "percent": 161.74603174603175
     },
     {
       "symbol": "RDAC",
       "name": "Rising Dragon Acquisition Corp.",
       "currency": "USD",
-      "price": 11.04,
+      "price": 11.05,
       "previousClose": 5.1,
-      "timestamp": 1793722548000,
-      "percent": 116.4705882352941
+      "timestamp": 1793723165000,
+      "percent": 116.6666666666667
     },
     {
-      "symbol": "XTND",
-      "name": "Xtend AI Robotics, Inc.",
+      "symbol": "PARA",
+      "name": "Parabolic Technologies, Inc.",
       "currency": "USD",
-      "price": 1.95,
-      "previousClose": 1.3,
-      "timestamp": 1793722573000,
-      "percent": 50
-    },
-    {
-      "symbol": "HUBC",
-      "name": "HUB Cyber Security Ltd.",
-      "currency": "USD",
-      "price": 0.1178,
-      "previousClose": 0.082,
-      "timestamp": 1793722559000,
-      "percent": 43.65853658536585
+      "price": 3.63,
+      "previousClose": 1.69,
+      "timestamp": 1793723171000,
+      "percent": 114.79289940828403
     },
     {
       "symbol": "BKHA",
       "name": "Black Hawk Acquisition Corporation",
       "currency": "USD",
-      "price": 6.48,
+      "price": 6.61,
       "previousClose": 4.7,
-      "timestamp": 1793722537000,
-      "percent": 37.87234042553192
+      "timestamp": 1793723068000,
+      "percent": 40.63829787234043
     },
     {
-      "symbol": "BIVI",
-      "name": "BioVie Inc.",
+      "symbol": "HUBC",
+      "name": "HUB Cyber Security Ltd.",
       "currency": "USD",
-      "price": 1.81,
-      "previousClose": 1.37,
-      "timestamp": 1793722341000,
-      "percent": 32.11678832116787
+      "price": 0.1132,
+      "previousClose": 0.082,
+      "timestamp": 1793723161000,
+      "percent": 38.04878048780487
+    },
+    {
+      "symbol": "WFF",
+      "name": "WF Holding Limited",
+      "currency": "USD",
+      "price": 1.445,
+      "previousClose": 1.11,
+      "timestamp": 1793723175000,
+      "percent": 30.180180180180184
     },
     {
       "symbol": "PECER",
@@ -194,132 +185,141 @@
       "percent": 29.83766233766234
     },
     {
-      "symbol": "WFF",
-      "name": "WF Holding Limited",
-      "currency": "USD",
-      "price": 1.3994,
-      "previousClose": 1.11,
-      "timestamp": 1793722571000,
-      "percent": 26.07207207207205
-    },
-    {
-      "symbol": "EHGO",
-      "name": "Eshallgo Inc.",
-      "currency": "USD",
-      "price": 2.395,
-      "previousClose": 1.91,
-      "timestamp": 1793722544000,
-      "percent": 25.392670157068075
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "currency": "USD",
-      "price": 4.03,
-      "previousClose": 1.69,
-      "timestamp": 1793722565000,
-      "percent": 138.4615384615385
-    },
-    {
-      "symbol": "MERC",
-      "name": "Mercer International Inc.",
-      "currency": "USD",
-      "price": 0.2735,
-      "previousClose": 0.126,
-      "timestamp": 1793722562000,
-      "percent": 117.06349206349209
-    },
-    {
-      "symbol": "RDAC",
-      "name": "Rising Dragon Acquisition Corp.",
-      "currency": "USD",
-      "price": 11.04,
-      "previousClose": 5.1,
-      "timestamp": 1793722548000,
-      "percent": 116.4705882352941
-    },
-    {
-      "symbol": "XTND",
-      "name": "Xtend AI Robotics, Inc.",
-      "currency": "USD",
-      "price": 1.95,
-      "previousClose": 1.3,
-      "timestamp": 1793722573000,
-      "percent": 50
-    },
-    {
-      "symbol": "HUBC",
-      "name": "HUB Cyber Security Ltd.",
-      "currency": "USD",
-      "price": 0.1178,
-      "previousClose": 0.082,
-      "timestamp": 1793722559000,
-      "percent": 43.65853658536585
-    },
-    {
-      "symbol": "BKHA",
-      "name": "Black Hawk Acquisition Corporation",
-      "currency": "USD",
-      "price": 6.48,
-      "previousClose": 4.7,
-      "timestamp": 1793722537000,
-      "percent": 37.87234042553192
-    },
-    {
       "symbol": "BIVI",
       "name": "BioVie Inc.",
       "currency": "USD",
-      "price": 1.81,
+      "price": 1.7603,
       "previousClose": 1.37,
-      "timestamp": 1793722341000,
-      "percent": 32.11678832116787
-    },
-    {
-      "symbol": "PECER",
-      "name": "Peace Acquisition Corp",
-      "currency": "USD",
-      "price": 0.3999,
-      "previousClose": 0.308,
-      "timestamp": 1793719311000,
-      "percent": 29.83766233766234
-    },
-    {
-      "symbol": "WFF",
-      "name": "WF Holding Limited",
-      "currency": "USD",
-      "price": 1.3994,
-      "previousClose": 1.11,
-      "timestamp": 1793722571000,
-      "percent": 26.07207207207205
+      "timestamp": 1793723153000,
+      "percent": 28.489051094890506
     },
     {
       "symbol": "EHGO",
       "name": "Eshallgo Inc.",
       "currency": "USD",
-      "price": 2.395,
+      "price": 2.45,
       "previousClose": 1.91,
-      "timestamp": 1793722544000,
-      "percent": 25.392670157068075
+      "timestamp": 1793723154000,
+      "percent": 28.272251308900543
     },
     {
       "symbol": "IBTA",
       "name": "Ibotta, Inc.",
       "currency": "USD",
-      "price": 62.765,
+      "price": 63.5,
       "previousClose": 50.07,
-      "timestamp": 1793722534000,
-      "percent": 25.354503694827237
+      "timestamp": 1793723128000,
+      "percent": 26.822448571999203
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "MERC",
+      "name": "Mercer International Inc.",
+      "currency": "USD",
+      "price": 0.3298,
+      "previousClose": 0.126,
+      "timestamp": 1793723167000,
+      "percent": 161.74603174603175
     },
     {
-      "symbol": "AEHR",
-      "name": "Aehr Test Systems, Inc.",
+      "symbol": "RDAC",
+      "name": "Rising Dragon Acquisition Corp.",
       "currency": "USD",
-      "price": 63.825,
-      "previousClose": 51.47,
-      "timestamp": 1793722546000,
-      "percent": 24.004274334563824
+      "price": 11.05,
+      "previousClose": 5.1,
+      "timestamp": 1793723165000,
+      "percent": 116.6666666666667
+    },
+    {
+      "symbol": "PARA",
+      "name": "Parabolic Technologies, Inc.",
+      "currency": "USD",
+      "price": 3.63,
+      "previousClose": 1.69,
+      "timestamp": 1793723171000,
+      "percent": 114.79289940828403
+    },
+    {
+      "symbol": "BKHA",
+      "name": "Black Hawk Acquisition Corporation",
+      "currency": "USD",
+      "price": 6.61,
+      "previousClose": 4.7,
+      "timestamp": 1793723068000,
+      "percent": 40.63829787234043
+    },
+    {
+      "symbol": "HUBC",
+      "name": "HUB Cyber Security Ltd.",
+      "currency": "USD",
+      "price": 0.1132,
+      "previousClose": 0.082,
+      "timestamp": 1793723161000,
+      "percent": 38.04878048780487
+    },
+    {
+      "symbol": "WFF",
+      "name": "WF Holding Limited",
+      "currency": "USD",
+      "price": 1.445,
+      "previousClose": 1.11,
+      "timestamp": 1793723175000,
+      "percent": 30.180180180180184
+    },
+    {
+      "symbol": "PECER",
+      "name": "Peace Acquisition Corp",
+      "currency": "USD",
+      "price": 0.3999,
+      "previousClose": 0.308,
+      "timestamp": 1793719311000,
+      "percent": 29.83766233766234
+    },
+    {
+      "symbol": "BIVI",
+      "name": "BioVie Inc.",
+      "currency": "USD",
+      "price": 1.7603,
+      "previousClose": 1.37,
+      "timestamp": 1793723153000,
+      "percent": 28.489051094890506
+    },
+    {
+      "symbol": "EHGO",
+      "name": "Eshallgo Inc.",
+      "currency": "USD",
+      "price": 2.45,
+      "previousClose": 1.91,
+      "timestamp": 1793723154000,
+      "percent": 28.272251308900543
+    },
+    {
+      "symbol": "IBTA",
+      "name": "Ibotta, Inc.",
+      "currency": "USD",
+      "price": 63.5,
+      "previousClose": 50.07,
+      "timestamp": 1793723128000,
+      "percent": 26.822448571999203
+    },
+    {
+      "symbol": "KTTA",
+      "name": "Pasithea Therapeutics Corp.",
+      "currency": "USD",
+      "price": 0.46,
+      "previousClose": 0.368,
+      "timestamp": 1793723159000,
+      "percent": 25
+    },
+    {
+      "symbol": "CVGI",
+      "name": "Commercial Vehicle Group, Inc.",
+      "currency": "USD",
+      "price": 3.895,
+      "previousClose": 3.17,
+      "timestamp": 1793723082000,
+      "percent": 22.870662460567836
     },
     {
       "symbol": "SZZLR",
@@ -331,40 +331,22 @@
       "percent": 22.632103688933203
     },
     {
-      "symbol": "CRIS",
-      "name": "Curis, Inc.",
-      "currency": "USD",
-      "price": 0.81,
-      "previousClose": 0.661,
-      "timestamp": 1793722543000,
-      "percent": 22.541603630862326
-    },
-    {
-      "symbol": "KTTA",
-      "name": "Pasithea Therapeutics Corp.",
-      "currency": "USD",
-      "price": 0.4497,
-      "previousClose": 0.368,
-      "timestamp": 1793722556000,
-      "percent": 22.201086956521742
-    },
-    {
-      "symbol": "CVGI",
-      "name": "Commercial Vehicle Group, Inc.",
-      "currency": "USD",
-      "price": 3.865,
-      "previousClose": 3.17,
-      "timestamp": 1793722444000,
-      "percent": 21.924290220820208
-    },
-    {
       "symbol": "CHSN",
       "name": "Chanson International Holding",
       "currency": "USD",
-      "price": 1.2049,
+      "price": 1.21,
       "previousClose": 0.9905,
-      "timestamp": 1793722502000,
-      "percent": 21.645633518425033
+      "timestamp": 1793722997000,
+      "percent": 22.160524987380104
+    },
+    {
+      "symbol": "AEHR",
+      "name": "Aehr Test Systems, Inc.",
+      "currency": "USD",
+      "price": 62.53,
+      "previousClose": 51.47,
+      "timestamp": 1793723147000,
+      "percent": 21.488245579949485
     },
     {
       "symbol": "PSHG",
@@ -372,17 +354,17 @@
       "currency": "USD",
       "price": 1.85,
       "previousClose": 1.53,
-      "timestamp": 1793722468000,
+      "timestamp": 1793723071000,
       "percent": 20.915032679738577
     },
     {
       "symbol": "ACB",
       "name": "Aurora Cannabis Inc.",
       "currency": "USD",
-      "price": 5.095,
+      "price": 5.085,
       "previousClose": 4.22,
-      "timestamp": 1793722530000,
-      "percent": 20.734597156398117
+      "timestamp": 1793723128000,
+      "percent": 20.49763033175356
     },
     {
       "symbol": "CRMT",
@@ -390,35 +372,35 @@
       "currency": "USD",
       "price": 1.08,
       "previousClose": 0.9116,
-      "timestamp": 1793722523000,
+      "timestamp": 1793723013000,
       "percent": 18.47301448003511
-    },
-    {
-      "symbol": "EVER",
-      "name": "EverQuote, Inc.",
-      "currency": "USD",
-      "price": 28.71,
-      "previousClose": 24.27,
-      "timestamp": 1793722555000,
-      "percent": 18.294190358467244
     },
     {
       "symbol": "GPK",
       "name": "Graphic Packaging Holding Company",
       "currency": "USD",
-      "price": 11.02,
+      "price": 11.035,
       "previousClose": 9.33,
-      "timestamp": 1793722555000,
-      "percent": 18.113612004287248
+      "timestamp": 1793723159000,
+      "percent": 18.2743837084673
     },
     {
       "symbol": "CMCO",
       "name": "Columbus McKinnon Corporation",
       "currency": "USD",
-      "price": 18.585,
+      "price": 18.55,
       "previousClose": 15.76,
-      "timestamp": 1793722549000,
-      "percent": 17.925126903553302
+      "timestamp": 1793723154000,
+      "percent": 17.703045685279186
+    },
+    {
+      "symbol": "XTND",
+      "name": "Xtend AI Robotics, Inc.",
+      "currency": "USD",
+      "price": 1.53,
+      "previousClose": 1.3,
+      "timestamp": 1793722955000,
+      "percent": 17.692307692307697
     },
     {
       "symbol": "BEAGR",
@@ -430,58 +412,76 @@
       "percent": 17.647058823529417
     },
     {
-      "symbol": "BRAI",
-      "name": "Braiin Limited",
+      "symbol": "CRIS",
+      "name": "Curis, Inc.",
       "currency": "USD",
-      "price": 2.939,
-      "previousClose": 2.5,
-      "timestamp": 1793722545000,
-      "percent": 17.56
-    },
-    {
-      "symbol": "BCAX",
-      "name": "Bicara Therapeutics Inc.",
-      "currency": "USD",
-      "price": 9.31,
-      "previousClose": 7.93,
-      "timestamp": 1793722542000,
-      "percent": 17.402269861286257
-    },
-    {
-      "symbol": "NXXT",
-      "name": "NextNRG, Inc.",
-      "currency": "USD",
-      "price": 2.6253,
-      "previousClose": 2.237,
-      "timestamp": 1793722435000,
-      "percent": 17.35806884219937
+      "price": 0.7767,
+      "previousClose": 0.661,
+      "timestamp": 1793723152000,
+      "percent": 17.503782148260207
     },
     {
       "symbol": "LENZ",
       "name": "LENZ Therapeutics, Inc.",
       "currency": "USD",
-      "price": 3.575,
+      "price": 3.58,
       "previousClose": 3.05,
-      "timestamp": 1793722519000,
-      "percent": 17.21311475409837
+      "timestamp": 1793723114000,
+      "percent": 17.377049180327873
+    },
+    {
+      "symbol": "BCAX",
+      "name": "Bicara Therapeutics Inc.",
+      "currency": "USD",
+      "price": 9.285,
+      "previousClose": 7.93,
+      "timestamp": 1793723152000,
+      "percent": 17.087011349306437
     },
     {
       "symbol": "BTBT",
       "name": "Bit Digital, Inc.",
       "currency": "USD",
-      "price": 0.8573,
+      "price": 0.8562,
       "previousClose": 0.7356,
-      "timestamp": 1793722546000,
-      "percent": 16.544317563893408
+      "timestamp": 1793723132000,
+      "percent": 16.394779771614985
     },
     {
-      "symbol": "CANG",
-      "name": "Cango Inc.",
+      "symbol": "EVER",
+      "name": "EverQuote, Inc.",
       "currency": "USD",
-      "price": 1.185,
-      "previousClose": 1.02,
-      "timestamp": 1793722533000,
-      "percent": 16.176470588235304
+      "price": 28.205,
+      "previousClose": 24.27,
+      "timestamp": 1793723133000,
+      "percent": 16.213432220848787
+    },
+    {
+      "symbol": "STI",
+      "name": "Solidion Technology, Inc.",
+      "currency": "USD",
+      "price": 4.555,
+      "previousClose": 3.93,
+      "timestamp": 1793722673000,
+      "percent": 15.903307888040707
+    },
+    {
+      "symbol": "BRAI",
+      "name": "Braiin Limited",
+      "currency": "USD",
+      "price": 2.895,
+      "previousClose": 2.5,
+      "timestamp": 1793723154000,
+      "percent": 15.799999999999992
+    },
+    {
+      "symbol": "HUT",
+      "name": "Hut 8 Corp.",
+      "currency": "USD",
+      "price": 63.66,
+      "previousClose": 55.005,
+      "timestamp": 1793723157000,
+      "percent": 15.734933187892008
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-03T11:15[America/New_York]",
-    "updatedAt": 1793722574395
+    "scheduledSlot": "2026-11-03T11:25[America/New_York]",
+    "updatedAt": 1793723181489
   },
-  "todayGainersUpdatedAt": 1793722574395,
+  "todayGainersUpdatedAt": 1793723181489,
   "items": [
     {
       "symbol": "KSPI",
