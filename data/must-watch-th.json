@@ -197,10 +197,10 @@
       "symbol": "TIGER.BK",
       "name": "Thai Enger Holding Public Company Limited",
       "currency": "THB",
-      "price": 0.5,
+      "price": 0.51,
       "previousClose": 0.44,
-      "timestamp": 1793683751000,
-      "percent": 13.636363636363647
+      "timestamp": 1793689977000,
+      "percent": 15.909090909090917
     },
     {
       "symbol": "GJS.BK",
@@ -289,10 +289,10 @@
       "symbol": "TIGER.BK",
       "name": "Thai Enger Holding Public Company Limited",
       "currency": "THB",
-      "price": 0.5,
+      "price": 0.51,
       "previousClose": 0.44,
-      "timestamp": 1793683751000,
-      "percent": 13.636363636363647
+      "timestamp": 1793689977000,
+      "percent": 15.909090909090917
     },
     {
       "symbol": "GJS.BK",
@@ -327,7 +327,7 @@
       "currency": "THB",
       "price": 0.11,
       "previousClose": 0.1,
-      "timestamp": 1793689139000,
+      "timestamp": 1793689804000,
       "percent": 9.999999999999986
     },
     {
@@ -345,7 +345,7 @@
       "currency": "THB",
       "price": 0.48,
       "previousClose": 0.44,
-      "timestamp": 1793689106000,
+      "timestamp": 1793690100000,
       "percent": 9.090909090909083
     },
     {
@@ -354,7 +354,7 @@
       "currency": "THB",
       "price": 0.39,
       "previousClose": 0.36,
-      "timestamp": 1793689490000,
+      "timestamp": 1793689563000,
       "percent": 8.333333333333348
     },
     {
@@ -390,7 +390,7 @@
       "currency": "THB",
       "price": 0.28,
       "previousClose": 0.26,
-      "timestamp": 1793688949000,
+      "timestamp": 1793690088000,
       "percent": 7.692307692307709
     },
     {
@@ -399,7 +399,7 @@
       "currency": "THB",
       "price": 0.15,
       "previousClose": 0.14,
-      "timestamp": 1793681951000,
+      "timestamp": 1793689767000,
       "percent": 7.14285714285714
     },
     {
@@ -408,7 +408,7 @@
       "currency": "THB",
       "price": 0.17,
       "previousClose": 0.16,
-      "timestamp": 1793681558000,
+      "timestamp": 1793689742000,
       "percent": 6.25
     },
     {
@@ -426,7 +426,7 @@
       "currency": "THB",
       "price": 1.09,
       "previousClose": 1.03,
-      "timestamp": 1793689554000,
+      "timestamp": 1793690109000,
       "percent": 5.825242718446599
     },
     {
@@ -435,7 +435,7 @@
       "currency": "THB",
       "price": 6.55,
       "previousClose": 6.2,
-      "timestamp": 1793689483000,
+      "timestamp": 1793690131000,
       "percent": 5.645161290322576
     },
     {
@@ -446,15 +446,6 @@
       "previousClose": 0.18,
       "timestamp": 1793689261000,
       "percent": 5.555555555555558
-    },
-    {
-      "symbol": "MATCH.BK",
-      "name": "Matching Maximize Solution Public Company Limited",
-      "currency": "THB",
-      "price": 0.59,
-      "previousClose": 0.56,
-      "timestamp": 1793677959000,
-      "percent": 5.357142857142838
     },
     {
       "symbol": "NEP.BK",
@@ -471,7 +462,7 @@
       "currency": "THB",
       "price": 1.44,
       "previousClose": 1.37,
-      "timestamp": 1793689497000,
+      "timestamp": 1793690076000,
       "percent": 5.109489051094873
     },
     {
@@ -482,22 +473,31 @@
       "previousClose": 1.38,
       "timestamp": 1793683434000,
       "percent": 5.072463768115942
+    },
+    {
+      "symbol": "RP.BK",
+      "name": "Raja Ferry Port Public Company Limited",
+      "currency": "THB",
+      "price": 0.64,
+      "previousClose": 0.61,
+      "timestamp": 1793689944000,
+      "percent": 4.918032786885251
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 781,
-    "missing": 81,
+    "eligible": 784,
+    "missing": 78,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-03",
-    "scheduledSlot": "2026-11-03T14:35[Asia/Bangkok]",
-    "updatedAt": 1793691359847
+    "scheduledSlot": "2026-11-03T14:45[Asia/Bangkok]",
+    "updatedAt": 1793691952356
   },
-  "todayGainersUpdatedAt": 1793691359847,
+  "todayGainersUpdatedAt": 1793691952356,
   "items": [
     {
       "symbol": "PJW.BK",
