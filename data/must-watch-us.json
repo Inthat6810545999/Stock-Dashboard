@@ -125,10 +125,10 @@
       "symbol": "CRIS",
       "name": "Curis, Inc.",
       "currency": "USD",
-      "price": 1.45,
+      "price": 1.38,
       "previousClose": 0.7139,
-      "timestamp": 1793802848000,
-      "percent": 103.10967922678245
+      "timestamp": 1793803500000,
+      "percent": 93.30438436755848
     },
     {
       "symbol": "RDACU",
@@ -140,76 +140,76 @@
       "percent": 89.47368421052633
     },
     {
+      "symbol": "OMH",
+      "name": "Ohmyhome Limited",
+      "currency": "USD",
+      "price": 4.7,
+      "previousClose": 2.911,
+      "timestamp": 1793803334000,
+      "percent": 61.456544142906225
+    },
+    {
       "symbol": "ALIT",
       "name": "Alight, Inc.",
       "currency": "USD",
-      "price": 16.4501,
+      "price": 16.325,
       "previousClose": 10.19,
-      "timestamp": 1793802940000,
-      "percent": 61.43375858684985
-    },
-    {
-      "symbol": "DKI",
-      "name": "Darkiris Inc.",
-      "currency": "USD",
-      "price": 2.18,
-      "previousClose": 1.5,
-      "timestamp": 1793802946000,
-      "percent": 45.333333333333336
+      "timestamp": 1793803536000,
+      "percent": 60.20608439646713
     },
     {
       "symbol": "FTCI",
       "name": "FTC Solar, Inc.",
       "currency": "USD",
-      "price": 1.9901,
+      "price": 2.1301,
       "previousClose": 1.45,
-      "timestamp": 1793802949000,
-      "percent": 37.24827586206896
+      "timestamp": 1793803547000,
+      "percent": 46.90344827586208
     },
     {
       "symbol": "CMTG",
       "name": "Claros Mortgage Trust, Inc.",
       "currency": "USD",
-      "price": 1.55,
+      "price": 1.625,
       "previousClose": 1.13,
-      "timestamp": 1793802945000,
-      "percent": 37.168141592920364
+      "timestamp": 1793803542000,
+      "percent": 43.80530973451329
+    },
+    {
+      "symbol": "DKI",
+      "name": "Darkiris Inc.",
+      "currency": "USD",
+      "price": 2.1398,
+      "previousClose": 1.5,
+      "timestamp": 1793803544000,
+      "percent": 42.65333333333334
     },
     {
       "symbol": "LYEL",
       "name": "Lyell Immunopharma, Inc.",
       "currency": "USD",
-      "price": 14.3831,
+      "price": 14.76,
       "previousClose": 10.77,
-      "timestamp": 1793802936000,
-      "percent": 33.54781801299909
+      "timestamp": 1793803526000,
+      "percent": 37.04735376044568
     },
     {
-      "symbol": "PECER",
-      "name": "Peace Acquisition Corp",
+      "symbol": "CRCT",
+      "name": "Cricut, Inc.",
       "currency": "USD",
-      "price": 0.3999,
-      "previousClose": 0.308,
-      "timestamp": 1793739600000,
-      "percent": 29.83766233766234
-    },
-    {
-      "symbol": "OPRT",
-      "name": "Oportun Financial Corporation",
-      "currency": "USD",
-      "price": 12.895,
-      "previousClose": 10.04,
-      "timestamp": 1793802951000,
-      "percent": 28.43625498007969
+      "price": 8.03,
+      "previousClose": 5.97,
+      "timestamp": 1793803540000,
+      "percent": 34.505862646566165
     },
     {
       "symbol": "HPAI",
       "name": "Helport AI Limited",
       "currency": "USD",
-      "price": 0.3082,
+      "price": 0.3164,
       "previousClose": 0.2406,
-      "timestamp": 1793802951000,
-      "percent": 28.09642560265999
+      "timestamp": 1793803549000,
+      "percent": 31.50457190357441
     }
   ],
   "todayCandidates": [
@@ -217,10 +217,10 @@
       "symbol": "CRIS",
       "name": "Curis, Inc.",
       "currency": "USD",
-      "price": 1.45,
+      "price": 1.38,
       "previousClose": 0.7139,
-      "timestamp": 1793802848000,
-      "percent": 103.10967922678245
+      "timestamp": 1793803500000,
+      "percent": 93.30438436755848
     },
     {
       "symbol": "RDACU",
@@ -232,49 +232,85 @@
       "percent": 89.47368421052633
     },
     {
+      "symbol": "OMH",
+      "name": "Ohmyhome Limited",
+      "currency": "USD",
+      "price": 4.7,
+      "previousClose": 2.911,
+      "timestamp": 1793803334000,
+      "percent": 61.456544142906225
+    },
+    {
       "symbol": "ALIT",
       "name": "Alight, Inc.",
       "currency": "USD",
-      "price": 16.4501,
+      "price": 16.325,
       "previousClose": 10.19,
-      "timestamp": 1793802940000,
-      "percent": 61.43375858684985
-    },
-    {
-      "symbol": "DKI",
-      "name": "Darkiris Inc.",
-      "currency": "USD",
-      "price": 2.18,
-      "previousClose": 1.5,
-      "timestamp": 1793802946000,
-      "percent": 45.333333333333336
+      "timestamp": 1793803536000,
+      "percent": 60.20608439646713
     },
     {
       "symbol": "FTCI",
       "name": "FTC Solar, Inc.",
       "currency": "USD",
-      "price": 1.9901,
+      "price": 2.1301,
       "previousClose": 1.45,
-      "timestamp": 1793802949000,
-      "percent": 37.24827586206896
+      "timestamp": 1793803547000,
+      "percent": 46.90344827586208
     },
     {
       "symbol": "CMTG",
       "name": "Claros Mortgage Trust, Inc.",
       "currency": "USD",
-      "price": 1.55,
+      "price": 1.625,
       "previousClose": 1.13,
-      "timestamp": 1793802945000,
-      "percent": 37.168141592920364
+      "timestamp": 1793803542000,
+      "percent": 43.80530973451329
+    },
+    {
+      "symbol": "DKI",
+      "name": "Darkiris Inc.",
+      "currency": "USD",
+      "price": 2.1398,
+      "previousClose": 1.5,
+      "timestamp": 1793803544000,
+      "percent": 42.65333333333334
     },
     {
       "symbol": "LYEL",
       "name": "Lyell Immunopharma, Inc.",
       "currency": "USD",
-      "price": 14.3831,
+      "price": 14.76,
       "previousClose": 10.77,
-      "timestamp": 1793802936000,
-      "percent": 33.54781801299909
+      "timestamp": 1793803526000,
+      "percent": 37.04735376044568
+    },
+    {
+      "symbol": "CRCT",
+      "name": "Cricut, Inc.",
+      "currency": "USD",
+      "price": 8.03,
+      "previousClose": 5.97,
+      "timestamp": 1793803540000,
+      "percent": 34.505862646566165
+    },
+    {
+      "symbol": "HPAI",
+      "name": "Helport AI Limited",
+      "currency": "USD",
+      "price": 0.3164,
+      "previousClose": 0.2406,
+      "timestamp": 1793803549000,
+      "percent": 31.50457190357441
+    },
+    {
+      "symbol": "EBON",
+      "name": "Ebang International Holdings Inc.",
+      "currency": "USD",
+      "price": 1.95,
+      "previousClose": 1.5,
+      "timestamp": 1793803537000,
+      "percent": 30.000000000000004
     },
     {
       "symbol": "PECER",
@@ -286,58 +322,76 @@
       "percent": 29.83766233766234
     },
     {
-      "symbol": "OPRT",
-      "name": "Oportun Financial Corporation",
+      "symbol": "ANGI",
+      "name": "Angi Inc.",
       "currency": "USD",
-      "price": 12.895,
-      "previousClose": 10.04,
-      "timestamp": 1793802951000,
-      "percent": 28.43625498007969
+      "price": 7.25,
+      "previousClose": 5.64,
+      "timestamp": 1793803531000,
+      "percent": 28.54609929078016
     },
     {
-      "symbol": "HPAI",
-      "name": "Helport AI Limited",
+      "symbol": "YOU",
+      "name": "Clear Secure, Inc.",
       "currency": "USD",
-      "price": 0.3082,
-      "previousClose": 0.2406,
-      "timestamp": 1793802951000,
-      "percent": 28.09642560265999
+      "price": 60.565,
+      "previousClose": 47.8,
+      "timestamp": 1793803567000,
+      "percent": 26.705020920502086
+    },
+    {
+      "symbol": "KD",
+      "name": "Kyndryl Holdings, Inc.",
+      "currency": "USD",
+      "price": 16.365,
+      "previousClose": 12.93,
+      "timestamp": 1793803548000,
+      "percent": 26.5661252900232
+    },
+    {
+      "symbol": "TREE",
+      "name": "LendingTree, Inc.",
+      "currency": "USD",
+      "price": 36.44,
+      "previousClose": 28.87,
+      "timestamp": 1793803557000,
+      "percent": 26.220990647731202
+    },
+    {
+      "symbol": "ARRY",
+      "name": "Array Technologies, Inc.",
+      "currency": "USD",
+      "price": 5.855,
+      "previousClose": 4.64,
+      "timestamp": 1793803537000,
+      "percent": 26.18534482758623
     },
     {
       "symbol": "DUOL",
       "name": "Duolingo, Inc.",
       "currency": "USD",
-      "price": 162.8072,
+      "price": 160.54,
       "previousClose": 128,
-      "timestamp": 1793802947000,
-      "percent": 27.193124999999995
+      "timestamp": 1793803545000,
+      "percent": 25.421874999999993
     },
     {
-      "symbol": "CRCT",
-      "name": "Cricut, Inc.",
+      "symbol": "ADV",
+      "name": "Advantage Solutions Inc.",
       "currency": "USD",
-      "price": 7.53,
-      "previousClose": 5.97,
-      "timestamp": 1793802945000,
-      "percent": 26.13065326633166
+      "price": 36,
+      "previousClose": 29.15,
+      "timestamp": 1793803216000,
+      "percent": 23.499142367066895
     },
     {
-      "symbol": "HELE",
-      "name": "Helen of Troy Limited",
+      "symbol": "OPRT",
+      "name": "Oportun Financial Corporation",
       "currency": "USD",
-      "price": 36.305,
-      "previousClose": 29.54,
-      "timestamp": 1793802950000,
-      "percent": 22.9011509817197
-    },
-    {
-      "symbol": "ANGI",
-      "name": "Angi Inc.",
-      "currency": "USD",
-      "price": 6.921,
-      "previousClose": 5.64,
-      "timestamp": 1793802939000,
-      "percent": 22.712765957446823
+      "price": 12.35,
+      "previousClose": 10.04,
+      "timestamp": 1793803546000,
+      "percent": 23.00796812749004
     },
     {
       "symbol": "SZZLR",
@@ -349,139 +403,85 @@
       "percent": 22.632103688933203
     },
     {
-      "symbol": "TREE",
-      "name": "LendingTree, Inc.",
-      "currency": "USD",
-      "price": 35.25,
-      "previousClose": 28.87,
-      "timestamp": 1793802953000,
-      "percent": 22.09906477312089
-    },
-    {
-      "symbol": "LAW",
-      "name": "CS Disco, Inc.",
-      "currency": "USD",
-      "price": 6.28,
-      "previousClose": 5.175,
-      "timestamp": 1793802925000,
-      "percent": 21.35265700483093
-    },
-    {
-      "symbol": "KD",
-      "name": "Kyndryl Holdings, Inc.",
-      "currency": "USD",
-      "price": 15.52,
-      "previousClose": 12.93,
-      "timestamp": 1793802948000,
-      "percent": 20.03093580819799
-    },
-    {
-      "symbol": "UWMC",
-      "name": "UWM Holdings Corporation",
-      "currency": "USD",
-      "price": 1.9,
-      "previousClose": 1.595,
-      "timestamp": 1793802959000,
-      "percent": 19.122257053291534
-    },
-    {
-      "symbol": "YOU",
-      "name": "Clear Secure, Inc.",
-      "currency": "USD",
-      "price": 56.855,
-      "previousClose": 47.8,
-      "timestamp": 1793802964000,
-      "percent": 18.943514644351467
-    },
-    {
-      "symbol": "STIM",
-      "name": "Neuronetics, Inc.",
-      "currency": "USD",
-      "price": 2.685,
-      "previousClose": 2.26,
-      "timestamp": 1793802958000,
-      "percent": 18.805309734513287
-    },
-    {
-      "symbol": "SMRT",
-      "name": "SmartRent, Inc.",
-      "currency": "USD",
-      "price": 1.655,
-      "previousClose": 1.395,
-      "timestamp": 1793802959000,
-      "percent": 18.63799283154122
-    },
-    {
-      "symbol": "LIVN",
-      "name": "LivaNova PLC",
-      "currency": "USD",
-      "price": 94.72,
-      "previousClose": 79.9,
-      "timestamp": 1793802946000,
-      "percent": 18.548185231539406
-    },
-    {
-      "symbol": "ARRY",
-      "name": "Array Technologies, Inc.",
-      "currency": "USD",
-      "price": 5.5004,
-      "previousClose": 4.64,
-      "timestamp": 1793802940000,
-      "percent": 18.54310344827588
-    },
-    {
-      "symbol": "AMBO",
-      "name": "Ambow Education Holding Ltd. Am",
-      "currency": "USD",
-      "price": 1.6,
-      "previousClose": 1.35,
-      "timestamp": 1793739600000,
-      "percent": 18.518518518518512
-    },
-    {
-      "symbol": "TRNS",
-      "name": "Transcat, Inc.",
-      "currency": "USD",
-      "price": 104.95,
-      "previousClose": 89.52,
-      "timestamp": 1793802936000,
-      "percent": 17.236371760500457
-    },
-    {
-      "symbol": "ADV",
-      "name": "Advantage Solutions Inc.",
-      "currency": "USD",
-      "price": 34.07,
-      "previousClose": 29.15,
-      "timestamp": 1793802913000,
-      "percent": 16.878216123499158
-    },
-    {
       "symbol": "BRKR",
       "name": "Bruker Corporation",
       "currency": "USD",
-      "price": 65.735,
+      "price": 68.49,
       "previousClose": 56.5,
-      "timestamp": 1793802943000,
-      "percent": 16.34513274336282
+      "timestamp": 1793803540000,
+      "percent": 21.221238938053077
+    },
+    {
+      "symbol": "AIOK",
+      "name": "AI OKTO CORP.",
+      "currency": "USD",
+      "price": 11.97,
+      "previousClose": 9.99,
+      "timestamp": 1793803536000,
+      "percent": 19.819819819819816
+    },
+    {
+      "symbol": "HELE",
+      "name": "Helen of Troy Limited",
+      "currency": "USD",
+      "price": 35.27,
+      "previousClose": 29.54,
+      "timestamp": 1793803511000,
+      "percent": 19.397427217332442
+    },
+    {
+      "symbol": "OPEN",
+      "name": "Opendoor Technologies Inc.",
+      "currency": "USD",
+      "price": 2.0688,
+      "previousClose": 1.74,
+      "timestamp": 1793803555000,
+      "percent": 18.896551724137932
     },
     {
       "symbol": "NAMM",
       "name": "Namib Minerals",
       "currency": "USD",
-      "price": 0.86,
+      "price": 0.8791,
       "previousClose": 0.742,
-      "timestamp": 1793802947000,
-      "percent": 15.902964959568733
+      "timestamp": 1793803547000,
+      "percent": 18.477088948787056
     },
     {
-      "symbol": "FSTR",
-      "name": "L.B. Foster Company",
+      "symbol": "TRNS",
+      "name": "Transcat, Inc.",
       "currency": "USD",
-      "price": 42.23,
-      "previousClose": 36.46,
-      "timestamp": 1793802783000,
-      "percent": 15.825562260010951
+      "price": 106,
+      "previousClose": 89.52,
+      "timestamp": 1793803549000,
+      "percent": 18.409294012511168
+    },
+    {
+      "symbol": "ASTI",
+      "name": "Ascent Solar Technologies, Inc",
+      "currency": "USD",
+      "price": 1.7593,
+      "previousClose": 1.49,
+      "timestamp": 1793803507000,
+      "percent": 18.0738255033557
+    },
+    {
+      "symbol": "NEON",
+      "name": "Neonode Inc.",
+      "currency": "USD",
+      "price": 0.7499,
+      "previousClose": 0.6369,
+      "timestamp": 1793803125000,
+      "percent": 17.74218872664468
+    },
+    {
+      "symbol": "LDI",
+      "name": "loanDepot, Inc.",
+      "currency": "USD",
+      "price": 0.6838,
+      "previousClose": 0.5808,
+      "timestamp": 1793803547000,
+      "percent": 17.734159779614323
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-04T09:35[America/New_York]",
-    "updatedAt": 1793802966777
+    "scheduledSlot": "2026-11-04T09:45[America/New_York]",
+    "updatedAt": 1793803569545
   },
-  "todayGainersUpdatedAt": 1793802966777,
+  "todayGainersUpdatedAt": 1793803569545,
   "items": [
     {
       "symbol": "KSPI",
