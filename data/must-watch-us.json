@@ -122,40 +122,40 @@
   },
   "todayGainers": [
     {
-      "symbol": "LABT",
-      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
-      "currency": "USD",
-      "price": 0.6601,
-      "previousClose": 0.1914,
-      "timestamp": 1793895960000,
-      "percent": 244.87983281086733
-    },
-    {
       "symbol": "AMPGZ",
       "name": "AmpliTech Group, Inc.",
       "currency": "USD",
-      "price": 0.0286,
+      "price": 0.034,
       "previousClose": 0.0084,
-      "timestamp": 1793895535000,
-      "percent": 240.4761904761905
+      "timestamp": 1793896227000,
+      "percent": 304.7619047619048
+    },
+    {
+      "symbol": "LABT",
+      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.6901,
+      "previousClose": 0.1914,
+      "timestamp": 1793896553000,
+      "percent": 260.5538140020899
     },
     {
       "symbol": "NTCL",
       "name": "NetClass Technology Inc",
       "currency": "USD",
-      "price": 1.0316,
+      "price": 1.01,
       "previousClose": 0.3798,
-      "timestamp": 1793895963000,
-      "percent": 171.61664033701948
+      "timestamp": 1793896272000,
+      "percent": 165.9294365455503
     },
     {
       "symbol": "AEHL",
       "name": "Antelope Enterprise Holdings Limited",
       "currency": "USD",
-      "price": 13.205,
+      "price": 14.16,
       "previousClose": 6.27,
-      "timestamp": 1793895946000,
-      "percent": 110.60606060606064
+      "timestamp": 1793896539000,
+      "percent": 125.8373205741627
     },
     {
       "symbol": "RDACU",
@@ -170,156 +170,174 @@
       "symbol": "ZNB",
       "name": "Zeta Network Group",
       "currency": "USD",
-      "price": 1.089,
+      "price": 1.075,
       "previousClose": 0.622,
-      "timestamp": 1793895972000,
-      "percent": 75.08038585209003
+      "timestamp": 1793896555000,
+      "percent": 72.82958199356912
     },
     {
       "symbol": "AMTX",
       "name": "Aemetis, Inc.",
       "currency": "USD",
-      "price": 1.905,
+      "price": 1.915,
       "previousClose": 1.25,
-      "timestamp": 1793895946000,
-      "percent": 52.400000000000006
-    },
-    {
-      "symbol": "PLCE",
-      "name": "The Children's Place, Inc.",
-      "currency": "USD",
-      "price": 0.34,
-      "previousClose": 0.241,
-      "timestamp": 1793895965000,
-      "percent": 41.07883817427387
+      "timestamp": 1793896529000,
+      "percent": 53.2
     },
     {
       "symbol": "ELPW",
       "name": "Elong Power Holding Limited",
       "currency": "USD",
-      "price": 3.445,
+      "price": 3.4601,
       "previousClose": 2.51,
-      "timestamp": 1793895953000,
-      "percent": 37.250996015936266
-    },
-    {
-      "symbol": "DNUT",
-      "name": "Krispy Kreme, Inc.",
-      "currency": "USD",
-      "price": 4.615,
-      "previousClose": 3.52,
-      "timestamp": 1793895951000,
-      "percent": 31.10795454545454
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "LABT",
-      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
-      "currency": "USD",
-      "price": 0.6601,
-      "previousClose": 0.1914,
-      "timestamp": 1793895960000,
-      "percent": 244.87983281086733
-    },
-    {
-      "symbol": "AMPGZ",
-      "name": "AmpliTech Group, Inc.",
-      "currency": "USD",
-      "price": 0.0286,
-      "previousClose": 0.0084,
-      "timestamp": 1793895535000,
-      "percent": 240.4761904761905
-    },
-    {
-      "symbol": "NTCL",
-      "name": "NetClass Technology Inc",
-      "currency": "USD",
-      "price": 1.0316,
-      "previousClose": 0.3798,
-      "timestamp": 1793895963000,
-      "percent": 171.61664033701948
-    },
-    {
-      "symbol": "AEHL",
-      "name": "Antelope Enterprise Holdings Limited",
-      "currency": "USD",
-      "price": 13.205,
-      "previousClose": 6.27,
-      "timestamp": 1793895946000,
-      "percent": 110.60606060606064
-    },
-    {
-      "symbol": "RDACU",
-      "name": "Rising Dragon Acquisition Corp.",
-      "currency": "USD",
-      "price": 10.8,
-      "previousClose": 5.7,
-      "timestamp": 1793739600000,
-      "percent": 89.47368421052633
-    },
-    {
-      "symbol": "ZNB",
-      "name": "Zeta Network Group",
-      "currency": "USD",
-      "price": 1.089,
-      "previousClose": 0.622,
-      "timestamp": 1793895972000,
-      "percent": 75.08038585209003
-    },
-    {
-      "symbol": "AMTX",
-      "name": "Aemetis, Inc.",
-      "currency": "USD",
-      "price": 1.905,
-      "previousClose": 1.25,
-      "timestamp": 1793895946000,
-      "percent": 52.400000000000006
+      "timestamp": 1793896541000,
+      "percent": 37.85258964143428
     },
     {
       "symbol": "PLCE",
       "name": "The Children's Place, Inc.",
       "currency": "USD",
-      "price": 0.34,
+      "price": 0.3265,
       "previousClose": 0.241,
-      "timestamp": 1793895965000,
-      "percent": 41.07883817427387
-    },
-    {
-      "symbol": "ELPW",
-      "name": "Elong Power Holding Limited",
-      "currency": "USD",
-      "price": 3.445,
-      "previousClose": 2.51,
-      "timestamp": 1793895953000,
-      "percent": 37.250996015936266
-    },
-    {
-      "symbol": "DNUT",
-      "name": "Krispy Kreme, Inc.",
-      "currency": "USD",
-      "price": 4.615,
-      "previousClose": 3.52,
-      "timestamp": 1793895951000,
-      "percent": 31.10795454545454
-    },
-    {
-      "symbol": "APP",
-      "name": "AppLovin Corporation",
-      "currency": "USD",
-      "price": 352.625,
-      "previousClose": 271.75,
-      "timestamp": 1793895947000,
-      "percent": 29.760809567617287
+      "timestamp": 1793896555000,
+      "percent": 35.47717842323652
     },
     {
       "symbol": "FLYE",
       "name": "Fly-E Group, Inc.",
       "currency": "USD",
-      "price": 2.14,
+      "price": 2.22,
       "previousClose": 1.7001,
-      "timestamp": 1793895933000,
-      "percent": 25.87494853243928
+      "timestamp": 1793896548000,
+      "percent": 30.580554085053848
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.034,
+      "previousClose": 0.0084,
+      "timestamp": 1793896227000,
+      "percent": 304.7619047619048
+    },
+    {
+      "symbol": "LABT",
+      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.6901,
+      "previousClose": 0.1914,
+      "timestamp": 1793896553000,
+      "percent": 260.5538140020899
+    },
+    {
+      "symbol": "NTCL",
+      "name": "NetClass Technology Inc",
+      "currency": "USD",
+      "price": 1.01,
+      "previousClose": 0.3798,
+      "timestamp": 1793896272000,
+      "percent": 165.9294365455503
+    },
+    {
+      "symbol": "AEHL",
+      "name": "Antelope Enterprise Holdings Limited",
+      "currency": "USD",
+      "price": 14.16,
+      "previousClose": 6.27,
+      "timestamp": 1793896539000,
+      "percent": 125.8373205741627
+    },
+    {
+      "symbol": "RDACU",
+      "name": "Rising Dragon Acquisition Corp.",
+      "currency": "USD",
+      "price": 10.8,
+      "previousClose": 5.7,
+      "timestamp": 1793739600000,
+      "percent": 89.47368421052633
+    },
+    {
+      "symbol": "ZNB",
+      "name": "Zeta Network Group",
+      "currency": "USD",
+      "price": 1.075,
+      "previousClose": 0.622,
+      "timestamp": 1793896555000,
+      "percent": 72.82958199356912
+    },
+    {
+      "symbol": "AMTX",
+      "name": "Aemetis, Inc.",
+      "currency": "USD",
+      "price": 1.915,
+      "previousClose": 1.25,
+      "timestamp": 1793896529000,
+      "percent": 53.2
+    },
+    {
+      "symbol": "ELPW",
+      "name": "Elong Power Holding Limited",
+      "currency": "USD",
+      "price": 3.4601,
+      "previousClose": 2.51,
+      "timestamp": 1793896541000,
+      "percent": 37.85258964143428
+    },
+    {
+      "symbol": "PLCE",
+      "name": "The Children's Place, Inc.",
+      "currency": "USD",
+      "price": 0.3265,
+      "previousClose": 0.241,
+      "timestamp": 1793896555000,
+      "percent": 35.47717842323652
+    },
+    {
+      "symbol": "FLYE",
+      "name": "Fly-E Group, Inc.",
+      "currency": "USD",
+      "price": 2.22,
+      "previousClose": 1.7001,
+      "timestamp": 1793896548000,
+      "percent": 30.580554085053848
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin Corporation",
+      "currency": "USD",
+      "price": 352.5,
+      "previousClose": 271.75,
+      "timestamp": 1793896540000,
+      "percent": 29.714811407543706
+    },
+    {
+      "symbol": "DNUT",
+      "name": "Krispy Kreme, Inc.",
+      "currency": "USD",
+      "price": 4.565,
+      "previousClose": 3.52,
+      "timestamp": 1793896536000,
+      "percent": 29.6875
+    },
+    {
+      "symbol": "WRBY",
+      "name": "Warby Parker Inc.",
+      "currency": "USD",
+      "price": 26.88,
+      "previousClose": 21.29,
+      "timestamp": 1793896554000,
+      "percent": 26.256458431188356
+    },
+    {
+      "symbol": "ADMA",
+      "name": "ADMA Biologics, Inc.",
+      "currency": "USD",
+      "price": 13.195,
+      "previousClose": 10.48,
+      "timestamp": 1793896537000,
+      "percent": 25.906488549618324
     },
     {
       "symbol": "XERS",
@@ -327,161 +345,143 @@
       "currency": "USD",
       "price": 13.16,
       "previousClose": 10.46,
-      "timestamp": 1793895968000,
+      "timestamp": 1793896563000,
       "percent": 25.81261950286806
-    },
-    {
-      "symbol": "WRBY",
-      "name": "Warby Parker Inc.",
-      "currency": "USD",
-      "price": 26.76,
-      "previousClose": 21.29,
-      "timestamp": 1793895969000,
-      "percent": 25.692813527477696
-    },
-    {
-      "symbol": "ADMA",
-      "name": "ADMA Biologics, Inc.",
-      "currency": "USD",
-      "price": 13.09,
-      "previousClose": 10.48,
-      "timestamp": 1793895943000,
-      "percent": 24.90458015267174
     },
     {
       "symbol": "PTLO",
       "name": "Portillo's Inc.",
       "currency": "USD",
-      "price": 6.71,
+      "price": 6.755,
       "previousClose": 5.45,
-      "timestamp": 1793895961000,
-      "percent": 23.119266055045863
+      "timestamp": 1793896552000,
+      "percent": 23.944954128440354
     },
     {
       "symbol": "ARQ",
       "name": "Arq, Inc.",
       "currency": "USD",
-      "price": 2.275,
+      "price": 2.29,
       "previousClose": 1.85,
-      "timestamp": 1793895943000,
-      "percent": 22.97297297297296
-    },
-    {
-      "symbol": "CCLD",
-      "name": "CareCloud, Inc.",
-      "currency": "USD",
-      "price": 2.21,
-      "previousClose": 1.8,
-      "timestamp": 1793895951000,
-      "percent": 22.777777777777764
-    },
-    {
-      "symbol": "JDZG",
-      "name": "JIADE Limited",
-      "currency": "USD",
-      "price": 0.3694,
-      "previousClose": 0.3016,
-      "timestamp": 1793895959000,
-      "percent": 22.48010610079576
+      "timestamp": 1793896536000,
+      "percent": 23.783783783783786
     },
     {
       "symbol": "LYNX",
       "name": "Lyntris Inc.",
       "currency": "USD",
-      "price": 11.385,
+      "price": 11.48,
       "previousClose": 9.39,
-      "timestamp": 1793895947000,
-      "percent": 21.24600638977634
+      "timestamp": 1793896541000,
+      "percent": 22.257720979765704
     },
     {
-      "symbol": "MGNI",
-      "name": "Magnite, Inc.",
+      "symbol": "CCLD",
+      "name": "CareCloud, Inc.",
       "currency": "USD",
-      "price": 27.35,
-      "previousClose": 22.79,
-      "timestamp": 1793895958000,
-      "percent": 20.008775778850385
+      "price": 2.2,
+      "previousClose": 1.8,
+      "timestamp": 1793896529000,
+      "percent": 22.222222222222232
     },
     {
-      "symbol": "ENHA",
-      "name": "Enhanced Group Inc.",
+      "symbol": "EZGO",
+      "name": "EZGO Technologies Ltd.",
       "currency": "USD",
-      "price": 8.49,
-      "previousClose": 7.11,
-      "timestamp": 1793895944000,
-      "percent": 19.409282700421947
+      "price": 2.09,
+      "previousClose": 1.71,
+      "timestamp": 1793896450000,
+      "percent": 22.22222222222221
     },
     {
-      "symbol": "TBI",
-      "name": "TrueBlue, Inc.",
+      "symbol": "BDMD",
+      "name": "Baird Medical Investment Holdings Limited",
       "currency": "USD",
-      "price": 11.74,
-      "previousClose": 9.84,
-      "timestamp": 1793895965000,
-      "percent": 19.308943089430898
-    },
-    {
-      "symbol": "DTIL",
-      "name": "Precision BioSciences, Inc.",
-      "currency": "USD",
-      "price": 9.58,
-      "previousClose": 8.12,
-      "timestamp": 1793895909000,
-      "percent": 17.98029556650247
-    },
-    {
-      "symbol": "ARDT",
-      "name": "Ardent Health, Inc.",
-      "currency": "USD",
-      "price": 15.32,
-      "previousClose": 12.99,
-      "timestamp": 1793895922000,
-      "percent": 17.936874518860655
-    },
-    {
-      "symbol": "SEZL",
-      "name": "Sezzle Inc.",
-      "currency": "USD",
-      "price": 160.77,
-      "previousClose": 136.69,
-      "timestamp": 1793895962000,
-      "percent": 17.616504499231844
+      "price": 0.1297,
+      "previousClose": 0.1068,
+      "timestamp": 1793896540000,
+      "percent": 21.441947565543074
     },
     {
       "symbol": "HUHU",
       "name": "HUHUTECH International Group Inc.",
       "currency": "USD",
-      "price": 0.4442,
+      "price": 0.4599,
       "previousClose": 0.38,
-      "timestamp": 1793895958000,
-      "percent": 16.894736842105253
+      "timestamp": 1793896550000,
+      "percent": 21.02631578947367
     },
     {
-      "symbol": "APYX",
-      "name": "Apyx Medical Corporation",
+      "symbol": "MGNI",
+      "name": "Magnite, Inc.",
       "currency": "USD",
-      "price": 3.02,
-      "previousClose": 2.59,
-      "timestamp": 1793895754000,
-      "percent": 16.602316602316613
+      "price": 27.5,
+      "previousClose": 22.79,
+      "timestamp": 1793896554000,
+      "percent": 20.666959192628354
     },
     {
-      "symbol": "EPAM",
-      "name": "EPAM Systems, Inc.",
+      "symbol": "DTIL",
+      "name": "Precision BioSciences, Inc.",
       "currency": "USD",
-      "price": 159.945,
-      "previousClose": 137.36,
-      "timestamp": 1793895953000,
-      "percent": 16.442195690157234
+      "price": 9.785,
+      "previousClose": 8.12,
+      "timestamp": 1793896535000,
+      "percent": 20.5049261083744
     },
     {
-      "symbol": "COTY",
-      "name": "Coty Inc.",
+      "symbol": "TBI",
+      "name": "TrueBlue, Inc.",
       "currency": "USD",
-      "price": 4.025,
-      "previousClose": 3.47,
-      "timestamp": 1793895945000,
-      "percent": 15.994236311239195
+      "price": 11.795,
+      "previousClose": 9.84,
+      "timestamp": 1793896546000,
+      "percent": 19.867886178861795
+    },
+    {
+      "symbol": "SEZL",
+      "name": "Sezzle Inc.",
+      "currency": "USD",
+      "price": 163.525,
+      "previousClose": 136.69,
+      "timestamp": 1793896555000,
+      "percent": 19.63201404638233
+    },
+    {
+      "symbol": "ARDT",
+      "name": "Ardent Health, Inc.",
+      "currency": "USD",
+      "price": 15.37,
+      "previousClose": 12.99,
+      "timestamp": 1793896499000,
+      "percent": 18.321785989222473
+    },
+    {
+      "symbol": "ECPG",
+      "name": "Encore Capital Group, Inc.",
+      "currency": "USD",
+      "price": 116.69,
+      "previousClose": 99.93,
+      "timestamp": 1793896528000,
+      "percent": 16.771740218152686
+    },
+    {
+      "symbol": "SEGG",
+      "name": "Sports Entertainment Gaming Global Corporation",
+      "currency": "USD",
+      "price": 1.8199,
+      "previousClose": 1.56,
+      "timestamp": 1793896550000,
+      "percent": 16.660256410256412
+    },
+    {
+      "symbol": "INTZ",
+      "name": "Intrusion Inc.",
+      "currency": "USD",
+      "price": 0.5638,
+      "previousClose": 0.4836,
+      "timestamp": 1793896545000,
+      "percent": 16.58395368072787
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-05T11:25[America/New_York]",
-    "updatedAt": 1793895974294
+    "scheduledSlot": "2026-11-05T11:35[America/New_York]",
+    "updatedAt": 1793896566552
   },
-  "todayGainersUpdatedAt": 1793895974294,
+  "todayGainersUpdatedAt": 1793896566552,
   "items": [
     {
       "symbol": "KSPI",
