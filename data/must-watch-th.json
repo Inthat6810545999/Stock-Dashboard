@@ -172,7 +172,7 @@
       "currency": "THB",
       "price": 0.06,
       "previousClose": 0.05,
-      "timestamp": 1793852179000,
+      "timestamp": 1793854357000,
       "percent": 19.999999999999996
     },
     {
@@ -264,7 +264,7 @@
       "currency": "THB",
       "price": 0.06,
       "previousClose": 0.05,
-      "timestamp": 1793852179000,
+      "timestamp": 1793854357000,
       "percent": 19.999999999999996
     },
     {
@@ -309,7 +309,7 @@
       "currency": "THB",
       "price": 0.35,
       "previousClose": 0.32,
-      "timestamp": 1793853934000,
+      "timestamp": 1793854402000,
       "percent": 9.375
     },
     {
@@ -318,7 +318,7 @@
       "currency": "THB",
       "price": 0.12,
       "previousClose": 0.11,
-      "timestamp": 1793853861000,
+      "timestamp": 1793854529000,
       "percent": 9.090909090909083
     },
     {
@@ -327,17 +327,8 @@
       "currency": "THB",
       "price": 1.01,
       "previousClose": 0.93,
-      "timestamp": 1793853925000,
+      "timestamp": 1793854475000,
       "percent": 8.602150537634401
-    },
-    {
-      "symbol": "AAV.BK",
-      "name": "Asia Aviation Public Company Limited",
-      "currency": "THB",
-      "price": 0.81,
-      "previousClose": 0.75,
-      "timestamp": 1793853940000,
-      "percent": 8.000000000000007
     },
     {
       "symbol": "TCC.BK",
@@ -349,21 +340,12 @@
       "percent": 8.000000000000007
     },
     {
-      "symbol": "THE.BK",
-      "name": "The Steel Public Company Limited",
-      "currency": "THB",
-      "price": 0.81,
-      "previousClose": 0.75,
-      "timestamp": 1793853717000,
-      "percent": 8.000000000000007
-    },
-    {
       "symbol": "BGRIM.BK",
       "name": "B.Grimm Power Public Company Limited",
       "currency": "THB",
       "price": 21.9,
       "previousClose": 20.4,
-      "timestamp": 1793853938000,
+      "timestamp": 1793854508000,
       "percent": 7.352941176470584
     },
     {
@@ -376,13 +358,31 @@
       "percent": 7.14285714285714
     },
     {
+      "symbol": "SMD100.BK",
+      "name": "SMD Rise Public Company Limited",
+      "currency": "THB",
+      "price": 1.56,
+      "previousClose": 1.46,
+      "timestamp": 1793853989000,
+      "percent": 6.849315068493156
+    },
+    {
       "symbol": "MTC.BK",
       "name": "Muangthai Capital Public Company Limited",
       "currency": "THB",
       "price": 31.5,
       "previousClose": 29.5,
-      "timestamp": 1793853940000,
+      "timestamp": 1793854506000,
       "percent": 6.779661016949157
+    },
+    {
+      "symbol": "AAV.BK",
+      "name": "Asia Aviation Public Company Limited",
+      "currency": "THB",
+      "price": 0.8,
+      "previousClose": 0.75,
+      "timestamp": 1793854427000,
+      "percent": 6.666666666666665
     },
     {
       "symbol": "PPS.BK",
@@ -392,6 +392,15 @@
       "previousClose": 0.15,
       "timestamp": 1793848235000,
       "percent": 6.666666666666665
+    },
+    {
+      "symbol": "GPSC.BK",
+      "name": "Global Power Synergy Public Company Limited",
+      "currency": "THB",
+      "price": 52.5,
+      "previousClose": 49.5,
+      "timestamp": 1793854546000,
+      "percent": 6.060606060606055
     },
     {
       "symbol": "TCJ.BK",
@@ -408,7 +417,7 @@
       "currency": "THB",
       "price": 12.5,
       "previousClose": 11.8,
-      "timestamp": 1793853943000,
+      "timestamp": 1793854456000,
       "percent": 5.932203389830493
     },
     {
@@ -426,17 +435,17 @@
       "currency": "THB",
       "price": 4.54,
       "previousClose": 4.3,
-      "timestamp": 1793851207000,
+      "timestamp": 1793854246000,
       "percent": 5.581395348837215
     },
     {
-      "symbol": "GPSC.BK",
-      "name": "Global Power Synergy Public Company Limited",
+      "symbol": "THE.BK",
+      "name": "The Steel Public Company Limited",
       "currency": "THB",
-      "price": 52.25,
-      "previousClose": 49.5,
-      "timestamp": 1793853930000,
-      "percent": 5.555555555555558
+      "price": 0.79,
+      "previousClose": 0.75,
+      "timestamp": 1793854541000,
+      "percent": 5.3333333333333455
     },
     {
       "symbol": "NEP.BK",
@@ -453,16 +462,7 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.22,
-      "timestamp": 1793853812000,
-      "percent": 4.545454545454541
-    },
-    {
-      "symbol": "CPALL.BK",
-      "name": "CP ALL Public Company Limited",
-      "currency": "THB",
-      "price": 46,
-      "previousClose": 44,
-      "timestamp": 1793853944000,
+      "timestamp": 1793854170000,
       "percent": 4.545454545454541
     },
     {
@@ -487,17 +487,17 @@
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 761,
-    "missing": 101,
+    "eligible": 765,
+    "missing": 97,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-05",
-    "scheduledSlot": "2026-11-05T12:15[Asia/Bangkok]",
-    "updatedAt": 1793855750803
+    "scheduledSlot": "2026-11-05T12:25[Asia/Bangkok]",
+    "updatedAt": 1793856350829
   },
-  "todayGainersUpdatedAt": 1793855750803,
+  "todayGainersUpdatedAt": 1793856350829,
   "items": [
     {
       "symbol": "PJW.BK",
