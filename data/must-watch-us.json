@@ -125,10 +125,10 @@
       "symbol": "SDA",
       "name": "SunCar Technology Group Inc.",
       "currency": "USD",
-      "price": 0.4174,
+      "price": 0.4451,
       "previousClose": 0.1542,
-      "timestamp": 1793982957000,
-      "percent": 170.68741893644614
+      "timestamp": 1793983556000,
+      "percent": 188.65110246433204
     },
     {
       "symbol": "RDACU",
@@ -143,73 +143,73 @@
       "symbol": "GOGO",
       "name": "Gogo Inc.",
       "currency": "USD",
-      "price": 3.4413,
+      "price": 3.4601,
       "previousClose": 2.265,
-      "timestamp": 1793982946000,
-      "percent": 51.93377483443709
-    },
-    {
-      "symbol": "SKIN",
-      "name": "SkinHealth Systems Inc.",
-      "currency": "USD",
-      "price": 14.68,
-      "previousClose": 10.385,
-      "timestamp": 1793982898000,
-      "percent": 41.35772749157438
-    },
-    {
-      "symbol": "CIIT",
-      "name": "Tianci International, Inc.",
-      "currency": "USD",
-      "price": 2.185,
-      "previousClose": 1.55,
-      "timestamp": 1793982934000,
-      "percent": 40.96774193548387
-    },
-    {
-      "symbol": "CHSN",
-      "name": "Chanson International Holding",
-      "currency": "USD",
-      "price": 3.235,
-      "previousClose": 2.35,
-      "timestamp": 1793982933000,
-      "percent": 37.6595744680851
+      "timestamp": 1793983544000,
+      "percent": 52.763796909492264
     },
     {
       "symbol": "STAK",
       "name": "STAK Inc.",
       "currency": "USD",
-      "price": 2.45,
+      "price": 2.665,
       "previousClose": 1.79,
-      "timestamp": 1793982956000,
-      "percent": 36.87150837988828
+      "timestamp": 1793983557000,
+      "percent": 48.8826815642458
     },
     {
-      "symbol": "VIVK",
-      "name": "Vivakor, Inc.",
+      "symbol": "CIIT",
+      "name": "Tianci International, Inc.",
       "currency": "USD",
-      "price": 0.5015,
-      "previousClose": 0.37,
-      "timestamp": 1793982960000,
-      "percent": 35.54054054054052
+      "price": 2.2094,
+      "previousClose": 1.55,
+      "timestamp": 1793983532000,
+      "percent": 42.54193548387097
+    },
+    {
+      "symbol": "SKIN",
+      "name": "SkinHealth Systems Inc.",
+      "currency": "USD",
+      "price": 14.5999,
+      "previousClose": 10.385,
+      "timestamp": 1793983495000,
+      "percent": 40.58642272508426
+    },
+    {
+      "symbol": "CHSN",
+      "name": "Chanson International Holding",
+      "currency": "USD",
+      "price": 3.25,
+      "previousClose": 2.35,
+      "timestamp": 1793983535000,
+      "percent": 38.29787234042552
     },
     {
       "symbol": "INDI",
       "name": "indie Semiconductor, Inc.",
       "currency": "USD",
-      "price": 1.835,
+      "price": 1.85,
       "previousClose": 1.355,
-      "timestamp": 1793982948000,
-      "percent": 35.424354243542446
+      "timestamp": 1793983540000,
+      "percent": 36.531365313653154
     },
     {
       "symbol": "FROG",
       "name": "JFrog Ltd.",
       "currency": "USD",
-      "price": 100.885,
+      "price": 100.69,
       "previousClose": 74.62,
-      "timestamp": 1793982945000,
-      "percent": 35.198338247118734
+      "timestamp": 1793983533000,
+      "percent": 34.93701420530688
+    },
+    {
+      "symbol": "IBACR",
+      "name": "IB Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.1415,
+      "previousClose": 0.1075,
+      "timestamp": 1793912400000,
+      "percent": 31.62790697674418
     }
   ],
   "todayCandidates": [
@@ -217,10 +217,10 @@
       "symbol": "SDA",
       "name": "SunCar Technology Group Inc.",
       "currency": "USD",
-      "price": 0.4174,
+      "price": 0.4451,
       "previousClose": 0.1542,
-      "timestamp": 1793982957000,
-      "percent": 170.68741893644614
+      "timestamp": 1793983556000,
+      "percent": 188.65110246433204
     },
     {
       "symbol": "RDACU",
@@ -235,100 +235,64 @@
       "symbol": "GOGO",
       "name": "Gogo Inc.",
       "currency": "USD",
-      "price": 3.4413,
+      "price": 3.4601,
       "previousClose": 2.265,
-      "timestamp": 1793982946000,
-      "percent": 51.93377483443709
-    },
-    {
-      "symbol": "SKIN",
-      "name": "SkinHealth Systems Inc.",
-      "currency": "USD",
-      "price": 14.68,
-      "previousClose": 10.385,
-      "timestamp": 1793982898000,
-      "percent": 41.35772749157438
-    },
-    {
-      "symbol": "CIIT",
-      "name": "Tianci International, Inc.",
-      "currency": "USD",
-      "price": 2.185,
-      "previousClose": 1.55,
-      "timestamp": 1793982934000,
-      "percent": 40.96774193548387
-    },
-    {
-      "symbol": "CHSN",
-      "name": "Chanson International Holding",
-      "currency": "USD",
-      "price": 3.235,
-      "previousClose": 2.35,
-      "timestamp": 1793982933000,
-      "percent": 37.6595744680851
+      "timestamp": 1793983544000,
+      "percent": 52.763796909492264
     },
     {
       "symbol": "STAK",
       "name": "STAK Inc.",
       "currency": "USD",
-      "price": 2.45,
+      "price": 2.665,
       "previousClose": 1.79,
-      "timestamp": 1793982956000,
-      "percent": 36.87150837988828
+      "timestamp": 1793983557000,
+      "percent": 48.8826815642458
     },
     {
-      "symbol": "VIVK",
-      "name": "Vivakor, Inc.",
+      "symbol": "CIIT",
+      "name": "Tianci International, Inc.",
       "currency": "USD",
-      "price": 0.5015,
-      "previousClose": 0.37,
-      "timestamp": 1793982960000,
-      "percent": 35.54054054054052
+      "price": 2.2094,
+      "previousClose": 1.55,
+      "timestamp": 1793983532000,
+      "percent": 42.54193548387097
+    },
+    {
+      "symbol": "SKIN",
+      "name": "SkinHealth Systems Inc.",
+      "currency": "USD",
+      "price": 14.5999,
+      "previousClose": 10.385,
+      "timestamp": 1793983495000,
+      "percent": 40.58642272508426
+    },
+    {
+      "symbol": "CHSN",
+      "name": "Chanson International Holding",
+      "currency": "USD",
+      "price": 3.25,
+      "previousClose": 2.35,
+      "timestamp": 1793983535000,
+      "percent": 38.29787234042552
     },
     {
       "symbol": "INDI",
       "name": "indie Semiconductor, Inc.",
       "currency": "USD",
-      "price": 1.835,
+      "price": 1.85,
       "previousClose": 1.355,
-      "timestamp": 1793982948000,
-      "percent": 35.424354243542446
+      "timestamp": 1793983540000,
+      "percent": 36.531365313653154
     },
     {
       "symbol": "FROG",
       "name": "JFrog Ltd.",
       "currency": "USD",
-      "price": 100.885,
+      "price": 100.69,
       "previousClose": 74.62,
-      "timestamp": 1793982945000,
-      "percent": 35.198338247118734
-    },
-    {
-      "symbol": "HTCO",
-      "name": "High-Trend International Group",
-      "currency": "USD",
-      "price": 1.7902,
-      "previousClose": 1.34,
-      "timestamp": 1793982938000,
-      "percent": 33.597014925373124
-    },
-    {
-      "symbol": "SLQT",
-      "name": "SelectQuote, Inc.",
-      "currency": "USD",
-      "price": 0.516,
-      "previousClose": 0.3901,
-      "timestamp": 1793982905000,
-      "percent": 32.27377595488336
-    },
-    {
-      "symbol": "BLNK",
-      "name": "Blink Charging Co.",
-      "currency": "USD",
-      "price": 0.5394,
-      "previousClose": 0.4081,
-      "timestamp": 1793982930000,
-      "percent": 32.17348689046802
+      "timestamp": 1793983533000,
+      "percent": 34.93701420530688
     },
     {
       "symbol": "IBACR",
@@ -340,94 +304,130 @@
       "percent": 31.62790697674418
     },
     {
-      "symbol": "SERV",
-      "name": "Serve Robotics Inc.",
+      "symbol": "HTCO",
+      "name": "High-Trend International Group",
       "currency": "USD",
-      "price": 3.05,
-      "previousClose": 2.32,
-      "timestamp": 1793982950000,
-      "percent": 31.465517241379317
+      "price": 1.7607,
+      "previousClose": 1.34,
+      "timestamp": 1793983545000,
+      "percent": 31.395522388059693
     },
     {
       "symbol": "SNT",
       "name": "Senstar Technologies Corporation",
       "currency": "USD",
-      "price": 1.68,
+      "price": 1.6908,
       "previousClose": 1.29,
-      "timestamp": 1793982933000,
-      "percent": 30.23255813953487
+      "timestamp": 1793983547000,
+      "percent": 31.069767441860474
     },
     {
       "symbol": "CLNE",
       "name": "Clean Energy Fuels Corp.",
       "currency": "USD",
-      "price": 1.965,
+      "price": 1.975,
       "previousClose": 1.51,
-      "timestamp": 1793982941000,
-      "percent": 30.13245033112584
+      "timestamp": 1793983530000,
+      "percent": 30.79470198675498
+    },
+    {
+      "symbol": "SLQT",
+      "name": "SelectQuote, Inc.",
+      "currency": "USD",
+      "price": 0.5082,
+      "previousClose": 0.3901,
+      "timestamp": 1793983526000,
+      "percent": 30.274288643937442
+    },
+    {
+      "symbol": "BLNK",
+      "name": "Blink Charging Co.",
+      "currency": "USD",
+      "price": 0.5295,
+      "previousClose": 0.4081,
+      "timestamp": 1793983527000,
+      "percent": 29.747610879686338
+    },
+    {
+      "symbol": "SERV",
+      "name": "Serve Robotics Inc.",
+      "currency": "USD",
+      "price": 3.005,
+      "previousClose": 2.32,
+      "timestamp": 1793983548000,
+      "percent": 29.525862068965523
     },
     {
       "symbol": "ONCO",
       "name": "Onconetix, Inc.",
       "currency": "USD",
-      "price": 7.06,
+      "price": 7,
       "previousClose": 5.49,
-      "timestamp": 1793982952000,
-      "percent": 28.5974499089253
+      "timestamp": 1793983542000,
+      "percent": 27.504553734061933
     },
     {
-      "symbol": "RCT",
-      "name": "RedCloud Holdings plc",
+      "symbol": "VIVK",
+      "name": "Vivakor, Inc.",
       "currency": "USD",
-      "price": 0.0385,
-      "previousClose": 0.03,
-      "timestamp": 1793982949000,
-      "percent": 28.333333333333343
+      "price": 0.4715,
+      "previousClose": 0.37,
+      "timestamp": 1793983559000,
+      "percent": 27.432432432432428
     },
     {
       "symbol": "FLY",
       "name": "Firefly Aerospace Inc.",
       "currency": "USD",
-      "price": 19.37,
+      "price": 19.315,
       "previousClose": 15.175,
-      "timestamp": 1793982944000,
-      "percent": 27.64415156507414
-    },
-    {
-      "symbol": "HPAI",
-      "name": "Helport AI Limited",
-      "currency": "USD",
-      "price": 0.3621,
-      "previousClose": 0.2839,
-      "timestamp": 1793982897000,
-      "percent": 27.544910179640713
+      "timestamp": 1793983540000,
+      "percent": 27.281713344316305
     },
     {
       "symbol": "OBX",
       "name": "Obsidian Therapeutics, Inc.",
       "currency": "USD",
-      "price": 12.18,
+      "price": 12.2,
       "previousClose": 9.6,
-      "timestamp": 1793982885000,
-      "percent": 26.875000000000004
+      "timestamp": 1793983538000,
+      "percent": 27.083333333333325
+    },
+    {
+      "symbol": "HPAI",
+      "name": "Helport AI Limited",
+      "currency": "USD",
+      "price": 0.3602,
+      "previousClose": 0.2839,
+      "timestamp": 1793983514000,
+      "percent": 26.875660443818262
     },
     {
       "symbol": "LASR",
       "name": "nLIGHT, Inc.",
       "currency": "USD",
-      "price": 36.97,
+      "price": 37.14,
       "previousClose": 29.34,
-      "timestamp": 1793982932000,
-      "percent": 26.005453306066805
+      "timestamp": 1793983529000,
+      "percent": 26.584867075664633
     },
     {
       "symbol": "CDT",
       "name": "CDT Equity Inc.",
       "currency": "USD",
-      "price": 1.065,
+      "price": 1.07,
       "previousClose": 0.846,
-      "timestamp": 1793982931000,
-      "percent": 25.886524822695023
+      "timestamp": 1793983536000,
+      "percent": 26.47754137115841
+    },
+    {
+      "symbol": "KRMN",
+      "name": "Karman Holdings Inc.",
+      "currency": "USD",
+      "price": 40.555,
+      "previousClose": 32.09,
+      "timestamp": 1793983545000,
+      "percent": 26.378934247429097
     },
     {
       "symbol": "GIBO",
@@ -439,49 +439,49 @@
       "percent": 25.19039020177436
     },
     {
-      "symbol": "KRMN",
-      "name": "Karman Holdings Inc.",
+      "symbol": "RCT",
+      "name": "RedCloud Holdings plc",
       "currency": "USD",
-      "price": 40,
-      "previousClose": 32.09,
-      "timestamp": 1793982938000,
-      "percent": 24.649423496416322
-    },
-    {
-      "symbol": "KDK",
-      "name": "Kodiak AI, Inc.",
-      "currency": "USD",
-      "price": 1.1771,
-      "previousClose": 0.9511,
-      "timestamp": 1793982947000,
-      "percent": 23.761959835979397
-    },
-    {
-      "symbol": "EP",
-      "name": "Empire Petroleum Corporation",
-      "currency": "USD",
-      "price": 2.48,
-      "previousClose": 2.01,
-      "timestamp": 1793982246000,
-      "percent": 23.383084577114445
-    },
-    {
-      "symbol": "TMDX",
-      "name": "TransMedics Group, Inc.",
-      "currency": "USD",
-      "price": 84.69,
-      "previousClose": 68.98,
-      "timestamp": 1793982958000,
-      "percent": 22.774717309365023
+      "price": 0.0375,
+      "previousClose": 0.03,
+      "timestamp": 1793983549000,
+      "percent": 25
     },
     {
       "symbol": "THM",
       "name": "International Tower Hill Mines Ltd.",
       "currency": "USD",
-      "price": 1.485,
+      "price": 1.495,
       "previousClose": 1.21,
-      "timestamp": 1793982952000,
-      "percent": 22.72727272727273
+      "timestamp": 1793983545000,
+      "percent": 23.553719008264483
+    },
+    {
+      "symbol": "TMDX",
+      "name": "TransMedics Group, Inc.",
+      "currency": "USD",
+      "price": 85.205,
+      "previousClose": 68.98,
+      "timestamp": 1793983557000,
+      "percent": 23.521310524789783
+    },
+    {
+      "symbol": "KDK",
+      "name": "Kodiak AI, Inc.",
+      "currency": "USD",
+      "price": 1.1626,
+      "previousClose": 0.9511,
+      "timestamp": 1793983541000,
+      "percent": 22.237409315529398
+    },
+    {
+      "symbol": "EP",
+      "name": "Empire Petroleum Corporation",
+      "currency": "USD",
+      "price": 2.45,
+      "previousClose": 2.01,
+      "timestamp": 1793983390000,
+      "percent": 21.890547263681604
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-06T11:35[America/New_York]",
-    "updatedAt": 1793982963626
+    "scheduledSlot": "2026-11-06T11:45[America/New_York]",
+    "updatedAt": 1793983563275
   },
-  "todayGainersUpdatedAt": 1793982963626,
+  "todayGainersUpdatedAt": 1793983563275,
   "items": [
     {
       "symbol": "KSPI",
