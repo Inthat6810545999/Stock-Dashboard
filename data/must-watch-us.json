@@ -206,10 +206,10 @@
       "symbol": "KRMN",
       "name": "Karman Holdings Inc.",
       "currency": "USD",
-      "price": 45.66,
+      "price": 45.61,
       "previousClose": 32.09,
-      "timestamp": 1793998799000,
-      "percent": 42.28731692115921
+      "timestamp": 1793998802000,
+      "percent": 42.13150514178869
     }
   ],
   "todayCandidates": [
@@ -298,10 +298,10 @@
       "symbol": "KRMN",
       "name": "Karman Holdings Inc.",
       "currency": "USD",
-      "price": 45.66,
+      "price": 45.61,
       "previousClose": 32.09,
-      "timestamp": 1793998799000,
-      "percent": 42.28731692115921
+      "timestamp": 1793998802000,
+      "percent": 42.13150514178869
     },
     {
       "symbol": "RCT",
@@ -327,7 +327,7 @@
       "currency": "USD",
       "price": 175.35,
       "previousClose": 127.37,
-      "timestamp": 1793987179000,
+      "timestamp": 1793998800000,
       "percent": 37.66978095312867
     },
     {
@@ -397,10 +397,10 @@
       "symbol": "OPTU",
       "name": "Optimum Communications, Inc.",
       "currency": "USD",
-      "price": 0.7504,
+      "price": 0.7521,
       "previousClose": 0.5695,
-      "timestamp": 1793998799000,
-      "percent": 31.76470588235294
+      "timestamp": 1793998803000,
+      "percent": 32.0632133450395
     },
     {
       "symbol": "HPAI",
@@ -453,7 +453,7 @@
       "currency": "USD",
       "price": 2.185,
       "previousClose": 1.68,
-      "timestamp": 1793998755000,
+      "timestamp": 1793998800000,
       "percent": 30.059523809523814
     },
     {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-06T16:05[America/New_York]",
-    "updatedAt": 1793999159120
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-06T16:15[America/New_York]",
+    "updatedAt": 1793999762728
   },
-  "todayGainersUpdatedAt": 1793999159120,
+  "todayGainersUpdatedAt": 1793999762728,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
