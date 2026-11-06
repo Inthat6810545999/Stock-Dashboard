@@ -158,40 +158,13 @@
       "percent": 30.508474576271194
     },
     {
-      "symbol": "NCL.BK",
-      "name": "NCL International Logistics Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1793948978000,
-      "percent": 19.999999999999996
-    },
-    {
       "symbol": "TIGER.BK",
       "name": "Thai Enger Holding Public Company Limited",
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.45,
-      "timestamp": 1793949339000,
+      "timestamp": 1793949920000,
       "percent": 15.555555555555568
-    },
-    {
-      "symbol": "RWI.BK",
-      "name": "Rayong Wire Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.49,
-      "previousClose": 0.43,
-      "timestamp": 1793949307000,
-      "percent": 13.953488372093027
-    },
-    {
-      "symbol": "KGEN.BK",
-      "name": "King Gen Public Company Limited",
-      "currency": "THB",
-      "price": 1.82,
-      "previousClose": 1.6,
-      "timestamp": 1793949303000,
-      "percent": 13.749999999999996
     },
     {
       "symbol": "PLANET.BK",
@@ -203,13 +176,40 @@
       "percent": 13.636363636363647
     },
     {
+      "symbol": "KGEN.BK",
+      "name": "King Gen Public Company Limited",
+      "currency": "THB",
+      "price": 1.81,
+      "previousClose": 1.6,
+      "timestamp": 1793949941000,
+      "percent": 13.124999999999986
+    },
+    {
+      "symbol": "RWI.BK",
+      "name": "Rayong Wire Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.48,
+      "previousClose": 0.43,
+      "timestamp": 1793949947000,
+      "percent": 11.627906976744185
+    },
+    {
       "symbol": "EFORL.BK",
       "name": "E for L Aim Public Company Limited",
       "currency": "THB",
       "price": 0.1,
       "previousClose": 0.09,
-      "timestamp": 1793948384000,
+      "timestamp": 1793949752000,
       "percent": 11.111111111111116
+    },
+    {
+      "symbol": "BSM.BK",
+      "name": "BuilderSmart Public Company Limited",
+      "currency": "THB",
+      "price": 0.65,
+      "previousClose": 0.59,
+      "timestamp": 1793934633000,
+      "percent": 10.169491525423746
     }
   ],
   "todayCandidates": [
@@ -250,40 +250,13 @@
       "percent": 30.508474576271194
     },
     {
-      "symbol": "NCL.BK",
-      "name": "NCL International Logistics Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1793948978000,
-      "percent": 19.999999999999996
-    },
-    {
       "symbol": "TIGER.BK",
       "name": "Thai Enger Holding Public Company Limited",
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.45,
-      "timestamp": 1793949339000,
+      "timestamp": 1793949920000,
       "percent": 15.555555555555568
-    },
-    {
-      "symbol": "RWI.BK",
-      "name": "Rayong Wire Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.49,
-      "previousClose": 0.43,
-      "timestamp": 1793949307000,
-      "percent": 13.953488372093027
-    },
-    {
-      "symbol": "KGEN.BK",
-      "name": "King Gen Public Company Limited",
-      "currency": "THB",
-      "price": 1.82,
-      "previousClose": 1.6,
-      "timestamp": 1793949303000,
-      "percent": 13.749999999999996
     },
     {
       "symbol": "PLANET.BK",
@@ -295,12 +268,30 @@
       "percent": 13.636363636363647
     },
     {
+      "symbol": "KGEN.BK",
+      "name": "King Gen Public Company Limited",
+      "currency": "THB",
+      "price": 1.81,
+      "previousClose": 1.6,
+      "timestamp": 1793949941000,
+      "percent": 13.124999999999986
+    },
+    {
+      "symbol": "RWI.BK",
+      "name": "Rayong Wire Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.48,
+      "previousClose": 0.43,
+      "timestamp": 1793949947000,
+      "percent": 11.627906976744185
+    },
+    {
       "symbol": "EFORL.BK",
       "name": "E for L Aim Public Company Limited",
       "currency": "THB",
       "price": 0.1,
       "previousClose": 0.09,
-      "timestamp": 1793948384000,
+      "timestamp": 1793949752000,
       "percent": 11.111111111111116
     },
     {
@@ -318,8 +309,17 @@
       "currency": "THB",
       "price": 0.45,
       "previousClose": 0.41,
-      "timestamp": 1793948804000,
+      "timestamp": 1793949550000,
       "percent": 9.756097560975618
+    },
+    {
+      "symbol": "BGT.BK",
+      "name": "BGT Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.34,
+      "previousClose": 0.31,
+      "timestamp": 1793949914000,
+      "percent": 9.677419354838722
     },
     {
       "symbol": "SCM.BK",
@@ -327,7 +327,7 @@
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1793949341000,
+      "timestamp": 1793949607000,
       "percent": 8.333333333333348
     },
     {
@@ -338,15 +338,6 @@
       "previousClose": 0.41,
       "timestamp": 1793941889000,
       "percent": 7.317073170731714
-    },
-    {
-      "symbol": "DCON.BK",
-      "name": "Dcon Products Public Company Limited",
-      "currency": "THB",
-      "price": 0.15,
-      "previousClose": 0.14,
-      "timestamp": 1793948724000,
-      "percent": 7.14285714285714
     },
     {
       "symbol": "RS.BK",
@@ -372,7 +363,7 @@
       "currency": "THB",
       "price": 1.94,
       "previousClose": 1.82,
-      "timestamp": 1793949133000,
+      "timestamp": 1793949518000,
       "percent": 6.593406593406592
     },
     {
@@ -426,17 +417,8 @@
       "currency": "THB",
       "price": 0.2,
       "previousClose": 0.19,
-      "timestamp": 1793935519000,
+      "timestamp": 1793949673000,
       "percent": 5.263157894736836
-    },
-    {
-      "symbol": "ALT.BK",
-      "name": "ALT Telecom Public Company Limited",
-      "currency": "THB",
-      "price": 1.63,
-      "previousClose": 1.55,
-      "timestamp": 1793949174000,
-      "percent": 5.161290322580636
     },
     {
       "symbol": "TCJ.BK",
@@ -475,29 +457,47 @@
       "percent": 4.081632653061229
     },
     {
-      "symbol": "AKR.BK",
-      "name": "Ekarat Engineering Public Company Limited",
+      "symbol": "PIS.BK",
+      "name": "Pro Inside Public Company Limited",
       "currency": "THB",
-      "price": 1.04,
-      "previousClose": 1,
-      "timestamp": 1793949260000,
-      "percent": 4.0000000000000036
+      "price": 5.3,
+      "previousClose": 5.1,
+      "timestamp": 1793949690000,
+      "percent": 3.9215686274509887
+    },
+    {
+      "symbol": "ALT.BK",
+      "name": "ALT Telecom Public Company Limited",
+      "currency": "THB",
+      "price": 1.61,
+      "previousClose": 1.55,
+      "timestamp": 1793949947000,
+      "percent": 3.8709677419354938
+    },
+    {
+      "symbol": "GCAP.BK",
+      "name": "G Capital Public Company Limited",
+      "currency": "THB",
+      "price": 0.27,
+      "previousClose": 0.26,
+      "timestamp": 1793949620000,
+      "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 770,
-    "missing": 92,
+    "eligible": 776,
+    "missing": 86,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-06",
-    "scheduledSlot": "2026-11-06T14:45[Asia/Bangkok]",
-    "updatedAt": 1793951152723
+    "scheduledSlot": "2026-11-06T14:55[Asia/Bangkok]",
+    "updatedAt": 1793951753532
   },
-  "todayGainersUpdatedAt": 1793951152723,
+  "todayGainersUpdatedAt": 1793951753532,
   "items": [
     {
       "symbol": "PJW.BK",
