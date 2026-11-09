@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1794102962025
+    "updatedAt": 1794189980987
   },
-  "todayGainersUpdatedAt": 1794102962025,
+  "todayGainersUpdatedAt": 1794189980987,
   "items": [
     {
       "symbol": "PJW.BK",
@@ -562,11 +562,11 @@
       "currency": "THB",
       "price": 43.25,
       "pe": 2.078328,
-      "forwardPe": 3.9926147,
+      "forwardPe": 4.0106273,
       "salesGrowth": 0.459,
       "marketCap": 63273549824,
       "timestamp": 1793957755000,
-      "score": 11.49622576904303
+      "score": 11.44459371729704
     },
     {
       "symbol": "BBGI.BK",
@@ -575,10 +575,10 @@
       "price": 6.05,
       "pe": 9.453126,
       "forwardPe": 6.6483517,
-      "salesGrowth": 0.686,
+      "salesGrowth": 0.678,
       "marketCap": 8748300288,
       "timestamp": 1793957755000,
-      "score": 10.318347027278959
+      "score": 10.198016449701361
     },
     {
       "symbol": "SENA.BK",
@@ -708,11 +708,11 @@
       "currency": "THB",
       "price": 43.25,
       "pe": 2.078328,
-      "forwardPe": 3.9926147,
+      "forwardPe": 4.0106273,
       "salesGrowth": 0.459,
       "marketCap": 63273549824,
       "timestamp": 1793957755000,
-      "score": 11.49622576904303
+      "score": 11.44459371729704
     },
     {
       "symbol": "BBGI.BK",
@@ -721,10 +721,10 @@
       "price": 6.05,
       "pe": 9.453126,
       "forwardPe": 6.6483517,
-      "salesGrowth": 0.686,
+      "salesGrowth": 0.678,
       "marketCap": 8748300288,
       "timestamp": 1793957755000,
-      "score": 10.318347027278959
+      "score": 10.198016449701361
     },
     {
       "symbol": "SENA.BK",
@@ -741,7 +741,7 @@
   ],
   "checked": 862,
   "failed": 4,
-  "updatedAt": 1794102962026,
+  "updatedAt": 1794189980988,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
@@ -751,8 +751,8 @@
     "excluded": 252,
     "missing": 529,
     "failed": 4,
-    "startedAt": 1794102850540,
-    "directoryAt": 1794102850540,
+    "startedAt": 1794189858135,
+    "directoryAt": 1794189858135,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],

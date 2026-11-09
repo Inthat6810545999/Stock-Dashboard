@@ -114,9 +114,9 @@
   "priceScan": {
     "total": 5459,
     "processed": 5459,
-    "eligible": 4987,
+    "eligible": 4981,
     "excluded": 1,
-    "missing": 471,
+    "missing": 477,
     "failed": 0,
     "status": "complete"
   },
@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1794102842881
+    "updatedAt": 1794189849224
   },
-  "todayGainersUpdatedAt": 1794102842881,
+  "todayGainersUpdatedAt": 1794189849224,
   "items": [
     {
       "symbol": "KSPI",
@@ -610,11 +610,11 @@
       "currency": "USD",
       "price": 52.66,
       "pe": 10.386587,
-      "forwardPe": 5.92335,
-      "salesGrowth": 1.684,
+      "forwardPe": 5.9223237,
+      "salesGrowth": 1.725,
       "marketCap": 14043227136,
       "timestamp": 1793998803000,
-      "score": 28.429858103944557
+      "score": 29.127080642349895
     }
   ],
   "allSizes": [
@@ -710,7 +710,7 @@
       "pe": 2.3489585,
       "forwardPe": 2.4247313,
       "salesGrowth": 1.396,
-      "marketCap": 205752784,
+      "marketCap": 203913600,
       "timestamp": 1793998801000,
       "score": 57.57338967827074
     },
@@ -734,25 +734,25 @@
       "pe": 2.8999999,
       "forwardPe": 10.221165,
       "salesGrowth": 5.249,
-      "marketCap": 297452064,
+      "marketCap": 298222880,
       "timestamp": 1793998803000,
       "score": 51.354224298306505
     }
   ],
   "checked": 5459,
   "failed": 0,
-  "updatedAt": 1794102842890,
+  "updatedAt": 1794189849233,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5459,
     "processed": 5459,
     "eligible": 624,
-    "excluded": 3193,
-    "missing": 1642,
+    "excluded": 3174,
+    "missing": 1661,
     "failed": 0,
-    "startedAt": 1794102383121,
-    "directoryAt": 1794102383121,
+    "startedAt": 1794189335523,
+    "directoryAt": 1794189335523,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
