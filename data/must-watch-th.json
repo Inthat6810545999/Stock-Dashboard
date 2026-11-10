@@ -122,22 +122,22 @@
   },
   "todayGainers": [
     {
-      "symbol": "CIG.BK",
-      "name": "C.I. Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1794302855000,
-      "percent": 50
-    },
-    {
       "symbol": "GTV.BK",
       "name": "Green Tech Ventures Public Company Limited",
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1794302814000,
+      "timestamp": 1794303350000,
       "percent": 50
+    },
+    {
+      "symbol": "GEL.BK",
+      "name": "General Engineering Public Company Limited",
+      "currency": "THB",
+      "price": 0.04,
+      "previousClose": 0.03,
+      "timestamp": 1794303350000,
+      "percent": 33.33333333333335
     },
     {
       "symbol": "STOWER.BK",
@@ -152,10 +152,10 @@
       "symbol": "ACG.BK",
       "name": "Autocorp Holding Public Company Limited",
       "currency": "THB",
-      "price": 0.93,
+      "price": 0.94,
       "previousClose": 0.72,
-      "timestamp": 1794302714000,
-      "percent": 29.166666666666675
+      "timestamp": 1794303350000,
+      "percent": 30.555555555555557
     },
     {
       "symbol": "TFI.BK",
@@ -214,22 +214,22 @@
   ],
   "todayCandidates": [
     {
-      "symbol": "CIG.BK",
-      "name": "C.I. Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1794302855000,
-      "percent": 50
-    },
-    {
       "symbol": "GTV.BK",
       "name": "Green Tech Ventures Public Company Limited",
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1794302814000,
+      "timestamp": 1794303350000,
       "percent": 50
+    },
+    {
+      "symbol": "GEL.BK",
+      "name": "General Engineering Public Company Limited",
+      "currency": "THB",
+      "price": 0.04,
+      "previousClose": 0.03,
+      "timestamp": 1794303350000,
+      "percent": 33.33333333333335
     },
     {
       "symbol": "STOWER.BK",
@@ -244,10 +244,10 @@
       "symbol": "ACG.BK",
       "name": "Autocorp Holding Public Company Limited",
       "currency": "THB",
-      "price": 0.93,
+      "price": 0.94,
       "previousClose": 0.72,
-      "timestamp": 1794302714000,
-      "percent": 29.166666666666675
+      "timestamp": 1794303350000,
+      "percent": 30.555555555555557
     },
     {
       "symbol": "TFI.BK",
@@ -318,16 +318,16 @@
       "currency": "THB",
       "price": 0.94,
       "previousClose": 0.85,
-      "timestamp": 1794302967000,
+      "timestamp": 1794303350000,
       "percent": 10.588235294117654
     },
     {
-      "symbol": "BTC.BK",
-      "name": "The Brooker Group Public Company Limited",
+      "symbol": "EFORL.BK",
+      "name": "E for L Aim Public Company Limited",
       "currency": "THB",
-      "price": 0.22,
-      "previousClose": 0.2,
-      "timestamp": 1794302987000,
+      "price": 0.11,
+      "previousClose": 0.1,
+      "timestamp": 1794303350000,
       "percent": 9.999999999999986
     },
     {
@@ -336,8 +336,17 @@
       "currency": "THB",
       "price": 28.25,
       "previousClose": 25.75,
-      "timestamp": 1794302997000,
+      "timestamp": 1794303350000,
       "percent": 9.708737864077666
+    },
+    {
+      "symbol": "DOD.BK",
+      "name": "DOD Biotech Public Company Limited",
+      "currency": "THB",
+      "price": 0.68,
+      "previousClose": 0.62,
+      "timestamp": 1794303350000,
+      "percent": 9.677419354838722
     },
     {
       "symbol": "SR.BK",
@@ -399,7 +408,7 @@
       "currency": "THB",
       "price": 20,
       "previousClose": 18.5,
-      "timestamp": 1794302997000,
+      "timestamp": 1794303350000,
       "percent": 8.108108108108114
     },
     {
@@ -412,15 +421,6 @@
       "percent": 8.021390374331538
     },
     {
-      "symbol": "BSM.BK",
-      "name": "BuilderSmart Public Company Limited",
-      "currency": "THB",
-      "price": 0.56,
-      "previousClose": 0.52,
-      "timestamp": 1794283438000,
-      "percent": 7.692307692307709
-    },
-    {
       "symbol": "EMPIRE.BK",
       "name": "Origin Global Empire Public Company Limited",
       "currency": "THB",
@@ -430,12 +430,21 @@
       "percent": 7.692307692307709
     },
     {
+      "symbol": "MADAME.BK",
+      "name": "Madame Bioscience Public Company Limited",
+      "currency": "THB",
+      "price": 1.29,
+      "previousClose": 1.2,
+      "timestamp": 1794303350000,
+      "percent": 7.500000000000018
+    },
+    {
       "symbol": "MGC.BK",
       "name": "Millennium Group Corporation (Asia) Public Company Limited",
       "currency": "THB",
       "price": 6.5,
       "previousClose": 6.05,
-      "timestamp": 1794302985000,
+      "timestamp": 1794303350000,
       "percent": 7.438016528925617
     },
     {
@@ -446,6 +455,15 @@
       "previousClose": 4.84,
       "timestamp": 1794303350000,
       "percent": 7.438016528925617
+    },
+    {
+      "symbol": "ACC.BK",
+      "name": "Advanced Connection Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.29,
+      "previousClose": 0.27,
+      "timestamp": 1794303350000,
+      "percent": 7.407407407407396
     },
     {
       "symbol": "WIN.BK",
@@ -464,24 +482,6 @@
       "previousClose": 6.85,
       "timestamp": 1794303350000,
       "percent": 7.299270072992692
-    },
-    {
-      "symbol": "UPF.BK",
-      "name": "Union Pioneer Public Company Limited",
-      "currency": "THB",
-      "price": 23,
-      "previousClose": 21.5,
-      "timestamp": 1794295021000,
-      "percent": 6.976744186046502
-    },
-    {
-      "symbol": "ALPHAX.BK",
-      "name": "Alpha Divisions Public Company Limited",
-      "currency": "THB",
-      "price": 0.16,
-      "previousClose": 0.15,
-      "timestamp": 1794302963000,
-      "percent": 6.666666666666665
     }
   ],
   "todayScan": {
@@ -491,13 +491,14 @@
     "missing": 55,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full SET/mai universe",
+    "source": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
+    "closingConfirmation": true,
     "sessionDate": "2026-11-10",
-    "scheduledSlot": "2026-11-10T17:05[Asia/Bangkok]",
-    "updatedAt": 1794305154264
+    "scheduledSlot": "2026-11-10T17:15[Asia/Bangkok]",
+    "updatedAt": 1794305753948
   },
-  "todayGainersUpdatedAt": 1794305154264,
+  "todayGainersUpdatedAt": 1794305753948,
   "items": [
     {
       "symbol": "PJW.BK",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full SET/mai universe"
+  "todayGainersSource": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close"
 }
