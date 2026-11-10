@@ -190,7 +190,7 @@
       "currency": "THB",
       "price": 0.68,
       "previousClose": 0.57,
-      "timestamp": 1794296627000,
+      "timestamp": 1794297205000,
       "percent": 19.298245614035103
     },
     {
@@ -199,7 +199,7 @@
       "currency": "THB",
       "price": 0.4,
       "previousClose": 0.35,
-      "timestamp": 1794296664000,
+      "timestamp": 1794297066000,
       "percent": 14.285714285714302
     },
     {
@@ -282,7 +282,7 @@
       "currency": "THB",
       "price": 0.68,
       "previousClose": 0.57,
-      "timestamp": 1794296627000,
+      "timestamp": 1794297205000,
       "percent": 19.298245614035103
     },
     {
@@ -291,7 +291,7 @@
       "currency": "THB",
       "price": 0.4,
       "previousClose": 0.35,
-      "timestamp": 1794296664000,
+      "timestamp": 1794297066000,
       "percent": 14.285714285714302
     },
     {
@@ -304,6 +304,24 @@
       "percent": 13.157894736842103
     },
     {
+      "symbol": "RWI.BK",
+      "name": "Rayong Wire Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.53,
+      "previousClose": 0.47,
+      "timestamp": 1794296988000,
+      "percent": 12.765957446808528
+    },
+    {
+      "symbol": "CGD.BK",
+      "name": "Country Group Development Public Company Limited",
+      "currency": "THB",
+      "price": 0.1,
+      "previousClose": 0.09,
+      "timestamp": 1794297308000,
+      "percent": 11.111111111111116
+    },
+    {
       "symbol": "TGH.BK",
       "name": "Thai Group Holdings Public Company Limited",
       "currency": "THB",
@@ -313,31 +331,13 @@
       "percent": 10.89108910891088
     },
     {
-      "symbol": "RWI.BK",
-      "name": "Rayong Wire Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.52,
-      "previousClose": 0.47,
-      "timestamp": 1794296677000,
-      "percent": 10.63829787234043
-    },
-    {
       "symbol": "CIVIL.BK",
       "name": "Civil Engineering Public Company Limited",
       "currency": "THB",
       "price": 0.94,
       "previousClose": 0.85,
-      "timestamp": 1794296566000,
+      "timestamp": 1794297086000,
       "percent": 10.588235294117654
-    },
-    {
-      "symbol": "BTC.BK",
-      "name": "The Brooker Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.22,
-      "previousClose": 0.2,
-      "timestamp": 1794294245000,
-      "percent": 9.999999999999986
     },
     {
       "symbol": "HPT.BK",
@@ -345,8 +345,17 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.21,
-      "timestamp": 1794296740000,
+      "timestamp": 1794296841000,
       "percent": 9.523809523809534
+    },
+    {
+      "symbol": "SR.BK",
+      "name": "Siamraj Public Company Limited",
+      "currency": "THB",
+      "price": 0.47,
+      "previousClose": 0.43,
+      "timestamp": 1794297183000,
+      "percent": 9.302325581395344
     },
     {
       "symbol": "SCM.BK",
@@ -367,15 +376,6 @@
       "percent": 8.235294117647074
     },
     {
-      "symbol": "DOD.BK",
-      "name": "DOD Biotech Public Company Limited",
-      "currency": "THB",
-      "price": 0.67,
-      "previousClose": 0.62,
-      "timestamp": 1794288485000,
-      "percent": 8.064516129032274
-    },
-    {
       "symbol": "FTI.BK",
       "name": "Function International Public Company Limited",
       "currency": "THB",
@@ -383,6 +383,15 @@
       "previousClose": 1.87,
       "timestamp": 1794293941000,
       "percent": 8.021390374331538
+    },
+    {
+      "symbol": "AMATA.BK",
+      "name": "Amata Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 27.75,
+      "previousClose": 25.75,
+      "timestamp": 1794297331000,
+      "percent": 7.7669902912621325
     },
     {
       "symbol": "BSM.BK",
@@ -394,12 +403,21 @@
       "percent": 7.692307692307709
     },
     {
+      "symbol": "EMPIRE.BK",
+      "name": "Origin Global Empire Public Company Limited",
+      "currency": "THB",
+      "price": 0.14,
+      "previousClose": 0.13,
+      "timestamp": 1794297329000,
+      "percent": 7.692307692307709
+    },
+    {
       "symbol": "BA.BK",
       "name": "Bangkok Airways Public Company Limited",
       "currency": "THB",
       "price": 19.9,
       "previousClose": 18.5,
-      "timestamp": 1794296710000,
+      "timestamp": 1794297334000,
       "percent": 7.567567567567557
     },
     {
@@ -430,15 +448,6 @@
       "percent": 7.14285714285714
     },
     {
-      "symbol": "SR.BK",
-      "name": "Siamraj Public Company Limited",
-      "currency": "THB",
-      "price": 0.46,
-      "previousClose": 0.43,
-      "timestamp": 1794296529000,
-      "percent": 6.976744186046524
-    },
-    {
       "symbol": "UPF.BK",
       "name": "Union Pioneer Public Company Limited",
       "currency": "THB",
@@ -448,13 +457,22 @@
       "percent": 6.976744186046502
     },
     {
-      "symbol": "AMATA.BK",
-      "name": "Amata Corporation Public Company Limited",
+      "symbol": "DELTA.BK",
+      "name": "Delta Electronics (Thailand) Public Company Limited",
       "currency": "THB",
-      "price": 27.5,
-      "previousClose": 25.75,
-      "timestamp": 1794296707000,
-      "percent": 6.796116504854366
+      "price": 194.5,
+      "previousClose": 182,
+      "timestamp": 1794297336000,
+      "percent": 6.868131868131866
+    },
+    {
+      "symbol": "ALPHAX.BK",
+      "name": "Alpha Divisions Public Company Limited",
+      "currency": "THB",
+      "price": 0.16,
+      "previousClose": 0.15,
+      "timestamp": 1794297304000,
+      "percent": 6.666666666666665
     },
     {
       "symbol": "STPI.BK",
@@ -462,42 +480,24 @@
       "currency": "THB",
       "price": 5.6,
       "previousClose": 5.25,
-      "timestamp": 1794296700000,
+      "timestamp": 1794297341000,
       "percent": 6.666666666666665
-    },
-    {
-      "symbol": "MGC.BK",
-      "name": "Millennium Group Corporation (Asia) Public Company Limited",
-      "currency": "THB",
-      "price": 6.45,
-      "previousClose": 6.05,
-      "timestamp": 1794296679000,
-      "percent": 6.6115702479338845
-    },
-    {
-      "symbol": "FVC.BK",
-      "name": "Filter Vision Public Company Limited",
-      "currency": "THB",
-      "price": 0.33,
-      "previousClose": 0.31,
-      "timestamp": 1794296375000,
-      "percent": 6.451612903225823
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 797,
-    "missing": 65,
+    "eligible": 799,
+    "missing": 63,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-10",
-    "scheduledSlot": "2026-11-10T15:15[Asia/Bangkok]",
-    "updatedAt": 1794298545366
+    "scheduledSlot": "2026-11-10T15:25[Asia/Bangkok]",
+    "updatedAt": 1794299150558
   },
-  "todayGainersUpdatedAt": 1794298545366,
+  "todayGainersUpdatedAt": 1794299150558,
   "items": [
     {
       "symbol": "PJW.BK",
