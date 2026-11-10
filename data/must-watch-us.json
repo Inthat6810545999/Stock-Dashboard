@@ -122,195 +122,40 @@
   },
   "todayGainers": [
     {
-      "symbol": "OMH",
-      "name": "Ohmyhome Limited",
+      "symbol": "PEPG",
+      "name": "PepGen Inc.",
       "currency": "USD",
-      "price": 25.84,
-      "previousClose": 7.36,
-      "timestamp": 1794258000000,
-      "percent": 251.08695652173913
-    },
-    {
-      "symbol": "WCT",
-      "name": "Wellchange Holdings Company Limited",
-      "currency": "USD",
-      "price": 4.47,
-      "previousClose": 2.326,
-      "timestamp": 1794258000000,
-      "percent": 92.17540842648322
+      "price": 6.1701,
+      "previousClose": 2.39,
+      "timestamp": 1794321352000,
+      "percent": 158.16317991631797
     },
     {
       "symbol": "SMX",
       "name": "SMX (Security Matters) Public Limited Company",
       "currency": "USD",
-      "price": 9.35,
-      "previousClose": 4.928,
-      "timestamp": 1794258000000,
-      "percent": 89.73214285714286
+      "price": 16.35,
+      "previousClose": 9.35,
+      "timestamp": 1794321079000,
+      "percent": 74.86631016042784
     },
     {
-      "symbol": "AMPGZ",
-      "name": "AmpliTech Group, Inc.",
+      "symbol": "MI",
+      "name": "NFT Limited",
       "currency": "USD",
-      "price": 0.021,
-      "previousClose": 0.0119,
-      "timestamp": 1794258000000,
-      "percent": 76.47058823529412
+      "price": 0.3987,
+      "previousClose": 0.2435,
+      "timestamp": 1794321347000,
+      "percent": 63.737166324435314
     },
     {
-      "symbol": "TANH",
-      "name": "Tantech Holdings Ltd",
+      "symbol": "BYAH",
+      "name": "Park Ha Biological Technology Co., Ltd.",
       "currency": "USD",
-      "price": 19.34,
-      "previousClose": 11.67,
-      "timestamp": 1794258000000,
-      "percent": 65.72407883461868
-    },
-    {
-      "symbol": "CKX",
-      "name": "CKX Lands, Inc.",
-      "currency": "USD",
-      "price": 16.4,
-      "previousClose": 10.37,
-      "timestamp": 1794258000000,
-      "percent": 58.14850530376086
-    },
-    {
-      "symbol": "FISN",
-      "name": "Deep Fission, Inc.",
-      "currency": "USD",
-      "price": 2.83,
-      "previousClose": 1.85,
-      "timestamp": 1794258001000,
-      "percent": 52.97297297297297
-    },
-    {
-      "symbol": "AXINR",
-      "name": "Axiom Intelligence Acquisition Corp 1",
-      "currency": "USD",
-      "price": 0.14999,
-      "previousClose": 0.1002,
-      "timestamp": 1794258000000,
-      "percent": 49.69061876247507
-    },
-    {
-      "symbol": "XHLD",
-      "name": "TEN Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.87,
-      "previousClose": 0.582,
-      "timestamp": 1794258000000,
-      "percent": 49.48453608247423
-    },
-    {
-      "symbol": "TLS",
-      "name": "Telos Corporation",
-      "currency": "USD",
-      "price": 7.17,
-      "previousClose": 4.82,
-      "timestamp": 1794258000000,
-      "percent": 48.755186721991684
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "OMH",
-      "name": "Ohmyhome Limited",
-      "currency": "USD",
-      "price": 25.84,
-      "previousClose": 7.36,
-      "timestamp": 1794258000000,
-      "percent": 251.08695652173913
-    },
-    {
-      "symbol": "WCT",
-      "name": "Wellchange Holdings Company Limited",
-      "currency": "USD",
-      "price": 4.47,
-      "previousClose": 2.326,
-      "timestamp": 1794258000000,
-      "percent": 92.17540842648322
-    },
-    {
-      "symbol": "SMX",
-      "name": "SMX (Security Matters) Public Limited Company",
-      "currency": "USD",
-      "price": 9.35,
-      "previousClose": 4.928,
-      "timestamp": 1794258000000,
-      "percent": 89.73214285714286
-    },
-    {
-      "symbol": "AMPGZ",
-      "name": "AmpliTech Group, Inc.",
-      "currency": "USD",
-      "price": 0.021,
-      "previousClose": 0.0119,
-      "timestamp": 1794258000000,
-      "percent": 76.47058823529412
-    },
-    {
-      "symbol": "TANH",
-      "name": "Tantech Holdings Ltd",
-      "currency": "USD",
-      "price": 19.34,
-      "previousClose": 11.67,
-      "timestamp": 1794258000000,
-      "percent": 65.72407883461868
-    },
-    {
-      "symbol": "CKX",
-      "name": "CKX Lands, Inc.",
-      "currency": "USD",
-      "price": 16.4,
-      "previousClose": 10.37,
-      "timestamp": 1794258000000,
-      "percent": 58.14850530376086
-    },
-    {
-      "symbol": "FISN",
-      "name": "Deep Fission, Inc.",
-      "currency": "USD",
-      "price": 2.83,
-      "previousClose": 1.85,
-      "timestamp": 1794258001000,
-      "percent": 52.97297297297297
-    },
-    {
-      "symbol": "AXINR",
-      "name": "Axiom Intelligence Acquisition Corp 1",
-      "currency": "USD",
-      "price": 0.14999,
-      "previousClose": 0.1002,
-      "timestamp": 1794258000000,
-      "percent": 49.69061876247507
-    },
-    {
-      "symbol": "XHLD",
-      "name": "TEN Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.87,
-      "previousClose": 0.582,
-      "timestamp": 1794258000000,
-      "percent": 49.48453608247423
-    },
-    {
-      "symbol": "TLS",
-      "name": "Telos Corporation",
-      "currency": "USD",
-      "price": 7.17,
-      "previousClose": 4.82,
-      "timestamp": 1794258000000,
-      "percent": 48.755186721991684
-    },
-    {
-      "symbol": "TVRD",
-      "name": "Tvardi Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 1.41,
-      "previousClose": 0.952,
-      "timestamp": 1794258000000,
-      "percent": 48.109243697479
+      "price": 3.5,
+      "previousClose": 2.1802,
+      "timestamp": 1794321084000,
+      "percent": 60.53573066691129
     },
     {
       "symbol": "PCTTU",
@@ -322,13 +167,13 @@
       "percent": 46.557377049180324
     },
     {
-      "symbol": "NCPL",
-      "name": "Netcapital Inc.",
+      "symbol": "MNDO",
+      "name": "MIND C.T.I. Ltd",
       "currency": "USD",
-      "price": 1.82,
-      "previousClose": 1.26,
-      "timestamp": 1794258000000,
-      "percent": 44.44444444444444
+      "price": 1.265,
+      "previousClose": 0.87,
+      "timestamp": 1794321347000,
+      "percent": 45.402298850574695
     },
     {
       "symbol": "AFJKR",
@@ -340,161 +185,318 @@
       "percent": 40.000000000000014
     },
     {
-      "symbol": "CVKD",
-      "name": "Cadrenal Therapeutics, Inc.",
+      "symbol": "TTEC",
+      "name": "TTEC Holdings, Inc.",
       "currency": "USD",
-      "price": 1.37,
-      "previousClose": 0.98,
+      "price": 1.9106,
+      "previousClose": 1.395,
+      "timestamp": 1794321357000,
+      "percent": 36.96057347670252
+    },
+    {
+      "symbol": "SENS",
+      "name": "Senseonics Holdings, Inc.",
+      "currency": "USD",
+      "price": 13.1892,
+      "previousClose": 9.8,
+      "timestamp": 1794321348000,
+      "percent": 34.58367346938773
+    },
+    {
+      "symbol": "SECZ",
+      "name": "Securitize Corp.",
+      "currency": "USD",
+      "price": 9.36,
+      "previousClose": 6.97,
+      "timestamp": 1794321353000,
+      "percent": 34.28981348637015
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "PEPG",
+      "name": "PepGen Inc.",
+      "currency": "USD",
+      "price": 6.1701,
+      "previousClose": 2.39,
+      "timestamp": 1794321352000,
+      "percent": 158.16317991631797
+    },
+    {
+      "symbol": "SMX",
+      "name": "SMX (Security Matters) Public Limited Company",
+      "currency": "USD",
+      "price": 16.35,
+      "previousClose": 9.35,
+      "timestamp": 1794321079000,
+      "percent": 74.86631016042784
+    },
+    {
+      "symbol": "MI",
+      "name": "NFT Limited",
+      "currency": "USD",
+      "price": 0.3987,
+      "previousClose": 0.2435,
+      "timestamp": 1794321347000,
+      "percent": 63.737166324435314
+    },
+    {
+      "symbol": "BYAH",
+      "name": "Park Ha Biological Technology Co., Ltd.",
+      "currency": "USD",
+      "price": 3.5,
+      "previousClose": 2.1802,
+      "timestamp": 1794321084000,
+      "percent": 60.53573066691129
+    },
+    {
+      "symbol": "PCTTU",
+      "name": "PureCycle Technologies, Inc.",
+      "currency": "USD",
+      "price": 4.47,
+      "previousClose": 3.05,
       "timestamp": 1794258000000,
-      "percent": 39.79591836734695
+      "percent": 46.557377049180324
     },
     {
-      "symbol": "MODD",
-      "name": "Modular Medical, Inc.",
+      "symbol": "MNDO",
+      "name": "MIND C.T.I. Ltd",
       "currency": "USD",
-      "price": 1.85,
-      "previousClose": 1.33,
-      "timestamp": 1794258001000,
-      "percent": 39.097744360902254
+      "price": 1.265,
+      "previousClose": 0.87,
+      "timestamp": 1794321347000,
+      "percent": 45.402298850574695
     },
     {
-      "symbol": "MF",
-      "name": "MindForge Inc.",
+      "symbol": "AFJKR",
+      "name": "Aimei Health Technology Co., Ltd",
       "currency": "USD",
-      "price": 14.33,
-      "previousClose": 10.38,
+      "price": 0.14,
+      "previousClose": 0.1,
       "timestamp": 1794258000000,
-      "percent": 38.053949903660865
+      "percent": 40.000000000000014
     },
     {
-      "symbol": "GFR",
-      "name": "Greenfire Resources Ltd.",
+      "symbol": "TTEC",
+      "name": "TTEC Holdings, Inc.",
       "currency": "USD",
-      "price": 7.73,
-      "previousClose": 5.6,
-      "timestamp": 1794258002000,
-      "percent": 38.035714285714306
+      "price": 1.9106,
+      "previousClose": 1.395,
+      "timestamp": 1794321357000,
+      "percent": 36.96057347670252
+    },
+    {
+      "symbol": "SENS",
+      "name": "Senseonics Holdings, Inc.",
+      "currency": "USD",
+      "price": 13.1892,
+      "previousClose": 9.8,
+      "timestamp": 1794321348000,
+      "percent": 34.58367346938773
+    },
+    {
+      "symbol": "SECZ",
+      "name": "Securitize Corp.",
+      "currency": "USD",
+      "price": 9.36,
+      "previousClose": 6.97,
+      "timestamp": 1794321353000,
+      "percent": 34.28981348637015
+    },
+    {
+      "symbol": "SKYE",
+      "name": "Skye Bioscience, Inc.",
+      "currency": "USD",
+      "price": 0.91,
+      "previousClose": 0.69,
+      "timestamp": 1794321354000,
+      "percent": 31.8840579710145
+    },
+    {
+      "symbol": "PXLW",
+      "name": "Pixelworks, Inc.",
+      "currency": "USD",
+      "price": 6.64,
+      "previousClose": 5.215,
+      "timestamp": 1794321352000,
+      "percent": 27.32502396931926
+    },
+    {
+      "symbol": "CISS",
+      "name": "C3is Inc.",
+      "currency": "USD",
+      "price": 2.1594,
+      "previousClose": 1.75,
+      "timestamp": 1794321332000,
+      "percent": 23.394285714285722
     },
     {
       "symbol": "ESLA",
       "name": "Estrella Immunopharma, Inc.",
       "currency": "USD",
-      "price": 0.5139,
-      "previousClose": 0.3753,
+      "price": 0.6246,
+      "previousClose": 0.5139,
+      "timestamp": 1794321340000,
+      "percent": 21.541155866900176
+    },
+    {
+      "symbol": "AMIX",
+      "name": "Autonomix Medical, Inc.",
+      "currency": "USD",
+      "price": 2.04,
+      "previousClose": 1.7,
+      "timestamp": 1794321334000,
+      "percent": 19.999999999999996
+    },
+    {
+      "symbol": "ALISR",
+      "name": "Goodvision AI Holding Limited",
+      "currency": "USD",
+      "price": 0.72,
+      "previousClose": 0.6001,
+      "timestamp": 1794258000000,
+      "percent": 19.980003332777873
+    },
+    {
+      "symbol": "AQMS",
+      "name": "Aqua Metals, Inc.",
+      "currency": "USD",
+      "price": 1.5,
+      "previousClose": 1.255,
       "timestamp": 1794258001000,
-      "percent": 36.9304556354916
+      "percent": 19.521912350597614
     },
     {
-      "symbol": "DCTH",
-      "name": "Delcath Systems, Inc.",
+      "symbol": "PRPO",
+      "name": "Precipio, Inc.",
       "currency": "USD",
-      "price": 20.27,
-      "previousClose": 14.93,
+      "price": 22.2,
+      "previousClose": 18.62,
+      "timestamp": 1794258000000,
+      "percent": 19.226638023630493
+    },
+    {
+      "symbol": "HUMA",
+      "name": "Humacyte, Inc.",
+      "currency": "USD",
+      "price": 0.5418,
+      "previousClose": 0.4552,
+      "timestamp": 1794321344000,
+      "percent": 19.024604569420035
+    },
+    {
+      "symbol": "NXTC",
+      "name": "NextCure, Inc.",
+      "currency": "USD",
+      "price": 6.27,
+      "previousClose": 5.33,
+      "timestamp": 1794258000000,
+      "percent": 17.636022514071282
+    },
+    {
+      "symbol": "AAON",
+      "name": "AAON, Inc.",
+      "currency": "USD",
+      "price": 73.4085,
+      "previousClose": 62.87,
+      "timestamp": 1794321333000,
+      "percent": 16.762366788611427
+    },
+    {
+      "symbol": "AXINR",
+      "name": "Axiom Intelligence Acquisition Corp 1",
+      "currency": "USD",
+      "price": 0.175,
+      "previousClose": 0.14999,
+      "timestamp": 1794321001000,
+      "percent": 16.674444962997526
+    },
+    {
+      "symbol": "AXNX",
+      "name": "Axonex AI Group Limited",
+      "currency": "USD",
+      "price": 1.13,
+      "previousClose": 0.9694,
       "timestamp": 1794258001000,
-      "percent": 35.766912257200275
+      "percent": 16.566948628017307
     },
     {
-      "symbol": "FJET",
-      "name": "Starfighters Space, Inc.",
+      "symbol": "NOMA",
+      "name": "Nomadar Corp.",
       "currency": "USD",
-      "price": 1.09,
-      "previousClose": 0.8181,
+      "price": 1.28,
+      "previousClose": 1.0986,
+      "timestamp": 1794321328000,
+      "percent": 16.511924267249235
+    },
+    {
+      "symbol": "UPC",
+      "name": "Universe Pharmaceuticals INC",
+      "currency": "USD",
+      "price": 1.6,
+      "previousClose": 1.375,
       "timestamp": 1794258000000,
-      "percent": 33.2355457767999
+      "percent": 16.36363636363638
     },
     {
-      "symbol": "AKBA",
-      "name": "Akebia Therapeutics, Inc.",
+      "symbol": "ZIP",
+      "name": "ZipRecruiter, Inc.",
       "currency": "USD",
-      "price": 0.5328,
-      "previousClose": 0.4013,
-      "timestamp": 1794258001000,
-      "percent": 32.76850236730626
+      "price": 4.9411,
+      "previousClose": 4.295,
+      "timestamp": 1794321355000,
+      "percent": 15.043073341094292
     },
     {
-      "symbol": "GPUS",
-      "name": "Hyperscale Data, Inc.",
+      "symbol": "HROW",
+      "name": "Harrow, Inc.",
       "currency": "USD",
-      "price": 0.1895,
-      "previousClose": 0.1429,
-      "timestamp": 1794258000000,
-      "percent": 32.61021693491952
+      "price": 31.53,
+      "previousClose": 27.47,
+      "timestamp": 1794321340000,
+      "percent": 14.779759737895892
     },
     {
-      "symbol": "WOK",
-      "name": "WORK Medical Technology Group LTD",
+      "symbol": "MWG",
+      "name": "Multi Ways Holdings Limited",
       "currency": "USD",
-      "price": 1.25,
-      "previousClose": 0.9454,
-      "timestamp": 1794258000000,
-      "percent": 32.21916649037444
+      "price": 1.5458,
+      "previousClose": 1.35,
+      "timestamp": 1794251487000,
+      "percent": 14.503703703703707
     },
     {
-      "symbol": "UG",
-      "name": "United-Guardian, Inc.",
+      "symbol": "WFF",
+      "name": "WF Holding Limited",
       "currency": "USD",
-      "price": 8.85,
-      "previousClose": 6.71,
-      "timestamp": 1794258000000,
-      "percent": 31.892697466467943
+      "price": 1.235,
+      "previousClose": 1.08,
+      "timestamp": 1794321353000,
+      "percent": 14.35185185185186
     },
     {
-      "symbol": "IAM",
-      "name": "Iambic Therapeutics, Inc.",
+      "symbol": "RFAIR",
+      "name": "RF Acquisition Corp II",
       "currency": "USD",
-      "price": 13.38,
-      "previousClose": 10.17,
-      "timestamp": 1794258001000,
-      "percent": 31.563421828908567
-    },
-    {
-      "symbol": "INLF",
-      "name": "INLIF Limited",
-      "currency": "USD",
-      "price": 0.302,
-      "previousClose": 0.2303,
-      "timestamp": 1794258000000,
-      "percent": 31.133304385584015
-    },
-    {
-      "symbol": "IMC",
-      "name": "IMC Rare Earths Ltd",
-      "currency": "USD",
-      "price": 10.1,
-      "previousClose": 7.8,
-      "timestamp": 1794258000000,
-      "percent": 29.487179487179493
-    },
-    {
-      "symbol": "SNT",
-      "name": "Senstar Technologies Corporation",
-      "currency": "USD",
-      "price": 2.45,
-      "previousClose": 1.9,
-      "timestamp": 1794258000000,
-      "percent": 28.947368421052655
-    },
-    {
-      "symbol": "BDMD",
-      "name": "Baird Medical Investment Holdings Limited",
-      "currency": "USD",
-      "price": 0.1124,
-      "previousClose": 0.088,
-      "timestamp": 1794258000000,
-      "percent": 27.727272727272734
+      "price": 0.24,
+      "previousClose": 0.21,
+      "timestamp": 1794321129000,
+      "percent": 14.28571428571428
     }
   ],
   "todayScan": {
     "total": 5456,
     "processed": 5456,
-    "eligible": 5456,
-    "missing": 0,
+    "eligible": 5455,
+    "missing": 1,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1794284906012
+    "priceBasis": "regular-session price vs previous regular-session close",
+    "scheduledSlot": "2026-11-10T09:35[America/New_York]",
+    "updatedAt": 1794321360956
   },
-  "todayGainersUpdatedAt": 1794284906012,
+  "todayGainersUpdatedAt": 1794321360956,
   "items": [
     {
       "symbol": "KSPI",
@@ -758,5 +760,6 @@
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
     ],
     "status": "complete"
-  }
+  },
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
 }
