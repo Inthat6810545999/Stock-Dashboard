@@ -19,8 +19,8 @@
       "startPrice": 3.0999999046325684,
       "startTime": 1762743600000,
       "endTime": 1794279600000,
-      "price": 10.399999618530273,
-      "percent": 235.48386898298784
+      "price": 10.199999809265137,
+      "percent": 229.03226203402434
     },
     {
       "symbol": "KGEN.BK",
@@ -30,8 +30,8 @@
       "startPrice": 0.5799999833106995,
       "startTime": 1762743600000,
       "endTime": 1794279600000,
-      "price": 1.7799999713897705,
-      "percent": 206.89655562218258
+      "price": 1.8300000429153442,
+      "percent": 215.51725785740823
     },
     {
       "symbol": "INSET.BK",
@@ -41,8 +41,19 @@
       "startPrice": 1.5199999809265137,
       "startTime": 1762743600000,
       "endTime": 1794279600000,
-      "price": 4.579999923706055,
-      "percent": 201.31578823536054
+      "price": 4.739999771118164,
+      "percent": 211.84209411824497
+    },
+    {
+      "symbol": "TNDT.BK",
+      "name": "Thai Nondestructive Testing Public Company Limited",
+      "currency": "THB",
+      "timestamp": 1794279600000,
+      "startPrice": 0.10000000149011612,
+      "startTime": 1762743600000,
+      "endTime": 1794279600000,
+      "price": 0.3100000023841858,
+      "percent": 209.99999776482588
     },
     {
       "symbol": "TAE.BK",
@@ -52,8 +63,8 @@
       "startPrice": 0.5299999713897705,
       "startTime": 1762743600000,
       "endTime": 1794279600000,
-      "price": 1.590000033378601,
-      "percent": 200.00002249232
+      "price": 1.600000023841858,
+      "percent": 201.8868132476166
     },
     {
       "symbol": "CNT.BK",
@@ -63,8 +74,8 @@
       "startPrice": 1.0800000429153442,
       "startTime": 1762743600000,
       "endTime": 1794279600000,
-      "price": 3.119999885559082,
-      "percent": 188.88886681309543
+      "price": 3.180000066757202,
+      "percent": 194.44443892549606
     },
     {
       "symbol": "ML.BK",
@@ -78,26 +89,15 @@
       "percent": 178.57141716747873
     },
     {
-      "symbol": "TNDT.BK",
-      "name": "Thai Nondestructive Testing Public Company Limited",
+      "symbol": "GUNKUL.BK",
+      "name": "Gunkul Engineering Public Company Limited",
       "currency": "THB",
       "timestamp": 1794279600000,
-      "startPrice": 0.10000000149011612,
+      "startPrice": 1.8600000143051147,
       "startTime": 1762743600000,
       "endTime": 1794279600000,
-      "price": 0.27000001072883606,
-      "percent": 170.00000670552242
-    },
-    {
-      "symbol": "SPRC.BK",
-      "name": "Star Petroleum Refining Public Company Limited",
-      "currency": "THB",
-      "timestamp": 1794279600000,
-      "startPrice": 5.050000190734863,
-      "startTime": 1762743600000,
-      "endTime": 1794279600000,
-      "price": 13.5,
-      "percent": 167.32672257652953
+      "price": 5.050000190734863,
+      "percent": 171.50538451052185
     },
     {
       "symbol": "UMS.BK",
@@ -107,16 +107,16 @@
       "startPrice": 0.25999999046325684,
       "startTime": 1762743600000,
       "endTime": 1794279600000,
-      "price": 0.6899999976158142,
-      "percent": 165.38462420187082
+      "price": 0.699999988079071,
+      "percent": 169.23077452112253
     }
   ],
   "priceScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 851,
+    "eligible": 850,
     "excluded": 1,
-    "missing": 10,
+    "missing": 11,
     "failed": 0,
     "status": "complete"
   },
@@ -487,102 +487,122 @@
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 807,
-    "missing": 55,
+    "eligible": 858,
+    "missing": 4,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close",
-    "priceBasis": "regular-session price vs previous regular-session close",
-    "closingConfirmation": true,
-    "sessionDate": "2026-11-10",
-    "scheduledSlot": "2026-11-10T17:15[Asia/Bangkok]",
-    "updatedAt": 1794305753948
+    "source": "Yahoo Finance · full US exchange-listed universe",
+    "updatedAt": 1794363635193
   },
-  "todayGainersUpdatedAt": 1794305753948,
+  "todayGainersUpdatedAt": 1794363635193,
   "items": [
     {
       "symbol": "PJW.BK",
       "name": "Panjawattana Plastic Public Company Limited",
       "currency": "THB",
-      "price": 1.98,
-      "pe": 9,
-      "forwardPe": 0.18330142,
+      "price": 1.96,
+      "pe": 9.333334,
+      "forwardPe": 0.18144989,
       "salesGrowth": 0.216,
-      "marketCap": 1146685696,
-      "timestamp": 1794282622000,
-      "score": 117.83869432108055
+      "marketCap": 1135103104,
+      "timestamp": 1794303350000,
+      "score": 119.04113030875908
     },
     {
       "symbol": "SRICHA.BK",
       "name": "Sriracha Construction Public Company Limited",
       "currency": "THB",
-      "price": 17.4,
-      "pe": 3.1926606,
-      "forwardPe": 12.3404255,
+      "price": 17.5,
+      "pe": 3.1702898,
+      "forwardPe": 12.411347,
       "salesGrowth": 3.074,
-      "marketCap": 5391894528,
-      "timestamp": 1794282019000,
-      "score": 24.910000064422412
+      "marketCap": 5422882816,
+      "timestamp": 1794303350000,
+      "score": 24.767658176022312
+    },
+    {
+      "symbol": "ORN.BK",
+      "name": "Ornsirin Holding Public Company Limited",
+      "currency": "THB",
+      "price": 0.67,
+      "pe": 3.722222,
+      "forwardPe": 3.9411764,
+      "salesGrowth": 0.693,
+      "marketCap": 1005000000,
+      "timestamp": 1794302744000,
+      "score": 17.583582404482073
     },
     {
       "symbol": "MGC.BK",
       "name": "Millennium Group Corporation (Asia) Public Company Limited",
       "currency": "THB",
-      "price": 6.25,
-      "pe": 3.8343558,
-      "forwardPe": 4.844961,
+      "price": 6.5,
+      "pe": 3.6516855,
+      "forwardPe": 5.0387597,
       "salesGrowth": 0.829,
-      "marketCap": 6961249792,
-      "timestamp": 1794283108000,
-      "score": 17.110560848683818
+      "marketCap": 7239699456,
+      "timestamp": 1794303350000,
+      "score": 16.452461505556613
     },
     {
       "symbol": "ASAP.BK",
       "name": "Synergetic Auto Performance Public Company Limited",
       "currency": "THB",
-      "price": 1.86,
-      "pe": 23.25,
-      "forwardPe": 6.888889,
+      "price": 1.87,
+      "pe": 23.375,
+      "forwardPe": 6.9259257,
       "salesGrowth": 0.997,
-      "marketCap": 1350360064,
-      "timestamp": 1794280042000,
-      "score": 14.472580411732574
+      "marketCap": 1357619968,
+      "timestamp": 1794303350000,
+      "score": 14.395187635351041
     },
     {
       "symbol": "ASEFA.BK",
       "name": "Asefa Public Company Limited",
       "currency": "THB",
-      "price": 7.15,
-      "pe": 10.214286,
-      "forwardPe": 11.721312,
+      "price": 7.2,
+      "pe": 9.863013,
+      "forwardPe": 11.803278,
       "salesGrowth": 1.429,
-      "marketCap": 3769682432,
-      "timestamp": 1794283017000,
-      "score": 12.191467985836399
+      "marketCap": 3796043520,
+      "timestamp": 1794303350000,
+      "score": 12.106806261785922
     },
     {
       "symbol": "BCP.BK",
       "name": "Bangchak Corporation Public Company Limited",
       "currency": "THB",
-      "price": 44.5,
-      "pe": 2.1020312,
-      "forwardPe": 4.126541,
+      "price": 45,
+      "pe": 2.1146617,
+      "forwardPe": 4.172907,
       "salesGrowth": 0.459,
-      "marketCap": 65102266368,
-      "timestamp": 1794283111000,
-      "score": 11.12311740026332
+      "marketCap": 65833754624,
+      "timestamp": 1794303350000,
+      "score": 10.999526229556517
+    },
+    {
+      "symbol": "SNC.BK",
+      "name": "SNC Former Public Company Limited",
+      "currency": "THB",
+      "price": 7.35,
+      "pe": 6.6216216,
+      "forwardPe": 3.994565,
+      "salesGrowth": 0.434,
+      "marketCap": 2660893440,
+      "timestamp": 1794303350000,
+      "score": 10.864762496041495
     },
     {
       "symbol": "BBGI.BK",
       "name": "BBGI Public Company Limited",
       "currency": "THB",
-      "price": 5.95,
-      "pe": 9.596774,
-      "forwardPe": 6.538461,
+      "price": 5.9,
+      "pe": 9.21875,
+      "forwardPe": 6.483516,
       "salesGrowth": 0.678,
-      "marketCap": 8603700224,
-      "timestamp": 1794283106000,
-      "score": 10.369412618657512
+      "marketCap": 8531400192,
+      "timestamp": 1794303350000,
+      "score": 10.457288915458836
     },
     {
       "symbol": "SENA.BK",
@@ -593,32 +613,8 @@
       "forwardPe": 2.4285715,
       "salesGrowth": 0.203,
       "marketCap": 2164821248,
-      "timestamp": 1794283090000,
+      "timestamp": 1794303350000,
       "score": 8.358823283564021
-    },
-    {
-      "symbol": "RAM.BK",
-      "name": "Ramkhamhaeng Hospital Public Company Limited",
-      "currency": "THB",
-      "price": 16.9,
-      "pe": 7.316017,
-      "forwardPe": 14.759826,
-      "salesGrowth": 1.131,
-      "marketCap": 20280000512,
-      "timestamp": 1794281802000,
-      "score": 7.662691958563738
-    },
-    {
-      "symbol": "RATCH.BK",
-      "name": "Ratch Group Public Company Limited",
-      "currency": "THB",
-      "price": 36.75,
-      "pe": 14.411765,
-      "forwardPe": 11.343924,
-      "salesGrowth": 0.852,
-      "marketCap": 79931252736,
-      "timestamp": 1794283064000,
-      "score": 7.510628597300194
     }
   ],
   "allSizes": [
@@ -626,141 +622,140 @@
       "symbol": "PJW.BK",
       "name": "Panjawattana Plastic Public Company Limited",
       "currency": "THB",
-      "price": 1.98,
-      "pe": 9,
-      "forwardPe": 0.18330142,
+      "price": 1.96,
+      "pe": 9.333334,
+      "forwardPe": 0.18144989,
       "salesGrowth": 0.216,
-      "marketCap": 1146685696,
-      "timestamp": 1794282622000,
-      "score": 117.83869432108055
+      "marketCap": 1135103104,
+      "timestamp": 1794303350000,
+      "score": 119.04113030875908
     },
     {
       "symbol": "KOOL.BK",
       "name": "CL Venture Public Company Limited",
       "currency": "THB",
-      "price": 0.25,
-      "pe": 12.5,
-      "forwardPe": 0.6756757,
+      "price": 0.24,
+      "pe": 12,
+      "forwardPe": 0.6486486,
       "salesGrowth": 0.45,
-      "marketCap": 562499968,
-      "timestamp": 1794282808000,
-      "score": 66.5999976024001
+      "marketCap": 539999936,
+      "timestamp": 1794302253000,
+      "score": 69.37500520312538
     },
     {
       "symbol": "SRICHA.BK",
       "name": "Sriracha Construction Public Company Limited",
       "currency": "THB",
-      "price": 17.4,
-      "pe": 3.1926606,
-      "forwardPe": 12.3404255,
+      "price": 17.5,
+      "pe": 3.1702898,
+      "forwardPe": 12.411347,
       "salesGrowth": 3.074,
-      "marketCap": 5391894528,
-      "timestamp": 1794282019000,
-      "score": 24.910000064422412
+      "marketCap": 5422882816,
+      "timestamp": 1794303350000,
+      "score": 24.767658176022312
     },
     {
       "symbol": "ORN.BK",
       "name": "Ornsirin Holding Public Company Limited",
       "currency": "THB",
-      "price": 0.66,
-      "pe": 3.6666667,
-      "forwardPe": 3.882353,
+      "price": 0.67,
+      "pe": 3.722222,
+      "forwardPe": 3.9411764,
       "salesGrowth": 0.693,
-      "marketCap": 990000064,
-      "timestamp": 1794282723000,
-      "score": 17.849999729545456
+      "marketCap": 1005000000,
+      "timestamp": 1794302744000,
+      "score": 17.583582404482073
     },
     {
       "symbol": "MGC.BK",
       "name": "Millennium Group Corporation (Asia) Public Company Limited",
       "currency": "THB",
-      "price": 6.25,
-      "pe": 3.8343558,
-      "forwardPe": 4.844961,
+      "price": 6.5,
+      "pe": 3.6516855,
+      "forwardPe": 5.0387597,
       "salesGrowth": 0.829,
-      "marketCap": 6961249792,
-      "timestamp": 1794283108000,
-      "score": 17.110560848683818
+      "marketCap": 7239699456,
+      "timestamp": 1794303350000,
+      "score": 16.452461505556613
     },
     {
       "symbol": "ASAP.BK",
       "name": "Synergetic Auto Performance Public Company Limited",
       "currency": "THB",
-      "price": 1.86,
-      "pe": 23.25,
-      "forwardPe": 6.888889,
+      "price": 1.87,
+      "pe": 23.375,
+      "forwardPe": 6.9259257,
       "salesGrowth": 0.997,
-      "marketCap": 1350360064,
-      "timestamp": 1794280042000,
-      "score": 14.472580411732574
+      "marketCap": 1357619968,
+      "timestamp": 1794303350000,
+      "score": 14.395187635351041
     },
     {
       "symbol": "ASEFA.BK",
       "name": "Asefa Public Company Limited",
       "currency": "THB",
-      "price": 7.15,
-      "pe": 10.214286,
-      "forwardPe": 11.721312,
+      "price": 7.2,
+      "pe": 9.863013,
+      "forwardPe": 11.803278,
       "salesGrowth": 1.429,
-      "marketCap": 3769682432,
-      "timestamp": 1794283017000,
-      "score": 12.191467985836399
+      "marketCap": 3796043520,
+      "timestamp": 1794303350000,
+      "score": 12.106806261785922
     },
     {
       "symbol": "BCP.BK",
       "name": "Bangchak Corporation Public Company Limited",
       "currency": "THB",
-      "price": 44.5,
-      "pe": 2.1020312,
-      "forwardPe": 4.126541,
+      "price": 45,
+      "pe": 2.1146617,
+      "forwardPe": 4.172907,
       "salesGrowth": 0.459,
-      "marketCap": 65102266368,
-      "timestamp": 1794283111000,
-      "score": 11.12311740026332
+      "marketCap": 65833754624,
+      "timestamp": 1794303350000,
+      "score": 10.999526229556517
+    },
+    {
+      "symbol": "SNC.BK",
+      "name": "SNC Former Public Company Limited",
+      "currency": "THB",
+      "price": 7.35,
+      "pe": 6.6216216,
+      "forwardPe": 3.994565,
+      "salesGrowth": 0.434,
+      "marketCap": 2660893440,
+      "timestamp": 1794303350000,
+      "score": 10.864762496041495
     },
     {
       "symbol": "BBGI.BK",
       "name": "BBGI Public Company Limited",
       "currency": "THB",
-      "price": 5.95,
-      "pe": 9.596774,
-      "forwardPe": 6.538461,
+      "price": 5.9,
+      "pe": 9.21875,
+      "forwardPe": 6.483516,
       "salesGrowth": 0.678,
-      "marketCap": 8603700224,
-      "timestamp": 1794283106000,
-      "score": 10.369412618657512
-    },
-    {
-      "symbol": "SENA.BK",
-      "name": "Sena Development Public Company Limited",
-      "currency": "THB",
-      "price": 1.53,
-      "pe": 11.769231,
-      "forwardPe": 2.4285715,
-      "salesGrowth": 0.203,
-      "marketCap": 2164821248,
-      "timestamp": 1794283090000,
-      "score": 8.358823283564021
+      "marketCap": 8531400192,
+      "timestamp": 1794303350000,
+      "score": 10.457288915458836
     }
   ],
   "checked": 862,
   "failed": 4,
-  "updatedAt": 1794285050608,
+  "updatedAt": 1794363635194,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
     "total": 862,
     "processed": 862,
-    "eligible": 77,
-    "excluded": 253,
-    "missing": 528,
+    "eligible": 80,
+    "excluded": 252,
+    "missing": 526,
     "failed": 4,
-    "startedAt": 1794284915137,
-    "directoryAt": 1794284915137,
+    "startedAt": 1794363513311,
+    "directoryAt": 1794363513311,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
     "status": "complete"
-  },
-  "todayGainersSource": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close"
+  }
 }
