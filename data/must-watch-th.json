@@ -491,13 +491,14 @@
     "missing": 61,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full SET/mai universe",
+    "source": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
+    "closingConfirmation": true,
     "sessionDate": "2026-11-11",
-    "scheduledSlot": "2026-11-11T17:05[Asia/Bangkok]",
-    "updatedAt": 1794391549868
+    "scheduledSlot": "2026-11-11T17:15[Asia/Bangkok]",
+    "updatedAt": 1794392152875
   },
-  "todayGainersUpdatedAt": 1794391549868,
+  "todayGainersUpdatedAt": 1794392152875,
   "items": [
     {
       "symbol": "PJW.BK",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full SET/mai universe"
+  "todayGainersSource": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close"
 }
