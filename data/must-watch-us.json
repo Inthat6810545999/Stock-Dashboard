@@ -125,19 +125,19 @@
       "symbol": "NXXT",
       "name": "NextNRG, Inc.",
       "currency": "USD",
-      "price": 2.05,
+      "price": 2.51,
       "previousClose": 0.1865,
-      "timestamp": 1794418885000,
-      "percent": 999.195710455764
+      "timestamp": 1794419614000,
+      "percent": 1245.8445040214476
     },
     {
       "symbol": "SCKT",
       "name": "Socket Mobile, Inc.",
       "currency": "USD",
-      "price": 0.5117,
+      "price": 0.4523,
       "previousClose": 0.2511,
-      "timestamp": 1794419157000,
-      "percent": 103.78335324571886
+      "timestamp": 1794419768000,
+      "percent": 80.1274392672242
     },
     {
       "symbol": "APMCR",
@@ -149,67 +149,67 @@
       "percent": 62.17228464419473
     },
     {
+      "symbol": "SFWL",
+      "name": "Shengfeng Development Limited",
+      "currency": "USD",
+      "price": 5.5,
+      "previousClose": 3.475,
+      "timestamp": 1794419415000,
+      "percent": 58.273381294964025
+    },
+    {
       "symbol": "NCT",
       "name": "Intercont (Cayman) Limited",
       "currency": "USD",
-      "price": 0.6301,
+      "price": 0.6247,
       "previousClose": 0.4089,
-      "timestamp": 1794419147000,
-      "percent": 54.09635607728052
-    },
-    {
-      "symbol": "SHFS",
-      "name": "SHF Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.023,
-      "previousClose": 0.0159,
-      "timestamp": 1794419155000,
-      "percent": 44.654088050314456
+      "timestamp": 1794419759000,
+      "percent": 52.77573978967964
     },
     {
       "symbol": "CENN",
       "name": "Cenntro Inc.",
       "currency": "USD",
-      "price": 0.175,
+      "price": 0.1788,
       "previousClose": 0.1227,
-      "timestamp": 1794419140000,
-      "percent": 42.624286878565584
+      "timestamp": 1794419748000,
+      "percent": 45.721271393643015
     },
     {
-      "symbol": "SFWL",
-      "name": "Shengfeng Development Limited",
+      "symbol": "SHFS",
+      "name": "SHF Holdings, Inc.",
       "currency": "USD",
-      "price": 4.8001,
-      "previousClose": 3.475,
-      "timestamp": 1794419154000,
-      "percent": 38.13237410071941
-    },
-    {
-      "symbol": "CANG",
-      "name": "Cango Inc.",
-      "currency": "USD",
-      "price": 1.5646,
-      "previousClose": 1.14,
-      "timestamp": 1794419127000,
-      "percent": 37.245614035087726
-    },
-    {
-      "symbol": "ELOG",
-      "name": "Eastern International Ltd.",
-      "currency": "USD",
-      "price": 0.7968,
-      "previousClose": 0.5911,
-      "timestamp": 1794418911000,
-      "percent": 34.799526306885475
+      "price": 0.0226,
+      "previousClose": 0.0159,
+      "timestamp": 1794419766000,
+      "percent": 42.1383647798742
     },
     {
       "symbol": "RETO",
       "name": "ReTo Eco-Solutions, Inc.",
       "currency": "USD",
-      "price": 4.98,
+      "price": 5.1999,
       "previousClose": 3.73,
-      "timestamp": 1794419125000,
-      "percent": 33.51206434316356
+      "timestamp": 1794419760000,
+      "percent": 39.40750670241289
+    },
+    {
+      "symbol": "ELOG",
+      "name": "Eastern International Ltd.",
+      "currency": "USD",
+      "price": 0.82,
+      "previousClose": 0.5911,
+      "timestamp": 1794419475000,
+      "percent": 38.724412113009656
+    },
+    {
+      "symbol": "CANG",
+      "name": "Cango Inc.",
+      "currency": "USD",
+      "price": 1.53,
+      "previousClose": 1.14,
+      "timestamp": 1794419747000,
+      "percent": 34.210526315789494
     }
   ],
   "todayCandidates": [
@@ -217,19 +217,19 @@
       "symbol": "NXXT",
       "name": "NextNRG, Inc.",
       "currency": "USD",
-      "price": 2.05,
+      "price": 2.51,
       "previousClose": 0.1865,
-      "timestamp": 1794418885000,
-      "percent": 999.195710455764
+      "timestamp": 1794419614000,
+      "percent": 1245.8445040214476
     },
     {
       "symbol": "SCKT",
       "name": "Socket Mobile, Inc.",
       "currency": "USD",
-      "price": 0.5117,
+      "price": 0.4523,
       "previousClose": 0.2511,
-      "timestamp": 1794419157000,
-      "percent": 103.78335324571886
+      "timestamp": 1794419768000,
+      "percent": 80.1274392672242
     },
     {
       "symbol": "APMCR",
@@ -241,121 +241,130 @@
       "percent": 62.17228464419473
     },
     {
+      "symbol": "SFWL",
+      "name": "Shengfeng Development Limited",
+      "currency": "USD",
+      "price": 5.5,
+      "previousClose": 3.475,
+      "timestamp": 1794419415000,
+      "percent": 58.273381294964025
+    },
+    {
       "symbol": "NCT",
       "name": "Intercont (Cayman) Limited",
       "currency": "USD",
-      "price": 0.6301,
+      "price": 0.6247,
       "previousClose": 0.4089,
-      "timestamp": 1794419147000,
-      "percent": 54.09635607728052
-    },
-    {
-      "symbol": "SHFS",
-      "name": "SHF Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.023,
-      "previousClose": 0.0159,
-      "timestamp": 1794419155000,
-      "percent": 44.654088050314456
+      "timestamp": 1794419759000,
+      "percent": 52.77573978967964
     },
     {
       "symbol": "CENN",
       "name": "Cenntro Inc.",
       "currency": "USD",
-      "price": 0.175,
+      "price": 0.1788,
       "previousClose": 0.1227,
-      "timestamp": 1794419140000,
-      "percent": 42.624286878565584
+      "timestamp": 1794419748000,
+      "percent": 45.721271393643015
     },
     {
-      "symbol": "SFWL",
-      "name": "Shengfeng Development Limited",
+      "symbol": "SHFS",
+      "name": "SHF Holdings, Inc.",
       "currency": "USD",
-      "price": 4.8001,
-      "previousClose": 3.475,
-      "timestamp": 1794419154000,
-      "percent": 38.13237410071941
-    },
-    {
-      "symbol": "CANG",
-      "name": "Cango Inc.",
-      "currency": "USD",
-      "price": 1.5646,
-      "previousClose": 1.14,
-      "timestamp": 1794419127000,
-      "percent": 37.245614035087726
-    },
-    {
-      "symbol": "ELOG",
-      "name": "Eastern International Ltd.",
-      "currency": "USD",
-      "price": 0.7968,
-      "previousClose": 0.5911,
-      "timestamp": 1794418911000,
-      "percent": 34.799526306885475
+      "price": 0.0226,
+      "previousClose": 0.0159,
+      "timestamp": 1794419766000,
+      "percent": 42.1383647798742
     },
     {
       "symbol": "RETO",
       "name": "ReTo Eco-Solutions, Inc.",
       "currency": "USD",
-      "price": 4.98,
+      "price": 5.1999,
       "previousClose": 3.73,
-      "timestamp": 1794419125000,
-      "percent": 33.51206434316356
+      "timestamp": 1794419760000,
+      "percent": 39.40750670241289
     },
     {
-      "symbol": "BAER",
-      "name": "Bridger Aerospace Group Holdings, Inc.",
+      "symbol": "ELOG",
+      "name": "Eastern International Ltd.",
       "currency": "USD",
-      "price": 0.2586,
-      "previousClose": 0.1965,
-      "timestamp": 1794419101000,
-      "percent": 31.603053435114493
+      "price": 0.82,
+      "previousClose": 0.5911,
+      "timestamp": 1794419475000,
+      "percent": 38.724412113009656
     },
     {
-      "symbol": "BGS",
-      "name": "B&G Foods, Inc.",
+      "symbol": "CANG",
+      "name": "Cango Inc.",
       "currency": "USD",
-      "price": 3.445,
-      "previousClose": 2.66,
-      "timestamp": 1794419137000,
-      "percent": 29.51127819548871
+      "price": 1.53,
+      "previousClose": 1.14,
+      "timestamp": 1794419747000,
+      "percent": 34.210526315789494
     },
     {
       "symbol": "CRVO",
       "name": "CervoMed Inc.",
       "currency": "USD",
-      "price": 1.77,
+      "price": 1.799,
       "previousClose": 1.37,
-      "timestamp": 1794419133000,
-      "percent": 29.19708029197079
+      "timestamp": 1794419742000,
+      "percent": 31.313868613138673
     },
     {
       "symbol": "GEVO",
       "name": "Gevo, Inc.",
       "currency": "USD",
-      "price": 1.791,
+      "price": 1.8111,
       "previousClose": 1.39,
-      "timestamp": 1794419144000,
-      "percent": 28.848920863309345
+      "timestamp": 1794419750000,
+      "percent": 30.29496402877698
+    },
+    {
+      "symbol": "BGS",
+      "name": "B&G Foods, Inc.",
+      "currency": "USD",
+      "price": 3.465,
+      "previousClose": 2.66,
+      "timestamp": 1794419726000,
+      "percent": 30.263157894736835
+    },
+    {
+      "symbol": "BAER",
+      "name": "Bridger Aerospace Group Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.2542,
+      "previousClose": 0.1965,
+      "timestamp": 1794419746000,
+      "percent": 29.36386768447836
     },
     {
       "symbol": "BSEM",
       "name": "BioStem Technologies, Inc.",
       "currency": "USD",
-      "price": 1.34,
+      "price": 1.33,
       "previousClose": 1.04,
-      "timestamp": 1794419099000,
-      "percent": 28.846153846153854
+      "timestamp": 1794419743000,
+      "percent": 27.884615384615397
     },
     {
-      "symbol": "BURU",
-      "name": "Nuburu, Inc.",
+      "symbol": "NWTG",
+      "name": "Newton Golf Company, Inc.",
       "currency": "USD",
-      "price": 0.2585,
-      "previousClose": 0.2016,
-      "timestamp": 1794419135000,
-      "percent": 28.224206349206348
+      "price": 0.8802,
+      "previousClose": 0.69,
+      "timestamp": 1794419458000,
+      "percent": 27.56521739130435
+    },
+    {
+      "symbol": "DJT",
+      "name": "Trump Media & Technology Group Corp.",
+      "currency": "USD",
+      "price": 5.435,
+      "previousClose": 4.28,
+      "timestamp": 1794419750000,
+      "percent": 26.98598130841119
     },
     {
       "symbol": "TANH",
@@ -367,121 +376,112 @@
       "percent": 26.848821989528805
     },
     {
-      "symbol": "DJT",
-      "name": "Trump Media & Technology Group Corp.",
-      "currency": "USD",
-      "price": 5.4286,
-      "previousClose": 4.28,
-      "timestamp": 1794419141000,
-      "percent": 26.836448598130836
-    },
-    {
-      "symbol": "NWTG",
-      "name": "Newton Golf Company, Inc.",
-      "currency": "USD",
-      "price": 0.875,
-      "previousClose": 0.69,
-      "timestamp": 1794418318000,
-      "percent": 26.811594202898558
-    },
-    {
       "symbol": "FOSL",
       "name": "Fossil Group, Inc.",
       "currency": "USD",
-      "price": 9.96,
+      "price": 9.98,
       "previousClose": 7.87,
-      "timestamp": 1794419113000,
-      "percent": 26.55654383735706
+      "timestamp": 1794419715000,
+      "percent": 26.810673443456157
     },
     {
-      "symbol": "BGL",
-      "name": "Blue Gold Limited",
+      "symbol": "BURU",
+      "name": "Nuburu, Inc.",
       "currency": "USD",
-      "price": 0.1179,
-      "previousClose": 0.0933,
-      "timestamp": 1794419130000,
-      "percent": 26.36655948553055
+      "price": 0.2556,
+      "previousClose": 0.2016,
+      "timestamp": 1794419744000,
+      "percent": 26.785714285714278
     },
     {
       "symbol": "CRWV",
       "name": "CoreWeave, Inc.",
       "currency": "USD",
-      "price": 61.425,
+      "price": 61.617,
       "previousClose": 48.73,
-      "timestamp": 1794419141000,
-      "percent": 26.051713523496822
+      "timestamp": 1794419749000,
+      "percent": 26.445721321567817
     },
     {
       "symbol": "CPIX",
       "name": "Cumberland Pharmaceuticals Inc.",
       "currency": "USD",
-      "price": 6.66,
+      "price": 6.69,
       "previousClose": 5.3,
-      "timestamp": 1794419119000,
-      "percent": 25.66037735849058
+      "timestamp": 1794419667000,
+      "percent": 26.22641509433963
+    },
+    {
+      "symbol": "YMAT",
+      "name": "J-Star Holding Co., Ltd.",
+      "currency": "USD",
+      "price": 1.26,
+      "previousClose": 1,
+      "timestamp": 1794419771000,
+      "percent": 26
     },
     {
       "symbol": "MVST",
       "name": "Microvast Holdings, Inc.",
       "currency": "USD",
-      "price": 0.2743,
+      "price": 0.2764,
       "previousClose": 0.2202,
-      "timestamp": 1794419137000,
-      "percent": 24.568574023614875
+      "timestamp": 1794419741000,
+      "percent": 25.522252497729326
     },
     {
       "symbol": "AXTI",
       "name": "AXT, Inc.",
       "currency": "USD",
-      "price": 48.75,
+      "price": 48.83,
       "previousClose": 39.31,
-      "timestamp": 1794419138000,
-      "percent": 24.014245738997708
+      "timestamp": 1794419740000,
+      "percent": 24.21775629610785
     },
     {
       "symbol": "BDMD",
       "name": "Baird Medical Investment Holdings Limited",
       "currency": "USD",
-      "price": 0.12,
+      "price": 0.1199,
       "previousClose": 0.097,
-      "timestamp": 1794419138000,
-      "percent": 23.71134020618555
+      "timestamp": 1794419736000,
+      "percent": 23.608247422680417
     },
     {
-      "symbol": "KRMD",
-      "name": "KORU Medical Systems, Inc.",
+      "symbol": "VRXA",
+      "name": "Veraxa Biotech AG",
       "currency": "USD",
-      "price": 3.88,
-      "previousClose": 3.16,
-      "timestamp": 1794419113000,
-      "percent": 22.784810126582265
-    },
-    {
-      "symbol": "YARW",
-      "name": "Yarrow Bioscience, Inc.",
-      "currency": "USD",
-      "price": 18.97,
-      "previousClose": 15.48,
-      "timestamp": 1794418633000,
-      "percent": 22.545219638242877
+      "price": 1.32,
+      "previousClose": 1.07,
+      "timestamp": 1794419688000,
+      "percent": 23.364485981308402
     },
     {
       "symbol": "AIAI",
       "name": "AIAI Holdings Corporation",
       "currency": "USD",
-      "price": 1.16,
+      "price": 1.17,
       "previousClose": 0.95,
-      "timestamp": 1794419107000,
-      "percent": 22.10526315789474
+      "timestamp": 1794419719000,
+      "percent": 23.15789473684211
     },
     {
       "symbol": "ZDGE",
       "name": "Zedge, Inc.",
       "currency": "USD",
-      "price": 2.795,
+      "price": 2.8194,
       "previousClose": 2.29,
-      "timestamp": 1794419107000,
-      "percent": 22.052401746724893
+      "timestamp": 1794419716000,
+      "percent": 23.117903930131
+    },
+    {
+      "symbol": "KRMD",
+      "name": "KORU Medical Systems, Inc.",
+      "currency": "USD",
+      "price": 3.89,
+      "previousClose": 3.16,
+      "timestamp": 1794419369000,
+      "percent": 23.1012658227848
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-11T12:45[America/New_York]",
-    "updatedAt": 1794419163550
+    "scheduledSlot": "2026-11-11T12:55[America/New_York]",
+    "updatedAt": 1794419775944
   },
-  "todayGainersUpdatedAt": 1794419163550,
+  "todayGainersUpdatedAt": 1794419775944,
   "items": [
     {
       "symbol": "KSPI",
