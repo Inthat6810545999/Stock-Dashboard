@@ -163,7 +163,7 @@
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.41,
-      "timestamp": 1794383722000,
+      "timestamp": 1794384014000,
       "percent": 26.82926829268293
     },
     {
@@ -174,15 +174,6 @@
       "previousClose": 0.04,
       "timestamp": 1794380243000,
       "percent": 25
-    },
-    {
-      "symbol": "NCL.BK",
-      "name": "NCL International Logistics Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1794382074000,
-      "percent": 19.999999999999996
     },
     {
       "symbol": "PPS.BK",
@@ -206,10 +197,19 @@
       "symbol": "THG.BK",
       "name": "Thonburi Healthcare Group Public Company Limited",
       "currency": "THB",
-      "price": 7.6,
+      "price": 7.55,
       "previousClose": 6.8,
-      "timestamp": 1794383684000,
-      "percent": 11.764705882352944
+      "timestamp": 1794384289000,
+      "percent": 11.029411764705888
+    },
+    {
+      "symbol": "UBE.BK",
+      "name": "Ubon Bio Ethanol Public Company Limited",
+      "currency": "THB",
+      "price": 0.57,
+      "previousClose": 0.52,
+      "timestamp": 1794383752000,
+      "percent": 9.615384615384603
     }
   ],
   "todayCandidates": [
@@ -255,7 +255,7 @@
       "currency": "THB",
       "price": 0.52,
       "previousClose": 0.41,
-      "timestamp": 1794383722000,
+      "timestamp": 1794384014000,
       "percent": 26.82926829268293
     },
     {
@@ -266,15 +266,6 @@
       "previousClose": 0.04,
       "timestamp": 1794380243000,
       "percent": 25
-    },
-    {
-      "symbol": "NCL.BK",
-      "name": "NCL International Logistics Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1794382074000,
-      "percent": 19.999999999999996
     },
     {
       "symbol": "PPS.BK",
@@ -298,19 +289,19 @@
       "symbol": "THG.BK",
       "name": "Thonburi Healthcare Group Public Company Limited",
       "currency": "THB",
-      "price": 7.6,
+      "price": 7.55,
       "previousClose": 6.8,
-      "timestamp": 1794383684000,
-      "percent": 11.764705882352944
+      "timestamp": 1794384289000,
+      "percent": 11.029411764705888
     },
     {
-      "symbol": "GJS.BK",
-      "name": "G J Steel Public Company Limited",
+      "symbol": "UBE.BK",
+      "name": "Ubon Bio Ethanol Public Company Limited",
       "currency": "THB",
-      "price": 0.1,
-      "previousClose": 0.09,
-      "timestamp": 1794380243000,
-      "percent": 11.111111111111116
+      "price": 0.57,
+      "previousClose": 0.52,
+      "timestamp": 1794383752000,
+      "percent": 9.615384615384603
     },
     {
       "symbol": "AJA.BK",
@@ -318,7 +309,7 @@
       "currency": "THB",
       "price": 0.12,
       "previousClose": 0.11,
-      "timestamp": 1794380243000,
+      "timestamp": 1794383981000,
       "percent": 9.090909090909083
     },
     {
@@ -327,7 +318,7 @@
       "currency": "THB",
       "price": 0.85,
       "previousClose": 0.78,
-      "timestamp": 1794383660000,
+      "timestamp": 1794384284000,
       "percent": 8.974358974358964
     },
     {
@@ -336,7 +327,7 @@
       "currency": "THB",
       "price": 2.1,
       "previousClose": 1.93,
-      "timestamp": 1794383691000,
+      "timestamp": 1794383855000,
       "percent": 8.808290155440424
     },
     {
@@ -349,21 +340,21 @@
       "percent": 8.000000000000007
     },
     {
+      "symbol": "AMR.BK",
+      "name": "AMR Asia Public Company Limited",
+      "currency": "THB",
+      "price": 0.41,
+      "previousClose": 0.38,
+      "timestamp": 1794384137000,
+      "percent": 7.8947368421052655
+    },
+    {
       "symbol": "QTCG.BK",
       "name": "QTCG Public Company Limited",
       "currency": "THB",
       "price": 0.14,
       "previousClose": 0.13,
       "timestamp": 1794383219000,
-      "percent": 7.692307692307709
-    },
-    {
-      "symbol": "UBE.BK",
-      "name": "Ubon Bio Ethanol Public Company Limited",
-      "currency": "THB",
-      "price": 0.56,
-      "previousClose": 0.52,
-      "timestamp": 1794382441000,
       "percent": 7.692307692307709
     },
     {
@@ -399,7 +390,7 @@
       "currency": "THB",
       "price": 0.15,
       "previousClose": 0.14,
-      "timestamp": 1794374995000,
+      "timestamp": 1794383902000,
       "percent": 7.14285714285714
     },
     {
@@ -426,7 +417,7 @@
       "currency": "THB",
       "price": 5.4,
       "previousClose": 5.05,
-      "timestamp": 1794383633000,
+      "timestamp": 1794384297000,
       "percent": 6.930693069306937
     },
     {
@@ -453,7 +444,7 @@
       "currency": "THB",
       "price": 0.35,
       "previousClose": 0.33,
-      "timestamp": 1794382044000,
+      "timestamp": 1794384193000,
       "percent": 6.060606060606055
     },
     {
@@ -471,8 +462,17 @@
       "currency": "THB",
       "price": 0.72,
       "previousClose": 0.68,
-      "timestamp": 1794383731000,
+      "timestamp": 1794383867000,
       "percent": 5.88235294117645
+    },
+    {
+      "symbol": "S11.BK",
+      "name": "S 11 Group Public Company Limited",
+      "currency": "THB",
+      "price": 4.76,
+      "previousClose": 4.5,
+      "timestamp": 1794384289000,
+      "percent": 5.777777777777771
     },
     {
       "symbol": "BWG.BK",
@@ -480,7 +480,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.18,
-      "timestamp": 1794383369000,
+      "timestamp": 1794384293000,
       "percent": 5.555555555555558
     }
   ],
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-11",
-    "scheduledSlot": "2026-11-11T15:25[Asia/Bangkok]",
-    "updatedAt": 1794385550425
+    "scheduledSlot": "2026-11-11T15:35[Asia/Bangkok]",
+    "updatedAt": 1794386150976
   },
-  "todayGainersUpdatedAt": 1794385550425,
+  "todayGainersUpdatedAt": 1794386150976,
   "items": [
     {
       "symbol": "PJW.BK",
