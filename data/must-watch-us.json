@@ -122,58 +122,67 @@
   },
   "todayGainers": [
     {
+      "symbol": "GP",
+      "name": "GreenPower Motor Company Inc.",
+      "currency": "USD",
+      "price": 1.32,
+      "previousClose": 0.4482,
+      "timestamp": 1794504161000,
+      "percent": 194.51137884872827
+    },
+    {
       "symbol": "POAS",
       "name": "Phaos Technology Holdings (Caym",
       "currency": "USD",
-      "price": 2.34,
+      "price": 2.4301,
       "previousClose": 0.9007,
-      "timestamp": 1794503751000,
-      "percent": 159.79793493949154
+      "timestamp": 1794504360000,
+      "percent": 169.80126568224713
     },
     {
       "symbol": "PLCE",
       "name": "The Children's Place, Inc.",
       "currency": "USD",
-      "price": 0.5112,
+      "price": 0.528,
       "previousClose": 0.1985,
-      "timestamp": 1794503758000,
-      "percent": 157.5314861460957
-    },
-    {
-      "symbol": "GP",
-      "name": "GreenPower Motor Company Inc.",
-      "currency": "USD",
-      "price": 1.103,
-      "previousClose": 0.4482,
-      "timestamp": 1794503750000,
-      "percent": 146.09549308344486
+      "timestamp": 1794504360000,
+      "percent": 165.99496221662466
     },
     {
       "symbol": "AIMD",
       "name": "Ainos, Inc.",
       "currency": "USD",
-      "price": 1.0106,
+      "price": 1.1211,
       "previousClose": 0.4837,
-      "timestamp": 1794503741000,
-      "percent": 108.93115567500513
+      "timestamp": 1794504337000,
+      "percent": 131.77589414926607
     },
     {
       "symbol": "ICMB",
       "name": "Investcorp Credit Management BDC, Inc.",
       "currency": "USD",
-      "price": 1.045,
+      "price": 1.035,
       "previousClose": 0.6181,
-      "timestamp": 1794503742000,
-      "percent": 69.06649409480666
+      "timestamp": 1794504342000,
+      "percent": 67.44863290729654
     },
     {
       "symbol": "PARA",
       "name": "Parabolic Technologies, Inc.",
       "currency": "USD",
-      "price": 0.1072,
+      "price": 0.1041,
       "previousClose": 0.0718,
-      "timestamp": 1794503755000,
-      "percent": 49.303621169916426
+      "timestamp": 1794504359000,
+      "percent": 44.98607242339831
+    },
+    {
+      "symbol": "CENN",
+      "name": "Cenntro Inc.",
+      "currency": "USD",
+      "price": 0.205,
+      "previousClose": 0.1463,
+      "timestamp": 1794504342000,
+      "percent": 40.12303485987694
     },
     {
       "symbol": "AMPGZ",
@@ -185,132 +194,114 @@
       "percent": 39.0728476821192
     },
     {
-      "symbol": "CENN",
-      "name": "Cenntro Inc.",
-      "currency": "USD",
-      "price": 0.2024,
-      "previousClose": 0.1463,
-      "timestamp": 1794503741000,
-      "percent": 38.345864661654126
-    },
-    {
-      "symbol": "MERC",
-      "name": "Mercer International Inc.",
-      "currency": "USD",
-      "price": 0.3096,
-      "previousClose": 0.234,
-      "timestamp": 1794503751000,
-      "percent": 32.30769230769231
-    },
-    {
       "symbol": "TGEN",
       "name": "Tecogen Inc.",
       "currency": "USD",
-      "price": 2.249,
+      "price": 2.2499,
       "previousClose": 1.7,
-      "timestamp": 1794503758000,
-      "percent": 32.294117647058826
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
-      "currency": "USD",
-      "price": 2.34,
-      "previousClose": 0.9007,
-      "timestamp": 1794503751000,
-      "percent": 159.79793493949154
-    },
-    {
-      "symbol": "PLCE",
-      "name": "The Children's Place, Inc.",
-      "currency": "USD",
-      "price": 0.5112,
-      "previousClose": 0.1985,
-      "timestamp": 1794503758000,
-      "percent": 157.5314861460957
-    },
-    {
-      "symbol": "GP",
-      "name": "GreenPower Motor Company Inc.",
-      "currency": "USD",
-      "price": 1.103,
-      "previousClose": 0.4482,
-      "timestamp": 1794503750000,
-      "percent": 146.09549308344486
-    },
-    {
-      "symbol": "AIMD",
-      "name": "Ainos, Inc.",
-      "currency": "USD",
-      "price": 1.0106,
-      "previousClose": 0.4837,
-      "timestamp": 1794503741000,
-      "percent": 108.93115567500513
-    },
-    {
-      "symbol": "ICMB",
-      "name": "Investcorp Credit Management BDC, Inc.",
-      "currency": "USD",
-      "price": 1.045,
-      "previousClose": 0.6181,
-      "timestamp": 1794503742000,
-      "percent": 69.06649409480666
-    },
-    {
-      "symbol": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "currency": "USD",
-      "price": 0.1072,
-      "previousClose": 0.0718,
-      "timestamp": 1794503755000,
-      "percent": 49.303621169916426
-    },
-    {
-      "symbol": "AMPGZ",
-      "name": "AmpliTech Group, Inc.",
-      "currency": "USD",
-      "price": 0.021,
-      "previousClose": 0.0151,
-      "timestamp": 1794500641000,
-      "percent": 39.0728476821192
-    },
-    {
-      "symbol": "CENN",
-      "name": "Cenntro Inc.",
-      "currency": "USD",
-      "price": 0.2024,
-      "previousClose": 0.1463,
-      "timestamp": 1794503741000,
-      "percent": 38.345864661654126
-    },
-    {
-      "symbol": "MERC",
-      "name": "Mercer International Inc.",
-      "currency": "USD",
-      "price": 0.3096,
-      "previousClose": 0.234,
-      "timestamp": 1794503751000,
-      "percent": 32.30769230769231
-    },
-    {
-      "symbol": "TGEN",
-      "name": "Tecogen Inc.",
-      "currency": "USD",
-      "price": 2.249,
-      "previousClose": 1.7,
-      "timestamp": 1794503758000,
-      "percent": 32.294117647058826
+      "timestamp": 1794504362000,
+      "percent": 32.347058823529395
     },
     {
       "symbol": "XLAB",
       "name": "Exascale Labs Holdings Inc.",
       "currency": "USD",
-      "price": 1.3601,
+      "price": 1.37,
       "previousClose": 1.04,
-      "timestamp": 1794503762000,
-      "percent": 30.77884615384616
+      "timestamp": 1794504368000,
+      "percent": 31.73076923076923
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "GP",
+      "name": "GreenPower Motor Company Inc.",
+      "currency": "USD",
+      "price": 1.32,
+      "previousClose": 0.4482,
+      "timestamp": 1794504161000,
+      "percent": 194.51137884872827
+    },
+    {
+      "symbol": "POAS",
+      "name": "Phaos Technology Holdings (Caym",
+      "currency": "USD",
+      "price": 2.4301,
+      "previousClose": 0.9007,
+      "timestamp": 1794504360000,
+      "percent": 169.80126568224713
+    },
+    {
+      "symbol": "PLCE",
+      "name": "The Children's Place, Inc.",
+      "currency": "USD",
+      "price": 0.528,
+      "previousClose": 0.1985,
+      "timestamp": 1794504360000,
+      "percent": 165.99496221662466
+    },
+    {
+      "symbol": "AIMD",
+      "name": "Ainos, Inc.",
+      "currency": "USD",
+      "price": 1.1211,
+      "previousClose": 0.4837,
+      "timestamp": 1794504337000,
+      "percent": 131.77589414926607
+    },
+    {
+      "symbol": "ICMB",
+      "name": "Investcorp Credit Management BDC, Inc.",
+      "currency": "USD",
+      "price": 1.035,
+      "previousClose": 0.6181,
+      "timestamp": 1794504342000,
+      "percent": 67.44863290729654
+    },
+    {
+      "symbol": "PARA",
+      "name": "Parabolic Technologies, Inc.",
+      "currency": "USD",
+      "price": 0.1041,
+      "previousClose": 0.0718,
+      "timestamp": 1794504359000,
+      "percent": 44.98607242339831
+    },
+    {
+      "symbol": "CENN",
+      "name": "Cenntro Inc.",
+      "currency": "USD",
+      "price": 0.205,
+      "previousClose": 0.1463,
+      "timestamp": 1794504342000,
+      "percent": 40.12303485987694
+    },
+    {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.021,
+      "previousClose": 0.0151,
+      "timestamp": 1794500641000,
+      "percent": 39.0728476821192
+    },
+    {
+      "symbol": "TGEN",
+      "name": "Tecogen Inc.",
+      "currency": "USD",
+      "price": 2.2499,
+      "previousClose": 1.7,
+      "timestamp": 1794504362000,
+      "percent": 32.347058823529395
+    },
+    {
+      "symbol": "XLAB",
+      "name": "Exascale Labs Holdings Inc.",
+      "currency": "USD",
+      "price": 1.37,
+      "previousClose": 1.04,
+      "timestamp": 1794504368000,
+      "percent": 31.73076923076923
     },
     {
       "symbol": "SDHIR",
@@ -325,55 +316,82 @@
       "symbol": "ENGN",
       "name": "enGene Therapeutics Inc.",
       "currency": "USD",
-      "price": 2.285,
+      "price": 2.31,
       "previousClose": 1.8,
-      "timestamp": 1794503739000,
-      "percent": 26.94444444444446
+      "timestamp": 1794504343000,
+      "percent": 28.333333333333343
     },
     {
       "symbol": "OFAL",
       "name": "OFA Group",
       "currency": "USD",
-      "price": 2.74,
+      "price": 2.7699,
       "previousClose": 2.17,
-      "timestamp": 1794503742000,
-      "percent": 26.26728110599079
+      "timestamp": 1794504343000,
+      "percent": 27.645161290322573
     },
     {
-      "symbol": "DBGI",
-      "name": "Digital Brands Group, Inc.",
+      "symbol": "MERC",
+      "name": "Mercer International Inc.",
       "currency": "USD",
-      "price": 0.1842,
-      "previousClose": 0.1461,
-      "timestamp": 1794503739000,
-      "percent": 26.078028747433258
-    },
-    {
-      "symbol": "USEA",
-      "name": "United Maritime Corporation",
-      "currency": "USD",
-      "price": 3.04,
-      "previousClose": 2.46,
-      "timestamp": 1794503433000,
-      "percent": 23.57723577235773
+      "price": 0.2971,
+      "previousClose": 0.234,
+      "timestamp": 1794504353000,
+      "percent": 26.96581196581196
     },
     {
       "symbol": "CURI",
       "name": "CuriosityStream Inc.",
       "currency": "USD",
-      "price": 2.895,
+      "price": 2.9774,
       "previousClose": 2.37,
-      "timestamp": 1794503733000,
-      "percent": 22.151898734177202
+      "timestamp": 1794504339000,
+      "percent": 25.628691983122344
     },
     {
-      "symbol": "SOS",
-      "name": "SOS Limited",
+      "symbol": "DBGI",
+      "name": "Digital Brands Group, Inc.",
       "currency": "USD",
-      "price": 0.2201,
-      "previousClose": 0.1814,
-      "timestamp": 1794503738000,
-      "percent": 21.334068357221604
+      "price": 0.1819,
+      "previousClose": 0.1461,
+      "timestamp": 1794504325000,
+      "percent": 24.503764544832297
+    },
+    {
+      "symbol": "USEA",
+      "name": "United Maritime Corporation",
+      "currency": "USD",
+      "price": 3.06,
+      "previousClose": 2.46,
+      "timestamp": 1794504346000,
+      "percent": 24.390243902439025
+    },
+    {
+      "symbol": "BGIN",
+      "name": "Bgin Blockchain Limited",
+      "currency": "USD",
+      "price": 2.3,
+      "previousClose": 1.85,
+      "timestamp": 1794504299000,
+      "percent": 24.324324324324298
+    },
+    {
+      "symbol": "PLBL",
+      "name": "Polibeli Group Ltd",
+      "currency": "USD",
+      "price": 6.86,
+      "previousClose": 5.645,
+      "timestamp": 1794504359000,
+      "percent": 21.523472099202845
+    },
+    {
+      "symbol": "FRMI",
+      "name": "Fermi Inc.",
+      "currency": "USD",
+      "price": 2.195,
+      "previousClose": 1.81,
+      "timestamp": 1794504348000,
+      "percent": 21.27071823204418
     },
     {
       "symbol": "MFI",
@@ -385,85 +403,31 @@
       "percent": 20.967741935483875
     },
     {
-      "symbol": "TRAW",
-      "name": "Traws Pharma, Inc.",
+      "symbol": "SOS",
+      "name": "SOS Limited",
       "currency": "USD",
-      "price": 0.302,
-      "previousClose": 0.25,
-      "timestamp": 1794503750000,
-      "percent": 20.799999999999997
+      "price": 0.2188,
+      "previousClose": 0.1814,
+      "timestamp": 1794504163000,
+      "percent": 20.61742006615215
     },
     {
-      "symbol": "FRMI",
-      "name": "Fermi Inc.",
+      "symbol": "CRE",
+      "name": "Cre8 Enterprise Limited",
       "currency": "USD",
-      "price": 2.1809,
-      "previousClose": 1.81,
-      "timestamp": 1794503748000,
-      "percent": 20.49171270718231
-    },
-    {
-      "symbol": "PLBL",
-      "name": "Polibeli Group Ltd",
-      "currency": "USD",
-      "price": 6.7699,
-      "previousClose": 5.645,
-      "timestamp": 1794503672000,
-      "percent": 19.927369353410107
-    },
-    {
-      "symbol": "BGIN",
-      "name": "Bgin Blockchain Limited",
-      "currency": "USD",
-      "price": 2.21,
-      "previousClose": 1.85,
-      "timestamp": 1794503706000,
-      "percent": 19.45945945945946
-    },
-    {
-      "symbol": "RETO",
-      "name": "ReTo Eco-Solutions, Inc.",
-      "currency": "USD",
-      "price": 7.3497,
-      "previousClose": 6.19,
-      "timestamp": 1794503736000,
-      "percent": 18.73505654281098
-    },
-    {
-      "symbol": "WKSP",
-      "name": "Worksport Ltd.",
-      "currency": "USD",
-      "price": 0.3299,
-      "previousClose": 0.2779,
-      "timestamp": 1794503749000,
-      "percent": 18.711766822598076
+      "price": 3.0936,
+      "previousClose": 2.6,
+      "timestamp": 1794504225000,
+      "percent": 18.984615384615378
     },
     {
       "symbol": "CPIX",
       "name": "Cumberland Pharmaceuticals Inc.",
       "currency": "USD",
-      "price": 7.24,
+      "price": 7.275,
       "previousClose": 6.12,
-      "timestamp": 1794503707000,
-      "percent": 18.300653594771244
-    },
-    {
-      "symbol": "QTEX",
-      "name": "QTREX Quantum Ltd.",
-      "currency": "USD",
-      "price": 1.1601,
-      "previousClose": 0.9825,
-      "timestamp": 1794503741000,
-      "percent": 18.07633587786257
-    },
-    {
-      "symbol": "TGHL",
-      "name": "The Growhub Limited",
-      "currency": "USD",
-      "price": 0.4701,
-      "previousClose": 0.3983,
-      "timestamp": 1794503512000,
-      "percent": 18.02661310569924
+      "timestamp": 1794504168000,
+      "percent": 18.872549019607842
     },
     {
       "symbol": "NUAI",
@@ -471,17 +435,53 @@
       "currency": "USD",
       "price": 2.735,
       "previousClose": 2.33,
-      "timestamp": 1794503751000,
+      "timestamp": 1794504349000,
       "percent": 17.381974248927023
+    },
+    {
+      "symbol": "TGHL",
+      "name": "The Growhub Limited",
+      "currency": "USD",
+      "price": 0.4673,
+      "previousClose": 0.3983,
+      "timestamp": 1794504234000,
+      "percent": 17.323625407983933
+    },
+    {
+      "symbol": "RETO",
+      "name": "ReTo Eco-Solutions, Inc.",
+      "currency": "USD",
+      "price": 7.25,
+      "previousClose": 6.19,
+      "timestamp": 1794504326000,
+      "percent": 17.124394184168
+    },
+    {
+      "symbol": "WKSP",
+      "name": "Worksport Ltd.",
+      "currency": "USD",
+      "price": 0.3254,
+      "previousClose": 0.2779,
+      "timestamp": 1794504368000,
+      "percent": 17.092479309104004
     },
     {
       "symbol": "AGBK",
       "name": "Agi Inc.",
       "currency": "USD",
-      "price": 6.29,
+      "price": 6.3,
       "previousClose": 5.39,
-      "timestamp": 1794503713000,
-      "percent": 16.69758812615956
+      "timestamp": 1794504217000,
+      "percent": 16.883116883116877
+    },
+    {
+      "symbol": "AVEX",
+      "name": "AEVEX Corp.",
+      "currency": "USD",
+      "price": 14.1322,
+      "previousClose": 12.13,
+      "timestamp": 1794504338000,
+      "percent": 16.506183017312438
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-12T12:15[America/New_York]",
-    "updatedAt": 1794503766792
+    "scheduledSlot": "2026-11-12T12:25[America/New_York]",
+    "updatedAt": 1794504371875
   },
-  "todayGainersUpdatedAt": 1794503766792,
+  "todayGainersUpdatedAt": 1794504371875,
   "items": [
     {
       "symbol": "KSPI",
