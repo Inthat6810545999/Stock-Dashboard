@@ -122,58 +122,67 @@
   },
   "todayGainers": [
     {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
-      "currency": "USD",
-      "price": 3.78,
-      "previousClose": 0.9007,
-      "timestamp": 1794496511000,
-      "percent": 319.6735872099478
-    },
-    {
       "symbol": "PLCE",
       "name": "The Children's Place, Inc.",
       "currency": "USD",
-      "price": 0.7888,
+      "price": 0.7599,
       "previousClose": 0.1985,
-      "timestamp": 1794496557000,
-      "percent": 297.38035264483625
+      "timestamp": 1794497149000,
+      "percent": 282.82115869017633
+    },
+    {
+      "symbol": "POAS",
+      "name": "Phaos Technology Holdings (Caym",
+      "currency": "USD",
+      "price": 3.44,
+      "previousClose": 0.9007,
+      "timestamp": 1794497149000,
+      "percent": 281.9251693127568
     },
     {
       "symbol": "AIMD",
       "name": "Ainos, Inc.",
       "currency": "USD",
-      "price": 1.08,
+      "price": 1.5,
       "previousClose": 0.4837,
-      "timestamp": 1794496522000,
-      "percent": 123.27889187512922
+      "timestamp": 1794497131000,
+      "percent": 210.10957204879057
+    },
+    {
+      "symbol": "RETO",
+      "name": "ReTo Eco-Solutions, Inc.",
+      "currency": "USD",
+      "price": 9.36,
+      "previousClose": 6.19,
+      "timestamp": 1794497151000,
+      "percent": 51.21163166397413
     },
     {
       "symbol": "ICMB",
       "name": "Investcorp Credit Management BDC, Inc.",
       "currency": "USD",
-      "price": 0.951,
+      "price": 0.9251,
       "previousClose": 0.6181,
-      "timestamp": 1794496546000,
-      "percent": 53.858598932211606
-    },
-    {
-      "symbol": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "currency": "USD",
-      "price": 0.1091,
-      "previousClose": 0.0718,
-      "timestamp": 1794496556000,
-      "percent": 51.94986072423398
+      "timestamp": 1794497142000,
+      "percent": 49.66833845656045
     },
     {
       "symbol": "CENN",
       "name": "Cenntro Inc.",
       "currency": "USD",
-      "price": 0.2055,
+      "price": 0.2101,
       "previousClose": 0.1463,
-      "timestamp": 1794496544000,
-      "percent": 40.46479835953518
+      "timestamp": 1794497135000,
+      "percent": 43.60902255639096
+    },
+    {
+      "symbol": "PARA",
+      "name": "Parabolic Technologies, Inc.",
+      "currency": "USD",
+      "price": 0.1011,
+      "previousClose": 0.0718,
+      "timestamp": 1794497148000,
+      "percent": 40.80779944289692
     },
     {
       "symbol": "AMPGZ",
@@ -185,24 +194,6 @@
       "percent": 39.0728476821192
     },
     {
-      "symbol": "RETO",
-      "name": "ReTo Eco-Solutions, Inc.",
-      "currency": "USD",
-      "price": 8.55,
-      "previousClose": 6.19,
-      "timestamp": 1794496256000,
-      "percent": 38.126009693053305
-    },
-    {
-      "symbol": "OFAL",
-      "name": "OFA Group",
-      "currency": "USD",
-      "price": 2.9396,
-      "previousClose": 2.17,
-      "timestamp": 1794496552000,
-      "percent": 35.46543778801843
-    },
-    {
       "symbol": "SDHIR",
       "name": "Siddhi Acquisition Corp.",
       "currency": "USD",
@@ -210,206 +201,197 @@
       "previousClose": 0.1,
       "timestamp": 1794493904000,
       "percent": 30.000000000000004
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
-      "currency": "USD",
-      "price": 3.78,
-      "previousClose": 0.9007,
-      "timestamp": 1794496511000,
-      "percent": 319.6735872099478
-    },
-    {
-      "symbol": "PLCE",
-      "name": "The Children's Place, Inc.",
-      "currency": "USD",
-      "price": 0.7888,
-      "previousClose": 0.1985,
-      "timestamp": 1794496557000,
-      "percent": 297.38035264483625
-    },
-    {
-      "symbol": "AIMD",
-      "name": "Ainos, Inc.",
-      "currency": "USD",
-      "price": 1.08,
-      "previousClose": 0.4837,
-      "timestamp": 1794496522000,
-      "percent": 123.27889187512922
-    },
-    {
-      "symbol": "ICMB",
-      "name": "Investcorp Credit Management BDC, Inc.",
-      "currency": "USD",
-      "price": 0.951,
-      "previousClose": 0.6181,
-      "timestamp": 1794496546000,
-      "percent": 53.858598932211606
-    },
-    {
-      "symbol": "PARA",
-      "name": "Parabolic Technologies, Inc.",
-      "currency": "USD",
-      "price": 0.1091,
-      "previousClose": 0.0718,
-      "timestamp": 1794496556000,
-      "percent": 51.94986072423398
-    },
-    {
-      "symbol": "CENN",
-      "name": "Cenntro Inc.",
-      "currency": "USD",
-      "price": 0.2055,
-      "previousClose": 0.1463,
-      "timestamp": 1794496544000,
-      "percent": 40.46479835953518
-    },
-    {
-      "symbol": "AMPGZ",
-      "name": "AmpliTech Group, Inc.",
-      "currency": "USD",
-      "price": 0.021,
-      "previousClose": 0.0151,
-      "timestamp": 1794496382000,
-      "percent": 39.0728476821192
-    },
-    {
-      "symbol": "RETO",
-      "name": "ReTo Eco-Solutions, Inc.",
-      "currency": "USD",
-      "price": 8.55,
-      "previousClose": 6.19,
-      "timestamp": 1794496256000,
-      "percent": 38.126009693053305
-    },
-    {
-      "symbol": "OFAL",
-      "name": "OFA Group",
-      "currency": "USD",
-      "price": 2.9396,
-      "previousClose": 2.17,
-      "timestamp": 1794496552000,
-      "percent": 35.46543778801843
-    },
-    {
-      "symbol": "SDHIR",
-      "name": "Siddhi Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.13,
-      "previousClose": 0.1,
-      "timestamp": 1794493904000,
-      "percent": 30.000000000000004
-    },
-    {
-      "symbol": "CURI",
-      "name": "CuriosityStream Inc.",
-      "currency": "USD",
-      "price": 3.05,
-      "previousClose": 2.37,
-      "timestamp": 1794496545000,
-      "percent": 28.691983122362853
-    },
-    {
-      "symbol": "TGHL",
-      "name": "The Growhub Limited",
-      "currency": "USD",
-      "price": 0.51,
-      "previousClose": 0.3983,
-      "timestamp": 1794496523000,
-      "percent": 28.044187798142104
     },
     {
       "symbol": "DBGI",
       "name": "Digital Brands Group, Inc.",
       "currency": "USD",
-      "price": 0.1861,
+      "price": 0.1864,
       "previousClose": 0.1461,
-      "timestamp": 1794496535000,
-      "percent": 27.37850787132099
+      "timestamp": 1794497136000,
+      "percent": 27.58384668035592
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "PLCE",
+      "name": "The Children's Place, Inc.",
+      "currency": "USD",
+      "price": 0.7599,
+      "previousClose": 0.1985,
+      "timestamp": 1794497149000,
+      "percent": 282.82115869017633
+    },
+    {
+      "symbol": "POAS",
+      "name": "Phaos Technology Holdings (Caym",
+      "currency": "USD",
+      "price": 3.44,
+      "previousClose": 0.9007,
+      "timestamp": 1794497149000,
+      "percent": 281.9251693127568
+    },
+    {
+      "symbol": "AIMD",
+      "name": "Ainos, Inc.",
+      "currency": "USD",
+      "price": 1.5,
+      "previousClose": 0.4837,
+      "timestamp": 1794497131000,
+      "percent": 210.10957204879057
+    },
+    {
+      "symbol": "RETO",
+      "name": "ReTo Eco-Solutions, Inc.",
+      "currency": "USD",
+      "price": 9.36,
+      "previousClose": 6.19,
+      "timestamp": 1794497151000,
+      "percent": 51.21163166397413
+    },
+    {
+      "symbol": "ICMB",
+      "name": "Investcorp Credit Management BDC, Inc.",
+      "currency": "USD",
+      "price": 0.9251,
+      "previousClose": 0.6181,
+      "timestamp": 1794497142000,
+      "percent": 49.66833845656045
+    },
+    {
+      "symbol": "CENN",
+      "name": "Cenntro Inc.",
+      "currency": "USD",
+      "price": 0.2101,
+      "previousClose": 0.1463,
+      "timestamp": 1794497135000,
+      "percent": 43.60902255639096
+    },
+    {
+      "symbol": "PARA",
+      "name": "Parabolic Technologies, Inc.",
+      "currency": "USD",
+      "price": 0.1011,
+      "previousClose": 0.0718,
+      "timestamp": 1794497148000,
+      "percent": 40.80779944289692
+    },
+    {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.021,
+      "previousClose": 0.0151,
+      "timestamp": 1794496382000,
+      "percent": 39.0728476821192
+    },
+    {
+      "symbol": "SDHIR",
+      "name": "Siddhi Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.13,
+      "previousClose": 0.1,
+      "timestamp": 1794493904000,
+      "percent": 30.000000000000004
+    },
+    {
+      "symbol": "DBGI",
+      "name": "Digital Brands Group, Inc.",
+      "currency": "USD",
+      "price": 0.1864,
+      "previousClose": 0.1461,
+      "timestamp": 1794497136000,
+      "percent": 27.58384668035592
+    },
+    {
+      "symbol": "CURI",
+      "name": "CuriosityStream Inc.",
+      "currency": "USD",
+      "price": 3.009,
+      "previousClose": 2.37,
+      "timestamp": 1794497137000,
+      "percent": 26.962025316455684
     },
     {
       "symbol": "MERC",
       "name": "Mercer International Inc.",
       "currency": "USD",
-      "price": 0.2871,
+      "price": 0.2948,
       "previousClose": 0.234,
-      "timestamp": 1794496554000,
-      "percent": 22.6923076923077
+      "timestamp": 1794497145000,
+      "percent": 25.98290598290598
     },
     {
       "symbol": "TGEN",
       "name": "Tecogen Inc.",
       "currency": "USD",
-      "price": 2.075,
+      "price": 2.135,
       "previousClose": 1.7,
-      "timestamp": 1794496544000,
-      "percent": 22.058823529411775
+      "timestamp": 1794497153000,
+      "percent": 25.588235294117645
+    },
+    {
+      "symbol": "TGHL",
+      "name": "The Growhub Limited",
+      "currency": "USD",
+      "price": 0.4901,
+      "previousClose": 0.3983,
+      "timestamp": 1794497121000,
+      "percent": 23.047953803665578
+    },
+    {
+      "symbol": "GP",
+      "name": "GreenPower Motor Company Inc.",
+      "currency": "USD",
+      "price": 0.5499,
+      "previousClose": 0.4482,
+      "timestamp": 1794497140000,
+      "percent": 22.69076305220885
     },
     {
       "symbol": "MFI",
       "name": "mF International Limited",
       "currency": "USD",
-      "price": 7.5,
+      "price": 7.4999,
       "previousClose": 6.2,
-      "timestamp": 1794496448000,
-      "percent": 20.967741935483875
-    },
-    {
-      "symbol": "TISI",
-      "name": "Team, Inc.",
-      "currency": "USD",
-      "price": 24.06,
-      "previousClose": 19.92,
-      "timestamp": 1794496346000,
-      "percent": 20.783132530120476
+      "timestamp": 1794496805000,
+      "percent": 20.966129032258074
     },
     {
       "symbol": "AVEX",
       "name": "AEVEX Corp.",
       "currency": "USD",
-      "price": 14.635,
+      "price": 14.495,
       "previousClose": 12.13,
-      "timestamp": 1794496533000,
-      "percent": 20.651277823577896
+      "timestamp": 1794497132000,
+      "percent": 19.497114591920848
     },
     {
       "symbol": "CRVO",
       "name": "CervoMed Inc.",
       "currency": "USD",
-      "price": 2.13,
+      "price": 2.1039,
       "previousClose": 1.77,
-      "timestamp": 1794496544000,
-      "percent": 20.338983050847446
+      "timestamp": 1794497136000,
+      "percent": 18.864406779661014
     },
     {
-      "symbol": "GMM",
-      "name": "Global Mofy AI Limited",
+      "symbol": "TISI",
+      "name": "Team, Inc.",
       "currency": "USD",
-      "price": 1.1199,
-      "previousClose": 0.9401,
-      "timestamp": 1794496549000,
-      "percent": 19.125624933517706
-    },
-    {
-      "symbol": "USEA",
-      "name": "United Maritime Corporation",
-      "currency": "USD",
-      "price": 2.86,
-      "previousClose": 2.46,
-      "timestamp": 1794496532000,
-      "percent": 16.260162601626014
+      "price": 23.3,
+      "previousClose": 19.92,
+      "timestamp": 1794496938000,
+      "percent": 16.967871485943764
     },
     {
       "symbol": "ENSC",
       "name": "Ensysce Biosciences, Inc.",
       "currency": "USD",
-      "price": 0.418,
+      "price": 0.4179,
       "previousClose": 0.3601,
-      "timestamp": 1794496530000,
-      "percent": 16.078866981394068
+      "timestamp": 1794497049000,
+      "percent": 16.051096917522912
     },
     {
       "symbol": "NOMA",
@@ -439,49 +421,67 @@
       "percent": 14.666666666666671
     },
     {
+      "symbol": "GMEX",
+      "name": "GMEX Robotics Corporation",
+      "currency": "USD",
+      "price": 0.5467,
+      "previousClose": 0.4796,
+      "timestamp": 1794497122000,
+      "percent": 13.990825688073372
+    },
+    {
+      "symbol": "CTY",
+      "name": "City Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 19.37,
+      "previousClose": 17.01,
+      "timestamp": 1794497002000,
+      "percent": 13.874191651969415
+    },
+    {
+      "symbol": "OPTT",
+      "name": "Ocean Power Technologies, Inc.",
+      "currency": "USD",
+      "price": 0.6499,
+      "previousClose": 0.5723,
+      "timestamp": 1794497137000,
+      "percent": 13.559322033898313
+    },
+    {
+      "symbol": "MGN",
+      "name": "Megan Holdings Limited",
+      "currency": "USD",
+      "price": 3.86,
+      "previousClose": 3.4,
+      "timestamp": 1794496807000,
+      "percent": 13.529411764705879
+    },
+    {
       "symbol": "LUNR",
       "name": "Intuitive Machines, Inc.",
       "currency": "USD",
-      "price": 13.9101,
+      "price": 13.82,
       "previousClose": 12.18,
-      "timestamp": 1794496552000,
-      "percent": 14.20443349753695
+      "timestamp": 1794497144000,
+      "percent": 13.464696223316919
     },
     {
-      "symbol": "JXG",
-      "name": "JX Luxventure Group Inc.",
+      "symbol": "NEXN",
+      "name": "Nexxen International Ltd.",
       "currency": "USD",
-      "price": 12.76,
-      "previousClose": 11.19,
-      "timestamp": 1794495774000,
-      "percent": 14.030384271671137
-    },
-    {
-      "symbol": "MYPS",
-      "name": "PLAYSTUDIOS, Inc.",
-      "currency": "USD",
-      "price": 4.815,
-      "previousClose": 4.29,
-      "timestamp": 1794496501000,
-      "percent": 12.23776223776225
-    },
-    {
-      "symbol": "IBO",
-      "name": "Impact BioMedical Inc.",
-      "currency": "USD",
-      "price": 4.8181,
-      "previousClose": 4.3,
-      "timestamp": 1794495976000,
-      "percent": 12.048837209302343
+      "price": 10.18,
+      "previousClose": 9.05,
+      "timestamp": 1794497135000,
+      "percent": 12.486187845303863
     },
     {
       "symbol": "MBGL",
       "name": "Mobility Global, Inc.",
       "currency": "USD",
-      "price": 22.25,
+      "price": 22.335,
       "previousClose": 19.92,
-      "timestamp": 1794496548000,
-      "percent": 11.696787148594368
+      "timestamp": 1794497133000,
+      "percent": 12.1234939759036
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-12T10:15[America/New_York]",
-    "updatedAt": 1794496565772
+    "scheduledSlot": "2026-11-12T10:25[America/New_York]",
+    "updatedAt": 1794497157817
   },
-  "todayGainersUpdatedAt": 1794496565772,
+  "todayGainersUpdatedAt": 1794497157817,
   "items": [
     {
       "symbol": "KSPI",
