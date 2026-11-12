@@ -125,10 +125,10 @@
       "symbol": "POAS",
       "name": "Phaos Technology Holdings (Caym",
       "currency": "USD",
-      "price": 2.99,
+      "price": 3.01,
       "previousClose": 0.9007,
       "timestamp": 1794517200000,
-      "percent": 231.96402797823922
+      "percent": 234.18452314866215
     },
     {
       "symbol": "GP",
@@ -167,6 +167,15 @@
       "percent": 118.26923076923075
     },
     {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.0299,
+      "previousClose": 0.0151,
+      "timestamp": 1794517200000,
+      "percent": 98.01324503311257
+    },
+    {
       "symbol": "ICMB",
       "name": "Investcorp Credit Management BDC, Inc.",
       "currency": "USD",
@@ -185,6 +194,15 @@
       "percent": 64.77272727272727
     },
     {
+      "symbol": "FSHPR",
+      "name": "Flag Ship Acquisition Corporation",
+      "currency": "USD",
+      "price": 0.11,
+      "previousClose": 0.0711,
+      "timestamp": 1794517200000,
+      "percent": 54.711673699015485
+    },
+    {
       "symbol": "BGIN",
       "name": "Bgin Blockchain Limited",
       "currency": "USD",
@@ -192,24 +210,6 @@
       "previousClose": 1.85,
       "timestamp": 1794517201000,
       "percent": 49.18918918918918
-    },
-    {
-      "symbol": "ADVB",
-      "name": "Advanced Biomed Inc.",
-      "currency": "USD",
-      "price": 3.31,
-      "previousClose": 2.32,
-      "timestamp": 1794517201000,
-      "percent": 42.67241379310347
-    },
-    {
-      "symbol": "FSHPR",
-      "name": "Flag Ship Acquisition Corporation",
-      "currency": "USD",
-      "price": 0.1,
-      "previousClose": 0.0711,
-      "timestamp": 1794506039000,
-      "percent": 40.646976090014086
     }
   ],
   "todayCandidates": [
@@ -217,10 +217,10 @@
       "symbol": "POAS",
       "name": "Phaos Technology Holdings (Caym",
       "currency": "USD",
-      "price": 2.99,
+      "price": 3.01,
       "previousClose": 0.9007,
       "timestamp": 1794517200000,
-      "percent": 231.96402797823922
+      "percent": 234.18452314866215
     },
     {
       "symbol": "GP",
@@ -259,6 +259,15 @@
       "percent": 118.26923076923075
     },
     {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.0299,
+      "previousClose": 0.0151,
+      "timestamp": 1794517200000,
+      "percent": 98.01324503311257
+    },
+    {
       "symbol": "ICMB",
       "name": "Investcorp Credit Management BDC, Inc.",
       "currency": "USD",
@@ -277,6 +286,15 @@
       "percent": 64.77272727272727
     },
     {
+      "symbol": "FSHPR",
+      "name": "Flag Ship Acquisition Corporation",
+      "currency": "USD",
+      "price": 0.11,
+      "previousClose": 0.0711,
+      "timestamp": 1794517200000,
+      "percent": 54.711673699015485
+    },
+    {
       "symbol": "BGIN",
       "name": "Bgin Blockchain Limited",
       "currency": "USD",
@@ -293,15 +311,6 @@
       "previousClose": 2.32,
       "timestamp": 1794517201000,
       "percent": 42.67241379310347
-    },
-    {
-      "symbol": "FSHPR",
-      "name": "Flag Ship Acquisition Corporation",
-      "currency": "USD",
-      "price": 0.1,
-      "previousClose": 0.0711,
-      "timestamp": 1794506039000,
-      "percent": 40.646976090014086
     },
     {
       "symbol": "PARA",
@@ -331,21 +340,21 @@
       "percent": 31.810193321616875
     },
     {
+      "symbol": "TGEN",
+      "name": "Tecogen Inc.",
+      "currency": "USD",
+      "price": 2.22,
+      "previousClose": 1.7,
+      "timestamp": 1794517200000,
+      "percent": 30.588235294117673
+    },
+    {
       "symbol": "SDHIR",
       "name": "Siddhi Acquisition Corp.",
       "currency": "USD",
       "price": 0.13,
       "previousClose": 0.1,
-      "timestamp": 1794493904000,
-      "percent": 30.000000000000004
-    },
-    {
-      "symbol": "TGEN",
-      "name": "Tecogen Inc.",
-      "currency": "USD",
-      "price": 2.21,
-      "previousClose": 1.7,
-      "timestamp": 1794517197000,
+      "timestamp": 1794517200000,
       "percent": 30.000000000000004
     },
     {
@@ -363,7 +372,7 @@
       "currency": "USD",
       "price": 2.28,
       "previousClose": 1.8,
-      "timestamp": 1794517200000,
+      "timestamp": 1794517201000,
       "percent": 26.66666666666666
     },
     {
@@ -390,7 +399,7 @@
       "currency": "USD",
       "price": 0.182,
       "previousClose": 0.1463,
-      "timestamp": 1794517197000,
+      "timestamp": 1794517201000,
       "percent": 24.40191387559807
     },
     {
@@ -421,12 +430,21 @@
       "percent": 21.99935296020705
     },
     {
+      "symbol": "SOS",
+      "name": "SOS Limited",
+      "currency": "USD",
+      "price": 0.2204,
+      "previousClose": 0.1814,
+      "timestamp": 1794517202000,
+      "percent": 21.499448732083803
+    },
+    {
       "symbol": "BEAGR",
       "name": "Bold Eagle Acquisition Corp.",
       "currency": "USD",
       "price": 0.2498,
       "previousClose": 0.2061,
-      "timestamp": 1794509646000,
+      "timestamp": 1794517200000,
       "percent": 21.203299369238238
     },
     {
@@ -437,24 +455,6 @@
       "previousClose": 0.9825,
       "timestamp": 1794517200000,
       "percent": 21.119592875318062
-    },
-    {
-      "symbol": "SOS",
-      "name": "SOS Limited",
-      "currency": "USD",
-      "price": 0.2196,
-      "previousClose": 0.1814,
-      "timestamp": 1794517197000,
-      "percent": 21.058434399117964
-    },
-    {
-      "symbol": "OPTT",
-      "name": "Ocean Power Technologies, Inc.",
-      "currency": "USD",
-      "price": 0.6913,
-      "previousClose": 0.5723,
-      "timestamp": 1794517195000,
-      "percent": 20.7932902323956
     },
     {
       "symbol": "NGEN",
@@ -471,17 +471,17 @@
       "currency": "USD",
       "price": 2.86,
       "previousClose": 2.37,
-      "timestamp": 1794517196000,
+      "timestamp": 1794517201000,
       "percent": 20.67510548523206
     },
     {
-      "symbol": "MTRI",
-      "name": "Mentari Therapeutics, Inc.",
+      "symbol": "OPTT",
+      "name": "Ocean Power Technologies, Inc.",
       "currency": "USD",
-      "price": 18.67,
-      "previousClose": 15.609,
-      "timestamp": 1794517190000,
-      "percent": 19.61048113267987
+      "price": 0.6845,
+      "previousClose": 0.5723,
+      "timestamp": 1794517200000,
+      "percent": 19.605102219115842
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-12T16:05[America/New_York]",
-    "updatedAt": 1794517559440
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-12T16:15[America/New_York]",
+    "updatedAt": 1794518170284
   },
-  "todayGainersUpdatedAt": 1794517559440,
+  "todayGainersUpdatedAt": 1794518170284,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
