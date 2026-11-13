@@ -159,7 +159,7 @@
     },
     {
       "symbol": "WWB",
-      "name": "Windward Bio Group AG",
+      "name": "Windward Bio Group AG Common Shares",
       "currency": "USD",
       "price": 28.5,
       "previousClose": 17,
@@ -188,10 +188,10 @@
       "symbol": "SLND",
       "name": "Southland Holdings, Inc.",
       "currency": "USD",
-      "price": 0.936,
+      "price": 0.9401,
       "previousClose": 0.63,
       "timestamp": 1794603600000,
-      "percent": 48.57142857142858
+      "percent": 49.222222222222236
     },
     {
       "symbol": "BGIN",
@@ -251,7 +251,7 @@
     },
     {
       "symbol": "WWB",
-      "name": "Windward Bio Group AG",
+      "name": "Windward Bio Group AG Common Shares",
       "currency": "USD",
       "price": 28.5,
       "previousClose": 17,
@@ -280,10 +280,10 @@
       "symbol": "SLND",
       "name": "Southland Holdings, Inc.",
       "currency": "USD",
-      "price": 0.936,
+      "price": 0.9401,
       "previousClose": 0.63,
       "timestamp": 1794603600000,
-      "percent": 48.57142857142858
+      "percent": 49.222222222222236
     },
     {
       "symbol": "BGIN",
@@ -370,10 +370,10 @@
       "symbol": "NMAX",
       "name": "Newsmax, Inc.",
       "currency": "USD",
-      "price": 9.59,
+      "price": 9.58,
       "previousClose": 7.29,
-      "timestamp": 1794603595000,
-      "percent": 31.550068587105628
+      "timestamp": 1794603602000,
+      "percent": 31.41289437585735
     },
     {
       "symbol": "LFTO",
@@ -406,10 +406,10 @@
       "symbol": "MOD",
       "name": "Modine Manufacturing Company",
       "currency": "USD",
-      "price": 135.75,
+      "price": 135.71,
       "previousClose": 106.1,
-      "timestamp": 1794603598000,
-      "percent": 27.94533459000943
+      "timestamp": 1794603599000,
+      "percent": 27.90763430725731
     },
     {
       "symbol": "FRMI",
@@ -439,13 +439,31 @@
       "percent": 25.304136253041378
     },
     {
+      "symbol": "CCHH",
+      "name": "CCH Holdings Ltd",
+      "currency": "USD",
+      "price": 1,
+      "previousClose": 0.802,
+      "timestamp": 1794603600000,
+      "percent": 24.68827930174562
+    },
+    {
+      "symbol": "VNRX",
+      "name": "VolitionRx Limited",
+      "currency": "USD",
+      "price": 0.23,
+      "previousClose": 0.1845,
+      "timestamp": 1794603600000,
+      "percent": 24.661246612466137
+    },
+    {
       "symbol": "HAWK",
       "name": "HawkEye 360, Inc.",
       "currency": "USD",
-      "price": 18.2,
+      "price": 18.16,
       "previousClose": 14.67,
-      "timestamp": 1794603599000,
-      "percent": 24.062713019768232
+      "timestamp": 1794603602000,
+      "percent": 23.790047716428077
     },
     {
       "symbol": "XCH",
@@ -464,39 +482,22 @@
       "previousClose": 1.81,
       "timestamp": 1794603601000,
       "percent": 23.756906077348084
-    },
-    {
-      "symbol": "CNSY",
-      "name": "Cerenome, Inc.",
-      "currency": "USD",
-      "price": 0.9502,
-      "previousClose": 0.7705,
-      "timestamp": 1794603601000,
-      "percent": 23.322517845554835
-    },
-    {
-      "symbol": "XRTX",
-      "name": "XORTX Therapeutics Inc.",
-      "currency": "USD",
-      "price": 1.1,
-      "previousClose": 0.895,
-      "timestamp": 1794603600000,
-      "percent": 22.9050279329609
     }
   ],
   "todayScan": {
     "total": 5455,
     "processed": 5455,
-    "eligible": 5454,
-    "missing": 1,
+    "eligible": 5455,
+    "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-13T16:05[America/New_York]",
-    "updatedAt": 1794603960262
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-13T16:15[America/New_York]",
+    "updatedAt": 1794604563673
   },
-  "todayGainersUpdatedAt": 1794603960262,
+  "todayGainersUpdatedAt": 1794604563673,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
