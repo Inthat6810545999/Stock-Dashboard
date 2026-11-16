@@ -125,91 +125,91 @@
       "symbol": "GDHG",
       "name": "Golden Heaven Group Holdings Ltd.",
       "currency": "USD",
-      "price": 3.12,
+      "price": 3.7899,
       "previousClose": 0.8253,
-      "timestamp": 1794843764000,
-      "percent": 278.0443475099964
+      "timestamp": 1794844560000,
+      "percent": 359.21483097055614
     },
     {
       "symbol": "GMM",
       "name": "Global Mofy AI Limited",
       "currency": "USD",
-      "price": 2.69,
+      "price": 2.7988,
       "previousClose": 1.02,
-      "timestamp": 1794843947000,
-      "percent": 163.72549019607843
+      "timestamp": 1794844560000,
+      "percent": 174.39215686274508
     },
     {
-      "symbol": "CYAB",
-      "name": "Cyabra, Inc.",
+      "symbol": "NOMA",
+      "name": "Nomadar Corp.",
       "currency": "USD",
-      "price": 0.1391,
-      "previousClose": 0.089,
-      "timestamp": 1794843943000,
-      "percent": 56.29213483146069
+      "price": 1.7,
+      "previousClose": 0.8023,
+      "timestamp": 1794844391000,
+      "percent": 111.89081391000872
     },
     {
       "symbol": "PSNYW",
       "name": "Polestar Automotive Holding UK PLC",
       "currency": "USD",
-      "price": 4.115,
+      "price": 4.38,
       "previousClose": 2.725,
-      "timestamp": 1794843754000,
-      "percent": 51.00917431192662
+      "timestamp": 1794844374000,
+      "percent": 60.733944954128425
+    },
+    {
+      "symbol": "CYAB",
+      "name": "Cyabra, Inc.",
+      "currency": "USD",
+      "price": 0.1378,
+      "previousClose": 0.089,
+      "timestamp": 1794844556000,
+      "percent": 54.83146067415732
     },
     {
       "symbol": "HIHO",
       "name": "Highway Holdings Limited",
       "currency": "USD",
-      "price": 1.1601,
+      "price": 1.1691,
       "previousClose": 0.785,
-      "timestamp": 1794843948000,
-      "percent": 47.783439490445836
+      "timestamp": 1794844561000,
+      "percent": 48.92993630573248
     },
     {
       "symbol": "AKAN",
       "name": "Akanda Corp.",
       "currency": "USD",
-      "price": 1.91,
+      "price": 1.9101,
       "previousClose": 1.36,
-      "timestamp": 1794843937000,
-      "percent": 40.441176470588225
+      "timestamp": 1794844542000,
+      "percent": 40.44852941176469
     },
     {
       "symbol": "GP",
       "name": "GreenPower Motor Company Inc.",
       "currency": "USD",
-      "price": 1.6099,
+      "price": 1.6,
       "previousClose": 1.16,
-      "timestamp": 1794843946000,
-      "percent": 38.7844827586207
+      "timestamp": 1794844560000,
+      "percent": 37.93103448275863
     },
     {
       "symbol": "MNTK",
       "name": "Montauk Renewables, Inc.",
       "currency": "USD",
-      "price": 1.285,
+      "price": 1.3099,
       "previousClose": 0.9542,
-      "timestamp": 1794843952000,
-      "percent": 34.66778453154473
+      "timestamp": 1794844563000,
+      "percent": 37.27730035631942
     },
     {
       "symbol": "POLA",
       "name": "Polar Power, Inc.",
       "currency": "USD",
-      "price": 0.3633,
+      "price": 0.3565,
       "previousClose": 0.2707,
-      "timestamp": 1794843956000,
-      "percent": 34.207609900258596
-    },
-    {
-      "symbol": "CLRO",
-      "name": "ClearOne, Inc.",
-      "currency": "USD",
-      "price": 4.479,
-      "previousClose": 3.37,
-      "timestamp": 1794843940000,
-      "percent": 32.908011869436194
+      "timestamp": 1794844563000,
+      "percent": 31.69560398965645
     }
   ],
   "todayCandidates": [
@@ -217,217 +217,262 @@
       "symbol": "GDHG",
       "name": "Golden Heaven Group Holdings Ltd.",
       "currency": "USD",
-      "price": 3.12,
+      "price": 3.7899,
       "previousClose": 0.8253,
-      "timestamp": 1794843764000,
-      "percent": 278.0443475099964
+      "timestamp": 1794844560000,
+      "percent": 359.21483097055614
     },
     {
       "symbol": "GMM",
       "name": "Global Mofy AI Limited",
       "currency": "USD",
-      "price": 2.69,
+      "price": 2.7988,
       "previousClose": 1.02,
-      "timestamp": 1794843947000,
-      "percent": 163.72549019607843
-    },
-    {
-      "symbol": "CYAB",
-      "name": "Cyabra, Inc.",
-      "currency": "USD",
-      "price": 0.1391,
-      "previousClose": 0.089,
-      "timestamp": 1794843943000,
-      "percent": 56.29213483146069
-    },
-    {
-      "symbol": "PSNYW",
-      "name": "Polestar Automotive Holding UK PLC",
-      "currency": "USD",
-      "price": 4.115,
-      "previousClose": 2.725,
-      "timestamp": 1794843754000,
-      "percent": 51.00917431192662
-    },
-    {
-      "symbol": "HIHO",
-      "name": "Highway Holdings Limited",
-      "currency": "USD",
-      "price": 1.1601,
-      "previousClose": 0.785,
-      "timestamp": 1794843948000,
-      "percent": 47.783439490445836
-    },
-    {
-      "symbol": "AKAN",
-      "name": "Akanda Corp.",
-      "currency": "USD",
-      "price": 1.91,
-      "previousClose": 1.36,
-      "timestamp": 1794843937000,
-      "percent": 40.441176470588225
-    },
-    {
-      "symbol": "GP",
-      "name": "GreenPower Motor Company Inc.",
-      "currency": "USD",
-      "price": 1.6099,
-      "previousClose": 1.16,
-      "timestamp": 1794843946000,
-      "percent": 38.7844827586207
-    },
-    {
-      "symbol": "MNTK",
-      "name": "Montauk Renewables, Inc.",
-      "currency": "USD",
-      "price": 1.285,
-      "previousClose": 0.9542,
-      "timestamp": 1794843952000,
-      "percent": 34.66778453154473
-    },
-    {
-      "symbol": "POLA",
-      "name": "Polar Power, Inc.",
-      "currency": "USD",
-      "price": 0.3633,
-      "previousClose": 0.2707,
-      "timestamp": 1794843956000,
-      "percent": 34.207609900258596
-    },
-    {
-      "symbol": "CLRO",
-      "name": "ClearOne, Inc.",
-      "currency": "USD",
-      "price": 4.479,
-      "previousClose": 3.37,
-      "timestamp": 1794843940000,
-      "percent": 32.908011869436194
+      "timestamp": 1794844560000,
+      "percent": 174.39215686274508
     },
     {
       "symbol": "NOMA",
       "name": "Nomadar Corp.",
       "currency": "USD",
-      "price": 1.03,
+      "price": 1.7,
       "previousClose": 0.8023,
-      "timestamp": 1794843945000,
-      "percent": 28.380904898417047
+      "timestamp": 1794844391000,
+      "percent": 111.89081391000872
     },
     {
-      "symbol": "CRDF",
-      "name": "Cardiff Oncology, Inc.",
+      "symbol": "PSNYW",
+      "name": "Polestar Automotive Holding UK PLC",
       "currency": "USD",
-      "price": 0.9095,
-      "previousClose": 0.7261,
-      "timestamp": 1794843935000,
-      "percent": 25.25822889409173
+      "price": 4.38,
+      "previousClose": 2.725,
+      "timestamp": 1794844374000,
+      "percent": 60.733944954128425
+    },
+    {
+      "symbol": "CYAB",
+      "name": "Cyabra, Inc.",
+      "currency": "USD",
+      "price": 0.1378,
+      "previousClose": 0.089,
+      "timestamp": 1794844556000,
+      "percent": 54.83146067415732
+    },
+    {
+      "symbol": "HIHO",
+      "name": "Highway Holdings Limited",
+      "currency": "USD",
+      "price": 1.1691,
+      "previousClose": 0.785,
+      "timestamp": 1794844561000,
+      "percent": 48.92993630573248
+    },
+    {
+      "symbol": "AKAN",
+      "name": "Akanda Corp.",
+      "currency": "USD",
+      "price": 1.9101,
+      "previousClose": 1.36,
+      "timestamp": 1794844542000,
+      "percent": 40.44852941176469
+    },
+    {
+      "symbol": "GP",
+      "name": "GreenPower Motor Company Inc.",
+      "currency": "USD",
+      "price": 1.6,
+      "previousClose": 1.16,
+      "timestamp": 1794844560000,
+      "percent": 37.93103448275863
+    },
+    {
+      "symbol": "MNTK",
+      "name": "Montauk Renewables, Inc.",
+      "currency": "USD",
+      "price": 1.3099,
+      "previousClose": 0.9542,
+      "timestamp": 1794844563000,
+      "percent": 37.27730035631942
+    },
+    {
+      "symbol": "POLA",
+      "name": "Polar Power, Inc.",
+      "currency": "USD",
+      "price": 0.3565,
+      "previousClose": 0.2707,
+      "timestamp": 1794844563000,
+      "percent": 31.69560398965645
     },
     {
       "symbol": "ELWT",
       "name": "Elauwit Connection, Inc.",
       "currency": "USD",
-      "price": 3.38,
+      "price": 3.655,
       "previousClose": 2.8451,
-      "timestamp": 1794843846000,
-      "percent": 18.800745140768328
+      "timestamp": 1794844393000,
+      "percent": 28.466486239499478
     },
     {
-      "symbol": "XRTX",
-      "name": "XORTX Therapeutics Inc.",
+      "symbol": "CLRO",
+      "name": "ClearOne, Inc.",
       "currency": "USD",
-      "price": 1.3,
-      "previousClose": 1.1,
-      "timestamp": 1794843952000,
-      "percent": 18.181818181818166
+      "price": 4.31,
+      "previousClose": 3.37,
+      "timestamp": 1794844552000,
+      "percent": 27.89317507418396
     },
     {
-      "symbol": "HUDI",
-      "name": "Huadi International Group Co., Ltd.",
+      "symbol": "CRDF",
+      "name": "Cardiff Oncology, Inc.",
       "currency": "USD",
-      "price": 0.5871,
-      "previousClose": 0.4973,
-      "timestamp": 1794843904000,
-      "percent": 18.057510557007838
+      "price": 0.9233,
+      "previousClose": 0.7261,
+      "timestamp": 1794844551000,
+      "percent": 27.15879355460682
     },
     {
       "symbol": "CVM",
       "name": "CEL-SCI Corporation",
       "currency": "USD",
-      "price": 1.51,
+      "price": 1.565,
       "previousClose": 1.28,
-      "timestamp": 1794843919000,
-      "percent": 17.96875
-    },
-    {
-      "symbol": "FF",
-      "name": "FutureFuel Corp.",
-      "currency": "USD",
-      "price": 3.415,
-      "previousClose": 2.9,
-      "timestamp": 1794843920000,
-      "percent": 17.758620689655167
+      "timestamp": 1794844548000,
+      "percent": 22.265625
     },
     {
       "symbol": "GIPR",
       "name": "Generation Income Properties, Inc.",
       "currency": "USD",
-      "price": 0.2597,
+      "price": 0.2675,
       "previousClose": 0.2216,
-      "timestamp": 1794843935000,
-      "percent": 17.193140794223826
+      "timestamp": 1794844559000,
+      "percent": 20.712996389891703
     },
     {
-      "symbol": "PAVM",
-      "name": "PAVmed Inc.",
+      "symbol": "EGG",
+      "name": "Enigmatig Limited",
       "currency": "USD",
-      "price": 1.9,
-      "previousClose": 1.63,
-      "timestamp": 1794843850000,
-      "percent": 16.564417177914102
+      "price": 6.78,
+      "previousClose": 5.69,
+      "timestamp": 1794844557000,
+      "percent": 19.156414762741658
     },
     {
-      "symbol": "BRFH",
-      "name": "Barfresh Food Group, Inc.",
+      "symbol": "NUR",
+      "name": "Nuran Wireless Inc.",
       "currency": "USD",
-      "price": 0.5324,
-      "previousClose": 0.46,
-      "timestamp": 1794843026000,
-      "percent": 15.739130434782611
-    },
-    {
-      "symbol": "DMRC",
-      "name": "Digimarc Corporation",
-      "currency": "USD",
-      "price": 8.165,
-      "previousClose": 7.12,
-      "timestamp": 1794843931000,
-      "percent": 14.676966292134818
-    },
-    {
-      "symbol": "CLW",
-      "name": "Clearwater Paper Corporation",
-      "currency": "USD",
-      "price": 16.69,
-      "previousClose": 14.56,
-      "timestamp": 1794843930000,
-      "percent": 14.629120879120894
+      "price": 0.48,
+      "previousClose": 0.4037,
+      "timestamp": 1794844552000,
+      "percent": 18.900173396086206
     },
     {
       "symbol": "BGIN",
       "name": "Bgin Blockchain Limited",
       "currency": "USD",
-      "price": 4.4399,
+      "price": 4.56,
       "previousClose": 3.88,
-      "timestamp": 1794843940000,
-      "percent": 14.430412371134027
+      "timestamp": 1794844535000,
+      "percent": 17.52577319587627
+    },
+    {
+      "symbol": "FF",
+      "name": "FutureFuel Corp.",
+      "currency": "USD",
+      "price": 3.38,
+      "previousClose": 2.9,
+      "timestamp": 1794844558000,
+      "percent": 16.551724137931046
+    },
+    {
+      "symbol": "DMRC",
+      "name": "Digimarc Corporation",
+      "currency": "USD",
+      "price": 8.29,
+      "previousClose": 7.12,
+      "timestamp": 1794844435000,
+      "percent": 16.432584269662897
+    },
+    {
+      "symbol": "HUDI",
+      "name": "Huadi International Group Co., Ltd.",
+      "currency": "USD",
+      "price": 0.575,
+      "previousClose": 0.4973,
+      "timestamp": 1794844510000,
+      "percent": 15.624371606676046
     },
     {
       "symbol": "AMST",
       "name": "Amesite Inc.",
       "currency": "USD",
-      "price": 0.5462,
+      "price": 0.5513,
       "previousClose": 0.4799,
-      "timestamp": 1794843934000,
-      "percent": 13.815378203792461
+      "timestamp": 1794844548000,
+      "percent": 14.878099604084195
+    },
+    {
+      "symbol": "NORD",
+      "name": "Nordicus Partners Corporation",
+      "currency": "USD",
+      "price": 2.8799,
+      "previousClose": 2.51,
+      "timestamp": 1794844367000,
+      "percent": 14.737051792828693
+    },
+    {
+      "symbol": "LXEO",
+      "name": "Lexeo Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 3.2901,
+      "previousClose": 2.87,
+      "timestamp": 1794844565000,
+      "percent": 14.637630662020884
+    },
+    {
+      "symbol": "CLW",
+      "name": "Clearwater Paper Corporation",
+      "currency": "USD",
+      "price": 16.68,
+      "previousClose": 14.56,
+      "timestamp": 1794844442000,
+      "percent": 14.560439560439553
+    },
+    {
+      "symbol": "GUTS",
+      "name": "Fractyl Health, Inc.",
+      "currency": "USD",
+      "price": 1.035,
+      "previousClose": 0.9036,
+      "timestamp": 1794844530000,
+      "percent": 14.541832669322696
+    },
+    {
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
+      "currency": "USD",
+      "price": 1.8699,
+      "previousClose": 1.64,
+      "timestamp": 1794844540000,
+      "percent": 14.018292682926825
+    },
+    {
+      "symbol": "MCRB",
+      "name": "Seres Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.595,
+      "previousClose": 1.4,
+      "timestamp": 1794844509000,
+      "percent": 13.928571428571423
+    },
+    {
+      "symbol": "PUSA",
+      "name": "Powerus Corporation",
+      "currency": "USD",
+      "price": 1.525,
+      "previousClose": 1.34,
+      "timestamp": 1794844570000,
+      "percent": 13.80597014925371
     },
     {
       "symbol": "MFI",
@@ -437,51 +482,6 @@
       "previousClose": 7.585,
       "timestamp": 1794843510000,
       "percent": 13.645352669742895
-    },
-    {
-      "symbol": "AXINR",
-      "name": "Axiom Intelligence Acquisition Corp 1",
-      "currency": "USD",
-      "price": 0.125,
-      "previousClose": 0.11,
-      "timestamp": 1794839401000,
-      "percent": 13.636363636363647
-    },
-    {
-      "symbol": "LXEO",
-      "name": "Lexeo Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 3.255,
-      "previousClose": 2.87,
-      "timestamp": 1794843950000,
-      "percent": 13.414634146341452
-    },
-    {
-      "symbol": "RPID",
-      "name": "Rapid Micro Biosystems, Inc.",
-      "currency": "USD",
-      "price": 0.735,
-      "previousClose": 0.651,
-      "timestamp": 1794843926000,
-      "percent": 12.903225806451601
-    },
-    {
-      "symbol": "GUTS",
-      "name": "Fractyl Health, Inc.",
-      "currency": "USD",
-      "price": 1.02,
-      "previousClose": 0.9036,
-      "timestamp": 1794843929000,
-      "percent": 12.881806108897752
-    },
-    {
-      "symbol": "AMBO",
-      "name": "Ambow Education Holding Ltd. Am",
-      "currency": "USD",
-      "price": 1.49,
-      "previousClose": 1.32,
-      "timestamp": 1794840362000,
-      "percent": 12.878787878787868
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-16T10:45[America/New_York]",
-    "updatedAt": 1794843965303
+    "scheduledSlot": "2026-11-16T10:55[America/New_York]",
+    "updatedAt": 1794844581350
   },
-  "todayGainersUpdatedAt": 1794843965303,
+  "todayGainersUpdatedAt": 1794844581350,
   "items": [
     {
       "symbol": "KSPI",
