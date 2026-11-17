@@ -125,37 +125,37 @@
       "symbol": "SLS",
       "name": "SELLAS Life Sciences Group, Inc.",
       "currency": "USD",
-      "price": 20.34,
+      "price": 20.605,
       "previousClose": 7.47,
-      "timestamp": 1794935154000,
-      "percent": 172.28915662650604
+      "timestamp": 1794935757000,
+      "percent": 175.83668005354752
     },
     {
       "symbol": "GP",
       "name": "GreenPower Motor Company Inc.",
       "currency": "USD",
-      "price": 2.4342,
+      "price": 2.4401,
       "previousClose": 1.41,
-      "timestamp": 1794935142000,
-      "percent": 72.63829787234044
-    },
-    {
-      "symbol": "FRTT",
-      "name": "Fort Technology Inc.",
-      "currency": "USD",
-      "price": 0.5935,
-      "previousClose": 0.38,
-      "timestamp": 1794935141000,
-      "percent": 56.184210526315795
+      "timestamp": 1794935745000,
+      "percent": 73.0567375886525
     },
     {
       "symbol": "SMTK",
       "name": "SmartKem, Inc.",
       "currency": "USD",
-      "price": 0.2542,
+      "price": 0.2659,
       "previousClose": 0.1639,
-      "timestamp": 1794935153000,
-      "percent": 55.09456985967054
+      "timestamp": 1794935758000,
+      "percent": 62.233068944478376
+    },
+    {
+      "symbol": "FRTT",
+      "name": "Fort Technology Inc.",
+      "currency": "USD",
+      "price": 0.613,
+      "previousClose": 0.38,
+      "timestamp": 1794935744000,
+      "percent": 61.31578947368421
     },
     {
       "symbol": "AYTU",
@@ -163,7 +163,7 @@
       "currency": "USD",
       "price": 2.655,
       "previousClose": 1.81,
-      "timestamp": 1794935097000,
+      "timestamp": 1794935674000,
       "percent": 46.68508287292816
     },
     {
@@ -172,7 +172,7 @@
       "currency": "USD",
       "price": 1.8,
       "previousClose": 1.28,
-      "timestamp": 1794935146000,
+      "timestamp": 1794935749000,
       "percent": 40.625
     },
     {
@@ -185,31 +185,31 @@
       "percent": 32.4503311258278
     },
     {
+      "symbol": "GANX",
+      "name": "Gain Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.2434,
+      "previousClose": 0.9402,
+      "timestamp": 1794935719000,
+      "percent": 32.2484577749415
+    },
+    {
+      "symbol": "LVWR",
+      "name": "LiveWire Group, Inc.",
+      "currency": "USD",
+      "price": 0.3831,
+      "previousClose": 0.2934,
+      "timestamp": 1794935742000,
+      "percent": 30.572597137014323
+    },
+    {
       "symbol": "SYPR",
       "name": "Sypris Solutions, Inc.",
       "currency": "USD",
       "price": 1.385,
       "previousClose": 1.07,
-      "timestamp": 1794935115000,
+      "timestamp": 1794935600000,
       "percent": 29.439252336448597
-    },
-    {
-      "symbol": "MCRP",
-      "name": "Micropolis AI Robotics",
-      "currency": "USD",
-      "price": 0.3844,
-      "previousClose": 0.2974,
-      "timestamp": 1794935144000,
-      "percent": 29.253530598520516
-    },
-    {
-      "symbol": "GANX",
-      "name": "Gain Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 1.205,
-      "previousClose": 0.9402,
-      "timestamp": 1794935139000,
-      "percent": 28.164220378642835
     }
   ],
   "todayCandidates": [
@@ -217,37 +217,37 @@
       "symbol": "SLS",
       "name": "SELLAS Life Sciences Group, Inc.",
       "currency": "USD",
-      "price": 20.34,
+      "price": 20.605,
       "previousClose": 7.47,
-      "timestamp": 1794935154000,
-      "percent": 172.28915662650604
+      "timestamp": 1794935757000,
+      "percent": 175.83668005354752
     },
     {
       "symbol": "GP",
       "name": "GreenPower Motor Company Inc.",
       "currency": "USD",
-      "price": 2.4342,
+      "price": 2.4401,
       "previousClose": 1.41,
-      "timestamp": 1794935142000,
-      "percent": 72.63829787234044
-    },
-    {
-      "symbol": "FRTT",
-      "name": "Fort Technology Inc.",
-      "currency": "USD",
-      "price": 0.5935,
-      "previousClose": 0.38,
-      "timestamp": 1794935141000,
-      "percent": 56.184210526315795
+      "timestamp": 1794935745000,
+      "percent": 73.0567375886525
     },
     {
       "symbol": "SMTK",
       "name": "SmartKem, Inc.",
       "currency": "USD",
-      "price": 0.2542,
+      "price": 0.2659,
       "previousClose": 0.1639,
-      "timestamp": 1794935153000,
-      "percent": 55.09456985967054
+      "timestamp": 1794935758000,
+      "percent": 62.233068944478376
+    },
+    {
+      "symbol": "FRTT",
+      "name": "Fort Technology Inc.",
+      "currency": "USD",
+      "price": 0.613,
+      "previousClose": 0.38,
+      "timestamp": 1794935744000,
+      "percent": 61.31578947368421
     },
     {
       "symbol": "AYTU",
@@ -255,7 +255,7 @@
       "currency": "USD",
       "price": 2.655,
       "previousClose": 1.81,
-      "timestamp": 1794935097000,
+      "timestamp": 1794935674000,
       "percent": 46.68508287292816
     },
     {
@@ -264,7 +264,7 @@
       "currency": "USD",
       "price": 1.8,
       "previousClose": 1.28,
-      "timestamp": 1794935146000,
+      "timestamp": 1794935749000,
       "percent": 40.625
     },
     {
@@ -277,31 +277,40 @@
       "percent": 32.4503311258278
     },
     {
+      "symbol": "GANX",
+      "name": "Gain Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.2434,
+      "previousClose": 0.9402,
+      "timestamp": 1794935719000,
+      "percent": 32.2484577749415
+    },
+    {
+      "symbol": "LVWR",
+      "name": "LiveWire Group, Inc.",
+      "currency": "USD",
+      "price": 0.3831,
+      "previousClose": 0.2934,
+      "timestamp": 1794935742000,
+      "percent": 30.572597137014323
+    },
+    {
       "symbol": "SYPR",
       "name": "Sypris Solutions, Inc.",
       "currency": "USD",
       "price": 1.385,
       "previousClose": 1.07,
-      "timestamp": 1794935115000,
+      "timestamp": 1794935600000,
       "percent": 29.439252336448597
     },
     {
       "symbol": "MCRP",
       "name": "Micropolis AI Robotics",
       "currency": "USD",
-      "price": 0.3844,
+      "price": 0.3826,
       "previousClose": 0.2974,
-      "timestamp": 1794935144000,
-      "percent": 29.253530598520516
-    },
-    {
-      "symbol": "GANX",
-      "name": "Gain Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 1.205,
-      "previousClose": 0.9402,
-      "timestamp": 1794935139000,
-      "percent": 28.164220378642835
+      "timestamp": 1794935743000,
+      "percent": 28.648285137861464
     },
     {
       "symbol": "CING",
@@ -309,179 +318,170 @@
       "currency": "USD",
       "price": 4.78,
       "previousClose": 3.75,
-      "timestamp": 1794935136000,
+      "timestamp": 1794935737000,
       "percent": 27.466666666666683
-    },
-    {
-      "symbol": "OMH",
-      "name": "Ohmyhome Limited",
-      "currency": "USD",
-      "price": 5.07,
-      "previousClose": 3.98,
-      "timestamp": 1794934572000,
-      "percent": 27.386934673366838
-    },
-    {
-      "symbol": "TCX",
-      "name": "Tucows Inc.",
-      "currency": "USD",
-      "price": 14.47,
-      "previousClose": 11.45,
-      "timestamp": 1794935057000,
-      "percent": 26.375545851528393
-    },
-    {
-      "symbol": "LVWR",
-      "name": "LiveWire Group, Inc.",
-      "currency": "USD",
-      "price": 0.3706,
-      "previousClose": 0.2934,
-      "timestamp": 1794935094000,
-      "percent": 26.31220177232447
     },
     {
       "symbol": "RAIN",
       "name": "Rain Enhancement Technologies Holdco, Inc.",
       "currency": "USD",
-      "price": 1.0699,
+      "price": 1.08,
       "previousClose": 0.8488,
-      "timestamp": 1794935145000,
-      "percent": 26.04853911404337
+      "timestamp": 1794935740000,
+      "percent": 27.238454288407166
+    },
+    {
+      "symbol": "OMH",
+      "name": "Ohmyhome Limited",
+      "currency": "USD",
+      "price": 5.06,
+      "previousClose": 3.98,
+      "timestamp": 1794935456000,
+      "percent": 27.135678391959782
+    },
+    {
+      "symbol": "TCX",
+      "name": "Tucows Inc.",
+      "currency": "USD",
+      "price": 14.55,
+      "previousClose": 11.45,
+      "timestamp": 1794935756000,
+      "percent": 27.07423580786028
     },
     {
       "symbol": "GLAS",
       "name": "Glass House Brands Inc.",
       "currency": "USD",
-      "price": 1.61,
+      "price": 1.6229,
       "previousClose": 1.29,
-      "timestamp": 1794935136000,
-      "percent": 24.8062015503876
-    },
-    {
-      "symbol": "GLSI",
-      "name": "Greenwich LifeSciences, Inc.",
-      "currency": "USD",
-      "price": 17.07,
-      "previousClose": 13.76,
-      "timestamp": 1794935121000,
-      "percent": 24.05523255813955
+      "timestamp": 1794935741000,
+      "percent": 25.8062015503876
     },
     {
       "symbol": "CVM",
       "name": "CEL-SCI Corporation",
       "currency": "USD",
-      "price": 2.05,
+      "price": 2.08,
       "previousClose": 1.66,
-      "timestamp": 1794935129000,
-      "percent": 23.493975903614462
-    },
-    {
-      "symbol": "CRMN",
-      "name": "Skyline Builders Group Holding Limited",
-      "currency": "USD",
-      "price": 1.0151,
-      "previousClose": 0.822,
-      "timestamp": 1794935136000,
-      "percent": 23.491484184914846
-    },
-    {
-      "symbol": "VWAV",
-      "name": "VisionWave Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.4868,
-      "previousClose": 0.3968,
-      "timestamp": 1794935156000,
-      "percent": 22.681451612903224
+      "timestamp": 1794935713000,
+      "percent": 25.30120481927711
     },
     {
       "symbol": "SPAI",
       "name": "Safe Pro Group Inc.",
       "currency": "USD",
-      "price": 3.0164,
+      "price": 3.0614,
       "previousClose": 2.47,
-      "timestamp": 1794935142000,
-      "percent": 22.121457489878527
+      "timestamp": 1794935756000,
+      "percent": 23.943319838056667
     },
     {
-      "symbol": "AIAI",
-      "name": "AIAI Holdings Corporation",
+      "symbol": "GLSI",
+      "name": "Greenwich LifeSciences, Inc.",
       "currency": "USD",
-      "price": 1.215,
-      "previousClose": 1,
-      "timestamp": 1794935104000,
-      "percent": 21.500000000000007
+      "price": 17.0451,
+      "previousClose": 13.76,
+      "timestamp": 1794935513000,
+      "percent": 23.87427325581397
     },
     {
-      "symbol": "ONEW",
-      "name": "OneWater Marine Inc.",
+      "symbol": "CRMN",
+      "name": "Skyline Builders Group Holding Limited",
       "currency": "USD",
-      "price": 10.99,
-      "previousClose": 9.1,
-      "timestamp": 1794934941000,
-      "percent": 20.769230769230784
-    },
-    {
-      "symbol": "POLA",
-      "name": "Polar Power, Inc.",
-      "currency": "USD",
-      "price": 0.4194,
-      "previousClose": 0.348,
-      "timestamp": 1794935144000,
-      "percent": 20.51724137931035
-    },
-    {
-      "symbol": "NCPL",
-      "name": "Netcapital Inc.",
-      "currency": "USD",
-      "price": 2.395,
-      "previousClose": 1.99,
-      "timestamp": 1794935146000,
-      "percent": 20.351758793969843
+      "price": 1.0104,
+      "previousClose": 0.822,
+      "timestamp": 1794935728000,
+      "percent": 22.91970802919707
     },
     {
       "symbol": "PMEC",
       "name": "Primech Holdings Ltd.",
       "currency": "USD",
-      "price": 0.4145,
+      "price": 0.4245,
       "previousClose": 0.3454,
-      "timestamp": 1794935106000,
-      "percent": 20.005790387956
+      "timestamp": 1794935709000,
+      "percent": 22.900984365952514
     },
     {
-      "symbol": "BRAG",
-      "name": "Bragg Gaming Group Inc.",
+      "symbol": "AIAI",
+      "name": "AIAI Holdings Corporation",
       "currency": "USD",
-      "price": 0.684,
-      "previousClose": 0.5716,
-      "timestamp": 1794934122000,
-      "percent": 19.664100769769078
+      "price": 1.225,
+      "previousClose": 1,
+      "timestamp": 1794935699000,
+      "percent": 22.500000000000007
     },
     {
       "symbol": "BRFH",
       "name": "Barfresh Food Group, Inc.",
       "currency": "USD",
-      "price": 0.5999,
+      "price": 0.6133,
       "previousClose": 0.5015,
-      "timestamp": 1794934893000,
-      "percent": 19.621136590229327
+      "timestamp": 1794935697000,
+      "percent": 22.29312063808575
+    },
+    {
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
+      "currency": "USD",
+      "price": 2.428,
+      "previousClose": 1.99,
+      "timestamp": 1794935734000,
+      "percent": 22.010050251256285
+    },
+    {
+      "symbol": "VWAV",
+      "name": "VisionWave Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.4821,
+      "previousClose": 0.3968,
+      "timestamp": 1794935743000,
+      "percent": 21.4969758064516
+    },
+    {
+      "symbol": "ONEW",
+      "name": "OneWater Marine Inc.",
+      "currency": "USD",
+      "price": 11.03,
+      "previousClose": 9.1,
+      "timestamp": 1794935715000,
+      "percent": 21.2087912087912
     },
     {
       "symbol": "NFE",
       "name": "New Fortress Energy Inc.",
       "currency": "USD",
-      "price": 3.628,
+      "price": 3.67,
       "previousClose": 3.05,
-      "timestamp": 1794935109000,
-      "percent": 18.950819672131146
+      "timestamp": 1794935713000,
+      "percent": 20.32786885245903
     },
     {
-      "symbol": "MIST",
-      "name": "Milestone Pharmaceuticals Inc.",
+      "symbol": "VTSI",
+      "name": "VirTra, Inc.",
       "currency": "USD",
-      "price": 0.4336,
-      "previousClose": 0.365,
-      "timestamp": 1794935148000,
-      "percent": 18.794520547945215
+      "price": 4.74,
+      "previousClose": 3.94,
+      "timestamp": 1794935755000,
+      "percent": 20.304568527918796
+    },
+    {
+      "symbol": "MAIA",
+      "name": "MAIA Biotechnology, Inc.",
+      "currency": "USD",
+      "price": 1.215,
+      "previousClose": 1.01,
+      "timestamp": 1794935726000,
+      "percent": 20.297029702970292
+    },
+    {
+      "symbol": "POLA",
+      "name": "Polar Power, Inc.",
+      "currency": "USD",
+      "price": 0.4169,
+      "previousClose": 0.348,
+      "timestamp": 1794935752000,
+      "percent": 19.798850574712645
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-17T12:05[America/New_York]",
-    "updatedAt": 1794935159916
+    "scheduledSlot": "2026-11-17T12:15[America/New_York]",
+    "updatedAt": 1794935763469
   },
-  "todayGainersUpdatedAt": 1794935159916,
+  "todayGainersUpdatedAt": 1794935763469,
   "items": [
     {
       "symbol": "KSPI",
