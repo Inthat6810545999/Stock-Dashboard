@@ -161,10 +161,19 @@
       "symbol": "MPU",
       "name": "Mega Matrix Inc.",
       "currency": "USD",
-      "price": 1.9,
+      "price": 2.12,
       "previousClose": 1.28,
       "timestamp": 1794949201000,
-      "percent": 48.4375
+      "percent": 65.625
+    },
+    {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.019,
+      "previousClose": 0.0121,
+      "timestamp": 1794949200000,
+      "percent": 57.024793388429764
     },
     {
       "symbol": "AYTU",
@@ -201,15 +210,6 @@
       "previousClose": 1.4,
       "timestamp": 1794949201000,
       "percent": 34.2857142857143
-    },
-    {
-      "symbol": "SYPR",
-      "name": "Sypris Solutions, Inc.",
-      "currency": "USD",
-      "price": 1.405,
-      "previousClose": 1.07,
-      "timestamp": 1794949200000,
-      "percent": 31.308411214953267
     }
   ],
   "todayCandidates": [
@@ -253,10 +253,19 @@
       "symbol": "MPU",
       "name": "Mega Matrix Inc.",
       "currency": "USD",
-      "price": 1.9,
+      "price": 2.12,
       "previousClose": 1.28,
       "timestamp": 1794949201000,
-      "percent": 48.4375
+      "percent": 65.625
+    },
+    {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.019,
+      "previousClose": 0.0121,
+      "timestamp": 1794949200000,
+      "percent": 57.024793388429764
     },
     {
       "symbol": "AYTU",
@@ -295,6 +304,15 @@
       "percent": 34.2857142857143
     },
     {
+      "symbol": "TAVIR",
+      "name": "Tavia Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.08,
+      "previousClose": 0.0604,
+      "timestamp": 1794949200000,
+      "percent": 32.4503311258278
+    },
+    {
       "symbol": "SYPR",
       "name": "Sypris Solutions, Inc.",
       "currency": "USD",
@@ -322,6 +340,15 @@
       "percent": 28.720028208744708
     },
     {
+      "symbol": "GLAS",
+      "name": "Glass House Brands Inc.",
+      "currency": "USD",
+      "price": 1.66,
+      "previousClose": 1.29,
+      "timestamp": 1794949202000,
+      "percent": 28.682170542635642
+    },
+    {
       "symbol": "TCX",
       "name": "Tucows Inc.",
       "currency": "USD",
@@ -331,42 +358,6 @@
       "percent": 28.646288209606997
     },
     {
-      "symbol": "MCRP",
-      "name": "Micropolis AI Robotics",
-      "currency": "USD",
-      "price": 0.3781,
-      "previousClose": 0.2974,
-      "timestamp": 1794949184000,
-      "percent": 27.13517148621385
-    },
-    {
-      "symbol": "GLAS",
-      "name": "Glass House Brands Inc.",
-      "currency": "USD",
-      "price": 1.64,
-      "previousClose": 1.29,
-      "timestamp": 1794949194000,
-      "percent": 27.131782945736415
-    },
-    {
-      "symbol": "IBO",
-      "name": "Impact BioMedical Inc.",
-      "currency": "USD",
-      "price": 6.21,
-      "previousClose": 4.91,
-      "timestamp": 1794948491000,
-      "percent": 26.476578411405292
-    },
-    {
-      "symbol": "LUCK",
-      "name": "Lucky Strike Entertainment Corporation",
-      "currency": "USD",
-      "price": 4.18,
-      "previousClose": 3.32,
-      "timestamp": 1794949195000,
-      "percent": 25.903614457831313
-    },
-    {
       "symbol": "CING",
       "name": "Cingulate Inc.",
       "currency": "USD",
@@ -374,6 +365,33 @@
       "previousClose": 3.75,
       "timestamp": 1794949201000,
       "percent": 25.86666666666666
+    },
+    {
+      "symbol": "LVWR",
+      "name": "LiveWire Group, Inc.",
+      "currency": "USD",
+      "price": 0.369,
+      "previousClose": 0.2934,
+      "timestamp": 1794949202000,
+      "percent": 25.76687116564418
+    },
+    {
+      "symbol": "IBO",
+      "name": "Impact BioMedical Inc.",
+      "currency": "USD",
+      "price": 6.17,
+      "previousClose": 4.91,
+      "timestamp": 1794949162000,
+      "percent": 25.661914460285118
+    },
+    {
+      "symbol": "LUCK",
+      "name": "Lucky Strike Entertainment Corporation",
+      "currency": "USD",
+      "price": 4.17,
+      "previousClose": 3.32,
+      "timestamp": 1794949202000,
+      "percent": 25.602409638554224
     },
     {
       "symbol": "GANX",
@@ -412,13 +430,22 @@
       "percent": 24.323083983478643
     },
     {
-      "symbol": "LVWR",
-      "name": "LiveWire Group, Inc.",
+      "symbol": "MCRP",
+      "name": "Micropolis AI Robotics",
       "currency": "USD",
-      "price": 0.3632,
-      "previousClose": 0.2934,
-      "timestamp": 1794949196000,
-      "percent": 23.7900477164281
+      "price": 0.3694,
+      "previousClose": 0.2974,
+      "timestamp": 1794949200000,
+      "percent": 24.209818426361807
+    },
+    {
+      "symbol": "MAIA",
+      "name": "MAIA Biotechnology, Inc.",
+      "currency": "USD",
+      "price": 1.25,
+      "previousClose": 1.01,
+      "timestamp": 1794949200000,
+      "percent": 23.762376237623762
     },
     {
       "symbol": "NFE",
@@ -439,15 +466,6 @@
       "percent": 23.076923076923062
     },
     {
-      "symbol": "MAIA",
-      "name": "MAIA Biotechnology, Inc.",
-      "currency": "USD",
-      "price": 1.24,
-      "previousClose": 1.01,
-      "timestamp": 1794949196000,
-      "percent": 22.77227722772277
-    },
-    {
       "symbol": "IMA",
       "name": "ImageneBio, Inc.",
       "currency": "USD",
@@ -462,26 +480,8 @@
       "currency": "USD",
       "price": 0.6951,
       "previousClose": 0.5716,
-      "timestamp": 1794949142000,
+      "timestamp": 1794949200000,
       "percent": 21.606018194541644
-    },
-    {
-      "symbol": "PMEC",
-      "name": "Primech Holdings Ltd.",
-      "currency": "USD",
-      "price": 0.42,
-      "previousClose": 0.3454,
-      "timestamp": 1794949201000,
-      "percent": 21.59814707585408
-    },
-    {
-      "symbol": "AMCI",
-      "name": "AMC Robotics Corporation",
-      "currency": "USD",
-      "price": 1.06,
-      "previousClose": 0.8799,
-      "timestamp": 1794949194000,
-      "percent": 20.468235026707582
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-17T16:05[America/New_York]",
-    "updatedAt": 1794949567448
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-17T16:15[America/New_York]",
+    "updatedAt": 1794950161091
   },
-  "todayGainersUpdatedAt": 1794949567448,
+  "todayGainersUpdatedAt": 1794950161091,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
