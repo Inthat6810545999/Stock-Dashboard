@@ -131,85 +131,85 @@
       "percent": 105.49450549450552
     },
     {
+      "symbol": "CLRO",
+      "name": "ClearOne, Inc.",
+      "currency": "USD",
+      "price": 6.975,
+      "previousClose": 4.72,
+      "timestamp": 1795014341000,
+      "percent": 47.77542372881356
+    },
+    {
       "symbol": "AKAN",
       "name": "Akanda Corp.",
       "currency": "USD",
       "price": 2.87,
       "previousClose": 2.05,
-      "timestamp": 1795013736000,
+      "timestamp": 1795014336000,
       "percent": 40.000000000000014
     },
     {
       "symbol": "CUE",
       "name": "Cue Biopharma, Inc.",
       "currency": "USD",
-      "price": 3.83,
+      "price": 3.9482,
       "previousClose": 2.83,
-      "timestamp": 1795013742000,
-      "percent": 35.335689045936405
-    },
-    {
-      "symbol": "CLRO",
-      "name": "ClearOne, Inc.",
-      "currency": "USD",
-      "price": 6.31,
-      "previousClose": 4.72,
-      "timestamp": 1795013447000,
-      "percent": 33.68644067796609
+      "timestamp": 1795014341000,
+      "percent": 39.51236749116607
     },
     {
       "symbol": "HIHO",
       "name": "Highway Holdings Limited",
       "currency": "USD",
-      "price": 1.6014,
+      "price": 1.6588,
       "previousClose": 1.23,
-      "timestamp": 1795013747000,
-      "percent": 30.195121951219516
+      "timestamp": 1795014346000,
+      "percent": 34.86178861788618
     },
     {
       "symbol": "MPU",
       "name": "Mega Matrix Inc.",
       "currency": "USD",
-      "price": 2.7,
+      "price": 2.74,
       "previousClose": 2.12,
-      "timestamp": 1795013747000,
-      "percent": 27.35849056603774
+      "timestamp": 1795014341000,
+      "percent": 29.24528301886793
     },
     {
-      "symbol": "ENGS",
-      "name": "Energys Group Limited",
+      "symbol": "TLSA",
+      "name": "Tiziana Life Sciences Ltd",
       "currency": "USD",
-      "price": 0.3846,
-      "previousClose": 0.3088,
-      "timestamp": 1795013743000,
-      "percent": 24.546632124352328
+      "price": 0.8048,
+      "previousClose": 0.648,
+      "timestamp": 1795014358000,
+      "percent": 24.197530864197514
     },
     {
-      "symbol": "HPAI",
-      "name": "Helport AI Limited",
+      "symbol": "ANPA",
+      "name": "Rich Sparkle Holdings Limited",
       "currency": "USD",
-      "price": 0.2501,
-      "previousClose": 0.202,
-      "timestamp": 1795013720000,
-      "percent": 23.81188118811879
+      "price": 1.3,
+      "previousClose": 1.05,
+      "timestamp": 1795014332000,
+      "percent": 23.809523809523814
     },
     {
-      "symbol": "BRBR",
-      "name": "BellRing Brands, Inc.",
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
       "currency": "USD",
-      "price": 13.615,
-      "previousClose": 11.015,
-      "timestamp": 1795013736000,
-      "percent": 23.60417612346799
+      "price": 48.07,
+      "previousClose": 40,
+      "timestamp": 1795014137000,
+      "percent": 20.17500000000001
     },
     {
-      "symbol": "CHSN",
-      "name": "Chanson International Holding",
+      "symbol": "BRFH",
+      "name": "Barfresh Food Group, Inc.",
       "currency": "USD",
-      "price": 0.5779,
-      "previousClose": 0.47,
-      "timestamp": 1795013741000,
-      "percent": 22.95744680851064
+      "price": 0.7725,
+      "previousClose": 0.6496,
+      "timestamp": 1795014317000,
+      "percent": 18.919334975369463
     }
   ],
   "todayCandidates": [
@@ -223,166 +223,220 @@
       "percent": 105.49450549450552
     },
     {
+      "symbol": "CLRO",
+      "name": "ClearOne, Inc.",
+      "currency": "USD",
+      "price": 6.975,
+      "previousClose": 4.72,
+      "timestamp": 1795014341000,
+      "percent": 47.77542372881356
+    },
+    {
       "symbol": "AKAN",
       "name": "Akanda Corp.",
       "currency": "USD",
       "price": 2.87,
       "previousClose": 2.05,
-      "timestamp": 1795013736000,
+      "timestamp": 1795014336000,
       "percent": 40.000000000000014
     },
     {
       "symbol": "CUE",
       "name": "Cue Biopharma, Inc.",
       "currency": "USD",
-      "price": 3.83,
+      "price": 3.9482,
       "previousClose": 2.83,
-      "timestamp": 1795013742000,
-      "percent": 35.335689045936405
-    },
-    {
-      "symbol": "CLRO",
-      "name": "ClearOne, Inc.",
-      "currency": "USD",
-      "price": 6.31,
-      "previousClose": 4.72,
-      "timestamp": 1795013447000,
-      "percent": 33.68644067796609
+      "timestamp": 1795014341000,
+      "percent": 39.51236749116607
     },
     {
       "symbol": "HIHO",
       "name": "Highway Holdings Limited",
       "currency": "USD",
-      "price": 1.6014,
+      "price": 1.6588,
       "previousClose": 1.23,
-      "timestamp": 1795013747000,
-      "percent": 30.195121951219516
+      "timestamp": 1795014346000,
+      "percent": 34.86178861788618
     },
     {
       "symbol": "MPU",
       "name": "Mega Matrix Inc.",
       "currency": "USD",
-      "price": 2.7,
+      "price": 2.74,
       "previousClose": 2.12,
-      "timestamp": 1795013747000,
-      "percent": 27.35849056603774
-    },
-    {
-      "symbol": "ENGS",
-      "name": "Energys Group Limited",
-      "currency": "USD",
-      "price": 0.3846,
-      "previousClose": 0.3088,
-      "timestamp": 1795013743000,
-      "percent": 24.546632124352328
-    },
-    {
-      "symbol": "HPAI",
-      "name": "Helport AI Limited",
-      "currency": "USD",
-      "price": 0.2501,
-      "previousClose": 0.202,
-      "timestamp": 1795013720000,
-      "percent": 23.81188118811879
-    },
-    {
-      "symbol": "BRBR",
-      "name": "BellRing Brands, Inc.",
-      "currency": "USD",
-      "price": 13.615,
-      "previousClose": 11.015,
-      "timestamp": 1795013736000,
-      "percent": 23.60417612346799
-    },
-    {
-      "symbol": "CHSN",
-      "name": "Chanson International Holding",
-      "currency": "USD",
-      "price": 0.5779,
-      "previousClose": 0.47,
-      "timestamp": 1795013741000,
-      "percent": 22.95744680851064
-    },
-    {
-      "symbol": "AZI",
-      "name": "Autozi Internet Technology (Global) Ltd.",
-      "currency": "USD",
-      "price": 0.8814,
-      "previousClose": 0.7301,
-      "timestamp": 1795013734000,
-      "percent": 20.72318860430078
+      "timestamp": 1795014341000,
+      "percent": 29.24528301886793
     },
     {
       "symbol": "TLSA",
       "name": "Tiziana Life Sciences Ltd",
       "currency": "USD",
-      "price": 0.7785,
+      "price": 0.8048,
       "previousClose": 0.648,
-      "timestamp": 1795013748000,
-      "percent": 20.138888888888886
+      "timestamp": 1795014358000,
+      "percent": 24.197530864197514
     },
     {
-      "symbol": "XBP",
-      "name": "XBP Global Holdings, Inc.",
+      "symbol": "ANPA",
+      "name": "Rich Sparkle Holdings Limited",
       "currency": "USD",
-      "price": 2.895,
-      "previousClose": 2.4101,
-      "timestamp": 1795013695000,
-      "percent": 20.11949711630223
-    },
-    {
-      "symbol": "NUR",
-      "name": "Nuran Wireless Inc.",
-      "currency": "USD",
-      "price": 0.44,
-      "previousClose": 0.3738,
-      "timestamp": 1795013730000,
-      "percent": 17.71000535045477
-    },
-    {
-      "symbol": "BRFH",
-      "name": "Barfresh Food Group, Inc.",
-      "currency": "USD",
-      "price": 0.76,
-      "previousClose": 0.6496,
-      "timestamp": 1795013737000,
-      "percent": 16.995073891625623
-    },
-    {
-      "symbol": "ICCM",
-      "name": "IceCure Medical Ltd",
-      "currency": "USD",
-      "price": 0.96,
-      "previousClose": 0.8301,
-      "timestamp": 1795013743000,
-      "percent": 15.648717022045533
-    },
-    {
-      "symbol": "ATER",
-      "name": "Aterian, Inc.",
-      "currency": "USD",
-      "price": 1.105,
-      "previousClose": 0.9564,
-      "timestamp": 1795013715000,
-      "percent": 15.537432036804688
-    },
-    {
-      "symbol": "OSTX",
-      "name": "OS Therapies Incorporated",
-      "currency": "USD",
-      "price": 0.86,
-      "previousClose": 0.7448,
-      "timestamp": 1795013742000,
-      "percent": 15.467239527389909
+      "price": 1.3,
+      "previousClose": 1.05,
+      "timestamp": 1795014332000,
+      "percent": 23.809523809523814
     },
     {
       "symbol": "RIBBU",
       "name": "Ribbon Acquisition Corp.",
       "currency": "USD",
-      "price": 46.16,
+      "price": 48.07,
       "previousClose": 40,
-      "timestamp": 1795013397000,
-      "percent": 15.399999999999991
+      "timestamp": 1795014137000,
+      "percent": 20.17500000000001
+    },
+    {
+      "symbol": "BRFH",
+      "name": "Barfresh Food Group, Inc.",
+      "currency": "USD",
+      "price": 0.7725,
+      "previousClose": 0.6496,
+      "timestamp": 1795014317000,
+      "percent": 18.919334975369463
+    },
+    {
+      "symbol": "ICCM",
+      "name": "IceCure Medical Ltd",
+      "currency": "USD",
+      "price": 0.9812,
+      "previousClose": 0.8301,
+      "timestamp": 1795014323000,
+      "percent": 18.2026261896157
+    },
+    {
+      "symbol": "XBP",
+      "name": "XBP Global Holdings, Inc.",
+      "currency": "USD",
+      "price": 2.8401,
+      "previousClose": 2.4101,
+      "timestamp": 1795014178000,
+      "percent": 17.84158333679102
+    },
+    {
+      "symbol": "BRBR",
+      "name": "BellRing Brands, Inc.",
+      "currency": "USD",
+      "price": 12.9611,
+      "previousClose": 11.01,
+      "timestamp": 1795014338000,
+      "percent": 17.721162579473205
+    },
+    {
+      "symbol": "ANTX",
+      "name": "AN2 Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 4.978,
+      "previousClose": 4.23,
+      "timestamp": 1795014318000,
+      "percent": 17.683215130023623
+    },
+    {
+      "symbol": "QSI",
+      "name": "Quantum-Si incorporated",
+      "currency": "USD",
+      "price": 1.1811,
+      "previousClose": 1.01,
+      "timestamp": 1795014353000,
+      "percent": 16.94059405940593
+    },
+    {
+      "symbol": "GMM",
+      "name": "Global Mofy AI Limited",
+      "currency": "USD",
+      "price": 1.6212,
+      "previousClose": 1.39,
+      "timestamp": 1795014345000,
+      "percent": 16.633093525179852
+    },
+    {
+      "symbol": "ADAG",
+      "name": "Adagene Inc.",
+      "currency": "USD",
+      "price": 1.72,
+      "previousClose": 1.48,
+      "timestamp": 1795014308000,
+      "percent": 16.216216216216207
+    },
+    {
+      "symbol": "AZI",
+      "name": "Autozi Internet Technology (Global) Ltd.",
+      "currency": "USD",
+      "price": 0.8453,
+      "previousClose": 0.7301,
+      "timestamp": 1795014317000,
+      "percent": 15.778660457471583
+    },
+    {
+      "symbol": "OSTX",
+      "name": "OS Therapies Incorporated",
+      "currency": "USD",
+      "price": 0.8607,
+      "previousClose": 0.7448,
+      "timestamp": 1795014341000,
+      "percent": 15.561224489795912
+    },
+    {
+      "symbol": "ENGS",
+      "name": "Energys Group Limited",
+      "currency": "USD",
+      "price": 0.3557,
+      "previousClose": 0.3088,
+      "timestamp": 1795014341000,
+      "percent": 15.187823834196879
+    },
+    {
+      "symbol": "SKYA",
+      "name": "SkyAI, Inc.",
+      "currency": "USD",
+      "price": 2.49,
+      "previousClose": 2.17,
+      "timestamp": 1795014309000,
+      "percent": 14.746543778801847
+    },
+    {
+      "symbol": "VWAV",
+      "name": "VisionWave Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.5698,
+      "previousClose": 0.4971,
+      "timestamp": 1795014357000,
+      "percent": 14.624823979078649
+    },
+    {
+      "symbol": "CING",
+      "name": "Cingulate Inc.",
+      "currency": "USD",
+      "price": 5.4,
+      "previousClose": 4.72,
+      "timestamp": 1795014313000,
+      "percent": 14.406779661016955
+    },
+    {
+      "symbol": "QNC",
+      "name": "Quantum eMotion Corp.",
+      "currency": "USD",
+      "price": 0.93,
+      "previousClose": 0.814,
+      "timestamp": 1795014314000,
+      "percent": 14.25061425061427
+    },
+    {
+      "symbol": "KULR",
+      "name": "KULR Technology Group, Inc.",
+      "currency": "USD",
+      "price": 1.7584,
+      "previousClose": 1.54,
+      "timestamp": 1795014338000,
+      "percent": 14.181818181818183
     },
     {
       "symbol": "ROMA",
@@ -394,109 +448,55 @@
       "percent": 14.003590664272881
     },
     {
-      "symbol": "ANTX",
-      "name": "AN2 Therapeutics, Inc.",
+      "symbol": "NIVF",
+      "name": "NewGenIvf Group Limited",
       "currency": "USD",
-      "price": 4.785,
-      "previousClose": 4.23,
-      "timestamp": 1795013715000,
-      "percent": 13.120567375886516
+      "price": 0.1969,
+      "previousClose": 0.1728,
+      "timestamp": 1795014350000,
+      "percent": 13.946759259259256
     },
     {
-      "symbol": "SNES",
-      "name": "SenesTech, Inc.",
+      "symbol": "BBCI",
+      "name": "Bradbury Capital Inc.",
       "currency": "USD",
-      "price": 0.842,
-      "previousClose": 0.7461,
-      "timestamp": 1795012201000,
-      "percent": 12.853504892105615
+      "price": 1.31,
+      "previousClose": 1.15,
+      "timestamp": 1795014337000,
+      "percent": 13.913043478260878
     },
     {
-      "symbol": "FIRY",
-      "name": "Firy Inc.",
+      "symbol": "REBN",
+      "name": "Reborn Coffee, Inc.",
       "currency": "USD",
-      "price": 12.95,
-      "previousClose": 11.51,
-      "timestamp": 1795013739000,
-      "percent": 12.51086012163336
+      "price": 1.1159,
+      "previousClose": 0.9814,
+      "timestamp": 1795014167000,
+      "percent": 13.70491135113101
     },
     {
-      "symbol": "RVSN",
-      "name": "Rail Vision Ltd.",
+      "symbol": "CRMT",
+      "name": "America's Car-Mart, Inc.",
       "currency": "USD",
-      "price": 2.295,
-      "previousClose": 2.04,
-      "timestamp": 1795012541000,
-      "percent": 12.5
-    },
-    {
-      "symbol": "SKYA",
-      "name": "SkyAI, Inc.",
-      "currency": "USD",
-      "price": 2.439,
-      "previousClose": 2.17,
-      "timestamp": 1795013721000,
-      "percent": 12.396313364055311
-    },
-    {
-      "symbol": "ONCY",
-      "name": "Oncolytics Biotech Inc.",
-      "currency": "USD",
-      "price": 0.4299,
-      "previousClose": 0.3825,
-      "timestamp": 1795013667000,
-      "percent": 12.392156862745107
-    },
-    {
-      "symbol": "QSI",
-      "name": "Quantum-Si incorporated",
-      "currency": "USD",
-      "price": 1.135,
-      "previousClose": 1.01,
-      "timestamp": 1795013755000,
-      "percent": 12.376237623762387
-    },
-    {
-      "symbol": "GMM",
-      "name": "Global Mofy AI Limited",
-      "currency": "USD",
-      "price": 1.56,
-      "previousClose": 1.39,
-      "timestamp": 1795013744000,
-      "percent": 12.230215827338142
-    },
-    {
-      "symbol": "ARMP",
-      "name": "Armata Pharmaceuticals, Inc.",
-      "currency": "USD",
-      "price": 2.94,
-      "previousClose": 2.62,
-      "timestamp": 1795013655000,
-      "percent": 12.213740458015266
-    },
-    {
-      "symbol": "FGC",
-      "name": "FG Communities Holdings Inc.",
-      "currency": "USD",
-      "price": 6.047,
-      "previousClose": 5.39,
-      "timestamp": 1795012924000,
-      "percent": 12.18923933209648
+      "price": 0.989,
+      "previousClose": 0.8711,
+      "timestamp": 1795014223000,
+      "percent": 13.534611410859831
     }
   ],
   "todayScan": {
     "total": 5451,
     "processed": 5451,
-    "eligible": 5450,
-    "missing": 1,
+    "eligible": 5451,
+    "missing": 0,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-18T09:55[America/New_York]",
-    "updatedAt": 1795013764015
+    "scheduledSlot": "2026-11-18T10:05[America/New_York]",
+    "updatedAt": 1795014362544
   },
-  "todayGainersUpdatedAt": 1795013764015,
+  "todayGainersUpdatedAt": 1795014362544,
   "items": [
     {
       "symbol": "KSPI",
