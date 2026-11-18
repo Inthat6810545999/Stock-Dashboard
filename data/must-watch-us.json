@@ -158,15 +158,6 @@
       "percent": 57.07101186883927
     },
     {
-      "symbol": "INACR",
-      "name": "Indigo Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.0808,
-      "previousClose": 0.0551,
-      "timestamp": 1795025403000,
-      "percent": 46.642468239564415
-    },
-    {
       "symbol": "CLRO",
       "name": "ClearOne, Inc.",
       "currency": "USD",
@@ -176,6 +167,15 @@
       "percent": 46.18644067796611
     },
     {
+      "symbol": "CRAQR",
+      "name": "Cal Redwood Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.089,
+      "previousClose": 0.0613,
+      "timestamp": 1795035600000,
+      "percent": 45.18760195758564
+    },
+    {
       "symbol": "AZI",
       "name": "Autozi Internet Technology (Global) Ltd.",
       "currency": "USD",
@@ -183,15 +183,6 @@
       "previousClose": 0.7301,
       "timestamp": 1795035601000,
       "percent": 42.446240241062874
-    },
-    {
-      "symbol": "RIBBU",
-      "name": "Ribbon Acquisition Corp.",
-      "currency": "USD",
-      "price": 55.95,
-      "previousClose": 40,
-      "timestamp": 1795022105000,
-      "percent": 39.875000000000014
     },
     {
       "symbol": "BTOC",
@@ -210,6 +201,15 @@
       "previousClose": 0.3738,
       "timestamp": 1795035601000,
       "percent": 34.29641519529159
+    },
+    {
+      "symbol": "MPU",
+      "name": "Mega Matrix Inc.",
+      "currency": "USD",
+      "price": 2.84,
+      "previousClose": 2.12,
+      "timestamp": 1795035600000,
+      "percent": 33.96226415094339
     }
   ],
   "todayCandidates": [
@@ -250,15 +250,6 @@
       "percent": 57.07101186883927
     },
     {
-      "symbol": "INACR",
-      "name": "Indigo Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.0808,
-      "previousClose": 0.0551,
-      "timestamp": 1795025403000,
-      "percent": 46.642468239564415
-    },
-    {
       "symbol": "CLRO",
       "name": "ClearOne, Inc.",
       "currency": "USD",
@@ -268,6 +259,15 @@
       "percent": 46.18644067796611
     },
     {
+      "symbol": "CRAQR",
+      "name": "Cal Redwood Acquisition Corp.",
+      "currency": "USD",
+      "price": 0.089,
+      "previousClose": 0.0613,
+      "timestamp": 1795035600000,
+      "percent": 45.18760195758564
+    },
+    {
       "symbol": "AZI",
       "name": "Autozi Internet Technology (Global) Ltd.",
       "currency": "USD",
@@ -275,15 +275,6 @@
       "previousClose": 0.7301,
       "timestamp": 1795035601000,
       "percent": 42.446240241062874
-    },
-    {
-      "symbol": "RIBBU",
-      "name": "Ribbon Acquisition Corp.",
-      "currency": "USD",
-      "price": 55.95,
-      "previousClose": 40,
-      "timestamp": 1795022105000,
-      "percent": 39.875000000000014
     },
     {
       "symbol": "BTOC",
@@ -307,10 +298,10 @@
       "symbol": "MPU",
       "name": "Mega Matrix Inc.",
       "currency": "USD",
-      "price": 2.83,
+      "price": 2.84,
       "previousClose": 2.12,
-      "timestamp": 1795035595000,
-      "percent": 33.49056603773584
+      "timestamp": 1795035600000,
+      "percent": 33.96226415094339
     },
     {
       "symbol": "ANPA",
@@ -329,6 +320,15 @@
       "previousClose": 0.781,
       "timestamp": 1795035601000,
       "percent": 33.16261203585147
+    },
+    {
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
+      "currency": "USD",
+      "price": 52.5,
+      "previousClose": 40,
+      "timestamp": 1795035600000,
+      "percent": 31.25
     },
     {
       "symbol": "HIHO",
@@ -403,15 +403,6 @@
       "percent": 24.462809917355386
     },
     {
-      "symbol": "BRBR",
-      "name": "BellRing Brands, Inc.",
-      "currency": "USD",
-      "price": 13.668,
-      "previousClose": 11.01,
-      "timestamp": 1795035599000,
-      "percent": 24.14168937329699
-    },
-    {
       "symbol": "ICCM",
       "name": "IceCure Medical Ltd",
       "currency": "USD",
@@ -421,13 +412,22 @@
       "percent": 24.08143597156971
     },
     {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
+      "symbol": "BRBR",
+      "name": "BellRing Brands, Inc.",
       "currency": "USD",
-      "price": 2.5906,
-      "previousClose": 2.09,
-      "timestamp": 1795035571000,
-      "percent": 23.952153110047835
+      "price": 13.66,
+      "previousClose": 11.01,
+      "timestamp": 1795035602000,
+      "percent": 24.069028156221627
+    },
+    {
+      "symbol": "RFAI",
+      "name": "RF Acquisition Corp II",
+      "currency": "USD",
+      "price": 33.7,
+      "previousClose": 27.22,
+      "timestamp": 1795035600000,
+      "percent": 23.80602498163118
     },
     {
       "symbol": "SPWR",
@@ -439,22 +439,31 @@
       "percent": 23.671782762691862
     },
     {
+      "symbol": "OSTX",
+      "name": "OS Therapies Incorporated",
+      "currency": "USD",
+      "price": 0.9199,
+      "previousClose": 0.7448,
+      "timestamp": 1795035600000,
+      "percent": 23.509667024704626
+    },
+    {
       "symbol": "VMAR",
       "name": "Vision Marine Technologies Inc.",
       "currency": "USD",
       "price": 3.585,
       "previousClose": 2.91,
-      "timestamp": 1795035597000,
+      "timestamp": 1795035600000,
       "percent": 23.19587628865978
     },
     {
-      "symbol": "FIRY",
-      "name": "Firy Inc.",
+      "symbol": "CTSO",
+      "name": "Cytosorbents Corporation",
       "currency": "USD",
-      "price": 14.18,
-      "previousClose": 11.53,
-      "timestamp": 1795035599000,
-      "percent": 22.98352124891587
+      "price": 5.565,
+      "previousClose": 4.52,
+      "timestamp": 1795035600000,
+      "percent": 23.11946902654869
     },
     {
       "symbol": "ADAG",
@@ -466,22 +475,13 @@
       "percent": 22.972972972972983
     },
     {
-      "symbol": "CRAQR",
-      "name": "Cal Redwood Acquisition Corp.",
+      "symbol": "FIRY",
+      "name": "Firy Inc.",
       "currency": "USD",
-      "price": 0.075,
-      "previousClose": 0.0613,
-      "timestamp": 1795025031000,
-      "percent": 22.349102773246333
-    },
-    {
-      "symbol": "OSTX",
-      "name": "OS Therapies Incorporated",
-      "currency": "USD",
-      "price": 0.9095,
-      "previousClose": 0.7448,
-      "timestamp": 1795035595000,
-      "percent": 22.113319011815236
+      "price": 14.16,
+      "previousClose": 11.53,
+      "timestamp": 1795035603000,
+      "percent": 22.810060711188207
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-18T16:05[America/New_York]",
-    "updatedAt": 1795035964701
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-18T16:15[America/New_York]",
+    "updatedAt": 1795036570027
   },
-  "todayGainersUpdatedAt": 1795035964701,
+  "todayGainersUpdatedAt": 1795036570027,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
