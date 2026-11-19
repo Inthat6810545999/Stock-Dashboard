@@ -122,303 +122,267 @@
   },
   "todayGainers": [
     {
+      "symbol": "CHSN",
+      "name": "Chanson International Holding",
+      "currency": "USD",
+      "price": 0.1899,
+      "previousClose": 0.102,
+      "timestamp": 1795099543000,
+      "percent": 86.17647058823532
+    },
+    {
       "symbol": "SEAT",
       "name": "Vivid Seats Inc.",
       "currency": "USD",
-      "price": 2.36,
+      "price": 2.245,
       "previousClose": 1.28,
-      "timestamp": 1795098964000,
-      "percent": 84.37499999999997
+      "timestamp": 1795099559000,
+      "percent": 75.390625
     },
     {
       "symbol": "VIVS",
       "name": "VivoSim Labs, Inc.",
       "currency": "USD",
-      "price": 0.2011,
+      "price": 0.1865,
       "previousClose": 0.12,
-      "timestamp": 1795098967000,
-      "percent": 67.58333333333336
-    },
-    {
-      "symbol": "CHSN",
-      "name": "Chanson International Holding",
-      "currency": "USD",
-      "price": 0.1568,
-      "previousClose": 0.102,
-      "timestamp": 1795098947000,
-      "percent": 53.72549019607844
-    },
-    {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
-      "currency": "USD",
-      "price": 3.885,
-      "previousClose": 2.5906,
-      "timestamp": 1795098962000,
-      "percent": 49.965259013355976
-    },
-    {
-      "symbol": "CRAQR",
-      "name": "Cal Redwood Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.089,
-      "previousClose": 0.0613,
-      "timestamp": 1795035600000,
-      "percent": 45.18760195758564
-    },
-    {
-      "symbol": "LGHL",
-      "name": "Lion Group Holding Ltd.",
-      "currency": "USD",
-      "price": 1.16,
-      "previousClose": 0.8601,
-      "timestamp": 1795098956000,
-      "percent": 34.86803860016276
+      "timestamp": 1795099562000,
+      "percent": 55.41666666666667
     },
     {
       "symbol": "INHD",
       "name": "Inno Holdings Inc.",
       "currency": "USD",
-      "price": 3.09,
+      "price": 3.0601,
       "previousClose": 2.3,
-      "timestamp": 1795098955000,
-      "percent": 34.34782608695652
-    },
-    {
-      "symbol": "SPRC",
-      "name": "SciSparc Ltd.",
-      "currency": "USD",
-      "price": 0.3497,
-      "previousClose": 0.2701,
-      "timestamp": 1795098965000,
-      "percent": 29.47056645686783
+      "timestamp": 1795099549000,
+      "percent": 33.04782608695653
     },
     {
       "symbol": "MRKR",
       "name": "Marker Therapeutics, Inc.",
       "currency": "USD",
-      "price": 1.08,
+      "price": 1.1199,
       "previousClose": 0.8532,
-      "timestamp": 1795098958000,
-      "percent": 26.582278481012665
+      "timestamp": 1795099553000,
+      "percent": 31.25879043600561
     },
     {
-      "symbol": "LASE",
-      "name": "LASE Corp.",
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
       "currency": "USD",
-      "price": 0.4924,
-      "previousClose": 0.3923,
-      "timestamp": 1795098953000,
-      "percent": 25.516186591893963
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "SEAT",
-      "name": "Vivid Seats Inc.",
-      "currency": "USD",
-      "price": 2.36,
-      "previousClose": 1.28,
-      "timestamp": 1795098964000,
-      "percent": 84.37499999999997
-    },
-    {
-      "symbol": "VIVS",
-      "name": "VivoSim Labs, Inc.",
-      "currency": "USD",
-      "price": 0.2011,
-      "previousClose": 0.12,
-      "timestamp": 1795098967000,
-      "percent": 67.58333333333336
-    },
-    {
-      "symbol": "CHSN",
-      "name": "Chanson International Holding",
-      "currency": "USD",
-      "price": 0.1568,
-      "previousClose": 0.102,
-      "timestamp": 1795098947000,
-      "percent": 53.72549019607844
-    },
-    {
-      "symbol": "POAS",
-      "name": "Phaos Technology Holdings (Caym",
-      "currency": "USD",
-      "price": 3.885,
-      "previousClose": 2.5906,
-      "timestamp": 1795098962000,
-      "percent": 49.965259013355976
-    },
-    {
-      "symbol": "CRAQR",
-      "name": "Cal Redwood Acquisition Corp.",
-      "currency": "USD",
-      "price": 0.089,
-      "previousClose": 0.0613,
-      "timestamp": 1795035600000,
-      "percent": 45.18760195758564
-    },
-    {
-      "symbol": "LGHL",
-      "name": "Lion Group Holding Ltd.",
-      "currency": "USD",
-      "price": 1.16,
-      "previousClose": 0.8601,
-      "timestamp": 1795098956000,
-      "percent": 34.86803860016276
-    },
-    {
-      "symbol": "INHD",
-      "name": "Inno Holdings Inc.",
-      "currency": "USD",
-      "price": 3.09,
-      "previousClose": 2.3,
-      "timestamp": 1795098955000,
-      "percent": 34.34782608695652
+      "price": 0.0119,
+      "previousClose": 0.0094,
+      "timestamp": 1795099261000,
+      "percent": 26.595744680851062
     },
     {
       "symbol": "SPRC",
       "name": "SciSparc Ltd.",
       "currency": "USD",
-      "price": 0.3497,
+      "price": 0.3388,
       "previousClose": 0.2701,
-      "timestamp": 1795098965000,
-      "percent": 29.47056645686783
-    },
-    {
-      "symbol": "MRKR",
-      "name": "Marker Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 1.08,
-      "previousClose": 0.8532,
-      "timestamp": 1795098958000,
-      "percent": 26.582278481012665
-    },
-    {
-      "symbol": "LASE",
-      "name": "LASE Corp.",
-      "currency": "USD",
-      "price": 0.4924,
-      "previousClose": 0.3923,
-      "timestamp": 1795098953000,
-      "percent": 25.516186591893963
-    },
-    {
-      "symbol": "MPU",
-      "name": "Mega Matrix Inc.",
-      "currency": "USD",
-      "price": 3.4837,
-      "previousClose": 2.83,
-      "timestamp": 1795098952000,
-      "percent": 23.09893992932861
-    },
-    {
-      "symbol": "EJH",
-      "name": "E-Home Household Service Holdings Limited",
-      "currency": "USD",
-      "price": 1.33,
-      "previousClose": 1.1,
-      "timestamp": 1795098920000,
-      "percent": 20.9090909090909
-    },
-    {
-      "symbol": "MDRN",
-      "name": "Modern Mining Technology Corp.",
-      "currency": "USD",
-      "price": 1.97,
-      "previousClose": 1.63,
-      "timestamp": 1795098924000,
-      "percent": 20.858895705521483
-    },
-    {
-      "symbol": "FLD",
-      "name": "Fold Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.2751,
-      "previousClose": 0.228,
-      "timestamp": 1795098896000,
-      "percent": 20.657894736842096
-    },
-    {
-      "symbol": "ZYN",
-      "name": "PTL Limited",
-      "currency": "USD",
-      "price": 12.02,
-      "previousClose": 9.99,
-      "timestamp": 1795098967000,
-      "percent": 20.320320320320317
-    },
-    {
-      "symbol": "AGIG",
-      "name": "Abundia Global Impact Group Inc",
-      "currency": "USD",
-      "price": 0.6697,
-      "previousClose": 0.56,
-      "timestamp": 1795098929000,
-      "percent": 19.589285714285687
-    },
-    {
-      "symbol": "GIBO",
-      "name": "GIBO Holdings Limited",
-      "currency": "USD",
-      "price": 101.92,
-      "previousClose": 85.48,
-      "timestamp": 1795035601000,
-      "percent": 19.23256902199344
-    },
-    {
-      "symbol": "GNLN",
-      "name": "Greenlane Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.7265,
-      "previousClose": 0.6111,
-      "timestamp": 1795098952000,
-      "percent": 18.883979708721977
-    },
-    {
-      "symbol": "AIFA",
-      "name": "All In FutureTech Alliance Inc.",
-      "currency": "USD",
-      "price": 3.47,
-      "previousClose": 2.92,
-      "timestamp": 1795098888000,
-      "percent": 18.835616438356183
-    },
-    {
-      "symbol": "DRIO",
-      "name": "DarioHealth Corp.",
-      "currency": "USD",
-      "price": 1.7299,
-      "previousClose": 1.46,
-      "timestamp": 1795098824000,
-      "percent": 18.48630136986302
-    },
-    {
-      "symbol": "DSS",
-      "name": "DSS, Inc.",
-      "currency": "USD",
-      "price": 0.579,
-      "previousClose": 0.49,
-      "timestamp": 1795035600000,
-      "percent": 18.163265306122444
+      "timestamp": 1795099554000,
+      "percent": 25.43502406516105
     },
     {
       "symbol": "LOOP",
       "name": "Loop Industries, Inc.",
       "currency": "USD",
-      "price": 0.2493,
+      "price": 0.2569,
       "previousClose": 0.211,
-      "timestamp": 1795098954000,
-      "percent": 18.151658767772517
+      "timestamp": 1795099491000,
+      "percent": 21.75355450236969
     },
     {
-      "symbol": "INLF",
-      "name": "INLIF Limited",
+      "symbol": "LGHL",
+      "name": "Lion Group Holding Ltd.",
       "currency": "USD",
-      "price": 0.2676,
-      "previousClose": 0.2273,
-      "timestamp": 1795098952000,
-      "percent": 17.729872415310165
+      "price": 1.035,
+      "previousClose": 0.8601,
+      "timestamp": 1795099549000,
+      "percent": 20.33484478549006
+    },
+    {
+      "symbol": "GNLN",
+      "name": "Greenlane Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.7338,
+      "previousClose": 0.6111,
+      "timestamp": 1795099546000,
+      "percent": 20.07854688267059
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "CHSN",
+      "name": "Chanson International Holding",
+      "currency": "USD",
+      "price": 0.1899,
+      "previousClose": 0.102,
+      "timestamp": 1795099543000,
+      "percent": 86.17647058823532
+    },
+    {
+      "symbol": "SEAT",
+      "name": "Vivid Seats Inc.",
+      "currency": "USD",
+      "price": 2.245,
+      "previousClose": 1.28,
+      "timestamp": 1795099559000,
+      "percent": 75.390625
+    },
+    {
+      "symbol": "VIVS",
+      "name": "VivoSim Labs, Inc.",
+      "currency": "USD",
+      "price": 0.1865,
+      "previousClose": 0.12,
+      "timestamp": 1795099562000,
+      "percent": 55.41666666666667
+    },
+    {
+      "symbol": "INHD",
+      "name": "Inno Holdings Inc.",
+      "currency": "USD",
+      "price": 3.0601,
+      "previousClose": 2.3,
+      "timestamp": 1795099549000,
+      "percent": 33.04782608695653
+    },
+    {
+      "symbol": "MRKR",
+      "name": "Marker Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.1199,
+      "previousClose": 0.8532,
+      "timestamp": 1795099553000,
+      "percent": 31.25879043600561
+    },
+    {
+      "symbol": "AMPGZ",
+      "name": "AmpliTech Group, Inc.",
+      "currency": "USD",
+      "price": 0.0119,
+      "previousClose": 0.0094,
+      "timestamp": 1795099261000,
+      "percent": 26.595744680851062
+    },
+    {
+      "symbol": "SPRC",
+      "name": "SciSparc Ltd.",
+      "currency": "USD",
+      "price": 0.3388,
+      "previousClose": 0.2701,
+      "timestamp": 1795099554000,
+      "percent": 25.43502406516105
+    },
+    {
+      "symbol": "LOOP",
+      "name": "Loop Industries, Inc.",
+      "currency": "USD",
+      "price": 0.2569,
+      "previousClose": 0.211,
+      "timestamp": 1795099491000,
+      "percent": 21.75355450236969
+    },
+    {
+      "symbol": "LGHL",
+      "name": "Lion Group Holding Ltd.",
+      "currency": "USD",
+      "price": 1.035,
+      "previousClose": 0.8601,
+      "timestamp": 1795099549000,
+      "percent": 20.33484478549006
+    },
+    {
+      "symbol": "GNLN",
+      "name": "Greenlane Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.7338,
+      "previousClose": 0.6111,
+      "timestamp": 1795099546000,
+      "percent": 20.07854688267059
+    },
+    {
+      "symbol": "ZYN",
+      "name": "PTL Limited",
+      "currency": "USD",
+      "price": 11.9858,
+      "previousClose": 9.99,
+      "timestamp": 1795099558000,
+      "percent": 19.97797797797798
+    },
+    {
+      "symbol": "LASE",
+      "name": "LASE Corp.",
+      "currency": "USD",
+      "price": 0.4663,
+      "previousClose": 0.3923,
+      "timestamp": 1795099547000,
+      "percent": 18.863114963038498
+    },
+    {
+      "symbol": "MPU",
+      "name": "Mega Matrix Inc.",
+      "currency": "USD",
+      "price": 3.35,
+      "previousClose": 2.83,
+      "timestamp": 1795099550000,
+      "percent": 18.37455830388692
+    },
+    {
+      "symbol": "FLD",
+      "name": "Fold Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.2697,
+      "previousClose": 0.228,
+      "timestamp": 1795099546000,
+      "percent": 18.28947368421052
+    },
+    {
+      "symbol": "ELOG",
+      "name": "Eastern International Ltd.",
+      "currency": "USD",
+      "price": 1.17,
+      "previousClose": 0.9899,
+      "timestamp": 1795099542000,
+      "percent": 18.193756945145978
+    },
+    {
+      "symbol": "POAS",
+      "name": "Phaos Technology Holdings (Caym",
+      "currency": "USD",
+      "price": 3.06,
+      "previousClose": 2.5906,
+      "timestamp": 1795099518000,
+      "percent": 18.119354589670355
+    },
+    {
+      "symbol": "NKLR",
+      "name": "Terra Innovatum Global N.V.",
+      "currency": "USD",
+      "price": 2.21,
+      "previousClose": 1.88,
+      "timestamp": 1795099543000,
+      "percent": 17.553191489361698
+    },
+    {
+      "symbol": "CIGL",
+      "name": "Concorde International Group Ltd.",
+      "currency": "USD",
+      "price": 0.2362,
+      "previousClose": 0.201,
+      "timestamp": 1795099532000,
+      "percent": 17.51243781094527
+    },
+    {
+      "symbol": "NRSN",
+      "name": "NeuroSense Therapeutics Ltd.",
+      "currency": "USD",
+      "price": 1.6099,
+      "previousClose": 1.37,
+      "timestamp": 1795099431000,
+      "percent": 17.51094890510949
     },
     {
       "symbol": "AFJKR",
@@ -430,73 +394,109 @@
       "percent": 17.37089201877935
     },
     {
-      "symbol": "NRSN",
-      "name": "NeuroSense Therapeutics Ltd.",
-      "currency": "USD",
-      "price": 1.6,
-      "previousClose": 1.37,
-      "timestamp": 1795098734000,
-      "percent": 16.788321167883204
-    },
-    {
-      "symbol": "PLAG",
-      "name": "Planet Green Holdings Corp.",
-      "currency": "USD",
-      "price": 0.3782,
-      "previousClose": 0.325,
-      "timestamp": 1795035600000,
-      "percent": 16.369230769230757
-    },
-    {
-      "symbol": "CCG",
-      "name": "Cheche Group Inc.",
-      "currency": "USD",
-      "price": 10.2686,
-      "previousClose": 8.945,
-      "timestamp": 1795035600000,
-      "percent": 14.79709334823922
-    },
-    {
-      "symbol": "ELOG",
-      "name": "Eastern International Ltd.",
-      "currency": "USD",
-      "price": 1.13,
-      "previousClose": 0.9899,
-      "timestamp": 1795098906000,
-      "percent": 14.152944741893103
-    },
-    {
       "symbol": "SLNH",
       "name": "Soluna Holdings, Inc.",
       "currency": "USD",
-      "price": 0.442,
+      "price": 0.4544,
       "previousClose": 0.388,
-      "timestamp": 1795098961000,
-      "percent": 13.917525773195871
+      "timestamp": 1795099552000,
+      "percent": 17.113402061855677
     },
     {
-      "symbol": "IXHL",
-      "name": "Incannex Healthcare Inc.",
+      "symbol": "KRNT",
+      "name": "Kornit Digital Ltd.",
       "currency": "USD",
-      "price": 1.99,
-      "previousClose": 1.75,
-      "timestamp": 1795098884000,
-      "percent": 13.714285714285722
+      "price": 14.8839,
+      "previousClose": 12.77,
+      "timestamp": 1795099549000,
+      "percent": 16.553641346906822
+    },
+    {
+      "symbol": "HDRN",
+      "name": "Hadron Energy, Inc.",
+      "currency": "USD",
+      "price": 0.5427,
+      "previousClose": 0.466,
+      "timestamp": 1795099424000,
+      "percent": 16.459227467811143
+    },
+    {
+      "symbol": "NCPL",
+      "name": "Netcapital Inc.",
+      "currency": "USD",
+      "price": 3.3391,
+      "previousClose": 2.89,
+      "timestamp": 1795099553000,
+      "percent": 15.539792387543262
+    },
+    {
+      "symbol": "MODD",
+      "name": "Modular Medical, Inc.",
+      "currency": "USD",
+      "price": 2.1,
+      "previousClose": 1.82,
+      "timestamp": 1795099447000,
+      "percent": 15.384615384615397
+    },
+    {
+      "symbol": "NXB",
+      "name": "NextBoat Inc.",
+      "currency": "USD",
+      "price": 1.5,
+      "previousClose": 1.3,
+      "timestamp": 1795098600000,
+      "percent": 15.384615384615374
+    },
+    {
+      "symbol": "RAYA",
+      "name": "Erayak Power Solution Group Inc.",
+      "currency": "USD",
+      "price": 0.4312,
+      "previousClose": 0.3742,
+      "timestamp": 1795099556000,
+      "percent": 15.232495991448447
+    },
+    {
+      "symbol": "GMM",
+      "name": "Global Mofy AI Limited",
+      "currency": "USD",
+      "price": 1.78,
+      "previousClose": 1.55,
+      "timestamp": 1795099548000,
+      "percent": 14.83870967741936
+    },
+    {
+      "symbol": "AGIG",
+      "name": "Abundia Global Impact Group Inc",
+      "currency": "USD",
+      "price": 0.6399,
+      "previousClose": 0.56,
+      "timestamp": 1795099398000,
+      "percent": 14.267857142857142
+    },
+    {
+      "symbol": "BSEM",
+      "name": "BioStem Technologies, Inc.",
+      "currency": "USD",
+      "price": 0.9343,
+      "previousClose": 0.8182,
+      "timestamp": 1795099535000,
+      "percent": 14.18968467367392
     }
   ],
   "todayScan": {
     "total": 5450,
     "processed": 5450,
-    "eligible": 5449,
-    "missing": 1,
+    "eligible": 5450,
+    "missing": 0,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-19T09:35[America/New_York]",
-    "updatedAt": 1795098971265
+    "scheduledSlot": "2026-11-19T09:45[America/New_York]",
+    "updatedAt": 1795099565058
   },
-  "todayGainersUpdatedAt": 1795098971265,
+  "todayGainersUpdatedAt": 1795099565058,
   "items": [
     {
       "symbol": "KSPI",
