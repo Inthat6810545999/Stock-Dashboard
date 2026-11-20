@@ -125,91 +125,91 @@
       "symbol": "NXAT",
       "name": "Nexus Advanced Technologies Inc.",
       "currency": "USD",
-      "price": 0.5579,
+      "price": 0.5536,
       "previousClose": 0.2237,
-      "timestamp": 1795190753000,
-      "percent": 149.39651318730438
+      "timestamp": 1795191345000,
+      "percent": 147.47429593205186
     },
     {
       "symbol": "MSS",
       "name": "Maison Solutions Inc.",
       "currency": "USD",
-      "price": 1.15,
+      "price": 1.1,
       "previousClose": 0.6741,
-      "timestamp": 1795190738000,
-      "percent": 70.597834149236
+      "timestamp": 1795191125000,
+      "percent": 63.18053701231272
     },
     {
       "symbol": "CIGL",
       "name": "Concorde International Group Ltd.",
       "currency": "USD",
-      "price": 0.2691,
+      "price": 0.2583,
       "previousClose": 0.1742,
-      "timestamp": 1795190741000,
-      "percent": 54.47761194029852
+      "timestamp": 1795191334000,
+      "percent": 48.27784156142365
     },
     {
       "symbol": "MEDS",
       "name": "DataMEDS AI, Inc.",
       "currency": "USD",
-      "price": 1.0202,
+      "price": 1.035,
       "previousClose": 0.7277,
-      "timestamp": 1795190750000,
-      "percent": 40.195135357977186
+      "timestamp": 1795191336000,
+      "percent": 42.228940497457735
     },
     {
       "symbol": "AKAN",
       "name": "Akanda Corp.",
       "currency": "USD",
-      "price": 4.57,
+      "price": 4.85,
       "previousClose": 3.43,
-      "timestamp": 1795190737000,
-      "percent": 33.236151603498556
-    },
-    {
-      "symbol": "LABT",
-      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
-      "currency": "USD",
-      "price": 0.2648,
-      "previousClose": 0.2129,
-      "timestamp": 1795190741000,
-      "percent": 24.37764208548614
-    },
-    {
-      "symbol": "CRVO",
-      "name": "CervoMed Inc.",
-      "currency": "USD",
-      "price": 1.62,
-      "previousClose": 1.33,
-      "timestamp": 1795190741000,
-      "percent": 21.80451127819549
+      "timestamp": 1795191332000,
+      "percent": 41.39941690962097
     },
     {
       "symbol": "BNAI",
       "name": "Brand Engagement Network, Inc.",
       "currency": "USD",
-      "price": 3.115,
+      "price": 3.23,
       "previousClose": 2.57,
-      "timestamp": 1795190738000,
-      "percent": 21.206225680933866
+      "timestamp": 1795191327000,
+      "percent": 25.680933852140075
     },
     {
       "symbol": "LVWR",
       "name": "LiveWire Group, Inc.",
       "currency": "USD",
-      "price": 0.7909,
+      "price": 0.8149,
       "previousClose": 0.6529,
-      "timestamp": 1795190750000,
-      "percent": 21.136468065553693
+      "timestamp": 1795191331000,
+      "percent": 24.812375555215183
     },
     {
       "symbol": "CABO",
       "name": "Cable One, Inc.",
       "currency": "USD",
-      "price": 2.75,
+      "price": 2.807,
       "previousClose": 2.29,
-      "timestamp": 1795190732000,
-      "percent": 20.087336244541486
+      "timestamp": 1795191230000,
+      "percent": 22.576419213973796
+    },
+    {
+      "symbol": "ELOG",
+      "name": "Eastern International Ltd.",
+      "currency": "USD",
+      "price": 1.7732,
+      "previousClose": 1.45,
+      "timestamp": 1795191333000,
+      "percent": 22.289655172413813
+    },
+    {
+      "symbol": "LABT",
+      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.2599,
+      "previousClose": 0.2129,
+      "timestamp": 1795191340000,
+      "percent": 22.07609206200094
     }
   ],
   "todayCandidates": [
@@ -217,100 +217,127 @@
       "symbol": "NXAT",
       "name": "Nexus Advanced Technologies Inc.",
       "currency": "USD",
-      "price": 0.5579,
+      "price": 0.5536,
       "previousClose": 0.2237,
-      "timestamp": 1795190753000,
-      "percent": 149.39651318730438
+      "timestamp": 1795191345000,
+      "percent": 147.47429593205186
     },
     {
       "symbol": "MSS",
       "name": "Maison Solutions Inc.",
       "currency": "USD",
-      "price": 1.15,
+      "price": 1.1,
       "previousClose": 0.6741,
-      "timestamp": 1795190738000,
-      "percent": 70.597834149236
+      "timestamp": 1795191125000,
+      "percent": 63.18053701231272
     },
     {
       "symbol": "CIGL",
       "name": "Concorde International Group Ltd.",
       "currency": "USD",
-      "price": 0.2691,
+      "price": 0.2583,
       "previousClose": 0.1742,
-      "timestamp": 1795190741000,
-      "percent": 54.47761194029852
+      "timestamp": 1795191334000,
+      "percent": 48.27784156142365
     },
     {
       "symbol": "MEDS",
       "name": "DataMEDS AI, Inc.",
       "currency": "USD",
-      "price": 1.0202,
+      "price": 1.035,
       "previousClose": 0.7277,
-      "timestamp": 1795190750000,
-      "percent": 40.195135357977186
+      "timestamp": 1795191336000,
+      "percent": 42.228940497457735
     },
     {
       "symbol": "AKAN",
       "name": "Akanda Corp.",
       "currency": "USD",
-      "price": 4.57,
+      "price": 4.85,
       "previousClose": 3.43,
-      "timestamp": 1795190737000,
-      "percent": 33.236151603498556
-    },
-    {
-      "symbol": "LABT",
-      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
-      "currency": "USD",
-      "price": 0.2648,
-      "previousClose": 0.2129,
-      "timestamp": 1795190741000,
-      "percent": 24.37764208548614
-    },
-    {
-      "symbol": "CRVO",
-      "name": "CervoMed Inc.",
-      "currency": "USD",
-      "price": 1.62,
-      "previousClose": 1.33,
-      "timestamp": 1795190741000,
-      "percent": 21.80451127819549
+      "timestamp": 1795191332000,
+      "percent": 41.39941690962097
     },
     {
       "symbol": "BNAI",
       "name": "Brand Engagement Network, Inc.",
       "currency": "USD",
-      "price": 3.115,
+      "price": 3.23,
       "previousClose": 2.57,
-      "timestamp": 1795190738000,
-      "percent": 21.206225680933866
+      "timestamp": 1795191327000,
+      "percent": 25.680933852140075
     },
     {
       "symbol": "LVWR",
       "name": "LiveWire Group, Inc.",
       "currency": "USD",
-      "price": 0.7909,
+      "price": 0.8149,
       "previousClose": 0.6529,
-      "timestamp": 1795190750000,
-      "percent": 21.136468065553693
+      "timestamp": 1795191331000,
+      "percent": 24.812375555215183
     },
     {
       "symbol": "CABO",
       "name": "Cable One, Inc.",
       "currency": "USD",
-      "price": 2.75,
+      "price": 2.807,
       "previousClose": 2.29,
-      "timestamp": 1795190732000,
-      "percent": 20.087336244541486
+      "timestamp": 1795191230000,
+      "percent": 22.576419213973796
+    },
+    {
+      "symbol": "ELOG",
+      "name": "Eastern International Ltd.",
+      "currency": "USD",
+      "price": 1.7732,
+      "previousClose": 1.45,
+      "timestamp": 1795191333000,
+      "percent": 22.289655172413813
+    },
+    {
+      "symbol": "LABT",
+      "name": "Lakewood-Amedex Biotherapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.2599,
+      "previousClose": 0.2129,
+      "timestamp": 1795191340000,
+      "percent": 22.07609206200094
+    },
+    {
+      "symbol": "SEGG",
+      "name": "Sports Entertainment Gaming Global Corporation",
+      "currency": "USD",
+      "price": 0.8325,
+      "previousClose": 0.6945,
+      "timestamp": 1795191339000,
+      "percent": 19.87041036717063
     },
     {
       "symbol": "FUFU",
       "name": "BitFuFu Inc.",
       "currency": "USD",
-      "price": 1.03,
+      "price": 1.0301,
       "previousClose": 0.86,
-      "timestamp": 1795190665000,
-      "percent": 19.76744186046513
+      "timestamp": 1795191246000,
+      "percent": 19.77906976744186
+    },
+    {
+      "symbol": "SGLY",
+      "name": "Singularity Future Technology Ltd.",
+      "currency": "USD",
+      "price": 0.4867,
+      "previousClose": 0.4083,
+      "timestamp": 1795191323000,
+      "percent": 19.20156747489592
+    },
+    {
+      "symbol": "CHWM",
+      "name": "Chilwa Minerals Limited",
+      "currency": "USD",
+      "price": 3.165,
+      "previousClose": 2.66,
+      "timestamp": 1795191055000,
+      "percent": 18.984962406015036
     },
     {
       "symbol": "CRAQR",
@@ -322,40 +349,22 @@
       "percent": 18.666666666666675
     },
     {
+      "symbol": "ITOC",
+      "name": "iTonic Holdings Ltd.",
+      "currency": "USD",
+      "price": 1.78,
+      "previousClose": 1.5,
+      "timestamp": 1795191211000,
+      "percent": 18.666666666666675
+    },
+    {
       "symbol": "ZJK",
       "name": "ZJK Industrial Co., Ltd.",
       "currency": "USD",
-      "price": 0.945,
+      "price": 0.9399,
       "previousClose": 0.7966,
-      "timestamp": 1795190755000,
-      "percent": 18.629173989455182
-    },
-    {
-      "symbol": "SGLY",
-      "name": "Singularity Future Technology Ltd.",
-      "currency": "USD",
-      "price": 0.479,
-      "previousClose": 0.4083,
-      "timestamp": 1795190736000,
-      "percent": 17.315699240754334
-    },
-    {
-      "symbol": "VIVS",
-      "name": "VivoSim Labs, Inc.",
-      "currency": "USD",
-      "price": 0.3411,
-      "previousClose": 0.2915,
-      "timestamp": 1795190760000,
-      "percent": 17.015437392795896
-    },
-    {
-      "symbol": "ELOG",
-      "name": "Eastern International Ltd.",
-      "currency": "USD",
-      "price": 1.69,
-      "previousClose": 1.45,
-      "timestamp": 1795190733000,
-      "percent": 16.551724137931046
+      "timestamp": 1795191353000,
+      "percent": 17.988953050464463
     },
     {
       "symbol": "FGC",
@@ -367,67 +376,85 @@
       "percent": 16.135084427767367
     },
     {
-      "symbol": "EVH",
-      "name": "Evolent Health, Inc.",
+      "symbol": "CRVO",
+      "name": "CervoMed Inc.",
       "currency": "USD",
-      "price": 3.945,
-      "previousClose": 3.43,
-      "timestamp": 1795190713000,
-      "percent": 15.014577259475214
-    },
-    {
-      "symbol": "SEGG",
-      "name": "Sports Entertainment Gaming Global Corporation",
-      "currency": "USD",
-      "price": 0.7982,
-      "previousClose": 0.6945,
-      "timestamp": 1795190756000,
-      "percent": 14.931605471562271
+      "price": 1.54,
+      "previousClose": 1.33,
+      "timestamp": 1795191314000,
+      "percent": 15.789473684210531
     },
     {
       "symbol": "EZGO",
       "name": "EZGO Technologies Ltd.",
       "currency": "USD",
-      "price": 1.8999,
+      "price": 1.9169,
       "previousClose": 1.66,
-      "timestamp": 1795190730000,
-      "percent": 14.451807228915658
-    },
-    {
-      "symbol": "RAYA",
-      "name": "Erayak Power Solution Group Inc.",
-      "currency": "USD",
-      "price": 0.5605,
-      "previousClose": 0.491,
-      "timestamp": 1795190754000,
-      "percent": 14.15478615071284
+      "timestamp": 1795191273000,
+      "percent": 15.475903614457831
     },
     {
       "symbol": "GAP",
       "name": "The Gap, Inc.",
       "currency": "USD",
-      "price": 21.305,
+      "price": 21.53,
       "previousClose": 18.79,
-      "timestamp": 1795190745000,
-      "percent": 13.384779137839287
+      "timestamp": 1795191339000,
+      "percent": 14.582224587546587
     },
     {
-      "symbol": "CHWM",
-      "name": "Chilwa Minerals Limited",
+      "symbol": "EVAX",
+      "name": "Evaxion A/S",
       "currency": "USD",
-      "price": 3,
-      "previousClose": 2.66,
-      "timestamp": 1795190171000,
-      "percent": 12.781954887218049
+      "price": 2.325,
+      "previousClose": 2.03,
+      "timestamp": 1795191033000,
+      "percent": 14.53201970443352
     },
     {
-      "symbol": "BQ",
-      "name": "Boqii Holding Limited",
+      "symbol": "EVH",
+      "name": "Evolent Health, Inc.",
       "currency": "USD",
-      "price": 0.514,
-      "previousClose": 0.457,
-      "timestamp": 1795190679000,
-      "percent": 12.472647702406991
+      "price": 3.925,
+      "previousClose": 3.43,
+      "timestamp": 1795191334000,
+      "percent": 14.43148688046647
+    },
+    {
+      "symbol": "RAYA",
+      "name": "Erayak Power Solution Group Inc.",
+      "currency": "USD",
+      "price": 0.5565,
+      "previousClose": 0.491,
+      "timestamp": 1795191339000,
+      "percent": 13.340122199592663
+    },
+    {
+      "symbol": "UONE",
+      "name": "Urban One, Inc.",
+      "currency": "USD",
+      "price": 2.3,
+      "previousClose": 2.04,
+      "timestamp": 1795191182000,
+      "percent": 12.745098039215685
+    },
+    {
+      "symbol": "PYXS",
+      "name": "Pyxis Oncology, Inc.",
+      "currency": "USD",
+      "price": 1.89,
+      "previousClose": 1.68,
+      "timestamp": 1795191320000,
+      "percent": 12.5
+    },
+    {
+      "symbol": "ZOOZ",
+      "name": "ZOOZ Strategy Ltd.",
+      "currency": "USD",
+      "price": 5.09,
+      "previousClose": 4.5299,
+      "timestamp": 1795190832000,
+      "percent": 12.364511357866625
     },
     {
       "symbol": "CALC",
@@ -439,49 +466,22 @@
       "percent": 11.965811965811968
     },
     {
-      "symbol": "EVAX",
-      "name": "Evaxion A/S",
+      "symbol": "MPT",
+      "name": "Medical Properties Trust, Inc.",
       "currency": "USD",
-      "price": 2.26,
-      "previousClose": 2.03,
-      "timestamp": 1795190704000,
-      "percent": 11.33004926108374
+      "price": 1.835,
+      "previousClose": 1.64,
+      "timestamp": 1795191344000,
+      "percent": 11.890243902439025
     },
     {
-      "symbol": "PYXS",
-      "name": "Pyxis Oncology, Inc.",
+      "symbol": "CANG",
+      "name": "Cango Inc.",
       "currency": "USD",
-      "price": 1.87,
-      "previousClose": 1.68,
-      "timestamp": 1795190730000,
-      "percent": 11.309523809523814
-    },
-    {
-      "symbol": "FBIO",
-      "name": "Fortress Biotech, Inc.",
-      "currency": "USD",
-      "price": 1.96,
-      "previousClose": 1.77,
-      "timestamp": 1795190706000,
-      "percent": 10.73446327683616
-    },
-    {
-      "symbol": "RSSS",
-      "name": "Research Solutions, Inc.",
-      "currency": "USD",
-      "price": 2.27,
-      "previousClose": 2.05,
-      "timestamp": 1795190707000,
-      "percent": 10.73170731707318
-    },
-    {
-      "symbol": "PMA",
-      "name": "PMA Graphene Technology Group Inc.",
-      "currency": "USD",
-      "price": 1.55,
-      "previousClose": 1.4,
-      "timestamp": 1795190747000,
-      "percent": 10.71428571428572
+      "price": 1.825,
+      "previousClose": 1.64,
+      "timestamp": 1795191301000,
+      "percent": 11.280487804878048
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-20T11:05[America/New_York]",
-    "updatedAt": 1795190763068
+    "scheduledSlot": "2026-11-20T11:15[America/New_York]",
+    "updatedAt": 1795191354647
   },
-  "todayGainersUpdatedAt": 1795190763068,
+  "todayGainersUpdatedAt": 1795191354647,
   "items": [
     {
       "symbol": "KSPI",
