@@ -478,10 +478,10 @@
       "symbol": "EVH",
       "name": "Evolent Health, Inc.",
       "currency": "USD",
-      "price": 3.9,
+      "price": 3.895,
       "previousClose": 3.43,
-      "timestamp": 1795208387000,
-      "percent": 13.702623906705536
+      "timestamp": 1795208393000,
+      "percent": 13.556851311953345
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-20T16:05[America/New_York]",
-    "updatedAt": 1795208760192
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-20T16:15[America/New_York]",
+    "updatedAt": 1795209361160
   },
-  "todayGainersUpdatedAt": 1795208760192,
+  "todayGainersUpdatedAt": 1795209361160,
   "items": [
     {
       "symbol": "KSPI",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
