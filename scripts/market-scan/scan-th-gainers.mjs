@@ -1,7 +1,7 @@
 import YahooFinance from 'yahoo-finance2';
 import {readFile,writeFile,rename} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {discoverUniverse} from './universe.mjs';
+import {discoverUniverse,isThaiDirectoryForbidden} from './universe.mjs';
 import {getThaiScanWindow,getThaiTargetTradingDay,isThaiQuoteUsable} from '../../lib/th-market-session.ts';
 import {rankTodayGainers} from '../../lib/today-gainers.ts';
 import {getDueGainerSlot} from './gainer-schedule.mjs';
@@ -41,7 +41,12 @@ if(!targetTradingDay||(!force&&!isThaiQuoteUsable(window,benchmark?.marketState,
 }
 if(window==='closed')console.log(`Manual scan outside SET hours; using latest available trading session ${targetTradingDay} ICT.`);
 
-const universe=await discoverUniverse('th');
+const universe=await discoverUniverse('th').catch(error=>{
+ if(!isThaiDirectoryForbidden(error))throw error;
+ console.warn('::warning::Thai SEC directory returned HTTP 403. Keeping the previous Thai ranking; no new scan was published.');
+ return null;
+});
+if(!universe)process.exit(0);
 const rows=[];let eligible=0,processed=0,missing=0,failed=0;
 for(let offset=0;offset<universe.rows.length;offset+=80){
  const batch=universe.rows.slice(offset,offset+80);

@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name 'market-scan[bot]'
           git config user.email 'market-scan[bot]@users.noreply.github.com'
-          git add data/must-watch-us.json data/must-watch-th.json
+          git add data/must-watch-us.json data/must-watch-th.json data/market-universe-th.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update daily market screening snapshots'
             git push

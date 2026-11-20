@@ -2,7 +2,7 @@ import {scanPriceGainers,priceSnapshot} from './price-gainers.mjs';
 import YahooFinance from 'yahoo-finance2';
 import {mkdir,readFile,writeFile,rename,open,unlink} from 'node:fs/promises';
 import {resolve} from 'node:path';
-import {discoverUniverse} from './universe.mjs';
+import {discoverUniverse,isThaiDirectoryForbidden} from './universe.mjs';
 import {rankCandidates} from '../../lib/must-watch.ts';
 import {rankTodayGainers} from '../../lib/today-gainers.ts';
 const root=resolve(import.meta.dirname,'../..');const stateDir=resolve(root,'.cache/market-scan');await mkdir(stateDir,{recursive:true});await mkdir(resolve(root,'data'),{recursive:true});
@@ -32,5 +32,5 @@ for(const market of marketArg?[marketArg]:['us','th']){
  await scanPriceGainers(state,{save:()=>atomic(path,state),progress:()=>publish(),sleep});
  const priceFailed=Object.values(state.priceOutcomes).filter(o=>o.kind==='failed').length;if(priceFailed>symbols.length*.25)throw Error('Price history provider outage; preserving previous completed ranking');
  await publish(true);console.log(`${market}: complete; ${failed} provider failures; snapshot ${output}`);
- }catch(error){const output=resolve(root,'data',`must-watch-${market}.json`);const previous=await readFile(output,'utf8').then(JSON.parse).catch(()=>null);if(previous?.activeScan)await atomic(output,{...previous,activeScan:{...previous.activeScan,status:'failed'}});else if(previous?.scan?.status==='scanning')await atomic(output,{...previous,scan:{...previous.scan,status:'failed'}});throw error;}finally{await lock.close();await unlink(lockPath)}
+ }catch(error){if(market==='th'&&isThaiDirectoryForbidden(error)){console.warn('::warning::Thai SEC directory returned HTTP 403. Keeping the previous Thai ranking; the US daily snapshot remains publishable.');continue}const output=resolve(root,'data',`must-watch-${market}.json`);const previous=await readFile(output,'utf8').then(JSON.parse).catch(()=>null);if(previous?.activeScan)await atomic(output,{...previous,activeScan:{...previous.activeScan,status:'failed'}});else if(previous?.scan?.status==='scanning')await atomic(output,{...previous,scan:{...previous.scan,status:'failed'}});throw error;}finally{await lock.close();await unlink(lockPath)}
 }
