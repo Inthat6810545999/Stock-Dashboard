@@ -114,9 +114,9 @@
   "priceScan": {
     "total": 5448,
     "processed": 5448,
-    "eligible": 4980,
+    "eligible": 4979,
     "excluded": 2,
-    "missing": 466,
+    "missing": 467,
     "failed": 0,
     "status": "complete"
   },
@@ -492,21 +492,21 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1795232003698
+    "updatedAt": 1795315369663
   },
-  "todayGainersUpdatedAt": 1795232003698,
+  "todayGainersUpdatedAt": 1795315369663,
   "items": [
     {
       "symbol": "SNDK",
       "name": "Sandisk Corporation",
       "currency": "USD",
       "price": 79.24,
-      "pe": 5.066496,
-      "forwardPe": 2.1930854,
+      "pe": 0.085785426,
+      "forwardPe": 2.2072418,
       "salesGrowth": 3.779,
       "marketCap": 90200072192,
       "timestamp": 1795208401000,
-      "score": 172.31431115268012
+      "score": 171.20915343303122
     },
     {
       "symbol": "MU",
@@ -623,12 +623,12 @@
       "name": "Sandisk Corporation",
       "currency": "USD",
       "price": 79.24,
-      "pe": 5.066496,
-      "forwardPe": 2.1930854,
+      "pe": 0.085785426,
+      "forwardPe": 2.2072418,
       "salesGrowth": 3.779,
       "marketCap": 90200072192,
       "timestamp": 1795208401000,
-      "score": 172.31431115268012
+      "score": 171.20915343303122
     },
     {
       "symbol": "MU",
@@ -671,7 +671,7 @@
       "name": "Equity Bancshares, Inc.",
       "currency": "USD",
       "price": 46.67,
-      "pe": 10.101731,
+      "pe": 10.279736,
       "forwardPe": 8.570048,
       "salesGrowth": 5.97,
       "marketCap": 961874944,
@@ -698,7 +698,7 @@
       "pe": 2.0104167,
       "forwardPe": 2.0752687,
       "salesGrowth": 1.396,
-      "marketCap": 176098816,
+      "marketCap": 174524704,
       "timestamp": 1795208400000,
       "score": 67.26839758147945
     },
@@ -741,18 +741,18 @@
   ],
   "checked": 5448,
   "failed": 0,
-  "updatedAt": 1795232003703,
+  "updatedAt": 1795315369667,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5448,
     "processed": 5448,
-    "eligible": 650,
-    "excluded": 3141,
-    "missing": 1657,
+    "eligible": 652,
+    "excluded": 3119,
+    "missing": 1677,
     "failed": 0,
-    "startedAt": 1795231532412,
-    "directoryAt": 1795231532412,
+    "startedAt": 1795314841546,
+    "directoryAt": 1795314841546,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
