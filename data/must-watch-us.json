@@ -114,8 +114,8 @@
   "priceScan": {
     "total": 5448,
     "processed": 5448,
-    "eligible": 4979,
-    "excluded": 2,
+    "eligible": 4980,
+    "excluded": 1,
     "missing": 467,
     "failed": 0,
     "status": "complete"
@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1795315369663
+    "updatedAt": 1795403502735
   },
-  "todayGainersUpdatedAt": 1795315369663,
+  "todayGainersUpdatedAt": 1795403502735,
   "items": [
     {
       "symbol": "SNDK",
@@ -502,11 +502,11 @@
       "currency": "USD",
       "price": 79.24,
       "pe": 0.085785426,
-      "forwardPe": 2.2072418,
+      "forwardPe": 2.20723,
       "salesGrowth": 3.779,
       "marketCap": 90200072192,
       "timestamp": 1795208401000,
-      "score": 171.20915343303122
+      "score": 171.210068728678
     },
     {
       "symbol": "MU",
@@ -624,11 +624,11 @@
       "currency": "USD",
       "price": 79.24,
       "pe": 0.085785426,
-      "forwardPe": 2.2072418,
+      "forwardPe": 2.20723,
       "salesGrowth": 3.779,
       "marketCap": 90200072192,
       "timestamp": 1795208401000,
-      "score": 171.20915343303122
+      "score": 171.210068728678
     },
     {
       "symbol": "MU",
@@ -741,18 +741,18 @@
   ],
   "checked": 5448,
   "failed": 0,
-  "updatedAt": 1795315369667,
+  "updatedAt": 1795403502741,
   "market": "us",
   "universe": "US exchange-listed equities from Nasdaq Trader; excludes OTC, funds, preferred shares, warrants, rights and units.",
   "scan": {
     "total": 5448,
     "processed": 5448,
     "eligible": 652,
-    "excluded": 3119,
-    "missing": 1677,
+    "excluded": 3118,
+    "missing": 1678,
     "failed": 0,
-    "startedAt": 1795314841546,
-    "directoryAt": 1795314841546,
+    "startedAt": 1795402926856,
+    "directoryAt": 1795402926856,
     "sources": [
       "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
       "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"

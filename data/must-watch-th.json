@@ -492,9 +492,9 @@
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1795315495057
+    "updatedAt": 1795403629386
   },
-  "todayGainersUpdatedAt": 1795315495057,
+  "todayGainersUpdatedAt": 1795403629386,
   "items": [
     {
       "symbol": "INSET.BK",
@@ -741,7 +741,7 @@
   ],
   "checked": 862,
   "failed": 4,
-  "updatedAt": 1795315495057,
+  "updatedAt": 1795403629386,
   "market": "th",
   "universe": "SET/mai company directory from Thailand SEC; excludes entries without a SET/mai classification.",
   "scan": {
@@ -751,7 +751,7 @@
     "excluded": 226,
     "missing": 527,
     "failed": 4,
-    "startedAt": 1795315371151,
+    "startedAt": 1795403503480,
     "directoryAt": 1795182779934,
     "sources": [
       "https://market.sec.or.th/public/idisc/th/company/listed/"
