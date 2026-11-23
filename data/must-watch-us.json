@@ -143,10 +143,10 @@
       "symbol": "PAAI",
       "name": "Paradium AI, Inc.",
       "currency": "USD",
-      "price": 0.715,
+      "price": 0.7129,
       "previousClose": 0.363,
       "timestamp": 1795467600000,
-      "percent": 96.96969696969697
+      "percent": 96.39118457300275
     },
     {
       "symbol": "DCGO",
@@ -161,10 +161,10 @@
       "symbol": "AEON",
       "name": "AEON Biopharma, Inc.",
       "currency": "USD",
-      "price": 0.2025,
+      "price": 0.2026,
       "previousClose": 0.123,
-      "timestamp": 1795467589000,
-      "percent": 64.63414634146343
+      "timestamp": 1795467600000,
+      "percent": 64.71544715447155
     },
     {
       "symbol": "MRM",
@@ -172,7 +172,7 @@
       "currency": "USD",
       "price": 0.3691,
       "previousClose": 0.23,
-      "timestamp": 1795467591000,
+      "timestamp": 1795467601000,
       "percent": 60.478260869565204
     },
     {
@@ -235,10 +235,10 @@
       "symbol": "PAAI",
       "name": "Paradium AI, Inc.",
       "currency": "USD",
-      "price": 0.715,
+      "price": 0.7129,
       "previousClose": 0.363,
       "timestamp": 1795467600000,
-      "percent": 96.96969696969697
+      "percent": 96.39118457300275
     },
     {
       "symbol": "DCGO",
@@ -253,10 +253,10 @@
       "symbol": "AEON",
       "name": "AEON Biopharma, Inc.",
       "currency": "USD",
-      "price": 0.2025,
+      "price": 0.2026,
       "previousClose": 0.123,
-      "timestamp": 1795467589000,
-      "percent": 64.63414634146343
+      "timestamp": 1795467600000,
+      "percent": 64.71544715447155
     },
     {
       "symbol": "MRM",
@@ -264,7 +264,7 @@
       "currency": "USD",
       "price": 0.3691,
       "previousClose": 0.23,
-      "timestamp": 1795467591000,
+      "timestamp": 1795467601000,
       "percent": 60.478260869565204
     },
     {
@@ -322,21 +322,30 @@
       "percent": 43.93939393939392
     },
     {
-      "symbol": "PTHS",
-      "name": "Pelthos Therapeutics Inc.",
-      "currency": "USD",
-      "price": 9.09,
-      "previousClose": 6.38,
-      "timestamp": 1795467573000,
-      "percent": 42.47648902821317
-    },
-    {
       "symbol": "IPXGU",
       "name": "Inection Point Acquisition Corp",
       "currency": "USD",
-      "price": 14.49,
+      "price": 14.64,
       "previousClose": 10.35,
-      "timestamp": 1795467326000,
+      "timestamp": 1795467600000,
+      "percent": 41.44927536231886
+    },
+    {
+      "symbol": "PTHS",
+      "name": "Pelthos Therapeutics Inc.",
+      "currency": "USD",
+      "price": 9.01,
+      "previousClose": 6.38,
+      "timestamp": 1795467600000,
+      "percent": 41.222570532915356
+    },
+    {
+      "symbol": "AFJKR",
+      "name": "Aimei Health Technology Co., Ltd",
+      "currency": "USD",
+      "price": 0.14,
+      "previousClose": 0.1,
+      "timestamp": 1795467600000,
       "percent": 40.000000000000014
     },
     {
@@ -394,6 +403,15 @@
       "percent": 34.597156398104254
     },
     {
+      "symbol": "ITP",
+      "name": "IT Tech Packaging, Inc.",
+      "currency": "USD",
+      "price": 3.3,
+      "previousClose": 2.456,
+      "timestamp": 1795467600000,
+      "percent": 34.36482084690553
+    },
+    {
       "symbol": "ALZN",
       "name": "Alzamend Neuro, Inc.",
       "currency": "USD",
@@ -424,10 +442,19 @@
       "symbol": "CELU",
       "name": "Celularity Inc.",
       "currency": "USD",
-      "price": 0.6041,
+      "price": 0.6053,
       "previousClose": 0.4546,
-      "timestamp": 1795467518000,
-      "percent": 32.88605367355917
+      "timestamp": 1795467600000,
+      "percent": 33.1500219973603
+    },
+    {
+      "symbol": "SCWO",
+      "name": "374Water Inc.",
+      "currency": "USD",
+      "price": 2.29,
+      "previousClose": 1.735,
+      "timestamp": 1795467600000,
+      "percent": 31.98847262247837
     },
     {
       "symbol": "NVDA",
@@ -448,15 +475,6 @@
       "percent": 31.12391930835734
     },
     {
-      "symbol": "SCWO",
-      "name": "374Water Inc.",
-      "currency": "USD",
-      "price": 2.27,
-      "previousClose": 1.735,
-      "timestamp": 1795467584000,
-      "percent": 30.83573487031699
-    },
-    {
       "symbol": "KYMR",
       "name": "Kymera Therapeutics, Inc.",
       "currency": "USD",
@@ -464,24 +482,6 @@
       "previousClose": 115.31,
       "timestamp": 1795467601000,
       "percent": 30.404995230248886
-    },
-    {
-      "symbol": "CNTY",
-      "name": "Century Casinos, Inc.",
-      "currency": "USD",
-      "price": 0.259,
-      "previousClose": 0.2008,
-      "timestamp": 1795467601000,
-      "percent": 28.984063745019917
-    },
-    {
-      "symbol": "SKYE",
-      "name": "Skye Bioscience, Inc.",
-      "currency": "USD",
-      "price": 0.9001,
-      "previousClose": 0.7,
-      "timestamp": 1795467601000,
-      "percent": 28.585714285714303
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-23T16:05[America/New_York]",
-    "updatedAt": 1795467960917
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-23T16:15[America/New_York]",
+    "updatedAt": 1795468557265
   },
-  "todayGainersUpdatedAt": 1795467960917,
+  "todayGainersUpdatedAt": 1795468557265,
   "items": [
     {
       "symbol": "SNDK",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
