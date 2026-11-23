@@ -122,6 +122,15 @@
   },
   "todayGainers": [
     {
+      "symbol": "GRAND.BK",
+      "name": "Grande Asset Hotels and Property Public Company Limited",
+      "currency": "THB",
+      "price": 0.02,
+      "previousClose": 0.01,
+      "timestamp": 1795406642000,
+      "percent": 100
+    },
+    {
       "symbol": "B.BK",
       "name": "Begistics Public Company Limited",
       "currency": "THB",
@@ -131,21 +140,12 @@
       "percent": 50
     },
     {
-      "symbol": "CIG.BK",
-      "name": "C.I. Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795406075000,
-      "percent": 50
-    },
-    {
       "symbol": "TRITN.BK",
       "name": "Triton Holding Public Company Limited",
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1795404376000,
+      "timestamp": 1795406217000,
       "percent": 50
     },
     {
@@ -156,15 +156,6 @@
       "previousClose": 0.02,
       "timestamp": 1795406078000,
       "percent": 50
-    },
-    {
-      "symbol": "TVDH.BK",
-      "name": "TVD Holdings Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1795403996000,
-      "percent": 33.33333333333335
     },
     {
       "symbol": "DIMET.BK",
@@ -190,127 +181,17 @@
       "currency": "THB",
       "price": 0.73,
       "previousClose": 0.59,
-      "timestamp": 1795406087000,
+      "timestamp": 1795406702000,
       "percent": 23.728813559322038
     },
     {
-      "symbol": "CRANE.BK",
-      "name": "Chukai Public Company Limited",
+      "symbol": "MONO.BK",
+      "name": "Mono Next Public Company Limited",
       "currency": "THB",
       "price": 0.24,
       "previousClose": 0.2,
-      "timestamp": 1795405974000,
+      "timestamp": 1795406726000,
       "percent": 19.999999999999996
-    },
-    {
-      "symbol": "THANA.BK",
-      "name": "Thanasiri Group Public Company Limited",
-      "currency": "THB",
-      "price": 1.8,
-      "previousClose": 1.54,
-      "timestamp": 1795403724000,
-      "percent": 16.883116883116877
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "B.BK",
-      "name": "Begistics Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795406065000,
-      "percent": 50
-    },
-    {
-      "symbol": "CIG.BK",
-      "name": "C.I. Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795406075000,
-      "percent": 50
-    },
-    {
-      "symbol": "TRITN.BK",
-      "name": "Triton Holding Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795404376000,
-      "percent": 50
-    },
-    {
-      "symbol": "WAVE.BK",
-      "name": "Wave Exponential Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795406078000,
-      "percent": 50
-    },
-    {
-      "symbol": "TVDH.BK",
-      "name": "TVD Holdings Public Company Limited",
-      "currency": "THB",
-      "price": 0.04,
-      "previousClose": 0.03,
-      "timestamp": 1795403996000,
-      "percent": 33.33333333333335
-    },
-    {
-      "symbol": "DIMET.BK",
-      "name": "Dimet (Siam) Public Company Limited",
-      "currency": "THB",
-      "price": 0.05,
-      "previousClose": 0.04,
-      "timestamp": 1795403731000,
-      "percent": 25
-    },
-    {
-      "symbol": "TFI.BK",
-      "name": "Thai Future Incorporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.05,
-      "previousClose": 0.04,
-      "timestamp": 1795404520000,
-      "percent": 25
-    },
-    {
-      "symbol": "MATCH.BK",
-      "name": "Matching Maximize Solution Public Company Limited",
-      "currency": "THB",
-      "price": 0.73,
-      "previousClose": 0.59,
-      "timestamp": 1795406087000,
-      "percent": 23.728813559322038
-    },
-    {
-      "symbol": "CRANE.BK",
-      "name": "Chukai Public Company Limited",
-      "currency": "THB",
-      "price": 0.24,
-      "previousClose": 0.2,
-      "timestamp": 1795405974000,
-      "percent": 19.999999999999996
-    },
-    {
-      "symbol": "THANA.BK",
-      "name": "Thanasiri Group Public Company Limited",
-      "currency": "THB",
-      "price": 1.8,
-      "previousClose": 1.54,
-      "timestamp": 1795403724000,
-      "percent": 16.883116883116877
-    },
-    {
-      "symbol": "DPAINT.BK",
-      "name": "Delta Paint Public Company Limited",
-      "currency": "THB",
-      "price": 0.14,
-      "previousClose": 0.12,
-      "timestamp": 1795405931000,
-      "percent": 16.666666666666675
     },
     {
       "symbol": "FSX.BK",
@@ -322,13 +203,96 @@
       "percent": 15.662650602409634
     },
     {
+      "symbol": "ABM.BK",
+      "name": "Asia Biomass Public Company Limited",
+      "currency": "THB",
+      "price": 1,
+      "previousClose": 0.88,
+      "timestamp": 1795406562000,
+      "percent": 13.636363636363647
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "GRAND.BK",
+      "name": "Grande Asset Hotels and Property Public Company Limited",
+      "currency": "THB",
+      "price": 0.02,
+      "previousClose": 0.01,
+      "timestamp": 1795406642000,
+      "percent": 100
+    },
+    {
+      "symbol": "B.BK",
+      "name": "Begistics Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1795406065000,
+      "percent": 50
+    },
+    {
+      "symbol": "TRITN.BK",
+      "name": "Triton Holding Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1795406217000,
+      "percent": 50
+    },
+    {
+      "symbol": "WAVE.BK",
+      "name": "Wave Exponential Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1795406078000,
+      "percent": 50
+    },
+    {
+      "symbol": "DIMET.BK",
+      "name": "Dimet (Siam) Public Company Limited",
+      "currency": "THB",
+      "price": 0.05,
+      "previousClose": 0.04,
+      "timestamp": 1795403731000,
+      "percent": 25
+    },
+    {
+      "symbol": "TFI.BK",
+      "name": "Thai Future Incorporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.05,
+      "previousClose": 0.04,
+      "timestamp": 1795404520000,
+      "percent": 25
+    },
+    {
+      "symbol": "MATCH.BK",
+      "name": "Matching Maximize Solution Public Company Limited",
+      "currency": "THB",
+      "price": 0.73,
+      "previousClose": 0.59,
+      "timestamp": 1795406702000,
+      "percent": 23.728813559322038
+    },
+    {
       "symbol": "MONO.BK",
       "name": "Mono Next Public Company Limited",
       "currency": "THB",
-      "price": 0.23,
+      "price": 0.24,
       "previousClose": 0.2,
-      "timestamp": 1795406119000,
-      "percent": 14.999999999999991
+      "timestamp": 1795406726000,
+      "percent": 19.999999999999996
+    },
+    {
+      "symbol": "FSX.BK",
+      "name": "Finansia X Public Company Limited",
+      "currency": "THB",
+      "price": 0.96,
+      "previousClose": 0.83,
+      "timestamp": 1795405421000,
+      "percent": 15.662650602409634
     },
     {
       "symbol": "ABM.BK",
@@ -336,17 +300,17 @@
       "currency": "THB",
       "price": 1,
       "previousClose": 0.88,
-      "timestamp": 1795406084000,
+      "timestamp": 1795406562000,
       "percent": 13.636363636363647
     },
     {
-      "symbol": "TNPC.BK",
-      "name": "Thai Nam Plastic Public Company Limited",
+      "symbol": "THANA.BK",
+      "name": "Thanasiri Group Public Company Limited",
       "currency": "THB",
-      "price": 0.89,
-      "previousClose": 0.8,
-      "timestamp": 1795402739000,
-      "percent": 11.250000000000004
+      "price": 1.71,
+      "previousClose": 1.54,
+      "timestamp": 1795406628000,
+      "percent": 11.038961038961027
     },
     {
       "symbol": "BSM.BK",
@@ -358,22 +322,22 @@
       "percent": 10.344827586206918
     },
     {
+      "symbol": "CRANE.BK",
+      "name": "Chukai Public Company Limited",
+      "currency": "THB",
+      "price": 0.22,
+      "previousClose": 0.2,
+      "timestamp": 1795406678000,
+      "percent": 9.999999999999986
+    },
+    {
       "symbol": "EMPIRE.BK",
       "name": "Origin Global Empire Public Company Limited",
       "currency": "THB",
       "price": 0.22,
       "previousClose": 0.2,
-      "timestamp": 1795406128000,
+      "timestamp": 1795406716000,
       "percent": 9.999999999999986
-    },
-    {
-      "symbol": "SCM.BK",
-      "name": "Successmore Being Public Company Limited",
-      "currency": "THB",
-      "price": 0.12,
-      "previousClose": 0.11,
-      "timestamp": 1795404820000,
-      "percent": 9.090909090909083
     },
     {
       "symbol": "CRD.BK",
@@ -381,17 +345,17 @@
       "currency": "THB",
       "price": 0.38,
       "previousClose": 0.35,
-      "timestamp": 1795405450000,
+      "timestamp": 1795406206000,
       "percent": 8.571428571428585
     },
     {
-      "symbol": "SR.BK",
-      "name": "Siamraj Public Company Limited",
+      "symbol": "DPAINT.BK",
+      "name": "Delta Paint Public Company Limited",
       "currency": "THB",
-      "price": 0.4,
-      "previousClose": 0.37,
-      "timestamp": 1795405213000,
-      "percent": 8.108108108108114
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1795406460000,
+      "percent": 8.333333333333348
     },
     {
       "symbol": "DCON.BK",
@@ -399,7 +363,7 @@
       "currency": "THB",
       "price": 0.14,
       "previousClose": 0.13,
-      "timestamp": 1795405851000,
+      "timestamp": 1795406499000,
       "percent": 7.692307692307709
     },
     {
@@ -421,22 +385,22 @@
       "percent": 7.692307692307709
     },
     {
-      "symbol": "BGC.BK",
-      "name": "BG Container Glass Public Company Limited",
+      "symbol": "PORT.BK",
+      "name": "Sahathai Terminal Public Company Limited",
       "currency": "THB",
-      "price": 6,
-      "previousClose": 5.6,
-      "timestamp": 1795403834000,
-      "percent": 7.14285714285714
+      "price": 0.91,
+      "previousClose": 0.85,
+      "timestamp": 1795406596000,
+      "percent": 7.058823529411762
     },
     {
       "symbol": "JTS.BK",
       "name": "Jasmine Technology Solution Public Company Limited",
       "currency": "THB",
-      "price": 12.75,
+      "price": 12.7,
       "previousClose": 11.9,
-      "timestamp": 1795406106000,
-      "percent": 7.14285714285714
+      "timestamp": 1795406674000,
+      "percent": 6.72268907563025
     },
     {
       "symbol": "GRAMMY.BK",
@@ -475,29 +439,65 @@
       "percent": 6.25
     },
     {
+      "symbol": "PPS.BK",
+      "name": "Project Planning Service Public Company Limited",
+      "currency": "THB",
+      "price": 0.17,
+      "previousClose": 0.16,
+      "timestamp": 1795406596000,
+      "percent": 6.25
+    },
+    {
       "symbol": "BWG.BK",
       "name": "Better World Green Public Company Limited",
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.17,
-      "timestamp": 1795406070000,
+      "timestamp": 1795406724000,
       "percent": 5.88235294117645
+    },
+    {
+      "symbol": "FNS.BK",
+      "name": "FNS Holdings Public Company Limited",
+      "currency": "THB",
+      "price": 0.38,
+      "previousClose": 0.36,
+      "timestamp": 1795403651000,
+      "percent": 5.555555555555558
+    },
+    {
+      "symbol": "NEP.BK",
+      "name": "NEP Realty and Industry Public Company Limited",
+      "currency": "THB",
+      "price": 0.19,
+      "previousClose": 0.18,
+      "timestamp": 1795406154000,
+      "percent": 5.555555555555558
+    },
+    {
+      "symbol": "BGC.BK",
+      "name": "BG Container Glass Public Company Limited",
+      "currency": "THB",
+      "price": 5.9,
+      "previousClose": 5.6,
+      "timestamp": 1795406516000,
+      "percent": 5.35714285714286
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 757,
-    "missing": 105,
+    "eligible": 765,
+    "missing": 97,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-23",
-    "scheduledSlot": "2026-11-23T11:25[Asia/Bangkok]",
-    "updatedAt": 1795407933399
+    "scheduledSlot": "2026-11-23T11:35[Asia/Bangkok]",
+    "updatedAt": 1795408535018
   },
-  "todayGainersUpdatedAt": 1795407933399,
+  "todayGainersUpdatedAt": 1795408535018,
   "items": [
     {
       "symbol": "INSET.BK",
