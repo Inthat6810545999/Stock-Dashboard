@@ -127,7 +127,7 @@
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1795404244000,
+      "timestamp": 1795405310000,
       "percent": 50
     },
     {
@@ -137,15 +137,6 @@
       "price": 0.03,
       "previousClose": 0.02,
       "timestamp": 1795404251000,
-      "percent": 50
-    },
-    {
-      "symbol": "PF.BK",
-      "name": "Property Perfect Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795404721000,
       "percent": 50
     },
     {
@@ -190,7 +181,7 @@
       "currency": "THB",
       "price": 0.74,
       "previousClose": 0.59,
-      "timestamp": 1795404463000,
+      "timestamp": 1795405474000,
       "percent": 25.423728813559322
     },
     {
@@ -210,6 +201,15 @@
       "previousClose": 0.04,
       "timestamp": 1795404520000,
       "percent": 25
+    },
+    {
+      "symbol": "CRANE.BK",
+      "name": "Chukai Public Company Limited",
+      "currency": "THB",
+      "price": 0.24,
+      "previousClose": 0.2,
+      "timestamp": 1795405405000,
+      "percent": 19.999999999999996
     }
   ],
   "todayCandidates": [
@@ -219,7 +219,7 @@
       "currency": "THB",
       "price": 0.03,
       "previousClose": 0.02,
-      "timestamp": 1795404244000,
+      "timestamp": 1795405310000,
       "percent": 50
     },
     {
@@ -229,15 +229,6 @@
       "price": 0.03,
       "previousClose": 0.02,
       "timestamp": 1795404251000,
-      "percent": 50
-    },
-    {
-      "symbol": "PF.BK",
-      "name": "Property Perfect Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795404721000,
       "percent": 50
     },
     {
@@ -282,7 +273,7 @@
       "currency": "THB",
       "price": 0.74,
       "previousClose": 0.59,
-      "timestamp": 1795404463000,
+      "timestamp": 1795405474000,
       "percent": 25.423728813559322
     },
     {
@@ -302,6 +293,15 @@
       "previousClose": 0.04,
       "timestamp": 1795404520000,
       "percent": 25
+    },
+    {
+      "symbol": "CRANE.BK",
+      "name": "Chukai Public Company Limited",
+      "currency": "THB",
+      "price": 0.24,
+      "previousClose": 0.2,
+      "timestamp": 1795405405000,
+      "percent": 19.999999999999996
     },
     {
       "symbol": "THANA.BK",
@@ -313,13 +313,13 @@
       "percent": 16.883116883116877
     },
     {
-      "symbol": "CRANE.BK",
-      "name": "Chukai Public Company Limited",
+      "symbol": "FSX.BK",
+      "name": "Finansia X Public Company Limited",
       "currency": "THB",
-      "price": 0.23,
-      "previousClose": 0.2,
-      "timestamp": 1795404912000,
-      "percent": 14.999999999999991
+      "price": 0.96,
+      "previousClose": 0.83,
+      "timestamp": 1795405421000,
+      "percent": 15.662650602409634
     },
     {
       "symbol": "MONO.BK",
@@ -327,7 +327,7 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.2,
-      "timestamp": 1795404928000,
+      "timestamp": 1795405526000,
       "percent": 14.999999999999991
     },
     {
@@ -336,7 +336,7 @@
       "currency": "THB",
       "price": 1,
       "previousClose": 0.88,
-      "timestamp": 1795404675000,
+      "timestamp": 1795405307000,
       "percent": 13.636363636363647
     },
     {
@@ -367,12 +367,30 @@
       "percent": 9.090909090909083
     },
     {
+      "symbol": "CRD.BK",
+      "name": "Chiangmai Rimdoi Public Company Limited",
+      "currency": "THB",
+      "price": 0.38,
+      "previousClose": 0.35,
+      "timestamp": 1795405450000,
+      "percent": 8.571428571428585
+    },
+    {
       "symbol": "DPAINT.BK",
       "name": "Delta Paint Public Company Limited",
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1795403491000,
+      "timestamp": 1795405418000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "RS.BK",
+      "name": "RS Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1795405401000,
       "percent": 8.333333333333348
     },
     {
@@ -381,7 +399,7 @@
       "currency": "THB",
       "price": 0.4,
       "previousClose": 0.37,
-      "timestamp": 1795404494000,
+      "timestamp": 1795405213000,
       "percent": 8.108108108108114
     },
     {
@@ -412,21 +430,21 @@
       "percent": 7.692307692307709
     },
     {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
-      "currency": "THB",
-      "price": 12.8,
-      "previousClose": 11.9,
-      "timestamp": 1795404927000,
-      "percent": 7.563025210084029
-    },
-    {
       "symbol": "BGC.BK",
       "name": "BG Container Glass Public Company Limited",
       "currency": "THB",
       "price": 6,
       "previousClose": 5.6,
       "timestamp": 1795403834000,
+      "percent": 7.14285714285714
+    },
+    {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 12.75,
+      "previousClose": 11.9,
+      "timestamp": 1795405420000,
       "percent": 7.14285714285714
     },
     {
@@ -448,6 +466,15 @@
       "percent": 6.521739130434767
     },
     {
+      "symbol": "BLESS.BK",
+      "name": "Bless Asset Group Public Company Limited",
+      "currency": "THB",
+      "price": 0.17,
+      "previousClose": 0.16,
+      "timestamp": 1795405208000,
+      "percent": 6.25
+    },
+    {
       "symbol": "PLT.BK",
       "name": "Pilatus Marine Public Company Limited",
       "currency": "THB",
@@ -455,49 +482,22 @@
       "previousClose": 0.48,
       "timestamp": 1795404413000,
       "percent": 6.25
-    },
-    {
-      "symbol": "PPS.BK",
-      "name": "Project Planning Service Public Company Limited",
-      "currency": "THB",
-      "price": 0.17,
-      "previousClose": 0.16,
-      "timestamp": 1795403391000,
-      "percent": 6.25
-    },
-    {
-      "symbol": "PPM.BK",
-      "name": "Porn Prom Metal Public Company Limited",
-      "currency": "THB",
-      "price": 1.81,
-      "previousClose": 1.71,
-      "timestamp": 1795403314000,
-      "percent": 5.84795321637428
-    },
-    {
-      "symbol": "FNS.BK",
-      "name": "FNS Holdings Public Company Limited",
-      "currency": "THB",
-      "price": 0.38,
-      "previousClose": 0.36,
-      "timestamp": 1795403651000,
-      "percent": 5.555555555555558
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 739,
-    "missing": 123,
+    "eligible": 750,
+    "missing": 112,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-23",
-    "scheduledSlot": "2026-11-23T11:05[Asia/Bangkok]",
-    "updatedAt": 1795406734998
+    "scheduledSlot": "2026-11-23T11:15[Asia/Bangkok]",
+    "updatedAt": 1795407344591
   },
-  "todayGainersUpdatedAt": 1795406734998,
+  "todayGainersUpdatedAt": 1795407344591,
   "items": [
     {
       "symbol": "INSET.BK",
