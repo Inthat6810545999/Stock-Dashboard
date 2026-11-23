@@ -125,19 +125,19 @@
       "symbol": "WETO",
       "name": "Wetour Robotics Limited",
       "currency": "USD",
-      "price": 0.7035,
+      "price": 0.6611,
       "previousClose": 0.1722,
-      "timestamp": 1795446960000,
-      "percent": 308.53658536585374
+      "timestamp": 1795447560000,
+      "percent": 283.9140534262486
     },
     {
       "symbol": "RBNE",
       "name": "Robin Energy Ltd.",
       "currency": "USD",
-      "price": 0.0462,
+      "price": 0.0456,
       "previousClose": 0.0226,
-      "timestamp": 1795446955000,
-      "percent": 104.42477876106193
+      "timestamp": 1795447555000,
+      "percent": 101.76991150442478
     },
     {
       "symbol": "BNAI",
@@ -145,71 +145,71 @@
       "currency": "USD",
       "price": 5.47,
       "previousClose": 3.36,
-      "timestamp": 1795446939000,
+      "timestamp": 1795446950000,
       "percent": 62.797619047619044
-    },
-    {
-      "symbol": "GMEX",
-      "name": "GMEX Robotics Corporation",
-      "currency": "USD",
-      "price": 0.2892,
-      "previousClose": 0.192,
-      "timestamp": 1795446945000,
-      "percent": 50.62500000000001
     },
     {
       "symbol": "RSSS",
       "name": "Research Solutions, Inc.",
       "currency": "USD",
-      "price": 3.1775,
+      "price": 3.175,
       "previousClose": 2.15,
-      "timestamp": 1795446939000,
-      "percent": 47.79069767441862
+      "timestamp": 1795447540000,
+      "percent": 47.67441860465116
     },
     {
-      "symbol": "DCGO",
-      "name": "DocGo Inc.",
+      "symbol": "MRM",
+      "name": "MEDIROM Healthcare Technologies Inc.",
       "currency": "USD",
-      "price": 0.2435,
-      "previousClose": 0.175,
-      "timestamp": 1795446942000,
-      "percent": 39.142857142857146
-    },
-    {
-      "symbol": "CUE",
-      "name": "Cue Biopharma, Inc.",
-      "currency": "USD",
-      "price": 5.675,
-      "previousClose": 4.15,
-      "timestamp": 1795446937000,
-      "percent": 36.74698795180722
-    },
-    {
-      "symbol": "BUUU",
-      "name": "BUUU Group Limited",
-      "currency": "USD",
-      "price": 4.45,
-      "previousClose": 3.29,
-      "timestamp": 1795446876000,
-      "percent": 35.25835866261397
+      "price": 0.3333,
+      "previousClose": 0.23,
+      "timestamp": 1795447545000,
+      "percent": 44.91304347826086
     },
     {
       "symbol": "SOAR",
       "name": "SOAR AI, Inc.",
       "currency": "USD",
-      "price": 0.222,
+      "price": 0.2356,
       "previousClose": 0.165,
-      "timestamp": 1795446956000,
-      "percent": 34.54545454545455
+      "timestamp": 1795447556000,
+      "percent": 42.787878787878775
     },
     {
-      "symbol": "XLAB",
-      "name": "Exascale Labs Holdings Inc.",
+      "symbol": "GMEX",
+      "name": "GMEX Robotics Corporation",
       "currency": "USD",
-      "price": 1.775,
-      "previousClose": 1.33,
-      "timestamp": 1795446958000,
-      "percent": 33.458646616541344
+      "price": 0.2733,
+      "previousClose": 0.192,
+      "timestamp": 1795447547000,
+      "percent": 42.34374999999999
+    },
+    {
+      "symbol": "CUE",
+      "name": "Cue Biopharma, Inc.",
+      "currency": "USD",
+      "price": 5.84,
+      "previousClose": 4.15,
+      "timestamp": 1795447519000,
+      "percent": 40.72289156626505
+    },
+    {
+      "symbol": "AVZO",
+      "name": "Avenzo Therapeutics, Inc. - Common Stock",
+      "currency": "USD",
+      "price": 4.4,
+      "previousClose": 3.14,
+      "timestamp": 1795447533000,
+      "percent": 40.12738853503186
+    },
+    {
+      "symbol": "DCGO",
+      "name": "DocGo Inc.",
+      "currency": "USD",
+      "price": 0.2438,
+      "previousClose": 0.175,
+      "timestamp": 1795447541000,
+      "percent": 39.314285714285724
     }
   ],
   "todayCandidates": [
@@ -217,19 +217,19 @@
       "symbol": "WETO",
       "name": "Wetour Robotics Limited",
       "currency": "USD",
-      "price": 0.7035,
+      "price": 0.6611,
       "previousClose": 0.1722,
-      "timestamp": 1795446960000,
-      "percent": 308.53658536585374
+      "timestamp": 1795447560000,
+      "percent": 283.9140534262486
     },
     {
       "symbol": "RBNE",
       "name": "Robin Energy Ltd.",
       "currency": "USD",
-      "price": 0.0462,
+      "price": 0.0456,
       "previousClose": 0.0226,
-      "timestamp": 1795446955000,
-      "percent": 104.42477876106193
+      "timestamp": 1795447555000,
+      "percent": 101.76991150442478
     },
     {
       "symbol": "BNAI",
@@ -237,44 +237,89 @@
       "currency": "USD",
       "price": 5.47,
       "previousClose": 3.36,
-      "timestamp": 1795446939000,
+      "timestamp": 1795446950000,
       "percent": 62.797619047619044
-    },
-    {
-      "symbol": "GMEX",
-      "name": "GMEX Robotics Corporation",
-      "currency": "USD",
-      "price": 0.2892,
-      "previousClose": 0.192,
-      "timestamp": 1795446945000,
-      "percent": 50.62500000000001
     },
     {
       "symbol": "RSSS",
       "name": "Research Solutions, Inc.",
       "currency": "USD",
-      "price": 3.1775,
+      "price": 3.175,
       "previousClose": 2.15,
-      "timestamp": 1795446939000,
-      "percent": 47.79069767441862
+      "timestamp": 1795447540000,
+      "percent": 47.67441860465116
     },
     {
-      "symbol": "DCGO",
-      "name": "DocGo Inc.",
+      "symbol": "MRM",
+      "name": "MEDIROM Healthcare Technologies Inc.",
       "currency": "USD",
-      "price": 0.2435,
-      "previousClose": 0.175,
-      "timestamp": 1795446942000,
-      "percent": 39.142857142857146
+      "price": 0.3333,
+      "previousClose": 0.23,
+      "timestamp": 1795447545000,
+      "percent": 44.91304347826086
+    },
+    {
+      "symbol": "SOAR",
+      "name": "SOAR AI, Inc.",
+      "currency": "USD",
+      "price": 0.2356,
+      "previousClose": 0.165,
+      "timestamp": 1795447556000,
+      "percent": 42.787878787878775
+    },
+    {
+      "symbol": "GMEX",
+      "name": "GMEX Robotics Corporation",
+      "currency": "USD",
+      "price": 0.2733,
+      "previousClose": 0.192,
+      "timestamp": 1795447547000,
+      "percent": 42.34374999999999
     },
     {
       "symbol": "CUE",
       "name": "Cue Biopharma, Inc.",
       "currency": "USD",
-      "price": 5.675,
+      "price": 5.84,
       "previousClose": 4.15,
-      "timestamp": 1795446937000,
-      "percent": 36.74698795180722
+      "timestamp": 1795447519000,
+      "percent": 40.72289156626505
+    },
+    {
+      "symbol": "AVZO",
+      "name": "Avenzo Therapeutics, Inc. - Common Stock",
+      "currency": "USD",
+      "price": 4.4,
+      "previousClose": 3.14,
+      "timestamp": 1795447533000,
+      "percent": 40.12738853503186
+    },
+    {
+      "symbol": "DCGO",
+      "name": "DocGo Inc.",
+      "currency": "USD",
+      "price": 0.2438,
+      "previousClose": 0.175,
+      "timestamp": 1795447541000,
+      "percent": 39.314285714285724
+    },
+    {
+      "symbol": "XCH",
+      "name": "XCHG Limited",
+      "currency": "USD",
+      "price": 3.743,
+      "previousClose": 2.74,
+      "timestamp": 1795447270000,
+      "percent": 36.60583941605837
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "currency": "USD",
+      "price": 170.995,
+      "previousClose": 125.53,
+      "timestamp": 1795447553000,
+      "percent": 36.21843384051622
     },
     {
       "symbol": "BUUU",
@@ -286,121 +331,130 @@
       "percent": 35.25835866261397
     },
     {
-      "symbol": "SOAR",
-      "name": "SOAR AI, Inc.",
+      "symbol": "IREN",
+      "name": "IREN Limited",
       "currency": "USD",
-      "price": 0.222,
-      "previousClose": 0.165,
-      "timestamp": 1795446956000,
-      "percent": 34.54545454545455
+      "price": 15.77,
+      "previousClose": 11.82,
+      "timestamp": 1795447549000,
+      "percent": 33.417935702199664
     },
     {
-      "symbol": "XLAB",
-      "name": "Exascale Labs Holdings Inc.",
+      "symbol": "AIIO",
+      "name": "Robo.ai Inc.",
       "currency": "USD",
-      "price": 1.775,
-      "previousClose": 1.33,
-      "timestamp": 1795446958000,
-      "percent": 33.458646616541344
+      "price": 6.2,
+      "previousClose": 4.65,
+      "timestamp": 1795447419000,
+      "percent": 33.33333333333333
     },
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
+      "symbol": "PAAI",
+      "name": "Paradium.AI, Inc.",
       "currency": "USD",
-      "price": 167.175,
-      "previousClose": 125.53,
-      "timestamp": 1795446953000,
-      "percent": 33.17533657293079
-    },
-    {
-      "symbol": "MRM",
-      "name": "MEDIROM Healthcare Technologies Inc.",
-      "currency": "USD",
-      "price": 0.3061,
-      "previousClose": 0.23,
-      "timestamp": 1795446951000,
-      "percent": 33.08695652173912
-    },
-    {
-      "symbol": "DWTX",
-      "name": "Dogwood Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 1.375,
-      "previousClose": 1.035,
-      "timestamp": 1795446943000,
-      "percent": 32.85024154589373
-    },
-    {
-      "symbol": "RZAI",
-      "name": "Roze AI Inc.",
-      "currency": "USD",
-      "price": 2.205,
-      "previousClose": 1.66,
-      "timestamp": 1795446952000,
-      "percent": 32.83132530120483
-    },
-    {
-      "symbol": "SVRN",
-      "name": "OceanPal Inc.",
-      "currency": "USD",
-      "price": 14.2365,
-      "previousClose": 10.75,
-      "timestamp": 1795446929000,
-      "percent": 32.432558139534876
+      "price": 0.4789,
+      "previousClose": 0.363,
+      "timestamp": 1795447533000,
+      "percent": 31.928374655647396
     },
     {
       "symbol": "FFR",
       "name": "FF EAI Robotics Ecosystem Inc.",
       "currency": "USD",
-      "price": 0.4697,
+      "price": 0.4701,
       "previousClose": 0.357,
-      "timestamp": 1795446938000,
-      "percent": 31.56862745098039
-    },
-    {
-      "symbol": "DTSS",
-      "name": "Datasea Intelligent Technology Ltd.",
-      "currency": "USD",
-      "price": 0.4813,
-      "previousClose": 0.368,
-      "timestamp": 1795446930000,
-      "percent": 30.788043478260875
-    },
-    {
-      "symbol": "IREN",
-      "name": "IREN Limited",
-      "currency": "USD",
-      "price": 15.4345,
-      "previousClose": 11.82,
-      "timestamp": 1795446948000,
-      "percent": 30.579526226734345
-    },
-    {
-      "symbol": "BRUN",
-      "name": "Boost Run, Inc.",
-      "currency": "USD",
-      "price": 4.625,
-      "previousClose": 3.56,
-      "timestamp": 1795446938000,
-      "percent": 29.91573033707864
+      "timestamp": 1795447544000,
+      "percent": 31.680672268907585
     },
     {
       "symbol": "AXTI",
       "name": "AXT, Inc.",
       "currency": "USD",
-      "price": 39.595,
+      "price": 40.1,
       "previousClose": 30.57,
-      "timestamp": 1795446936000,
-      "percent": 29.522407589139664
+      "timestamp": 1795447540000,
+      "percent": 31.174353941772992
+    },
+    {
+      "symbol": "BRUN",
+      "name": "Boost Run, Inc.",
+      "currency": "USD",
+      "price": 4.655,
+      "previousClose": 3.56,
+      "timestamp": 1795447540000,
+      "percent": 30.75842696629214
+    },
+    {
+      "symbol": "SVRN",
+      "name": "OceanPal Inc.",
+      "currency": "USD",
+      "price": 13.93,
+      "previousClose": 10.75,
+      "timestamp": 1795447107000,
+      "percent": 29.581395348837212
+    },
+    {
+      "symbol": "MEDS",
+      "name": "DataMEDS AI, Inc.",
+      "currency": "USD",
+      "price": 1.735,
+      "previousClose": 1.34,
+      "timestamp": 1795447549000,
+      "percent": 29.477611940298498
+    },
+    {
+      "symbol": "SHAZ",
+      "name": "SharonAI Holdings Inc.",
+      "currency": "USD",
+      "price": 21.705,
+      "previousClose": 16.83,
+      "timestamp": 1795447542000,
+      "percent": 28.96613190730839
+    },
+    {
+      "symbol": "NBIS",
+      "name": "Nebius Group N.V.",
+      "currency": "USD",
+      "price": 104.395,
+      "previousClose": 81.31,
+      "timestamp": 1795447552000,
+      "percent": 28.39134177837903
     },
     {
       "symbol": "JELD",
       "name": "JELD-WEN Holding, Inc.",
       "currency": "USD",
-      "price": 0.8903,
+      "price": 0.895,
       "previousClose": 0.6989,
-      "timestamp": 1795446946000,
-      "percent": 27.385892116182585
+      "timestamp": 1795447443000,
+      "percent": 28.058377450279014
+    },
+    {
+      "symbol": "XLAB",
+      "name": "Exascale Labs Holdings Inc.",
+      "currency": "USD",
+      "price": 1.6996,
+      "previousClose": 1.33,
+      "timestamp": 1795447544000,
+      "percent": 27.78947368421052
+    },
+    {
+      "symbol": "APLD",
+      "name": "Applied Digital Corporation",
+      "currency": "USD",
+      "price": 14.68,
+      "previousClose": 11.49,
+      "timestamp": 1795447538000,
+      "percent": 27.763272410791995
+    },
+    {
+      "symbol": "DTSS",
+      "name": "Datasea Intelligent Technology Ltd.",
+      "currency": "USD",
+      "price": 0.47,
+      "previousClose": 0.368,
+      "timestamp": 1795447522000,
+      "percent": 27.717391304347828
     },
     {
       "symbol": "BEAGR",
@@ -412,76 +466,22 @@
       "percent": 27.001656543346208
     },
     {
-      "symbol": "AIIO",
-      "name": "Robo.ai Inc.",
-      "currency": "USD",
-      "price": 5.88,
-      "previousClose": 4.65,
-      "timestamp": 1795446762000,
-      "percent": 26.451612903225797
-    },
-    {
-      "symbol": "SHAZ",
-      "name": "SharonAI Holdings Inc.",
-      "currency": "USD",
-      "price": 21.28,
-      "previousClose": 16.83,
-      "timestamp": 1795446944000,
-      "percent": 26.440879382055883
-    },
-    {
-      "symbol": "NBIS",
-      "name": "Nebius Group N.V.",
-      "currency": "USD",
-      "price": 102.3911,
-      "previousClose": 81.31,
-      "timestamp": 1795446951000,
-      "percent": 25.9268232689706
-    },
-    {
-      "symbol": "APLD",
-      "name": "Applied Digital Corporation",
-      "currency": "USD",
-      "price": 14.435,
-      "previousClose": 11.49,
-      "timestamp": 1795446937000,
-      "percent": 25.63098346388164
-    },
-    {
-      "symbol": "PAAI",
-      "name": "Paradium.AI, Inc.",
-      "currency": "USD",
-      "price": 0.4539,
-      "previousClose": 0.363,
-      "timestamp": 1795446932000,
-      "percent": 25.04132231404961
-    },
-    {
-      "symbol": "NVTS",
-      "name": "Navitas Semiconductor Corporation",
-      "currency": "USD",
-      "price": 7.6,
-      "previousClose": 6.08,
-      "timestamp": 1795446951000,
-      "percent": 25
-    },
-    {
       "symbol": "CRWV",
       "name": "CoreWeave, Inc.",
       "currency": "USD",
-      "price": 49.17,
+      "price": 50.145,
       "previousClose": 39.51,
-      "timestamp": 1795446941000,
-      "percent": 24.449506454062274
+      "timestamp": 1795447543000,
+      "percent": 26.917236142748678
     },
     {
-      "symbol": "KYMR",
-      "name": "Kymera Therapeutics, Inc.",
+      "symbol": "IVVD",
+      "name": "Invivyd, Inc.",
       "currency": "USD",
-      "price": 143.2201,
-      "previousClose": 115.31,
-      "timestamp": 1795446941000,
-      "percent": 24.20440551556673
+      "price": 0.5226,
+      "previousClose": 0.4127,
+      "timestamp": 1795447549000,
+      "percent": 26.62951296341167
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-23T10:15[America/New_York]",
-    "updatedAt": 1795446963739
+    "scheduledSlot": "2026-11-23T10:25[America/New_York]",
+    "updatedAt": 1795447562506
   },
-  "todayGainersUpdatedAt": 1795446963739,
+  "todayGainersUpdatedAt": 1795447562506,
   "items": [
     {
       "symbol": "SNDK",
