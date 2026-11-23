@@ -491,13 +491,14 @@
     "missing": 49,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full SET/mai universe",
+    "source": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
+    "closingConfirmation": true,
     "sessionDate": "2026-11-23",
-    "scheduledSlot": "2026-11-23T17:05[Asia/Bangkok]",
-    "updatedAt": 1795428336572
+    "scheduledSlot": "2026-11-23T17:15[Asia/Bangkok]",
+    "updatedAt": 1795428946319
   },
-  "todayGainersUpdatedAt": 1795428336572,
+  "todayGainersUpdatedAt": 1795428946319,
   "items": [
     {
       "symbol": "INSET.BK",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full SET/mai universe"
+  "todayGainersSource": "Yahoo Finance · full SET/mai universe · regular-session close rechecked after market close"
 }
