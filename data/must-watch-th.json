@@ -127,8 +127,17 @@
       "currency": "THB",
       "price": 0.02,
       "previousClose": 0.01,
-      "timestamp": 1795422674000,
+      "timestamp": 1795423114000,
       "percent": 100
+    },
+    {
+      "symbol": "B.BK",
+      "name": "Begistics Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1795423298000,
+      "percent": 50
     },
     {
       "symbol": "CIG.BK",
@@ -137,15 +146,6 @@
       "price": 0.03,
       "previousClose": 0.02,
       "timestamp": 1795419127000,
-      "percent": 50
-    },
-    {
-      "symbol": "PF.BK",
-      "name": "Property Perfect Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795422304000,
       "percent": 50
     },
     {
@@ -176,15 +176,6 @@
       "percent": 28.81355932203391
     },
     {
-      "symbol": "DIMET.BK",
-      "name": "Dimet (Siam) Public Company Limited",
-      "currency": "THB",
-      "price": 0.05,
-      "previousClose": 0.04,
-      "timestamp": 1795409649000,
-      "percent": 25
-    },
-    {
       "symbol": "TFI.BK",
       "name": "Thai Future Incorporation Public Company Limited",
       "currency": "THB",
@@ -194,22 +185,31 @@
       "percent": 25
     },
     {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
+      "symbol": "CHEWA.BK",
+      "name": "Chewathai Public Company Limited",
       "currency": "THB",
-      "price": 13.95,
-      "previousClose": 11.9,
-      "timestamp": 1795422931000,
-      "percent": 17.226890756302502
+      "price": 0.12,
+      "previousClose": 0.1,
+      "timestamp": 1795423322000,
+      "percent": 19.999999999999996
     },
     {
       "symbol": "MGI.BK",
       "name": "Miss Grand International Public Company Limited",
       "currency": "THB",
-      "price": 3,
+      "price": 3.1,
       "previousClose": 2.6,
-      "timestamp": 1795422935000,
-      "percent": 15.384615384615374
+      "timestamp": 1795423533000,
+      "percent": 19.23076923076923
+    },
+    {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 14.05,
+      "previousClose": 11.9,
+      "timestamp": 1795423504000,
+      "percent": 18.067226890756306
     }
   ],
   "todayCandidates": [
@@ -219,8 +219,17 @@
       "currency": "THB",
       "price": 0.02,
       "previousClose": 0.01,
-      "timestamp": 1795422674000,
+      "timestamp": 1795423114000,
       "percent": 100
+    },
+    {
+      "symbol": "B.BK",
+      "name": "Begistics Public Company Limited",
+      "currency": "THB",
+      "price": 0.03,
+      "previousClose": 0.02,
+      "timestamp": 1795423298000,
+      "percent": 50
     },
     {
       "symbol": "CIG.BK",
@@ -229,15 +238,6 @@
       "price": 0.03,
       "previousClose": 0.02,
       "timestamp": 1795419127000,
-      "percent": 50
-    },
-    {
-      "symbol": "PF.BK",
-      "name": "Property Perfect Public Company Limited",
-      "currency": "THB",
-      "price": 0.03,
-      "previousClose": 0.02,
-      "timestamp": 1795422304000,
       "percent": 50
     },
     {
@@ -268,15 +268,6 @@
       "percent": 28.81355932203391
     },
     {
-      "symbol": "DIMET.BK",
-      "name": "Dimet (Siam) Public Company Limited",
-      "currency": "THB",
-      "price": 0.05,
-      "previousClose": 0.04,
-      "timestamp": 1795409649000,
-      "percent": 25
-    },
-    {
       "symbol": "TFI.BK",
       "name": "Thai Future Incorporation Public Company Limited",
       "currency": "THB",
@@ -286,22 +277,40 @@
       "percent": 25
     },
     {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
+      "symbol": "CHEWA.BK",
+      "name": "Chewathai Public Company Limited",
       "currency": "THB",
-      "price": 13.95,
-      "previousClose": 11.9,
-      "timestamp": 1795422931000,
-      "percent": 17.226890756302502
+      "price": 0.12,
+      "previousClose": 0.1,
+      "timestamp": 1795423322000,
+      "percent": 19.999999999999996
     },
     {
       "symbol": "MGI.BK",
       "name": "Miss Grand International Public Company Limited",
       "currency": "THB",
-      "price": 3,
+      "price": 3.1,
       "previousClose": 2.6,
-      "timestamp": 1795422935000,
-      "percent": 15.384615384615374
+      "timestamp": 1795423533000,
+      "percent": 19.23076923076923
+    },
+    {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 14.05,
+      "previousClose": 11.9,
+      "timestamp": 1795423504000,
+      "percent": 18.067226890756306
+    },
+    {
+      "symbol": "CRANE.BK",
+      "name": "Chukai Public Company Limited",
+      "currency": "THB",
+      "price": 0.23,
+      "previousClose": 0.2,
+      "timestamp": 1795423517000,
+      "percent": 14.999999999999991
     },
     {
       "symbol": "BWG.BK",
@@ -309,7 +318,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.17,
-      "timestamp": 1795422406000,
+      "timestamp": 1795423146000,
       "percent": 11.764705882352944
     },
     {
@@ -320,6 +329,15 @@
       "previousClose": 0.26,
       "timestamp": 1795420772000,
       "percent": 11.538461538461519
+    },
+    {
+      "symbol": "JAS.BK",
+      "name": "Jasmine International Public Company Limited",
+      "currency": "THB",
+      "price": 0.59,
+      "previousClose": 0.53,
+      "timestamp": 1795423518000,
+      "percent": 11.32075471698113
     },
     {
       "symbol": "CGD.BK",
@@ -336,26 +354,8 @@
       "currency": "THB",
       "price": 0.97,
       "previousClose": 0.88,
-      "timestamp": 1795422578000,
+      "timestamp": 1795423126000,
       "percent": 10.22727272727273
-    },
-    {
-      "symbol": "CHEWA.BK",
-      "name": "Chewathai Public Company Limited",
-      "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1795422533000,
-      "percent": 9.999999999999986
-    },
-    {
-      "symbol": "CRANE.BK",
-      "name": "Chukai Public Company Limited",
-      "currency": "THB",
-      "price": 0.22,
-      "previousClose": 0.2,
-      "timestamp": 1795421522000,
-      "percent": 9.999999999999986
     },
     {
       "symbol": "EMPIRE.BK",
@@ -363,7 +363,7 @@
       "currency": "THB",
       "price": 0.22,
       "previousClose": 0.2,
-      "timestamp": 1795422810000,
+      "timestamp": 1795422982000,
       "percent": 9.999999999999986
     },
     {
@@ -374,15 +374,6 @@
       "previousClose": 0.83,
       "timestamp": 1795409320000,
       "percent": 9.63855421686748
-    },
-    {
-      "symbol": "JAS.BK",
-      "name": "Jasmine International Public Company Limited",
-      "currency": "THB",
-      "price": 0.58,
-      "previousClose": 0.53,
-      "timestamp": 1795422925000,
-      "percent": 9.433962264150942
     },
     {
       "symbol": "BSM.BK",
@@ -471,7 +462,7 @@
       "currency": "THB",
       "price": 0.77,
       "previousClose": 0.72,
-      "timestamp": 1795422868000,
+      "timestamp": 1795423284000,
       "percent": 6.944444444444442
     },
     {
@@ -480,7 +471,16 @@
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1795421423000,
+      "timestamp": 1795423428000,
+      "percent": 6.666666666666665
+    },
+    {
+      "symbol": "ROH.BK",
+      "name": "Royal Orchid Hotel (Thailand) Public Company Limited",
+      "currency": "THB",
+      "price": 0.16,
+      "previousClose": 0.15,
+      "timestamp": 1795422869000,
       "percent": 6.666666666666665
     }
   ],
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-23",
-    "scheduledSlot": "2026-11-23T16:05[Asia/Bangkok]",
-    "updatedAt": 1795424749491
+    "scheduledSlot": "2026-11-23T16:15[Asia/Bangkok]",
+    "updatedAt": 1795425337932
   },
-  "todayGainersUpdatedAt": 1795424749491,
+  "todayGainersUpdatedAt": 1795425337932,
   "items": [
     {
       "symbol": "INSET.BK",
