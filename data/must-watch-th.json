@@ -145,7 +145,7 @@
       "currency": "THB",
       "price": 0.35,
       "previousClose": 0.27,
-      "timestamp": 1795506027000,
+      "timestamp": 1795506873000,
       "percent": 29.629629629629605
     },
     {
@@ -203,13 +203,13 @@
       "percent": 13.636363636363647
     },
     {
-      "symbol": "BTW.BK",
-      "name": "BT Wealth Industries Public Company Limited",
+      "symbol": "ALPHAX.BK",
+      "name": "Alpha Divisions Public Company Limited",
       "currency": "THB",
-      "price": 0.09,
-      "previousClose": 0.08,
-      "timestamp": 1795496042000,
-      "percent": 12.5
+      "price": 0.17,
+      "previousClose": 0.15,
+      "timestamp": 1795506870000,
+      "percent": 13.333333333333353
     }
   ],
   "todayCandidates": [
@@ -237,7 +237,7 @@
       "currency": "THB",
       "price": 0.35,
       "previousClose": 0.27,
-      "timestamp": 1795506027000,
+      "timestamp": 1795506873000,
       "percent": 29.629629629629605
     },
     {
@@ -293,6 +293,15 @@
       "previousClose": 0.22,
       "timestamp": 1795506019000,
       "percent": 13.636363636363647
+    },
+    {
+      "symbol": "ALPHAX.BK",
+      "name": "Alpha Divisions Public Company Limited",
+      "currency": "THB",
+      "price": 0.17,
+      "previousClose": 0.15,
+      "timestamp": 1795506870000,
+      "percent": 13.333333333333353
     },
     {
       "symbol": "BTW.BK",
@@ -327,8 +336,17 @@
       "currency": "THB",
       "price": 0.22,
       "previousClose": 0.2,
-      "timestamp": 1795506284000,
+      "timestamp": 1795506922000,
       "percent": 9.999999999999986
+    },
+    {
+      "symbol": "CRANE.BK",
+      "name": "Chukai Public Company Limited",
+      "currency": "THB",
+      "price": 0.24,
+      "previousClose": 0.22,
+      "timestamp": 1795506406000,
+      "percent": 9.090909090909083
     },
     {
       "symbol": "SUPER.BK",
@@ -372,17 +390,8 @@
       "currency": "THB",
       "price": 0.8,
       "previousClose": 0.74,
-      "timestamp": 1795506257000,
+      "timestamp": 1795506826000,
       "percent": 8.108108108108114
-    },
-    {
-      "symbol": "BEAUTY.BK",
-      "name": "Beauty Community Public Company Limited",
-      "currency": "THB",
-      "price": 0.28,
-      "previousClose": 0.26,
-      "timestamp": 1795506254000,
-      "percent": 7.692307692307709
     },
     {
       "symbol": "QTCG.BK",
@@ -399,26 +408,8 @@
       "currency": "THB",
       "price": 0.15,
       "previousClose": 0.14,
-      "timestamp": 1795505970000,
+      "timestamp": 1795506805000,
       "percent": 7.14285714285714
-    },
-    {
-      "symbol": "JAS.BK",
-      "name": "Jasmine International Public Company Limited",
-      "currency": "THB",
-      "price": 0.62,
-      "previousClose": 0.58,
-      "timestamp": 1795506295000,
-      "percent": 6.896551724137945
-    },
-    {
-      "symbol": "ALPHAX.BK",
-      "name": "Alpha Divisions Public Company Limited",
-      "currency": "THB",
-      "price": 0.16,
-      "previousClose": 0.15,
-      "timestamp": 1795506317000,
-      "percent": 6.666666666666665
     },
     {
       "symbol": "SQ.BK",
@@ -435,8 +426,17 @@
       "currency": "THB",
       "price": 1.95,
       "previousClose": 1.83,
-      "timestamp": 1795506204000,
+      "timestamp": 1795506861000,
       "percent": 6.557377049180313
+    },
+    {
+      "symbol": "PANEL.BK",
+      "name": "Panelesmatic Solutions Public Company Limited",
+      "currency": "THB",
+      "price": 1.31,
+      "previousClose": 1.23,
+      "timestamp": 1795506416000,
+      "percent": 6.50406504065042
     },
     {
       "symbol": "PEACE.BK",
@@ -466,22 +466,22 @@
       "percent": 6.25
     },
     {
-      "symbol": "PANEL.BK",
-      "name": "Panelesmatic Solutions Public Company Limited",
+      "symbol": "PLANET.BK",
+      "name": "Planet Communications Asia Public Company Limited",
       "currency": "THB",
-      "price": 1.3,
-      "previousClose": 1.23,
-      "timestamp": 1795506166000,
-      "percent": 5.691056910569103
+      "price": 0.36,
+      "previousClose": 0.34,
+      "timestamp": 1795506744000,
+      "percent": 5.88235294117645
     },
     {
-      "symbol": "BTC.BK",
-      "name": "The Brooker Group Public Company Limited",
+      "symbol": "POWER.BK",
+      "name": "Power Solution Technologies Public Company Limited",
       "currency": "THB",
-      "price": 0.19,
-      "previousClose": 0.18,
-      "timestamp": 1795505106000,
-      "percent": 5.555555555555558
+      "price": 0.36,
+      "previousClose": 0.34,
+      "timestamp": 1795506776000,
+      "percent": 5.88235294117645
     }
   ],
   "todayScan": {
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-24",
-    "scheduledSlot": "2026-11-24T15:15[Asia/Bangkok]",
-    "updatedAt": 1795508140570
+    "scheduledSlot": "2026-11-24T15:25[Asia/Bangkok]",
+    "updatedAt": 1795508747070
   },
-  "todayGainersUpdatedAt": 1795508140570,
+  "todayGainersUpdatedAt": 1795508747070,
   "items": [
     {
       "symbol": "INSET.BK",
