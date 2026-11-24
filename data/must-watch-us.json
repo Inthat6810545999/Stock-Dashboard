@@ -152,19 +152,19 @@
       "symbol": "LVWR",
       "name": "LiveWire Group, Inc.",
       "currency": "USD",
-      "price": 1.84,
+      "price": 1.87,
       "previousClose": 0.9801,
-      "timestamp": 1795553999000,
-      "percent": 87.7359453117029
+      "timestamp": 1795554002000,
+      "percent": 90.79685746352415
     },
     {
       "symbol": "APUS",
       "name": "Apimeds Pharmaceuticals US, Inc.",
       "currency": "USD",
-      "price": 2.2599,
+      "price": 2.31,
       "previousClose": 1.5,
-      "timestamp": 1795553999000,
-      "percent": 50.66
+      "timestamp": 1795554000000,
+      "percent": 54
     },
     {
       "symbol": "RMSG",
@@ -194,6 +194,15 @@
       "percent": 43.149284253578735
     },
     {
+      "symbol": "PLAG",
+      "name": "Planet Green Holdings Corp.",
+      "currency": "USD",
+      "price": 0.4844,
+      "previousClose": 0.3415,
+      "timestamp": 1795554000000,
+      "percent": 41.844802342606144
+    },
+    {
       "symbol": "LGHL",
       "name": "Lion Group Holding Ltd.",
       "currency": "USD",
@@ -201,15 +210,6 @@
       "previousClose": 0.6522,
       "timestamp": 1795554000000,
       "percent": 41.735663906777056
-    },
-    {
-      "symbol": "SMXT",
-      "name": "SolarMax Technology, Inc.",
-      "currency": "USD",
-      "price": 4.14,
-      "previousClose": 2.94,
-      "timestamp": 1795554001000,
-      "percent": 40.816326530612244
     }
   ],
   "todayCandidates": [
@@ -244,19 +244,19 @@
       "symbol": "LVWR",
       "name": "LiveWire Group, Inc.",
       "currency": "USD",
-      "price": 1.84,
+      "price": 1.87,
       "previousClose": 0.9801,
-      "timestamp": 1795553999000,
-      "percent": 87.7359453117029
+      "timestamp": 1795554002000,
+      "percent": 90.79685746352415
     },
     {
       "symbol": "APUS",
       "name": "Apimeds Pharmaceuticals US, Inc.",
       "currency": "USD",
-      "price": 2.2599,
+      "price": 2.31,
       "previousClose": 1.5,
-      "timestamp": 1795553999000,
-      "percent": 50.66
+      "timestamp": 1795554000000,
+      "percent": 54
     },
     {
       "symbol": "RMSG",
@@ -284,6 +284,15 @@
       "previousClose": 0.4401,
       "timestamp": 1795554002000,
       "percent": 43.149284253578735
+    },
+    {
+      "symbol": "PLAG",
+      "name": "Planet Green Holdings Corp.",
+      "currency": "USD",
+      "price": 0.4844,
+      "previousClose": 0.3415,
+      "timestamp": 1795554000000,
+      "percent": 41.844802342606144
     },
     {
       "symbol": "LGHL",
@@ -331,15 +340,6 @@
       "percent": 39.56690449367879
     },
     {
-      "symbol": "PLAG",
-      "name": "Planet Green Holdings Corp.",
-      "currency": "USD",
-      "price": 0.4717,
-      "previousClose": 0.3415,
-      "timestamp": 1795553997000,
-      "percent": 38.12591508052707
-    },
-    {
       "symbol": "ALDX",
       "name": "Aldeyra Therapeutics, Inc.",
       "currency": "USD",
@@ -367,22 +367,22 @@
       "percent": 34.61912479740681
     },
     {
+      "symbol": "MTR",
+      "name": "Mesa Royalty Trust",
+      "currency": "USD",
+      "price": 2.14,
+      "previousClose": 1.59,
+      "timestamp": 1795554002000,
+      "percent": 34.59119496855345
+    },
+    {
       "symbol": "ALTG",
       "name": "Alta Equipment Group Inc.",
       "currency": "USD",
       "price": 6.14,
       "previousClose": 4.61,
-      "timestamp": 1795553999000,
+      "timestamp": 1795554003000,
       "percent": 33.18872017353578
-    },
-    {
-      "symbol": "MTR",
-      "name": "Mesa Royalty Trust",
-      "currency": "USD",
-      "price": 2.11,
-      "previousClose": 1.59,
-      "timestamp": 1795553843000,
-      "percent": 32.70440251572326
     },
     {
       "symbol": "ALXO",
@@ -412,15 +412,6 @@
       "percent": 29.991980753809134
     },
     {
-      "symbol": "PHOE",
-      "name": "Phoenix Asia Holdings Limited",
-      "currency": "USD",
-      "price": 19.48,
-      "previousClose": 15,
-      "timestamp": 1795553890000,
-      "percent": 29.866666666666664
-    },
-    {
       "symbol": "GMM",
       "name": "Global Mofy AI Limited",
       "currency": "USD",
@@ -428,15 +419,6 @@
       "previousClose": 1.45,
       "timestamp": 1795554001000,
       "percent": 29.655172413793096
-    },
-    {
-      "symbol": "EGG",
-      "name": "Enigmatig Limited",
-      "currency": "USD",
-      "price": 9.24,
-      "previousClose": 7.13,
-      "timestamp": 1795553901000,
-      "percent": 29.593267882187945
     },
     {
       "symbol": "PRLD",
@@ -478,10 +460,28 @@
       "symbol": "ARMP",
       "name": "Armata Pharmaceuticals, Inc.",
       "currency": "USD",
-      "price": 3.545,
+      "price": 3.55,
       "previousClose": 2.78,
-      "timestamp": 1795553997000,
-      "percent": 27.5179856115108
+      "timestamp": 1795554000000,
+      "percent": 27.697841726618712
+    },
+    {
+      "symbol": "EGG",
+      "name": "Enigmatig Limited",
+      "currency": "USD",
+      "price": 8.97,
+      "previousClose": 7.09,
+      "timestamp": 1795553924000,
+      "percent": 26.51622002820875
+    },
+    {
+      "symbol": "NCT",
+      "name": "Intercont (Cayman) Limited",
+      "currency": "USD",
+      "price": 6.79,
+      "previousClose": 5.41,
+      "timestamp": 1795554000000,
+      "percent": 25.508317929759695
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-24T16:05[America/New_York]",
-    "updatedAt": 1795554364955
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-24T16:15[America/New_York]",
+    "updatedAt": 1795554970603
   },
-  "todayGainersUpdatedAt": 1795554364955,
+  "todayGainersUpdatedAt": 1795554970603,
   "items": [
     {
       "symbol": "SNDK",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
