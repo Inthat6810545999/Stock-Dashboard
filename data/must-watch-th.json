@@ -145,7 +145,7 @@
       "currency": "THB",
       "price": 0.35,
       "previousClose": 0.27,
-      "timestamp": 1795503909000,
+      "timestamp": 1795504488000,
       "percent": 29.629629629629605
     },
     {
@@ -167,22 +167,22 @@
       "percent": 25
     },
     {
-      "symbol": "FANCY.BK",
-      "name": "Fancy Wood Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.26,
-      "previousClose": 0.22,
-      "timestamp": 1795503701000,
-      "percent": 18.181818181818187
-    },
-    {
       "symbol": "MORE.BK",
       "name": "More Return Public Company Limited",
       "currency": "THB",
       "price": 0.08,
       "previousClose": 0.07,
-      "timestamp": 1795503688000,
+      "timestamp": 1795504519000,
       "percent": 14.28571428571428
+    },
+    {
+      "symbol": "FANCY.BK",
+      "name": "Fancy Wood Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.25,
+      "previousClose": 0.22,
+      "timestamp": 1795503974000,
+      "percent": 13.636363636363647
     },
     {
       "symbol": "ALPHAX.BK",
@@ -190,7 +190,7 @@
       "currency": "THB",
       "price": 0.17,
       "previousClose": 0.15,
-      "timestamp": 1795503426000,
+      "timestamp": 1795504385000,
       "percent": 13.333333333333353
     },
     {
@@ -203,13 +203,13 @@
       "percent": 12.5
     },
     {
-      "symbol": "AQUA.BK",
-      "name": "Aqua Corporation Public Company Limited",
+      "symbol": "BEAUTY.BK",
+      "name": "Beauty Community Public Company Limited",
       "currency": "THB",
-      "price": 0.1,
-      "previousClose": 0.09,
-      "timestamp": 1795491340000,
-      "percent": 11.111111111111116
+      "price": 0.29,
+      "previousClose": 0.26,
+      "timestamp": 1795504533000,
+      "percent": 11.538461538461519
     }
   ],
   "todayCandidates": [
@@ -237,7 +237,7 @@
       "currency": "THB",
       "price": 0.35,
       "previousClose": 0.27,
-      "timestamp": 1795503909000,
+      "timestamp": 1795504488000,
       "percent": 29.629629629629605
     },
     {
@@ -259,22 +259,22 @@
       "percent": 25
     },
     {
-      "symbol": "FANCY.BK",
-      "name": "Fancy Wood Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.26,
-      "previousClose": 0.22,
-      "timestamp": 1795503701000,
-      "percent": 18.181818181818187
-    },
-    {
       "symbol": "MORE.BK",
       "name": "More Return Public Company Limited",
       "currency": "THB",
       "price": 0.08,
       "previousClose": 0.07,
-      "timestamp": 1795503688000,
+      "timestamp": 1795504519000,
       "percent": 14.28571428571428
+    },
+    {
+      "symbol": "FANCY.BK",
+      "name": "Fancy Wood Industries Public Company Limited",
+      "currency": "THB",
+      "price": 0.25,
+      "previousClose": 0.22,
+      "timestamp": 1795503974000,
+      "percent": 13.636363636363647
     },
     {
       "symbol": "ALPHAX.BK",
@@ -282,7 +282,7 @@
       "currency": "THB",
       "price": 0.17,
       "previousClose": 0.15,
-      "timestamp": 1795503426000,
+      "timestamp": 1795504385000,
       "percent": 13.333333333333353
     },
     {
@@ -295,6 +295,15 @@
       "percent": 12.5
     },
     {
+      "symbol": "BEAUTY.BK",
+      "name": "Beauty Community Public Company Limited",
+      "currency": "THB",
+      "price": 0.29,
+      "previousClose": 0.26,
+      "timestamp": 1795504533000,
+      "percent": 11.538461538461519
+    },
+    {
       "symbol": "AQUA.BK",
       "name": "Aqua Corporation Public Company Limited",
       "currency": "THB",
@@ -304,31 +313,22 @@
       "percent": 11.111111111111116
     },
     {
-      "symbol": "MATCH.BK",
-      "name": "Matching Maximize Solution Public Company Limited",
-      "currency": "THB",
-      "price": 0.82,
-      "previousClose": 0.74,
-      "timestamp": 1795503900000,
-      "percent": 10.81081081081081
-    },
-    {
-      "symbol": "AJA.BK",
-      "name": "AJ Advance Technology Public Company Limited",
-      "currency": "THB",
-      "price": 0.11,
-      "previousClose": 0.1,
-      "timestamp": 1795498195000,
-      "percent": 9.999999999999986
-    },
-    {
       "symbol": "EMPIRE.BK",
       "name": "Origin Global Empire Public Company Limited",
       "currency": "THB",
       "price": 0.22,
       "previousClose": 0.2,
-      "timestamp": 1795503941000,
+      "timestamp": 1795504531000,
       "percent": 9.999999999999986
+    },
+    {
+      "symbol": "MATCH.BK",
+      "name": "Matching Maximize Solution Public Company Limited",
+      "currency": "THB",
+      "price": 0.81,
+      "previousClose": 0.74,
+      "timestamp": 1795504496000,
+      "percent": 9.459459459459474
     },
     {
       "symbol": "CRANE.BK",
@@ -345,7 +345,16 @@
       "currency": "THB",
       "price": 0.12,
       "previousClose": 0.11,
-      "timestamp": 1795503358000,
+      "timestamp": 1795504526000,
+      "percent": 9.090909090909083
+    },
+    {
+      "symbol": "SUPER.BK",
+      "name": "Super Energy Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.12,
+      "previousClose": 0.11,
+      "timestamp": 1795504538000,
       "percent": 9.090909090909083
     },
     {
@@ -358,15 +367,6 @@
       "percent": 8.333333333333348
     },
     {
-      "symbol": "RS.BK",
-      "name": "RS Public Company Limited",
-      "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1795503358000,
-      "percent": 8.333333333333348
-    },
-    {
       "symbol": "TCMC.BK",
       "name": "TCM Corporation Public Company Limited",
       "currency": "THB",
@@ -374,6 +374,15 @@
       "previousClose": 0.12,
       "timestamp": 1795497913000,
       "percent": 8.333333333333348
+    },
+    {
+      "symbol": "MBAX.BK",
+      "name": "Multibax Public Company Limited",
+      "currency": "THB",
+      "price": 1.98,
+      "previousClose": 1.83,
+      "timestamp": 1795504367000,
+      "percent": 8.196721311475397
     },
     {
       "symbol": "DCON.BK",
@@ -399,7 +408,16 @@
       "currency": "THB",
       "price": 0.31,
       "previousClose": 0.29,
-      "timestamp": 1795503358000,
+      "timestamp": 1795504453000,
+      "percent": 6.896551724137945
+    },
+    {
+      "symbol": "JAS.BK",
+      "name": "Jasmine International Public Company Limited",
+      "currency": "THB",
+      "price": 0.62,
+      "previousClose": 0.58,
+      "timestamp": 1795504509000,
       "percent": 6.896551724137945
     },
     {
@@ -444,7 +462,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.18,
-      "timestamp": 1795503358000,
+      "timestamp": 1795504318000,
       "percent": 5.555555555555558
     },
     {
@@ -457,15 +475,6 @@
       "percent": 5.555555555555558
     },
     {
-      "symbol": "JAS.BK",
-      "name": "Jasmine International Public Company Limited",
-      "currency": "THB",
-      "price": 0.61,
-      "previousClose": 0.58,
-      "timestamp": 1795503880000,
-      "percent": 5.1724137931034475
-    },
-    {
       "symbol": "BROCK.BK",
       "name": "Baan Rock Garden Public Company Limited",
       "currency": "THB",
@@ -473,31 +482,22 @@
       "previousClose": 1.17,
       "timestamp": 1795498199000,
       "percent": 5.128205128205132
-    },
-    {
-      "symbol": "TRUBB.BK",
-      "name": "Thai Rubber Latex Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.83,
-      "previousClose": 0.79,
-      "timestamp": 1795503774000,
-      "percent": 5.063291139240489
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 781,
-    "missing": 81,
+    "eligible": 782,
+    "missing": 80,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-24",
-    "scheduledSlot": "2026-11-24T14:35[Asia/Bangkok]",
-    "updatedAt": 1795505753646
+    "scheduledSlot": "2026-11-24T14:45[Asia/Bangkok]",
+    "updatedAt": 1795506343223
   },
-  "todayGainersUpdatedAt": 1795505753646,
+  "todayGainersUpdatedAt": 1795506343223,
   "items": [
     {
       "symbol": "INSET.BK",
