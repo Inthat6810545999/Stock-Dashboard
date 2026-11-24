@@ -122,31 +122,31 @@
   },
   "todayGainers": [
     {
+      "symbol": "JAGX",
+      "name": "Jaguar Health, Inc.",
+      "currency": "USD",
+      "price": 12.8,
+      "previousClose": 6.1175,
+      "timestamp": 1795554000000,
+      "percent": 109.23579893747446
+    },
+    {
       "symbol": "AKAN",
       "name": "Akanda Corp.",
       "currency": "USD",
-      "price": 5.44,
+      "price": 5.2,
       "previousClose": 2.58,
-      "timestamp": 1795553752000,
-      "percent": 110.8527131782946
+      "timestamp": 1795554001000,
+      "percent": 101.55038759689923
     },
     {
       "symbol": "BENF",
       "name": "Beneficient",
       "currency": "USD",
-      "price": 0.9085,
+      "price": 0.915,
       "previousClose": 0.4552,
-      "timestamp": 1795553755000,
-      "percent": 99.58260105448153
-    },
-    {
-      "symbol": "JAGX",
-      "name": "Jaguar Health, Inc.",
-      "currency": "USD",
-      "price": 11.7,
-      "previousClose": 6.1175,
-      "timestamp": 1795553753000,
-      "percent": 91.25459746628523
+      "timestamp": 1795554000000,
+      "percent": 101.01054481546572
     },
     {
       "symbol": "LVWR",
@@ -154,172 +154,163 @@
       "currency": "USD",
       "price": 1.84,
       "previousClose": 0.9801,
-      "timestamp": 1795553765000,
+      "timestamp": 1795553999000,
       "percent": 87.7359453117029
     },
     {
       "symbol": "APUS",
       "name": "Apimeds Pharmaceuticals US, Inc.",
       "currency": "USD",
-      "price": 2.2653,
+      "price": 2.2599,
       "previousClose": 1.5,
-      "timestamp": 1795553755000,
-      "percent": 51.019999999999996
+      "timestamp": 1795553999000,
+      "percent": 50.66
     },
     {
       "symbol": "RMSG",
       "name": "Real Messenger Corporation",
       "currency": "USD",
-      "price": 0.2058,
+      "price": 0.2101,
       "previousClose": 0.1401,
-      "timestamp": 1795553770000,
-      "percent": 46.895074946466806
+      "timestamp": 1795554001000,
+      "percent": 49.964311206281245
     },
     {
       "symbol": "GLXG",
       "name": "Galaxy Payroll Group Limited",
       "currency": "USD",
-      "price": 1.025,
+      "price": 1.04,
       "previousClose": 0.7,
-      "timestamp": 1795553744000,
-      "percent": 46.428571428571416
-    },
-    {
-      "symbol": "SMXT",
-      "name": "SolarMax Technology, Inc.",
-      "currency": "USD",
-      "price": 4.25,
-      "previousClose": 2.94,
-      "timestamp": 1795553681000,
-      "percent": 44.557823129251695
-    },
-    {
-      "symbol": "LGHL",
-      "name": "Lion Group Holding Ltd.",
-      "currency": "USD",
-      "price": 0.94,
-      "previousClose": 0.6522,
-      "timestamp": 1795553762000,
-      "percent": 44.12756823060411
-    },
-    {
-      "symbol": "IBIO",
-      "name": "iBio, Inc.",
-      "currency": "USD",
-      "price": 1.13,
-      "previousClose": 0.7989,
-      "timestamp": 1795553756000,
-      "percent": 41.444486168481646
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "AKAN",
-      "name": "Akanda Corp.",
-      "currency": "USD",
-      "price": 5.44,
-      "previousClose": 2.58,
-      "timestamp": 1795553752000,
-      "percent": 110.8527131782946
-    },
-    {
-      "symbol": "BENF",
-      "name": "Beneficient",
-      "currency": "USD",
-      "price": 0.9085,
-      "previousClose": 0.4552,
-      "timestamp": 1795553755000,
-      "percent": 99.58260105448153
-    },
-    {
-      "symbol": "JAGX",
-      "name": "Jaguar Health, Inc.",
-      "currency": "USD",
-      "price": 11.7,
-      "previousClose": 6.1175,
-      "timestamp": 1795553753000,
-      "percent": 91.25459746628523
-    },
-    {
-      "symbol": "LVWR",
-      "name": "LiveWire Group, Inc.",
-      "currency": "USD",
-      "price": 1.84,
-      "previousClose": 0.9801,
-      "timestamp": 1795553765000,
-      "percent": 87.7359453117029
-    },
-    {
-      "symbol": "APUS",
-      "name": "Apimeds Pharmaceuticals US, Inc.",
-      "currency": "USD",
-      "price": 2.2653,
-      "previousClose": 1.5,
-      "timestamp": 1795553755000,
-      "percent": 51.019999999999996
-    },
-    {
-      "symbol": "RMSG",
-      "name": "Real Messenger Corporation",
-      "currency": "USD",
-      "price": 0.2058,
-      "previousClose": 0.1401,
-      "timestamp": 1795553770000,
-      "percent": 46.895074946466806
-    },
-    {
-      "symbol": "GLXG",
-      "name": "Galaxy Payroll Group Limited",
-      "currency": "USD",
-      "price": 1.025,
-      "previousClose": 0.7,
-      "timestamp": 1795553744000,
-      "percent": 46.428571428571416
-    },
-    {
-      "symbol": "SMXT",
-      "name": "SolarMax Technology, Inc.",
-      "currency": "USD",
-      "price": 4.25,
-      "previousClose": 2.94,
-      "timestamp": 1795553681000,
-      "percent": 44.557823129251695
-    },
-    {
-      "symbol": "LGHL",
-      "name": "Lion Group Holding Ltd.",
-      "currency": "USD",
-      "price": 0.94,
-      "previousClose": 0.6522,
-      "timestamp": 1795553762000,
-      "percent": 44.12756823060411
-    },
-    {
-      "symbol": "IBIO",
-      "name": "iBio, Inc.",
-      "currency": "USD",
-      "price": 1.13,
-      "previousClose": 0.7989,
-      "timestamp": 1795553756000,
-      "percent": 41.444486168481646
-    },
-    {
-      "symbol": "EMBC",
-      "name": "Embecta Corp.",
-      "currency": "USD",
-      "price": 8.11,
-      "previousClose": 5.745,
-      "timestamp": 1795553759000,
-      "percent": 41.16623150565708
+      "timestamp": 1795554001000,
+      "percent": 48.57142857142858
     },
     {
       "symbol": "FGL",
       "name": "Founder Group Limited",
       "currency": "USD",
-      "price": 0.6202,
+      "price": 0.63,
       "previousClose": 0.4401,
-      "timestamp": 1795553743000,
-      "percent": 40.92251760963417
+      "timestamp": 1795554002000,
+      "percent": 43.149284253578735
+    },
+    {
+      "symbol": "LGHL",
+      "name": "Lion Group Holding Ltd.",
+      "currency": "USD",
+      "price": 0.9244,
+      "previousClose": 0.6522,
+      "timestamp": 1795554000000,
+      "percent": 41.735663906777056
+    },
+    {
+      "symbol": "SMXT",
+      "name": "SolarMax Technology, Inc.",
+      "currency": "USD",
+      "price": 4.14,
+      "previousClose": 2.94,
+      "timestamp": 1795554001000,
+      "percent": 40.816326530612244
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "JAGX",
+      "name": "Jaguar Health, Inc.",
+      "currency": "USD",
+      "price": 12.8,
+      "previousClose": 6.1175,
+      "timestamp": 1795554000000,
+      "percent": 109.23579893747446
+    },
+    {
+      "symbol": "AKAN",
+      "name": "Akanda Corp.",
+      "currency": "USD",
+      "price": 5.2,
+      "previousClose": 2.58,
+      "timestamp": 1795554001000,
+      "percent": 101.55038759689923
+    },
+    {
+      "symbol": "BENF",
+      "name": "Beneficient",
+      "currency": "USD",
+      "price": 0.915,
+      "previousClose": 0.4552,
+      "timestamp": 1795554000000,
+      "percent": 101.01054481546572
+    },
+    {
+      "symbol": "LVWR",
+      "name": "LiveWire Group, Inc.",
+      "currency": "USD",
+      "price": 1.84,
+      "previousClose": 0.9801,
+      "timestamp": 1795553999000,
+      "percent": 87.7359453117029
+    },
+    {
+      "symbol": "APUS",
+      "name": "Apimeds Pharmaceuticals US, Inc.",
+      "currency": "USD",
+      "price": 2.2599,
+      "previousClose": 1.5,
+      "timestamp": 1795553999000,
+      "percent": 50.66
+    },
+    {
+      "symbol": "RMSG",
+      "name": "Real Messenger Corporation",
+      "currency": "USD",
+      "price": 0.2101,
+      "previousClose": 0.1401,
+      "timestamp": 1795554001000,
+      "percent": 49.964311206281245
+    },
+    {
+      "symbol": "GLXG",
+      "name": "Galaxy Payroll Group Limited",
+      "currency": "USD",
+      "price": 1.04,
+      "previousClose": 0.7,
+      "timestamp": 1795554001000,
+      "percent": 48.57142857142858
+    },
+    {
+      "symbol": "FGL",
+      "name": "Founder Group Limited",
+      "currency": "USD",
+      "price": 0.63,
+      "previousClose": 0.4401,
+      "timestamp": 1795554002000,
+      "percent": 43.149284253578735
+    },
+    {
+      "symbol": "LGHL",
+      "name": "Lion Group Holding Ltd.",
+      "currency": "USD",
+      "price": 0.9244,
+      "previousClose": 0.6522,
+      "timestamp": 1795554000000,
+      "percent": 41.735663906777056
+    },
+    {
+      "symbol": "SMXT",
+      "name": "SolarMax Technology, Inc.",
+      "currency": "USD",
+      "price": 4.14,
+      "previousClose": 2.94,
+      "timestamp": 1795554001000,
+      "percent": 40.816326530612244
+    },
+    {
+      "symbol": "EMBC",
+      "name": "Embecta Corp.",
+      "currency": "USD",
+      "price": 8.08,
+      "previousClose": 5.745,
+      "timestamp": 1795554000000,
+      "percent": 40.64403829416885
     },
     {
       "symbol": "MWG",
@@ -331,157 +322,166 @@
       "percent": 39.626266154383515
     },
     {
-      "symbol": "ALDX",
-      "name": "Aldeyra Therapeutics, Inc.",
+      "symbol": "IBIO",
+      "name": "iBio, Inc.",
       "currency": "USD",
-      "price": 1.0301,
-      "previousClose": 0.76,
-      "timestamp": 1795553750000,
-      "percent": 35.539473684210535
-    },
-    {
-      "symbol": "TNYA",
-      "name": "Tenaya Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 0.4145,
-      "previousClose": 0.3085,
-      "timestamp": 1795553772000,
-      "percent": 34.359805510534834
-    },
-    {
-      "symbol": "MTR",
-      "name": "Mesa Royalty Trust",
-      "currency": "USD",
-      "price": 2.1301,
-      "previousClose": 1.59,
-      "timestamp": 1795553511000,
-      "percent": 33.96855345911949
-    },
-    {
-      "symbol": "ONFO",
-      "name": "Onfolio Holdings, Inc.",
-      "currency": "USD",
-      "price": 0.5581,
-      "previousClose": 0.4179,
-      "timestamp": 1795553766000,
-      "percent": 33.548695860253666
+      "price": 1.115,
+      "previousClose": 0.7989,
+      "timestamp": 1795554001000,
+      "percent": 39.56690449367879
     },
     {
       "symbol": "PLAG",
       "name": "Planet Green Holdings Corp.",
       "currency": "USD",
-      "price": 0.456,
+      "price": 0.4717,
       "previousClose": 0.3415,
-      "timestamp": 1795553767000,
-      "percent": 33.5285505124451
+      "timestamp": 1795553997000,
+      "percent": 38.12591508052707
+    },
+    {
+      "symbol": "ALDX",
+      "name": "Aldeyra Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 1.04,
+      "previousClose": 0.76,
+      "timestamp": 1795554001000,
+      "percent": 36.8421052631579
+    },
+    {
+      "symbol": "ONFO",
+      "name": "Onfolio Holdings, Inc.",
+      "currency": "USD",
+      "price": 0.5656,
+      "previousClose": 0.4179,
+      "timestamp": 1795554001000,
+      "percent": 35.34338358458962
+    },
+    {
+      "symbol": "TNYA",
+      "name": "Tenaya Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.4153,
+      "previousClose": 0.3085,
+      "timestamp": 1795554000000,
+      "percent": 34.61912479740681
     },
     {
       "symbol": "ALTG",
       "name": "Alta Equipment Group Inc.",
       "currency": "USD",
-      "price": 6.09,
+      "price": 6.14,
       "previousClose": 4.61,
-      "timestamp": 1795553721000,
-      "percent": 32.104121475054214
+      "timestamp": 1795553999000,
+      "percent": 33.18872017353578
     },
     {
-      "symbol": "GMM",
-      "name": "Global Mofy AI Limited",
+      "symbol": "MTR",
+      "name": "Mesa Royalty Trust",
       "currency": "USD",
-      "price": 1.9,
-      "previousClose": 1.45,
-      "timestamp": 1795553761000,
-      "percent": 31.034482758620683
-    },
-    {
-      "symbol": "CD",
-      "name": "Chaince Digital Holdings Inc.",
-      "currency": "USD",
-      "price": 5.905,
-      "previousClose": 4.51,
-      "timestamp": 1795553738000,
-      "percent": 30.93126385809313
+      "price": 2.11,
+      "previousClose": 1.59,
+      "timestamp": 1795553843000,
+      "percent": 32.70440251572326
     },
     {
       "symbol": "ALXO",
       "name": "ALX Oncology Holdings Inc.",
       "currency": "USD",
-      "price": 1.515,
+      "price": 1.52,
       "previousClose": 1.16,
-      "timestamp": 1795553752000,
-      "percent": 30.60344827586208
+      "timestamp": 1795554001000,
+      "percent": 31.034482758620708
     },
     {
-      "symbol": "ARMP",
-      "name": "Armata Pharmaceuticals, Inc.",
+      "symbol": "CD",
+      "name": "Chaince Digital Holdings Inc.",
       "currency": "USD",
-      "price": 3.63,
-      "previousClose": 2.78,
-      "timestamp": 1795553708000,
-      "percent": 30.575539568345334
+      "price": 5.88,
+      "previousClose": 4.51,
+      "timestamp": 1795554001000,
+      "percent": 30.37694013303769
     },
     {
       "symbol": "AVXL",
       "name": "Anavex Life Sciences Corp.",
       "currency": "USD",
-      "price": 0.8066,
+      "price": 0.8105,
       "previousClose": 0.6235,
-      "timestamp": 1795553745000,
-      "percent": 29.366479550922197
+      "timestamp": 1795554001000,
+      "percent": 29.991980753809134
     },
     {
-      "symbol": "PRLD",
-      "name": "Prelude Therapeutics Incorporated",
+      "symbol": "PHOE",
+      "name": "Phoenix Asia Holdings Limited",
       "currency": "USD",
-      "price": 4.52,
-      "previousClose": 3.5,
-      "timestamp": 1795553769000,
-      "percent": 29.14285714285714
+      "price": 19.48,
+      "previousClose": 15,
+      "timestamp": 1795553890000,
+      "percent": 29.866666666666664
     },
     {
-      "symbol": "VEEA",
-      "name": "Veea Inc.",
+      "symbol": "GMM",
+      "name": "Global Mofy AI Limited",
       "currency": "USD",
-      "price": 5.945,
-      "previousClose": 4.61,
-      "timestamp": 1795553730000,
-      "percent": 28.958785249457698
-    },
-    {
-      "symbol": "VRXA",
-      "name": "Veraxa Biotech AG",
-      "currency": "USD",
-      "price": 1.39,
-      "previousClose": 1.08,
-      "timestamp": 1795553764000,
-      "percent": 28.703703703703674
-    },
-    {
-      "symbol": "BBCI",
-      "name": "Bradbury Capital Inc.",
-      "currency": "USD",
-      "price": 1.5994,
-      "previousClose": 1.26,
-      "timestamp": 1795553674000,
-      "percent": 26.936507936507926
-    },
-    {
-      "symbol": "ATOS",
-      "name": "Atossa Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 2.29,
-      "previousClose": 1.81,
-      "timestamp": 1795553579000,
-      "percent": 26.519337016574585
+      "price": 1.88,
+      "previousClose": 1.45,
+      "timestamp": 1795554001000,
+      "percent": 29.655172413793096
     },
     {
       "symbol": "EGG",
       "name": "Enigmatig Limited",
       "currency": "USD",
-      "price": 8.975,
+      "price": 9.24,
       "previousClose": 7.13,
-      "timestamp": 1795553751000,
-      "percent": 25.87657784011219
+      "timestamp": 1795553901000,
+      "percent": 29.593267882187945
+    },
+    {
+      "symbol": "PRLD",
+      "name": "Prelude Therapeutics Incorporated",
+      "currency": "USD",
+      "price": 4.5,
+      "previousClose": 3.5,
+      "timestamp": 1795554001000,
+      "percent": 28.57142857142858
+    },
+    {
+      "symbol": "VEEA",
+      "name": "Veea Inc.",
+      "currency": "USD",
+      "price": 5.92,
+      "previousClose": 4.61,
+      "timestamp": 1795554001000,
+      "percent": 28.416485900216905
+    },
+    {
+      "symbol": "ATOS",
+      "name": "Atossa Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 2.32,
+      "previousClose": 1.81,
+      "timestamp": 1795554001000,
+      "percent": 28.17679558011048
+    },
+    {
+      "symbol": "VRXA",
+      "name": "Veraxa Biotech AG",
+      "currency": "USD",
+      "price": 1.38,
+      "previousClose": 1.08,
+      "timestamp": 1795554001000,
+      "percent": 27.777777777777768
+    },
+    {
+      "symbol": "ARMP",
+      "name": "Armata Pharmaceuticals, Inc.",
+      "currency": "USD",
+      "price": 3.545,
+      "previousClose": 2.78,
+      "timestamp": 1795553997000,
+      "percent": 27.5179856115108
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-24T15:55[America/New_York]",
-    "updatedAt": 1795553777415
+    "scheduledSlot": "2026-11-24T16:05[America/New_York]",
+    "updatedAt": 1795554364955
   },
-  "todayGainersUpdatedAt": 1795553777415,
+  "todayGainersUpdatedAt": 1795554364955,
   "items": [
     {
       "symbol": "SNDK",
