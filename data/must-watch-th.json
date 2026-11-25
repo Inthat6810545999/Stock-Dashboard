@@ -181,7 +181,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795581630000,
+      "timestamp": 1795581824000,
       "percent": 12.5
     },
     {
@@ -273,7 +273,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795581630000,
+      "timestamp": 1795581824000,
       "percent": 12.5
     },
     {
@@ -325,10 +325,19 @@
       "symbol": "KCG.BK",
       "name": "KCG Corporation Public Company Limited",
       "currency": "THB",
-      "price": 11.85,
+      "price": 11.9,
       "previousClose": 11,
-      "timestamp": 1795581719000,
-      "percent": 7.727272727272716
+      "timestamp": 1795581809000,
+      "percent": 8.18181818181818
+    },
+    {
+      "symbol": "DCON.BK",
+      "name": "Dcon Products Public Company Limited",
+      "currency": "THB",
+      "price": 0.15,
+      "previousClose": 0.14,
+      "timestamp": 1795581805000,
+      "percent": 7.14285714285714
     },
     {
       "symbol": "QTCG.BK",
@@ -354,7 +363,7 @@
       "currency": "THB",
       "price": 0.83,
       "previousClose": 0.78,
-      "timestamp": 1795581684000,
+      "timestamp": 1795581821000,
       "percent": 6.41025641025641
     },
     {
@@ -376,22 +385,22 @@
       "percent": 5.882352941176472
     },
     {
+      "symbol": "BWG.BK",
+      "name": "Better World Green Public Company Limited",
+      "currency": "THB",
+      "price": 0.18,
+      "previousClose": 0.17,
+      "timestamp": 1795581812000,
+      "percent": 5.88235294117645
+    },
+    {
       "symbol": "JTS.BK",
       "name": "Jasmine Technology Solution Public Company Limited",
       "currency": "THB",
-      "price": 12.3,
+      "price": 12.25,
       "previousClose": 11.65,
-      "timestamp": 1795581676000,
-      "percent": 5.579399141630903
-    },
-    {
-      "symbol": "TGH.BK",
-      "name": "Thai Group Holdings Public Company Limited",
-      "currency": "THB",
-      "price": 10.5,
-      "previousClose": 10,
-      "timestamp": 1795576885000,
-      "percent": 5.000000000000004
+      "timestamp": 1795581817000,
+      "percent": 5.150214592274671
     },
     {
       "symbol": "TGE.BK",
@@ -444,17 +453,8 @@
       "currency": "THB",
       "price": 2.62,
       "previousClose": 2.52,
-      "timestamp": 1795581678000,
+      "timestamp": 1795581785000,
       "percent": 3.9682539682539764
-    },
-    {
-      "symbol": "NV.BK",
-      "name": "Nova Organic Public Company Limited",
-      "currency": "THB",
-      "price": 0.54,
-      "previousClose": 0.52,
-      "timestamp": 1795581641000,
-      "percent": 3.8461538461538547
     },
     {
       "symbol": "BEAUTY.BK",
@@ -487,14 +487,17 @@
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 858,
-    "missing": 4,
+    "eligible": 767,
+    "missing": 95,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
-    "updatedAt": 1795583604154
+    "source": "Yahoo Finance · full SET/mai universe",
+    "priceBasis": "regular-session price vs previous regular-session close",
+    "sessionDate": "2026-11-25",
+    "scheduledSlot": "2026-11-25T12:10[Asia/Bangkok]",
+    "updatedAt": 1795583636133
   },
-  "todayGainersUpdatedAt": 1795583604154,
+  "todayGainersUpdatedAt": 1795583636133,
   "items": [
     {
       "symbol": "INSET.BK",
@@ -757,5 +760,6 @@
       "https://market.sec.or.th/public/idisc/th/company/listed/"
     ],
     "status": "complete"
-  }
+  },
+  "todayGainersSource": "Yahoo Finance · full SET/mai universe"
 }
