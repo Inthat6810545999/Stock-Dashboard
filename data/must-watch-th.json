@@ -199,7 +199,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795590870000,
+      "timestamp": 1795591337000,
       "percent": 12.5
     },
     {
@@ -291,7 +291,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795590870000,
+      "timestamp": 1795591337000,
       "percent": 12.5
     },
     {
@@ -302,15 +302,6 @@
       "previousClose": 0.09,
       "timestamp": 1795590553000,
       "percent": 11.111111111111116
-    },
-    {
-      "symbol": "FN.BK",
-      "name": "FN Factory Outlet Public Company Limited",
-      "currency": "THB",
-      "price": 0.43,
-      "previousClose": 0.39,
-      "timestamp": 1795584196000,
-      "percent": 10.256410256410241
     },
     {
       "symbol": "CHEWA.BK",
@@ -356,6 +347,15 @@
       "previousClose": 0.97,
       "timestamp": 1795590317000,
       "percent": 8.247422680412386
+    },
+    {
+      "symbol": "FN.BK",
+      "name": "FN Factory Outlet Public Company Limited",
+      "currency": "THB",
+      "price": 0.42,
+      "previousClose": 0.39,
+      "timestamp": 1795591077000,
+      "percent": 7.692307692307687
     },
     {
       "symbol": "DCON.BK",
@@ -412,15 +412,6 @@
       "percent": 6.024096385542177
     },
     {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
-      "currency": "THB",
-      "price": 12.35,
-      "previousClose": 11.65,
-      "timestamp": 1795590847000,
-      "percent": 6.008583690987113
-    },
-    {
       "symbol": "SRS.BK",
       "name": "Sirisoft Public Company Limited",
       "currency": "THB",
@@ -428,6 +419,33 @@
       "previousClose": 2.04,
       "timestamp": 1795579454000,
       "percent": 5.882352941176472
+    },
+    {
+      "symbol": "BWG.BK",
+      "name": "Better World Green Public Company Limited",
+      "currency": "THB",
+      "price": 0.18,
+      "previousClose": 0.17,
+      "timestamp": 1795591182000,
+      "percent": 5.88235294117645
+    },
+    {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 12.25,
+      "previousClose": 11.65,
+      "timestamp": 1795591346000,
+      "percent": 5.150214592274671
+    },
+    {
+      "symbol": "NDR.BK",
+      "name": "N.D. Rubber Public Company Limited",
+      "currency": "THB",
+      "price": 1.47,
+      "previousClose": 1.4,
+      "timestamp": 1795591004000,
+      "percent": 5.000000000000004
     },
     {
       "symbol": "TVH.BK",
@@ -462,42 +480,24 @@
       "currency": "THB",
       "price": 11.5,
       "previousClose": 11,
-      "timestamp": 1795590891000,
+      "timestamp": 1795591357000,
       "percent": 4.545454545454541
-    },
-    {
-      "symbol": "FANCY.BK",
-      "name": "Fancy Wood Industries Public Company Limited",
-      "currency": "THB",
-      "price": 0.25,
-      "previousClose": 0.24,
-      "timestamp": 1795589782000,
-      "percent": 4.166666666666674
-    },
-    {
-      "symbol": "NEX.BK",
-      "name": "Nex Point Public Company Limited",
-      "currency": "THB",
-      "price": 0.81,
-      "previousClose": 0.78,
-      "timestamp": 1795590915000,
-      "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 788,
-    "missing": 74,
+    "eligible": 789,
+    "missing": 73,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-25",
-    "scheduledSlot": "2026-11-25T14:45[Asia/Bangkok]",
-    "updatedAt": 1795592743960
+    "scheduledSlot": "2026-11-25T14:55[Asia/Bangkok]",
+    "updatedAt": 1795593340060
   },
-  "todayGainersUpdatedAt": 1795592743960,
+  "todayGainersUpdatedAt": 1795593340060,
   "items": [
     {
       "symbol": "INSET.BK",
