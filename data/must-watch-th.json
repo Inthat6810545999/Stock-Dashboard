@@ -163,7 +163,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1795590834000,
+      "timestamp": 1795593741000,
       "percent": 25
     },
     {
@@ -174,6 +174,15 @@
       "previousClose": 0.04,
       "timestamp": 1795590862000,
       "percent": 25
+    },
+    {
+      "symbol": "MONO.BK",
+      "name": "Mono Next Public Company Limited",
+      "currency": "THB",
+      "price": 0.37,
+      "previousClose": 0.32,
+      "timestamp": 1795593885000,
+      "percent": 15.625
     },
     {
       "symbol": "VS.BK",
@@ -192,15 +201,6 @@
       "previousClose": 0.07,
       "timestamp": 1795593160000,
       "percent": 14.28571428571428
-    },
-    {
-      "symbol": "MONO.BK",
-      "name": "Mono Next Public Company Limited",
-      "currency": "THB",
-      "price": 0.36,
-      "previousClose": 0.32,
-      "timestamp": 1795593244000,
-      "percent": 12.5
     },
     {
       "symbol": "CGD.BK",
@@ -255,7 +255,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1795590834000,
+      "timestamp": 1795593741000,
       "percent": 25
     },
     {
@@ -266,6 +266,15 @@
       "previousClose": 0.04,
       "timestamp": 1795590862000,
       "percent": 25
+    },
+    {
+      "symbol": "MONO.BK",
+      "name": "Mono Next Public Company Limited",
+      "currency": "THB",
+      "price": 0.37,
+      "previousClose": 0.32,
+      "timestamp": 1795593885000,
+      "percent": 15.625
     },
     {
       "symbol": "VS.BK",
@@ -286,15 +295,6 @@
       "percent": 14.28571428571428
     },
     {
-      "symbol": "MONO.BK",
-      "name": "Mono Next Public Company Limited",
-      "currency": "THB",
-      "price": 0.36,
-      "previousClose": 0.32,
-      "timestamp": 1795593244000,
-      "percent": 12.5
-    },
-    {
       "symbol": "CGD.BK",
       "name": "Country Group Development Public Company Limited",
       "currency": "THB",
@@ -313,6 +313,15 @@
       "percent": 9.999999999999986
     },
     {
+      "symbol": "PEER.BK",
+      "name": "Peer For You Public Company Limited",
+      "currency": "THB",
+      "price": 0.12,
+      "previousClose": 0.11,
+      "timestamp": 1795593568000,
+      "percent": 9.090909090909083
+    },
+    {
       "symbol": "RS.BK",
       "name": "RS Public Company Limited",
       "currency": "THB",
@@ -327,7 +336,7 @@
       "currency": "THB",
       "price": 1.05,
       "previousClose": 0.97,
-      "timestamp": 1795593202000,
+      "timestamp": 1795593744000,
       "percent": 8.247422680412386
     },
     {
@@ -358,15 +367,6 @@
       "percent": 7.14285714285714
     },
     {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
-      "currency": "THB",
-      "price": 12.45,
-      "previousClose": 11.65,
-      "timestamp": 1795593334000,
-      "percent": 6.866952789699554
-    },
-    {
       "symbol": "JCK.BK",
       "name": "JCK International Public Company Limited",
       "currency": "THB",
@@ -381,7 +381,7 @@
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1795592283000,
+      "timestamp": 1795593804000,
       "percent": 6.666666666666665
     },
     {
@@ -403,6 +403,15 @@
       "percent": 6.550218340611358
     },
     {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 12.4,
+      "previousClose": 11.65,
+      "timestamp": 1795593915000,
+      "percent": 6.4377682403433445
+    },
+    {
       "symbol": "ASN.BK",
       "name": "ASN Broker Public Company Limited",
       "currency": "THB",
@@ -417,7 +426,7 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.17,
-      "timestamp": 1795593289000,
+      "timestamp": 1795593746000,
       "percent": 5.88235294117645
     },
     {
@@ -457,47 +466,38 @@
       "percent": 4.761904761904767
     },
     {
+      "symbol": "KCG.BK",
+      "name": "KCG Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 11.5,
+      "previousClose": 11,
+      "timestamp": 1795593911000,
+      "percent": 4.545454545454541
+    },
+    {
       "symbol": "FANCY.BK",
       "name": "Fancy Wood Industries Public Company Limited",
       "currency": "THB",
       "price": 0.25,
       "previousClose": 0.24,
-      "timestamp": 1795592613000,
+      "timestamp": 1795593842000,
       "percent": 4.166666666666674
-    },
-    {
-      "symbol": "KCG.BK",
-      "name": "KCG Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 11.45,
-      "previousClose": 11,
-      "timestamp": 1795592936000,
-      "percent": 4.090909090909078
-    },
-    {
-      "symbol": "NEX.BK",
-      "name": "Nex Point Public Company Limited",
-      "currency": "THB",
-      "price": 0.81,
-      "previousClose": 0.78,
-      "timestamp": 1795592715000,
-      "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 792,
-    "missing": 70,
+    "eligible": 794,
+    "missing": 68,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-25",
-    "scheduledSlot": "2026-11-25T15:25[Asia/Bangkok]",
-    "updatedAt": 1795595145428
+    "scheduledSlot": "2026-11-25T15:35[Asia/Bangkok]",
+    "updatedAt": 1795595741844
   },
-  "todayGainersUpdatedAt": 1795595145428,
+  "todayGainersUpdatedAt": 1795595741844,
   "items": [
     {
       "symbol": "INSET.BK",
