@@ -122,13 +122,22 @@
   },
   "todayGainers": [
     {
-      "symbol": "STOWER.BK",
-      "name": "Sky Tower Public Company Limited",
+      "symbol": "XBIO.BK",
+      "name": "X Bioscience Public Company Limited",
       "currency": "THB",
-      "price": 0.05,
-      "previousClose": 0.04,
-      "timestamp": 1795576293000,
-      "percent": 25
+      "price": 0.04,
+      "previousClose": 0.03,
+      "timestamp": 1795576865000,
+      "percent": 33.33333333333335
+    },
+    {
+      "symbol": "QDC.BK",
+      "name": "Quantum D C Public Company Limited",
+      "currency": "THB",
+      "price": 0.06,
+      "previousClose": 0.05,
+      "timestamp": 1795576865000,
+      "percent": 19.999999999999996
     },
     {
       "symbol": "RML.BK",
@@ -140,22 +149,22 @@
       "percent": 14.28571428571428
     },
     {
+      "symbol": "MONO.BK",
+      "name": "Mono Next Public Company Limited",
+      "currency": "THB",
+      "price": 0.36,
+      "previousClose": 0.32,
+      "timestamp": 1795577140000,
+      "percent": 12.5
+    },
+    {
       "symbol": "CHEWA.BK",
       "name": "Chewathai Public Company Limited",
       "currency": "THB",
       "price": 0.11,
       "previousClose": 0.1,
-      "timestamp": 1795575521000,
+      "timestamp": 1795576903000,
       "percent": 9.999999999999986
-    },
-    {
-      "symbol": "MONO.BK",
-      "name": "Mono Next Public Company Limited",
-      "currency": "THB",
-      "price": 0.35,
-      "previousClose": 0.32,
-      "timestamp": 1795576549000,
-      "percent": 9.375
     },
     {
       "symbol": "PEER.BK",
@@ -176,13 +185,22 @@
       "percent": 9.090909090909083
     },
     {
-      "symbol": "TGE.BK",
-      "name": "Thachang Green Energy Public Company Limited",
+      "symbol": "RS.BK",
+      "name": "RS Public Company Limited",
       "currency": "THB",
-      "price": 0.86,
-      "previousClose": 0.8,
-      "timestamp": 1795575835000,
-      "percent": 7.499999999999996
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1795576879000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "WFX.BK",
+      "name": "World Flex Public Company Limited",
+      "currency": "THB",
+      "price": 1.05,
+      "previousClose": 0.97,
+      "timestamp": 1795577095000,
+      "percent": 8.247422680412386
     },
     {
       "symbol": "DCON.BK",
@@ -190,37 +208,28 @@
       "currency": "THB",
       "price": 0.15,
       "previousClose": 0.14,
-      "timestamp": 1795575706000,
+      "timestamp": 1795577079000,
       "percent": 7.14285714285714
-    },
-    {
-      "symbol": "QTCG.BK",
-      "name": "QTCG Public Company Limited",
-      "currency": "THB",
-      "price": 0.15,
-      "previousClose": 0.14,
-      "timestamp": 1795576068000,
-      "percent": 7.14285714285714
-    },
-    {
-      "symbol": "JCK.BK",
-      "name": "JCK International Public Company Limited",
-      "currency": "THB",
-      "price": 0.16,
-      "previousClose": 0.15,
-      "timestamp": 1795576161000,
-      "percent": 6.666666666666665
     }
   ],
   "todayCandidates": [
     {
-      "symbol": "STOWER.BK",
-      "name": "Sky Tower Public Company Limited",
+      "symbol": "XBIO.BK",
+      "name": "X Bioscience Public Company Limited",
       "currency": "THB",
-      "price": 0.05,
-      "previousClose": 0.04,
-      "timestamp": 1795576293000,
-      "percent": 25
+      "price": 0.04,
+      "previousClose": 0.03,
+      "timestamp": 1795576865000,
+      "percent": 33.33333333333335
+    },
+    {
+      "symbol": "QDC.BK",
+      "name": "Quantum D C Public Company Limited",
+      "currency": "THB",
+      "price": 0.06,
+      "previousClose": 0.05,
+      "timestamp": 1795576865000,
+      "percent": 19.999999999999996
     },
     {
       "symbol": "RML.BK",
@@ -232,22 +241,22 @@
       "percent": 14.28571428571428
     },
     {
+      "symbol": "MONO.BK",
+      "name": "Mono Next Public Company Limited",
+      "currency": "THB",
+      "price": 0.36,
+      "previousClose": 0.32,
+      "timestamp": 1795577140000,
+      "percent": 12.5
+    },
+    {
       "symbol": "CHEWA.BK",
       "name": "Chewathai Public Company Limited",
       "currency": "THB",
       "price": 0.11,
       "previousClose": 0.1,
-      "timestamp": 1795575521000,
+      "timestamp": 1795576903000,
       "percent": 9.999999999999986
-    },
-    {
-      "symbol": "MONO.BK",
-      "name": "Mono Next Public Company Limited",
-      "currency": "THB",
-      "price": 0.35,
-      "previousClose": 0.32,
-      "timestamp": 1795576549000,
-      "percent": 9.375
     },
     {
       "symbol": "PEER.BK",
@@ -268,13 +277,22 @@
       "percent": 9.090909090909083
     },
     {
-      "symbol": "TGE.BK",
-      "name": "Thachang Green Energy Public Company Limited",
+      "symbol": "RS.BK",
+      "name": "RS Public Company Limited",
       "currency": "THB",
-      "price": 0.86,
-      "previousClose": 0.8,
-      "timestamp": 1795575835000,
-      "percent": 7.499999999999996
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1795576879000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "WFX.BK",
+      "name": "World Flex Public Company Limited",
+      "currency": "THB",
+      "price": 1.05,
+      "previousClose": 0.97,
+      "timestamp": 1795577095000,
+      "percent": 8.247422680412386
     },
     {
       "symbol": "DCON.BK",
@@ -282,7 +300,7 @@
       "currency": "THB",
       "price": 0.15,
       "previousClose": 0.14,
-      "timestamp": 1795575706000,
+      "timestamp": 1795577079000,
       "percent": 7.14285714285714
     },
     {
@@ -322,6 +340,15 @@
       "percent": 6.666666666666665
     },
     {
+      "symbol": "TGE.BK",
+      "name": "Thachang Green Energy Public Company Limited",
+      "currency": "THB",
+      "price": 0.85,
+      "previousClose": 0.8,
+      "timestamp": 1795577075000,
+      "percent": 6.25
+    },
+    {
       "symbol": "SRS.BK",
       "name": "Sirisoft Public Company Limited",
       "currency": "THB",
@@ -336,17 +363,8 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.17,
-      "timestamp": 1795576158000,
+      "timestamp": 1795576689000,
       "percent": 5.88235294117645
-    },
-    {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
-      "currency": "THB",
-      "price": 12.3,
-      "previousClose": 11.65,
-      "timestamp": 1795576548000,
-      "percent": 5.579399141630903
     },
     {
       "symbol": "MTW.BK",
@@ -358,13 +376,31 @@
       "percent": 5.405405405405417
     },
     {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 12.25,
+      "previousClose": 11.65,
+      "timestamp": 1795577138000,
+      "percent": 5.150214592274671
+    },
+    {
       "symbol": "XO.BK",
       "name": "Exotic Food Public Company Limited",
       "currency": "THB",
-      "price": 21.5,
+      "price": 21.55,
       "previousClose": 20.5,
-      "timestamp": 1795576525000,
-      "percent": 4.878048780487809
+      "timestamp": 1795577122000,
+      "percent": 5.1219512195122
+    },
+    {
+      "symbol": "TGH.BK",
+      "name": "Thai Group Holdings Public Company Limited",
+      "currency": "THB",
+      "price": 10.5,
+      "previousClose": 10,
+      "timestamp": 1795576885000,
+      "percent": 5.000000000000004
     },
     {
       "symbol": "EA.BK",
@@ -372,26 +408,8 @@
       "currency": "THB",
       "price": 2.62,
       "previousClose": 2.52,
-      "timestamp": 1795576542000,
+      "timestamp": 1795577137000,
       "percent": 3.9682539682539764
-    },
-    {
-      "symbol": "JSP.BK",
-      "name": "JSP Pharmaceutical Manufacturing (Thailand) Public Co., Ltd.",
-      "currency": "THB",
-      "price": 1.6,
-      "previousClose": 1.54,
-      "timestamp": 1795575868000,
-      "percent": 3.8961038961039085
-    },
-    {
-      "symbol": "NEX.BK",
-      "name": "Nex Point Public Company Limited",
-      "currency": "THB",
-      "price": 0.81,
-      "previousClose": 0.78,
-      "timestamp": 1795576543000,
-      "percent": 3.8461538461538547
     },
     {
       "symbol": "RP.BK",
@@ -400,6 +418,15 @@
       "price": 0.54,
       "previousClose": 0.52,
       "timestamp": 1795576493000,
+      "percent": 3.8461538461538547
+    },
+    {
+      "symbol": "TCC.BK",
+      "name": "Thai Capital Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 0.27,
+      "previousClose": 0.26,
+      "timestamp": 1795576667000,
       "percent": 3.8461538461538547
     },
     {
@@ -412,15 +439,6 @@
       "percent": 3.703703703703698
     },
     {
-      "symbol": "TRC.BK",
-      "name": "TRC Construction Public Company Limited",
-      "currency": "THB",
-      "price": 0.28,
-      "previousClose": 0.27,
-      "timestamp": 1795576405000,
-      "percent": 3.703703703703698
-    },
-    {
       "symbol": "WIN.BK",
       "name": "Wyncoast Industrial Park Public Company Limited",
       "currency": "THB",
@@ -430,21 +448,12 @@
       "percent": 3.703703703703698
     },
     {
-      "symbol": "PACO.BK",
-      "name": "President Automobile Industries Public Company Limited",
-      "currency": "THB",
-      "price": 1.41,
-      "previousClose": 1.36,
-      "timestamp": 1795575521000,
-      "percent": 3.676470588235281
-    },
-    {
       "symbol": "PORT.BK",
       "name": "Sahathai Terminal Public Company Limited",
       "currency": "THB",
       "price": 0.89,
       "previousClose": 0.86,
-      "timestamp": 1795576548000,
+      "timestamp": 1795576791000,
       "percent": 3.488372093023262
     },
     {
@@ -453,7 +462,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.29,
-      "timestamp": 1795576529000,
+      "timestamp": 1795576998000,
       "percent": 3.4482758620689724
     },
     {
@@ -462,7 +471,7 @@
       "currency": "THB",
       "price": 0.95,
       "previousClose": 0.92,
-      "timestamp": 1795576385000,
+      "timestamp": 1795577135000,
       "percent": 3.2608695652173836
     },
     {
@@ -473,31 +482,22 @@
       "previousClose": 0.32,
       "timestamp": 1795575968000,
       "percent": 3.125
-    },
-    {
-      "symbol": "WFX.BK",
-      "name": "World Flex Public Company Limited",
-      "currency": "THB",
-      "price": 1,
-      "previousClose": 0.97,
-      "timestamp": 1795576278000,
-      "percent": 3.0927835051546504
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 615,
-    "missing": 247,
+    "eligible": 666,
+    "missing": 196,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-25",
-    "scheduledSlot": "2026-11-25T10:45[Asia/Bangkok]",
-    "updatedAt": 1795578352830
+    "scheduledSlot": "2026-11-25T10:55[Asia/Bangkok]",
+    "updatedAt": 1795578946611
   },
-  "todayGainersUpdatedAt": 1795578352830,
+  "todayGainersUpdatedAt": 1795578946611,
   "items": [
     {
       "symbol": "INSET.BK",
