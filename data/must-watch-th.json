@@ -127,7 +127,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1795592933000,
+      "timestamp": 1795596117000,
       "percent": 33.33333333333335
     },
     {
@@ -172,7 +172,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.26,
-      "timestamp": 1795591937000,
+      "timestamp": 1795595959000,
       "percent": 15.384615384615374
     },
     {
@@ -181,7 +181,7 @@
       "currency": "THB",
       "price": 0.08,
       "previousClose": 0.07,
-      "timestamp": 1795593160000,
+      "timestamp": 1795596325000,
       "percent": 14.28571428571428
     },
     {
@@ -199,7 +199,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795595662000,
+      "timestamp": 1795596278000,
       "percent": 12.5
     },
     {
@@ -219,7 +219,7 @@
       "currency": "THB",
       "price": 0.04,
       "previousClose": 0.03,
-      "timestamp": 1795592933000,
+      "timestamp": 1795596117000,
       "percent": 33.33333333333335
     },
     {
@@ -264,7 +264,7 @@
       "currency": "THB",
       "price": 0.3,
       "previousClose": 0.26,
-      "timestamp": 1795591937000,
+      "timestamp": 1795595959000,
       "percent": 15.384615384615374
     },
     {
@@ -273,7 +273,7 @@
       "currency": "THB",
       "price": 0.08,
       "previousClose": 0.07,
-      "timestamp": 1795593160000,
+      "timestamp": 1795596325000,
       "percent": 14.28571428571428
     },
     {
@@ -291,7 +291,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795595662000,
+      "timestamp": 1795596278000,
       "percent": 12.5
     },
     {
@@ -318,8 +318,17 @@
       "currency": "THB",
       "price": 1.06,
       "previousClose": 0.97,
-      "timestamp": 1795595313000,
+      "timestamp": 1795595899000,
       "percent": 9.278350515463929
+    },
+    {
+      "symbol": "PEER.BK",
+      "name": "Peer For You Public Company Limited",
+      "currency": "THB",
+      "price": 0.12,
+      "previousClose": 0.11,
+      "timestamp": 1795596252000,
+      "percent": 9.090909090909083
     },
     {
       "symbol": "DCON.BK",
@@ -329,15 +338,6 @@
       "previousClose": 0.14,
       "timestamp": 1795593099000,
       "percent": 7.14285714285714
-    },
-    {
-      "symbol": "JCK.BK",
-      "name": "JCK International Public Company Limited",
-      "currency": "THB",
-      "price": 0.16,
-      "previousClose": 0.15,
-      "timestamp": 1795594590000,
-      "percent": 6.666666666666665
     },
     {
       "symbol": "PPPM.BK",
@@ -354,7 +354,7 @@
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1795595568000,
+      "timestamp": 1795595965000,
       "percent": 6.666666666666665
     },
     {
@@ -376,15 +376,6 @@
       "percent": 6.550218340611358
     },
     {
-      "symbol": "KCG.BK",
-      "name": "KCG Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 11.7,
-      "previousClose": 11,
-      "timestamp": 1795595647000,
-      "percent": 6.363636363636349
-    },
-    {
       "symbol": "BLESS.BK",
       "name": "Bless Asset Group Public Company Limited",
       "currency": "THB",
@@ -403,6 +394,15 @@
       "percent": 6.024096385542177
     },
     {
+      "symbol": "KCG.BK",
+      "name": "KCG Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 11.65,
+      "previousClose": 11,
+      "timestamp": 1795596206000,
+      "percent": 5.909090909090908
+    },
+    {
       "symbol": "SRS.BK",
       "name": "Sirisoft Public Company Limited",
       "currency": "THB",
@@ -417,17 +417,17 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.17,
-      "timestamp": 1795595512000,
+      "timestamp": 1795595742000,
       "percent": 5.88235294117645
     },
     {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
+      "symbol": "NEX.BK",
+      "name": "Nex Point Public Company Limited",
       "currency": "THB",
-      "price": 12.3,
-      "previousClose": 11.65,
-      "timestamp": 1795595722000,
-      "percent": 5.579399141630903
+      "price": 0.82,
+      "previousClose": 0.78,
+      "timestamp": 1795596235000,
+      "percent": 5.12820512820511
     },
     {
       "symbol": "IIG.BK",
@@ -448,15 +448,6 @@
       "percent": 4.950495049504955
     },
     {
-      "symbol": "GLORY.BK",
-      "name": "Glory Forever Public Company Limited",
-      "currency": "THB",
-      "price": 0.65,
-      "previousClose": 0.62,
-      "timestamp": 1795592442000,
-      "percent": 4.8387096774193505
-    },
-    {
       "symbol": "PRECHA.BK",
       "name": "Preecha Group Public Company Limited",
       "currency": "THB",
@@ -464,6 +455,15 @@
       "previousClose": 0.21,
       "timestamp": 1795595340000,
       "percent": 4.761904761904767
+    },
+    {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 12.2,
+      "previousClose": 11.65,
+      "timestamp": 1795596320000,
+      "percent": 4.721030042918439
     },
     {
       "symbol": "TTI.BK",
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-25",
-    "scheduledSlot": "2026-11-25T16:05[Asia/Bangkok]",
-    "updatedAt": 1795597538953
+    "scheduledSlot": "2026-11-25T16:15[Asia/Bangkok]",
+    "updatedAt": 1795598135854
   },
-  "todayGainersUpdatedAt": 1795597538953,
+  "todayGainersUpdatedAt": 1795598135854,
   "items": [
     {
       "symbol": "INSET.BK",
