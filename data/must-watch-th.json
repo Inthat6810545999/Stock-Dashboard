@@ -179,10 +179,10 @@
       "symbol": "VS.BK",
       "name": "Viserve Enterprise Public Company Limited",
       "currency": "THB",
-      "price": 0.31,
+      "price": 0.3,
       "previousClose": 0.26,
-      "timestamp": 1795590301000,
-      "percent": 19.23076923076923
+      "timestamp": 1795591937000,
+      "percent": 15.384615384615374
     },
     {
       "symbol": "RML.BK",
@@ -199,7 +199,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795591337000,
+      "timestamp": 1795591979000,
       "percent": 12.5
     },
     {
@@ -271,10 +271,10 @@
       "symbol": "VS.BK",
       "name": "Viserve Enterprise Public Company Limited",
       "currency": "THB",
-      "price": 0.31,
+      "price": 0.3,
       "previousClose": 0.26,
-      "timestamp": 1795590301000,
-      "percent": 19.23076923076923
+      "timestamp": 1795591937000,
+      "percent": 15.384615384615374
     },
     {
       "symbol": "RML.BK",
@@ -291,7 +291,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795591337000,
+      "timestamp": 1795591979000,
       "percent": 12.5
     },
     {
@@ -311,15 +311,6 @@
       "previousClose": 0.1,
       "timestamp": 1795590302000,
       "percent": 9.999999999999986
-    },
-    {
-      "symbol": "PEER.BK",
-      "name": "Peer For You Public Company Limited",
-      "currency": "THB",
-      "price": 0.12,
-      "previousClose": 0.11,
-      "timestamp": 1795583068000,
-      "percent": 9.090909090909083
     },
     {
       "symbol": "SCM.BK",
@@ -345,7 +336,7 @@
       "currency": "THB",
       "price": 1.05,
       "previousClose": 0.97,
-      "timestamp": 1795590317000,
+      "timestamp": 1795591779000,
       "percent": 8.247422680412386
     },
     {
@@ -385,6 +376,15 @@
       "percent": 6.666666666666665
     },
     {
+      "symbol": "JCK.BK",
+      "name": "JCK International Public Company Limited",
+      "currency": "THB",
+      "price": 0.16,
+      "previousClose": 0.15,
+      "timestamp": 1795591794000,
+      "percent": 6.666666666666665
+    },
+    {
       "symbol": "SQ.BK",
       "name": "Sahakol Equipment Public Company Limited",
       "currency": "THB",
@@ -403,6 +403,15 @@
       "percent": 6.550218340611358
     },
     {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 12.4,
+      "previousClose": 11.65,
+      "timestamp": 1795592079000,
+      "percent": 6.4377682403433445
+    },
+    {
       "symbol": "ASN.BK",
       "name": "ASN Broker Public Company Limited",
       "currency": "THB",
@@ -412,31 +421,13 @@
       "percent": 6.024096385542177
     },
     {
-      "symbol": "SRS.BK",
-      "name": "Sirisoft Public Company Limited",
-      "currency": "THB",
-      "price": 2.16,
-      "previousClose": 2.04,
-      "timestamp": 1795579454000,
-      "percent": 5.882352941176472
-    },
-    {
       "symbol": "BWG.BK",
       "name": "Better World Green Public Company Limited",
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.17,
-      "timestamp": 1795591182000,
+      "timestamp": 1795591771000,
       "percent": 5.88235294117645
-    },
-    {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
-      "currency": "THB",
-      "price": 12.25,
-      "previousClose": 11.65,
-      "timestamp": 1795591346000,
-      "percent": 5.150214592274671
     },
     {
       "symbol": "NDR.BK",
@@ -457,6 +448,15 @@
       "percent": 4.950495049504955
     },
     {
+      "symbol": "SRS.BK",
+      "name": "Sirisoft Public Company Limited",
+      "currency": "THB",
+      "price": 2.14,
+      "previousClose": 2.04,
+      "timestamp": 1795591834000,
+      "percent": 4.90196078431373
+    },
+    {
       "symbol": "GLORY.BK",
       "name": "Glory Forever Public Company Limited",
       "currency": "THB",
@@ -475,13 +475,13 @@
       "percent": 4.761904761904767
     },
     {
-      "symbol": "KCG.BK",
-      "name": "KCG Corporation Public Company Limited",
+      "symbol": "FANCY.BK",
+      "name": "Fancy Wood Industries Public Company Limited",
       "currency": "THB",
-      "price": 11.5,
-      "previousClose": 11,
-      "timestamp": 1795591357000,
-      "percent": 4.545454545454541
+      "price": 0.25,
+      "previousClose": 0.24,
+      "timestamp": 1795591488000,
+      "percent": 4.166666666666674
     }
   ],
   "todayScan": {
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-25",
-    "scheduledSlot": "2026-11-25T14:55[Asia/Bangkok]",
-    "updatedAt": 1795593340060
+    "scheduledSlot": "2026-11-25T15:05[Asia/Bangkok]",
+    "updatedAt": 1795593946331
   },
-  "todayGainersUpdatedAt": 1795593340060,
+  "todayGainersUpdatedAt": 1795593946331,
   "items": [
     {
       "symbol": "INSET.BK",
