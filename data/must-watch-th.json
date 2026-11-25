@@ -181,7 +181,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795581824000,
+      "timestamp": 1795581920000,
       "percent": 12.5
     },
     {
@@ -194,21 +194,21 @@
       "percent": 9.999999999999986
     },
     {
+      "symbol": "KCG.BK",
+      "name": "KCG Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 11.95,
+      "previousClose": 11,
+      "timestamp": 1795581887000,
+      "percent": 8.636363636363619
+    },
+    {
       "symbol": "CPL.BK",
       "name": "CPL Group Public Company Limited",
       "currency": "THB",
       "price": 0.65,
       "previousClose": 0.6,
       "timestamp": 1795581666000,
-      "percent": 8.333333333333348
-    },
-    {
-      "symbol": "DPAINT.BK",
-      "name": "Delta Paint Public Company Limited",
-      "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1795580546000,
       "percent": 8.333333333333348
     }
   ],
@@ -273,7 +273,7 @@
       "currency": "THB",
       "price": 0.36,
       "previousClose": 0.32,
-      "timestamp": 1795581824000,
+      "timestamp": 1795581920000,
       "percent": 12.5
     },
     {
@@ -284,6 +284,15 @@
       "previousClose": 0.1,
       "timestamp": 1795581686000,
       "percent": 9.999999999999986
+    },
+    {
+      "symbol": "KCG.BK",
+      "name": "KCG Corporation Public Company Limited",
+      "currency": "THB",
+      "price": 11.95,
+      "previousClose": 11,
+      "timestamp": 1795581887000,
+      "percent": 8.636363636363619
     },
     {
       "symbol": "CPL.BK",
@@ -322,15 +331,6 @@
       "percent": 8.247422680412386
     },
     {
-      "symbol": "KCG.BK",
-      "name": "KCG Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 11.9,
-      "previousClose": 11,
-      "timestamp": 1795581809000,
-      "percent": 8.18181818181818
-    },
-    {
       "symbol": "DCON.BK",
       "name": "Dcon Products Public Company Limited",
       "currency": "THB",
@@ -363,7 +363,7 @@
       "currency": "THB",
       "price": 0.83,
       "previousClose": 0.78,
-      "timestamp": 1795581821000,
+      "timestamp": 1795581921000,
       "percent": 6.41025641025641
     },
     {
@@ -394,15 +394,6 @@
       "percent": 5.88235294117645
     },
     {
-      "symbol": "JTS.BK",
-      "name": "Jasmine Technology Solution Public Company Limited",
-      "currency": "THB",
-      "price": 12.25,
-      "previousClose": 11.65,
-      "timestamp": 1795581817000,
-      "percent": 5.150214592274671
-    },
-    {
       "symbol": "TGE.BK",
       "name": "Thachang Green Energy Public Company Limited",
       "currency": "THB",
@@ -430,12 +421,21 @@
       "percent": 4.761904761904767
     },
     {
+      "symbol": "JTS.BK",
+      "name": "Jasmine Technology Solution Public Company Limited",
+      "currency": "THB",
+      "price": 12.2,
+      "previousClose": 11.65,
+      "timestamp": 1795581889000,
+      "percent": 4.721030042918439
+    },
+    {
       "symbol": "XO.BK",
       "name": "Exotic Food Public Company Limited",
       "currency": "THB",
       "price": 21.45,
       "previousClose": 20.5,
-      "timestamp": 1795581711000,
+      "timestamp": 1795581888000,
       "percent": 4.634146341463419
     },
     {
@@ -446,15 +446,6 @@
       "previousClose": 0.24,
       "timestamp": 1795579489000,
       "percent": 4.166666666666674
-    },
-    {
-      "symbol": "EA.BK",
-      "name": "Energy Absolute Public Company Limited",
-      "currency": "THB",
-      "price": 2.62,
-      "previousClose": 2.52,
-      "timestamp": 1795581785000,
-      "percent": 3.9682539682539764
     },
     {
       "symbol": "BEAUTY.BK",
@@ -482,6 +473,15 @@
       "previousClose": 0.86,
       "timestamp": 1795581290000,
       "percent": 3.488372093023262
+    },
+    {
+      "symbol": "BKA.BK",
+      "name": "Buakaew",
+      "currency": "THB",
+      "price": 0.3,
+      "previousClose": 0.29,
+      "timestamp": 1795581823000,
+      "percent": 3.4482758620689724
     }
   ],
   "todayScan": {
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-25",
-    "scheduledSlot": "2026-11-25T12:10[Asia/Bangkok]",
-    "updatedAt": 1795583636133
+    "scheduledSlot": "2026-11-25T12:15[Asia/Bangkok]",
+    "updatedAt": 1795583736544
   },
-  "todayGainersUpdatedAt": 1795583636133,
+  "todayGainersUpdatedAt": 1795583736544,
   "items": [
     {
       "symbol": "INSET.BK",
