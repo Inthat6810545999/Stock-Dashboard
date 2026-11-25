@@ -122,31 +122,40 @@
   },
   "todayGainers": [
     {
-      "symbol": "BGLC",
-      "name": "BioNexus Gene Lab Corp.",
-      "currency": "USD",
-      "price": 1.095,
-      "previousClose": 0.58,
-      "timestamp": 1795632331000,
-      "percent": 88.79310344827587
-    },
-    {
       "symbol": "TOPP",
       "name": "Toppoint Holdings Inc.",
       "currency": "USD",
-      "price": 0.5771,
+      "price": 0.6016,
       "previousClose": 0.315,
-      "timestamp": 1795632360000,
-      "percent": 83.20634920634919
+      "timestamp": 1795632956000,
+      "percent": 90.98412698412699
     },
     {
-      "symbol": "NRSN",
-      "name": "NeuroSense Therapeutics Ltd.",
+      "symbol": "BGLC",
+      "name": "BioNexus Gene Lab Corp.",
       "currency": "USD",
-      "price": 1.7199,
-      "previousClose": 1.1,
-      "timestamp": 1795632338000,
-      "percent": 56.35454545454544
+      "price": 1.05,
+      "previousClose": 0.58,
+      "timestamp": 1795632934000,
+      "percent": 81.03448275862071
+    },
+    {
+      "symbol": "CAPNR",
+      "name": "Cayson Acquisition Corp",
+      "currency": "USD",
+      "price": 0.0768,
+      "previousClose": 0.0465,
+      "timestamp": 1795632813000,
+      "percent": 65.16129032258063
+    },
+    {
+      "symbol": "ALGS",
+      "name": "Aligos Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 2.3183,
+      "previousClose": 1.49,
+      "timestamp": 1795632934000,
+      "percent": 55.59060402684564
     },
     {
       "symbol": "RIBBU",
@@ -161,237 +170,246 @@
       "symbol": "NXAT",
       "name": "Nexus Advanced Technologies Inc.",
       "currency": "USD",
-      "price": 0.6593,
+      "price": 0.6522,
       "previousClose": 0.424,
-      "timestamp": 1795632349000,
-      "percent": 55.49528301886792
-    },
-    {
-      "symbol": "ALGS",
-      "name": "Aligos Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 2.236,
-      "previousClose": 1.49,
-      "timestamp": 1795632331000,
-      "percent": 50.067114093959745
+      "timestamp": 1795632938000,
+      "percent": 53.820754716981135
     },
     {
       "symbol": "BYAH",
       "name": "Park Ha Biological Technology Co., Ltd.",
       "currency": "USD",
-      "price": 1.1711,
+      "price": 1.1683,
       "previousClose": 0.8,
-      "timestamp": 1795632324000,
-      "percent": 46.3875
-    },
-    {
-      "symbol": "KYNB",
-      "name": "Kyntra Bio, Inc.",
-      "currency": "USD",
-      "price": 1.9299,
-      "previousClose": 1.38,
-      "timestamp": 1795632350000,
-      "percent": 39.84782608695654
-    },
-    {
-      "symbol": "BNAI",
-      "name": "Brand Engagement Network, Inc.",
-      "currency": "USD",
-      "price": 8.99,
-      "previousClose": 6.65,
-      "timestamp": 1795632333000,
-      "percent": 35.18796992481204
-    },
-    {
-      "symbol": "LONA",
-      "name": "LeonaBio, Inc.",
-      "currency": "USD",
-      "price": 2.31,
-      "previousClose": 1.71,
-      "timestamp": 1795632345000,
-      "percent": 35.08771929824561
-    }
-  ],
-  "todayCandidates": [
-    {
-      "symbol": "BGLC",
-      "name": "BioNexus Gene Lab Corp.",
-      "currency": "USD",
-      "price": 1.095,
-      "previousClose": 0.58,
-      "timestamp": 1795632331000,
-      "percent": 88.79310344827587
-    },
-    {
-      "symbol": "TOPP",
-      "name": "Toppoint Holdings Inc.",
-      "currency": "USD",
-      "price": 0.5771,
-      "previousClose": 0.315,
-      "timestamp": 1795632360000,
-      "percent": 83.20634920634919
+      "timestamp": 1795632907000,
+      "percent": 46.03749999999997
     },
     {
       "symbol": "NRSN",
       "name": "NeuroSense Therapeutics Ltd.",
       "currency": "USD",
-      "price": 1.7199,
+      "price": 1.605,
       "previousClose": 1.1,
-      "timestamp": 1795632338000,
-      "percent": 56.35454545454544
-    },
-    {
-      "symbol": "RIBBU",
-      "name": "Ribbon Acquisition Corp.",
-      "currency": "USD",
-      "price": 93.59,
-      "previousClose": 60.17,
-      "timestamp": 1795628210000,
-      "percent": 55.542629217217886
-    },
-    {
-      "symbol": "NXAT",
-      "name": "Nexus Advanced Technologies Inc.",
-      "currency": "USD",
-      "price": 0.6593,
-      "previousClose": 0.424,
-      "timestamp": 1795632349000,
-      "percent": 55.49528301886792
-    },
-    {
-      "symbol": "ALGS",
-      "name": "Aligos Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 2.236,
-      "previousClose": 1.49,
-      "timestamp": 1795632331000,
-      "percent": 50.067114093959745
-    },
-    {
-      "symbol": "BYAH",
-      "name": "Park Ha Biological Technology Co., Ltd.",
-      "currency": "USD",
-      "price": 1.1711,
-      "previousClose": 0.8,
-      "timestamp": 1795632324000,
-      "percent": 46.3875
-    },
-    {
-      "symbol": "KYNB",
-      "name": "Kyntra Bio, Inc.",
-      "currency": "USD",
-      "price": 1.9299,
-      "previousClose": 1.38,
-      "timestamp": 1795632350000,
-      "percent": 39.84782608695654
-    },
-    {
-      "symbol": "BNAI",
-      "name": "Brand Engagement Network, Inc.",
-      "currency": "USD",
-      "price": 8.99,
-      "previousClose": 6.65,
-      "timestamp": 1795632333000,
-      "percent": 35.18796992481204
-    },
-    {
-      "symbol": "LONA",
-      "name": "LeonaBio, Inc.",
-      "currency": "USD",
-      "price": 2.31,
-      "previousClose": 1.71,
-      "timestamp": 1795632345000,
-      "percent": 35.08771929824561
-    },
-    {
-      "symbol": "BBCI",
-      "name": "Bradbury Capital Inc.",
-      "currency": "USD",
-      "price": 2.05,
-      "previousClose": 1.53,
-      "timestamp": 1795632325000,
-      "percent": 33.986928104575156
+      "timestamp": 1795632948000,
+      "percent": 45.9090909090909
     },
     {
       "symbol": "FCUV",
       "name": "Focus Universal Inc.",
       "currency": "USD",
-      "price": 4.925,
+      "price": 5.23,
       "previousClose": 3.69,
-      "timestamp": 1795632343000,
-      "percent": 33.468834688346874
+      "timestamp": 1795632940000,
+      "percent": 41.734417344173444
     },
     {
-      "symbol": "GLXG",
-      "name": "Galaxy Payroll Group Limited",
+      "symbol": "KYNB",
+      "name": "Kyntra Bio, Inc.",
       "currency": "USD",
-      "price": 1.37,
-      "previousClose": 1.04,
-      "timestamp": 1795632345000,
-      "percent": 31.73076923076923
+      "price": 1.9098,
+      "previousClose": 1.38,
+      "timestamp": 1795632930000,
+      "percent": 38.39130434782609
+    }
+  ],
+  "todayCandidates": [
+    {
+      "symbol": "TOPP",
+      "name": "Toppoint Holdings Inc.",
+      "currency": "USD",
+      "price": 0.6016,
+      "previousClose": 0.315,
+      "timestamp": 1795632956000,
+      "percent": 90.98412698412699
     },
     {
-      "symbol": "RAYA",
-      "name": "Erayak Power Solution Group Inc.",
+      "symbol": "BGLC",
+      "name": "BioNexus Gene Lab Corp.",
       "currency": "USD",
-      "price": 0.5593,
-      "previousClose": 0.4249,
-      "timestamp": 1795632347000,
-      "percent": 31.630971993410228
+      "price": 1.05,
+      "previousClose": 0.58,
+      "timestamp": 1795632934000,
+      "percent": 81.03448275862071
+    },
+    {
+      "symbol": "CAPNR",
+      "name": "Cayson Acquisition Corp",
+      "currency": "USD",
+      "price": 0.0768,
+      "previousClose": 0.0465,
+      "timestamp": 1795632813000,
+      "percent": 65.16129032258063
+    },
+    {
+      "symbol": "ALGS",
+      "name": "Aligos Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 2.3183,
+      "previousClose": 1.49,
+      "timestamp": 1795632934000,
+      "percent": 55.59060402684564
+    },
+    {
+      "symbol": "RIBBU",
+      "name": "Ribbon Acquisition Corp.",
+      "currency": "USD",
+      "price": 93.59,
+      "previousClose": 60.17,
+      "timestamp": 1795628210000,
+      "percent": 55.542629217217886
+    },
+    {
+      "symbol": "NXAT",
+      "name": "Nexus Advanced Technologies Inc.",
+      "currency": "USD",
+      "price": 0.6522,
+      "previousClose": 0.424,
+      "timestamp": 1795632938000,
+      "percent": 53.820754716981135
+    },
+    {
+      "symbol": "BYAH",
+      "name": "Park Ha Biological Technology Co., Ltd.",
+      "currency": "USD",
+      "price": 1.1683,
+      "previousClose": 0.8,
+      "timestamp": 1795632907000,
+      "percent": 46.03749999999997
+    },
+    {
+      "symbol": "NRSN",
+      "name": "NeuroSense Therapeutics Ltd.",
+      "currency": "USD",
+      "price": 1.605,
+      "previousClose": 1.1,
+      "timestamp": 1795632948000,
+      "percent": 45.9090909090909
+    },
+    {
+      "symbol": "FCUV",
+      "name": "Focus Universal Inc.",
+      "currency": "USD",
+      "price": 5.23,
+      "previousClose": 3.69,
+      "timestamp": 1795632940000,
+      "percent": 41.734417344173444
+    },
+    {
+      "symbol": "KYNB",
+      "name": "Kyntra Bio, Inc.",
+      "currency": "USD",
+      "price": 1.9098,
+      "previousClose": 1.38,
+      "timestamp": 1795632930000,
+      "percent": 38.39130434782609
+    },
+    {
+      "symbol": "LONA",
+      "name": "LeonaBio, Inc.",
+      "currency": "USD",
+      "price": 2.3321,
+      "previousClose": 1.71,
+      "timestamp": 1795632947000,
+      "percent": 36.38011695906434
+    },
+    {
+      "symbol": "BBCI",
+      "name": "Bradbury Capital Inc.",
+      "currency": "USD",
+      "price": 2.058,
+      "previousClose": 1.53,
+      "timestamp": 1795632873000,
+      "percent": 34.50980392156862
+    },
+    {
+      "symbol": "BNAI",
+      "name": "Brand Engagement Network, Inc.",
+      "currency": "USD",
+      "price": 8.9399,
+      "previousClose": 6.65,
+      "timestamp": 1795632937000,
+      "percent": 34.4345864661654
     },
     {
       "symbol": "APUS",
       "name": "Apimeds Pharmaceuticals US, Inc.",
       "currency": "USD",
-      "price": 3.0101,
+      "price": 3.095,
       "previousClose": 2.31,
-      "timestamp": 1795632328000,
-      "percent": 30.307359307359306
+      "timestamp": 1795632934000,
+      "percent": 33.98268398268398
     },
     {
-      "symbol": "AMBO",
-      "name": "Ambow Education Holding Ltd. Am",
+      "symbol": "GLXG",
+      "name": "Galaxy Payroll Group Limited",
       "currency": "USD",
-      "price": 1.61,
-      "previousClose": 1.25,
-      "timestamp": 1795631067000,
-      "percent": 28.800000000000004
+      "price": 1.3888,
+      "previousClose": 1.04,
+      "timestamp": 1795632913000,
+      "percent": 33.53846153846154
     },
     {
       "symbol": "DKI",
       "name": "Darkiris Inc.",
       "currency": "USD",
-      "price": 1.16,
+      "price": 1.189,
       "previousClose": 0.9085,
-      "timestamp": 1795632315000,
-      "percent": 27.682993946064926
+      "timestamp": 1795632941000,
+      "percent": 30.875068794716576
     },
     {
-      "symbol": "PRFX",
-      "name": "PRF Technologies Ltd.",
+      "symbol": "RAYA",
+      "name": "Erayak Power Solution Group Inc.",
       "currency": "USD",
-      "price": 0.8985,
-      "previousClose": 0.71,
-      "timestamp": 1795632238000,
-      "percent": 26.549295774647884
-    },
-    {
-      "symbol": "BHR",
-      "name": "Braemar Hotels & Resorts Inc.",
-      "currency": "USD",
-      "price": 1.76,
-      "previousClose": 1.4,
-      "timestamp": 1795632328000,
-      "percent": 25.714285714285733
+      "price": 0.5551,
+      "previousClose": 0.4249,
+      "timestamp": 1795632952000,
+      "percent": 30.642504118616152
     },
     {
       "symbol": "SKYE",
       "name": "Skye Bioscience, Inc.",
       "currency": "USD",
-      "price": 1.03,
+      "price": 1.06,
       "previousClose": 0.8199,
-      "timestamp": 1795631311000,
-      "percent": 25.625076228808407
+      "timestamp": 1795632875000,
+      "percent": 29.284059031589237
+    },
+    {
+      "symbol": "FFAI",
+      "name": "Faraday Future Intelligent Electric Inc.",
+      "currency": "USD",
+      "price": 0.1194,
+      "previousClose": 0.093,
+      "timestamp": 1795632939000,
+      "percent": 28.387096774193555
+    },
+    {
+      "symbol": "SLSN",
+      "name": "Solesence, Inc.",
+      "currency": "USD",
+      "price": 2.1784,
+      "previousClose": 1.7,
+      "timestamp": 1795632945000,
+      "percent": 28.141176470588224
+    },
+    {
+      "symbol": "AMBO",
+      "name": "Ambow Education Holding Ltd. Am",
+      "currency": "USD",
+      "price": 1.6,
+      "previousClose": 1.25,
+      "timestamp": 1795632027000,
+      "percent": 28.000000000000004
+    },
+    {
+      "symbol": "PRFX",
+      "name": "PRF Technologies Ltd.",
+      "currency": "USD",
+      "price": 0.9067,
+      "previousClose": 0.71,
+      "timestamp": 1795632688000,
+      "percent": 27.704225352112676
     },
     {
       "symbol": "FNUC",
@@ -403,85 +421,67 @@
       "percent": 25.272331154684103
     },
     {
-      "symbol": "CGTX",
-      "name": "Cognition Therapeutics, Inc.",
+      "symbol": "BHR",
+      "name": "Braemar Hotels & Resorts Inc.",
       "currency": "USD",
-      "price": 0.8589,
-      "previousClose": 0.6878,
-      "timestamp": 1795632244000,
-      "percent": 24.876417563245145
-    },
-    {
-      "symbol": "SLSN",
-      "name": "Solesence, Inc.",
-      "currency": "USD",
-      "price": 2.12,
-      "previousClose": 1.7,
-      "timestamp": 1795632337000,
-      "percent": 24.705882352941178
-    },
-    {
-      "symbol": "EYPT",
-      "name": "EyePoint, Inc.",
-      "currency": "USD",
-      "price": 0.3393,
-      "previousClose": 0.2732,
-      "timestamp": 1795632341000,
-      "percent": 24.194729136163986
+      "price": 1.7401,
+      "previousClose": 1.4,
+      "timestamp": 1795632847000,
+      "percent": 24.292857142857137
     },
     {
       "symbol": "CURR",
       "name": "CURRENC Group Inc.",
       "currency": "USD",
-      "price": 2.31,
+      "price": 2.325,
       "previousClose": 1.88,
-      "timestamp": 1795632293000,
-      "percent": 22.872340425531924
-    },
-    {
-      "symbol": "CPIX",
-      "name": "Cumberland Pharmaceuticals Inc.",
-      "currency": "USD",
-      "price": 7.86,
-      "previousClose": 6.43,
-      "timestamp": 1795632168000,
-      "percent": 22.23950233281493
-    },
-    {
-      "symbol": "FFAI",
-      "name": "Faraday Future Intelligent Electric Inc.",
-      "currency": "USD",
-      "price": 0.1134,
-      "previousClose": 0.093,
-      "timestamp": 1795632311000,
-      "percent": 21.935483870967754
-    },
-    {
-      "symbol": "KXIN",
-      "name": "Kaixin Holdings",
-      "currency": "USD",
-      "price": 2.92,
-      "previousClose": 2.4,
-      "timestamp": 1795632332000,
-      "percent": 21.66666666666668
+      "timestamp": 1795632524000,
+      "percent": 23.670212765957466
     },
     {
       "symbol": "TOPS",
       "name": "Top Ships Inc.",
       "currency": "USD",
-      "price": 2.39,
+      "price": 2.425,
       "previousClose": 1.97,
-      "timestamp": 1795632265000,
-      "percent": 21.319796954314718
+      "timestamp": 1795632870000,
+      "percent": 23.096446700507613
+    },
+    {
+      "symbol": "CPIX",
+      "name": "Cumberland Pharmaceuticals Inc.",
+      "currency": "USD",
+      "price": 7.88,
+      "previousClose": 6.43,
+      "timestamp": 1795632818000,
+      "percent": 22.550544323483667
+    },
+    {
+      "symbol": "KXIN",
+      "name": "Kaixin Holdings",
+      "currency": "USD",
+      "price": 2.94,
+      "previousClose": 2.4,
+      "timestamp": 1795632834000,
+      "percent": 22.500000000000007
+    },
+    {
+      "symbol": "CGTX",
+      "name": "Cognition Therapeutics, Inc.",
+      "currency": "USD",
+      "price": 0.8319,
+      "previousClose": 0.6878,
+      "timestamp": 1795632927000,
+      "percent": 20.95085780750219
     },
     {
       "symbol": "MCRB",
       "name": "Seres Therapeutics, Inc.",
       "currency": "USD",
-      "price": 1.7901,
+      "price": 1.79,
       "previousClose": 1.48,
-      "timestamp": 1795632211000,
-      "percent": 20.95270270270271
+      "timestamp": 1795632378000,
+      "percent": 20.945945945945944
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-25T13:45[America/New_York]",
-    "updatedAt": 1795632364623
+    "scheduledSlot": "2026-11-25T13:55[America/New_York]",
+    "updatedAt": 1795632960883
   },
-  "todayGainersUpdatedAt": 1795632364623,
+  "todayGainersUpdatedAt": 1795632960883,
   "items": [
     {
       "symbol": "SNDK",
