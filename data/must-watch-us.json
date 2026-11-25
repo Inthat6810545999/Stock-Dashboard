@@ -134,19 +134,10 @@
       "symbol": "TOPP",
       "name": "Toppoint Holdings Inc.",
       "currency": "USD",
-      "price": 0.5634,
+      "price": 0.565,
       "previousClose": 0.315,
-      "timestamp": 1795640399000,
-      "percent": 78.85714285714288
-    },
-    {
-      "symbol": "CAPNR",
-      "name": "Cayson Acquisition Corp",
-      "currency": "USD",
-      "price": 0.0768,
-      "previousClose": 0.0465,
-      "timestamp": 1795635005000,
-      "percent": 65.16129032258063
+      "timestamp": 1795640400000,
+      "percent": 79.36507936507935
     },
     {
       "symbol": "NRSN",
@@ -170,10 +161,10 @@
       "symbol": "RIBBU",
       "name": "Ribbon Acquisition Corp.",
       "currency": "USD",
-      "price": 95.17,
+      "price": 94.55,
       "previousClose": 60.17,
-      "timestamp": 1795640236000,
-      "percent": 58.168522519528
+      "timestamp": 1795640400000,
+      "percent": 57.13810869203921
     },
     {
       "symbol": "RAYA",
@@ -210,6 +201,15 @@
       "previousClose": 1.49,
       "timestamp": 1795640402000,
       "percent": 51.67785234899327
+    },
+    {
+      "symbol": "TMCR",
+      "name": "The Metals Royalty Company Inc.",
+      "currency": "USD",
+      "price": 2.19,
+      "previousClose": 1.51,
+      "timestamp": 1795640401000,
+      "percent": 45.03311258278144
     }
   ],
   "todayCandidates": [
@@ -226,19 +226,10 @@
       "symbol": "TOPP",
       "name": "Toppoint Holdings Inc.",
       "currency": "USD",
-      "price": 0.5634,
+      "price": 0.565,
       "previousClose": 0.315,
-      "timestamp": 1795640399000,
-      "percent": 78.85714285714288
-    },
-    {
-      "symbol": "CAPNR",
-      "name": "Cayson Acquisition Corp",
-      "currency": "USD",
-      "price": 0.0768,
-      "previousClose": 0.0465,
-      "timestamp": 1795635005000,
-      "percent": 65.16129032258063
+      "timestamp": 1795640400000,
+      "percent": 79.36507936507935
     },
     {
       "symbol": "NRSN",
@@ -262,10 +253,10 @@
       "symbol": "RIBBU",
       "name": "Ribbon Acquisition Corp.",
       "currency": "USD",
-      "price": 95.17,
+      "price": 94.55,
       "previousClose": 60.17,
-      "timestamp": 1795640236000,
-      "percent": 58.168522519528
+      "timestamp": 1795640400000,
+      "percent": 57.13810869203921
     },
     {
       "symbol": "RAYA",
@@ -430,22 +421,22 @@
       "percent": 27.32394366197184
     },
     {
-      "symbol": "DFSC",
-      "name": "DEFSEC Technologies Inc.",
+      "symbol": "AMBO",
+      "name": "Ambow Education Holding Ltd. Am",
       "currency": "USD",
-      "price": 3.83,
-      "previousClose": 3.01,
-      "timestamp": 1795640331000,
-      "percent": 27.242524916943523
+      "price": 1.59,
+      "previousClose": 1.25,
+      "timestamp": 1795640223000,
+      "percent": 27.200000000000003
     },
     {
-      "symbol": "SHPH",
-      "name": "Shuttle Pharmaceuticals Holdings, Inc.",
+      "symbol": "BHR",
+      "name": "Braemar Hotels & Resorts Inc.",
       "currency": "USD",
-      "price": 4.08,
-      "previousClose": 3.23,
-      "timestamp": 1795640221000,
-      "percent": 26.315789473684205
+      "price": 1.77,
+      "previousClose": 1.4,
+      "timestamp": 1795640402000,
+      "percent": 26.428571428571445
     },
     {
       "symbol": "KXIN",
@@ -475,13 +466,22 @@
       "percent": 25.414874001229258
     },
     {
-      "symbol": "BHR",
-      "name": "Braemar Hotels & Resorts Inc.",
+      "symbol": "FOFO",
+      "name": "Hang Feng Technology Innovation Co., Ltd.",
       "currency": "USD",
-      "price": 1.75,
-      "previousClose": 1.4,
-      "timestamp": 1795640397000,
-      "percent": 25
+      "price": 1.86,
+      "previousClose": 1.49,
+      "timestamp": 1795640400000,
+      "percent": 24.83221476510067
+    },
+    {
+      "symbol": "TOPS",
+      "name": "Top Ships Inc.",
+      "currency": "USD",
+      "price": 2.45,
+      "previousClose": 1.97,
+      "timestamp": 1795640400000,
+      "percent": 24.365482233502544
     }
   ],
   "todayScan": {
@@ -491,12 +491,13 @@
     "missing": 0,
     "failed": 0,
     "status": "complete",
-    "source": "Yahoo Finance · full US exchange-listed universe",
+    "source": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-25T16:05[America/New_York]",
-    "updatedAt": 1795640760165
+    "closingConfirmation": true,
+    "scheduledSlot": "2026-11-25T16:15[America/New_York]",
+    "updatedAt": 1795641363835
   },
-  "todayGainersUpdatedAt": 1795640760165,
+  "todayGainersUpdatedAt": 1795641363835,
   "items": [
     {
       "symbol": "SNDK",
@@ -761,5 +762,5 @@
     ],
     "status": "complete"
   },
-  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe"
+  "todayGainersSource": "Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close"
 }
