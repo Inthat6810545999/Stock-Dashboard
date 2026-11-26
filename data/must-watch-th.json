@@ -181,7 +181,7 @@
       "currency": "THB",
       "price": 0.2,
       "previousClose": 0.17,
-      "timestamp": 1795677872000,
+      "timestamp": 1795678079000,
       "percent": 17.647058823529417
     },
     {
@@ -199,7 +199,7 @@
       "currency": "THB",
       "price": 0.53,
       "previousClose": 0.47,
-      "timestamp": 1795677920000,
+      "timestamp": 1795678163000,
       "percent": 12.765957446808528
     },
     {
@@ -273,7 +273,7 @@
       "currency": "THB",
       "price": 0.2,
       "previousClose": 0.17,
-      "timestamp": 1795677872000,
+      "timestamp": 1795678079000,
       "percent": 17.647058823529417
     },
     {
@@ -291,7 +291,7 @@
       "currency": "THB",
       "price": 0.53,
       "previousClose": 0.47,
-      "timestamp": 1795677920000,
+      "timestamp": 1795678163000,
       "percent": 12.765957446808528
     },
     {
@@ -311,6 +311,24 @@
       "previousClose": 0.1,
       "timestamp": 1795677340000,
       "percent": 9.999999999999986
+    },
+    {
+      "symbol": "TRT.BK",
+      "name": "Tirathai Public Company Limited",
+      "currency": "THB",
+      "price": 9.72,
+      "previousClose": 8.88,
+      "timestamp": 1795678518000,
+      "percent": 9.459459459459453
+    },
+    {
+      "symbol": "AE.BK",
+      "name": "All Energy & Utilities Public Company Limited",
+      "currency": "THB",
+      "price": 0.12,
+      "previousClose": 0.11,
+      "timestamp": 1795678235000,
+      "percent": 9.090909090909083
     },
     {
       "symbol": "CHEWA.BK",
@@ -338,15 +356,6 @@
       "previousClose": 0.12,
       "timestamp": 1795677937000,
       "percent": 8.333333333333348
-    },
-    {
-      "symbol": "TRT.BK",
-      "name": "Tirathai Public Company Limited",
-      "currency": "THB",
-      "price": 9.62,
-      "previousClose": 8.88,
-      "timestamp": 1795677932000,
-      "percent": 8.333333333333325
     },
     {
       "symbol": "DCON.BK",
@@ -385,6 +394,15 @@
       "percent": 5.88235294117645
     },
     {
+      "symbol": "JAK.BK",
+      "name": "Jakpaisan Estate Public Company Limited",
+      "currency": "THB",
+      "price": 0.93,
+      "previousClose": 0.88,
+      "timestamp": 1795678404000,
+      "percent": 5.681818181818188
+    },
+    {
       "symbol": "TAKUNI.BK",
       "name": "Takuni Group Public Company Limited",
       "currency": "THB",
@@ -392,15 +410,6 @@
       "previousClose": 0.36,
       "timestamp": 1795677704000,
       "percent": 5.555555555555558
-    },
-    {
-      "symbol": "WACOAL.BK",
-      "name": "Thai Wacoal Public Company Limited",
-      "currency": "THB",
-      "price": 16.45,
-      "previousClose": 15.6,
-      "timestamp": 1795669462000,
-      "percent": 5.448717948717952
     },
     {
       "symbol": "ARIP.BK",
@@ -417,7 +426,7 @@
       "currency": "THB",
       "price": 0.4,
       "previousClose": 0.38,
-      "timestamp": 1795677926000,
+      "timestamp": 1795678381000,
       "percent": 5.263157894736836
     },
     {
@@ -473,31 +482,22 @@
       "previousClose": 2.66,
       "timestamp": 1795676115000,
       "percent": 4.5112781954887105
-    },
-    {
-      "symbol": "GCAP.BK",
-      "name": "G Capital Public Company Limited",
-      "currency": "THB",
-      "price": 0.25,
-      "previousClose": 0.24,
-      "timestamp": 1795669302000,
-      "percent": 4.166666666666674
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 786,
-    "missing": 76,
+    "eligible": 787,
+    "missing": 75,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-26",
-    "scheduledSlot": "2026-11-26T14:55[Asia/Bangkok]",
-    "updatedAt": 1795679745327
+    "scheduledSlot": "2026-11-26T15:05[Asia/Bangkok]",
+    "updatedAt": 1795680344581
   },
-  "todayGainersUpdatedAt": 1795679745327,
+  "todayGainersUpdatedAt": 1795680344581,
   "items": [
     {
       "symbol": "INSET.BK",
