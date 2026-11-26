@@ -149,15 +149,6 @@
       "percent": 28.57142857142858
     },
     {
-      "symbol": "NRF.BK",
-      "name": "NR Instant Produce Public Company Limited",
-      "currency": "THB",
-      "price": 0.21,
-      "previousClose": 0.17,
-      "timestamp": 1795681499000,
-      "percent": 23.529411764705866
-    },
-    {
       "symbol": "NCL.BK",
       "name": "NCL International Logistics Public Company Limited",
       "currency": "THB",
@@ -165,6 +156,15 @@
       "previousClose": 0.05,
       "timestamp": 1795681364000,
       "percent": 19.999999999999996
+    },
+    {
+      "symbol": "NRF.BK",
+      "name": "NR Instant Produce Public Company Limited",
+      "currency": "THB",
+      "price": 0.2,
+      "previousClose": 0.17,
+      "timestamp": 1795681672000,
+      "percent": 17.647058823529417
     },
     {
       "symbol": "CSP.BK",
@@ -241,15 +241,6 @@
       "percent": 28.57142857142858
     },
     {
-      "symbol": "NRF.BK",
-      "name": "NR Instant Produce Public Company Limited",
-      "currency": "THB",
-      "price": 0.21,
-      "previousClose": 0.17,
-      "timestamp": 1795681499000,
-      "percent": 23.529411764705866
-    },
-    {
       "symbol": "NCL.BK",
       "name": "NCL International Logistics Public Company Limited",
       "currency": "THB",
@@ -257,6 +248,15 @@
       "previousClose": 0.05,
       "timestamp": 1795681364000,
       "percent": 19.999999999999996
+    },
+    {
+      "symbol": "NRF.BK",
+      "name": "NR Instant Produce Public Company Limited",
+      "currency": "THB",
+      "price": 0.2,
+      "previousClose": 0.17,
+      "timestamp": 1795681672000,
+      "percent": 17.647058823529417
     },
     {
       "symbol": "CSP.BK",
@@ -313,22 +313,22 @@
       "percent": 8.333333333333348
     },
     {
-      "symbol": "RS.BK",
-      "name": "RS Public Company Limited",
+      "symbol": "SCM.BK",
+      "name": "Successmore Being Public Company Limited",
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
-      "timestamp": 1795681450000,
+      "timestamp": 1795682066000,
       "percent": 8.333333333333348
     },
     {
       "symbol": "TRT.BK",
       "name": "Tirathai Public Company Limited",
       "currency": "THB",
-      "price": 9.5,
+      "price": 9.52,
       "previousClose": 8.88,
-      "timestamp": 1795681452000,
-      "percent": 6.981981981981966
+      "timestamp": 1795681908000,
+      "percent": 7.2072072072072
     },
     {
       "symbol": "ALPHAX.BK",
@@ -345,7 +345,7 @@
       "currency": "THB",
       "price": 0.32,
       "previousClose": 0.3,
-      "timestamp": 1795681150000,
+      "timestamp": 1795682095000,
       "percent": 6.666666666666665
     },
     {
@@ -381,16 +381,7 @@
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.18,
-      "timestamp": 1795681374000,
-      "percent": 5.555555555555558
-    },
-    {
-      "symbol": "TAKUNI.BK",
-      "name": "Takuni Group Public Company Limited",
-      "currency": "THB",
-      "price": 0.38,
-      "previousClose": 0.36,
-      "timestamp": 1795680323000,
+      "timestamp": 1795682017000,
       "percent": 5.555555555555558
     },
     {
@@ -427,15 +418,6 @@
       "price": 0.23,
       "previousClose": 0.22,
       "timestamp": 1795680724000,
-      "percent": 4.545454545454541
-    },
-    {
-      "symbol": "LDC.BK",
-      "name": "LDC Dental Public Company Limited",
-      "currency": "THB",
-      "price": 0.23,
-      "previousClose": 0.22,
-      "timestamp": 1795670015000,
       "percent": 4.545454545454541
     },
     {
@@ -482,22 +464,40 @@
       "previousClose": 0.25,
       "timestamp": 1795681484000,
       "percent": 4.0000000000000036
+    },
+    {
+      "symbol": "DHOUSE.BK",
+      "name": "Dhouse Pattana Public Company Limited",
+      "currency": "THB",
+      "price": 0.26,
+      "previousClose": 0.25,
+      "timestamp": 1795666837000,
+      "percent": 4.0000000000000036
+    },
+    {
+      "symbol": "JCT.BK",
+      "name": "Jack Chia Industries (Thailand) Public Company Limited",
+      "currency": "THB",
+      "price": 86.75,
+      "previousClose": 83.5,
+      "timestamp": 1795661741000,
+      "percent": 3.8922155688622784
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 799,
-    "missing": 63,
+    "eligible": 802,
+    "missing": 60,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-26",
-    "scheduledSlot": "2026-11-26T15:55[Asia/Bangkok]",
-    "updatedAt": 1795683344269
+    "scheduledSlot": "2026-11-26T16:05[Asia/Bangkok]",
+    "updatedAt": 1795683936769
   },
-  "todayGainersUpdatedAt": 1795683344269,
+  "todayGainersUpdatedAt": 1795683936769,
   "items": [
     {
       "symbol": "INSET.BK",
