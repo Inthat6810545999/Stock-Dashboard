@@ -163,8 +163,17 @@
       "currency": "THB",
       "price": 0.2,
       "previousClose": 0.17,
-      "timestamp": 1795681672000,
+      "timestamp": 1795683323000,
       "percent": 17.647058823529417
+    },
+    {
+      "symbol": "VS.BK",
+      "name": "Viserve Enterprise Public Company Limited",
+      "currency": "THB",
+      "price": 0.37,
+      "previousClose": 0.32,
+      "timestamp": 1795682890000,
+      "percent": 15.625
     },
     {
       "symbol": "CSP.BK",
@@ -200,15 +209,6 @@
       "price": 0.12,
       "previousClose": 0.11,
       "timestamp": 1795681187000,
-      "percent": 9.090909090909083
-    },
-    {
-      "symbol": "CHEWA.BK",
-      "name": "Chewathai Public Company Limited",
-      "currency": "THB",
-      "price": 0.12,
-      "previousClose": 0.11,
-      "timestamp": 1795670694000,
       "percent": 9.090909090909083
     }
   ],
@@ -255,8 +255,17 @@
       "currency": "THB",
       "price": 0.2,
       "previousClose": 0.17,
-      "timestamp": 1795681672000,
+      "timestamp": 1795683323000,
       "percent": 17.647058823529417
+    },
+    {
+      "symbol": "VS.BK",
+      "name": "Viserve Enterprise Public Company Limited",
+      "currency": "THB",
+      "price": 0.37,
+      "previousClose": 0.32,
+      "timestamp": 1795682890000,
+      "percent": 15.625
     },
     {
       "symbol": "CSP.BK",
@@ -313,21 +322,21 @@
       "percent": 8.333333333333348
     },
     {
+      "symbol": "TRT.BK",
+      "name": "Tirathai Public Company Limited",
+      "currency": "THB",
+      "price": 9.48,
+      "previousClose": 8.88,
+      "timestamp": 1795683328000,
+      "percent": 6.756756756756754
+    },
+    {
       "symbol": "ALPHAX.BK",
       "name": "Alpha Divisions Public Company Limited",
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1795682698000,
-      "percent": 6.666666666666665
-    },
-    {
-      "symbol": "BYD.BK",
-      "name": "BYDH SECURITIES Public Company Limited",
-      "currency": "THB",
-      "price": 0.32,
-      "previousClose": 0.3,
-      "timestamp": 1795682640000,
+      "timestamp": 1795682766000,
       "percent": 6.666666666666665
     },
     {
@@ -338,15 +347,6 @@
       "previousClose": 0.15,
       "timestamp": 1795680680000,
       "percent": 6.666666666666665
-    },
-    {
-      "symbol": "TRT.BK",
-      "name": "Tirathai Public Company Limited",
-      "currency": "THB",
-      "price": 9.46,
-      "previousClose": 8.88,
-      "timestamp": 1795682670000,
-      "percent": 6.5315315315315425
     },
     {
       "symbol": "STC.BK",
@@ -367,12 +367,21 @@
       "percent": 5.681818181818188
     },
     {
-      "symbol": "BTC.BK",
-      "name": "The Brooker Group Public Company Limited",
+      "symbol": "FNS.BK",
+      "name": "FNS Holdings Public Company Limited",
+      "currency": "THB",
+      "price": 0.38,
+      "previousClose": 0.36,
+      "timestamp": 1795683172000,
+      "percent": 5.555555555555558
+    },
+    {
+      "symbol": "NEP.BK",
+      "name": "NEP Realty and Industry Public Company Limited",
       "currency": "THB",
       "price": 0.19,
       "previousClose": 0.18,
-      "timestamp": 1795682017000,
+      "timestamp": 1795682890000,
       "percent": 5.555555555555558
     },
     {
@@ -408,7 +417,16 @@
       "currency": "THB",
       "price": 0.23,
       "previousClose": 0.22,
-      "timestamp": 1795680724000,
+      "timestamp": 1795682900000,
+      "percent": 4.545454545454541
+    },
+    {
+      "symbol": "LDC.BK",
+      "name": "LDC Dental Public Company Limited",
+      "currency": "THB",
+      "price": 0.23,
+      "previousClose": 0.22,
+      "timestamp": 1795682992000,
       "percent": 4.545454545454541
     },
     {
@@ -448,15 +466,6 @@
       "percent": 4.0322580645161255
     },
     {
-      "symbol": "BIOTEC.BK",
-      "name": "Bio Green Energy Tech Public Company Limited",
-      "currency": "THB",
-      "price": 0.26,
-      "previousClose": 0.25,
-      "timestamp": 1795682703000,
-      "percent": 4.0000000000000036
-    },
-    {
       "symbol": "DHOUSE.BK",
       "name": "Dhouse Pattana Public Company Limited",
       "currency": "THB",
@@ -473,31 +482,22 @@
       "previousClose": 83.5,
       "timestamp": 1795661741000,
       "percent": 3.8922155688622784
-    },
-    {
-      "symbol": "RT.BK",
-      "name": "Right Tunnelling Public Company Limited",
-      "currency": "THB",
-      "price": 0.27,
-      "previousClose": 0.26,
-      "timestamp": 1795681068000,
-      "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 803,
-    "missing": 59,
+    "eligible": 805,
+    "missing": 57,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-26",
-    "scheduledSlot": "2026-11-26T16:15[Asia/Bangkok]",
-    "updatedAt": 1795684542238
+    "scheduledSlot": "2026-11-26T16:25[Asia/Bangkok]",
+    "updatedAt": 1795685139867
   },
-  "todayGainersUpdatedAt": 1795684542238,
+  "todayGainersUpdatedAt": 1795685139867,
   "items": [
     {
       "symbol": "INSET.BK",
