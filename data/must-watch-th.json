@@ -304,15 +304,6 @@
       "percent": 9.090909090909083
     },
     {
-      "symbol": "DPAINT.BK",
-      "name": "Delta Paint Public Company Limited",
-      "currency": "THB",
-      "price": 0.13,
-      "previousClose": 0.12,
-      "timestamp": 1795677447000,
-      "percent": 8.333333333333348
-    },
-    {
       "symbol": "SCM.BK",
       "name": "Successmore Being Public Company Limited",
       "currency": "THB",
@@ -322,21 +313,12 @@
       "percent": 8.333333333333348
     },
     {
-      "symbol": "TRT.BK",
-      "name": "Tirathai Public Company Limited",
-      "currency": "THB",
-      "price": 9.52,
-      "previousClose": 8.88,
-      "timestamp": 1795681908000,
-      "percent": 7.2072072072072
-    },
-    {
       "symbol": "ALPHAX.BK",
       "name": "Alpha Divisions Public Company Limited",
       "currency": "THB",
       "price": 0.16,
       "previousClose": 0.15,
-      "timestamp": 1795680096000,
+      "timestamp": 1795682698000,
       "percent": 6.666666666666665
     },
     {
@@ -345,7 +327,7 @@
       "currency": "THB",
       "price": 0.32,
       "previousClose": 0.3,
-      "timestamp": 1795682095000,
+      "timestamp": 1795682640000,
       "percent": 6.666666666666665
     },
     {
@@ -356,6 +338,15 @@
       "previousClose": 0.15,
       "timestamp": 1795680680000,
       "percent": 6.666666666666665
+    },
+    {
+      "symbol": "TRT.BK",
+      "name": "Tirathai Public Company Limited",
+      "currency": "THB",
+      "price": 9.46,
+      "previousClose": 8.88,
+      "timestamp": 1795682670000,
+      "percent": 6.5315315315315425
     },
     {
       "symbol": "STC.BK",
@@ -462,7 +453,7 @@
       "currency": "THB",
       "price": 0.26,
       "previousClose": 0.25,
-      "timestamp": 1795681484000,
+      "timestamp": 1795682703000,
       "percent": 4.0000000000000036
     },
     {
@@ -471,7 +462,7 @@
       "currency": "THB",
       "price": 0.26,
       "previousClose": 0.25,
-      "timestamp": 1795666837000,
+      "timestamp": 1795682211000,
       "percent": 4.0000000000000036
     },
     {
@@ -482,22 +473,31 @@
       "previousClose": 83.5,
       "timestamp": 1795661741000,
       "percent": 3.8922155688622784
+    },
+    {
+      "symbol": "RT.BK",
+      "name": "Right Tunnelling Public Company Limited",
+      "currency": "THB",
+      "price": 0.27,
+      "previousClose": 0.26,
+      "timestamp": 1795681068000,
+      "percent": 3.8461538461538547
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 802,
-    "missing": 60,
+    "eligible": 803,
+    "missing": 59,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-26",
-    "scheduledSlot": "2026-11-26T16:05[Asia/Bangkok]",
-    "updatedAt": 1795683936769
+    "scheduledSlot": "2026-11-26T16:15[Asia/Bangkok]",
+    "updatedAt": 1795684542238
   },
-  "todayGainersUpdatedAt": 1795683936769,
+  "todayGainersUpdatedAt": 1795684542238,
   "items": [
     {
       "symbol": "INSET.BK",
