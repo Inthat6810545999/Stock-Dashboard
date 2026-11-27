@@ -172,7 +172,7 @@
       "currency": "THB",
       "price": 0.32,
       "previousClose": 0.28,
-      "timestamp": 1795766977000,
+      "timestamp": 1795767862000,
       "percent": 14.28571428571428
     },
     {
@@ -181,7 +181,7 @@
       "currency": "THB",
       "price": 0.09,
       "previousClose": 0.08,
-      "timestamp": 1795764915000,
+      "timestamp": 1795767350000,
       "percent": 12.5
     },
     {
@@ -190,7 +190,7 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.16,
-      "timestamp": 1795765948000,
+      "timestamp": 1795767390000,
       "percent": 12.5
     },
     {
@@ -203,13 +203,13 @@
       "percent": 11.111111111111093
     },
     {
-      "symbol": "ML.BK",
-      "name": "Mida Leasing Public Company Limited",
+      "symbol": "NRF.BK",
+      "name": "NR Instant Produce Public Company Limited",
       "currency": "THB",
-      "price": 0.51,
-      "previousClose": 0.46,
-      "timestamp": 1795767335000,
-      "percent": 10.869565217391308
+      "price": 0.21,
+      "previousClose": 0.19,
+      "timestamp": 1795767759000,
+      "percent": 10.526315789473673
     }
   ],
   "todayCandidates": [
@@ -264,7 +264,7 @@
       "currency": "THB",
       "price": 0.32,
       "previousClose": 0.28,
-      "timestamp": 1795766977000,
+      "timestamp": 1795767862000,
       "percent": 14.28571428571428
     },
     {
@@ -273,7 +273,7 @@
       "currency": "THB",
       "price": 0.09,
       "previousClose": 0.08,
-      "timestamp": 1795764915000,
+      "timestamp": 1795767350000,
       "percent": 12.5
     },
     {
@@ -282,7 +282,7 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.16,
-      "timestamp": 1795765948000,
+      "timestamp": 1795767390000,
       "percent": 12.5
     },
     {
@@ -295,21 +295,12 @@
       "percent": 11.111111111111093
     },
     {
-      "symbol": "ML.BK",
-      "name": "Mida Leasing Public Company Limited",
-      "currency": "THB",
-      "price": 0.51,
-      "previousClose": 0.46,
-      "timestamp": 1795767335000,
-      "percent": 10.869565217391308
-    },
-    {
       "symbol": "NRF.BK",
       "name": "NR Instant Produce Public Company Limited",
       "currency": "THB",
       "price": 0.21,
       "previousClose": 0.19,
-      "timestamp": 1795766624000,
+      "timestamp": 1795767759000,
       "percent": 10.526315789473673
     },
     {
@@ -319,15 +310,6 @@
       "price": 0.12,
       "previousClose": 0.11,
       "timestamp": 1795767119000,
-      "percent": 9.090909090909083
-    },
-    {
-      "symbol": "ARIN.BK",
-      "name": "Arinsiri Land Public Company Limited",
-      "currency": "THB",
-      "price": 0.36,
-      "previousClose": 0.33,
-      "timestamp": 1795767145000,
       "percent": 9.090909090909083
     },
     {
@@ -345,7 +327,16 @@
       "currency": "THB",
       "price": 0.25,
       "previousClose": 0.23,
-      "timestamp": 1795766148000,
+      "timestamp": 1795767774000,
+      "percent": 8.695652173913038
+    },
+    {
+      "symbol": "ML.BK",
+      "name": "Mida Leasing Public Company Limited",
+      "currency": "THB",
+      "price": 0.5,
+      "previousClose": 0.46,
+      "timestamp": 1795767759000,
       "percent": 8.695652173913038
     },
     {
@@ -379,10 +370,10 @@
       "symbol": "SIMAT.BK",
       "name": "Simat Technologies Public Company Limited",
       "currency": "THB",
-      "price": 1.42,
+      "price": 1.43,
       "previousClose": 1.32,
-      "timestamp": 1795767069000,
-      "percent": 7.575757575757569
+      "timestamp": 1795767928000,
+      "percent": 8.333333333333325
     },
     {
       "symbol": "ACC.BK",
@@ -390,7 +381,7 @@
       "currency": "THB",
       "price": 0.29,
       "previousClose": 0.27,
-      "timestamp": 1795766937000,
+      "timestamp": 1795767660000,
       "percent": 7.407407407407396
     },
     {
@@ -430,31 +421,40 @@
       "percent": 6.666666666666665
     },
     {
+      "symbol": "SMT.BK",
+      "name": "Stars Microelectronics (Thailand) Public Company Limited",
+      "currency": "THB",
+      "price": 5.26,
+      "previousClose": 4.94,
+      "timestamp": 1795767915000,
+      "percent": 6.477732793522262
+    },
+    {
       "symbol": "MGC.BK",
       "name": "Millennium Group Corporation (Asia) Public Company Limited",
       "currency": "THB",
       "price": 5.44,
       "previousClose": 5.12,
-      "timestamp": 1795766943000,
+      "timestamp": 1795767724000,
       "percent": 6.25
     },
     {
-      "symbol": "SMT.BK",
-      "name": "Stars Microelectronics (Thailand) Public Company Limited",
+      "symbol": "ARIN.BK",
+      "name": "Arinsiri Land Public Company Limited",
       "currency": "THB",
-      "price": 5.24,
-      "previousClose": 4.94,
-      "timestamp": 1795767340000,
-      "percent": 6.072874493927127
+      "price": 0.35,
+      "previousClose": 0.33,
+      "timestamp": 1795767900000,
+      "percent": 6.060606060606055
     },
     {
-      "symbol": "KCE.BK",
-      "name": "KCE Electronics Public Company Limited",
+      "symbol": "FORTH.BK",
+      "name": "Forth Corporation Public Company Limited",
       "currency": "THB",
-      "price": 54.75,
-      "previousClose": 51.75,
-      "timestamp": 1795767304000,
-      "percent": 5.797101449275366
+      "price": 10.55,
+      "previousClose": 9.96,
+      "timestamp": 1795767873000,
+      "percent": 5.923694779116473
     },
     {
       "symbol": "SR.BK",
@@ -487,17 +487,17 @@
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 793,
-    "missing": 69,
+    "eligible": 796,
+    "missing": 66,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-27",
-    "scheduledSlot": "2026-11-27T15:45[Asia/Bangkok]",
-    "updatedAt": 1795769152507
+    "scheduledSlot": "2026-11-27T15:55[Asia/Bangkok]",
+    "updatedAt": 1795769736570
   },
-  "todayGainersUpdatedAt": 1795769152507,
+  "todayGainersUpdatedAt": 1795769736570,
   "items": [
     {
       "symbol": "INSET.BK",
