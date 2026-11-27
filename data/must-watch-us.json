@@ -125,91 +125,91 @@
       "symbol": "DCX",
       "name": "Digital Currency X Technology Inc.",
       "currency": "USD",
-      "price": 1.1797,
+      "price": 1.1401,
       "previousClose": 0.4827,
-      "timestamp": 1795796138000,
-      "percent": 144.3961052413507
+      "timestamp": 1795796741000,
+      "percent": 136.1922519163041
     },
     {
       "symbol": "POM",
       "name": "Pomdoctor Limited",
       "currency": "USD",
-      "price": 3.09,
+      "price": 2.98,
       "previousClose": 1.61,
-      "timestamp": 1795796147000,
-      "percent": 91.9254658385093
+      "timestamp": 1795796751000,
+      "percent": 85.09316770186335
     },
     {
       "symbol": "MNDR",
       "name": "Mobile-health Network Solutions",
       "currency": "USD",
-      "price": 0.8492,
+      "price": 0.8374,
       "previousClose": 0.5048,
-      "timestamp": 1795796128000,
-      "percent": 68.22503961965134
+      "timestamp": 1795796744000,
+      "percent": 65.88748019017432
+    },
+    {
+      "symbol": "RETO",
+      "name": "ReTo Eco-Solutions, Inc.",
+      "currency": "USD",
+      "price": 6.15,
+      "previousClose": 3.82,
+      "timestamp": 1795796520000,
+      "percent": 60.99476439790577
     },
     {
       "symbol": "UFG",
       "name": "Uni-Fuels Holdings Limited",
       "currency": "USD",
-      "price": 2.775,
+      "price": 2.7012,
       "previousClose": 1.72,
-      "timestamp": 1795796154000,
-      "percent": 61.337209302325576
-    },
-    {
-      "symbol": "DOGZ",
-      "name": "Dogness (International) Corporation",
-      "currency": "USD",
-      "price": 0.3579,
-      "previousClose": 0.2282,
-      "timestamp": 1795796137000,
-      "percent": 56.83610867659947
+      "timestamp": 1795796751000,
+      "percent": 57.046511627906995
     },
     {
       "symbol": "AEHL",
       "name": "Antelope Enterprise Holdings Limited",
       "currency": "USD",
-      "price": 9.83,
+      "price": 10.34,
       "previousClose": 7.14,
-      "timestamp": 1795796129000,
-      "percent": 37.675070028011206
+      "timestamp": 1795796735000,
+      "percent": 44.817927170868344
+    },
+    {
+      "symbol": "DOGZ",
+      "name": "Dogness (International) Corporation",
+      "currency": "USD",
+      "price": 0.3256,
+      "previousClose": 0.2282,
+      "timestamp": 1795796742000,
+      "percent": 42.68185801928135
     },
     {
       "symbol": "NXAT",
       "name": "Nexus Advanced Technologies Inc.",
       "currency": "USD",
-      "price": 0.8801,
+      "price": 0.8876,
       "previousClose": 0.6448,
-      "timestamp": 1795796146000,
-      "percent": 36.491935483870954
-    },
-    {
-      "symbol": "SPRC",
-      "name": "SciSparc Ltd.",
-      "currency": "USD",
-      "price": 1.37,
-      "previousClose": 1.004,
-      "timestamp": 1795796090000,
-      "percent": 36.45418326693228
+      "timestamp": 1795796747000,
+      "percent": 37.65508684863521
     },
     {
       "symbol": "XCUR",
       "name": "Exicure, Inc.",
       "currency": "USD",
-      "price": 1.295,
+      "price": 1.3,
       "previousClose": 0.96,
-      "timestamp": 1795796155000,
-      "percent": 34.89583333333333
+      "timestamp": 1795796670000,
+      "percent": 35.41666666666667
     },
     {
-      "symbol": "SZZLR",
-      "name": "Sizzle Acquisition Corp. II",
+      "symbol": "SIDU",
+      "name": "Sidus Space, Inc.",
       "currency": "USD",
-      "price": 0.12,
-      "previousClose": 0.0904,
-      "timestamp": 1795789801000,
-      "percent": 32.74336283185841
+      "price": 1.0995,
+      "previousClose": 0.822,
+      "timestamp": 1795796746000,
+      "percent": 33.75912408759123
     }
   ],
   "todayCandidates": [
@@ -217,82 +217,100 @@
       "symbol": "DCX",
       "name": "Digital Currency X Technology Inc.",
       "currency": "USD",
-      "price": 1.1797,
+      "price": 1.1401,
       "previousClose": 0.4827,
-      "timestamp": 1795796138000,
-      "percent": 144.3961052413507
+      "timestamp": 1795796741000,
+      "percent": 136.1922519163041
     },
     {
       "symbol": "POM",
       "name": "Pomdoctor Limited",
       "currency": "USD",
-      "price": 3.09,
+      "price": 2.98,
       "previousClose": 1.61,
-      "timestamp": 1795796147000,
-      "percent": 91.9254658385093
+      "timestamp": 1795796751000,
+      "percent": 85.09316770186335
     },
     {
       "symbol": "MNDR",
       "name": "Mobile-health Network Solutions",
       "currency": "USD",
-      "price": 0.8492,
+      "price": 0.8374,
       "previousClose": 0.5048,
-      "timestamp": 1795796128000,
-      "percent": 68.22503961965134
+      "timestamp": 1795796744000,
+      "percent": 65.88748019017432
+    },
+    {
+      "symbol": "RETO",
+      "name": "ReTo Eco-Solutions, Inc.",
+      "currency": "USD",
+      "price": 6.15,
+      "previousClose": 3.82,
+      "timestamp": 1795796520000,
+      "percent": 60.99476439790577
     },
     {
       "symbol": "UFG",
       "name": "Uni-Fuels Holdings Limited",
       "currency": "USD",
-      "price": 2.775,
+      "price": 2.7012,
       "previousClose": 1.72,
-      "timestamp": 1795796154000,
-      "percent": 61.337209302325576
-    },
-    {
-      "symbol": "DOGZ",
-      "name": "Dogness (International) Corporation",
-      "currency": "USD",
-      "price": 0.3579,
-      "previousClose": 0.2282,
-      "timestamp": 1795796137000,
-      "percent": 56.83610867659947
+      "timestamp": 1795796751000,
+      "percent": 57.046511627906995
     },
     {
       "symbol": "AEHL",
       "name": "Antelope Enterprise Holdings Limited",
       "currency": "USD",
-      "price": 9.83,
+      "price": 10.34,
       "previousClose": 7.14,
-      "timestamp": 1795796129000,
-      "percent": 37.675070028011206
+      "timestamp": 1795796735000,
+      "percent": 44.817927170868344
+    },
+    {
+      "symbol": "DOGZ",
+      "name": "Dogness (International) Corporation",
+      "currency": "USD",
+      "price": 0.3256,
+      "previousClose": 0.2282,
+      "timestamp": 1795796742000,
+      "percent": 42.68185801928135
     },
     {
       "symbol": "NXAT",
       "name": "Nexus Advanced Technologies Inc.",
       "currency": "USD",
-      "price": 0.8801,
+      "price": 0.8876,
       "previousClose": 0.6448,
-      "timestamp": 1795796146000,
-      "percent": 36.491935483870954
-    },
-    {
-      "symbol": "SPRC",
-      "name": "SciSparc Ltd.",
-      "currency": "USD",
-      "price": 1.37,
-      "previousClose": 1.004,
-      "timestamp": 1795796090000,
-      "percent": 36.45418326693228
+      "timestamp": 1795796747000,
+      "percent": 37.65508684863521
     },
     {
       "symbol": "XCUR",
       "name": "Exicure, Inc.",
       "currency": "USD",
-      "price": 1.295,
+      "price": 1.3,
       "previousClose": 0.96,
-      "timestamp": 1795796155000,
-      "percent": 34.89583333333333
+      "timestamp": 1795796670000,
+      "percent": 35.41666666666667
+    },
+    {
+      "symbol": "SIDU",
+      "name": "Sidus Space, Inc.",
+      "currency": "USD",
+      "price": 1.0995,
+      "previousClose": 0.822,
+      "timestamp": 1795796746000,
+      "percent": 33.75912408759123
+    },
+    {
+      "symbol": "SPRC",
+      "name": "SciSparc Ltd.",
+      "currency": "USD",
+      "price": 1.34,
+      "previousClose": 1.004,
+      "timestamp": 1795796732000,
+      "percent": 33.466135458167344
     },
     {
       "symbol": "SZZLR",
@@ -304,184 +322,166 @@
       "percent": 32.74336283185841
     },
     {
-      "symbol": "SIDU",
-      "name": "Sidus Space, Inc.",
-      "currency": "USD",
-      "price": 1.085,
-      "previousClose": 0.822,
-      "timestamp": 1795796151000,
-      "percent": 31.995133819951338
-    },
-    {
-      "symbol": "RETO",
-      "name": "ReTo Eco-Solutions, Inc.",
-      "currency": "USD",
-      "price": 4.99,
-      "previousClose": 3.82,
-      "timestamp": 1795796150000,
-      "percent": 30.628272251308907
-    },
-    {
-      "symbol": "GOVX",
-      "name": "GeoVax Labs, Inc.",
-      "currency": "USD",
-      "price": 2.25,
-      "previousClose": 1.76,
-      "timestamp": 1795796106000,
-      "percent": 27.840909090909083
-    },
-    {
-      "symbol": "XLAB",
-      "name": "Exascale Labs Holdings Inc.",
-      "currency": "USD",
-      "price": 1.9403,
-      "previousClose": 1.53,
-      "timestamp": 1795796148000,
-      "percent": 26.816993464052285
-    },
-    {
       "symbol": "ESLA",
       "name": "Estrella Immunopharma, Inc.",
       "currency": "USD",
-      "price": 0.344,
+      "price": 0.3594,
       "previousClose": 0.273,
-      "timestamp": 1795796128000,
-      "percent": 26.007326007325982
-    },
-    {
-      "symbol": "ALGS",
-      "name": "Aligos Therapeutics, Inc.",
-      "currency": "USD",
-      "price": 2.8456,
-      "previousClose": 2.26,
-      "timestamp": 1795796131000,
-      "percent": 25.911504424778787
-    },
-    {
-      "symbol": "AIIO",
-      "name": "Robo.ai Inc.",
-      "currency": "USD",
-      "price": 6.5063,
-      "previousClose": 5.17,
-      "timestamp": 1795795789000,
-      "percent": 25.847195357833662
-    },
-    {
-      "symbol": "IPXGU",
-      "name": "Inection Point Acquisition Corp",
-      "currency": "USD",
-      "price": 12.7065,
-      "previousClose": 10.11,
-      "timestamp": 1795792325000,
-      "percent": 25.68249258160238
-    },
-    {
-      "symbol": "ECX",
-      "name": "ECARX Holdings Inc.",
-      "currency": "USD",
-      "price": 0.734,
-      "previousClose": 0.5849,
-      "timestamp": 1795796070000,
-      "percent": 25.491537014874343
-    },
-    {
-      "symbol": "ARQQ",
-      "name": "Arqit Quantum Inc.",
-      "currency": "USD",
-      "price": 13.8,
-      "previousClose": 11.09,
-      "timestamp": 1795796115000,
-      "percent": 24.43642921550948
-    },
-    {
-      "symbol": "MPU",
-      "name": "Mega Matrix Inc.",
-      "currency": "USD",
-      "price": 6.2372,
-      "previousClose": 5.03,
-      "timestamp": 1795796048000,
-      "percent": 23.99999999999998
-    },
-    {
-      "symbol": "HMR",
-      "name": "Heidmar Maritime Holdings Corp.",
-      "currency": "USD",
-      "price": 1.5,
-      "previousClose": 1.21,
-      "timestamp": 1795795803000,
-      "percent": 23.96694214876034
-    },
-    {
-      "symbol": "LAES",
-      "name": "SEALSQ Corp",
-      "currency": "USD",
-      "price": 1.32,
-      "previousClose": 1.07,
-      "timestamp": 1795796142000,
-      "percent": 23.364485981308402
-    },
-    {
-      "symbol": "RAYA",
-      "name": "Erayak Power Solution Group Inc.",
-      "currency": "USD",
-      "price": 0.8076,
-      "previousClose": 0.655,
-      "timestamp": 1795796127000,
-      "percent": 23.29770992366411
+      "timestamp": 1795796717000,
+      "percent": 31.648351648351646
     },
     {
       "symbol": "TGHL",
       "name": "The Growhub Limited",
       "currency": "USD",
-      "price": 0.2662,
+      "price": 0.2771,
       "previousClose": 0.216,
-      "timestamp": 1795796075000,
-      "percent": 23.24074074074074
+      "timestamp": 1795796752000,
+      "percent": 28.287037037037056
     },
     {
-      "symbol": "SEAT",
-      "name": "Vivid Seats Inc.",
+      "symbol": "XLAB",
+      "name": "Exascale Labs Holdings Inc.",
       "currency": "USD",
-      "price": 2.535,
-      "previousClose": 2.06,
-      "timestamp": 1795796122000,
-      "percent": 23.058252427184467
+      "price": 1.955,
+      "previousClose": 1.53,
+      "timestamp": 1795796747000,
+      "percent": 27.77777777777779
+    },
+    {
+      "symbol": "ECX",
+      "name": "ECARX Holdings Inc.",
+      "currency": "USD",
+      "price": 0.7455,
+      "previousClose": 0.5849,
+      "timestamp": 1795796739000,
+      "percent": 27.457685074371696
+    },
+    {
+      "symbol": "GOVX",
+      "name": "GeoVax Labs, Inc.",
+      "currency": "USD",
+      "price": 2.21,
+      "previousClose": 1.76,
+      "timestamp": 1795796462000,
+      "percent": 25.568181818181813
+    },
+    {
+      "symbol": "AIIO",
+      "name": "Robo.ai Inc.",
+      "currency": "USD",
+      "price": 6.49,
+      "previousClose": 5.17,
+      "timestamp": 1795796700000,
+      "percent": 25.531914893617035
+    },
+    {
+      "symbol": "HMR",
+      "name": "Heidmar Maritime Holdings Corp.",
+      "currency": "USD",
+      "price": 1.51,
+      "previousClose": 1.21,
+      "timestamp": 1795796652000,
+      "percent": 24.79338842975207
+    },
+    {
+      "symbol": "TRAW",
+      "name": "Traws Pharma, Inc.",
+      "currency": "USD",
+      "price": 0.332,
+      "previousClose": 0.267,
+      "timestamp": 1795796719000,
+      "percent": 24.344569288389508
+    },
+    {
+      "symbol": "ARQQ",
+      "name": "Arqit Quantum Inc.",
+      "currency": "USD",
+      "price": 13.78,
+      "previousClose": 11.09,
+      "timestamp": 1795796737000,
+      "percent": 24.25608656447249
     },
     {
       "symbol": "VEEA",
       "name": "Veea Inc.",
       "currency": "USD",
-      "price": 6.05,
+      "price": 6.1099,
       "previousClose": 4.92,
-      "timestamp": 1795795956000,
-      "percent": 22.967479674796753
+      "timestamp": 1795796745000,
+      "percent": 24.184959349593484
     },
     {
-      "symbol": "QXL",
-      "name": "Quantum X Labs Inc.",
+      "symbol": "ALGS",
+      "name": "Aligos Therapeutics, Inc.",
       "currency": "USD",
-      "price": 2.3789,
-      "previousClose": 1.96,
-      "timestamp": 1795795411000,
-      "percent": 21.37244897959183
+      "price": 2.805,
+      "previousClose": 2.26,
+      "timestamp": 1795796724000,
+      "percent": 24.11504424778763
+    },
+    {
+      "symbol": "WXM",
+      "name": "WF International Limited",
+      "currency": "USD",
+      "price": 1.34,
+      "previousClose": 1.08,
+      "timestamp": 1795796362000,
+      "percent": 24.07407407407407
     },
     {
       "symbol": "NA",
       "name": "Nano Labs Ltd",
       "currency": "USD",
-      "price": 1.195,
+      "price": 1.22,
       "previousClose": 0.985,
-      "timestamp": 1795795786000,
-      "percent": 21.319796954314718
+      "timestamp": 1795796343000,
+      "percent": 23.85786802030456
     },
     {
-      "symbol": "NORD",
-      "name": "Nordicus Partners Corporation",
+      "symbol": "LAES",
+      "name": "SEALSQ Corp",
       "currency": "USD",
-      "price": 3.055,
-      "previousClose": 2.52,
-      "timestamp": 1795795898000,
-      "percent": 21.23015873015874
+      "price": 1.324,
+      "previousClose": 1.07,
+      "timestamp": 1795796744000,
+      "percent": 23.73831775700934
+    },
+    {
+      "symbol": "EPSM",
+      "name": "Epsium Enterprise Limited",
+      "currency": "USD",
+      "price": 0.7826,
+      "previousClose": 0.6349,
+      "timestamp": 1795796629000,
+      "percent": 23.26350606394707
+    },
+    {
+      "symbol": "MPU",
+      "name": "Mega Matrix Inc.",
+      "currency": "USD",
+      "price": 6.17,
+      "previousClose": 5.03,
+      "timestamp": 1795796727000,
+      "percent": 22.664015904572565
+    },
+    {
+      "symbol": "RAYA",
+      "name": "Erayak Power Solution Group Inc.",
+      "currency": "USD",
+      "price": 0.8026,
+      "previousClose": 0.655,
+      "timestamp": 1795796732000,
+      "percent": 22.534351145038165
+    },
+    {
+      "symbol": "VRXA",
+      "name": "Veraxa Biotech AG",
+      "currency": "USD",
+      "price": 1.66,
+      "previousClose": 1.36,
+      "timestamp": 1795796755000,
+      "percent": 22.058823529411754
     }
   ],
   "todayScan": {
@@ -493,10 +493,10 @@
     "status": "complete",
     "source": "Yahoo Finance · full US exchange-listed universe",
     "priceBasis": "regular-session price vs previous regular-session close",
-    "scheduledSlot": "2026-11-27T11:15[America/New_York]",
-    "updatedAt": 1795796157758
+    "scheduledSlot": "2026-11-27T11:25[America/New_York]",
+    "updatedAt": 1795796759558
   },
-  "todayGainersUpdatedAt": 1795796157758,
+  "todayGainersUpdatedAt": 1795796759558,
   "items": [
     {
       "symbol": "SNDK",
