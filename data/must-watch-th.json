@@ -172,7 +172,7 @@
       "currency": "THB",
       "price": 0.33,
       "previousClose": 0.28,
-      "timestamp": 1795765520000,
+      "timestamp": 1795766130000,
       "percent": 17.85714285714286
     },
     {
@@ -190,8 +190,17 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.16,
-      "timestamp": 1795765437000,
+      "timestamp": 1795765948000,
       "percent": 12.5
+    },
+    {
+      "symbol": "APCS.BK",
+      "name": "Asia Precision Public Company Limited",
+      "currency": "THB",
+      "price": 1.2,
+      "previousClose": 1.08,
+      "timestamp": 1795765936000,
+      "percent": 11.111111111111093
     },
     {
       "symbol": "NRF.BK",
@@ -201,15 +210,6 @@
       "previousClose": 0.19,
       "timestamp": 1795764340000,
       "percent": 10.526315789473673
-    },
-    {
-      "symbol": "AE.BK",
-      "name": "All Energy & Utilities Public Company Limited",
-      "currency": "THB",
-      "price": 0.12,
-      "previousClose": 0.11,
-      "timestamp": 1795763936000,
-      "percent": 9.090909090909083
     }
   ],
   "todayCandidates": [
@@ -264,7 +264,7 @@
       "currency": "THB",
       "price": 0.33,
       "previousClose": 0.28,
-      "timestamp": 1795765520000,
+      "timestamp": 1795766130000,
       "percent": 17.85714285714286
     },
     {
@@ -282,8 +282,17 @@
       "currency": "THB",
       "price": 0.18,
       "previousClose": 0.16,
-      "timestamp": 1795765437000,
+      "timestamp": 1795765948000,
       "percent": 12.5
+    },
+    {
+      "symbol": "APCS.BK",
+      "name": "Asia Precision Public Company Limited",
+      "currency": "THB",
+      "price": 1.2,
+      "previousClose": 1.08,
+      "timestamp": 1795765936000,
+      "percent": 11.111111111111093
     },
     {
       "symbol": "NRF.BK",
@@ -313,6 +322,15 @@
       "percent": 9.090909090909083
     },
     {
+      "symbol": "PLANET.BK",
+      "name": "Planet Communications Asia Public Company Limited",
+      "currency": "THB",
+      "price": 0.37,
+      "previousClose": 0.34,
+      "timestamp": 1795765711000,
+      "percent": 8.823529411764696
+    },
+    {
       "symbol": "CRANE.BK",
       "name": "Chukai Public Company Limited",
       "currency": "THB",
@@ -327,7 +345,7 @@
       "currency": "THB",
       "price": 0.5,
       "previousClose": 0.46,
-      "timestamp": 1795765483000,
+      "timestamp": 1795765903000,
       "percent": 8.695652173913038
     },
     {
@@ -358,21 +376,12 @@
       "percent": 8.333333333333348
     },
     {
-      "symbol": "PROS.BK",
-      "name": "Prosper Engineering Public Company Limited",
-      "currency": "THB",
-      "price": 0.14,
-      "previousClose": 0.13,
-      "timestamp": 1795757105000,
-      "percent": 7.692307692307709
-    },
-    {
       "symbol": "SIMAT.BK",
       "name": "Simat Technologies Public Company Limited",
       "currency": "THB",
       "price": 1.42,
       "previousClose": 1.32,
-      "timestamp": 1795765308000,
+      "timestamp": 1795765589000,
       "percent": 7.575757575757569
     },
     {
@@ -403,15 +412,6 @@
       "percent": 7.14285714285714
     },
     {
-      "symbol": "MATCH.BK",
-      "name": "Matching Maximize Solution Public Company Limited",
-      "currency": "THB",
-      "price": 0.76,
-      "previousClose": 0.71,
-      "timestamp": 1795764961000,
-      "percent": 7.042253521126773
-    },
-    {
       "symbol": "SAF.BK",
       "name": "S.A.F. Special Steel Public Company Limited",
       "currency": "THB",
@@ -430,15 +430,6 @@
       "percent": 6.666666666666665
     },
     {
-      "symbol": "THRE.BK",
-      "name": "Thai Reinsurance Public Company Limited",
-      "currency": "THB",
-      "price": 0.34,
-      "previousClose": 0.32,
-      "timestamp": 1795757396000,
-      "percent": 6.25
-    },
-    {
       "symbol": "ARIN.BK",
       "name": "Arinsiri Land Public Company Limited",
       "currency": "THB",
@@ -446,15 +437,6 @@
       "previousClose": 0.33,
       "timestamp": 1795765270000,
       "percent": 6.060606060606055
-    },
-    {
-      "symbol": "PLANET.BK",
-      "name": "Planet Communications Asia Public Company Limited",
-      "currency": "THB",
-      "price": 0.36,
-      "previousClose": 0.34,
-      "timestamp": 1795764897000,
-      "percent": 5.88235294117645
     },
     {
       "symbol": "SR.BK",
@@ -471,8 +453,17 @@
       "currency": "THB",
       "price": 5.22,
       "previousClose": 4.94,
-      "timestamp": 1795765435000,
+      "timestamp": 1795766037000,
       "percent": 5.668016194331971
+    },
+    {
+      "symbol": "MATCH.BK",
+      "name": "Matching Maximize Solution Public Company Limited",
+      "currency": "THB",
+      "price": 0.75,
+      "previousClose": 0.71,
+      "timestamp": 1795765738000,
+      "percent": 5.633802816901423
     },
     {
       "symbol": "FNS.BK",
@@ -482,6 +473,15 @@
       "previousClose": 0.36,
       "timestamp": 1795756628000,
       "percent": 5.555555555555558
+    },
+    {
+      "symbol": "MGC.BK",
+      "name": "Millennium Group Corporation (Asia) Public Company Limited",
+      "currency": "THB",
+      "price": 5.4,
+      "previousClose": 5.12,
+      "timestamp": 1795766126000,
+      "percent": 5.46875
     }
   ],
   "todayScan": {
@@ -494,10 +494,10 @@
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-27",
-    "scheduledSlot": "2026-11-27T15:15[Asia/Bangkok]",
-    "updatedAt": 1795767346062
+    "scheduledSlot": "2026-11-27T15:25[Asia/Bangkok]",
+    "updatedAt": 1795767940049
   },
-  "todayGainersUpdatedAt": 1795767346062,
+  "todayGainersUpdatedAt": 1795767940049,
   "items": [
     {
       "symbol": "INSET.BK",
