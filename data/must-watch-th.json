@@ -140,12 +140,21 @@
       "percent": 33.33333333333335
     },
     {
+      "symbol": "META.BK",
+      "name": "Veeva Rico Public Company Limited",
+      "currency": "THB",
+      "price": 0.36,
+      "previousClose": 0.28,
+      "timestamp": 1795751066000,
+      "percent": 28.57142857142856
+    },
+    {
       "symbol": "PRIME.BK",
       "name": "Prime Road Power Public Company Limited",
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1795748384000,
+      "timestamp": 1795750931000,
       "percent": 25
     },
     {
@@ -154,7 +163,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1795749839000,
+      "timestamp": 1795750701000,
       "percent": 25
     },
     {
@@ -165,24 +174,6 @@
       "previousClose": 0.04,
       "timestamp": 1795748649000,
       "percent": 25
-    },
-    {
-      "symbol": "META.BK",
-      "name": "Veeva Rico Public Company Limited",
-      "currency": "THB",
-      "price": 0.34,
-      "previousClose": 0.28,
-      "timestamp": 1795750351000,
-      "percent": 21.42857142857142
-    },
-    {
-      "symbol": "NCL.BK",
-      "name": "NCL International Logistics Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1795749795000,
-      "percent": 19.999999999999996
     },
     {
       "symbol": "AF.BK",
@@ -203,13 +194,22 @@
       "percent": 11.538461538461542
     },
     {
-      "symbol": "ACC.BK",
-      "name": "Advanced Connection Corporation Public Company Limited",
+      "symbol": "TKT.BK",
+      "name": "T.Krungthai Industries Public Company Limited",
       "currency": "THB",
-      "price": 0.3,
-      "previousClose": 0.27,
-      "timestamp": 1795750306000,
-      "percent": 11.111111111111093
+      "price": 0.74,
+      "previousClose": 0.67,
+      "timestamp": 1795749592000,
+      "percent": 10.447761194029837
+    },
+    {
+      "symbol": "DPAINT.BK",
+      "name": "Delta Paint Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1795750434000,
+      "percent": 8.333333333333348
     }
   ],
   "todayCandidates": [
@@ -232,12 +232,21 @@
       "percent": 33.33333333333335
     },
     {
+      "symbol": "META.BK",
+      "name": "Veeva Rico Public Company Limited",
+      "currency": "THB",
+      "price": 0.36,
+      "previousClose": 0.28,
+      "timestamp": 1795751066000,
+      "percent": 28.57142857142856
+    },
+    {
       "symbol": "PRIME.BK",
       "name": "Prime Road Power Public Company Limited",
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1795748384000,
+      "timestamp": 1795750931000,
       "percent": 25
     },
     {
@@ -246,7 +255,7 @@
       "currency": "THB",
       "price": 0.05,
       "previousClose": 0.04,
-      "timestamp": 1795749839000,
+      "timestamp": 1795750701000,
       "percent": 25
     },
     {
@@ -257,24 +266,6 @@
       "previousClose": 0.04,
       "timestamp": 1795748649000,
       "percent": 25
-    },
-    {
-      "symbol": "META.BK",
-      "name": "Veeva Rico Public Company Limited",
-      "currency": "THB",
-      "price": 0.34,
-      "previousClose": 0.28,
-      "timestamp": 1795750351000,
-      "percent": 21.42857142857142
-    },
-    {
-      "symbol": "NCL.BK",
-      "name": "NCL International Logistics Public Company Limited",
-      "currency": "THB",
-      "price": 0.06,
-      "previousClose": 0.05,
-      "timestamp": 1795749795000,
-      "percent": 19.999999999999996
     },
     {
       "symbol": "AF.BK",
@@ -295,15 +286,6 @@
       "percent": 11.538461538461542
     },
     {
-      "symbol": "ACC.BK",
-      "name": "Advanced Connection Corporation Public Company Limited",
-      "currency": "THB",
-      "price": 0.3,
-      "previousClose": 0.27,
-      "timestamp": 1795750306000,
-      "percent": 11.111111111111093
-    },
-    {
       "symbol": "TKT.BK",
       "name": "T.Krungthai Industries Public Company Limited",
       "currency": "THB",
@@ -313,21 +295,21 @@
       "percent": 10.447761194029837
     },
     {
-      "symbol": "AE.BK",
-      "name": "All Energy & Utilities Public Company Limited",
-      "currency": "THB",
-      "price": 0.12,
-      "previousClose": 0.11,
-      "timestamp": 1795750111000,
-      "percent": 9.090909090909083
-    },
-    {
       "symbol": "DPAINT.BK",
       "name": "Delta Paint Public Company Limited",
       "currency": "THB",
       "price": 0.13,
       "previousClose": 0.12,
       "timestamp": 1795750434000,
+      "percent": 8.333333333333348
+    },
+    {
+      "symbol": "RS.BK",
+      "name": "RS Public Company Limited",
+      "currency": "THB",
+      "price": 0.13,
+      "previousClose": 0.12,
+      "timestamp": 1795750978000,
       "percent": 8.333333333333348
     },
     {
@@ -345,17 +327,17 @@
       "currency": "THB",
       "price": 0.14,
       "previousClose": 0.13,
-      "timestamp": 1795748412000,
+      "timestamp": 1795750659000,
       "percent": 7.692307692307709
     },
     {
-      "symbol": "SIMAT.BK",
-      "name": "Simat Technologies Public Company Limited",
+      "symbol": "ACC.BK",
+      "name": "Advanced Connection Corporation Public Company Limited",
       "currency": "THB",
-      "price": 1.42,
-      "previousClose": 1.32,
-      "timestamp": 1795750492000,
-      "percent": 7.575757575757569
+      "price": 0.29,
+      "previousClose": 0.27,
+      "timestamp": 1795751133000,
+      "percent": 7.407407407407396
     },
     {
       "symbol": "FSX.BK",
@@ -363,7 +345,7 @@
       "currency": "THB",
       "price": 0.9,
       "previousClose": 0.84,
-      "timestamp": 1795749774000,
+      "timestamp": 1795751041000,
       "percent": 7.14285714285714
     },
     {
@@ -385,13 +367,13 @@
       "percent": 7.14285714285714
     },
     {
-      "symbol": "QTC.BK",
-      "name": "QTC Energy Public Company Limited",
+      "symbol": "SIMAT.BK",
+      "name": "Simat Technologies Public Company Limited",
       "currency": "THB",
-      "price": 5,
-      "previousClose": 4.68,
-      "timestamp": 1795749501000,
-      "percent": 6.8376068376068355
+      "price": 1.41,
+      "previousClose": 1.32,
+      "timestamp": 1795750941000,
+      "percent": 6.818181818181812
     },
     {
       "symbol": "JCK.BK",
@@ -403,21 +385,21 @@
       "percent": 6.666666666666665
     },
     {
-      "symbol": "ADD.BK",
-      "name": "AddTech Hub Public Company Limited",
-      "currency": "THB",
-      "price": 3.66,
-      "previousClose": 3.44,
-      "timestamp": 1795748455000,
-      "percent": 6.395348837209314
-    },
-    {
       "symbol": "BWG.BK",
       "name": "Better World Green Public Company Limited",
       "currency": "THB",
       "price": 0.17,
       "previousClose": 0.16,
-      "timestamp": 1795750478000,
+      "timestamp": 1795751046000,
+      "percent": 6.25
+    },
+    {
+      "symbol": "MGC.BK",
+      "name": "Millennium Group Corporation (Asia) Public Company Limited",
+      "currency": "THB",
+      "price": 5.44,
+      "previousClose": 5.12,
+      "timestamp": 1795751080000,
       "percent": 6.25
     },
     {
@@ -428,15 +410,6 @@
       "previousClose": 0.16,
       "timestamp": 1795750500000,
       "percent": 6.25
-    },
-    {
-      "symbol": "MGC.BK",
-      "name": "Millennium Group Corporation (Asia) Public Company Limited",
-      "currency": "THB",
-      "price": 5.42,
-      "previousClose": 5.12,
-      "timestamp": 1795750480000,
-      "percent": 5.859375
     },
     {
       "symbol": "SR.BK",
@@ -457,13 +430,22 @@
       "percent": 5.494505494505497
     },
     {
-      "symbol": "TPL.BK",
-      "name": "Thai Parcels Public Company Limited",
+      "symbol": "FORTH.BK",
+      "name": "Forth Corporation Public Company Limited",
       "currency": "THB",
-      "price": 0.39,
-      "previousClose": 0.37,
-      "timestamp": 1795750126000,
-      "percent": 5.405405405405417
+      "price": 10.5,
+      "previousClose": 9.96,
+      "timestamp": 1795751111000,
+      "percent": 5.421686746987953
+    },
+    {
+      "symbol": "NRF.BK",
+      "name": "NR Instant Produce Public Company Limited",
+      "currency": "THB",
+      "price": 0.2,
+      "previousClose": 0.19,
+      "timestamp": 1795750963000,
+      "percent": 5.263157894736836
     },
     {
       "symbol": "SKE.BK",
@@ -475,29 +457,47 @@
       "percent": 5.263157894736836
     },
     {
-      "symbol": "IIG.BK",
-      "name": "I&I Group Public Company Limited",
+      "symbol": "EMPIRE.BK",
+      "name": "Origin Global Empire Public Company Limited",
       "currency": "THB",
-      "price": 1.23,
-      "previousClose": 1.17,
-      "timestamp": 1795750533000,
-      "percent": 5.128205128205132
+      "price": 0.21,
+      "previousClose": 0.2,
+      "timestamp": 1795750458000,
+      "percent": 4.999999999999982
+    },
+    {
+      "symbol": "SMT.BK",
+      "name": "Stars Microelectronics (Thailand) Public Company Limited",
+      "currency": "THB",
+      "price": 5.18,
+      "previousClose": 4.94,
+      "timestamp": 1795751125000,
+      "percent": 4.85829959514168
+    },
+    {
+      "symbol": "PERM.BK",
+      "name": "Permsin Steel Works Public Company Limited",
+      "currency": "THB",
+      "price": 0.22,
+      "previousClose": 0.21,
+      "timestamp": 1795750959000,
+      "percent": 4.761904761904767
     }
   ],
   "todayScan": {
     "total": 862,
     "processed": 862,
-    "eligible": 672,
-    "missing": 190,
+    "eligible": 688,
+    "missing": 174,
     "failed": 0,
     "status": "complete",
     "source": "Yahoo Finance · full SET/mai universe",
     "priceBasis": "regular-session price vs previous regular-session close",
     "sessionDate": "2026-11-27",
-    "scheduledSlot": "2026-11-27T11:05[Asia/Bangkok]",
-    "updatedAt": 1795752339277
+    "scheduledSlot": "2026-11-27T11:15[Asia/Bangkok]",
+    "updatedAt": 1795752941177
   },
-  "todayGainersUpdatedAt": 1795752339277,
+  "todayGainersUpdatedAt": 1795752941177,
   "items": [
     {
       "symbol": "INSET.BK",
