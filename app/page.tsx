@@ -35,6 +35,7 @@ function accountFromUser(user:{id:string;email?:string;user_metadata?:Record<str
 const [profileOpen,setProfileOpen]=useState(false);const profileMenuRef=useRef<HTMLDivElement>(null);
 const [membershipState,setMembershipState]=useState<'checking'|'paid'|'unpaid'|'unknown'>('checking');
 const [membershipRefresh,setMembershipRefresh]=useState(0);
+const membershipUserId=useRef<string|null>(null);
 const watchlistRef=useRef<HTMLElement>(null);
 const [motion,setMotion]=useState(true);
 const [editingWatchlist,setEditingWatchlist]=useState(false);
@@ -56,8 +57,29 @@ const streamStatus=locale.thai?'DELAYED QUOTE':stream.connection==='connected'?(
 useEffect(()=>{let active=true;queueMicrotask(()=>{if(!active)return;try{const saved:unknown=JSON.parse(localStorage.getItem('market-after-hours-watchlist')||'null');if(isValidWatchlist(saved)){setWatchlist(saved);setSymbol(saved[0].symbol)}}catch{}setWatchReady(true)});return()=>{active=false}},[]);
 useEffect(()=>{if(watchReady){try{localStorage.setItem('market-after-hours-watchlist',JSON.stringify(watchlist))}catch{}}},[watchlist,watchReady]);
 useEffect(()=>{currentWatchlist.current=watchlist},[watchlist]);
-useEffect(()=>{const supabase=getSupabaseBrowserClient();if(!supabase)return;let active=true;supabase.auth.getSession().then(({data,error})=>{if(active){setMembershipState(error?'unknown':data.session?'checking':'unpaid');setAccount(data.session?.user?accountFromUser(data.session.user):null);if(data.session)setMembershipRefresh(value=>value+1)}});const {data:{subscription}}=supabase.auth.onAuthStateChange((_event,session)=>{if(active){remoteWatchlistReady.current='';setMembershipState(session?'checking':'unpaid');setAccount(session?.user?accountFromUser(session.user):null);setMembershipRefresh(value=>value+1)}});return()=>{active=false;subscription.unsubscribe()}},[]);
-useEffect(()=>{let active=true;const controller=new AbortController();if(!accountId){queueMicrotask(()=>{if(active)setMembershipState('unpaid')});return()=>{active=false;controller.abort()}}const timeout=setTimeout(()=>{if(active){controller.abort();setMembershipState('unknown')}},12000);void(async()=>{try{const supabase=getSupabaseBrowserClient();const {data}=await supabase?.auth.getSession()??{data:{session:null}};if(!data.session){if(active)setMembershipState('unknown');return}const response=await fetch('/api/subscription',{headers:{Authorization:`Bearer ${data.session.access_token}`},cache:'no-store',signal:controller.signal});if(!response.ok){if(active)setMembershipState('unknown');return}const result=await response.json() as {hasPremiumAccess?:boolean};if(active)setMembershipState(result.hasPremiumAccess?'paid':'unpaid')}catch{if(active&&!controller.signal.aborted)setMembershipState('unknown')}finally{clearTimeout(timeout)}})();return()=>{active=false;controller.abort();clearTimeout(timeout)}},[accountId,membershipRefresh]);
+useEffect(()=>{
+ const supabase=getSupabaseBrowserClient();if(!supabase)return;
+ let active=true;
+ const applySession=(session:{user:{id:string;email?:string;user_metadata?:Record<string,unknown>}}|null,recheck=false)=>{
+  if(!active)return;
+  const nextId=session?.user.id??null;
+  const changed=membershipUserId.current!==nextId;
+  if(changed){membershipUserId.current=nextId;remoteWatchlistReady.current='';setAccount(session?accountFromUser(session.user):null);setMembershipState(session?'checking':'unpaid')}
+  if(!session&&!changed)setMembershipState('unpaid');
+  if(session&&(changed||recheck))setMembershipRefresh(value=>value+1);
+ };
+ supabase.auth.getSession().then(({data,error})=>{if(!active)return;if(error){setMembershipState('unknown');return}applySession(data.session)});
+ const {data:{subscription}}=supabase.auth.onAuthStateChange((event,session)=>{
+  if(!active)return;
+  if(event==='SIGNED_OUT'){applySession(null);return}
+  if(!session)return;
+  const recheck=event==='SIGNED_IN'||event==='TOKEN_REFRESHED'||event==='USER_UPDATED';
+  applySession(session,recheck);
+  if(event==='USER_UPDATED')setAccount(accountFromUser(session.user));
+ });
+ return()=>{active=false;subscription.unsubscribe()};
+},[]);
+useEffect(()=>{let active=true;const controller=new AbortController();if(!accountId){queueMicrotask(()=>{if(active)setMembershipState('unpaid')});return()=>{active=false;controller.abort()}}const verificationUnavailable=()=>setMembershipState(current=>current==='paid'?'paid':'unknown');const timeout=setTimeout(()=>{if(active){controller.abort();verificationUnavailable()}},12000);void(async()=>{try{const supabase=getSupabaseBrowserClient();const {data}=await supabase?.auth.getSession()??{data:{session:null}};if(!data.session){if(active)setMembershipState('unpaid');return}const response=await fetch('/api/subscription',{headers:{Authorization:`Bearer ${data.session.access_token}`},cache:'no-store',signal:controller.signal});if(!response.ok){if(active){if(response.status===401||response.status===403)setMembershipState('unpaid');else verificationUnavailable()}return}const result=await response.json() as {hasPremiumAccess?:boolean};if(active)setMembershipState(result.hasPremiumAccess?'paid':'unpaid')}catch{if(active&&!controller.signal.aborted)verificationUnavailable()}finally{clearTimeout(timeout)}})();return()=>{active=false;controller.abort();clearTimeout(timeout)}},[accountId,membershipRefresh]);
 useEffect(()=>{if(!accountId||!watchReady)return;const supabase=getSupabaseBrowserClient();if(!supabase)return;let active=true;(async()=>{const {data,error}=await supabase.from('watchlists').select('stocks').eq('user_id',accountId).maybeSingle();if(!active)return;if(error){console.error('Could not load account watchlist:',error.message);remoteWatchlistReady.current=accountId;return}const stocks=data?.stocks;if(isValidWatchlist(stocks))setWatchlist(stocks);else{const {error:saveError}=await supabase.from('watchlists').upsert({user_id:accountId,stocks:currentWatchlist.current,updated_at:new Date().toISOString()});if(saveError)console.error('Could not initialize account watchlist:',saveError.message)}remoteWatchlistReady.current=accountId})();return()=>{active=false}},[accountId,watchReady]);
 useEffect(()=>{if(!accountId||!watchReady||remoteWatchlistReady.current!==accountId)return;const supabase=getSupabaseBrowserClient();if(!supabase)return;const timer=setTimeout(()=>{void supabase.from('watchlists').upsert({user_id:accountId,stocks:watchlist,updated_at:new Date().toISOString()}).then(({error})=>{if(error)console.error('Could not sync account watchlist:',error.message)})},350);return()=>clearTimeout(timer)},[accountId,watchlist,watchReady]);
 useEffect(()=>{let active=true;let controller:AbortController|undefined;let timer:ReturnType<typeof setTimeout>|undefined;queueMicrotask(()=>{if(!active)return;if(!query.trim()){setSearchResults([]);setSearchError('');setSearching(false);return}const requestController=new AbortController();controller=requestController;setSearching(true);timer=setTimeout(async()=>{try{const r=await fetch(`/api/search?q=${encodeURIComponent(query.trim())}&market=${searchMarket}`,{signal:requestController.signal});if(!r.ok)throw Error('Search is temporarily unavailable. Please try again.');const results:unknown=await r.json();if(active){setSearchResults(isSearchStockList(results)?results:[]);setSearchError('')}}catch(e){if(active){setSearchError(e instanceof Error?e.message:'Search unavailable');setSearchResults([])}}finally{if(active)setSearching(false)}},300)});return()=>{active=false;controller?.abort();if(timer)clearTimeout(timer)}},[query,searchMarket]);

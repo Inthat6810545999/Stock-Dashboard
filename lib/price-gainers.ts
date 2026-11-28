@@ -1,4 +1,4 @@
-export type PriceGainer={symbol:string;name:string;currency:string;price:number;timestamp:number;startPrice:number;startTime:number;endTime:number;percent:number};
+export type PriceGainer={symbol:string;name:string;currency:string;price:number;timestamp:number;startPrice:number;startTime:number;endTime:number;percent:number;marketCap?:number|null};
 export function annualPriceReturn(points:{time:number;price:number}[],now=Date.now()){
  const valid=points.filter(p=>Number.isFinite(p.time)&&Number.isFinite(p.price)&&p.price>0&&p.time<=now).sort((a,b)=>a.time-b.time);
  const last=valid.at(-1);if(!last||now-last.time>7*86400000)return null;

@@ -24,10 +24,12 @@ for(const id of ['finance','energy','construction','operations','dataplatforms',
 for(const stage of aiStages){
  assert.equal(stage.processes.length,3,`Missing process detail: ${stage.id}`);
  assert(stage.phase>=0&&stage.phase<phaseNames.length);
- for(const s of stage.source)for(const d of [s.publicationDate,s.reviewedAt].filter(Boolean))assert(/^\d{4}-\d{2}-\d{2}$/.test(d)&&d<='2026-10-10');
+ for(const s of stage.source)for(const d of [s.publicationDate,s.reviewedAt].filter(Boolean))assert(/^\d{4}-\d{2}-\d{2}$/.test(d)&&d<=new Date().toISOString().slice(0,10));
 }
-assert.equal(industryEvidenceDates().latestPublication,'2026-09-28');
-assert.equal(industryEvidenceDates().lastReviewed,'2026-10-10');
+assert.equal(industryEvidenceDates().latestPublication,'2026-11-20');
+assert.equal(industryEvidenceDates().lastReviewed,'2026-11-28');
+assert.equal(businesses.ANT.name,'Anthropic');
+assert.equal(businesses.ANT.usListed,true);
 for(const stage of aiStages)assert(aiFlows.some(f=>f.from===stage.id||f.to===stage.id),`Disconnected industry layer: ${stage.id}`);
 
 assert.equal(summaryAiStages.length,17);

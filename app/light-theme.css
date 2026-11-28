@@ -68,6 +68,12 @@ html[data-moonstar-theme='light'] .watch-card.paper,
 html[data-moonstar-theme='light'] .dashboard-grid>.paper,
 html[data-moonstar-theme='light'] .dashboard-grid>.panel,
 html[data-moonstar-theme='light'] .must-watch{background:#fff;background-image:none;border:1px solid #e1e5ee;border-radius:20px;box-shadow:0 10px 30px #26334d0b;color:#171923}
+html[data-moonstar-theme='light'] .must-watch-verification-status{background:#f5f7fc;border-color:#dfe4ef;color:#252d43}
+html[data-moonstar-theme='light'] .must-watch-verification-status p{color:#5e6b80}
+html[data-moonstar-theme='light'] .must-watch-verification-status button{border-color:#cbd2e1;color:#39445f;background:#fff}
+html[data-moonstar-theme='light'] .must-watch-verification-spinner{border-color:#cbd2e1;border-top-color:#515cdb}
+html[data-moonstar-theme='light'] .must-watch-verification-card{background:#f7f8fc;border-color:#dfe4ef}
+html[data-moonstar-theme='light'] .verification-placeholder{background:#d8deeb}
 html[data-moonstar-theme='light'] .must-watch-paywall{background:radial-gradient(ellipse at 50% 12%,#e9edff,transparent 54%),linear-gradient(145deg,#fff,#f7f8fc 72%);border-color:#d9ddec;color:#20283b}
 html[data-moonstar-theme='light'] .must-watch-paywall .eyebrow{color:#515cdb}
 html[data-moonstar-theme='light'] .must-watch-paywall-title h1{color:#20283b}
@@ -183,6 +189,10 @@ html[data-moonstar-theme='light'] .must-watch-actions button,
 html[data-moonstar-theme='light'] .pick-bottom button,
 html[data-moonstar-theme='light'] .screen-state button{color:#39445f;border-color:#cbd2e1;border-radius:10px;background:#fff}
 html[data-moonstar-theme='light'] .must-watch-actions button[aria-pressed=true]{background:#515cdb;color:#fff;border-color:#515cdb}
+html[data-moonstar-theme='light'] .must-watch-cap-filter{color:#3d4860;border-color:#dfe4ef}
+html[data-moonstar-theme='light'] .must-watch-cap-filter button{color:#39445f;border-color:#cbd2e1;background:#fff}
+html[data-moonstar-theme='light'] .must-watch-cap-filter button[aria-pressed=true]{background:#515cdb;color:#fff;border-color:#515cdb}
+html[data-moonstar-theme='light'] .must-watch-cap-filter small{color:#68758a}
 html[data-moonstar-theme='light'] .screen-method summary,
 html[data-moonstar-theme='light'] .screen-method a{color:#424ed0}
 html[data-moonstar-theme='light'] .watch-screen-heading h2{color:#252d43}
