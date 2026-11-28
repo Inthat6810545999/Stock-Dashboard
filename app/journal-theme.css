@@ -359,6 +359,12 @@ html[data-journal-motion=off] main:after{animation-play-state:paused}
 .watchlist-edit-row>button:first-child{flex:1;min-width:0}
 .watchlist-edit-row>button:first-child strong{flex:none}
 .watchlist-edit-row>button:first-child span{text-align:right}
+.watchlist-reorder{display:flex;flex:none;overflow:hidden;border:1px solid #8498b880;border-radius:12px;background:linear-gradient(145deg,#44577b55,#273b6155);box-shadow:inset 0 1px #ffffff14}
+.connection-dialog .search-results .watchlist-reorder button{display:grid;place-items:center;flex:none;width:32px;height:36px;min-height:36px;padding:0;border:0;border-radius:0;background:transparent;color:#dce7ff}
+.connection-dialog .search-results .watchlist-reorder button+button{border-left:1px solid #8498b866}
+.connection-dialog .search-results .watchlist-reorder button:hover:not(:disabled){background:#7e97d055;color:#fff}
+.connection-dialog .search-results .watchlist-reorder button:active:not(:disabled){background:#7e97d077}
+.connection-dialog .search-results .watchlist-reorder button:disabled{opacity:.32;cursor:default}
 .connection-dialog .search-results .watchlist-delete{flex:none;width:36px;min-height:36px;height:36px;justify-content:center;padding:0;border:1px solid #9b685844;color:#945846;border-radius:50%}
 .connection-dialog .search-results .watchlist-delete:disabled{opacity:.3;cursor:default}
 /* Keep the stock identity consistent when crossing desktop/tablet breakpoints. */
