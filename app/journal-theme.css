@@ -77,6 +77,29 @@ html[data-journal-motion="off"] .watch-pick{animation:none}
 
 /* Keep research metadata available without crowding the rankings. */
 .must-watch-heading{margin-bottom:16px}
+.must-watch-verification{gap:18px}
+.must-watch-verification-heading h1{margin:0}
+.must-watch-verification-status{display:flex;align-items:center;gap:14px;padding:17px 20px;border:1px solid #71819880;border-radius:14px;background:#35486042;color:#e5d8bd}
+.must-watch-verification-status strong{display:block;font-size:17px}
+.must-watch-verification-status p{margin:4px 0 0;color:#aebdd0;font-size:12px}
+.must-watch-verification-status button{margin-left:auto;border:1px solid #c3ae7e;border-radius:10px;background:transparent;color:#e5d8bd;padding:9px 13px;cursor:pointer}
+.must-watch-verification-spinner{width:23px;height:23px;flex:none;border:2px solid #718198;border-top-color:#e5d8bd;border-radius:50%;animation:membership-spin .8s linear infinite}
+.must-watch-verification-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;overflow:hidden}
+.must-watch-verification-card{min-width:0;min-height:180px;display:flex;flex-direction:column;gap:12px;padding:15px;border:1px solid #62799580;border-radius:var(--journal-radius-card);background:#35486030}
+.verification-placeholder{display:block;height:10px;border-radius:99px;background:#7181986b}
+.verification-rank{width:32%;height:26px}.verification-name{width:68%}.verification-value{width:55%;height:27px;margin-top:12px}.verification-meta{width:78%;margin-top:auto}
+@keyframes membership-spin{to{transform:rotate(360deg)}}
+@media(max-width:1050px){.must-watch-verification-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.must-watch-verification-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.must-watch-verification-card{min-height:145px}.must-watch-verification-status{align-items:flex-start;flex-wrap:wrap}.must-watch-verification-status button{margin-left:0}}
+@media(prefers-reduced-motion:reduce){.must-watch-verification-spinner{animation:none}}
+html[data-journal-motion="off"] .must-watch-verification-spinner{animation:none}
+.must-watch-cap-filter{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:-2px 0 14px;padding:10px 0;border-block:1px solid #71819855;color:#c3d0df;font-size:11px}
+.must-watch-cap-filter>span{margin-right:7px;font-weight:600;letter-spacing:.04em}
+.must-watch-cap-filter button{border:1px solid #718198a0;border-radius:var(--journal-radius-control);background:transparent;color:#ced9e8;padding:7px 11px;cursor:pointer}
+.must-watch-cap-filter button[aria-pressed=true]{background:#e5d8bd;border-color:#e5d8bd;color:#14253e}
+.must-watch-cap-filter button:focus-visible{outline:2px solid #dec99c;outline-offset:2px}
+.must-watch-cap-filter small{margin-left:auto;color:#a8bad0;font-size:10px}
+@media(max-width:600px){.must-watch-cap-filter{gap:6px}.must-watch-cap-filter>span,.must-watch-cap-filter small{width:100%}.must-watch-cap-filter button{padding:8px 10px}}
 .must-watch-info[data-slot="dialog-content"]{width:calc(100% - 32px);max-width:760px;max-height:calc(100dvh - 32px);display:flex;flex-direction:column;gap:12px;padding:26px;background:linear-gradient(145deg,#20334b,#101d30);color:#ece3d2;border:1px solid #687d98;border-radius:16px;box-shadow:0 24px 90px #0009}
 .must-watch-info [data-slot="dialog-title"]{font:26px Georgia,serif;padding-right:28px}
 .must-watch-info [data-slot="dialog-description"]{color:#aebdd0;font-size:13px;padding-right:20px}

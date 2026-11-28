@@ -4,6 +4,7 @@ import {resolve} from 'node:path';
 import {discoverUniverse} from './universe.mjs';
 import {getUsScanWindow} from '../../lib/us-market-session.ts';
 import {rankTodayGainers} from '../../lib/today-gainers.ts';
+import {rankByMarketCap} from '../../lib/market-cap-bands.ts';
 import {getDueGainerSlot} from './gainer-schedule.mjs';
 
 const root=resolve(import.meta.dirname,'../..');
@@ -58,7 +59,7 @@ for(let offset=0;offset<universe.rows.length;offset+=80){
    }
    eligible++;
    const percent=(price/previousClose-1)*100;
-   if(percent>0)gainers.push({symbol:row.symbol,name:quote.longName||quote.shortName||row.name||row.symbol,currency:quote.currency||'USD',price,previousClose,timestamp,percent});
+   if(percent>0)gainers.push({symbol:row.symbol,name:quote.longName||quote.shortName||row.name||row.symbol,currency:quote.currency||'USD',price,previousClose,timestamp,percent,marketCap:num(quote.marketCap)});
   }
  }catch(error){
   failed+=rows.length;
@@ -73,9 +74,10 @@ if(failed>universe.rows.length*0.25)throw Error(`Yahoo quote outage: ${failed}/$
 const updatedAt=Date.now();
 const todayGainers=rankTodayGainers(gainers);
 const todayCandidates=rankTodayGainers(gainers,30);
+const todayByMarketCap=rankByMarketCap(gainers,rows=>rankTodayGainers(rows,30));
 const closingConfirmation=scanWindow==='reconcile';
 const source=closingConfirmation?'Yahoo Finance · full US exchange-listed universe · regular-session close confirmed after market close':'Yahoo Finance · full US exchange-listed universe';
-const result={...previous,todayGainers,todayCandidates,todayScan:{total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source,priceBasis:'regular-session price vs previous regular-session close',...(closingConfirmation?{closingConfirmation:true}:{}),...(scheduledSlot?{scheduledSlot}:{}),updatedAt},todayGainersSource:source,todayGainersUpdatedAt:updatedAt};
+const result={...previous,todayGainers,todayCandidates,todayByMarketCap,todayScan:{total:universe.rows.length,processed,eligible,missing,failed,status:'complete',source,priceBasis:'regular-session price vs previous regular-session close',...(closingConfirmation?{closingConfirmation:true}:{}),...(scheduledSlot?{scheduledSlot}:{}),updatedAt},todayGainersSource:source,todayGainersUpdatedAt:updatedAt};
 const temp=output+'.tmp';
 await writeFile(temp,JSON.stringify(result,null,2)+'\n');
 await rename(temp,output);
